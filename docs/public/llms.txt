@@ -2057,6 +2057,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [CPAProjReturnLine](https://dm.namasoft.com/dm-json/CPAProjReturnLine.json)
 - [CRMAssigningToSysEntry](https://dm.namasoft.com/dm-json/CRMAssigningToSysEntry.json)
 - [CRMComplianSourceLine](https://dm.namasoft.com/dm-json/CRMComplianSourceLine.json)
+- [CRMLeadMovement](https://dm.namasoft.com/dm-json/CRMLeadMovement.json)
 - [CRMTroubleTicketReq](https://dm.namasoft.com/dm-json/CRMTroubleTicketReq.json): Trouble Ticket Request / طلب دعم مبدئي
 - [CapabilityUsageSysLine](https://dm.namasoft.com/dm-json/CapabilityUsageSysLine.json)
 - [CashierTransactionEntry](https://dm.namasoft.com/dm-json/CashierTransactionEntry.json)
@@ -2311,6 +2312,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [REInvestmentFundInvestorTransaction](https://dm.namasoft.com/dm-json/REInvestmentFundInvestorTransaction.json)
 - [REMaintenanceDistribution](https://dm.namasoft.com/dm-json/REMaintenanceDistribution.json): Maintenance Distribution / توزيع تكلفة الصيانة
 - [REPurchaseValueAndRevaluationEntry](https://dm.namasoft.com/dm-json/REPurchaseValueAndRevaluationEntry.json)
+- [RERentalUnitMovement](https://dm.namasoft.com/dm-json/RERentalUnitMovement.json)
 - [RERentalunitsalesLine](https://dm.namasoft.com/dm-json/RERentalunitsalesLine.json)
 - [REReservationEntry](https://dm.namasoft.com/dm-json/REReservationEntry.json)
 - [RESysEntry](https://dm.namasoft.com/dm-json/RESysEntry.json)

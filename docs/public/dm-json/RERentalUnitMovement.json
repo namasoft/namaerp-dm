@@ -1,0 +1,51 @@
+{
+  "entity" : "RERentalUnitMovement",
+  "table" : "RERentalUnitMovement",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/RERentalUnitMovement.html",
+  "fields" : [ {
+    "id" : "buyer",
+    "column" : "buyer_id",
+    "ar" : "المشتري",
+    "en" : "Buyer",
+    "type" : "Reference",
+    "refTo" : "REOwner",
+    "refPath" : "/modules/realestate/REOwner.html"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "document",
+    "columns" : [ "documentActualCode", " documentCode", " documentEntityType", " documentId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "estate",
+    "columns" : [ "estateActualCode", " estateCode", " estateEntityType", " estateId" ],
+    "ar" : "العقار",
+    "en" : "Estate",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "owner",
+    "column" : "owner_id",
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Reference",
+    "refTo" : "REOwner",
+    "refPath" : "/modules/realestate/REOwner.html"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

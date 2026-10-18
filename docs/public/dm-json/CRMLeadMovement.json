@@ -1,0 +1,37 @@
+{
+  "entity" : "CRMLeadMovement",
+  "table" : "CRMLeadMovement",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/CRMLeadMovement.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "document",
+    "columns" : [ "documentActualCode", " documentCode", " documentEntityType", " documentId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lead",
+    "column" : "lead_id",
+    "ar" : "الخيط",
+    "en" : "Lead",
+    "type" : "Reference",
+    "refTo" : "CRMLead",
+    "refPath" : "/modules/crm/CRMLead.html"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

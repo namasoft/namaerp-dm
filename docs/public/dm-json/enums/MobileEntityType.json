@@ -1,6 +1,14 @@
 {
   "enum" : "MobileEntityType",
   "values" : [ {
+    "id" : "PharmaSalesOrder",
+    "ar" : "أمر بيع خاص بتطبيق الصيدلي",
+    "en" : "Pharma App Sales Order"
+  }, {
+    "id" : "PharmaItemRequest",
+    "ar" : "طلب أصناف خاص بتطبيق الصيدلي",
+    "en" : "Pharma App Item Request"
+  }, {
     "id" : "KitchenElectronicReceipt",
     "ar" : "قبض إلكتروني خاص بتطبيق المطابخ",
     "en" : "Kitchen App Electronic Receipt"

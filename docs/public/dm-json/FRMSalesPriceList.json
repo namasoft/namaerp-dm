@@ -700,6 +700,18 @@
       "column" : "lineNumber",
       "type" : "Integer"
     }, {
+      "id" : "customClearanceDetails.markup.percentage",
+      "column" : "markupPercentage",
+      "ar" : "نسبة هامش الربح",
+      "en" : "Markup Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "customClearanceDetails.markup.value",
+      "column" : "markupValue",
+      "ar" : "قيمة هامش الربح",
+      "en" : "Markup Value",
+      "type" : "Decimal"
+    }, {
       "id" : "customClearanceDetails.priceListLine.commodity",
       "column" : "commodity_id",
       "ar" : "السلعة",
@@ -942,6 +954,18 @@
       "id" : "gensetDetails.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
+    }, {
+      "id" : "gensetDetails.markup.percentage",
+      "column" : "markupPercentage",
+      "ar" : "نسبة هامش الربح",
+      "en" : "Markup Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "gensetDetails.markup.value",
+      "column" : "markupValue",
+      "ar" : "قيمة هامش الربح",
+      "en" : "Markup Value",
+      "type" : "Decimal"
     }, {
       "id" : "gensetDetails.priceListLine.commodity",
       "column" : "commodity_id",
@@ -1198,6 +1222,18 @@
       "column" : "lineNumber",
       "type" : "Integer"
     }, {
+      "id" : "oceanFreightDetails.markup.percentage",
+      "column" : "markupPercentage",
+      "ar" : "نسبة هامش الربح",
+      "en" : "Markup Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "oceanFreightDetails.markup.value",
+      "column" : "markupValue",
+      "ar" : "قيمة هامش الربح",
+      "en" : "Markup Value",
+      "type" : "Decimal"
+    }, {
       "id" : "oceanFreightDetails.priceListLine.commodity",
       "column" : "commodity_id",
       "ar" : "السلعة",
@@ -1438,6 +1474,18 @@
       "id" : "othersDetails.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
+    }, {
+      "id" : "othersDetails.markup.percentage",
+      "column" : "markupPercentage",
+      "ar" : "نسبة هامش الربح",
+      "en" : "Markup Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "othersDetails.markup.value",
+      "column" : "markupValue",
+      "ar" : "قيمة هامش الربح",
+      "en" : "Markup Value",
+      "type" : "Decimal"
     }, {
       "id" : "othersDetails.priceListLine.commodity",
       "column" : "commodity_id",
@@ -1681,6 +1729,18 @@
       "id" : "truckingDetails.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
+    }, {
+      "id" : "truckingDetails.markup.percentage",
+      "column" : "markupPercentage",
+      "ar" : "نسبة هامش الربح",
+      "en" : "Markup Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "truckingDetails.markup.value",
+      "column" : "markupValue",
+      "ar" : "قيمة هامش الربح",
+      "en" : "Markup Value",
+      "type" : "Decimal"
     }, {
       "id" : "truckingDetails.priceListLine.commodity",
       "column" : "commodity_id",

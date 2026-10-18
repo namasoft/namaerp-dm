@@ -2182,6 +2182,10 @@
     "ar" : "تصنيف العميل المرتقب",
     "en" : "Lead Classification"
   }, {
+    "name" : "CRMLeadMovement",
+    "table" : "CRMLeadMovement",
+    "module" : "system-tables"
+  }, {
     "name" : "CRMMainCategory",
     "table" : "CRMMainCategory",
     "module" : "crm",
@@ -17362,6 +17366,10 @@
     "module" : "realestate",
     "ar" : "وحدة استثمار عقاري",
     "en" : "Rental Unit"
+  }, {
+    "name" : "RERentalUnitMovement",
+    "table" : "RERentalUnitMovement",
+    "module" : "system-tables"
   }, {
     "name" : "RERentalunitsalesLine",
     "table" : "RERentalunitsalesLine",
