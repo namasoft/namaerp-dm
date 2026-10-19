@@ -276,5 +276,9 @@
     "id" : "CustomerCarNo",
     "ar" : "رقم سيارة العميل",
     "en" : "Customer Car Number"
+  }, {
+    "id" : "ReturnType",
+    "ar" : "نوع المرتجع",
+    "en" : "Return Type"
   } ]
 }

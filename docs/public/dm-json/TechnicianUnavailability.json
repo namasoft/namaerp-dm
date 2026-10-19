@@ -1,12 +1,12 @@
 {
   "entity" : "TechnicianUnavailability",
   "table" : "TechnicianUnavailability",
-  "module" : "system-tables",
+  "module" : "crm-technician-appointments",
   "ar" : "سند إيقاف فني عن الحجز",
   "arPlural" : "سندات إيقاف الفنيين عن الحجز",
   "en" : "Technician Unavailability",
   "enPlural" : "Technician Unavailabilities",
-  "page" : "https://dm.namasoft.com/modules/system-tables/TechnicianUnavailability.html",
+  "page" : "https://dm.namasoft.com/modules/crm-technician-appointments/TechnicianUnavailability.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

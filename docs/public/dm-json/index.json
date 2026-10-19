@@ -5410,7 +5410,7 @@
   }, {
     "name" : "ExternalDeliveryOrder",
     "table" : "ExternalDeliveryOrder",
-    "module" : "system-tables",
+    "module" : "crm-united-pharma-app",
     "ar" : "أمر توصيل خارجي",
     "en" : "External Delivery Order"
   }, {
@@ -10551,6 +10551,16 @@
     "name" : "ItemMeasure",
     "table" : "ItemMeasure",
     "module" : "system-tables"
+  }, {
+    "name" : "ItemPickingZoneLink",
+    "table" : "ItemPickingZoneLink",
+    "module" : "supplychain-mobile-wms",
+    "ar" : "ربط الأصناف بمناطق التجهيز",
+    "en" : "Item Picking Zone Link",
+    "details" : [ {
+      "id" : "details",
+      "table" : "ItemPickingZoneLinkLine"
+    } ]
   }, {
     "name" : "ItemRelations",
     "table" : "ItemRelations",
@@ -15813,7 +15823,7 @@
   }, {
     "name" : "PharmaConfiguration",
     "table" : "PharmaConfiguration",
-    "module" : "crm-kitchen-net",
+    "module" : "crm-united-pharma-app",
     "ar" : "إعدادات تطبيق United Pharma",
     "en" : "Pharma Configurations"
   }, {
@@ -15825,7 +15835,7 @@
   }, {
     "name" : "PickingZone",
     "table" : "PickingZone",
-    "module" : "system-tables",
+    "module" : "supplychain-mobile-wms",
     "ar" : "منطقة التجهيز",
     "en" : "Picking Zone",
     "details" : [ {
@@ -20968,7 +20978,7 @@
   }, {
     "name" : "TechnicianUnavailability",
     "table" : "TechnicianUnavailability",
-    "module" : "system-tables",
+    "module" : "crm-technician-appointments",
     "ar" : "سند إيقاف فني عن الحجز",
     "en" : "Technician Unavailability",
     "details" : [ {

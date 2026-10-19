@@ -484,6 +484,10 @@
     "en" : "Paid Cash",
     "type" : "Decimal"
   }, {
+    "id" : "partialReturn",
+    "column" : "partialReturn",
+    "type" : "Boolean"
+  }, {
     "id" : "paymentDelayed",
     "column" : "paymentDelayed",
     "type" : "Boolean"

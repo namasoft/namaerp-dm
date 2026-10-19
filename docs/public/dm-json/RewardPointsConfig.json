@@ -474,6 +474,12 @@
     "en" : "Password",
     "type" : "Password"
   }, {
+    "id" : "pointsExpireAtEndOfCreationYear",
+    "column" : "pointsExpireAtEndOfCreationYear",
+    "ar" : "صلاحية النقاط تنتهي بنهاية السنة المنشأة فيها",
+    "en" : "Points Expire At The End Of Their Creation Year",
+    "type" : "Boolean"
+  }, {
     "id" : "pointsExpiresAfterDays",
     "column" : "pointsExpiresAfterDays",
     "ar" : "مدة صلاحية النقاط(تنتهي بعد عدد أيام)",

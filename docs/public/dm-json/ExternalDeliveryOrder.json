@@ -1,12 +1,12 @@
 {
   "entity" : "ExternalDeliveryOrder",
   "table" : "ExternalDeliveryOrder",
-  "module" : "system-tables",
+  "module" : "crm-united-pharma-app",
   "ar" : "أمر توصيل خارجي",
   "arPlural" : "أوامر توصيل خارجية",
   "en" : "External Delivery Order",
   "enPlural" : "External Delivery Orders",
-  "page" : "https://dm.namasoft.com/modules/system-tables/ExternalDeliveryOrder.html",
+  "page" : "https://dm.namasoft.com/modules/crm-united-pharma-app/ExternalDeliveryOrder.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

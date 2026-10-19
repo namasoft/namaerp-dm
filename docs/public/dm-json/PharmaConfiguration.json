@@ -1,12 +1,12 @@
 {
   "entity" : "PharmaConfiguration",
   "table" : "PharmaConfiguration",
-  "module" : "crm-kitchen-net",
+  "module" : "crm-united-pharma-app",
   "ar" : "إعدادات تطبيق United Pharma",
   "arPlural" : "إعدادات تطبيق United Pharma",
   "en" : "Pharma Configurations",
   "enPlural" : "Pharma Configurations",
-  "page" : "https://dm.namasoft.com/modules/crm-kitchen-net/PharmaConfiguration.html",
+  "page" : "https://dm.namasoft.com/modules/crm-united-pharma-app/PharmaConfiguration.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

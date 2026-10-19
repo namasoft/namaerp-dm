@@ -1,12 +1,12 @@
 {
   "entity" : "PickingZone",
   "table" : "PickingZone",
-  "module" : "system-tables",
+  "module" : "supplychain-mobile-wms",
   "ar" : "منطقة التجهيز",
   "arPlural" : "مناطق التجهيز",
   "en" : "Picking Zone",
   "enPlural" : "Picking Zones",
-  "page" : "https://dm.namasoft.com/modules/system-tables/PickingZone.html",
+  "page" : "https://dm.namasoft.com/modules/supplychain-mobile-wms/PickingZone.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
