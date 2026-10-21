@@ -18142,6 +18142,9 @@
       "id" : "jasperVariables",
       "table" : "ReportWizardJasperVariablesLine"
     }, {
+      "id" : "parameterGroups",
+      "table" : "ReportWizardParameterGroupLine"
+    }, {
       "id" : "parameters",
       "table" : "ReportWizardParameterLine"
     }, {

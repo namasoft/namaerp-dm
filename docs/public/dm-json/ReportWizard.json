@@ -8644,6 +8644,45 @@
       "type" : "Text"
     } ]
   }, {
+    "id" : "parameterGroups",
+    "table" : "ReportWizardParameterGroupLine",
+    "joinColumn" : "reportWizard_id",
+    "ar" : "مجموعات المدخلات",
+    "en" : "Parameter Groups",
+    "fields" : [ {
+      "id" : "parameterGroups.arabicTitle",
+      "column" : "arabicTitle",
+      "ar" : "العنوان بالعربية",
+      "en" : "Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "parameterGroups.collapsed",
+      "column" : "collapsed",
+      "ar" : "Collapsed",
+      "en" : "Collapsed",
+      "type" : "Boolean"
+    }, {
+      "id" : "parameterGroups.englishTitle",
+      "column" : "englishTitle",
+      "ar" : "العنوان بالإنجليزية",
+      "en" : "English Title",
+      "type" : "Text"
+    }, {
+      "id" : "parameterGroups.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "parameterGroups.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "parameterGroups.paramGroupId",
+      "column" : "paramGroupId",
+      "ar" : "مجموعة المدخلات",
+      "en" : "Parameter Group",
+      "type" : "Text"
+    } ]
+  }, {
     "id" : "parameters",
     "table" : "ReportWizardParameterLine",
     "joinColumn" : "reportWizard_id",
@@ -8916,6 +8955,12 @@
       "en" : "Nama Id",
       "type" : "Text"
     }, {
+      "id" : "parameters.paramGroupId",
+      "column" : "paramGroupId",
+      "ar" : "مجموعة المدخلات",
+      "en" : "Parameter Group",
+      "type" : "Text"
+    }, {
       "id" : "parameters.paramType",
       "column" : "paramType",
       "ar" : "النوع",
@@ -8967,6 +9012,12 @@
       "en" : "Reference Order By",
       "type" : "Enum",
       "enum" : "ReferenceOrderBy"
+    }, {
+      "id" : "parameters.rememberLastValue",
+      "column" : "rememberLastValue",
+      "ar" : "تذكر آخر قيمة",
+      "en" : "Remember Last Value",
+      "type" : "Boolean"
     }, {
       "id" : "parameters.required",
       "column" : "required",

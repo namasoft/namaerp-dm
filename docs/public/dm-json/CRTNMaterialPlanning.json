@@ -1067,6 +1067,12 @@
       "column" : "lineNumber",
       "type" : "Integer"
     }, {
+      "id" : "items.manuallyAdjustedQty",
+      "column" : "manuallyAdjustedQty",
+      "ar" : "الكمية المعدلة يدوياٌ",
+      "en" : "Manually Adjusted Quantity",
+      "type" : "Decimal"
+    }, {
       "id" : "items.metricLength",
       "column" : "metricLength",
       "ar" : "الطول المتري",

@@ -476,8 +476,6 @@
   }, {
     "id" : "pointsExpireAtEndOfCreationYear",
     "column" : "pointsExpireAtEndOfCreationYear",
-    "ar" : "صلاحية النقاط تنتهي بنهاية السنة المنشأة فيها",
-    "en" : "Points Expire At The End Of Their Creation Year",
     "type" : "Boolean"
   }, {
     "id" : "pointsExpiresAfterDays",

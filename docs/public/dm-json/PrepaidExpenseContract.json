@@ -866,6 +866,10 @@
       "ar" : "الضريبة | الصافي بعد الضريبة",
       "en" : "Value After Tax",
       "type" : "Decimal"
+    }, {
+      "id" : "details.yearlyAmount",
+      "column" : "yearlyAmount",
+      "type" : "Decimal"
     } ]
   }, {
     "id" : "prepaidExpensePayments",
