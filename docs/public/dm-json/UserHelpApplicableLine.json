@@ -2,6 +2,7 @@
   "entity" : "UserHelpApplicableLine",
   "table" : "UserHelpApplicableLine",
   "module" : "system-tables",
+  "en" : "User Help Applicable Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/UserHelpApplicableLine.html",
   "fields" : [ {
     "id" : "forType",

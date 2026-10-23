@@ -2,6 +2,7 @@
   "entity" : "ExcludedInstallmentsTypes",
   "table" : "ExcludedInstallmentsTypes",
   "module" : "system-tables",
+  "en" : "Excluded Installments Types",
   "page" : "https://dm.namasoft.com/modules/system-tables/ExcludedInstallmentsTypes.html",
   "fields" : [ {
     "id" : "id",

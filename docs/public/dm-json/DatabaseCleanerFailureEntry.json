@@ -2,6 +2,7 @@
   "entity" : "DatabaseCleanerFailureEntry",
   "table" : "DatabaseCleanerFailureEntry",
   "module" : "system-tables",
+  "en" : "Database Cleaner Failure Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/DatabaseCleanerFailureEntry.html",
   "fields" : [ {
     "id" : "errorDescription",

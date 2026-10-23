@@ -2,6 +2,7 @@
   "entity" : "ReceiptSubsidiaryTypeLine",
   "table" : "ReceiptSubsidiaryTypeLine",
   "module" : "system-tables",
+  "en" : "Receipt Subsidiary Type Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/ReceiptSubsidiaryTypeLine.html",
   "fields" : [ {
     "id" : "entityTypeDF",

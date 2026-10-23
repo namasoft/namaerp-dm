@@ -2,6 +2,7 @@
   "entity" : "InvoiceRetrieverID",
   "table" : "InvoiceRetrieverID",
   "module" : "system-tables",
+  "en" : "Invoice Retriever ID",
   "page" : "https://dm.namasoft.com/modules/system-tables/InvoiceRetrieverID.html",
   "fields" : [ {
     "id" : "fileId",

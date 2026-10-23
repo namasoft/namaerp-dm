@@ -2,6 +2,7 @@
   "entity" : "TerminationCalcSysEntry",
   "table" : "TerminationCalcSysEntry",
   "module" : "system-tables",
+  "en" : "Termination Calc Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/TerminationCalcSysEntry.html",
   "fields" : [ {
     "id" : "daysOfYear",

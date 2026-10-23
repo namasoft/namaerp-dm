@@ -2,6 +2,7 @@
   "entity" : "POSScrapDocGridLine",
   "table" : "POSScrapDocGridLine",
   "module" : "system-tables",
+  "en" : "POS Scrap Doc Grid Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSScrapDocGridLine.html",
   "fields" : [ {
     "id" : "field",

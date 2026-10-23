@@ -2,6 +2,7 @@
   "entity" : "SWInvItemTrans",
   "table" : "SWInvItemTrans",
   "module" : "system-tables",
+  "en" : "SW Inv Item Trans",
   "page" : "https://dm.namasoft.com/modules/system-tables/SWInvItemTrans.html",
   "fields" : [ {
     "id" : "dimensions.analysisSet",

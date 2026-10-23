@@ -2,6 +2,7 @@
   "entity" : "WarehouseLocatorFilterLine",
   "table" : "WarehouseLocatorFilterLine",
   "module" : "system-tables",
+  "en" : "Warehouse Locator Filter Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/WarehouseLocatorFilterLine.html",
   "fields" : [ {
     "id" : "entityTypeList",

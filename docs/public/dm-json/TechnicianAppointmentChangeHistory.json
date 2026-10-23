@@ -2,6 +2,7 @@
   "entity" : "TechnicianAppointmentChangeHistory",
   "table" : "TechnicianAppointmentChangeHistory",
   "module" : "system-tables",
+  "en" : "Technician Appointment Change History",
   "page" : "https://dm.namasoft.com/modules/system-tables/TechnicianAppointmentChangeHistory.html",
   "fields" : [ {
     "id" : "changeDate",

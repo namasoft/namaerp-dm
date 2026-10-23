@@ -2,6 +2,7 @@
   "entity" : "StockAgesTrans",
   "table" : "StockAgesTrans",
   "module" : "system-tables",
+  "en" : "Stock Ages Trans",
   "page" : "https://dm.namasoft.com/modules/system-tables/StockAgesTrans.html",
   "fields" : [ {
     "id" : "id",

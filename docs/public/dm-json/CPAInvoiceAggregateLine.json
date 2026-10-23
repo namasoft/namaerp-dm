@@ -2,6 +2,7 @@
   "entity" : "CPAInvoiceAggregateLine",
   "table" : "CPAInvoiceAggregateLine",
   "module" : "system-tables",
+  "en" : "CPA Invoice Aggregate Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/CPAInvoiceAggregateLine.html",
   "fields" : [ {
     "id" : "amount.localAmount",

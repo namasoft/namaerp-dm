@@ -2,6 +2,7 @@
   "entity" : "POSConfigPayTermLine",
   "table" : "POSConfigPayTermLine",
   "module" : "system-tables",
+  "en" : "POS Config Pay Term Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSConfigPayTermLine.html",
   "fields" : [ {
     "id" : "docCategory",

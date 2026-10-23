@@ -2,6 +2,7 @@
   "entity" : "TooltipEntityMapping",
   "table" : "TooltipEntityMapping",
   "module" : "system-tables",
+  "en" : "Tooltip Entity Mapping",
   "page" : "https://dm.namasoft.com/modules/system-tables/TooltipEntityMapping.html",
   "fields" : [ {
     "id" : "automaticInMobileApp",

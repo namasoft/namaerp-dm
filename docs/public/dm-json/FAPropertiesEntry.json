@@ -2,6 +2,7 @@
   "entity" : "FAPropertiesEntry",
   "table" : "FAPropertiesEntry",
   "module" : "system-tables",
+  "en" : "FA Properties Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/FAPropertiesEntry.html",
   "fields" : [ {
     "id" : "addition",

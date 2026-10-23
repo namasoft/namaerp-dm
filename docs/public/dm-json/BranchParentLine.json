@@ -2,6 +2,7 @@
   "entity" : "BranchParentLine",
   "table" : "BranchParentLine",
   "module" : "system-tables",
+  "en" : "Branch Parent Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/BranchParentLine.html",
   "fields" : [ {
     "id" : "id",

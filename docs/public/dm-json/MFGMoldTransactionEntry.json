@@ -2,6 +2,7 @@
   "entity" : "MFGMoldTransactionEntry",
   "table" : "MFGMoldTransactionEntry",
   "module" : "system-tables",
+  "en" : "MFG Mold Transaction Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/MFGMoldTransactionEntry.html",
   "fields" : [ {
     "id" : "changeInCount",

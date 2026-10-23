@@ -2,6 +2,7 @@
   "entity" : "Alias",
   "table" : "Alias",
   "module" : "system-tables",
+  "en" : "Alias",
   "page" : "https://dm.namasoft.com/modules/system-tables/Alias.html",
   "fields" : [ {
     "id" : "code",

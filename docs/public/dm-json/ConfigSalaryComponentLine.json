@@ -2,6 +2,7 @@
   "entity" : "ConfigSalaryComponentLine",
   "table" : "ConfigSalaryComponentLine",
   "module" : "system-tables",
+  "en" : "Config Salary Component Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/ConfigSalaryComponentLine.html",
   "fields" : [ {
     "id" : "compCalculationFormula",

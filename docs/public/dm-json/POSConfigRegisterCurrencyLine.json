@@ -2,6 +2,7 @@
   "entity" : "POSConfigRegisterCurrencyLine",
   "table" : "POSConfigRegisterCurrencyLine",
   "module" : "system-tables",
+  "en" : "POS Config Register Currency Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSConfigRegisterCurrencyLine.html",
   "fields" : [ {
     "id" : "currency",

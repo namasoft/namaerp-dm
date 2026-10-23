@@ -2,6 +2,7 @@
   "entity" : "EffectsUnitCostConfigLine",
   "table" : "EffectsUnitCostConfigLine",
   "module" : "system-tables",
+  "en" : "Effects Unit Cost Config Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/EffectsUnitCostConfigLine.html",
   "fields" : [ {
     "id" : "fieldID",

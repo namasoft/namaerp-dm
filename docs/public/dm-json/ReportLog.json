@@ -2,6 +2,7 @@
   "entity" : "ReportLog",
   "table" : "ReportLog",
   "module" : "system-tables",
+  "en" : "Report Log",
   "page" : "https://dm.namasoft.com/modules/system-tables/ReportLog.html",
   "fields" : [ {
     "id" : "endTime",

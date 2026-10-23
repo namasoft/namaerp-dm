@@ -2,6 +2,7 @@
   "entity" : "FRMOOStatusSysEntry",
   "table" : "FRMOOStatusSysEntry",
   "module" : "system-tables",
+  "en" : "FRMOO Status Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/FRMOOStatusSysEntry.html",
   "fields" : [ {
     "id" : "creationDate",

@@ -2,6 +2,7 @@
   "entity" : "SCCollectPropertyOrderConfigLine",
   "table" : "SCCollectPropertyOrderConfigLine",
   "module" : "system-tables",
+  "en" : "SC Collect Property Order Config Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/SCCollectPropertyOrderConfigLine.html",
   "fields" : [ {
     "id" : "ascOrDesc",

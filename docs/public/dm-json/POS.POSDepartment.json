@@ -4,6 +4,7 @@
   "module" : "pos-app",
   "ar" : "إدارة",
   "arPlural" : "إدارات",
+  "en" : "Department",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSDepartment.html",
   "fields" : [ {
     "id" : "code",

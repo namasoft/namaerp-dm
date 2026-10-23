@@ -2,6 +2,7 @@
   "entity" : "SCGridConfigLine",
   "table" : "SCGridConfigLine",
   "module" : "system-tables",
+  "en" : "SC Grid Config Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/SCGridConfigLine.html",
   "fields" : [ {
     "id" : "fieldId",

@@ -2,6 +2,7 @@
   "entity" : "PendingTaskSchedule",
   "table" : "PendingTaskSchedule",
   "module" : "system-tables",
+  "en" : "Pending Task Schedule",
   "page" : "https://dm.namasoft.com/modules/system-tables/PendingTaskSchedule.html",
   "fields" : [ {
     "id" : "currentlyRunning",

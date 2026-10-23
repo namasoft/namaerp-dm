@@ -2,6 +2,7 @@
   "entity" : "SrvCJobOrderStatusEntry",
   "table" : "SrvCJobOrderStatusEntry",
   "module" : "system-tables",
+  "en" : "Srv C Job Order Status Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/SrvCJobOrderStatusEntry.html",
   "fields" : [ {
     "id" : "creationDate",

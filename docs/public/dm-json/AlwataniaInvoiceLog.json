@@ -2,6 +2,7 @@
   "entity" : "AlwataniaInvoiceLog",
   "table" : "AlwataniaInvoiceLog",
   "module" : "system-tables",
+  "en" : "Alwatania Invoice Log",
   "page" : "https://dm.namasoft.com/modules/system-tables/AlwataniaInvoiceLog.html",
   "fields" : [ {
     "id" : "code",

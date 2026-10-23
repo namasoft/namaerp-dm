@@ -4,6 +4,7 @@
   "module" : "accounting",
   "ar" : "دفتر حسابات",
   "arPlural" : "دفاتر حسابات",
+  "en" : "Ledger",
   "page" : "https://dm.namasoft.com/modules/accounting/Ledger.html",
   "fields" : [ {
     "id" : "analysisSet",

@@ -4,6 +4,7 @@
   "module" : "ecpa",
   "ar" : "نوع مشروع فرعى",
   "arPlural" : "أنواع المشاريع الفرعية",
+  "en" : "CPA Project Sub Type",
   "enPlural" : "Projects Sub Types",
   "page" : "https://dm.namasoft.com/modules/ecpa/CPAProjectSubType.html",
   "fields" : [ {

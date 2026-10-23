@@ -2,6 +2,7 @@
   "entity" : "SentEntityToAnotherServerSysEntry",
   "table" : "SentEntityToAnotherServerSysEntry",
   "module" : "system-tables",
+  "en" : "Sent Entity To Another Server Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/SentEntityToAnotherServerSysEntry.html",
   "fields" : [ {
     "id" : "errorDescription",

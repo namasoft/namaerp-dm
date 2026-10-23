@@ -2,6 +2,7 @@
   "entity" : "CRMAssigningToSysEntry",
   "table" : "CRMAssigningToSysEntry",
   "module" : "system-tables",
+  "en" : "CRM Assigning To Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/CRMAssigningToSysEntry.html",
   "fields" : [ {
     "id" : "assignTicketDateTime",

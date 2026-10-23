@@ -3,6 +3,7 @@
   "table" : "TaskScheduleExecutionLog",
   "module" : "system-tables",
   "arPlural" : "سجل تشغيل المهمة",
+  "en" : "Task Schedule Execution Log",
   "enPlural" : "Task Schedule Execution Log",
   "page" : "https://dm.namasoft.com/modules/system-tables/TaskScheduleExecutionLog.html",
   "fields" : [ {

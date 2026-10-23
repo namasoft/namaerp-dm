@@ -2,6 +2,7 @@
   "entity" : "ContractingPaymentRootEntry",
   "table" : "ContractingPaymentRootEntry",
   "module" : "system-tables",
+  "en" : "Contracting Payment Root Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/ContractingPaymentRootEntry.html",
   "fields" : [ {
     "id" : "dueValue",

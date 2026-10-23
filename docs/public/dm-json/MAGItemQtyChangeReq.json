@@ -2,6 +2,7 @@
   "entity" : "MAGItemQtyChangeReq",
   "table" : "MAGItemQtyChangeReq",
   "module" : "system-tables",
+  "en" : "MAG Item Qty Change Req",
   "page" : "https://dm.namasoft.com/modules/system-tables/MAGItemQtyChangeReq.html",
   "fields" : [ {
     "id" : "dimensionQtyId",

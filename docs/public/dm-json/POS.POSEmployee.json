@@ -4,6 +4,7 @@
   "module" : "pos-app",
   "ar" : "موظف",
   "arPlural" : "موظفين",
+  "en" : "Employee",
   "enPlural" : "Employeess",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSEmployee.html",
   "fields" : [ {

@@ -2,6 +2,7 @@
   "entity" : "PendingEntityFlow",
   "table" : "PendingEntityFlow",
   "module" : "system-tables",
+  "en" : "Pending Entity Flow",
   "page" : "https://dm.namasoft.com/modules/system-tables/PendingEntityFlow.html",
   "fields" : [ {
     "id" : "currentDimensions",

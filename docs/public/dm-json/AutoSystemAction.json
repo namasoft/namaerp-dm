@@ -2,6 +2,7 @@
   "entity" : "AutoSystemAction",
   "table" : "AutoSystemAction",
   "module" : "system-tables",
+  "en" : "Auto System Action",
   "page" : "https://dm.namasoft.com/modules/system-tables/AutoSystemAction.html",
   "fields" : [ {
     "id" : "actionDescription",

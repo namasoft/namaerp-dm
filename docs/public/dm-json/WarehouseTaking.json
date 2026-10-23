@@ -2,6 +2,7 @@
   "entity" : "WarehouseTaking",
   "table" : "WarehouseTaking",
   "module" : "system-tables",
+  "en" : "Warehouse Taking",
   "page" : "https://dm.namasoft.com/modules/system-tables/WarehouseTaking.html",
   "fields" : [ {
     "id" : "endDate",

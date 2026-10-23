@@ -2,6 +2,7 @@
   "entity" : "MnNoticeMobileAttendanceEntry",
   "table" : "MnNoticeMobileAttendanceEntry",
   "module" : "system-tables",
+  "en" : "Mn Notice Mobile Attendance Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/MnNoticeMobileAttendanceEntry.html",
   "fields" : [ {
     "id" : "attendanceAccuracy",

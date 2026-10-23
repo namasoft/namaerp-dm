@@ -2,6 +2,7 @@
   "entity" : "SWQuentityReprocessReq",
   "table" : "SWQuentityReprocessReq",
   "module" : "system-tables",
+  "en" : "SW Quentity Reprocess Req",
   "page" : "https://dm.namasoft.com/modules/system-tables/SWQuentityReprocessReq.html",
   "fields" : [ {
     "id" : "dimensions.analysisSet",

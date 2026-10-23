@@ -2,6 +2,7 @@
   "entity" : "WebEngageSentEvent",
   "table" : "WebEngageSentEvent",
   "module" : "system-tables",
+  "en" : "Web Engage Sent Event",
   "page" : "https://dm.namasoft.com/modules/system-tables/WebEngageSentEvent.html",
   "fields" : [ {
     "id" : "document",

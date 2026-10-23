@@ -2,6 +2,7 @@
   "entity" : "StockAgesInfo",
   "table" : "StockAgesInfo",
   "module" : "system-tables",
+  "en" : "Stock Ages Info",
   "page" : "https://dm.namasoft.com/modules/system-tables/StockAgesInfo.html",
   "fields" : [ {
     "id" : "genericDimensions.analysisSet",

@@ -2,6 +2,7 @@
   "entity" : "SalarySheetTermLine",
   "table" : "SalarySheetTermLine",
   "module" : "system-tables",
+  "en" : "Salary Sheet Term Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/SalarySheetTermLine.html",
   "fields" : [ {
     "id" : "dimensions.analysisSet",

@@ -2,6 +2,7 @@
   "entity" : "PreventRegenerateSalaryDocs",
   "table" : "PreventRegenerateSalaryDocs",
   "module" : "system-tables",
+  "en" : "Prevent Regenerate Salary Docs",
   "page" : "https://dm.namasoft.com/modules/system-tables/PreventRegenerateSalaryDocs.html",
   "fields" : [ {
     "id" : "allowRegenIfDocIsDraft",

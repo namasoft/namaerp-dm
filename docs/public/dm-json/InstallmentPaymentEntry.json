@@ -2,6 +2,7 @@
   "entity" : "InstallmentPaymentEntry",
   "table" : "InstallmentPaymentEntry",
   "module" : "system-tables",
+  "en" : "Installment Payment Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/InstallmentPaymentEntry.html",
   "fields" : [ {
     "id" : "cloned",

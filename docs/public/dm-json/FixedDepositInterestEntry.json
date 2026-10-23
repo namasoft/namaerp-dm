@@ -2,6 +2,7 @@
   "entity" : "FixedDepositInterestEntry",
   "table" : "FixedDepositInterestEntry",
   "module" : "system-tables",
+  "en" : "Fixed Deposit Interest Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/FixedDepositInterestEntry.html",
   "fields" : [ {
     "id" : "depositValue",

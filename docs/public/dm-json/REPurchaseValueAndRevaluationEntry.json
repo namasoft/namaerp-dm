@@ -2,6 +2,7 @@
   "entity" : "REPurchaseValueAndRevaluationEntry",
   "table" : "REPurchaseValueAndRevaluationEntry",
   "module" : "system-tables",
+  "en" : "RE Purchase Value And Revaluation Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/REPurchaseValueAndRevaluationEntry.html",
   "fields" : [ {
     "id" : "additionValue",

@@ -2,6 +2,7 @@
   "entity" : "ContrMaterialDiscountEntry",
   "table" : "ContrMaterialDiscountEntry",
   "module" : "system-tables",
+  "en" : "Contr Material Discount Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/ContrMaterialDiscountEntry.html",
   "fields" : [ {
     "id" : "contract",

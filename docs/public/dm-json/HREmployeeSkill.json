@@ -2,6 +2,7 @@
   "entity" : "HREmployeeSkill",
   "table" : "HREmployeeSkill",
   "module" : "system-tables",
+  "en" : "HR Employee Skill",
   "page" : "https://dm.namasoft.com/modules/system-tables/HREmployeeSkill.html",
   "fields" : [ {
     "id" : "dateOfSkill",

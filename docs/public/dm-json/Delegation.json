@@ -4,6 +4,7 @@
   "module" : "basic",
   "ar" : "تفويض",
   "arPlural" : "تفويضات",
+  "en" : "Delegation",
   "page" : "https://dm.namasoft.com/modules/basic/Delegation.html",
   "fields" : [ {
     "id" : "analysisSet",

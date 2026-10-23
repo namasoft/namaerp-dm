@@ -2,6 +2,7 @@
   "entity" : "VacationsBalSysLine",
   "table" : "VacationsBalSysLine",
   "module" : "system-tables",
+  "en" : "Vacations Bal Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/VacationsBalSysLine.html",
   "fields" : [ {
     "id" : "assignedValue",

@@ -2,6 +2,7 @@
   "entity" : "DeliveryDriverTransaction",
   "table" : "DeliveryDriverTransaction",
   "module" : "system-tables",
+  "en" : "Delivery Driver Transaction",
   "page" : "https://dm.namasoft.com/modules/system-tables/DeliveryDriverTransaction.html",
   "fields" : [ {
     "id" : "deliveryCar",

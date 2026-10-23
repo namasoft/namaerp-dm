@@ -2,6 +2,7 @@
   "entity" : "SFDARSDReportTask",
   "table" : "SFDARSDReportTask",
   "module" : "system-tables",
+  "en" : "SFDARSD Report Task",
   "page" : "https://dm.namasoft.com/modules/system-tables/SFDARSDReportTask.html",
   "fields" : [ {
     "id" : "currentDimensions",

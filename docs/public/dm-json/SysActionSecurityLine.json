@@ -2,6 +2,7 @@
   "entity" : "SysActionSecurityLine",
   "table" : "SysActionSecurityLine",
   "module" : "system-tables",
+  "en" : "Sys Action Security Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/SysActionSecurityLine.html",
   "fields" : [ {
     "id" : "actionId",

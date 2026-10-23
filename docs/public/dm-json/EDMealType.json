@@ -4,6 +4,7 @@
   "module" : "education",
   "ar" : "نوع وجبة مدرسية",
   "arPlural" : "أنواع الوجبات المدرسية",
+  "en" : "ED Meal Type",
   "page" : "https://dm.namasoft.com/modules/education/EDMealType.html",
   "fields" : [ {
     "id" : "allowanceValue",

@@ -2,6 +2,7 @@
   "entity" : "POSReturnGridLine",
   "table" : "POSReturnGridLine",
   "module" : "system-tables",
+  "en" : "POS Return Grid Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSReturnGridLine.html",
   "fields" : [ {
     "id" : "field",

@@ -2,6 +2,7 @@
   "entity" : "ItemLot",
   "table" : "ItemLot",
   "module" : "system-tables",
+  "en" : "Item Lot",
   "page" : "https://dm.namasoft.com/modules/system-tables/ItemLot.html",
   "fields" : [ {
     "id" : "expiryDate",

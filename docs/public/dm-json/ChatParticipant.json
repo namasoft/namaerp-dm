@@ -2,6 +2,7 @@
   "entity" : "ChatParticipant",
   "table" : "ChatParticipant",
   "module" : "system-tables",
+  "en" : "Chat Participant",
   "page" : "https://dm.namasoft.com/modules/system-tables/ChatParticipant.html",
   "fields" : [ {
     "id" : "conversationId",

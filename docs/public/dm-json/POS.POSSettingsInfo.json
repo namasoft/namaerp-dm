@@ -2,6 +2,7 @@
   "entity" : "POS.POSSettingsInfo",
   "table" : "POSSettingsInfo",
   "module" : "pos-app",
+  "en" : "POS Settings Info",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSSettingsInfo.html",
   "fields" : [ {
     "id" : "code",

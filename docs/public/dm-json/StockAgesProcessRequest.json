@@ -2,6 +2,7 @@
   "entity" : "StockAgesProcessRequest",
   "table" : "StockAgesProcessRequest",
   "module" : "system-tables",
+  "en" : "Stock Ages Process Request",
   "page" : "https://dm.namasoft.com/modules/system-tables/StockAgesProcessRequest.html",
   "fields" : [ {
     "id" : "id",

@@ -2,6 +2,7 @@
   "entity" : "QtyTrackingTotalEntry",
   "table" : "QtyTrackingTotalEntry",
   "module" : "system-tables",
+  "en" : "Qty Tracking Total Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/QtyTrackingTotalEntry.html",
   "fields" : [ {
     "id" : "id",

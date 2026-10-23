@@ -4,6 +4,7 @@
   "module" : "basic",
   "ar" : "لوحة",
   "arPlural" : "لوحات",
+  "en" : "Dash Board",
   "page" : "https://dm.namasoft.com/modules/basic/DashBoard.html",
   "fields" : [ {
     "id" : "analysisSet",

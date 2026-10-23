@@ -2,6 +2,7 @@
   "entity" : "SequenceEntity",
   "table" : "SequenceEntity",
   "module" : "system-tables",
+  "en" : "Sequence Entity",
   "page" : "https://dm.namasoft.com/modules/system-tables/SequenceEntity.html",
   "fields" : [ {
     "id" : "id",

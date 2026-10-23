@@ -2,6 +2,7 @@
   "entity" : "NaMaLayout",
   "table" : "NaMaLayout",
   "module" : "system-tables",
+  "en" : "Na Ma Layout",
   "page" : "https://dm.namasoft.com/modules/system-tables/NaMaLayout.html",
   "fields" : [ {
     "id" : "contentType",

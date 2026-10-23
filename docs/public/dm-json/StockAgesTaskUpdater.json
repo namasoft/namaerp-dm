@@ -2,6 +2,7 @@
   "entity" : "StockAgesTaskUpdater",
   "table" : "StockAgesTaskUpdater",
   "module" : "system-tables",
+  "en" : "Stock Ages Task Updater",
   "page" : "https://dm.namasoft.com/modules/system-tables/StockAgesTaskUpdater.html",
   "fields" : [ {
     "id" : "calledFromIndex",

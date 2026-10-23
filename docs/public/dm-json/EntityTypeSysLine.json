@@ -2,6 +2,7 @@
   "entity" : "EntityTypeSysLine",
   "table" : "EntityTypeSysLine",
   "module" : "system-tables",
+  "en" : "Entity Type Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/EntityTypeSysLine.html",
   "fields" : [ {
     "id" : "entityType",

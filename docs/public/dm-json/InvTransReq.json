@@ -2,6 +2,7 @@
   "entity" : "InvTransReq",
   "table" : "InvTransReq",
   "module" : "system-tables",
+  "en" : "Inv Trans Req",
   "page" : "https://dm.namasoft.com/modules/system-tables/InvTransReq.html",
   "fields" : [ {
     "id" : "analysisSet",

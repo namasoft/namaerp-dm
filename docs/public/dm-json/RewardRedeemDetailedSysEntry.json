@@ -2,6 +2,7 @@
   "entity" : "RewardRedeemDetailedSysEntry",
   "table" : "RewardRedeemDetailedSysEntry",
   "module" : "system-tables",
+  "en" : "Reward Redeem Detailed Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/RewardRedeemDetailedSysEntry.html",
   "fields" : [ {
     "id" : "id",

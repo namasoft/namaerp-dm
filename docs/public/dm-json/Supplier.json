@@ -4,6 +4,7 @@
   "module" : "basic",
   "ar" : "مورد",
   "arPlural" : "الموردين",
+  "en" : "Supplier",
   "page" : "https://dm.namasoft.com/modules/basic/Supplier.html",
   "fields" : [ {
     "id" : "activated",

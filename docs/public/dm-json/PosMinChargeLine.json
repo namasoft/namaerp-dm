@@ -2,6 +2,7 @@
   "entity" : "PosMinChargeLine",
   "table" : "PosMinChargeLine",
   "module" : "system-tables",
+  "en" : "Pos Min Charge Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/PosMinChargeLine.html",
   "fields" : [ {
     "id" : "fromDate",

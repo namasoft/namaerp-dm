@@ -2,6 +2,7 @@
   "entity" : "FifoCostMatcher",
   "table" : "FifoCostMatcher",
   "module" : "system-tables",
+  "en" : "Fifo Cost Matcher",
   "page" : "https://dm.namasoft.com/modules/system-tables/FifoCostMatcher.html",
   "fields" : [ {
     "id" : "consumedQty",

@@ -2,6 +2,7 @@
   "entity" : "FieldHelpLine",
   "table" : "FieldHelpLine",
   "module" : "system-tables",
+  "en" : "Field Help Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/FieldHelpLine.html",
   "fields" : [ {
     "id" : "arabicHelp",

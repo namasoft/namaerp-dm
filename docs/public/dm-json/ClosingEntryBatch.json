@@ -2,6 +2,7 @@
   "entity" : "ClosingEntryBatch",
   "table" : "ClosingEntryBatch",
   "module" : "system-tables",
+  "en" : "Closing Entry Batch",
   "page" : "https://dm.namasoft.com/modules/system-tables/ClosingEntryBatch.html",
   "fields" : [ {
     "id" : "batchSeq",

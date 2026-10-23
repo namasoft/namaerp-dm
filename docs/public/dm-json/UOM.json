@@ -4,6 +4,7 @@
   "module" : "supplychain",
   "ar" : "وحدة قياس",
   "arPlural" : "وحدات قياس",
+  "en" : "UOM",
   "enPlural" : "Units of Measurement",
   "page" : "https://dm.namasoft.com/modules/supplychain/UOM.html",
   "fields" : [ {

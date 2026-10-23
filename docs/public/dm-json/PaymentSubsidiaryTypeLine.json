@@ -2,6 +2,7 @@
   "entity" : "PaymentSubsidiaryTypeLine",
   "table" : "PaymentSubsidiaryTypeLine",
   "module" : "system-tables",
+  "en" : "Payment Subsidiary Type Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/PaymentSubsidiaryTypeLine.html",
   "fields" : [ {
     "id" : "entityTypeDF",

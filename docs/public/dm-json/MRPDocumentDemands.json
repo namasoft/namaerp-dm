@@ -2,6 +2,7 @@
   "entity" : "MRPDocumentDemands",
   "table" : "MRPDocumentDemands",
   "module" : "system-tables",
+  "en" : "MRP Document Demands",
   "page" : "https://dm.namasoft.com/modules/system-tables/MRPDocumentDemands.html",
   "fields" : [ {
     "id" : "date1",

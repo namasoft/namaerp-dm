@@ -2,6 +2,7 @@
   "entity" : "POSReplacementMainLine",
   "table" : "POSReplacementMainLine",
   "module" : "system-tables",
+  "en" : "POS Replacement Main Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSReplacementMainLine.html",
   "fields" : [ {
     "id" : "field",

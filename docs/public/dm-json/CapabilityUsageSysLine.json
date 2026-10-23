@@ -2,6 +2,7 @@
   "entity" : "CapabilityUsageSysLine",
   "table" : "CapabilityUsageSysLine",
   "module" : "system-tables",
+  "en" : "Capability Usage Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/CapabilityUsageSysLine.html",
   "fields" : [ {
     "id" : "date1",

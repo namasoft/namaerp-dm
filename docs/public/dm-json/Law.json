@@ -4,6 +4,7 @@
   "module" : "auditing",
   "ar" : "القانون",
   "arPlural" : "القوانين",
+  "en" : "Law",
   "page" : "https://dm.namasoft.com/modules/auditing/Law.html",
   "fields" : [ {
     "id" : "analysisSet",

@@ -2,6 +2,7 @@
   "entity" : "AIChatSession",
   "table" : "AIChatSession",
   "module" : "system-tables",
+  "en" : "AI Chat Session",
   "page" : "https://dm.namasoft.com/modules/system-tables/AIChatSession.html",
   "fields" : [ {
     "id" : "chatProvider",

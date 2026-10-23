@@ -4,6 +4,7 @@
   "module" : "contracting",
   "ar" : "مقاول باطن",
   "arPlural" : "مقاولون باطن",
+  "en" : "Contractor",
   "enPlural" : " Contractor",
   "page" : "https://dm.namasoft.com/modules/contracting/Contractor.html",
   "fields" : [ {

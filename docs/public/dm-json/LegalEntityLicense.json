@@ -2,6 +2,7 @@
   "entity" : "LegalEntityLicense",
   "table" : "LegalEntityLicense",
   "module" : "system-tables",
+  "en" : "Legal Entity License",
   "page" : "https://dm.namasoft.com/modules/system-tables/LegalEntityLicense.html",
   "fields" : [ {
     "id" : "allowedEntities",

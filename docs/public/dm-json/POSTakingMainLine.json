@@ -2,6 +2,7 @@
   "entity" : "POSTakingMainLine",
   "table" : "POSTakingMainLine",
   "module" : "system-tables",
+  "en" : "POS Taking Main Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSTakingMainLine.html",
   "fields" : [ {
     "id" : "field",

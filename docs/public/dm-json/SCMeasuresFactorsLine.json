@@ -2,6 +2,7 @@
   "entity" : "SCMeasuresFactorsLine",
   "table" : "SCMeasuresFactorsLine",
   "module" : "system-tables",
+  "en" : "SC Measures Factors Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/SCMeasuresFactorsLine.html",
   "fields" : [ {
     "id" : "entityType",

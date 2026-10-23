@@ -2,6 +2,7 @@
   "entity" : "LedgerTransSerial",
   "table" : "LedgerTransSerial",
   "module" : "system-tables",
+  "en" : "Ledger Trans Serial",
   "page" : "https://dm.namasoft.com/modules/system-tables/LedgerTransSerial.html",
   "fields" : [ {
     "id" : "deleted",

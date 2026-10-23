@@ -2,6 +2,7 @@
   "entity" : "ContactInfoEntry",
   "table" : "ContactInfoEntry",
   "module" : "system-tables",
+  "en" : "Contact Info Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/ContactInfoEntry.html",
   "fields" : [ {
     "id" : "email",

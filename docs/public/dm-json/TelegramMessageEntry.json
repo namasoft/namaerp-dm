@@ -2,6 +2,7 @@
   "entity" : "TelegramMessageEntry",
   "table" : "TelegramMessageEntry",
   "module" : "system-tables",
+  "en" : "Telegram Message Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/TelegramMessageEntry.html",
   "fields" : [ {
     "id" : "body",

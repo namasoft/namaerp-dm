@@ -2,6 +2,7 @@
   "entity" : "POS.POSFavouriteLine",
   "table" : "POSFavouriteLine",
   "module" : "pos-app",
+  "en" : "POS Favourite Line",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSFavouriteLine.html",
   "fields" : [ {
     "id" : "code",

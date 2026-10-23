@@ -4,6 +4,7 @@
   "module" : "manufacturing",
   "ar" : "عملية تشغيل",
   "arPlural" : "عمليات التشغيل",
+  "en" : "Routing",
   "page" : "https://dm.namasoft.com/modules/manufacturing/Routing.html",
   "fields" : [ {
     "id" : "allowNegativeQtyForOP1",

@@ -2,8 +2,15 @@
   "entity" : "PVRequestInstallmentLine",
   "table" : "PVRequestInstallmentLine",
   "module" : "system-tables",
+  "en" : "PV Request Installment Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/PVRequestInstallmentLine.html",
   "fields" : [ {
+    "id" : "collectionDiscount",
+    "column" : "collectionDiscount",
+    "ar" : "خصم التحصيل",
+    "en" : "Collection Discount",
+    "type" : "Decimal"
+  }, {
     "id" : "currencyRate",
     "column" : "currencyRate",
     "ar" : "المعدل",

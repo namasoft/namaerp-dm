@@ -4,6 +4,7 @@
   "module" : "supplychain-qc-qa",
   "ar" : "تصنيف سؤال",
   "arPlural" : " تصنيف سؤال",
+  "en" : "Question Classification",
   "enPlural" : " QuestionClassification",
   "page" : "https://dm.namasoft.com/modules/supplychain-qc-qa/QuestionClassification.html",
   "fields" : [ {

@@ -2,6 +2,7 @@
   "entity" : "SiteOutMessage",
   "table" : "SiteOutMessage",
   "module" : "system-tables",
+  "en" : "Site Out Message",
   "page" : "https://dm.namasoft.com/modules/system-tables/SiteOutMessage.html",
   "fields" : [ {
     "id" : "id",

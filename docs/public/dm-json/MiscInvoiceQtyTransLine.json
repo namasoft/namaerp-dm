@@ -2,6 +2,7 @@
   "entity" : "MiscInvoiceQtyTransLine",
   "table" : "MiscInvoiceQtyTransLine",
   "module" : "system-tables",
+  "en" : "Misc Invoice Qty Trans Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/MiscInvoiceQtyTransLine.html",
   "fields" : [ {
     "id" : "consumedQty1",

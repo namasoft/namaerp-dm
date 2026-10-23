@@ -2,6 +2,7 @@
   "entity" : "MCConfigLine",
   "table" : "MCConfigLine",
   "module" : "system-tables",
+  "en" : "MC Config Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/MCConfigLine.html",
   "fields" : [ {
     "id" : "doNotAllowResidencyAllowance",

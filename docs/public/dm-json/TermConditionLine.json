@@ -2,6 +2,7 @@
   "entity" : "TermConditionLine",
   "table" : "TermConditionLine",
   "module" : "system-tables",
+  "en" : "Term Condition Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/TermConditionLine.html",
   "fields" : [ {
     "id" : "conditionStatus",

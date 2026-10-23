@@ -2,6 +2,7 @@
   "entity" : "DistributeContractingCostOnRealEstateTask",
   "table" : "DistributeContractingCostOnRealEstateTask",
   "module" : "system-tables",
+  "en" : "Distribute Contracting Cost On Real Estate Task",
   "page" : "https://dm.namasoft.com/modules/system-tables/DistributeContractingCostOnRealEstateTask.html",
   "fields" : [ {
     "id" : "currentDimensions",

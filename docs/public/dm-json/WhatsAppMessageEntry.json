@@ -2,6 +2,7 @@
   "entity" : "WhatsAppMessageEntry",
   "table" : "WhatsAppMessageEntry",
   "module" : "system-tables",
+  "en" : "Whats App Message Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/WhatsAppMessageEntry.html",
   "fields" : [ {
     "id" : "body",

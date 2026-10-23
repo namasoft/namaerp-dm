@@ -2,6 +2,7 @@
   "entity" : "POS.POSExtraFilter",
   "table" : "POSExtraFilter",
   "module" : "pos-app",
+  "en" : "POS Extra Filter",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSExtraFilter.html",
   "fields" : [ {
     "id" : "code",

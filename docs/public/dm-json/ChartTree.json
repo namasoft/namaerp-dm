@@ -2,6 +2,7 @@
   "entity" : "ChartTree",
   "table" : "ChartTree",
   "module" : "system-tables",
+  "en" : "Chart Tree",
   "page" : "https://dm.namasoft.com/modules/system-tables/ChartTree.html",
   "fields" : [ {
     "id" : "category",
@@ -27,6 +28,13 @@
     "refTo" : "AccountChartType",
     "refPath" : "/modules/accounting/AccountChartType.html"
   }, {
+    "id" : "consolidationRateType",
+    "column" : "consolidationRateType",
+    "ar" : "سعر الترجمة في التوحيد",
+    "en" : "Consolidation Rate",
+    "type" : "Enum",
+    "enum" : "ConsolidationRateType"
+  }, {
     "id" : "defaultParentSide",
     "column" : "defaultParentSide",
     "type" : "Boolean"
@@ -42,6 +50,12 @@
     "id" : "idStr",
     "column" : "idStr",
     "type" : "Text"
+  }, {
+    "id" : "intercompany",
+    "column" : "intercompany",
+    "ar" : "حساب بين شركات المجموعة",
+    "en" : "Intercompany",
+    "type" : "Boolean"
   }, {
     "id" : "level",
     "column" : "level",

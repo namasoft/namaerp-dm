@@ -2,6 +2,7 @@
   "entity" : "FinancialPaperStatusEntry",
   "table" : "FinancialPaperStatusEntry",
   "module" : "system-tables",
+  "en" : "Financial Paper Status Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/FinancialPaperStatusEntry.html",
   "fields" : [ {
     "id" : "cancelValue",

@@ -2,6 +2,7 @@
   "entity" : "RewardPointTransactionSysEntry",
   "table" : "RewardPointTransactionSysEntry",
   "module" : "system-tables",
+  "en" : "Reward Point Transaction Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/RewardPointTransactionSysEntry.html",
   "fields" : [ {
     "id" : "creationDate",

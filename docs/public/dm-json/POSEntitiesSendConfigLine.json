@@ -2,6 +2,7 @@
   "entity" : "POSEntitiesSendConfigLine",
   "table" : "POSEntitiesSendConfigLine",
   "module" : "system-tables",
+  "en" : "POS Entities Send Config Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSEntitiesSendConfigLine.html",
   "fields" : [ {
     "id" : "entityTypeList",

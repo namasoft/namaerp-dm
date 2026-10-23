@@ -2,6 +2,7 @@
   "entity" : "EReceiptSubmissionSysEntry",
   "table" : "EReceiptSubmissionSysEntry",
   "module" : "system-tables",
+  "en" : "E Receipt Submission Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/EReceiptSubmissionSysEntry.html",
   "fields" : [ {
     "id" : "configId",

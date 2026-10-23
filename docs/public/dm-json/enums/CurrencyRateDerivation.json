@@ -1,0 +1,20 @@
+{
+  "enum" : "CurrencyRateDerivation",
+  "values" : [ {
+    "id" : "Direct",
+    "ar" : "مباشر",
+    "en" : "Direct"
+  }, {
+    "id" : "Inverse",
+    "ar" : "معكوس",
+    "en" : "Inverse"
+  }, {
+    "id" : "Cross",
+    "ar" : "عبر عملة وسيطة",
+    "en" : "Cross"
+  }, {
+    "id" : "SameCurrency",
+    "ar" : "نفس العملة",
+    "en" : "Same Currency"
+  } ]
+}

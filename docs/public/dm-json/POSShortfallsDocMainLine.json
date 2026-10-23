@@ -2,6 +2,7 @@
   "entity" : "POSShortfallsDocMainLine",
   "table" : "POSShortfallsDocMainLine",
   "module" : "system-tables",
+  "en" : "POS Shortfalls Doc Main Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSShortfallsDocMainLine.html",
   "fields" : [ {
     "id" : "field",

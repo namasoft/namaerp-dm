@@ -2,6 +2,7 @@
   "entity" : "PurgeInformation",
   "table" : "PurgeInformation",
   "module" : "system-tables",
+  "en" : "Purge Information",
   "page" : "https://dm.namasoft.com/modules/system-tables/PurgeInformation.html",
   "fields" : [ {
     "id" : "completedOn",

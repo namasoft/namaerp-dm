@@ -2,6 +2,7 @@
   "entity" : "VacationsSysLine",
   "table" : "VacationsSysLine",
   "module" : "system-tables",
+  "en" : "Vacations Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/VacationsSysLine.html",
   "fields" : [ {
     "id" : "actualReturnDate",

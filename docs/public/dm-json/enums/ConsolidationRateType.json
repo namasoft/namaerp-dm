@@ -1,0 +1,16 @@
+{
+  "enum" : "ConsolidationRateType",
+  "values" : [ {
+    "id" : "Closing",
+    "ar" : "اغلاق",
+    "en" : "Closing"
+  }, {
+    "id" : "Average",
+    "ar" : "متوسط",
+    "en" : "Average"
+  }, {
+    "id" : "Historical",
+    "ar" : "تاريخي",
+    "en" : "Historical"
+  } ]
+}

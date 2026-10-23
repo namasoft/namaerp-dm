@@ -2,6 +2,7 @@
   "entity" : "DiscountSysLine",
   "table" : "DiscountSysLine",
   "module" : "system-tables",
+  "en" : "Discount Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/DiscountSysLine.html",
   "fields" : [ {
     "id" : "affectOnCost",

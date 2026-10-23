@@ -2,6 +2,7 @@
   "entity" : "REReservationEntry",
   "table" : "REReservationEntry",
   "module" : "system-tables",
+  "en" : "RE Reservation Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/REReservationEntry.html",
   "fields" : [ {
     "id" : "creationDate",

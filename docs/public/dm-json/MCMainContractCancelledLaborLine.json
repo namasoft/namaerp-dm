@@ -2,6 +2,7 @@
   "entity" : "MCMainContractCancelledLaborLine",
   "table" : "MCMainContractCancelledLaborLine",
   "module" : "system-tables",
+  "en" : "MC Main Contract Cancelled Labor Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/MCMainContractCancelledLaborLine.html",
   "fields" : [ {
     "id" : "annualSalary",

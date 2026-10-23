@@ -2,6 +2,7 @@
   "entity" : "EntityWithCriteriaLine",
   "table" : "EntityWithCriteriaLine",
   "module" : "system-tables",
+  "en" : "Entity With Criteria Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/EntityWithCriteriaLine.html",
   "fields" : [ {
     "id" : "copierExtraFields",

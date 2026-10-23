@@ -2,6 +2,7 @@
   "entity" : "EntityValidationLine",
   "table" : "EntityValidationLine",
   "module" : "system-tables",
+  "en" : "Entity Validation Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/EntityValidationLine.html",
   "fields" : [ {
     "id" : "active",

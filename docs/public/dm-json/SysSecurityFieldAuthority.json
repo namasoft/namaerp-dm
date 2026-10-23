@@ -2,6 +2,7 @@
   "entity" : "SysSecurityFieldAuthority",
   "table" : "SysSecurityFieldAuthority",
   "module" : "system-tables",
+  "en" : "Sys Security Field Authority",
   "page" : "https://dm.namasoft.com/modules/system-tables/SysSecurityFieldAuthority.html",
   "fields" : [ {
     "id" : "applicabeWhen",

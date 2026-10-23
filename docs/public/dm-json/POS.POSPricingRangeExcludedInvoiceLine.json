@@ -2,6 +2,7 @@
   "entity" : "POS.POSPricingRangeExcludedInvoiceLine",
   "table" : "POSPricingRangeExcludedInvoiceLine",
   "module" : "pos-app",
+  "en" : "POS Pricing Range Excluded Invoice Line",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSPricingRangeExcludedInvoiceLine.html",
   "fields" : [ {
     "id" : "customer.code",

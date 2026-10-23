@@ -2,6 +2,7 @@
   "entity" : "MagentoSyncSystemFields",
   "table" : "MagentoSyncSystemFields",
   "module" : "system-tables",
+  "en" : "Magento Sync System Fields",
   "page" : "https://dm.namasoft.com/modules/system-tables/MagentoSyncSystemFields.html",
   "fields" : [ {
     "id" : "id",

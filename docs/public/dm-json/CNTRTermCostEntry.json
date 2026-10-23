@@ -2,6 +2,7 @@
   "entity" : "CNTRTermCostEntry",
   "table" : "CNTRTermCostEntry",
   "module" : "system-tables",
+  "en" : "CNTR Term Cost Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/CNTRTermCostEntry.html",
   "fields" : [ {
     "id" : "analysisCard",

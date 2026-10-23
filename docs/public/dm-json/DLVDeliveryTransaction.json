@@ -2,6 +2,7 @@
   "entity" : "DLVDeliveryTransaction",
   "table" : "DLVDeliveryTransaction",
   "module" : "system-tables",
+  "en" : "DLV Delivery Transaction",
   "page" : "https://dm.namasoft.com/modules/system-tables/DLVDeliveryTransaction.html",
   "fields" : [ {
     "id" : "creationDate",

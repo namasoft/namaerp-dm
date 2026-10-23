@@ -2,6 +2,7 @@
   "entity" : "PosConfigRequestAuthorizationLine",
   "table" : "PosConfigRequestAuthorizationLine",
   "module" : "system-tables",
+  "en" : "Pos Config Request Authorization Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/PosConfigRequestAuthorizationLine.html",
   "fields" : [ {
     "id" : "capability",

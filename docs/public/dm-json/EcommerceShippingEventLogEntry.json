@@ -2,6 +2,7 @@
   "entity" : "EcommerceShippingEventLogEntry",
   "table" : "EcommerceShippingEventLogEntry",
   "module" : "system-tables",
+  "en" : "Ecommerce Shipping Event Log Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/EcommerceShippingEventLogEntry.html",
   "fields" : [ {
     "id" : "creationDate",

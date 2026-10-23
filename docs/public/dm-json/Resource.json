@@ -4,6 +4,7 @@
   "module" : "supplychain",
   "ar" : "مورد تشغيل",
   "arPlural" : "موارد التشغيل",
+  "en" : "Resource",
   "page" : "https://dm.namasoft.com/modules/supplychain/Resource.html",
   "fields" : [ {
     "id" : "analysisSet",

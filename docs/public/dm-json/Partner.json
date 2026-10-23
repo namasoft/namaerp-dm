@@ -4,6 +4,7 @@
   "module" : "accounting",
   "ar" : "شريك",
   "arPlural" : "الشركاء",
+  "en" : "Partner",
   "page" : "https://dm.namasoft.com/modules/accounting/Partner.html",
   "fields" : [ {
     "id" : "altCode",

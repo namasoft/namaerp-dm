@@ -2,6 +2,7 @@
   "entity" : "CouseSkillResult",
   "table" : "CouseSkillResult",
   "module" : "system-tables",
+  "en" : "Couse Skill Result",
   "page" : "https://dm.namasoft.com/modules/system-tables/CouseSkillResult.html",
   "fields" : [ {
     "id" : "id",

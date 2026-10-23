@@ -2,6 +2,7 @@
   "entity" : "ItemLevelLine",
   "table" : "ItemLevelLine",
   "module" : "system-tables",
+  "en" : "Item Level Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/ItemLevelLine.html",
   "fields" : [ {
     "id" : "favouritesLevel1",

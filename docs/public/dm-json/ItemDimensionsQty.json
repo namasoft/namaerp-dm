@@ -2,6 +2,7 @@
   "entity" : "ItemDimensionsQty",
   "table" : "ItemDimensionsQty",
   "module" : "system-tables",
+  "en" : "Item Dimensions Qty",
   "page" : "https://dm.namasoft.com/modules/system-tables/ItemDimensionsQty.html",
   "fields" : [ {
     "id" : "avgCost",

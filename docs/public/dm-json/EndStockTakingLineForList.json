@@ -2,6 +2,7 @@
   "entity" : "EndStockTakingLineForList",
   "table" : "EndStockTakingLineForList",
   "module" : "system-tables",
+  "en" : "End Stock Taking Line For List",
   "page" : "https://dm.namasoft.com/modules/system-tables/EndStockTakingLineForList.html",
   "fields" : [ {
     "id" : "actualStockQty",

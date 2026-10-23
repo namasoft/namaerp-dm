@@ -2,6 +2,7 @@
   "entity" : "CustomerTransEntry",
   "table" : "CustomerTransEntry",
   "module" : "system-tables",
+  "en" : "Customer Trans Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/CustomerTransEntry.html",
   "fields" : [ {
     "id" : "customer",

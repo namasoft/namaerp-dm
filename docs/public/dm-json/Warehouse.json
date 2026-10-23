@@ -4,6 +4,7 @@
   "module" : "supplychain",
   "ar" : "مخزن",
   "arPlural" : "مخازن",
+  "en" : "Warehouse",
   "page" : "https://dm.namasoft.com/modules/supplychain/Warehouse.html",
   "fields" : [ {
     "id" : "altCode",

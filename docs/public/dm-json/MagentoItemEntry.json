@@ -2,6 +2,7 @@
   "entity" : "MagentoItemEntry",
   "table" : "MagentoItemEntry",
   "module" : "system-tables",
+  "en" : "Magento Item Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/MagentoItemEntry.html",
   "fields" : [ {
     "id" : "id",

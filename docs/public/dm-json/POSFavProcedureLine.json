@@ -2,6 +2,7 @@
   "entity" : "POSFavProcedureLine",
   "table" : "POSFavProcedureLine",
   "module" : "system-tables",
+  "en" : "POS Fav Procedure Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSFavProcedureLine.html",
   "fields" : [ {
     "id" : "id",

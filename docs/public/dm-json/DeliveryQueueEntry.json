@@ -2,6 +2,7 @@
   "entity" : "DeliveryQueueEntry",
   "table" : "DeliveryQueueEntry",
   "module" : "system-tables",
+  "en" : "Delivery Queue Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/DeliveryQueueEntry.html",
   "fields" : [ {
     "id" : "actualDeliveryDate",

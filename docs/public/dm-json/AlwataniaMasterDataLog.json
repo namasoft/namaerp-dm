@@ -2,6 +2,7 @@
   "entity" : "AlwataniaMasterDataLog",
   "table" : "AlwataniaMasterDataLog",
   "module" : "system-tables",
+  "en" : "Alwatania Master Data Log",
   "page" : "https://dm.namasoft.com/modules/system-tables/AlwataniaMasterDataLog.html",
   "fields" : [ {
     "id" : "alwataniaId",

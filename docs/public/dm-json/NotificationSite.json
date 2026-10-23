@@ -2,6 +2,7 @@
   "entity" : "NotificationSite",
   "table" : "NotificationSite",
   "module" : "system-tables",
+  "en" : "Notification Site",
   "page" : "https://dm.namasoft.com/modules/system-tables/NotificationSite.html",
   "fields" : [ {
     "id" : "id",

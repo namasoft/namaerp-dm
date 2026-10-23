@@ -2,6 +2,7 @@
   "entity" : "AUFilePhaseLine",
   "table" : "AUFilePhaseLine",
   "module" : "system-tables",
+  "en" : "AU File Phase Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/AUFilePhaseLine.html",
   "fields" : [ {
     "id" : "id",

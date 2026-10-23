@@ -4,6 +4,7 @@
   "module" : "basic",
   "ar" : "عملة",
   "arPlural" : "عملات",
+  "en" : "Currency",
   "enPlural" : "Currencies",
   "page" : "https://dm.namasoft.com/modules/basic/Currency.html",
   "fields" : [ {

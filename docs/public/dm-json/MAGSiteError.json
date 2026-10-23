@@ -2,6 +2,7 @@
   "entity" : "MAGSiteError",
   "table" : "MAGSiteError",
   "module" : "system-tables",
+  "en" : "MAG Site Error",
   "page" : "https://dm.namasoft.com/modules/system-tables/MAGSiteError.html",
   "fields" : [ {
     "id" : "creationDate",

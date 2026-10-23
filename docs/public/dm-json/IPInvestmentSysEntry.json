@@ -2,6 +2,7 @@
   "entity" : "IPInvestmentSysEntry",
   "table" : "IPInvestmentSysEntry",
   "module" : "system-tables",
+  "en" : "IP Investment Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/IPInvestmentSysEntry.html",
   "fields" : [ {
     "id" : "creationDate",

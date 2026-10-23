@@ -2,6 +2,7 @@
   "entity" : "ContractingCostSalaryComponents",
   "table" : "ContractingCostSalaryComponents",
   "module" : "system-tables",
+  "en" : "Contracting Cost Salary Components",
   "page" : "https://dm.namasoft.com/modules/system-tables/ContractingCostSalaryComponents.html",
   "fields" : [ {
     "id" : "componentType",

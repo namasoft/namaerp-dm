@@ -2,6 +2,7 @@
   "entity" : "POS.PosTableEntry",
   "table" : "PosTableEntry",
   "module" : "pos-app",
+  "en" : "Pos Table Entry",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.PosTableEntry.html",
   "fields" : [ {
     "id" : "busyTable",

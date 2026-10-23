@@ -2,6 +2,7 @@
   "entity" : "POSOnlineOrderEntry",
   "table" : "POSOnlineOrderEntry",
   "module" : "system-tables",
+  "en" : "POS Online Order Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSOnlineOrderEntry.html",
   "fields" : [ {
     "id" : "creationDate",

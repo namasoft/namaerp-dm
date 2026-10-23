@@ -4,6 +4,7 @@
   "module" : "manufacturing-crtn-pln",
   "ar" : "نوع التضليع",
   "arPlural" : "أنواع التضليع",
+  "en" : "CRTN Corrugating Type",
   "enPlural" : "CRTN Corrugating Types",
   "page" : "https://dm.namasoft.com/modules/manufacturing-crtn-pln/CRTNCorrugatingType.html",
   "fields" : [ {

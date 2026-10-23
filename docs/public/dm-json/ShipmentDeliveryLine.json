@@ -2,6 +2,7 @@
   "entity" : "ShipmentDeliveryLine",
   "table" : "ShipmentDeliveryLine",
   "module" : "system-tables",
+  "en" : "Shipment Delivery Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/ShipmentDeliveryLine.html",
   "fields" : [ {
     "id" : "activeDoc",

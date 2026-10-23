@@ -2,6 +2,7 @@
   "entity" : "WathqCallInfo",
   "table" : "WathqCallInfo",
   "module" : "system-tables",
+  "en" : "Wathq Call Info",
   "page" : "https://dm.namasoft.com/modules/system-tables/WathqCallInfo.html",
   "fields" : [ {
     "id" : "commercialRegNo",

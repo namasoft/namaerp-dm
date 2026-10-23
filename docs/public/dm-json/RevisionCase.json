@@ -2,6 +2,7 @@
   "entity" : "RevisionCase",
   "table" : "RevisionCase",
   "module" : "system-tables",
+  "en" : "Revision Case",
   "page" : "https://dm.namasoft.com/modules/system-tables/RevisionCase.html",
   "fields" : [ {
     "id" : "completed",

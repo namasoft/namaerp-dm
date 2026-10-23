@@ -4,6 +4,7 @@
   "module" : "basic",
   "ar" : "جهة إتصال",
   "arPlural" : "جهات الإتصال",
+  "en" : "Contact",
   "page" : "https://dm.namasoft.com/modules/basic/Contact.html",
   "fields" : [ {
     "id" : "analysisSet",

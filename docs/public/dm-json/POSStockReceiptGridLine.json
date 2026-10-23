@@ -2,6 +2,7 @@
   "entity" : "POSStockReceiptGridLine",
   "table" : "POSStockReceiptGridLine",
   "module" : "system-tables",
+  "en" : "POS Stock Receipt Grid Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSStockReceiptGridLine.html",
   "fields" : [ {
     "id" : "field",

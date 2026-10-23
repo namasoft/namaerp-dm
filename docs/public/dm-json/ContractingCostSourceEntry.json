@@ -2,6 +2,7 @@
   "entity" : "ContractingCostSourceEntry",
   "table" : "ContractingCostSourceEntry",
   "module" : "system-tables",
+  "en" : "Contracting Cost Source Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/ContractingCostSourceEntry.html",
   "fields" : [ {
     "id" : "analysisCard",

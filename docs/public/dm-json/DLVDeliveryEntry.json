@@ -2,6 +2,7 @@
   "entity" : "DLVDeliveryEntry",
   "table" : "DLVDeliveryEntry",
   "module" : "system-tables",
+  "en" : "DLV Delivery Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/DLVDeliveryEntry.html",
   "fields" : [ {
     "id" : "actualDeliveryDateTime",

@@ -2,6 +2,7 @@
   "entity" : "POS.POSPaymentMethodsSettings",
   "table" : "POSPaymentMethodsSettings",
   "module" : "pos-app",
+  "en" : "POS Payment Methods Settings",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSPaymentMethodsSettings.html",
   "fields" : [ {
     "id" : "code",

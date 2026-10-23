@@ -2,6 +2,7 @@
   "entity" : "InsurancePolicyAddingLine",
   "table" : "InsurancePolicyAddingLine",
   "module" : "system-tables",
+  "en" : "Insurance Policy Adding Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/InsurancePolicyAddingLine.html",
   "fields" : [ {
     "id" : "addDriverInsurance",

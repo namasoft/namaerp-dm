@@ -2,6 +2,7 @@
   "entity" : "ActionsHistory",
   "table" : "ActionsHistory",
   "module" : "system-tables",
+  "en" : "Actions History",
   "page" : "https://dm.namasoft.com/modules/system-tables/ActionsHistory.html",
   "fields" : [ {
     "id" : "actionDate",

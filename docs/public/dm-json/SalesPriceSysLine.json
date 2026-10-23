@@ -2,6 +2,7 @@
   "entity" : "SalesPriceSysLine",
   "table" : "SalesPriceSysLine",
   "module" : "system-tables",
+  "en" : "Sales Price Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/SalesPriceSysLine.html",
   "fields" : [ {
     "id" : "applyOnItems",

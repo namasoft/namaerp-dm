@@ -2,6 +2,7 @@
   "entity" : "POSCancelReservationGridLine",
   "table" : "POSCancelReservationGridLine",
   "module" : "system-tables",
+  "en" : "POS Cancel Reservation Grid Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSCancelReservationGridLine.html",
   "fields" : [ {
     "id" : "field",

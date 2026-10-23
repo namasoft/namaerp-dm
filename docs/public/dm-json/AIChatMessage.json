@@ -2,6 +2,7 @@
   "entity" : "AIChatMessage",
   "table" : "AIChatMessage",
   "module" : "system-tables",
+  "en" : "AI Chat Message",
   "page" : "https://dm.namasoft.com/modules/system-tables/AIChatMessage.html",
   "fields" : [ {
     "id" : "content",

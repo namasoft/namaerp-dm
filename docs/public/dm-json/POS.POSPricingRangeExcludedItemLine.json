@@ -2,6 +2,7 @@
   "entity" : "POS.POSPricingRangeExcludedItemLine",
   "table" : "POSPricingRangeExcludedItemLine",
   "module" : "pos-app",
+  "en" : "POS Pricing Range Excluded Item Line",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSPricingRangeExcludedItemLine.html",
   "fields" : [ {
     "id" : "brand",

@@ -2,6 +2,7 @@
   "entity" : "CustomerKeywordTemplateLine",
   "table" : "CustomerKeywordTemplateLine",
   "module" : "system-tables",
+  "en" : "Customer Keyword Template Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/CustomerKeywordTemplateLine.html",
   "fields" : [ {
     "id" : "id",

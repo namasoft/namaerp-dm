@@ -4,6 +4,7 @@
   "module" : "pos-app",
   "ar" : "عملة",
   "arPlural" : "عملات",
+  "en" : "Currency",
   "enPlural" : "Currencies",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSCurrency.html",
   "fields" : [ {

@@ -2,6 +2,7 @@
   "entity" : "FALocationEntry",
   "table" : "FALocationEntry",
   "module" : "system-tables",
+  "en" : "FA Location Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/FALocationEntry.html",
   "fields" : [ {
     "id" : "analysisSet",

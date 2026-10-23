@@ -2,6 +2,7 @@
   "entity" : "NamaPOSItemQtyUpdater",
   "table" : "NamaPOSItemQtyUpdater",
   "module" : "system-tables",
+  "en" : "Nama POS Item Qty Updater",
   "page" : "https://dm.namasoft.com/modules/system-tables/NamaPOSItemQtyUpdater.html",
   "fields" : [ {
     "id" : "config",

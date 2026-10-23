@@ -2,6 +2,7 @@
   "entity" : "NotificationAllowedTime",
   "table" : "NotificationAllowedTime",
   "module" : "system-tables",
+  "en" : "Notification Allowed Time",
   "page" : "https://dm.namasoft.com/modules/system-tables/NotificationAllowedTime.html",
   "fields" : [ {
     "id" : "fromTime",

@@ -2,6 +2,7 @@
   "entity" : "SWMatchedInvItemTrans",
   "table" : "SWMatchedInvItemTrans",
   "module" : "system-tables",
+  "en" : "SW Matched Inv Item Trans",
   "page" : "https://dm.namasoft.com/modules/system-tables/SWMatchedInvItemTrans.html",
   "fields" : [ {
     "id" : "id",

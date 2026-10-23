@@ -2,6 +2,7 @@
   "entity" : "RERentalUnitMovement",
   "table" : "RERentalUnitMovement",
   "module" : "system-tables",
+  "en" : "RE Rental Unit Movement",
   "page" : "https://dm.namasoft.com/modules/system-tables/RERentalUnitMovement.html",
   "fields" : [ {
     "id" : "buyer",

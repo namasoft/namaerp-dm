@@ -4,6 +4,7 @@
   "module" : "basic",
   "ar" : "كفيل",
   "arPlural" : "الكفلاء",
+  "en" : "Sponsor",
   "page" : "https://dm.namasoft.com/modules/basic/Sponsor.html",
   "fields" : [ {
     "id" : "analysisSet",

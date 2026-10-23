@@ -2,6 +2,7 @@
   "entity" : "DebtLine",
   "table" : "DebtLine",
   "module" : "system-tables",
+  "en" : "Debt Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/DebtLine.html",
   "fields" : [ {
     "id" : "accountRef",

@@ -2,6 +2,7 @@
   "entity" : "EntitySystemEntry",
   "table" : "EntitySystemEntry",
   "module" : "system-tables",
+  "en" : "Entity System Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/EntitySystemEntry.html",
   "fields" : [ {
     "id" : "actualCode",

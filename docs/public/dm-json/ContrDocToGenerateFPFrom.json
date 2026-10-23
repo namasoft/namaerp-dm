@@ -2,6 +2,7 @@
   "entity" : "ContrDocToGenerateFPFrom",
   "table" : "ContrDocToGenerateFPFrom",
   "module" : "system-tables",
+  "en" : "Contr Doc To Generate FP From",
   "page" : "https://dm.namasoft.com/modules/system-tables/ContrDocToGenerateFPFrom.html",
   "fields" : [ {
     "id" : "doc",

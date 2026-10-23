@@ -2,6 +2,7 @@
   "entity" : "POS.POSFieldTooltipInfo",
   "table" : "POSFieldTooltipInfo",
   "module" : "pos-app",
+  "en" : "POS Field Tooltip Info",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSFieldTooltipInfo.html",
   "fields" : [ {
     "id" : "automaticTooltip",

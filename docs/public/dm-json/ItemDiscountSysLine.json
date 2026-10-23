@@ -2,6 +2,7 @@
   "entity" : "ItemDiscountSysLine",
   "table" : "ItemDiscountSysLine",
   "module" : "system-tables",
+  "en" : "Item Discount Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/ItemDiscountSysLine.html",
   "fields" : [ {
     "id" : "accumulateValueBy",

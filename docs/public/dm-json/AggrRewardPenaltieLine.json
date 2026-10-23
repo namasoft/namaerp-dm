@@ -2,6 +2,7 @@
   "entity" : "AggrRewardPenaltieLine",
   "table" : "AggrRewardPenaltieLine",
   "module" : "system-tables",
+  "en" : "Aggr Reward Penaltie Line Ref",
   "page" : "https://dm.namasoft.com/modules/system-tables/AggrRewardPenaltieLine.html",
   "fields" : [ {
     "id" : "employee",

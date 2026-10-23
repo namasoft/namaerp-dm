@@ -2,6 +2,7 @@
   "entity" : "CPAProjReturnLine",
   "table" : "CPAProjReturnLine",
   "module" : "system-tables",
+  "en" : "CPA Proj Return Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/CPAProjReturnLine.html",
   "fields" : [ {
     "id" : "amount.localAmount",

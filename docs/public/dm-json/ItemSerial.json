@@ -2,6 +2,7 @@
   "entity" : "ItemSerial",
   "table" : "ItemSerial",
   "module" : "system-tables",
+  "en" : "Item Serial",
   "page" : "https://dm.namasoft.com/modules/system-tables/ItemSerial.html",
   "fields" : [ {
     "id" : "activePerc",

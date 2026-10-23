@@ -1103,7 +1103,11 @@
   }, {
     "id" : "pickingZone",
     "column" : "pickingZone_id",
-    "type" : "Reference"
+    "ar" : "منطقة التجهيز",
+    "en" : "Picking Zone",
+    "type" : "Reference",
+    "refTo" : "PickingZone",
+    "refPath" : "/modules/supplychain-mobile-wms/PickingZone.html"
   }, {
     "id" : "posCreationDateTime",
     "column" : "posCreationDateTime",

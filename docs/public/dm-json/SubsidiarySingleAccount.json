@@ -2,6 +2,7 @@
   "entity" : "SubsidiarySingleAccount",
   "table" : "SubsidiarySingleAccount",
   "module" : "system-tables",
+  "en" : "Subsidiary Single Account",
   "page" : "https://dm.namasoft.com/modules/system-tables/SubsidiarySingleAccount.html",
   "fields" : [ {
     "id" : "account",

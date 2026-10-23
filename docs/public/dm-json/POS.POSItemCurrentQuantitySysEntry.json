@@ -2,6 +2,7 @@
   "entity" : "POS.POSItemCurrentQuantitySysEntry",
   "table" : "POSItemCurrentQuantitySysEntry",
   "module" : "pos-app",
+  "en" : "POS Item Current Quantity Sys Entry",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSItemCurrentQuantitySysEntry.html",
   "fields" : [ {
     "id" : "config",

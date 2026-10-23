@@ -2,6 +2,7 @@
   "entity" : "CRMComplianSourceLine",
   "table" : "CRMComplianSourceLine",
   "module" : "system-tables",
+  "en" : "CRM Complian Source Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/CRMComplianSourceLine.html",
   "fields" : [ {
     "id" : "date",

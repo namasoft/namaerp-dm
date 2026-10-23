@@ -2,6 +2,7 @@
   "entity" : "ACCSideConfigSysLine",
   "table" : "ACCSideConfigSysLine",
   "module" : "system-tables",
+  "en" : "ACC Side Config Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/ACCSideConfigSysLine.html",
   "fields" : [ {
     "id" : "accConfig.accountRef",

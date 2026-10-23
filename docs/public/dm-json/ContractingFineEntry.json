@@ -2,6 +2,7 @@
   "entity" : "ContractingFineEntry",
   "table" : "ContractingFineEntry",
   "module" : "system-tables",
+  "en" : "Contracting Fine Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/ContractingFineEntry.html",
   "fields" : [ {
     "id" : "contract",

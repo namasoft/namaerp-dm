@@ -2,6 +2,7 @@
   "entity" : "POS.POSActionLine",
   "table" : "POSActionLine",
   "module" : "pos-app",
+  "en" : "POS Action Line",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSActionLine.html",
   "fields" : [ {
     "id" : "actionDate",

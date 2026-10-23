@@ -2,6 +2,7 @@
   "entity" : "DebtLineMatcher",
   "table" : "DebtLineMatcher",
   "module" : "system-tables",
+  "en" : "Debt Line Matcher",
   "page" : "https://dm.namasoft.com/modules/system-tables/DebtLineMatcher.html",
   "fields" : [ {
     "id" : "creditLine",

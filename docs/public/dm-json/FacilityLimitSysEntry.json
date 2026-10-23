@@ -2,6 +2,7 @@
   "entity" : "FacilityLimitSysEntry",
   "table" : "FacilityLimitSysEntry",
   "module" : "system-tables",
+  "en" : "Facility Limit Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/FacilityLimitSysEntry.html",
   "fields" : [ {
     "id" : "amount",

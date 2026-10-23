@@ -2,6 +2,7 @@
   "entity" : "DocToCreateFPLine",
   "table" : "DocToCreateFPLine",
   "module" : "system-tables",
+  "en" : "Doc To Create FP Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/DocToCreateFPLine.html",
   "fields" : [ {
     "id" : "doc",

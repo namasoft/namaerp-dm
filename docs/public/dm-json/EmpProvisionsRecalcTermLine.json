@@ -2,6 +2,7 @@
   "entity" : "EmpProvisionsRecalcTermLine",
   "table" : "EmpProvisionsRecalcTermLine",
   "module" : "system-tables",
+  "en" : "Emp Provisions Recalc Term Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/EmpProvisionsRecalcTermLine.html",
   "fields" : [ {
     "id" : "divideOn",

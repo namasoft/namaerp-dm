@@ -4,6 +4,7 @@
   "module" : "basic",
   "ar" : "ملاحظة",
   "arPlural" : "الملاحظات",
+  "en" : "Remark",
   "page" : "https://dm.namasoft.com/modules/basic/Remark.html",
   "fields" : [ {
     "id" : "altCode",

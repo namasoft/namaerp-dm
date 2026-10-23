@@ -2,6 +2,7 @@
   "entity" : "EntityVersion",
   "table" : "EntityVersion",
   "module" : "system-tables",
+  "en" : "Entity Version",
   "page" : "https://dm.namasoft.com/modules/system-tables/EntityVersion.html",
   "fields" : [ {
     "id" : "author",

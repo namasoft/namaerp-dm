@@ -2,6 +2,7 @@
   "entity" : "TooltipPart",
   "table" : "TooltipPart",
   "module" : "system-tables",
+  "en" : "Tooltip Part",
   "page" : "https://dm.namasoft.com/modules/system-tables/TooltipPart.html",
   "fields" : [ {
     "id" : "arabic",

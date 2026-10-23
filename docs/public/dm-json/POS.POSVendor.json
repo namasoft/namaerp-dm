@@ -4,6 +4,7 @@
   "module" : "pos-app",
   "ar" : "مورد",
   "arPlural" : "الموردين",
+  "en" : "Supplier",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSVendor.html",
   "fields" : [ {
     "id" : "code",

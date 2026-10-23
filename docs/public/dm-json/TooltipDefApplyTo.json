@@ -2,6 +2,7 @@
   "entity" : "TooltipDefApplyTo",
   "table" : "TooltipDefApplyTo",
   "module" : "system-tables",
+  "en" : "Tooltip Def Apply To",
   "page" : "https://dm.namasoft.com/modules/system-tables/TooltipDefApplyTo.html",
   "fields" : [ {
     "id" : "allowDisallow",

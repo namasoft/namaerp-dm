@@ -2,6 +2,7 @@
   "entity" : "POS.POSError",
   "table" : "POSError",
   "module" : "pos-app",
+  "en" : "POS Error",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSError.html",
   "fields" : [ {
     "id" : "code",

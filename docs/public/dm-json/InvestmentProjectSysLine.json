@@ -2,6 +2,7 @@
   "entity" : "InvestmentProjectSysLine",
   "table" : "InvestmentProjectSysLine",
   "module" : "system-tables",
+  "en" : "Investment Project Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/InvestmentProjectSysLine.html",
   "fields" : [ {
     "id" : "creationDate",

@@ -2,6 +2,7 @@
   "entity" : "InBusMessage",
   "table" : "InBusMessage",
   "module" : "system-tables",
+  "en" : "In Bus Message",
   "page" : "https://dm.namasoft.com/modules/system-tables/InBusMessage.html",
   "fields" : [ {
     "id" : "altCode",

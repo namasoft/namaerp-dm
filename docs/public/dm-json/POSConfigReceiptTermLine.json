@@ -2,6 +2,7 @@
   "entity" : "POSConfigReceiptTermLine",
   "table" : "POSConfigReceiptTermLine",
   "module" : "system-tables",
+  "en" : "POS Config Receipt Term Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSConfigReceiptTermLine.html",
   "fields" : [ {
     "id" : "docCategory",

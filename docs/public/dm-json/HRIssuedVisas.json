@@ -4,6 +4,7 @@
   "module" : "humanresource-gulf-visa",
   "ar" : "تأشيرات صادرة",
   "arPlural" : " تأشيرات صادرة",
+  "en" : "HR Issued Visas",
   "enPlural" : " HRIssuedVisas",
   "page" : "https://dm.namasoft.com/modules/humanresource-gulf-visa/HRIssuedVisas.html",
   "fields" : [ {

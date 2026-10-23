@@ -2,6 +2,7 @@
   "entity" : "OfferOnItemsCountSysLine",
   "table" : "OfferOnItemsCountSysLine",
   "module" : "system-tables",
+  "en" : "Offer On Items Count Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/OfferOnItemsCountSysLine.html",
   "fields" : [ {
     "id" : "brand",

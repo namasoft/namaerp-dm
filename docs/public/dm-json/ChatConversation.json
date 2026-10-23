@@ -2,6 +2,7 @@
   "entity" : "ChatConversation",
   "table" : "ChatConversation",
   "module" : "system-tables",
+  "en" : "Chat Conversation",
   "page" : "https://dm.namasoft.com/modules/system-tables/ChatConversation.html",
   "fields" : [ {
     "id" : "chatConversationType",

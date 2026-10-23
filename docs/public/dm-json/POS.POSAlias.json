@@ -2,6 +2,7 @@
   "entity" : "POS.POSAlias",
   "table" : "POSAlias",
   "module" : "pos-app",
+  "en" : "POS Alias",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSAlias.html",
   "fields" : [ {
     "id" : "entityCode",

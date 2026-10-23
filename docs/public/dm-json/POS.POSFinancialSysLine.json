@@ -2,6 +2,7 @@
   "entity" : "POS.POSFinancialSysLine",
   "table" : "POSFinancialSysLine",
   "module" : "pos-app",
+  "en" : "POS Financial Sys Line",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSFinancialSysLine.html",
   "fields" : [ {
     "id" : "cash",

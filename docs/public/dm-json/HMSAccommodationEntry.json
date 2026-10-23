@@ -2,6 +2,7 @@
   "entity" : "HMSAccommodationEntry",
   "table" : "HMSAccommodationEntry",
   "module" : "system-tables",
+  "en" : "HMS Accommodation Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/HMSAccommodationEntry.html",
   "fields" : [ {
     "id" : "absoluteOrderIndex",

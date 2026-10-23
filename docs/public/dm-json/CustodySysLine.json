@@ -2,6 +2,7 @@
   "entity" : "CustodySysLine",
   "table" : "CustodySysLine",
   "module" : "system-tables",
+  "en" : "Custody Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/CustodySysLine.html",
   "fields" : [ {
     "id" : "custodyId",

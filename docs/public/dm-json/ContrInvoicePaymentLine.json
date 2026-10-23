@@ -2,6 +2,7 @@
   "entity" : "ContrInvoicePaymentLine",
   "table" : "ContrInvoicePaymentLine",
   "module" : "system-tables",
+  "en" : "Contr Invoice Payment Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/ContrInvoicePaymentLine.html",
   "fields" : [ {
     "id" : "afterFeesValue",

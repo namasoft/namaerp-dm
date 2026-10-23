@@ -2,6 +2,7 @@
   "entity" : "SavedEntityRequest",
   "table" : "SavedEntityRequest",
   "module" : "system-tables",
+  "en" : "Saved Entity Request",
   "page" : "https://dm.namasoft.com/modules/system-tables/SavedEntityRequest.html",
   "fields" : [ {
     "id" : "id",

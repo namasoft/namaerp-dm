@@ -2,6 +2,7 @@
   "entity" : "PurchasePriceSysLine",
   "table" : "PurchasePriceSysLine",
   "module" : "system-tables",
+  "en" : "Purchase Price Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/PurchasePriceSysLine.html",
   "fields" : [ {
     "id" : "applyInvoiceDiscounts",

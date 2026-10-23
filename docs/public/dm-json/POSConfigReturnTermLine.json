@@ -2,6 +2,7 @@
   "entity" : "POSConfigReturnTermLine",
   "table" : "POSConfigReturnTermLine",
   "module" : "system-tables",
+  "en" : "POS Config Return Term Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSConfigReturnTermLine.html",
   "fields" : [ {
     "id" : "docCategory",

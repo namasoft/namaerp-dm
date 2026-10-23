@@ -2,6 +2,7 @@
   "entity" : "ChatMessage",
   "table" : "ChatMessage",
   "module" : "system-tables",
+  "en" : "Chat Message",
   "page" : "https://dm.namasoft.com/modules/system-tables/ChatMessage.html",
   "fields" : [ {
     "id" : "attachment",

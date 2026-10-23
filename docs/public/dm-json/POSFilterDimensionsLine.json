@@ -2,6 +2,7 @@
   "entity" : "POSFilterDimensionsLine",
   "table" : "POSFilterDimensionsLine",
   "module" : "system-tables",
+  "en" : "POS Filter Dimensions Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSFilterDimensionsLine.html",
   "fields" : [ {
     "id" : "entityTypeList",

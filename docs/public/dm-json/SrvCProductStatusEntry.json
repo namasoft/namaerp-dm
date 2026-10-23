@@ -2,6 +2,7 @@
   "entity" : "SrvCProductStatusEntry",
   "table" : "SrvCProductStatusEntry",
   "module" : "system-tables",
+  "en" : "Srv C Product Status Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/SrvCProductStatusEntry.html",
   "fields" : [ {
     "id" : "creationDate",

@@ -2,6 +2,7 @@
   "entity" : "SCBox",
   "table" : "SCBox",
   "module" : "system-tables",
+  "en" : "SC Box",
   "page" : "https://dm.namasoft.com/modules/system-tables/SCBox.html",
   "fields" : [ {
     "id" : "box",

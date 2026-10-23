@@ -2,6 +2,7 @@
   "entity" : "BLCEntry",
   "table" : "BLCEntry",
   "module" : "system-tables",
+  "en" : "BLC Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/BLCEntry.html",
   "fields" : [ {
     "id" : "blc",

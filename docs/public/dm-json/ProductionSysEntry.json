@@ -2,6 +2,7 @@
   "entity" : "ProductionSysEntry",
   "table" : "ProductionSysEntry",
   "module" : "system-tables",
+  "en" : "Production Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/ProductionSysEntry.html",
   "fields" : [ {
     "id" : "id",

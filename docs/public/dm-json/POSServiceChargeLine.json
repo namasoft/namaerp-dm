@@ -2,6 +2,7 @@
   "entity" : "POSServiceChargeLine",
   "table" : "POSServiceChargeLine",
   "module" : "system-tables",
+  "en" : "POS Service Charge Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSServiceChargeLine.html",
   "fields" : [ {
     "id" : "fromDate",

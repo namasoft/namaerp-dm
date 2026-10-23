@@ -2,6 +2,7 @@
   "entity" : "DeliveryTransactionEntry",
   "table" : "DeliveryTransactionEntry",
   "module" : "system-tables",
+  "en" : "Delivery Transaction Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/DeliveryTransactionEntry.html",
   "fields" : [ {
     "id" : "creationDate",

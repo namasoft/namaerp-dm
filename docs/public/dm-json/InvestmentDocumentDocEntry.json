@@ -2,6 +2,7 @@
   "entity" : "InvestmentDocumentDocEntry",
   "table" : "InvestmentDocumentDocEntry",
   "module" : "system-tables",
+  "en" : "Investment Document Doc Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/InvestmentDocumentDocEntry.html",
   "fields" : [ {
     "id" : "changeInCount",

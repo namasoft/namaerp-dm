@@ -2,6 +2,7 @@
   "entity" : "DatanuumRequestLog",
   "table" : "DatanuumRequestLog",
   "module" : "system-tables",
+  "en" : "Datanuum Request Log",
   "page" : "https://dm.namasoft.com/modules/system-tables/DatanuumRequestLog.html",
   "fields" : [ {
     "id" : "code",

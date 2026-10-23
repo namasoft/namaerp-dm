@@ -2,6 +2,7 @@
   "entity" : "EmpAttendanceSysLine",
   "table" : "EmpAttendanceSysLine",
   "module" : "system-tables",
+  "en" : "Emp Attendance Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/EmpAttendanceSysLine.html",
   "fields" : [ {
     "id" : "abscence",

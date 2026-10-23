@@ -2,6 +2,7 @@
   "entity" : "FailedReplicationMessage",
   "table" : "FailedReplicationMessage",
   "module" : "system-tables",
+  "en" : "Failed Replication Message",
   "page" : "https://dm.namasoft.com/modules/system-tables/FailedReplicationMessage.html",
   "fields" : [ {
     "id" : "altCode",

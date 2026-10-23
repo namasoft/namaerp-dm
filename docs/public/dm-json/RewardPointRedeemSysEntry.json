@@ -2,6 +2,7 @@
   "entity" : "RewardPointRedeemSysEntry",
   "table" : "RewardPointRedeemSysEntry",
   "module" : "system-tables",
+  "en" : "Reward Point Redeem Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/RewardPointRedeemSysEntry.html",
   "fields" : [ {
     "id" : "coupon",

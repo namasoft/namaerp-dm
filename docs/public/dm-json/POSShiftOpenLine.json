@@ -2,6 +2,7 @@
   "entity" : "POSShiftOpenLine",
   "table" : "POSShiftOpenLine",
   "module" : "system-tables",
+  "en" : "POS Shift Open Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSShiftOpenLine.html",
   "fields" : [ {
     "id" : "accountantRemaining",

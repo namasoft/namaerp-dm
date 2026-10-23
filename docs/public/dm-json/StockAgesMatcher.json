@@ -2,6 +2,7 @@
   "entity" : "StockAgesMatcher",
   "table" : "StockAgesMatcher",
   "module" : "system-tables",
+  "en" : "Stock Ages Matcher",
   "page" : "https://dm.namasoft.com/modules/system-tables/StockAgesMatcher.html",
   "fields" : [ {
     "id" : "id",

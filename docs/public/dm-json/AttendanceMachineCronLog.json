@@ -2,6 +2,7 @@
   "entity" : "AttendanceMachineCronLog",
   "table" : "AttendanceMachineCronLog",
   "module" : "system-tables",
+  "en" : "Attendance Machine Cron Log",
   "page" : "https://dm.namasoft.com/modules/system-tables/AttendanceMachineCronLog.html",
   "fields" : [ {
     "id" : "areaAlias",

@@ -2,6 +2,7 @@
   "entity" : "ManuallyCodedTermsEntities",
   "table" : "ManuallyCodedTermsEntities",
   "module" : "system-tables",
+  "en" : "Manually Coded Terms Entities",
   "page" : "https://dm.namasoft.com/modules/system-tables/ManuallyCodedTermsEntities.html",
   "fields" : [ {
     "id" : "entityType",

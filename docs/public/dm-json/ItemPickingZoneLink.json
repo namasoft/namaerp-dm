@@ -328,7 +328,11 @@
   }, {
     "id" : "pickingZone",
     "column" : "pickingZone_id",
-    "type" : "Reference"
+    "ar" : "منطقة التجهيز",
+    "en" : "Picking Zone",
+    "type" : "Reference",
+    "refTo" : "PickingZone",
+    "refPath" : "/modules/supplychain-mobile-wms/PickingZone.html"
   }, {
     "id" : "preventUsage",
     "column" : "preventUsage",
@@ -341,6 +345,12 @@
     "ar" : "عدد مرات الطباعة",
     "en" : "Print Count",
     "type" : "Integer"
+  }, {
+    "id" : "priority",
+    "column" : "priority",
+    "ar" : "الأولوية",
+    "en" : "Priority",
+    "type" : "Long"
   }, {
     "id" : "ref1",
     "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
@@ -580,7 +590,9 @@
       "column" : "preferredPickingZone_id",
       "ar" : "منطقة التجهيز المفضلة",
       "en" : "Preferred Picking Zone",
-      "type" : "Reference"
+      "type" : "Reference",
+      "refTo" : "PickingZone",
+      "refPath" : "/modules/supplychain-mobile-wms/PickingZone.html"
     }, {
       "id" : "details.remarks",
       "column" : "remarks",

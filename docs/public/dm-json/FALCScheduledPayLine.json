@@ -2,6 +2,7 @@
   "entity" : "FALCScheduledPayLine",
   "table" : "FALCScheduledPayLine",
   "module" : "system-tables",
+  "en" : "FALC Scheduled Pay Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/FALCScheduledPayLine.html",
   "fields" : [ {
     "id" : "id",

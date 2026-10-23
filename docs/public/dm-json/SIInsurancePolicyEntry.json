@@ -2,6 +2,7 @@
   "entity" : "SIInsurancePolicyEntry",
   "table" : "SIInsurancePolicyEntry",
   "module" : "system-tables",
+  "en" : "SI Insurance Policy Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/SIInsurancePolicyEntry.html",
   "fields" : [ {
     "id" : "creationDate",

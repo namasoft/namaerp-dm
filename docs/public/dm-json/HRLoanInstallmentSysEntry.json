@@ -2,6 +2,7 @@
   "entity" : "HRLoanInstallmentSysEntry",
   "table" : "HRLoanInstallmentSysEntry",
   "module" : "system-tables",
+  "en" : "HR Loan Installment Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/HRLoanInstallmentSysEntry.html",
   "fields" : [ {
     "id" : "code",

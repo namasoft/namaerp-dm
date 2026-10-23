@@ -4,6 +4,7 @@
   "module" : "supplychain",
   "ar" : "تصنيف الفواتير",
   "arPlural" : "تصنيف الفواتير",
+  "en" : "Invoice Classification",
   "enPlural" : "InvoiceClassification",
   "page" : "https://dm.namasoft.com/modules/supplychain/InvoiceClassification.html",
   "fields" : [ {

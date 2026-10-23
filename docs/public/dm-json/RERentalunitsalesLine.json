@@ -2,6 +2,7 @@
   "entity" : "RERentalunitsalesLine",
   "table" : "RERentalunitsalesLine",
   "module" : "system-tables",
+  "en" : "RE Rentalunitsales Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/RERentalunitsalesLine.html",
   "fields" : [ {
     "id" : "amount",

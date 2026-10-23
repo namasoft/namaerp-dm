@@ -2,6 +2,7 @@
   "entity" : "ClosingEntryDocLine",
   "table" : "ClosingEntryDocLine",
   "module" : "system-tables",
+  "en" : "Closing Entry Doc Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/ClosingEntryDocLine.html",
   "fields" : [ {
     "id" : "closingEntry_id",

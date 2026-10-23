@@ -2,6 +2,7 @@
   "entity" : "CostOverdraftLine",
   "table" : "CostOverdraftLine",
   "module" : "system-tables",
+  "en" : "Cost Overdraft Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/CostOverdraftLine.html",
   "fields" : [ {
     "id" : "cost",

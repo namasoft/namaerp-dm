@@ -2,6 +2,7 @@
   "entity" : "SectorParentLine",
   "table" : "SectorParentLine",
   "module" : "system-tables",
+  "en" : "Sector Parent Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/SectorParentLine.html",
   "fields" : [ {
     "id" : "id",

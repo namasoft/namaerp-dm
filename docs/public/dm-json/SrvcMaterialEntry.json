@@ -2,6 +2,7 @@
   "entity" : "SrvcMaterialEntry",
   "table" : "SrvcMaterialEntry",
   "module" : "system-tables",
+  "en" : "Srvc Material Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/SrvcMaterialEntry.html",
   "fields" : [ {
     "id" : "id",

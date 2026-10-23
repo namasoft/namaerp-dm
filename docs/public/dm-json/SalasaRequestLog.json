@@ -2,6 +2,7 @@
   "entity" : "SalasaRequestLog",
   "table" : "SalasaRequestLog",
   "module" : "system-tables",
+  "en" : "Salasa Request Log",
   "page" : "https://dm.namasoft.com/modules/system-tables/SalasaRequestLog.html",
   "fields" : [ {
     "id" : "changeDeliveryStatusFrom",

@@ -2,6 +2,7 @@
   "entity" : "FALCItemExpenseLine",
   "table" : "FALCItemExpenseLine",
   "module" : "system-tables",
+  "en" : "FALC Item Expense Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/FALCItemExpenseLine.html",
   "fields" : [ {
     "id" : "fixedAsset",

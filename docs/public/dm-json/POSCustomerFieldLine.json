@@ -2,6 +2,7 @@
   "entity" : "POSCustomerFieldLine",
   "table" : "POSCustomerFieldLine",
   "module" : "system-tables",
+  "en" : "POS Customer Field Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSCustomerFieldLine.html",
   "fields" : [ {
     "id" : "field",

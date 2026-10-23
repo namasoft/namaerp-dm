@@ -4,6 +4,7 @@
   "module" : "accounting-investment",
   "ar" : "مستثمر",
   "arPlural" : "المستثمرين",
+  "en" : "Investor",
   "page" : "https://dm.namasoft.com/modules/accounting-investment/Investor.html",
   "fields" : [ {
     "id" : "analysisSet",

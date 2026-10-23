@@ -2,6 +2,7 @@
   "entity" : "NamaPOSErrorSysLine",
   "table" : "NamaPOSErrorSysLine",
   "module" : "system-tables",
+  "en" : "Nama POS Error Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/NamaPOSErrorSysLine.html",
   "fields" : [ {
     "id" : "entityCode",

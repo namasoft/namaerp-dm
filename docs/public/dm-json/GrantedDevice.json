@@ -2,6 +2,7 @@
   "entity" : "GrantedDevice",
   "table" : "GrantedDevice",
   "module" : "system-tables",
+  "en" : "Granted Device",
   "page" : "https://dm.namasoft.com/modules/system-tables/GrantedDevice.html",
   "fields" : [ {
     "id" : "createdDate",

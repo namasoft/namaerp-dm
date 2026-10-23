@@ -2,6 +2,7 @@
   "entity" : "PosReturnFromInvoiceEntry",
   "table" : "PosReturnFromInvoiceEntry",
   "module" : "system-tables",
+  "en" : "Pos Return From Invoice Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/PosReturnFromInvoiceEntry.html",
   "fields" : [ {
     "id" : "documentId",

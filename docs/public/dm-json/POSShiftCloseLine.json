@@ -2,6 +2,7 @@
   "entity" : "POSShiftCloseLine",
   "table" : "POSShiftCloseLine",
   "module" : "system-tables",
+  "en" : "POS Shift Close Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSShiftCloseLine.html",
   "fields" : [ {
     "id" : "accountantRemaining",

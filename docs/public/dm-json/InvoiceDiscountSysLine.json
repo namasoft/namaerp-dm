@@ -2,6 +2,7 @@
   "entity" : "InvoiceDiscountSysLine",
   "table" : "InvoiceDiscountSysLine",
   "module" : "system-tables",
+  "en" : "Invoice Discount Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/InvoiceDiscountSysLine.html",
   "fields" : [ {
     "id" : "capabilityId",

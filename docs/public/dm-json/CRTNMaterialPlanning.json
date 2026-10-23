@@ -1264,6 +1264,188 @@
       "type" : "Decimal"
     } ]
   }, {
+    "id" : "manualAdjustmentsInMaterialPlanning",
+    "table" : "CRTNMaterialPlanningManualAdjustmentLine",
+    "joinColumn" : "cRTNMaterialPlanning_id",
+    "ar" : "التعديل اليدوي في تخطيط الخامات",
+    "en" : "Manual Adjustment in Material Planning",
+    "fields" : [ {
+      "id" : "manualAdjustmentsInMaterialPlanning.cartonSpecs",
+      "column" : "cartonSpecs_id",
+      "ar" : "مواصفات الكرتونة",
+      "en" : "Carton Specs",
+      "type" : "Reference",
+      "refTo" : "CRTNSpecification",
+      "refPath" : "/modules/manufacturing-crtn-pln/CRTNSpecification.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.corrugatingFactor",
+      "column" : "corrugatingFactor_id",
+      "ar" : "معامل التضليع",
+      "en" : "Corrugating Factor",
+      "type" : "Reference",
+      "refTo" : "CRTNCorrugatingFactor",
+      "refPath" : "/modules/manufacturing-crtn-pln/CRTNCorrugatingFactor.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.corrugatingType",
+      "column" : "corrugatingType_id",
+      "ar" : "نوع التضليع",
+      "en" : "Corrugating Type",
+      "type" : "Reference",
+      "refTo" : "CRTNCorrugatingType",
+      "refPath" : "/modules/manufacturing-crtn-pln/CRTNCorrugatingType.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.finishedQty.uom",
+      "column" : "finishedQtyUom_id",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.finishedQty.value",
+      "column" : "finishedQtyValue",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.item",
+      "column" : "item_id",
+      "ar" : "الصنف",
+      "en" : "Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.itemClass1",
+      "column" : "itemClass1_id",
+      "ar" : "تصنيف 1",
+      "en" : "Class 1",
+      "type" : "Reference",
+      "refTo" : "ItemClass1",
+      "refPath" : "/modules/supplychain/ItemClass1.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.itemClass10",
+      "column" : "itemClass10_id",
+      "ar" : "تصنيف 10",
+      "en" : "Class 10",
+      "type" : "Reference",
+      "refTo" : "ItemClass10",
+      "refPath" : "/modules/supplychain/ItemClass10.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.itemClass2",
+      "column" : "itemClass2_id",
+      "ar" : "تصنيف 2",
+      "en" : "Class 2",
+      "type" : "Reference",
+      "refTo" : "ItemClass2",
+      "refPath" : "/modules/supplychain/ItemClass2.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.itemClass3",
+      "column" : "itemClass3_id",
+      "ar" : "تصنيف 3",
+      "en" : "Class 3",
+      "type" : "Reference",
+      "refTo" : "ItemClass3",
+      "refPath" : "/modules/supplychain/ItemClass3.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.itemClass4",
+      "column" : "itemClass4_id",
+      "ar" : "تصنيف 4",
+      "en" : "Class 4",
+      "type" : "Reference",
+      "refTo" : "ItemClass4",
+      "refPath" : "/modules/supplychain/ItemClass4.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.itemClass5",
+      "column" : "itemClass5_id",
+      "ar" : "تصنيف 5",
+      "en" : "Class 5",
+      "type" : "Reference",
+      "refTo" : "ItemClass5",
+      "refPath" : "/modules/supplychain/ItemClass5.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.itemClass6",
+      "column" : "itemClass6_id",
+      "ar" : "تصنيف 6",
+      "en" : "Class 6",
+      "type" : "Reference",
+      "refTo" : "ItemClass6",
+      "refPath" : "/modules/supplychain/ItemClass6.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.itemClass7",
+      "column" : "itemClass7_id",
+      "ar" : "تصنيف 7",
+      "en" : "Class 7",
+      "type" : "Reference",
+      "refTo" : "ItemClass7",
+      "refPath" : "/modules/supplychain/ItemClass7.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.itemClass8",
+      "column" : "itemClass8_id",
+      "ar" : "تصنيف 8",
+      "en" : "Class 8",
+      "type" : "Reference",
+      "refTo" : "ItemClass8",
+      "refPath" : "/modules/supplychain/ItemClass8.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.itemClass9",
+      "column" : "itemClass9_id",
+      "ar" : "تصنيف 9",
+      "en" : "Class 9",
+      "type" : "Reference",
+      "refTo" : "ItemClass9",
+      "refPath" : "/modules/supplychain/ItemClass9.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.layerType",
+      "column" : "layerType",
+      "ar" : "نوع الطبقة",
+      "en" : "Layer Type",
+      "type" : "Enum",
+      "enum" : "CRTNLayerType"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.materialQty.uom",
+      "column" : "materialQtyUom_id",
+      "ar" : "كمية الخامة | الوحدة",
+      "en" : "Unit",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.materialQty.value",
+      "column" : "materialQtyValue",
+      "ar" : "كمية الخامة | الكمية",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.section",
+      "column" : "section_id",
+      "ar" : "قسم الصنف",
+      "en" : "Item Section",
+      "type" : "Reference",
+      "refTo" : "ItemSection",
+      "refPath" : "/modules/supplychain/ItemSection.html"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.sourceLineId",
+      "column" : "sourceLineId",
+      "ar" : "معرف سطر المصدر",
+      "en" : "Source Line Id",
+      "type" : "ID"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning.stageLineNumber",
+      "column" : "stageLineNumber",
+      "ar" : "رقم سطر المرحلة",
+      "en" : "Stage Line Number",
+      "type" : "Text"
+    } ]
+  }, {
     "id" : "materials",
     "table" : "CRTNMaterialPlanningMaterialLine",
     "joinColumn" : "cRTNMaterialPlanning_id",

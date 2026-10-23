@@ -2,6 +2,7 @@
   "entity" : "DimensionsBalance",
   "table" : "DimensionsBalance",
   "module" : "system-tables",
+  "en" : "Dimensions Balance",
   "page" : "https://dm.namasoft.com/modules/system-tables/DimensionsBalance.html",
   "fields" : [ {
     "id" : "account",

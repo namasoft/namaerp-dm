@@ -2,6 +2,7 @@
   "entity" : "AllowedEmployeeStatusesForLoanDocument",
   "table" : "AllowedEmployeeStatusesForLoanDocument",
   "module" : "system-tables",
+  "en" : "Allowed Employee Statuses For Loan Document",
   "page" : "https://dm.namasoft.com/modules/system-tables/AllowedEmployeeStatusesForLoanDocument.html",
   "fields" : [ {
     "id" : "employeeState",

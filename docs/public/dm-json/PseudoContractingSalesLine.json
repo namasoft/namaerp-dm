@@ -2,6 +2,7 @@
   "entity" : "PseudoContractingSalesLine",
   "table" : "PseudoContractingSalesLine",
   "module" : "system-tables",
+  "en" : "Pseudo Contracting Sales Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/PseudoContractingSalesLine.html",
   "fields" : [ {
     "id" : "additionalCosts",

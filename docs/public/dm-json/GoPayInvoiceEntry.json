@@ -2,6 +2,7 @@
   "entity" : "GoPayInvoiceEntry",
   "table" : "GoPayInvoiceEntry",
   "module" : "system-tables",
+  "en" : "Go Pay Invoice Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/GoPayInvoiceEntry.html",
   "fields" : [ {
     "id" : "billNumber",

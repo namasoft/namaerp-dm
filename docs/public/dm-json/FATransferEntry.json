@@ -2,6 +2,7 @@
   "entity" : "FATransferEntry",
   "table" : "FATransferEntry",
   "module" : "system-tables",
+  "en" : "FA Transfer Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/FATransferEntry.html",
   "fields" : [ {
     "id" : "custody",

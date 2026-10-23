@@ -2,6 +2,7 @@
   "entity" : "POS.POSRegisterContactInfoLine",
   "table" : "POSRegisterContactInfoLine",
   "module" : "pos-app",
+  "en" : "POS Register Contact Info Line",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSRegisterContactInfoLine.html",
   "fields" : [ {
     "id" : "id",

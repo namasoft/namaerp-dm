@@ -4,6 +4,7 @@
   "module" : "supplychain-sales",
   "ar" : "موسم",
   "arPlural" : "مواسم",
+  "en" : "Season",
   "page" : "https://dm.namasoft.com/modules/supplychain-sales/Season.html",
   "fields" : [ {
     "id" : "analysisSet",

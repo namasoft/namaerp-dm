@@ -4,6 +4,7 @@
   "module" : "joborder",
   "ar" : "تشغيلة",
   "arPlural" : "التشغيلات",
+  "en" : "JO Operation",
   "page" : "https://dm.namasoft.com/modules/joborder/JOOperation.html",
   "fields" : [ {
     "id" : "analysisSet",

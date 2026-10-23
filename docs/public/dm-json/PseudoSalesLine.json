@@ -2,6 +2,7 @@
   "entity" : "PseudoSalesLine",
   "table" : "PseudoSalesLine",
   "module" : "system-tables",
+  "en" : "Pseudo Sales Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/PseudoSalesLine.html",
   "fields" : [ {
     "id" : "activeDoc",

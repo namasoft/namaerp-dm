@@ -2,6 +2,7 @@
   "entity" : "DLVDeliveryStatusEventLine",
   "table" : "DLVDeliveryStatusEventLine",
   "module" : "system-tables",
+  "en" : "DLV Delivery Status Event Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/DLVDeliveryStatusEventLine.html",
   "fields" : [ {
     "id" : "event",

@@ -2,6 +2,7 @@
   "entity" : "SysVacBalanceTransaction",
   "table" : "SysVacBalanceTransaction",
   "module" : "system-tables",
+  "en" : "Sys Vac Balance Transaction",
   "page" : "https://dm.namasoft.com/modules/system-tables/SysVacBalanceTransaction.html",
   "fields" : [ {
     "id" : "addedBalance",

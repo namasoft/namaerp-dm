@@ -2,6 +2,7 @@
   "entity" : "SysVacationsBalance",
   "table" : "SysVacationsBalance",
   "module" : "system-tables",
+  "en" : "Sys Vacations Balance",
   "page" : "https://dm.namasoft.com/modules/system-tables/SysVacationsBalance.html",
   "fields" : [ {
     "id" : "balance",

@@ -2,6 +2,7 @@
   "entity" : "POSStockReceiptMainLine",
   "table" : "POSStockReceiptMainLine",
   "module" : "system-tables",
+  "en" : "POS Stock Receipt Main Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSStockReceiptMainLine.html",
   "fields" : [ {
     "id" : "field",

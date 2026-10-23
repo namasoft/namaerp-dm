@@ -2,6 +2,7 @@
   "entity" : "SavedBusinessRequest",
   "table" : "SavedBusinessRequest",
   "module" : "system-tables",
+  "en" : "Saved Business Request",
   "page" : "https://dm.namasoft.com/modules/system-tables/SavedBusinessRequest.html",
   "fields" : [ {
     "id" : "analysisSet",

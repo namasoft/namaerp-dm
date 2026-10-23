@@ -2,6 +2,7 @@
   "entity" : "PendingSystemAction",
   "table" : "PendingSystemAction",
   "module" : "system-tables",
+  "en" : "Pending System Action",
   "page" : "https://dm.namasoft.com/modules/system-tables/PendingSystemAction.html",
   "fields" : [ {
     "id" : "actionType",

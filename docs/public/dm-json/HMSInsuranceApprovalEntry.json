@@ -2,6 +2,7 @@
   "entity" : "HMSInsuranceApprovalEntry",
   "table" : "HMSInsuranceApprovalEntry",
   "module" : "system-tables",
+  "en" : "HMS Insurance Approval Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/HMSInsuranceApprovalEntry.html",
   "fields" : [ {
     "id" : "id",

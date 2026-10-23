@@ -2,6 +2,7 @@
   "entity" : "InvoiceFreeItemSysLine",
   "table" : "InvoiceFreeItemSysLine",
   "module" : "system-tables",
+  "en" : "Invoice Free Item Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/InvoiceFreeItemSysLine.html",
   "fields" : [ {
     "id" : "capabilityId",

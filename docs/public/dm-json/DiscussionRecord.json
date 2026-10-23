@@ -2,6 +2,7 @@
   "entity" : "DiscussionRecord",
   "table" : "DiscussionRecord",
   "module" : "system-tables",
+  "en" : "Discussion Record",
   "page" : "https://dm.namasoft.com/modules/system-tables/DiscussionRecord.html",
   "fields" : [ {
     "id" : "attachment1",

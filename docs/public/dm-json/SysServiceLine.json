@@ -2,6 +2,7 @@
   "entity" : "SysServiceLine",
   "table" : "SysServiceLine",
   "module" : "system-tables",
+  "en" : "Sys Service Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/SysServiceLine.html",
   "fields" : [ {
     "id" : "customer",

@@ -2,6 +2,7 @@
   "entity" : "InsurancePolicyRemovingLine",
   "table" : "InsurancePolicyRemovingLine",
   "module" : "system-tables",
+  "en" : "Insurance Policy Removing Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/InsurancePolicyRemovingLine.html",
   "fields" : [ {
     "id" : "addDriverInsurance",

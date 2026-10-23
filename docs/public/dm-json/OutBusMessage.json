@@ -2,6 +2,7 @@
   "entity" : "OutBusMessage",
   "table" : "OutBusMessage",
   "module" : "system-tables",
+  "en" : "Out Bus Message",
   "page" : "https://dm.namasoft.com/modules/system-tables/OutBusMessage.html",
   "fields" : [ {
     "id" : "altCode",

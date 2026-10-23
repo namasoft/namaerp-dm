@@ -2,6 +2,7 @@
   "entity" : "BlockTree",
   "table" : "BlockTree",
   "module" : "system-tables",
+  "en" : "Block Tree",
   "page" : "https://dm.namasoft.com/modules/system-tables/BlockTree.html",
   "fields" : [ {
     "id" : "id",

@@ -2,6 +2,7 @@
   "entity" : "SrvCProductLastService",
   "table" : "SrvCProductLastService",
   "module" : "system-tables",
+  "en" : "Srv C Product Last Service",
   "page" : "https://dm.namasoft.com/modules/system-tables/SrvCProductLastService.html",
   "fields" : [ {
     "id" : "id",

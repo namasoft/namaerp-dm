@@ -2,6 +2,7 @@
   "entity" : "ClosingEntryPostedLine",
   "table" : "ClosingEntryPostedLine",
   "module" : "system-tables",
+  "en" : "Closing Entry Posted Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/ClosingEntryPostedLine.html",
   "fields" : [ {
     "id" : "closingEntry_id",

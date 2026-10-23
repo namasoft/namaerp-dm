@@ -2,6 +2,7 @@
   "entity" : "SalesOrderCouponSysEntry",
   "table" : "SalesOrderCouponSysEntry",
   "module" : "system-tables",
+  "en" : "Sales Order Coupon Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/SalesOrderCouponSysEntry.html",
   "fields" : [ {
     "id" : "code",

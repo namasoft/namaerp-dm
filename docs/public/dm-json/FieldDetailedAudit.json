@@ -2,6 +2,7 @@
   "entity" : "FieldDetailedAudit",
   "table" : "FieldDetailedAudit",
   "module" : "system-tables",
+  "en" : "Field Detailed Audit",
   "page" : "https://dm.namasoft.com/modules/system-tables/FieldDetailedAudit.html",
   "fields" : [ {
     "id" : "actionDate",

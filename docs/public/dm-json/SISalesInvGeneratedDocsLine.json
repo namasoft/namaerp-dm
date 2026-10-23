@@ -2,6 +2,7 @@
   "entity" : "SISalesInvGeneratedDocsLine",
   "table" : "SISalesInvGeneratedDocsLine",
   "module" : "system-tables",
+  "en" : "SI Sales Inv Generated Docs Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/SISalesInvGeneratedDocsLine.html",
   "fields" : [ {
     "id" : "document",

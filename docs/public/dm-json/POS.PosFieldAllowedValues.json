@@ -2,6 +2,7 @@
   "entity" : "POS.PosFieldAllowedValues",
   "table" : "PosFieldAllowedValues",
   "module" : "pos-app",
+  "en" : "Pos Field Allowed Values",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.PosFieldAllowedValues.html",
   "fields" : [ {
     "id" : "allowedValues",

@@ -4,6 +4,7 @@
   "module" : "pos-app",
   "ar" : "قطاع",
   "arPlural" : "قطاعات",
+  "en" : "Sector",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSSector.html",
   "fields" : [ {
     "id" : "code",

@@ -4,6 +4,7 @@
   "module" : "accounting",
   "ar" : "حساب",
   "arPlural" : "الحسابات",
+  "en" : "Account",
   "enPlural" : "Detail Accounts",
   "page" : "https://dm.namasoft.com/modules/accounting/Account.html",
   "fields" : [ {
@@ -160,6 +161,13 @@
     "ar" : "تم الحفظ مسبقا",
     "en" : "Commited Before",
     "type" : "Boolean"
+  }, {
+    "id" : "consolidationRateType",
+    "column" : "consolidationRateType",
+    "ar" : "سعر الترجمة في التوحيد",
+    "en" : "Consolidation Rate",
+    "type" : "Enum",
+    "enum" : "ConsolidationRateType"
   }, {
     "id" : "createTransactionId",
     "column" : "createTransactionId",
@@ -454,6 +462,12 @@
     "id" : "indexInParent",
     "column" : "indexInParent",
     "type" : "Integer"
+  }, {
+    "id" : "intercompany",
+    "column" : "intercompany",
+    "ar" : "حساب بين شركات المجموعة",
+    "en" : "Intercompany",
+    "type" : "Boolean"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",

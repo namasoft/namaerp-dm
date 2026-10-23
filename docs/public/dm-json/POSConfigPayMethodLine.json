@@ -2,6 +2,7 @@
   "entity" : "POSConfigPayMethodLine",
   "table" : "POSConfigPayMethodLine",
   "module" : "system-tables",
+  "en" : "POS Config Pay Method Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSConfigPayMethodLine.html",
   "fields" : [ {
     "id" : "cashMethod",

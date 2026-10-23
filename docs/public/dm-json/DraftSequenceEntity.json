@@ -2,6 +2,7 @@
   "entity" : "DraftSequenceEntity",
   "table" : "DraftSequenceEntity",
   "module" : "system-tables",
+  "en" : "Draft Sequence Entity",
   "page" : "https://dm.namasoft.com/modules/system-tables/DraftSequenceEntity.html",
   "fields" : [ {
     "id" : "id",

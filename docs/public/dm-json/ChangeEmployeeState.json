@@ -4,6 +4,7 @@
   "module" : "humanresource-payroll",
   "ar" : "تغير حالة موظف",
   "arPlural" : " تغير حالة موظف",
+  "en" : "Change Employee State",
   "enPlural" : " ChangeEmployeeState",
   "page" : "https://dm.namasoft.com/modules/humanresource-payroll/ChangeEmployeeState.html",
   "fields" : [ {

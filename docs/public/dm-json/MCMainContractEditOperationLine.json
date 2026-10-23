@@ -2,6 +2,7 @@
   "entity" : "MCMainContractEditOperationLine",
   "table" : "MCMainContractEditOperationLine",
   "module" : "system-tables",
+  "en" : "MC Main Contract Edit Operation Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/MCMainContractEditOperationLine.html",
   "fields" : [ {
     "id" : "code",

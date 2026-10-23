@@ -2,6 +2,7 @@
   "entity" : "RealEstateTaxPlan",
   "table" : "RealEstateTaxPlan",
   "module" : "system-tables",
+  "en" : "Real Estate Tax Plan",
   "page" : "https://dm.namasoft.com/modules/system-tables/RealEstateTaxPlan.html",
   "fields" : [ {
     "id" : "calculateTaxFromTotalPrice",

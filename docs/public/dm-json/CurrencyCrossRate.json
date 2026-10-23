@@ -1,0 +1,68 @@
+{
+  "entity" : "CurrencyCrossRate",
+  "table" : "CurrencyCrossRate",
+  "module" : "system-tables",
+  "en" : "Currency Cross Rate",
+  "page" : "https://dm.namasoft.com/modules/system-tables/CurrencyCrossRate.html",
+  "fields" : [ {
+    "id" : "derivation",
+    "column" : "derivation",
+    "ar" : "طريقة الاشتقاق",
+    "en" : "Derivation",
+    "type" : "Enum",
+    "enum" : "CurrencyRateDerivation"
+  }, {
+    "id" : "fromCurrency",
+    "column" : "fromCurrency_id",
+    "ar" : "من عملة",
+    "en" : "From Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "rate",
+    "column" : "rate",
+    "ar" : "المعدل",
+    "en" : "Rate",
+    "type" : "Decimal"
+  }, {
+    "id" : "rateKind",
+    "column" : "rateKind",
+    "ar" : "نوع السعر",
+    "en" : "Rate Kind",
+    "type" : "Enum",
+    "enum" : "CurrencyRateKind"
+  }, {
+    "id" : "sourceLedger",
+    "column" : "sourceLedger_id",
+    "ar" : "دفتر المصدر",
+    "en" : "Source Ledger",
+    "type" : "Reference",
+    "refTo" : "Ledger",
+    "refPath" : "/modules/accounting/Ledger.html"
+  }, {
+    "id" : "toCurrency",
+    "column" : "toCurrency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  } ]
+}

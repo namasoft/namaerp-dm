@@ -2,6 +2,7 @@
   "entity" : "STCLoyaltyPointsRewardEntry",
   "table" : "STCLoyaltyPointsRewardEntry",
   "module" : "system-tables",
+  "en" : "STC Loyalty Points Reward Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/STCLoyaltyPointsRewardEntry.html",
   "fields" : [ {
     "id" : "amount",

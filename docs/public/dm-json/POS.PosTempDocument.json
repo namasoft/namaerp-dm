@@ -2,6 +2,7 @@
   "entity" : "POS.PosTempDocument",
   "table" : "PosTempDocument",
   "module" : "pos-app",
+  "en" : "Pos Temp Document",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.PosTempDocument.html",
   "fields" : [ {
     "id" : "code",

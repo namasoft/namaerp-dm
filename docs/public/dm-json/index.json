@@ -3,19 +3,23 @@
   "entities" : [ {
     "name" : "ACCSideConfigSysLine",
     "table" : "ACCSideConfigSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "ACC Side Config Sys Line"
   }, {
     "name" : "AIChatMessage",
     "table" : "AIChatMessage",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "AI Chat Message"
   }, {
     "name" : "AIChatSession",
     "table" : "AIChatSession",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "AI Chat Session"
   }, {
     "name" : "AIEmbeddingFile",
     "table" : "AIEmbeddingFile",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "AI Embedding File"
   }, {
     "name" : "AINamaDocsFile",
     "table" : "AINamaDocsFile",
@@ -243,7 +247,8 @@
   }, {
     "name" : "AUFilePhaseLine",
     "table" : "AUFilePhaseLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "AU File Phase Line"
   }, {
     "name" : "AUIndependency",
     "table" : "AUIndependency",
@@ -514,7 +519,8 @@
     "name" : "Account",
     "table" : "Account",
     "module" : "accounting",
-    "ar" : "حساب"
+    "ar" : "حساب",
+    "en" : "Account"
   }, {
     "name" : "AccountCategory",
     "table" : "AccountCategory",
@@ -567,12 +573,14 @@
   }, {
     "name" : "ActionsHistory",
     "table" : "ActionsHistory",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Actions History"
   }, {
     "name" : "Activity",
     "table" : "Activity",
     "module" : "supplychain",
-    "ar" : "نشاط"
+    "ar" : "نشاط",
+    "en" : "Activity"
   }, {
     "name" : "ActualOverheadCalculator",
     "table" : "ActualOverheadCalculator",
@@ -609,7 +617,8 @@
   }, {
     "name" : "AdditionalCostLine",
     "table" : "AdditionalCostLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Additional Cost Line"
   }, {
     "name" : "AddressRegion",
     "table" : "AddressRegion",
@@ -827,7 +836,8 @@
   }, {
     "name" : "AggrRewardPenaltieLine",
     "table" : "AggrRewardPenaltieLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Aggr Reward Penaltie Line Ref"
   }, {
     "name" : "AggrStockTransferReq",
     "table" : "AggrStockTransferReq",
@@ -1030,15 +1040,18 @@
   }, {
     "name" : "Alias",
     "table" : "Alias",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Alias"
   }, {
     "name" : "AllManualDebtLines",
     "table" : "AllManualDebtLines",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "All Manual Debt Lines"
   }, {
     "name" : "AllowedEmployeeStatusesForLoanDocument",
     "table" : "AllowedEmployeeStatusesForLoanDocument",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Allowed Employee Statuses For Loan Document"
   }, {
     "name" : "AlwataniaDistConfig",
     "table" : "AlwataniaDistConfig",
@@ -1048,11 +1061,13 @@
   }, {
     "name" : "AlwataniaInvoiceLog",
     "table" : "AlwataniaInvoiceLog",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Alwatania Invoice Log"
   }, {
     "name" : "AlwataniaMasterDataLog",
     "table" : "AlwataniaMasterDataLog",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Alwatania Master Data Log"
   }, {
     "name" : "AnalysisSet",
     "table" : "AnalysisSet",
@@ -1069,7 +1084,8 @@
   }, {
     "name" : "AnalysisSetParentLine",
     "table" : "AnalysisSetParentLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Analysis Set Parent Line"
   }, {
     "name" : "AnnualIncreasesDoc",
     "table" : "AnnualIncreasesDoc",
@@ -1257,7 +1273,8 @@
   }, {
     "name" : "AssemblyPlannedDocLine",
     "table" : "AssemblyPlannedDocLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Assembly Planned Doc Line"
   }, {
     "name" : "AssemblyProcessFile",
     "table" : "AssemblyProcessFile",
@@ -1290,7 +1307,8 @@
   }, {
     "name" : "AtheerRequestLog",
     "table" : "AtheerRequestLog",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Atheer Request Log"
   }, {
     "name" : "AttachmentInfo",
     "table" : "AttachmentInfo",
@@ -1320,11 +1338,13 @@
   }, {
     "name" : "AttendanceMachineConfigStats",
     "table" : "AttendanceMachineConfigStats",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Attendance Machine Config Stats"
   }, {
     "name" : "AttendanceMachineCronLog",
     "table" : "AttendanceMachineCronLog",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Attendance Machine Cron Log"
   }, {
     "name" : "AttendanceMachineLogInbox",
     "table" : "AttendanceMachineLogInbox",
@@ -1385,7 +1405,8 @@
   }, {
     "name" : "AutoSystemAction",
     "table" : "AutoSystemAction",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Auto System Action"
   }, {
     "name" : "BICrossFilter",
     "table" : "BICrossFilter",
@@ -1413,7 +1434,8 @@
   }, {
     "name" : "BLCEntry",
     "table" : "BLCEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "BLC Entry"
   }, {
     "name" : "BLCOpeningDoc",
     "table" : "BLCOpeningDoc",
@@ -1431,6 +1453,7 @@
     "table" : "BOM",
     "module" : "manufacturing",
     "ar" : "مكونات منتج",
+    "en" : "BOM",
     "details" : [ {
       "id" : "coProducts",
       "table" : "BOMCoProductLine"
@@ -1442,7 +1465,8 @@
     "name" : "Bank",
     "table" : "Bank",
     "module" : "accounting-banks",
-    "ar" : "بنك"
+    "ar" : "بنك",
+    "en" : "Bank"
   }, {
     "name" : "BankAccount",
     "table" : "BankAccount",
@@ -1596,12 +1620,14 @@
   }, {
     "name" : "BlockTree",
     "table" : "BlockTree",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Block Tree"
   }, {
     "name" : "Branch",
     "table" : "Branch",
     "module" : "basic",
     "ar" : "فرع",
+    "en" : "Branch",
     "details" : [ {
       "id" : "parents",
       "table" : "Branch_Branch"
@@ -1612,7 +1638,8 @@
   }, {
     "name" : "BranchParentLine",
     "table" : "BranchParentLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Branch Parent Line"
   }, {
     "name" : "BudgetScenario",
     "table" : "BudgetScenario",
@@ -1658,7 +1685,8 @@
   }, {
     "name" : "CNTRTermCostEntry",
     "table" : "CNTRTermCostEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "CNTR Term Cost Entry"
   }, {
     "name" : "CPADiscipline",
     "table" : "CPADiscipline",
@@ -1668,7 +1696,8 @@
   }, {
     "name" : "CPAInvoiceAggregateLine",
     "table" : "CPAInvoiceAggregateLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "CPA Invoice Aggregate Line"
   }, {
     "name" : "CPAPhasesDisciplineGroup",
     "table" : "CPAPhasesDisciplineGroup",
@@ -1708,7 +1737,8 @@
   }, {
     "name" : "CPAProjReturnLine",
     "table" : "CPAProjReturnLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "CPA Proj Return Line"
   }, {
     "name" : "CPAProject",
     "table" : "CPAProject",
@@ -1835,7 +1865,8 @@
     "name" : "CPAProjectSubType",
     "table" : "CPAProjectSubType",
     "module" : "ecpa",
-    "ar" : "نوع مشروع فرعى"
+    "ar" : "نوع مشروع فرعى",
+    "en" : "CPA Project Sub Type"
   }, {
     "name" : "CPAProjectType",
     "table" : "CPAProjectType",
@@ -2054,7 +2085,8 @@
   }, {
     "name" : "CRMAssigningToSysEntry",
     "table" : "CRMAssigningToSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "CRM Assigning To Sys Entry"
   }, {
     "name" : "CRMCall",
     "table" : "CRMCall",
@@ -2134,7 +2166,8 @@
   }, {
     "name" : "CRMComplianSourceLine",
     "table" : "CRMComplianSourceLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "CRM Complian Source Line"
   }, {
     "name" : "CRMDevelopmentRequest",
     "table" : "CRMDevelopmentRequest",
@@ -2184,7 +2217,8 @@
   }, {
     "name" : "CRMLeadMovement",
     "table" : "CRMLeadMovement",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "CRM Lead Movement"
   }, {
     "name" : "CRMMainCategory",
     "table" : "CRMMainCategory",
@@ -2485,7 +2519,8 @@
     "name" : "CRTNCorrugatingType",
     "table" : "CRTNCorrugatingType",
     "module" : "manufacturing-crtn-pln",
-    "ar" : "نوع التضليع"
+    "ar" : "نوع التضليع",
+    "en" : "CRTN Corrugating Type"
   }, {
     "name" : "CRTNFluting",
     "table" : "CRTNFluting",
@@ -2532,6 +2567,9 @@
     }, {
       "id" : "items",
       "table" : "CRTNMaterialPlanningItemLine"
+    }, {
+      "id" : "manualAdjustmentsInMaterialPlanning",
+      "table" : "CRTNMaterialPlanningManualAdjustmentLine"
     }, {
       "id" : "materials",
       "table" : "CRTNMaterialPlanningMaterialLine"
@@ -2658,12 +2696,14 @@
   }, {
     "name" : "CapabilityUsageSysLine",
     "table" : "CapabilityUsageSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Capability Usage Sys Line"
   }, {
     "name" : "Car",
     "table" : "Car",
     "module" : "basic",
     "ar" : "سيارة",
+    "en" : "Car",
     "details" : [ {
       "id" : "lines",
       "table" : "CarCustodianLine"
@@ -2821,12 +2861,14 @@
   }, {
     "name" : "CashierTransactionEntry",
     "table" : "CashierTransactionEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Cashier Transaction Entry"
   }, {
     "name" : "ChangeEmployeeState",
     "table" : "ChangeEmployeeState",
     "module" : "humanresource-payroll",
-    "ar" : "تغير حالة موظف"
+    "ar" : "تغير حالة موظف",
+    "en" : "Change Employee State"
   }, {
     "name" : "ChargeItem",
     "table" : "ChargeItem",
@@ -2856,23 +2898,28 @@
   }, {
     "name" : "ChartTree",
     "table" : "ChartTree",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Chart Tree"
   }, {
     "name" : "ChatConversation",
     "table" : "ChatConversation",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Chat Conversation"
   }, {
     "name" : "ChatMessage",
     "table" : "ChatMessage",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Chat Message"
   }, {
     "name" : "ChatParticipant",
     "table" : "ChatParticipant",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Chat Participant"
   }, {
     "name" : "ClonePayReceiptEntry",
     "table" : "ClonePayReceiptEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Clone Pay Receipt Entry"
   }, {
     "name" : "ClosingEntry",
     "table" : "ClosingEntry",
@@ -2882,15 +2929,18 @@
   }, {
     "name" : "ClosingEntryBatch",
     "table" : "ClosingEntryBatch",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Closing Entry Batch"
   }, {
     "name" : "ClosingEntryDocLine",
     "table" : "ClosingEntryDocLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Closing Entry Doc Line"
   }, {
     "name" : "ClosingEntryPostedLine",
     "table" : "ClosingEntryPostedLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Closing Entry Posted Line"
   }, {
     "name" : "ComponentCalcFormula",
     "table" : "ComponentCalcFormula",
@@ -2929,7 +2979,8 @@
   }, {
     "name" : "ConfigSalaryComponentLine",
     "table" : "ConfigSalaryComponentLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Config Salary Component Line"
   }, {
     "name" : "ConsolidatedPVRequest",
     "table" : "ConsolidatedPVRequest",
@@ -2972,24 +3023,29 @@
   }, {
     "name" : "ContPaymentTransactionEntry",
     "table" : "ContPaymentTransactionEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Cont Payment Transaction Entry"
   }, {
     "name" : "Contact",
     "table" : "Contact",
     "module" : "basic",
-    "ar" : "جهة إتصال"
+    "ar" : "جهة إتصال",
+    "en" : "Contact"
   }, {
     "name" : "ContactInfoEntry",
     "table" : "ContactInfoEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Contact Info Entry"
   }, {
     "name" : "ContrCostExecutionEntry",
     "table" : "ContrCostExecutionEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Contr Cost Execution Entry"
   }, {
     "name" : "ContrDocToGenerateFPFrom",
     "table" : "ContrDocToGenerateFPFrom",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Contr Doc To Generate FP From"
   }, {
     "name" : "ContrEmployeeEquipInvoice",
     "table" : "ContrEmployeeEquipInvoice",
@@ -3035,19 +3091,23 @@
   }, {
     "name" : "ContrInvoicePaymentLine",
     "table" : "ContrInvoicePaymentLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Contr Invoice Payment Line"
   }, {
     "name" : "ContrMatIssueStatusEntry",
     "table" : "ContrMatIssueStatusEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Contr Mat Issue Status Entry"
   }, {
     "name" : "ContrMaterialDiscountEntry",
     "table" : "ContrMaterialDiscountEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Contr Material Discount Entry"
   }, {
     "name" : "ContrOrderPaymentLine",
     "table" : "ContrOrderPaymentLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Contr Order Payment Line"
   }, {
     "name" : "ContrTermCategory",
     "table" : "ContrTermCategory",
@@ -3159,11 +3219,13 @@
   }, {
     "name" : "ContractingCostSalaryComponents",
     "table" : "ContractingCostSalaryComponents",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Contracting Cost Salary Components"
   }, {
     "name" : "ContractingCostSourceEntry",
     "table" : "ContractingCostSourceEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Contracting Cost Source Entry"
   }, {
     "name" : "ContractingDirectCost",
     "table" : "ContractingDirectCost",
@@ -3173,7 +3235,8 @@
   }, {
     "name" : "ContractingEstateCostEntry",
     "table" : "ContractingEstateCostEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Contracting Estate Cost Entry"
   }, {
     "name" : "ContractingEstimatedBudget",
     "table" : "ContractingEstimatedBudget",
@@ -3227,7 +3290,8 @@
   }, {
     "name" : "ContractingFineEntry",
     "table" : "ContractingFineEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Contracting Fine Entry"
   }, {
     "name" : "ContractingFineReason",
     "table" : "ContractingFineReason",
@@ -3308,7 +3372,8 @@
   }, {
     "name" : "ContractingPaymentRootEntry",
     "table" : "ContractingPaymentRootEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Contracting Payment Root Entry"
   }, {
     "name" : "ContractingPhase",
     "table" : "ContractingPhase",
@@ -3338,7 +3403,8 @@
   }, {
     "name" : "ContractingPriceListSysLine",
     "table" : "ContractingPriceListSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Contracting Price List Sys Line"
   }, {
     "name" : "ContractingPurchaseOrder",
     "table" : "ContractingPurchaseOrder",
@@ -3406,7 +3472,8 @@
     "name" : "Contractor",
     "table" : "Contractor",
     "module" : "contracting",
-    "ar" : "مقاول باطن"
+    "ar" : "مقاول باطن",
+    "en" : "Contractor"
   }, {
     "name" : "ContractorAdvancePayment",
     "table" : "ContractorAdvancePayment",
@@ -3586,11 +3653,13 @@
   }, {
     "name" : "CostOverdraftLine",
     "table" : "CostOverdraftLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Cost Overdraft Line"
   }, {
     "name" : "CostReturnReservation",
     "table" : "CostReturnReservation",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Cost Return Reservation"
   }, {
     "name" : "CostRevaluation",
     "table" : "CostRevaluation",
@@ -3671,7 +3740,8 @@
   }, {
     "name" : "CouseSkillResult",
     "table" : "CouseSkillResult",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Couse Skill Result"
   }, {
     "name" : "CreditFacility",
     "table" : "CreditFacility",
@@ -3721,6 +3791,7 @@
     "table" : "CreditNote",
     "module" : "accounting",
     "ar" : "إشعار دائن",
+    "en" : "Credit Note",
     "details" : [ {
       "id" : "installmentLines",
       "table" : "CNInstallmentLine"
@@ -3748,7 +3819,13 @@
     "name" : "Currency",
     "table" : "Currency",
     "module" : "basic",
-    "ar" : "عملة"
+    "ar" : "عملة",
+    "en" : "Currency"
+  }, {
+    "name" : "CurrencyCrossRate",
+    "table" : "CurrencyCrossRate",
+    "module" : "system-tables",
+    "en" : "Currency Cross Rate"
   }, {
     "name" : "CurrencyDiffJournal",
     "table" : "CurrencyDiffJournal",
@@ -3762,7 +3839,8 @@
   }, {
     "name" : "CustodySysLine",
     "table" : "CustodySysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Custody Sys Line"
   }, {
     "name" : "CustodyType",
     "table" : "CustodyType",
@@ -3806,6 +3884,7 @@
     "table" : "Customer",
     "module" : "basic",
     "ar" : "عميل",
+    "en" : "Customer",
     "details" : [ {
       "id" : "contacts",
       "table" : "CustomerContactInfo"
@@ -3861,7 +3940,8 @@
   }, {
     "name" : "CustomerKeywordTemplateLine",
     "table" : "CustomerKeywordTemplateLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Customer Keyword Template Line"
   }, {
     "name" : "CustomerSubmittal",
     "table" : "CustomerSubmittal",
@@ -3875,7 +3955,8 @@
   }, {
     "name" : "CustomerTransEntry",
     "table" : "CustomerTransEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Customer Trans Entry"
   }, {
     "name" : "CustomersReqsShortageDoc",
     "table" : "CustomersReqsShortageDoc",
@@ -3915,7 +3996,8 @@
   }, {
     "name" : "DLVDeliveryEntry",
     "table" : "DLVDeliveryEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "DLV Delivery Entry"
   }, {
     "name" : "DLVDeliveryPlan",
     "table" : "DLVDeliveryPlan",
@@ -3939,11 +4021,13 @@
   }, {
     "name" : "DLVDeliveryStatusEventLine",
     "table" : "DLVDeliveryStatusEventLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "DLV Delivery Status Event Line"
   }, {
     "name" : "DLVDeliveryTransaction",
     "table" : "DLVDeliveryTransaction",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "DLV Delivery Transaction"
   }, {
     "name" : "DLVDriverCarAreaAssignment",
     "table" : "DLVDriverCarAreaAssignment",
@@ -4006,7 +4090,8 @@
   }, {
     "name" : "DMSHistoryLine",
     "table" : "DMSHistoryLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "DMS History Line"
   }, {
     "name" : "DMSLocation",
     "table" : "DMSLocation",
@@ -4064,6 +4149,7 @@
     "table" : "DashBoard",
     "module" : "basic",
     "ar" : "لوحة",
+    "en" : "Dash Board",
     "details" : [ {
       "id" : "charts",
       "table" : "DashBoardLine"
@@ -4181,11 +4267,13 @@
   }, {
     "name" : "DatabaseCleanerFailureEntry",
     "table" : "DatabaseCleanerFailureEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Database Cleaner Failure Entry"
   }, {
     "name" : "DatanuumRequestLog",
     "table" : "DatanuumRequestLog",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Datanuum Request Log"
   }, {
     "name" : "DatesOverrider",
     "table" : "DatesOverrider",
@@ -4199,12 +4287,14 @@
   }, {
     "name" : "DayTicketEntry",
     "table" : "DayTicketEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Day Ticket Entry"
   }, {
     "name" : "DebitNote",
     "table" : "DebitNote",
     "module" : "accounting",
     "ar" : "إشعار مدين",
+    "en" : "Debit Note",
     "details" : [ {
       "id" : "installmentLines",
       "table" : "DNInstallmentLine"
@@ -4215,11 +4305,13 @@
   }, {
     "name" : "DebtLine",
     "table" : "DebtLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Debt Line"
   }, {
     "name" : "DebtLineMatcher",
     "table" : "DebtLineMatcher",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Debt Line Matcher"
   }, {
     "name" : "DefaultValuesTemplate",
     "table" : "DefaultValuesTemplate",
@@ -4230,7 +4322,8 @@
     "name" : "Delegation",
     "table" : "Delegation",
     "module" : "basic",
-    "ar" : "تفويض"
+    "ar" : "تفويض",
+    "en" : "Delegation"
   }, {
     "name" : "DeliveryCancellationDoc",
     "table" : "DeliveryCancellationDoc",
@@ -4287,11 +4380,13 @@
   }, {
     "name" : "DeliveryDriverTotal",
     "table" : "DeliveryDriverTotal",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Delivery Driver Total"
   }, {
     "name" : "DeliveryDriverTransaction",
     "table" : "DeliveryDriverTransaction",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Delivery Driver Transaction"
   }, {
     "name" : "DeliveryNumber",
     "table" : "DeliveryNumber",
@@ -4323,24 +4418,29 @@
   }, {
     "name" : "DeliveryQueueEntry",
     "table" : "DeliveryQueueEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Delivery Queue Entry"
   }, {
     "name" : "DeliveryStatusEventLine",
     "table" : "DeliveryStatusEventLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Delivery Status Event Line"
   }, {
     "name" : "DeliverySysEntry",
     "table" : "DeliverySysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Delivery Sys Entry"
   }, {
     "name" : "DeliveryTransactionEntry",
     "table" : "DeliveryTransactionEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Delivery Transaction Entry"
   }, {
     "name" : "Department",
     "table" : "Department",
     "module" : "basic",
     "ar" : "إدارة",
+    "en" : "Department",
     "details" : [ {
       "id" : "parents",
       "table" : "Department_Department"
@@ -4351,7 +4451,8 @@
   }, {
     "name" : "DepartmentParentLine",
     "table" : "DepartmentParentLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Department Parent Line"
   }, {
     "name" : "DepartmentSection",
     "table" : "DepartmentSection",
@@ -4422,7 +4523,8 @@
   }, {
     "name" : "DimensionsBalance",
     "table" : "DimensionsBalance",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Dimensions Balance"
   }, {
     "name" : "DiscountCoupon",
     "table" : "DiscountCoupon",
@@ -4455,7 +4557,8 @@
   }, {
     "name" : "DiscountSysLine",
     "table" : "DiscountSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Discount Sys Line"
   }, {
     "name" : "DiscountUpdate",
     "table" : "DiscountUpdate",
@@ -4482,11 +4585,13 @@
   }, {
     "name" : "DiscussionRecord",
     "table" : "DiscussionRecord",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Discussion Record"
   }, {
     "name" : "DistributeContractingCostOnRealEstateTask",
     "table" : "DistributeContractingCostOnRealEstateTask",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Distribute Contracting Cost On Real Estate Task"
   }, {
     "name" : "DocCategory",
     "table" : "DocCategory",
@@ -4496,19 +4601,23 @@
   }, {
     "name" : "DocToCreateFPLine",
     "table" : "DocToCreateFPLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Doc To Create FP Line"
   }, {
     "name" : "DocToGenerateFPFrom",
     "table" : "DocToGenerateFPFrom",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Doc To Generate FP From"
   }, {
     "name" : "DocsToPayFromPosEntry",
     "table" : "DocsToPayFromPosEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Docs To Pay From Pos Entry"
   }, {
     "name" : "DocsToPayFromPosTransaction",
     "table" : "DocsToPayFromPosTransaction",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Docs To Pay From Pos Transaction"
   }, {
     "name" : "DocumentBook",
     "table" : "DocumentBook",
@@ -4538,7 +4647,8 @@
   }, {
     "name" : "DraftSequenceEntity",
     "table" : "DraftSequenceEntity",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Draft Sequence Entity"
   }, {
     "name" : "DuesLiquidationComponent",
     "table" : "DuesLiquidationComponent",
@@ -4774,7 +4884,8 @@
     "name" : "EDMealType",
     "table" : "EDMealType",
     "module" : "education",
-    "ar" : "نوع وجبة مدرسية"
+    "ar" : "نوع وجبة مدرسية",
+    "en" : "ED Meal Type"
   }, {
     "name" : "EDMealsDetails",
     "table" : "EDMealsDetails",
@@ -4841,19 +4952,23 @@
   }, {
     "name" : "EInvoiceReceivedEventEntry",
     "table" : "EInvoiceReceivedEventEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "E Invoice Received Event Entry"
   }, {
     "name" : "EInvoiceSubmissionEntry",
     "table" : "EInvoiceSubmissionEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "E Invoice Submission Entry"
   }, {
     "name" : "EReceiptSubmissionSysEntry",
     "table" : "EReceiptSubmissionSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "E Receipt Submission Sys Entry"
   }, {
     "name" : "EcommerceAppRegistryEntry",
     "table" : "EcommerceAppRegistryEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Ecommerce App Registry Entry"
   }, {
     "name" : "EcommerceCategoryConfig",
     "table" : "EcommerceCategoryConfig",
@@ -4886,7 +5001,8 @@
   }, {
     "name" : "EcommerceShippingEventLogEntry",
     "table" : "EcommerceShippingEventLogEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Ecommerce Shipping Event Log Entry"
   }, {
     "name" : "EcommerceShippingSite",
     "table" : "EcommerceShippingSite",
@@ -4903,7 +5019,8 @@
   }, {
     "name" : "EcommerceWebhookEventProcessReq",
     "table" : "EcommerceWebhookEventProcessReq",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Ecommerce Webhook Event Process Req"
   }, {
     "name" : "EcommerceWebhookRedirect",
     "table" : "EcommerceWebhookRedirect",
@@ -4913,7 +5030,8 @@
   }, {
     "name" : "EffectsUnitCostConfigLine",
     "table" : "EffectsUnitCostConfigLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Effects Unit Cost Config Line"
   }, {
     "name" : "ElecAttendanceAllowedZone",
     "table" : "ElecAttendanceAllowedZone",
@@ -5014,11 +5132,13 @@
   }, {
     "name" : "EmpAttendanceSysLine",
     "table" : "EmpAttendanceSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Emp Attendance Sys Line"
   }, {
     "name" : "EmpCommencementEntry",
     "table" : "EmpCommencementEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Emp Commencement Entry"
   }, {
     "name" : "EmpHealthInsurDelete",
     "table" : "EmpHealthInsurDelete",
@@ -5042,7 +5162,8 @@
   }, {
     "name" : "EmpProvisionsRecalcTermLine",
     "table" : "EmpProvisionsRecalcTermLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Emp Provisions Recalc Term Line"
   }, {
     "name" : "EmpWorkPlace",
     "table" : "EmpWorkPlace",
@@ -5054,6 +5175,7 @@
     "table" : "Employee",
     "module" : "basic",
     "ar" : "موظف",
+    "en" : "Employee",
     "details" : [ {
       "id" : "attendants",
       "table" : "AttendantLine"
@@ -5184,7 +5306,8 @@
   }, {
     "name" : "EmployeeStateSysEntry",
     "table" : "EmployeeStateSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Employee State Sys Entry"
   }, {
     "name" : "EmployementInformation",
     "table" : "EmployementInformation",
@@ -5211,7 +5334,8 @@
   }, {
     "name" : "EndStockTakingLineForList",
     "table" : "EndStockTakingLineForList",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "End Stock Taking Line For List"
   }, {
     "name" : "EndStockTakingTask",
     "table" : "EndStockTakingTask",
@@ -5231,7 +5355,8 @@
   }, {
     "name" : "EntityEffectLine",
     "table" : "EntityEffectLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Entity Effect Line"
   }, {
     "name" : "EntityFlow",
     "table" : "EntityFlow",
@@ -5264,7 +5389,8 @@
   }, {
     "name" : "EntitySystemEntry",
     "table" : "EntitySystemEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Entity System Entry"
   }, {
     "name" : "EntityTypeList",
     "table" : "EntityTypeList",
@@ -5274,19 +5400,23 @@
   }, {
     "name" : "EntityTypeSysLine",
     "table" : "EntityTypeSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Entity Type Sys Line"
   }, {
     "name" : "EntityValidationLine",
     "table" : "EntityValidationLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Entity Validation Line"
   }, {
     "name" : "EntityVersion",
     "table" : "EntityVersion",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Entity Version"
   }, {
     "name" : "EntityWithCriteriaLine",
     "table" : "EntityWithCriteriaLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Entity With Criteria Line"
   }, {
     "name" : "EquipmentStatementDoc",
     "table" : "EquipmentStatementDoc",
@@ -5387,7 +5517,8 @@
   }, {
     "name" : "ExcludedInstallmentsTypes",
     "table" : "ExcludedInstallmentsTypes",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Excluded Installments Types"
   }, {
     "name" : "ExecutiveBudgetItemRequest",
     "table" : "ExecutiveBudgetItemRequest",
@@ -5416,7 +5547,8 @@
   }, {
     "name" : "ExtractCostSourceEntry",
     "table" : "ExtractCostSourceEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Extract Cost Source Entry"
   }, {
     "name" : "FAAdditionDeduction",
     "table" : "FAAdditionDeduction",
@@ -5621,7 +5753,8 @@
   }, {
     "name" : "FALCItemExpenseLine",
     "table" : "FALCItemExpenseLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "FALC Item Expense Line"
   }, {
     "name" : "FALCProformaInvoice",
     "table" : "FALCProformaInvoice",
@@ -5635,7 +5768,8 @@
   }, {
     "name" : "FALCScheduledPayLine",
     "table" : "FALCScheduledPayLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "FALC Scheduled Pay Line"
   }, {
     "name" : "FALcExpenseDocument",
     "table" : "FALcExpenseDocument",
@@ -5667,7 +5801,8 @@
   }, {
     "name" : "FALocationEntry",
     "table" : "FALocationEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "FA Location Entry"
   }, {
     "name" : "FAMaintenanceCheckList",
     "table" : "FAMaintenanceCheckList",
@@ -5717,7 +5852,8 @@
   }, {
     "name" : "FAMovementEntry",
     "table" : "FAMovementEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "FA Movement Entry"
   }, {
     "name" : "FAMovementInDoc",
     "table" : "FAMovementInDoc",
@@ -5793,7 +5929,8 @@
   }, {
     "name" : "FAPropertiesEntry",
     "table" : "FAPropertiesEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "FA Properties Entry"
   }, {
     "name" : "FAPurchaseDocument",
     "table" : "FAPurchaseDocument",
@@ -5881,7 +6018,8 @@
   }, {
     "name" : "FAScheduleTemplateLine",
     "table" : "FAScheduleTemplateLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "FA Schedule Template Line"
   }, {
     "name" : "FATransferDocument",
     "table" : "FATransferDocument",
@@ -5891,7 +6029,8 @@
   }, {
     "name" : "FATransferEntry",
     "table" : "FATransferEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "FA Transfer Entry"
   }, {
     "name" : "FATransferRequest",
     "table" : "FATransferRequest",
@@ -6059,7 +6198,8 @@
   }, {
     "name" : "FRMOOStatusSysEntry",
     "table" : "FRMOOStatusSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "FRMOO Status Sys Entry"
   }, {
     "name" : "FRMOOTransfer",
     "table" : "FRMOOTransfer",
@@ -6079,7 +6219,8 @@
   }, {
     "name" : "FRMOpUnInvoicedLine",
     "table" : "FRMOpUnInvoicedLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "FRM Op Un Invoiced Line"
   }, {
     "name" : "FRMOperationOrder",
     "table" : "FRMOperationOrder",
@@ -6284,7 +6425,8 @@
   }, {
     "name" : "FRMStorageTransEntry",
     "table" : "FRMStorageTransEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "FRM Storage Trans Entry"
   }, {
     "name" : "FRMUOM",
     "table" : "FRMUOM",
@@ -6364,11 +6506,13 @@
   }, {
     "name" : "FacilityLimitSysEntry",
     "table" : "FacilityLimitSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Facility Limit Sys Entry"
   }, {
     "name" : "FailedReplicationMessage",
     "table" : "FailedReplicationMessage",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Failed Replication Message"
   }, {
     "name" : "FeatureSet",
     "table" : "FeatureSet",
@@ -6385,7 +6529,8 @@
   }, {
     "name" : "FieldDetailedAudit",
     "table" : "FieldDetailedAudit",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Field Detailed Audit"
   }, {
     "name" : "FieldFiltering",
     "table" : "FieldFiltering",
@@ -6399,11 +6544,13 @@
   }, {
     "name" : "FieldHelpLine",
     "table" : "FieldHelpLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Field Help Line"
   }, {
     "name" : "FifoCostMatcher",
     "table" : "FifoCostMatcher",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Fifo Cost Matcher"
   }, {
     "name" : "FifoCostTrans",
     "table" : "FifoCostTrans",
@@ -6531,7 +6678,8 @@
   }, {
     "name" : "FinancialPaperStatusEntry",
     "table" : "FinancialPaperStatusEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Financial Paper Status Entry"
   }, {
     "name" : "FinishedProductPricing",
     "table" : "FinishedProductPricing",
@@ -6633,7 +6781,8 @@
   }, {
     "name" : "FixedDepositInterestEntry",
     "table" : "FixedDepositInterestEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Fixed Deposit Interest Entry"
   }, {
     "name" : "FixedDepositIssue",
     "table" : "FixedDepositIssue",
@@ -7725,7 +7874,8 @@
   }, {
     "name" : "FreeItemSysLine",
     "table" : "FreeItemSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Free Item Sys Line"
   }, {
     "name" : "FreezeProcessingDoc",
     "table" : "FreezeProcessingDoc",
@@ -8017,19 +8167,23 @@
   }, {
     "name" : "GoPayInvoiceEntry",
     "table" : "GoPayInvoiceEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Go Pay Invoice Entry"
   }, {
     "name" : "GoPayPaymentEntry",
     "table" : "GoPayPaymentEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Go Pay Payment Entry"
   }, {
     "name" : "GrantedDevice",
     "table" : "GrantedDevice",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Granted Device"
   }, {
     "name" : "GrantedKitNetCustomerDevice",
     "table" : "GrantedKitNetCustomerDevice",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Granted Kit Net Customer Device"
   }, {
     "name" : "HMSAccommodation",
     "table" : "HMSAccommodation",
@@ -8039,7 +8193,8 @@
   }, {
     "name" : "HMSAccommodationEntry",
     "table" : "HMSAccommodationEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "HMS Accommodation Entry"
   }, {
     "name" : "HMSAccommodationExit",
     "table" : "HMSAccommodationExit",
@@ -8303,7 +8458,8 @@
   }, {
     "name" : "HMSInsuranceApprovalEntry",
     "table" : "HMSInsuranceApprovalEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "HMS Insurance Approval Entry"
   }, {
     "name" : "HMSInsuranceClass",
     "table" : "HMSInsuranceClass",
@@ -9140,7 +9296,8 @@
     "name" : "HOMaintenanceItem",
     "table" : "HOMaintenanceItem",
     "module" : "housing",
-    "ar" : "صنف صيانة"
+    "ar" : "صنف صيانة",
+    "en" : "HO Maintenance Item"
   }, {
     "name" : "HOModifyMaintenanceBudget",
     "table" : "HOModifyMaintenanceBudget",
@@ -9307,7 +9464,8 @@
   }, {
     "name" : "HREmployeeSkill",
     "table" : "HREmployeeSkill",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "HR Employee Skill"
   }, {
     "name" : "HRExperience",
     "table" : "HRExperience",
@@ -9343,6 +9501,7 @@
     "table" : "HRIssuedVisas",
     "module" : "humanresource-gulf-visa",
     "ar" : "تأشيرات صادرة",
+    "en" : "HR Issued Visas",
     "details" : [ {
       "id" : "details",
       "table" : "HRIssuedVisasLine"
@@ -9380,6 +9539,7 @@
     "name" : "HRLoanInstallmentSysEntry",
     "table" : "HRLoanInstallmentSysEntry",
     "module" : "system-tables",
+    "en" : "HR Loan Installment Sys Entry",
     "details" : [ {
       "id" : "installmentPayments",
       "table" : "HRInstallmentPaymentSysEntry"
@@ -9567,7 +9727,8 @@
   }, {
     "name" : "HealthInsuranceSysEntry",
     "table" : "HealthInsuranceSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Health Insurance Sys Entry"
   }, {
     "name" : "HealthInsuranceUpgrade",
     "table" : "HealthInsuranceUpgrade",
@@ -9705,7 +9866,8 @@
   }, {
     "name" : "IPInvestmentSysEntry",
     "table" : "IPInvestmentSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "IP Investment Sys Entry"
   }, {
     "name" : "IPInvestmentUpdate",
     "table" : "IPInvestmentUpdate",
@@ -9779,7 +9941,8 @@
   }, {
     "name" : "IPSIntegrationTask",
     "table" : "IPSIntegrationTask",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "IPS Integration Task"
   }, {
     "name" : "IPSMailCategory",
     "table" : "IPSMailCategory",
@@ -10052,7 +10215,8 @@
   }, {
     "name" : "InBusMessage",
     "table" : "InBusMessage",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "In Bus Message"
   }, {
     "name" : "InitialReceipt",
     "table" : "InitialReceipt",
@@ -10069,7 +10233,8 @@
   }, {
     "name" : "InstallmentPaymentEntry",
     "table" : "InstallmentPaymentEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Installment Payment Entry"
   }, {
     "name" : "InsuranceCompany",
     "table" : "InsuranceCompany",
@@ -10122,11 +10287,13 @@
   }, {
     "name" : "InsurancePolicyAddingLine",
     "table" : "InsurancePolicyAddingLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Insurance Policy Adding Line"
   }, {
     "name" : "InsurancePolicyRemovingLine",
     "table" : "InsurancePolicyRemovingLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Insurance Policy Removing Line"
   }, {
     "name" : "InterCompanyTransfer",
     "table" : "InterCompanyTransfer",
@@ -10246,7 +10413,8 @@
   }, {
     "name" : "InvTransReq",
     "table" : "InvTransReq",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Inv Trans Req"
   }, {
     "name" : "InvestmentCompany",
     "table" : "InvestmentCompany",
@@ -10280,7 +10448,8 @@
   }, {
     "name" : "InvestmentDocumentDocEntry",
     "table" : "InvestmentDocumentDocEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Investment Document Doc Entry"
   }, {
     "name" : "InvestmentDocumentFund",
     "table" : "InvestmentDocumentFund",
@@ -10314,25 +10483,30 @@
   }, {
     "name" : "InvestmentProjectSysLine",
     "table" : "InvestmentProjectSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Investment Project Sys Line"
   }, {
     "name" : "Investor",
     "table" : "Investor",
     "module" : "accounting-investment",
-    "ar" : "مستثمر"
+    "ar" : "مستثمر",
+    "en" : "Investor"
   }, {
     "name" : "InvoiceClassification",
     "table" : "InvoiceClassification",
     "module" : "supplychain",
-    "ar" : "تصنيف الفواتير"
+    "ar" : "تصنيف الفواتير",
+    "en" : "Invoice Classification"
   }, {
     "name" : "InvoiceDiscountSysLine",
     "table" : "InvoiceDiscountSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Invoice Discount Sys Line"
   }, {
     "name" : "InvoiceFreeItemSysLine",
     "table" : "InvoiceFreeItemSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Invoice Free Item Sys Line"
   }, {
     "name" : "InvoiceReceiptDoc",
     "table" : "InvoiceReceiptDoc",
@@ -10349,7 +10523,8 @@
   }, {
     "name" : "InvoiceRetrieverID",
     "table" : "InvoiceRetrieverID",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Invoice Retriever ID"
   }, {
     "name" : "IssueStockTransfer",
     "table" : "IssueStockTransfer",
@@ -10530,27 +10705,33 @@
   }, {
     "name" : "ItemDimensionCost",
     "table" : "ItemDimensionCost",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Item Dimension Cost"
   }, {
     "name" : "ItemDimensionsQty",
     "table" : "ItemDimensionsQty",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Item Dimensions Qty"
   }, {
     "name" : "ItemDiscountSysLine",
     "table" : "ItemDiscountSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Item Discount Sys Line"
   }, {
     "name" : "ItemLevelLine",
     "table" : "ItemLevelLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Item Level Line"
   }, {
     "name" : "ItemLot",
     "table" : "ItemLot",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Item Lot"
   }, {
     "name" : "ItemMeasure",
     "table" : "ItemMeasure",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Item Measure"
   }, {
     "name" : "ItemPickingZoneLink",
     "table" : "ItemPickingZoneLink",
@@ -10610,11 +10791,13 @@
   }, {
     "name" : "ItemSerial",
     "table" : "ItemSerial",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Item Serial"
   }, {
     "name" : "ItemSerialTrans",
     "table" : "ItemSerialTrans",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Item Serial Trans"
   }, {
     "name" : "ItemSize",
     "table" : "ItemSize",
@@ -10743,6 +10926,7 @@
     "table" : "JOOperation",
     "module" : "joborder",
     "ar" : "تشغيلة",
+    "en" : "JO Operation",
     "details" : [ {
       "id" : "thicknesses",
       "table" : "ThicknessLine"
@@ -10821,7 +11005,8 @@
   }, {
     "name" : "JOSalesOrderStatusEntry",
     "table" : "JOSalesOrderStatusEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "JO Sales Order Status Entry"
   }, {
     "name" : "JOSalesQuotation",
     "table" : "JOSalesQuotation",
@@ -11103,7 +11288,8 @@
   }, {
     "name" : "LGTEntry",
     "table" : "LGTEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "LGT Entry"
   }, {
     "name" : "LGTIssue",
     "table" : "LGTIssue",
@@ -11135,12 +11321,14 @@
   }, {
     "name" : "LargeData",
     "table" : "LargeData",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Large Data"
   }, {
     "name" : "Law",
     "table" : "Law",
     "module" : "auditing",
-    "ar" : "القانون"
+    "ar" : "القانون",
+    "en" : "Law"
   }, {
     "name" : "LawArticle",
     "table" : "LawArticle",
@@ -11213,7 +11401,8 @@
     "name" : "Ledger",
     "table" : "Ledger",
     "module" : "accounting",
-    "ar" : "دفتر حسابات"
+    "ar" : "دفتر حسابات",
+    "en" : "Ledger"
   }, {
     "name" : "LedgerReviseDoc",
     "table" : "LedgerReviseDoc",
@@ -11243,15 +11432,18 @@
   }, {
     "name" : "LedgerTransReqQue",
     "table" : "LedgerTransReqQue",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Ledger Trans Req Que"
   }, {
     "name" : "LedgerTransSerial",
     "table" : "LedgerTransSerial",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Ledger Trans Serial"
   }, {
     "name" : "LedgerTransSerialConfigLine",
     "table" : "LedgerTransSerialConfigLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Ledger Trans Serial Config Line"
   }, {
     "name" : "LegalEntity",
     "table" : "LegalEntity",
@@ -11268,11 +11460,13 @@
   }, {
     "name" : "LegalEntityLicense",
     "table" : "LegalEntityLicense",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Legal Entity License"
   }, {
     "name" : "LegalEntityParentLine",
     "table" : "LegalEntityParentLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Legal Entity Parent Line"
   }, {
     "name" : "LegalLicense",
     "table" : "LegalLicense",
@@ -11386,27 +11580,33 @@
     "name" : "Locator",
     "table" : "Locator",
     "module" : "supplychain",
-    "ar" : "موقع"
+    "ar" : "موقع",
+    "en" : "Locator"
   }, {
     "name" : "LocatorTaking",
     "table" : "LocatorTaking",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Locator Taking"
   }, {
     "name" : "MAGItemChangeReq",
     "table" : "MAGItemChangeReq",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "MAG Item Change Req"
   }, {
     "name" : "MAGItemPriceChangeReq",
     "table" : "MAGItemPriceChangeReq",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "MAG Item Price Change Req"
   }, {
     "name" : "MAGItemQtyChangeReq",
     "table" : "MAGItemQtyChangeReq",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "MAG Item Qty Change Req"
   }, {
     "name" : "MAGItemQtyChangeReqUpdater",
     "table" : "MAGItemQtyChangeReqUpdater",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "MAG Item Qty Change Req Updater"
   }, {
     "name" : "MAGMagentoSite",
     "table" : "MAGMagentoSite",
@@ -11447,7 +11647,8 @@
   }, {
     "name" : "MAGSiteError",
     "table" : "MAGSiteError",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "MAG Site Error"
   }, {
     "name" : "MCAdditionDeduction",
     "table" : "MCAdditionDeduction",
@@ -11457,7 +11658,8 @@
   }, {
     "name" : "MCConfigLine",
     "table" : "MCConfigLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "MC Config Line"
   }, {
     "name" : "MCContractPhase",
     "table" : "MCContractPhase",
@@ -11590,23 +11792,28 @@
   }, {
     "name" : "MCMainContractCancelledEquipment",
     "table" : "MCMainContractCancelledEquipment",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "MC Main Contract Cancelled Equipment"
   }, {
     "name" : "MCMainContractCancelledLaborLine",
     "table" : "MCMainContractCancelledLaborLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "MC Main Contract Cancelled Labor Line"
   }, {
     "name" : "MCMainContractCancelledOperation",
     "table" : "MCMainContractCancelledOperation",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "MC Main Contract Cancelled Operation"
   }, {
     "name" : "MCMainContractConsumedItemLine",
     "table" : "MCMainContractConsumedItemLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "MC Main Contract Consumed Item Line"
   }, {
     "name" : "MCMainContractEditOperationLine",
     "table" : "MCMainContractEditOperationLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "MC Main Contract Edit Operation Line"
   }, {
     "name" : "MCMaintenancePlan",
     "table" : "MCMaintenancePlan",
@@ -11780,7 +11987,8 @@
   }, {
     "name" : "MFGMoldTransactionEntry",
     "table" : "MFGMoldTransactionEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "MFG Mold Transaction Entry"
   }, {
     "name" : "MFGMoldVoucher",
     "table" : "MFGMoldVoucher",
@@ -11826,7 +12034,8 @@
   }, {
     "name" : "MRPDocumentDemands",
     "table" : "MRPDocumentDemands",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "MRP Document Demands"
   }, {
     "name" : "MRPPurchaseRequest",
     "table" : "MRPPurchaseRequest",
@@ -11872,7 +12081,8 @@
   }, {
     "name" : "MagentoItemEntry",
     "table" : "MagentoItemEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Magento Item Entry"
   }, {
     "name" : "MagentoItemLinker",
     "table" : "MagentoItemLinker",
@@ -11906,7 +12116,8 @@
   }, {
     "name" : "MagentoSyncSystemFields",
     "table" : "MagentoSyncSystemFields",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Magento Sync System Fields"
   }, {
     "name" : "ManualDemand",
     "table" : "ManualDemand",
@@ -11930,7 +12141,8 @@
   }, {
     "name" : "ManuallyCodedTermsEntities",
     "table" : "ManuallyCodedTermsEntities",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Manually Coded Terms Entities"
   }, {
     "name" : "ManufacturerCertificate",
     "table" : "ManufacturerCertificate",
@@ -12145,7 +12357,8 @@
   }, {
     "name" : "MiscInvoiceQtyTransLine",
     "table" : "MiscInvoiceQtyTransLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Misc Invoice Qty Trans Line"
   }, {
     "name" : "MiscPurchaseInvoice",
     "table" : "MiscPurchaseInvoice",
@@ -12525,7 +12738,8 @@
   }, {
     "name" : "MnNoticeMobileAttendanceEntry",
     "table" : "MnNoticeMobileAttendanceEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Mn Notice Mobile Attendance Entry"
   }, {
     "name" : "MnOrder",
     "table" : "MnOrder",
@@ -13152,7 +13366,8 @@
   }, {
     "name" : "ModuleInfo",
     "table" : "ModuleInfo",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Module Info"
   }, {
     "name" : "MultiAssemblyDoc",
     "table" : "MultiAssemblyDoc",
@@ -13215,7 +13430,8 @@
   }, {
     "name" : "NaMaLayout",
     "table" : "NaMaLayout",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Na Ma Layout"
   }, {
     "name" : "NaMaPosItemsToSend",
     "table" : "NaMaPosItemsToSend",
@@ -13229,7 +13445,8 @@
   }, {
     "name" : "NaMaUser",
     "table" : "NaMaUser",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Na Ma User"
   }, {
     "name" : "NamaPOSAggGenericReference",
     "table" : "NamaPOSAggGenericReference",
@@ -13309,7 +13526,8 @@
   }, {
     "name" : "NamaPOSErrorSysLine",
     "table" : "NamaPOSErrorSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Nama POS Error Sys Line"
   }, {
     "name" : "NamaPOSExtraFilter",
     "table" : "NamaPOSExtraFilter",
@@ -13364,11 +13582,13 @@
   }, {
     "name" : "NamaPOSInvoiceCouponLine",
     "table" : "NamaPOSInvoiceCouponLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Nama POS Invoice Coupon Line"
   }, {
     "name" : "NamaPOSInvoiceCreditNoteLine",
     "table" : "NamaPOSInvoiceCreditNoteLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Nama POS Invoice Credit Note Line"
   }, {
     "name" : "NamaPOSItemBarcodeParser",
     "table" : "NamaPOSItemBarcodeParser",
@@ -13407,7 +13627,8 @@
   }, {
     "name" : "NamaPOSItemQtyUpdater",
     "table" : "NamaPOSItemQtyUpdater",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Nama POS Item Qty Updater"
   }, {
     "name" : "NamaPOSOrderReservation",
     "table" : "NamaPOSOrderReservation",
@@ -13838,12 +14059,14 @@
   }, {
     "name" : "NamaUserLastInfo",
     "table" : "NamaUserLastInfo",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Nama User Last Info"
   }, {
     "name" : "Nationality",
     "table" : "Nationality",
     "module" : "basic",
-    "ar" : "جنسية"
+    "ar" : "جنسية",
+    "en" : "Nationality"
   }, {
     "name" : "NewPurchaseForecast",
     "table" : "NewPurchaseForecast",
@@ -13860,7 +14083,8 @@
   }, {
     "name" : "NotificationAllowedTime",
     "table" : "NotificationAllowedTime",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Notification Allowed Time"
   }, {
     "name" : "NotificationDefinition",
     "table" : "NotificationDefinition",
@@ -13870,11 +14094,13 @@
   }, {
     "name" : "NotificationSite",
     "table" : "NotificationSite",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Notification Site"
   }, {
     "name" : "Notificationtarget",
     "table" : "Notificationtarget",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Notificationtarget"
   }, {
     "name" : "OAuthFile",
     "table" : "OAuthFile",
@@ -13894,7 +14120,8 @@
   }, {
     "name" : "OfferOnItemsCountSysLine",
     "table" : "OfferOnItemsCountSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Offer On Items Count Sys Line"
   }, {
     "name" : "OmnifulConfig",
     "table" : "OmnifulConfig",
@@ -13930,7 +14157,8 @@
   }, {
     "name" : "OnlinePaymentTransactionSysEntry",
     "table" : "OnlinePaymentTransactionSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Online Payment Transaction Sys Entry"
   }, {
     "name" : "OpeningStockDocument",
     "table" : "OpeningStockDocument",
@@ -14052,7 +14280,8 @@
   }, {
     "name" : "OutBusMessage",
     "table" : "OutBusMessage",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Out Bus Message"
   }, {
     "name" : "OutsourceIssue",
     "table" : "OutsourceIssue",
@@ -14129,19 +14358,23 @@
   }, {
     "name" : "POS.ItemLine",
     "table" : "ItemLine",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "Item Line"
   }, {
     "name" : "POS.POSActionHistory",
     "table" : "POSActionHistory",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Action History"
   }, {
     "name" : "POS.POSActionLine",
     "table" : "POSActionLine",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Action Line"
   }, {
     "name" : "POS.POSAlias",
     "table" : "POSAlias",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Alias"
   }, {
     "name" : "POS.POSAnalysisset",
     "table" : "POSAnalysisset",
@@ -14152,7 +14385,8 @@
     "name" : "POS.POSBranch",
     "table" : "POSBranch",
     "module" : "pos-app",
-    "ar" : "فرع"
+    "ar" : "فرع",
+    "en" : "Branch"
   }, {
     "name" : "POS.POSCreditNote",
     "table" : "POSCreditNote",
@@ -14167,12 +14401,14 @@
     "name" : "POS.POSCurrency",
     "table" : "POSCurrency",
     "module" : "pos-app",
-    "ar" : "عملة"
+    "ar" : "عملة",
+    "en" : "Currency"
   }, {
     "name" : "POS.POSCustomer",
     "table" : "POSCustomer",
     "module" : "pos-app",
-    "ar" : "عميل"
+    "ar" : "عميل",
+    "en" : "Customer"
   }, {
     "name" : "POS.POSCustomerCategory",
     "table" : "POSCustomerCategory",
@@ -14211,7 +14447,8 @@
     "name" : "POS.POSDepartment",
     "table" : "POSDepartment",
     "module" : "pos-app",
-    "ar" : "إدارة"
+    "ar" : "إدارة",
+    "en" : "Department"
   }, {
     "name" : "POS.POSDepreciationReason",
     "table" : "POSDepreciationReason",
@@ -14236,11 +14473,13 @@
     "name" : "POS.POSEmployee",
     "table" : "POSEmployee",
     "module" : "pos-app",
-    "ar" : "موظف"
+    "ar" : "موظف",
+    "en" : "Employee"
   }, {
     "name" : "POS.POSError",
     "table" : "POSError",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Error"
   }, {
     "name" : "POS.POSExchangeRate",
     "table" : "POSExchangeRate",
@@ -14255,6 +14494,7 @@
     "name" : "POS.POSExtraFilter",
     "table" : "POSExtraFilter",
     "module" : "pos-app",
+    "en" : "POS Extra Filter",
     "details" : [ {
       "id" : "extraFilters",
       "table" : "POSExtraFilterLine"
@@ -14262,15 +14502,18 @@
   }, {
     "name" : "POS.POSFavouriteLine",
     "table" : "POSFavouriteLine",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Favourite Line"
   }, {
     "name" : "POS.POSFieldTooltipInfo",
     "table" : "POSFieldTooltipInfo",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Field Tooltip Info"
   }, {
     "name" : "POS.POSFinancialSysLine",
     "table" : "POSFinancialSysLine",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Financial Sys Line"
   }, {
     "name" : "POS.POSFreeItemGroup",
     "table" : "POSFreeItemGroup",
@@ -14326,7 +14569,8 @@
     "name" : "POS.POSInvoiceClassification",
     "table" : "POSInvoiceClassification",
     "module" : "pos-app",
-    "ar" : "تصنيف الفواتير"
+    "ar" : "تصنيف الفواتير",
+    "en" : "Invoice Classification"
   }, {
     "name" : "POS.POSItem",
     "table" : "POSItem",
@@ -14449,7 +14693,8 @@
   }, {
     "name" : "POS.POSItemCode",
     "table" : "POSItemCode",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Item Code"
   }, {
     "name" : "POS.POSItemColor",
     "table" : "POSItemColor",
@@ -14465,7 +14710,8 @@
   }, {
     "name" : "POS.POSItemCurrentQuantitySysEntry",
     "table" : "POSItemCurrentQuantitySysEntry",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Item Current Quantity Sys Entry"
   }, {
     "name" : "POS.POSItemQtyUpdateConfig",
     "table" : "POSItemQtyUpdateConfig",
@@ -14494,7 +14740,8 @@
     "name" : "POS.POSLocation",
     "table" : "POSLocation",
     "module" : "pos-app",
-    "ar" : "موقع"
+    "ar" : "موقع",
+    "en" : "Locator"
   }, {
     "name" : "POS.POSOrderReservation",
     "table" : "POSOrderReservation",
@@ -14521,6 +14768,7 @@
     "name" : "POS.POSPaymentMethodsSettings",
     "table" : "POSPaymentMethodsSettings",
     "module" : "pos-app",
+    "en" : "POS Payment Methods Settings",
     "details" : [ {
       "id" : "details",
       "table" : "POSPaymentMethodsSettingsLine"
@@ -14553,19 +14801,23 @@
   }, {
     "name" : "POS.POSPricingRangeExcludedInvoiceLine",
     "table" : "POSPricingRangeExcludedInvoiceLine",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Pricing Range Excluded Invoice Line"
   }, {
     "name" : "POS.POSPricingRangeExcludedItemLine",
     "table" : "POSPricingRangeExcludedItemLine",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Pricing Range Excluded Item Line"
   }, {
     "name" : "POS.POSPricingRangeIncludedInvoiceLine",
     "table" : "POSPricingRangeIncludedInvoiceLine",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Pricing Range Included Invoice Line"
   }, {
     "name" : "POS.POSPricingRangeIncludedItemLine",
     "table" : "POSPricingRangeIncludedItemLine",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Pricing Range Included Item Line"
   }, {
     "name" : "POS.POSReceiptFromRegistery",
     "table" : "POSReceiptFromRegistery",
@@ -14575,7 +14827,8 @@
   }, {
     "name" : "POS.POSRegisterContactInfoLine",
     "table" : "POSRegisterContactInfoLine",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Register Contact Info Line"
   }, {
     "name" : "POS.POSRegistery",
     "table" : "POSRegistery",
@@ -14616,11 +14869,13 @@
   }, {
     "name" : "POS.POSRegisteryFixedFavouriteLine",
     "table" : "POSRegisteryFixedFavouriteLine",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Registery Fixed Favourite Line"
   }, {
     "name" : "POS.POSRegisteryUserLine",
     "table" : "POSRegisteryUserLine",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Registery User Line"
   }, {
     "name" : "POS.POSReportDefinition",
     "table" : "POSReportDefinition",
@@ -14801,7 +15056,8 @@
     "name" : "POS.POSSector",
     "table" : "POSSector",
     "module" : "pos-app",
-    "ar" : "قطاع"
+    "ar" : "قطاع",
+    "en" : "Sector"
   }, {
     "name" : "POS.POSSecurity",
     "table" : "POSSecurity",
@@ -14825,7 +15081,8 @@
   }, {
     "name" : "POS.POSSettingsInfo",
     "table" : "POSSettingsInfo",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "POS Settings Info"
   }, {
     "name" : "POS.POSShift",
     "table" : "POSShift",
@@ -14938,12 +15195,14 @@
     "name" : "POS.POSUnit",
     "table" : "POSUnit",
     "module" : "pos-app",
-    "ar" : "وحدة قياس"
+    "ar" : "وحدة قياس",
+    "en" : "UOM"
   }, {
     "name" : "POS.POSUser",
     "table" : "POSUser",
     "module" : "pos-app",
-    "ar" : "مستخدم"
+    "ar" : "مستخدم",
+    "en" : "User"
   }, {
     "name" : "POS.POSUserFingerprint",
     "table" : "POSUserFingerprint",
@@ -14958,12 +15217,14 @@
     "name" : "POS.POSVendor",
     "table" : "POSVendor",
     "module" : "pos-app",
-    "ar" : "مورد"
+    "ar" : "مورد",
+    "en" : "Supplier"
   }, {
     "name" : "POS.POSWarehouse",
     "table" : "POSWarehouse",
     "module" : "pos-app",
-    "ar" : "مخزن"
+    "ar" : "مخزن",
+    "en" : "Warehouse"
   }, {
     "name" : "POS.PosAddressRegion",
     "table" : "PosAddressRegion",
@@ -15015,7 +15276,8 @@
   }, {
     "name" : "POS.PosFieldAllowedValues",
     "table" : "PosFieldAllowedValues",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "Pos Field Allowed Values"
   }, {
     "name" : "POS.PosItemAdditionalItems",
     "table" : "PosItemAdditionalItems",
@@ -15115,6 +15377,7 @@
     "name" : "POS.PosRevisionFile",
     "table" : "PosRevisionFile",
     "module" : "pos-app",
+    "en" : "Pos Revision File",
     "details" : [ {
       "id" : "colors",
       "table" : "PosRevisionFileColorLine"
@@ -15125,11 +15388,13 @@
   }, {
     "name" : "POS.PosTableEntry",
     "table" : "PosTableEntry",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "Pos Table Entry"
   }, {
     "name" : "POS.PosTempDocument",
     "table" : "PosTempDocument",
-    "module" : "pos-app"
+    "module" : "pos-app",
+    "en" : "Pos Temp Document"
   }, {
     "name" : "POS.PosUISettings",
     "table" : "PosUISettings",
@@ -15267,15 +15532,18 @@
   }, {
     "name" : "POSCancelReservationGridLine",
     "table" : "POSCancelReservationGridLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Cancel Reservation Grid Line"
   }, {
     "name" : "POSCancelReservationMainLine",
     "table" : "POSCancelReservationMainLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Cancel Reservation Main Line"
   }, {
     "name" : "POSCancelReservationOtherLine",
     "table" : "POSCancelReservationOtherLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Cancel Reservation Other Line"
   }, {
     "name" : "POSCashDrawer",
     "table" : "POSCashDrawer",
@@ -15289,71 +15557,88 @@
   }, {
     "name" : "POSConfigFavouriteDocLine",
     "table" : "POSConfigFavouriteDocLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Config Favourite Doc Line"
   }, {
     "name" : "POSConfigFavouriteItemLine",
     "table" : "POSConfigFavouriteItemLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Config Favourite Item Line"
   }, {
     "name" : "POSConfigPayMethodLine",
     "table" : "POSConfigPayMethodLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Config Pay Method Line"
   }, {
     "name" : "POSConfigPayTermLine",
     "table" : "POSConfigPayTermLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Config Pay Term Line"
   }, {
     "name" : "POSConfigReceiptTermLine",
     "table" : "POSConfigReceiptTermLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Config Receipt Term Line"
   }, {
     "name" : "POSConfigRegisterCurrencyLine",
     "table" : "POSConfigRegisterCurrencyLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Config Register Currency Line"
   }, {
     "name" : "POSConfigReturnTermLine",
     "table" : "POSConfigReturnTermLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Config Return Term Line"
   }, {
     "name" : "POSConfigSalesTermLine",
     "table" : "POSConfigSalesTermLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Config Sales Term Line"
   }, {
     "name" : "POSCustomerFieldLine",
     "table" : "POSCustomerFieldLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Customer Field Line"
   }, {
     "name" : "POSCustomerPhoneCountryCodeLine",
     "table" : "POSCustomerPhoneCountryCodeLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Customer Phone Country Code Line"
   }, {
     "name" : "POSEntitiesSendConfigLine",
     "table" : "POSEntitiesSendConfigLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Entities Send Config Line"
   }, {
     "name" : "POSFavProcedureLine",
     "table" : "POSFavProcedureLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Fav Procedure Line"
   }, {
     "name" : "POSFilterDimensionsLine",
     "table" : "POSFilterDimensionsLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Filter Dimensions Line"
   }, {
     "name" : "POSOnlineOrderEntry",
     "table" : "POSOnlineOrderEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Online Order Entry"
   }, {
     "name" : "POSOrderReservationGridLine",
     "table" : "POSOrderReservationGridLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Order Reservation Grid Line"
   }, {
     "name" : "POSOrderReservationMainLine",
     "table" : "POSOrderReservationMainLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Order Reservation Main Line"
   }, {
     "name" : "POSOrderReservationOtherLine",
     "table" : "POSOrderReservationOtherLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Order Reservation Other Line"
   }, {
     "name" : "POSPaymentToRegister",
     "table" : "POSPaymentToRegister",
@@ -15369,7 +15654,8 @@
   }, {
     "name" : "POSReadQueueUpdater",
     "table" : "POSReadQueueUpdater",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Read Queue Updater"
   }, {
     "name" : "POSReceiptFromRegister",
     "table" : "POSReceiptFromRegister",
@@ -15379,39 +15665,48 @@
   }, {
     "name" : "POSReplacementGridLine",
     "table" : "POSReplacementGridLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Replacement Grid Line"
   }, {
     "name" : "POSReplacementMainLine",
     "table" : "POSReplacementMainLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Replacement Main Line"
   }, {
     "name" : "POSReplacementOtherLine",
     "table" : "POSReplacementOtherLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Replacement Other Line"
   }, {
     "name" : "POSReturnGridLine",
     "table" : "POSReturnGridLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Return Grid Line"
   }, {
     "name" : "POSReturnMainLine",
     "table" : "POSReturnMainLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Return Main Line"
   }, {
     "name" : "POSReturnOtherLine",
     "table" : "POSReturnOtherLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Return Other Line"
   }, {
     "name" : "POSScrapDocGridLine",
     "table" : "POSScrapDocGridLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Scrap Doc Grid Line"
   }, {
     "name" : "POSScrapDocMainLine",
     "table" : "POSScrapDocMainLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Scrap Doc Main Line"
   }, {
     "name" : "POSScrapDocOtherLine",
     "table" : "POSScrapDocOtherLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Scrap Doc Other Line"
   }, {
     "name" : "POSSecurityProfile",
     "table" : "POSSecurityProfile",
@@ -15425,7 +15720,8 @@
   }, {
     "name" : "POSServiceChargeLine",
     "table" : "POSServiceChargeLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Service Charge Line"
   }, {
     "name" : "POSServiceChargeSettings",
     "table" : "POSServiceChargeSettings",
@@ -15439,7 +15735,8 @@
   }, {
     "name" : "POSShiftCloseLine",
     "table" : "POSShiftCloseLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Shift Close Line"
   }, {
     "name" : "POSShiftClosing",
     "table" : "POSShiftClosing",
@@ -15456,7 +15753,8 @@
   }, {
     "name" : "POSShiftOpenLine",
     "table" : "POSShiftOpenLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Shift Open Line"
   }, {
     "name" : "POSShiftOpening",
     "table" : "POSShiftOpening",
@@ -15473,55 +15771,68 @@
   }, {
     "name" : "POSShortfallsDocGridLine",
     "table" : "POSShortfallsDocGridLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Shortfalls Doc Grid Line"
   }, {
     "name" : "POSShortfallsDocMainLine",
     "table" : "POSShortfallsDocMainLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Shortfalls Doc Main Line"
   }, {
     "name" : "POSShortfallsDocOtherLine",
     "table" : "POSShortfallsDocOtherLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Shortfalls Doc Other Line"
   }, {
     "name" : "POSStockReceiptGridLine",
     "table" : "POSStockReceiptGridLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Stock Receipt Grid Line"
   }, {
     "name" : "POSStockReceiptMainLine",
     "table" : "POSStockReceiptMainLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Stock Receipt Main Line"
   }, {
     "name" : "POSStockReceiptOtherLine",
     "table" : "POSStockReceiptOtherLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Stock Receipt Other Line"
   }, {
     "name" : "POSTakingGridLine",
     "table" : "POSTakingGridLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Taking Grid Line"
   }, {
     "name" : "POSTakingMainLine",
     "table" : "POSTakingMainLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Taking Main Line"
   }, {
     "name" : "POSTakingOtherLine",
     "table" : "POSTakingOtherLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Taking Other Line"
   }, {
     "name" : "POSTransferGridLine",
     "table" : "POSTransferGridLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Transfer Grid Line"
   }, {
     "name" : "POSTransferMainLine",
     "table" : "POSTransferMainLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Transfer Main Line"
   }, {
     "name" : "POSTransferOtherLine",
     "table" : "POSTransferOtherLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Transfer Other Line"
   }, {
     "name" : "POSTransferWithSaveDocLine",
     "table" : "POSTransferWithSaveDocLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "POS Transfer With Save Doc Line"
   }, {
     "name" : "PVRequest",
     "table" : "PVRequest",
@@ -15538,7 +15849,8 @@
   }, {
     "name" : "PVRequestInstallmentLine",
     "table" : "PVRequestInstallmentLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "PV Request Installment Line"
   }, {
     "name" : "PackagingMethodFile",
     "table" : "PackagingMethodFile",
@@ -15572,12 +15884,14 @@
   }, {
     "name" : "PartitionedCostReqInfo",
     "table" : "PartitionedCostReqInfo",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Partitioned Cost Req Info"
   }, {
     "name" : "Partner",
     "table" : "Partner",
     "module" : "accounting",
-    "ar" : "شريك"
+    "ar" : "شريك",
+    "en" : "Partner"
   }, {
     "name" : "PartnerShares",
     "table" : "PartnerShares",
@@ -15624,7 +15938,8 @@
   }, {
     "name" : "PayReceiptDocsSysEntry",
     "table" : "PayReceiptDocsSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Pay Receipt Docs Sys Entry"
   }, {
     "name" : "PaymentFromPosSettings",
     "table" : "PaymentFromPosSettings",
@@ -15696,7 +16011,8 @@
   }, {
     "name" : "PaymentSubsidiaryTypeLine",
     "table" : "PaymentSubsidiaryTypeLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Payment Subsidiary Type Line"
   }, {
     "name" : "PaymentTerminal",
     "table" : "PaymentTerminal",
@@ -15731,19 +16047,23 @@
   }, {
     "name" : "PendingEntityFlow",
     "table" : "PendingEntityFlow",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Pending Entity Flow"
   }, {
     "name" : "PendingSystemAction",
     "table" : "PendingSystemAction",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Pending System Action"
   }, {
     "name" : "PendingTask",
     "table" : "PendingTask",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Pending Task"
   }, {
     "name" : "PendingTaskSchedule",
     "table" : "PendingTaskSchedule",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Pending Task Schedule"
   }, {
     "name" : "PerformanceIndicator",
     "table" : "PerformanceIndicator",
@@ -15809,7 +16129,8 @@
   }, {
     "name" : "PeriodicRewardPointsAmountSpentSysEntry",
     "table" : "PeriodicRewardPointsAmountSpentSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Periodic Reward Points Amount Spent Sys Entry"
   }, {
     "name" : "PeriodicRewardPointsGrantDocument",
     "table" : "PeriodicRewardPointsGrantDocument",
@@ -15819,7 +16140,8 @@
   }, {
     "name" : "PeriodicRewardPointsGrantDocumentEntry",
     "table" : "PeriodicRewardPointsGrantDocumentEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Periodic Reward Points Grant Document Entry"
   }, {
     "name" : "PharmaConfiguration",
     "table" : "PharmaConfiguration",
@@ -15858,11 +16180,13 @@
   }, {
     "name" : "PosConfigRequestAuthorizationLine",
     "table" : "PosConfigRequestAuthorizationLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Pos Config Request Authorization Line"
   }, {
     "name" : "PosMinChargeLine",
     "table" : "PosMinChargeLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Pos Min Charge Line"
   }, {
     "name" : "PosMinChargeSettings",
     "table" : "PosMinChargeSettings",
@@ -15876,7 +16200,8 @@
   }, {
     "name" : "PosReturnFromInvoiceEntry",
     "table" : "PosReturnFromInvoiceEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Pos Return From Invoice Entry"
   }, {
     "name" : "PostHandoverCost",
     "table" : "PostHandoverCost",
@@ -15998,7 +16323,8 @@
   }, {
     "name" : "PreventRegenerateSalaryDocs",
     "table" : "PreventRegenerateSalaryDocs",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Prevent Regenerate Salary Docs"
   }, {
     "name" : "PreventUsingBatch",
     "table" : "PreventUsingBatch",
@@ -16231,7 +16557,8 @@
   }, {
     "name" : "ProductionMovementSysEntry",
     "table" : "ProductionMovementSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Production Movement Sys Entry"
   }, {
     "name" : "ProductionOrder",
     "table" : "ProductionOrder",
@@ -16295,7 +16622,8 @@
   }, {
     "name" : "ProductionSysEntry",
     "table" : "ProductionSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Production Sys Entry"
   }, {
     "name" : "ProfitDistributationDoc",
     "table" : "ProfitDistributationDoc",
@@ -16466,11 +16794,13 @@
   }, {
     "name" : "PseudoContractingSalesLine",
     "table" : "PseudoContractingSalesLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Pseudo Contracting Sales Line"
   }, {
     "name" : "PseudoSalesLine",
     "table" : "PseudoSalesLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Pseudo Sales Line"
   }, {
     "name" : "PurchaseDocumentUpdate",
     "table" : "PurchaseDocumentUpdate",
@@ -16586,7 +16916,8 @@
   }, {
     "name" : "PurchasePriceSysLine",
     "table" : "PurchasePriceSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Purchase Price Sys Line"
   }, {
     "name" : "PurchaseQuotation",
     "table" : "PurchaseQuotation",
@@ -16651,7 +16982,8 @@
   }, {
     "name" : "PurgeBatch",
     "table" : "PurgeBatch",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Purge Batch"
   }, {
     "name" : "PurgeConfig",
     "table" : "PurgeConfig",
@@ -16668,7 +17000,8 @@
   }, {
     "name" : "PurgeInformation",
     "table" : "PurgeInformation",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Purge Information"
   }, {
     "name" : "PurgeJournal",
     "table" : "PurgeJournal",
@@ -16692,11 +17025,13 @@
   }, {
     "name" : "QtyTrackingTotalEntry",
     "table" : "QtyTrackingTotalEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Qty Tracking Total Entry"
   }, {
     "name" : "QtyTrackingTransactionEntry",
     "table" : "QtyTrackingTransactionEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Qty Tracking Transaction Entry"
   }, {
     "name" : "QtyTrans",
     "table" : "QtyTrans",
@@ -16761,7 +17096,8 @@
     "name" : "QuestionClassification",
     "table" : "QuestionClassification",
     "module" : "supplychain-qc-qa",
-    "ar" : "تصنيف سؤال"
+    "ar" : "تصنيف سؤال",
+    "en" : "Question Classification"
   }, {
     "name" : "QueueServiceBranch",
     "table" : "QueueServiceBranch",
@@ -16800,7 +17136,8 @@
   }, {
     "name" : "RARentalAssetEntry",
     "table" : "RARentalAssetEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "RA Rental Asset Entry"
   }, {
     "name" : "RARentalInvoice",
     "table" : "RARentalInvoice",
@@ -16973,7 +17310,8 @@
   }, {
     "name" : "REEstateCostEntry",
     "table" : "REEstateCostEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "RE Estate Cost Entry"
   }, {
     "name" : "REEstateOpeningCost",
     "table" : "REEstateOpeningCost",
@@ -17082,11 +17420,13 @@
   }, {
     "name" : "REInvestmentFundInvestor",
     "table" : "REInvestmentFundInvestor",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "RE Investment Fund Investor"
   }, {
     "name" : "REInvestmentFundInvestorTransaction",
     "table" : "REInvestmentFundInvestorTransaction",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "RE Investment Fund Investor Transaction"
   }, {
     "name" : "REInvestorExit",
     "table" : "REInvestorExit",
@@ -17269,7 +17609,8 @@
   }, {
     "name" : "REPurchaseValueAndRevaluationEntry",
     "table" : "REPurchaseValueAndRevaluationEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "RE Purchase Value And Revaluation Entry"
   }, {
     "name" : "RERentContract",
     "table" : "RERentContract",
@@ -17379,11 +17720,13 @@
   }, {
     "name" : "RERentalUnitMovement",
     "table" : "RERentalUnitMovement",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "RE Rental Unit Movement"
   }, {
     "name" : "RERentalunitsalesLine",
     "table" : "RERentalunitsalesLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "RE Rentalunitsales Line"
   }, {
     "name" : "REReservationDoc",
     "table" : "REReservationDoc",
@@ -17416,7 +17759,8 @@
   }, {
     "name" : "REReservationEntry",
     "table" : "REReservationEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "RE Reservation Entry"
   }, {
     "name" : "REReturnPaymentDoc",
     "table" : "REReturnPaymentDoc",
@@ -17529,7 +17873,8 @@
   }, {
     "name" : "RESysEntry",
     "table" : "RESysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "RE Sys Entry"
   }, {
     "name" : "RETempReservation",
     "table" : "RETempReservation",
@@ -17653,7 +17998,8 @@
   }, {
     "name" : "RealEstateTaxPlan",
     "table" : "RealEstateTaxPlan",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Real Estate Tax Plan"
   }, {
     "name" : "RecallCampaign",
     "table" : "RecallCampaign",
@@ -17755,7 +18101,8 @@
   }, {
     "name" : "ReceiptSubsidiaryTypeLine",
     "table" : "ReceiptSubsidiaryTypeLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Receipt Subsidiary Type Line"
   }, {
     "name" : "ReceiptVoucher",
     "table" : "ReceiptVoucher",
@@ -17839,11 +18186,13 @@
   }, {
     "name" : "RegenSalaryDocsAllowedStatus",
     "table" : "RegenSalaryDocsAllowedStatus",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Regen Salary Docs Allowed Status"
   }, {
     "name" : "RegenSalarySheetsAllowedStatus",
     "table" : "RegenSalarySheetsAllowedStatus",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Regen Salary Sheets Allowed Status"
   }, {
     "name" : "RegulationArticle",
     "table" : "RegulationArticle",
@@ -17879,6 +18228,7 @@
     "table" : "Remark",
     "module" : "basic",
     "ar" : "ملاحظة",
+    "en" : "Remark",
     "details" : [ {
       "id" : "details",
       "table" : "RemarkLine"
@@ -17972,7 +18322,8 @@
   }, {
     "name" : "ReplicationStatistics",
     "table" : "ReplicationStatistics",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Replication Statistics"
   }, {
     "name" : "ReportDefinition",
     "table" : "ReportDefinition",
@@ -18014,7 +18365,8 @@
   }, {
     "name" : "ReportLog",
     "table" : "ReportLog",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Report Log"
   }, {
     "name" : "ReportStyle",
     "table" : "ReportStyle",
@@ -18223,6 +18575,7 @@
     "table" : "Resource",
     "module" : "supplychain",
     "ar" : "مورد تشغيل",
+    "en" : "Resource",
     "details" : [ {
       "id" : "activities",
       "table" : "ResourceActivityLine"
@@ -18256,6 +18609,7 @@
     "name" : "RevisionCase",
     "table" : "RevisionCase",
     "module" : "system-tables",
+    "en" : "Revision Case",
     "details" : [ {
       "id" : "nextCandidates",
       "table" : "RevCaseCandidates"
@@ -18308,11 +18662,13 @@
   }, {
     "name" : "RewardPointRedeemSysEntry",
     "table" : "RewardPointRedeemSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Reward Point Redeem Sys Entry"
   }, {
     "name" : "RewardPointTransactionSysEntry",
     "table" : "RewardPointTransactionSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Reward Point Transaction Sys Entry"
   }, {
     "name" : "RewardPointsConfig",
     "table" : "RewardPointsConfig",
@@ -18349,12 +18705,14 @@
   }, {
     "name" : "RewardRedeemDetailedSysEntry",
     "table" : "RewardRedeemDetailedSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Reward Redeem Detailed Sys Entry"
   }, {
     "name" : "Routing",
     "table" : "Routing",
     "module" : "manufacturing",
     "ar" : "عملية تشغيل",
+    "en" : "Routing",
     "details" : [ {
       "id" : "conversions",
       "table" : "RoutingUOMConversion"
@@ -18371,11 +18729,13 @@
   }, {
     "name" : "SCBox",
     "table" : "SCBox",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "SC Box"
   }, {
     "name" : "SCCollectPropertyOrderConfigLine",
     "table" : "SCCollectPropertyOrderConfigLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "SC Collect Property Order Config Line"
   }, {
     "name" : "SCCopierExtraFields",
     "table" : "SCCopierExtraFields",
@@ -18395,11 +18755,13 @@
   }, {
     "name" : "SCDocSecondSerial",
     "table" : "SCDocSecondSerial",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "SC Doc Second Serial"
   }, {
     "name" : "SCDocSerial",
     "table" : "SCDocSerial",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "SC Doc Serial"
   }, {
     "name" : "SCExtraDocCreationRule",
     "table" : "SCExtraDocCreationRule",
@@ -18413,11 +18775,13 @@
   }, {
     "name" : "SCGridConfigLine",
     "table" : "SCGridConfigLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "SC Grid Config Line"
   }, {
     "name" : "SCMeasuresFactorsLine",
     "table" : "SCMeasuresFactorsLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "SC Measures Factors Line"
   }, {
     "name" : "SFDARSDConfig",
     "table" : "SFDARSDConfig",
@@ -18452,7 +18816,8 @@
   }, {
     "name" : "SFDARSDReportTask",
     "table" : "SFDARSDReportTask",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "SFDARSD Report Task"
   }, {
     "name" : "SIAllocation",
     "table" : "SIAllocation",
@@ -18563,7 +18928,8 @@
   }, {
     "name" : "SIInsurancePolicyEntry",
     "table" : "SIInsurancePolicyEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "SI Insurance Policy Entry"
   }, {
     "name" : "SIInsurancePolicyOrder",
     "table" : "SIInsurancePolicyOrder",
@@ -18815,7 +19181,8 @@
   }, {
     "name" : "SISalesInvGeneratedDocsLine",
     "table" : "SISalesInvGeneratedDocsLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "SI Sales Inv Generated Docs Line"
   }, {
     "name" : "SISalesInvoice",
     "table" : "SISalesInvoice",
@@ -18987,19 +19354,23 @@
   }, {
     "name" : "STCLoyaltyPointsRewardEntry",
     "table" : "STCLoyaltyPointsRewardEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "STC Loyalty Points Reward Entry"
   }, {
     "name" : "SWInvItemTrans",
     "table" : "SWInvItemTrans",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "SW Inv Item Trans"
   }, {
     "name" : "SWMatchedInvItemTrans",
     "table" : "SWMatchedInvItemTrans",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "SW Matched Inv Item Trans"
   }, {
     "name" : "SWQuentityReprocessReq",
     "table" : "SWQuentityReprocessReq",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "SW Quentity Reprocess Req"
   }, {
     "name" : "SafeDeposite",
     "table" : "SafeDeposite",
@@ -19071,7 +19442,8 @@
   }, {
     "name" : "SalaryDetailSysEntry",
     "table" : "SalaryDetailSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Salary Detail Sys Entry"
   }, {
     "name" : "SalaryDocument",
     "table" : "SalaryDocument",
@@ -19111,11 +19483,13 @@
   }, {
     "name" : "SalarySheetLine",
     "table" : "SalarySheetLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Salary Sheet Line Ref"
   }, {
     "name" : "SalarySheetTermLine",
     "table" : "SalarySheetTermLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Salary Sheet Term Line"
   }, {
     "name" : "SalaryStructure",
     "table" : "SalaryStructure",
@@ -19135,7 +19509,8 @@
   }, {
     "name" : "SalasaRequestLog",
     "table" : "SalasaRequestLog",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Salasa Request Log"
   }, {
     "name" : "SalesCouponsCodingMethod",
     "table" : "SalesCouponsCodingMethod",
@@ -19253,7 +19628,8 @@
   }, {
     "name" : "SalesOrderCouponSysEntry",
     "table" : "SalesOrderCouponSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sales Order Coupon Sys Entry"
   }, {
     "name" : "SalesPoints",
     "table" : "SalesPoints",
@@ -19352,7 +19728,8 @@
   }, {
     "name" : "SalesPriceSysLine",
     "table" : "SalesPriceSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sales Price Sys Line"
   }, {
     "name" : "SalesQuotation",
     "table" : "SalesQuotation",
@@ -19479,16 +19856,19 @@
   }, {
     "name" : "SavedBusinessRequest",
     "table" : "SavedBusinessRequest",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Saved Business Request"
   }, {
     "name" : "SavedEntityRequest",
     "table" : "SavedEntityRequest",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Saved Entity Request"
   }, {
     "name" : "Scenario",
     "table" : "Scenario",
     "module" : "manufacturing-mrp",
-    "ar" : "سيناريو"
+    "ar" : "سيناريو",
+    "en" : "Scenario"
   }, {
     "name" : "ScrapReceipt",
     "table" : "ScrapReceipt",
@@ -19594,12 +19974,14 @@
     "name" : "Season",
     "table" : "Season",
     "module" : "supplychain-sales",
-    "ar" : "موسم"
+    "ar" : "موسم",
+    "en" : "Season"
   }, {
     "name" : "Sector",
     "table" : "Sector",
     "module" : "basic",
     "ar" : "قطاع",
+    "en" : "Sector",
     "details" : [ {
       "id" : "parents",
       "table" : "Sector_Sector"
@@ -19610,7 +19992,8 @@
   }, {
     "name" : "SectorParentLine",
     "table" : "SectorParentLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sector Parent Line"
   }, {
     "name" : "SecurityCapability",
     "table" : "SecurityCapability",
@@ -19636,11 +20019,13 @@
   }, {
     "name" : "SentEntityToAnotherServerSysEntry",
     "table" : "SentEntityToAnotherServerSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sent Entity To Another Server Sys Entry"
   }, {
     "name" : "SequenceEntity",
     "table" : "SequenceEntity",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sequence Entity"
   }, {
     "name" : "ServiceItemBOM",
     "table" : "ServiceItemBOM",
@@ -19657,7 +20042,8 @@
   }, {
     "name" : "ShipmentDeliveryLine",
     "table" : "ShipmentDeliveryLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Shipment Delivery Line"
   }, {
     "name" : "ShippingPort",
     "table" : "ShippingPort",
@@ -19696,7 +20082,8 @@
   }, {
     "name" : "SiteOutMessage",
     "table" : "SiteOutMessage",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Site Out Message"
   }, {
     "name" : "SocialMediaSubscriberConfig",
     "table" : "SocialMediaSubscriberConfig",
@@ -19713,11 +20100,13 @@
     "name" : "Sponsor",
     "table" : "Sponsor",
     "module" : "basic",
-    "ar" : "كفيل"
+    "ar" : "كفيل",
+    "en" : "Sponsor"
   }, {
     "name" : "SrvCAppointmentsSysEntry",
     "table" : "SrvCAppointmentsSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Srv C Appointments Sys Entry"
   }, {
     "name" : "SrvCAttendance",
     "table" : "SrvCAttendance",
@@ -19847,7 +20236,8 @@
   }, {
     "name" : "SrvCJobOrderStatusEntry",
     "table" : "SrvCJobOrderStatusEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Srv C Job Order Status Entry"
   }, {
     "name" : "SrvCKiloMetrage",
     "table" : "SrvCKiloMetrage",
@@ -19892,15 +20282,18 @@
   }, {
     "name" : "SrvCProductLastService",
     "table" : "SrvCProductLastService",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Srv C Product Last Service"
   }, {
     "name" : "SrvCProductLastServiceTrans",
     "table" : "SrvCProductLastServiceTrans",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Srv C Product Last Service Trans"
   }, {
     "name" : "SrvCProductStatusEntry",
     "table" : "SrvCProductStatusEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Srv C Product Status Entry"
   }, {
     "name" : "SrvCProductTaskOpeningDoc",
     "table" : "SrvCProductTaskOpeningDoc",
@@ -20053,7 +20446,8 @@
   }, {
     "name" : "SrvcMaterialEntry",
     "table" : "SrvcMaterialEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Srvc Material Entry"
   }, {
     "name" : "SrvcPendingOperation",
     "table" : "SrvcPendingOperation",
@@ -20140,15 +20534,18 @@
   }, {
     "name" : "StockAgesInfo",
     "table" : "StockAgesInfo",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Stock Ages Info"
   }, {
     "name" : "StockAgesMatcher",
     "table" : "StockAgesMatcher",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Stock Ages Matcher"
   }, {
     "name" : "StockAgesProcessRequest",
     "table" : "StockAgesProcessRequest",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Stock Ages Process Request"
   }, {
     "name" : "StockAgesTask",
     "table" : "StockAgesTask",
@@ -20158,11 +20555,13 @@
   }, {
     "name" : "StockAgesTaskUpdater",
     "table" : "StockAgesTaskUpdater",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Stock Ages Task Updater"
   }, {
     "name" : "StockAgesTrans",
     "table" : "StockAgesTrans",
     "module" : "system-tables",
+    "en" : "Stock Ages Trans",
     "details" : [ {
       "id" : "details",
       "table" : "StockAgesTransLine"
@@ -20305,7 +20704,8 @@
   }, {
     "name" : "SubItemStatusEntry",
     "table" : "SubItemStatusEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sub Item Status Entry"
   }, {
     "name" : "Subsidiary1",
     "table" : "Subsidiary1",
@@ -20404,7 +20804,8 @@
   }, {
     "name" : "SubsidiaryAccounts",
     "table" : "SubsidiaryAccounts",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Subsidiary Accounts"
   }, {
     "name" : "SubsidiaryClass",
     "table" : "SubsidiaryClass",
@@ -20433,12 +20834,14 @@
   }, {
     "name" : "SubsidiarySingleAccount",
     "table" : "SubsidiarySingleAccount",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Subsidiary Single Account"
   }, {
     "name" : "Supplier",
     "table" : "Supplier",
     "module" : "basic",
     "ar" : "مورد",
+    "en" : "Supplier",
     "details" : [ {
       "id" : "contacts",
       "table" : "SupplierContactInfo"
@@ -20455,7 +20858,8 @@
   }, {
     "name" : "SupplierTransEntry",
     "table" : "SupplierTransEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Supplier Trans Entry"
   }, {
     "name" : "SuspensionDocument",
     "table" : "SuspensionDocument",
@@ -20465,11 +20869,13 @@
   }, {
     "name" : "SysActionSecurityLine",
     "table" : "SysActionSecurityLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sys Action Security Line"
   }, {
     "name" : "SysGenericSecurityLine",
     "table" : "SysGenericSecurityLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sys Generic Security Line"
   }, {
     "name" : "SysIndicatorApproval",
     "table" : "SysIndicatorApproval",
@@ -20483,39 +20889,48 @@
   }, {
     "name" : "SysItemLine",
     "table" : "SysItemLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sys Item Line"
   }, {
     "name" : "SysPORelatedDocLine",
     "table" : "SysPORelatedDocLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sys PO Related Doc Line"
   }, {
     "name" : "SysPageSecurity",
     "table" : "SysPageSecurity",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sys Page Security"
   }, {
     "name" : "SysSecurityFieldAuthority",
     "table" : "SysSecurityFieldAuthority",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sys Security Field Authority"
   }, {
     "name" : "SysSecurityLine",
     "table" : "SysSecurityLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sys Security Line"
   }, {
     "name" : "SysServiceLine",
     "table" : "SysServiceLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sys Service Line"
   }, {
     "name" : "SysVacBalanceTransaction",
     "table" : "SysVacBalanceTransaction",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sys Vac Balance Transaction"
   }, {
     "name" : "SysVacationsBalance",
     "table" : "SysVacationsBalance",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sys Vacations Balance"
   }, {
     "name" : "SysVacationsBalanceByDate",
     "table" : "SysVacationsBalanceByDate",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Sys Vacations Balance By Date"
   }, {
     "name" : "SystemAccountTransException",
     "table" : "SystemAccountTransException",
@@ -20787,7 +21202,8 @@
   }, {
     "name" : "TaskScheduleExecutionLog",
     "table" : "TaskScheduleExecutionLog",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Task Schedule Execution Log"
   }, {
     "name" : "TaxAuthoritySubmissionDoc",
     "table" : "TaxAuthoritySubmissionDoc",
@@ -20885,7 +21301,8 @@
   }, {
     "name" : "TaxPayerLastSubmissionInfo",
     "table" : "TaxPayerLastSubmissionInfo",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Tax Payer Last Submission Info"
   }, {
     "name" : "TaxPlan",
     "table" : "TaxPlan",
@@ -20912,7 +21329,8 @@
   }, {
     "name" : "TechnicianAppointmentChangeHistory",
     "table" : "TechnicianAppointmentChangeHistory",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Technician Appointment Change History"
   }, {
     "name" : "TechnicianBookingSettings",
     "table" : "TechnicianBookingSettings",
@@ -20997,7 +21415,8 @@
   }, {
     "name" : "TelegramBotInfo",
     "table" : "TelegramBotInfo",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Telegram Bot Info"
   }, {
     "name" : "TelegramMessage",
     "table" : "TelegramMessage",
@@ -21007,12 +21426,14 @@
   }, {
     "name" : "TelegramMessageEntry",
     "table" : "TelegramMessageEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Telegram Message Entry"
   }, {
     "name" : "Tender",
     "table" : "Tender",
     "module" : "supplychain-sales",
     "ar" : "مناقصة",
+    "en" : "Tender",
     "details" : [ {
       "id" : "conditions",
       "table" : "TenderConditionLine"
@@ -21035,7 +21456,8 @@
   }, {
     "name" : "TenderInvoiceLine",
     "table" : "TenderInvoiceLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Tender Invoice Line"
   }, {
     "name" : "TermAnalysisCard",
     "table" : "TermAnalysisCard",
@@ -21061,11 +21483,13 @@
   }, {
     "name" : "TermConditionLine",
     "table" : "TermConditionLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Term Condition Line"
   }, {
     "name" : "TermItemLine",
     "table" : "TermItemLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Term Item Line"
   }, {
     "name" : "TermSheet",
     "table" : "TermSheet",
@@ -21082,7 +21506,8 @@
   }, {
     "name" : "TerminationCalcSysEntry",
     "table" : "TerminationCalcSysEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Termination Calc Sys Entry"
   }, {
     "name" : "TerminationReason",
     "table" : "TerminationReason",
@@ -21125,7 +21550,8 @@
   }, {
     "name" : "TooltipDefApplyTo",
     "table" : "TooltipDefApplyTo",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Tooltip Def Apply To"
   }, {
     "name" : "TooltipDefinition",
     "table" : "TooltipDefinition",
@@ -21135,11 +21561,13 @@
   }, {
     "name" : "TooltipEntityMapping",
     "table" : "TooltipEntityMapping",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Tooltip Entity Mapping"
   }, {
     "name" : "TooltipPart",
     "table" : "TooltipPart",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Tooltip Part"
   }, {
     "name" : "TrainingCourse",
     "table" : "TrainingCourse",
@@ -21214,6 +21642,7 @@
     "table" : "UOM",
     "module" : "supplychain",
     "ar" : "وحدة قياس",
+    "en" : "UOM",
     "details" : [ {
       "id" : "details",
       "table" : "UOMLine"
@@ -21244,7 +21673,8 @@
   }, {
     "name" : "UnmatchedManualDebtLine",
     "table" : "UnmatchedManualDebtLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Unmatched Manual Debt Line"
   }, {
     "name" : "UpdateCustomerInfo",
     "table" : "UpdateCustomerInfo",
@@ -21325,7 +21755,8 @@
   }, {
     "name" : "UserHelpApplicableLine",
     "table" : "UserHelpApplicableLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "User Help Applicable Line"
   }, {
     "name" : "UserMobileIdentifierDocument",
     "table" : "UserMobileIdentifierDocument",
@@ -21335,7 +21766,8 @@
   }, {
     "name" : "UserNotification",
     "table" : "UserNotification",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "User Notification"
   }, {
     "name" : "UserTimedQuery",
     "table" : "UserTimedQuery",
@@ -21428,11 +21860,13 @@
   }, {
     "name" : "VacationsBalSysLine",
     "table" : "VacationsBalSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Vacations Bal Sys Line"
   }, {
     "name" : "VacationsSysLine",
     "table" : "VacationsSysLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Vacations Sys Line"
   }, {
     "name" : "VendorDiscount",
     "table" : "VendorDiscount",
@@ -21534,6 +21968,7 @@
     "table" : "Warehouse",
     "module" : "supplychain",
     "ar" : "مخزن",
+    "en" : "Warehouse",
     "details" : [ {
       "id" : "additionalInformation",
       "table" : "WarehouseAdditionInformationLine"
@@ -21554,11 +21989,13 @@
   }, {
     "name" : "WarehouseLocatorFilterLine",
     "table" : "WarehouseLocatorFilterLine",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Warehouse Locator Filter Line"
   }, {
     "name" : "WarehouseTaking",
     "table" : "WarehouseTaking",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Warehouse Taking"
   }, {
     "name" : "WarehouseUsagePolicy",
     "table" : "WarehouseUsagePolicy",
@@ -21578,11 +22015,13 @@
   }, {
     "name" : "WathqCallInfo",
     "table" : "WathqCallInfo",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Wathq Call Info"
   }, {
     "name" : "WebEngageSentEvent",
     "table" : "WebEngageSentEvent",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Web Engage Sent Event"
   }, {
     "name" : "WeekendDoc",
     "table" : "WeekendDoc",
@@ -21670,11 +22109,13 @@
   }, {
     "name" : "WhatsAppMessageEntry",
     "table" : "WhatsAppMessageEntry",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Whats App Message Entry"
   }, {
     "name" : "WhatsAppMessageLog",
     "table" : "WhatsAppMessageLog",
-    "module" : "system-tables"
+    "module" : "system-tables",
+    "en" : "Whats App Message Log"
   }, {
     "name" : "WizardFile",
     "table" : "WizardFile",
@@ -21734,5 +22175,5 @@
     "ar" : "تصنيف مهمة عمل",
     "en" : "Work Task Category"
   } ],
-  "enums" : [ "AIChatMessageType", "AIFieldType", "AIToolType", "AUAccountChartClass", "AUAssertionType", "AUChangeType", "AURiskType", "AccDistribPolicy", "AccDistribType", "AccMultiDistributeType", "AccSideType", "AcceptableAnswer", "AccountChartClass", "AccountDimensionSourceType", "AccountType", "ActionType", "AddedUserType", "AddingExpenseItemOptions", "AdultOrChild", "AdvancePaymentMethod", "AgrInvestmentContractStatus", "AgrInvestmentContractType", "AgreedPriceSource", "AllowanceType", "AnswerType", "AppFormElementType", "ApplicabilityMethod", "ApplicableWhen", "ApplicationMethod", "ApplyType", "ApprovalCaseState", "ApprovalDecision", "ApprovalEndAction", "ApprovalInitiator", "ApprovalStatus", "AscendingOrDescending", "AssayContractType", "AssayStatus", "AssemblyCostType", "AssemblyDocCalcGridType", "AssemblyDocStatus", "AssemblyProcessCalcMethod", "AttachedFileContentType", "AttendanceCertificate", "AttendanceMachineConnectionType", "AttendanceMachineResponseField", "AttendanceShiftType", "AuditStatusType", "AuthorityType", "AutoSaveBehavior", "AutoTicketingStepType", "BankAccountType", "BankAdjustmentType", "BankAssuranceType", "BarcodeType", "BasinSlotType", "BenefitClassification", "BorderLinePreset", "BudgetExceededBehavior", "BusActionType", "BusStatus", "BusType", "BusinessFunction", "BuyerPaymentType", "CPAPerformService", "CPAProcedureStatus", "CPAProjectMileStoneStatus", "CPAProjectStatus", "CPARequestState", "CPASalesQuotationStatus", "CPATaskStatus", "CPATimeSheetStatus", "CRMCallDirection", "CRMCompOrSugestion", "CRMCompliantSource", "CRMFollowUpActivityType", "CRMFollowUpStatus", "CRMFollowUpSubStatus", "CRMLeadStatus", "CRMLeadType", "CRMPlanTaskType", "CRMPlatform", "CRMQuestionairStatus", "CRMSalesStage", "CRMTaskStatus", "CRMTaskType", "CRTNLayerType", "CRTNManufacturingType", "CRTNPlaningSolutionType", "CRTNPlanningStatus", "CRTNProductionStages", "CalcMagentoQuantityType", "CampaignStatus", "CapabilityType", "CarActionType", "CarAuthorizationType", "CarClassification", "CarOwnership", "CarStatus", "CarType", "CashFlowType", "CategoryLevel", "ChangeType", "ChargeType", "ChartColumnUsage", "ChatConversationType", "ChatMessageStatus", "ChatMessageType", "ChatParticipantRole", "CheckResult", "ClassificationType", "ClosingEntryBatchPhase", "ClosingEntryGenStatus", "CoProductCostType", "CoSectorType", "CollectionWay", "Color", "ColorScheme", "ColorVariation", "CompanyType", "CompliantStatus", "ComponentCalcType", "ComponentPosition", "ComponentPositionMethod", "ComponentType", "ConditionEffectType", "ConditionRelationWithDocs", "ConditionType", "ConditionValType", "ConfigPropertyName", "ConfigurationType", "ConsiderActivePercentageType", "ContactTitle", "ContrConcernedParty", "ContrItemType", "ContrWorkAreaType", "ContractType", "ContractTypeDependency", "ContractingCondStatus", "ContractingExtractType", "ContractingTermType", "ContractingTimePeriod", "ConversionType", "CopyTemplateFrom", "CostDistribution", "CostReallocation", "CostTransType", "CostType", "CouponCodingMehod", "CouponDimensionsCopyMethod", "CouponInvoiceValueSource", "CourseContractStatus", "CourseEvaluationType", "CourseStatus", "CreditFacilityLimitCalculationMethod", "CreditFacilityPaymentEffectOnRemaining", "CreditFacilityPaymentMethod", "CreditFacilityStatus", "CriteriaApplicationPolicy", "CriteriaValidatorApplicability", "CustodyStatus", "CustomEquationLinesSource", "CustomRepLaunchType", "DLVDeliveredStatus", "DLVDeliveryDocumentStatus", "DMSDocumentState", "DMSMovementType", "DMSOutMovementType", "DamageType", "DashBoardElementType", "DashBoardTheme", "DashboardKind", "DatabaseCleanerStatus", "DatanuumRequestType", "DatanuumResponseStatus", "DateCalculationMethod", "DefaultUOM", "DeliverdToType", "DeliveringPurpose", "DeliveryMethod", "DeliveryQueueStatus", "DeliveryState", "DeliveryStatus", "DensityMode", "DepositPaymentType", "DescriptorType", "DevelopmentType", "DimensionPolicy", "DimensionSourceEntityType", "DimensionSourceType", "DiscountCouponCalcType", "DiscountCouponStatus", "DiscountLocation", "DiscountLocationWithHeader", "DiscountType", "DiscountUpdaterField", "DisplayNumberAs", "DisplayReferenceAs", "DistributeCostType", "DistributionOrder", "DocumentFileStatus", "DrivingLicenseType", "EDocumentType", "EInvoiceDiscountLocation", "EInvoiceDocType", "EInvoiceReceiverMode", "EInvoiceSignerType", "EInvoiceSubmissionEntryStatus", "EInvoiceUnitPriceSource", "EInvoiceUnitPriceType", "EcommerceEntityType", "EcommerceEventType", "EcommerceGraphEntityOperation", "EcommerceItemType", "EcommerceProductType", "EditAuthority", "EditType", "EditedObjectSourceTypeEnum", "ElementUpdateType", "EltezamLookupType", "EltezamOperation", "EltezamSendState", "EmailSendType", "EmployeeState", "EndStockTakingTaskType", "EndType", "EnrollmentStateType", "EntityCreationType", "EntityTargetAction", "EquaitionOperatorType", "EvacuationApprovalDecision", "EvacuationApprovalState", "EvaluationType", "ExcelFunction", "ExchangeRateType", "ExistenceType", "ExpensValueType", "ExpenseCreditSide", "ExporetdFields", "ExpressionRelationship", "ExpressionType", "ExpressionValueType", "ExtraDataSendType", "FADepreciationMethod", "FAStatus", "FATakingStatus", "FATakingType", "FPStatus", "FRMFreightType", "FRMFrequency", "FRMLocationStatus", "FRMOperationStatus", "FRMPriceListType", "FRMServiceContractType", "FRMTiming", "FSBalanceMovOpeningEqType", "FSComparisonType", "FSDebitCreditEquationType", "FSGroupBy", "FSIssueDocType", "FSLineLevel", "FSOpenningEquation", "FSTotals", "FacilityDescription", "FacilityLimtType", "FacilityType", "FavouriteItemLevel", "FeesType", "FieldAuthorityType", "FieldExportType", "FieldLayout", "FieldLayoutType", "FieldLinkType", "FillByAI", "FilterType", "FinancialPaperType", "FingerPrintException", "FiringReason", "FiscalPeriodStatus", "FiscalPeriodType", "FixedDepositState", "FixedDepositType", "FlatType", "FlatUsage", "FlowEntityTypeStrategy", "FontSize", "FormulaCalcMethod", "FormulaType", "FreeGroupPolicy", "FreeOfferPolicy", "FreightChargesType", "Gender", "GenerationType", "GlobalShortcutTargetType", "GoPayAccountMethod", "GoPayAccountType", "GoPayURLType", "GridFieldVisibilty", "GridSizeEnum", "GroupSection", "GuaranteeType", "HMSDocDegree", "HMSInvoiceType", "HMSLabTestStatus", "HMSOtherSurgeryDiscountValue", "HMSPatientCheckType", "HMSRoomBehavior", "HMSRoomStatus", "HMSRoomType", "HMSWeekDay", "HOCounterType", "HOOwnerShipType", "HRAllowRegenerate", "HRDocStatus", "HRRequestState", "HelpMessageContentType", "IPInvestmentSysEntryType", "IPSMailRetentionActionType", "IPSParcelsReceiverResponse", "IPSReceptaclesReceiptActionType", "IPSRetentionType", "IPSTaskType", "IPTermType", "ImplementationRepositoryType", "ImportExpressionType", "ImportingExportingType", "IncomeStatementEquationType", "InspectionDecsion", "InstallmentEditType", "InstallmentEffectField", "InstallmentState", "InstallmentsType", "InsuranceCategory", "InsuranceType", "Insured", "InterestCalcMethod", "InterestType", "InternalTransferType", "InterviewState", "InvItemCodeType", "InvTransReqType", "InvestmentDocStatus", "InvestmentDocType", "InvoiceOfferDiscountType", "IssueType", "ItemBarcodeProperty", "ItemClassRangeRelation", "ItemDimensionsAutoFillPolicy", "ItemPropertiesDisplayMethod", "ItemRelationType", "ItemRequestStatus", "ItemType", "ItemWarehouseRelationType", "JODamageType", "JODocStatus", "JOOperationType", "JOSalesOrderLineType", "JOSalesType", "JOrderExpenseType", "JREvaluationTimeEnum", "JRFill", "JRHorizontalAlign", "JRLineSpacing", "JRLineStyle", "JRMarkup", "JRModeEnum", "JRRotation", "JRScaleImage", "JRVerticalAlign", "JasperBand", "JasperVariableCalculation", "JasperVariableResetType", "JobOfferState", "JobOrderType", "JobTitle", "KeyboardKey", "LCActionType", "LCReqStatus", "LCShapeType", "LCState", "LGTType", "LanguageEnum", "LargeNumOperator", "LayoutMethod", "LeadSource", "LeastNumOperator", "LeavePermissionType", "LeaveReasonApplyOn", "LecturerSalaryCalcMethod", "LedgerEffectType", "LetterCaseType", "LetterOfGuaranteeReqType", "LetterOfGuaranteeStatus", "LineNumberGroup", "LineNumberType", "LinesType", "LinkingLetterType", "LiquidationComponentIncludedInType", "LiquidationStatus", "LiquidationType", "ListDisplayType", "ListViewPageSize", "LoanInterestType", "LoanPeriodType", "MAGPriceSourceLocation", "MCAdditionDeductionType", "MCContractTermType", "MCContractType", "MCCostItemType", "MCEquipmentCategory", "MCEquipmentType", "MCJobOrderStatus", "MCLaborUpdateTarget", "MCMaintenanceOccurenceType", "MCMaintenanceStatus", "MCProjectType", "MCTenderStatus", "MCTenderUpdateType", "MCWorkAreaType", "MFGMoldStatus", "MFGMoldType", "MRPAggregationPeriodType", "MRPForcastingPeriod", "MRPQtySrcType", "MachineRecallRequestType", "MagEcommerceSiteType", "MagentoOperationType", "MagentoPriceType", "MainOrSubType", "MainStatusEffectType", "MainStatusType", "MaintenanceOccurenceType", "MaintenanceStatus", "MaintenanceType", "MaritalStatus", "MaterialClassificationGrid", "MaxLoanType", "MealAllowanceType", "MealDeliveryStatus", "MeasurementsRequestStatus", "MeasuresType", "MediaType", "MenuTargetType", "MessageQueue", "MnCurrentStatusType", "MnOrderExeStatus", "MnOrderType", "MnStatusType", "MnVisitType", "MnWorkPlanGenerateType", "MobileAppActionType", "MobileAppShortcutType", "MobileAppSourcePrice", "MobileAppTargetMenuItem", "MobileEntityTitleType", "MobileEntityType", "MobileHeaderFieldsDisplayMethod", "MobileHeaderFieldsSize", "MobileIdentifierDocumentStatus", "MobileReferenceShowType", "ModifyWhileUnderApprovalPolicy", "MoneyEffectOperation", "MoneyEffectSource", "MoneyEffectSourceType", "MoneyEffectTypeDF", "MultiplesRoundingMode", "NamaDayOfWeek", "NamaPOSDepreciationReasonDiscount", "NamaPosAdditionalItemsType", "NamaPosUiSettingsSrc", "NoneTreatmentAnswer", "NotificationStatus", "OKTreatmentAnswer", "OfferItemsCountMechanism", "OfferMultiplePolicyMechanism", "OfferReplacementPolicy", "OnlinePaymentFieldType", "OnlinePaymentLinkStatus", "OnlinePaymentType", "OperationGroupPricing", "OperationStep", "OperationType", "Operator", "OrderCloseType", "OrderImportance", "OrderStatus", "OtherBankAssuranceType", "OtherComponentEffectType", "OtpFormat", "OverheadCalcuationType", "OverheadDistributionType", "OverrideSelectedDimension", "PFSalesSourceEffectType", "POROStatus", "POSBusinessFunction", "POSFieldType", "POSHeaderFields", "POSHeldInvoiceStatus", "POSLineCollectionMethod", "POSPaymentDocType", "POSProcedures", "POSReadQueueUpdateType", "POSSalesHeaderField", "POSSalesInvoiceType", "POSSalesReturnType", "POSSecurityCapability", "PRRStatus", "PackagingMethod", "PaperDirection", "ParamFieldType", "ParamOverrideUsage", "ParamSource", "ParamType", "ParameterType", "PartyType", "PatternType", "PayType", "PaymentFrequencyType", "PaymentGatewayProvider", "PaymentMethodCalcType", "PaymentMethodType", "PaymentStarategy", "PaymentStatus", "PaymentType", "PaymentWay", "PaymentsType", "PenaltyUom", "PendingSystemActionType", "PercentBasis", "PerformanceFactor", "PerformanceIndicatorType", "PerformanceIndicatorValueType", "PeriodType", "PickDimensionSource", "PickPolicy", "PickType", "PivotColumnType", "PlanningStatus", "PointsExpiryType", "PoleCommunicationType", "PosPrepFormPrintMethod", "PosReqFieldRelationWithRef", "PosSalesGridField", "PosServiceItemCalcType", "PostponeType", "PreferredLanguageType", "PriceListDefaultPrice", "PriceSource", "PriceUpdaterApplicability", "PriceUpdaterField", "PriceUpdatingPolicy", "PriceValueType", "PriceVotingStatus", "PricingAction", "PricingOperator", "PricingParameter", "PrintAuthority", "Priority", "ProcedureType", "ProdOrderReqStatus", "ProdOrderStatus", "ProductStatus", "ProductType", "ProjectStatus", "ProjectType", "ProvisionMonthType", "PurchaseIncoTerm", "PurchaseOrderStatus", "PurchaseQuotationDeliveryMethod", "PurchaseQuotationRequestStatus", "PurchaseQuotationStatus", "PurgeBatchPhase", "PurgeBehavior", "PurgeInfoType", "PurgeStatus", "PurposeType", "QtyEffectType", "QtyTransType", "QualificationType", "QualityListType", "QuantityAffectedType", "QuantityEffectType", "QuantitySourceType", "QuantityToSendType", "QuantityType", "QuantityValueCopyType", "QuestionResponseType", "QueueEntryStatus", "REBuildingStatus", "RECommissionCalculationBasis", "RECostDistribution", "REExitType", "REInstallmentType", "REInvestmentInvestorType", "REMaintenanceAccrualBasis", "REOwnerType", "RERentStatus", "RERentalUnitType", "REReservationStatus", "REReturnPaymentMethod", "RESalesDocType", "RESalesPriceListType", "REUnitType", "REWaiverType", "RElandStatus", "ROIPeriod", "RVPVReqStatus", "RaiseSizesRequest", "ReLandUsageType", "ReconciliationStep", "ReferenceOrderBy", "RegionType", "RelationType", "Religion", "RemainingProcessingPolicy", "RepLaunchType", "RepOutputFormat", "ReportPageFormat", "ReportPageOrientation", "ReportType", "ReqQtyMethodType", "RequestType", "ReservationStatus", "ReservationType", "ResourceCalcType", "ResourceCostBasis", "ResourceType", "ResponsibleDimEntityType", "ResponsibleType", "ReviseLevel", "RevisionType", "RewardPenaltyIssue", "RewardPointCalculationMethod", "RewardPointsConfigApplicability", "RewardPointsConfigType", "RiskApplyType", "RiskExistenceType", "RoomUsage", "RoundingType", "RuleApplyType", "SFDARSDEnvironment", "SFDARSDGtinSource", "SFDARSDIncomingDispatchStatus", "SFDARSDOperation", "SForecastType", "SIInstallmentParty", "SIInstallmentProgramStatus", "SIInstallmentQuotationStatus", "SIInsuranceBeneficiary", "SIInsuranceCategoryType", "SIInsurancePaymentMethod", "SIInsurancePolicyPaymentStatus", "SIInsurancePolicyPhysicalStatus", "SIInsurancePolicyStatus", "SIPolicyRequestStatus", "SIProgramSource", "SIProgramType", "SISaleType", "SMFPerfectOperationSuggestion", "SMFProblemDeclarationSteps", "SafetyStockCalCulationType", "SafetyStockPeriodsCalcMethod", "SalaryBlockCondition", "SalaryCompEffectType", "SalaryDistributionType", "SalaryIncreaseType", "SalaryPaymentMethod", "SalarySheetStatus", "SalesInvoiceType", "SalesItemsCountType", "SalesOfferFreeItemClassification", "SalesOrderStatus", "SalesPriceCalcType", "SalesPriceRoundingType", "SalesPricingSource", "SalesRetRequestStatus", "SalesReturnType", "ScheduleType", "ScreenBlockModifierEffect", "ScreenModifierApplicability", "ScreenModifierEffect", "ScreenQuickFilterEffect", "SearchColumnVisibility", "SecurityApplicationType", "SecurityEquivalentType", "SemestersType", "SerialType", "ServiceContractStatus", "ServiceContractType", "ServiceExecutionType", "ServiceFeesOrChargedToCustomer", "ServiceFeesTreatmentInAdditionCase", "SessionStatus", "ShiftIndicatorType", "ShipmentState", "ShippingPolicy", "ShippingSiteType", "ShippingWay", "ShowCustomRepIn", "ShowRunningTotalInsteadOfValue", "SizingSystem", "SkillLevel", "SortDirection", "SortMethod", "SortType", "SoundEffects", "SourceInvoiceCalculation", "SourceSelectionMethod", "SpecificationType", "SqlAggregationType", "SrvCIssueType", "SrvCJobOrderStatus", "SrvcOrderInvoiceStatus", "StockTakingCalculation", "StockTakingMissingItems", "StockTakingStatus", "StorageType", "StudentContractType", "StudentProgramType", "SubItemCondition", "SubItemDeliveryStatus", "SubItemStatusType", "SubmittalStatus", "SubsidiaryAccountType", "SubsidiaryType", "SysAccountTransNature", "SysIndicatorApprovalType", "SysSaveBehavior", "SystemIndicatorType", "TRSituation", "TRTourStatus", "TRVoucherExtras", "TableType", "TargetAudience", "TargetPlan", "TaskDevelopmentStatus", "TaskScheduleExecutionStatus", "TaskStatus", "TaskType", "TaxApplyType", "TaxAuthorityEntityStatusType", "TaxCodesType", "TaxConfigDefault", "TaxEInvoiceSignatureType", "TaxItemTypeCodeFromType", "TaxItemValuesFromType", "TaxLocation", "TaxPayerType", "TeachingMethod", "TechnicianAppointmentPeriodChangeType", "TechnicianAppointmentStatus", "TelegramLinkStatus", "TelegramMessageState", "TelegramParseMode", "TemplateUpdatingType", "TermStatus", "TerminationCalcDaysType", "TerminationCalcType", "TerminationSectionType", "TestConclusion", "TestType", "TextDirection", "TextLanguage", "TicketExecutionStatus", "TicketPaymentType", "TicketPriceType", "TicketSeverity", "TicketStatus", "TicketStatusForEntry", "TicketType", "TimePeriodType", "TooltipDefApplyToRange", "TotalPosition", "TrainingCourseStatus", "TransLineItemType", "TransactionRequestStatus", "TransactionRequestType", "TransferType", "TreasuryBillState", "TrueFalseDefault", "UpdateInfoType", "UsedWith", "UserFavouritesElementType", "UserFeedback", "VacancyStatus", "VacationCalcPolicy", "VacationCalcType", "VacationClass", "VacationFactor", "VacationHolidayPolicyType", "VacationRepetitionStart", "VacationRepetitionType", "VacationTransferPolicy", "VacationUnderDay", "VacationUpdateType", "VacationWeekRestPolicyType", "Validity", "ValueCalculationMethod", "ValueMethod", "ValueType", "VehicleState", "ViewModificationType", "ViewNotificationContent", "ViolationRepetitionPeriod", "VirtualEntityMaterialization", "VoucherType", "WMSEntryStatus", "WMSPalletStatus", "WMSPriority", "WarePriority", "WareSource", "WarehouseIssueMethod", "WarehouseSourceType", "WarehouseType", "WarehouseUsagePolicyMode", "WarrantyStatus", "WeightScaleBarcodeProperty", "WhatsAppMessageServiceProvider", "WhatsAppMessageState", "WhatsAppMessageType", "WhatsAppTemplateParamType", "WhenNoDataType", "WizardFieldType", "WorkStartingType", "WorkTaskStatus", "YearlyAddedValueType", "YesNo", "YesNoAnswer", "YesNoDefault", "YesNoInheritedPolicy", "ZATCAExemptionReasonCode", "ZATCAIdType" ]
+  "enums" : [ "AIChatMessageType", "AIFieldType", "AIToolType", "AUAccountChartClass", "AUAssertionType", "AUChangeType", "AURiskType", "AccDistribPolicy", "AccDistribType", "AccMultiDistributeType", "AccSideType", "AcceptableAnswer", "AccountChartClass", "AccountDimensionSourceType", "AccountType", "ActionType", "AddedUserType", "AddingExpenseItemOptions", "AdultOrChild", "AdvancePaymentMethod", "AgrInvestmentContractStatus", "AgrInvestmentContractType", "AgreedPriceSource", "AllowanceType", "AnswerType", "AppFormElementType", "ApplicabilityMethod", "ApplicableWhen", "ApplicationMethod", "ApplyType", "ApprovalCaseState", "ApprovalDecision", "ApprovalEndAction", "ApprovalInitiator", "ApprovalStatus", "AscendingOrDescending", "AssayContractType", "AssayStatus", "AssemblyCostType", "AssemblyDocCalcGridType", "AssemblyDocStatus", "AssemblyProcessCalcMethod", "AttachedFileContentType", "AttendanceCertificate", "AttendanceMachineConnectionType", "AttendanceMachineResponseField", "AttendanceShiftType", "AuditStatusType", "AuthorityType", "AutoSaveBehavior", "AutoTicketingStepType", "BankAccountType", "BankAdjustmentType", "BankAssuranceType", "BarcodeType", "BasinSlotType", "BenefitClassification", "BorderLinePreset", "BudgetExceededBehavior", "BusActionType", "BusStatus", "BusType", "BusinessFunction", "BuyerPaymentType", "CPAPerformService", "CPAProcedureStatus", "CPAProjectMileStoneStatus", "CPAProjectStatus", "CPARequestState", "CPASalesQuotationStatus", "CPATaskStatus", "CPATimeSheetStatus", "CRMCallDirection", "CRMCompOrSugestion", "CRMCompliantSource", "CRMFollowUpActivityType", "CRMFollowUpStatus", "CRMFollowUpSubStatus", "CRMLeadStatus", "CRMLeadType", "CRMPlanTaskType", "CRMPlatform", "CRMQuestionairStatus", "CRMSalesStage", "CRMTaskStatus", "CRMTaskType", "CRTNLayerType", "CRTNManufacturingType", "CRTNPlaningSolutionType", "CRTNPlanningStatus", "CRTNProductionStages", "CalcMagentoQuantityType", "CampaignStatus", "CapabilityType", "CarActionType", "CarAuthorizationType", "CarClassification", "CarOwnership", "CarStatus", "CarType", "CashFlowType", "CategoryLevel", "ChangeType", "ChargeType", "ChartColumnUsage", "ChatConversationType", "ChatMessageStatus", "ChatMessageType", "ChatParticipantRole", "CheckResult", "ClassificationType", "ClosingEntryBatchPhase", "ClosingEntryGenStatus", "CoProductCostType", "CoSectorType", "CollectionWay", "Color", "ColorScheme", "ColorVariation", "CompanyType", "CompliantStatus", "ComponentCalcType", "ComponentPosition", "ComponentPositionMethod", "ComponentType", "ConditionEffectType", "ConditionRelationWithDocs", "ConditionType", "ConditionValType", "ConfigPropertyName", "ConfigurationType", "ConsiderActivePercentageType", "ConsolidationRateType", "ContactTitle", "ContrConcernedParty", "ContrItemType", "ContrWorkAreaType", "ContractType", "ContractTypeDependency", "ContractingCondStatus", "ContractingExtractType", "ContractingTermType", "ContractingTimePeriod", "ConversionType", "CopyTemplateFrom", "CostDistribution", "CostReallocation", "CostTransType", "CostType", "CouponCodingMehod", "CouponDimensionsCopyMethod", "CouponInvoiceValueSource", "CourseContractStatus", "CourseEvaluationType", "CourseStatus", "CreditFacilityLimitCalculationMethod", "CreditFacilityPaymentEffectOnRemaining", "CreditFacilityPaymentMethod", "CreditFacilityStatus", "CriteriaApplicationPolicy", "CriteriaValidatorApplicability", "CurrencyRateDerivation", "CurrencyRateKind", "CustodyStatus", "CustomEquationLinesSource", "CustomRepLaunchType", "DLVDeliveredStatus", "DLVDeliveryDocumentStatus", "DMSDocumentState", "DMSMovementType", "DMSOutMovementType", "DamageType", "DashBoardElementType", "DashBoardTheme", "DashboardKind", "DatabaseCleanerStatus", "DatanuumRequestType", "DatanuumResponseStatus", "DateCalculationMethod", "DefaultUOM", "DeliverdToType", "DeliveringPurpose", "DeliveryMethod", "DeliveryQueueStatus", "DeliveryState", "DeliveryStatus", "DensityMode", "DepositPaymentType", "DescriptorType", "DevelopmentType", "DimensionPolicy", "DimensionSourceEntityType", "DimensionSourceType", "DiscountCouponCalcType", "DiscountCouponStatus", "DiscountLocation", "DiscountLocationWithHeader", "DiscountType", "DiscountUpdaterField", "DisplayNumberAs", "DisplayReferenceAs", "DistributeCostType", "DistributionOrder", "DocumentFileStatus", "DrivingLicenseType", "EDocumentType", "EInvoiceDiscountLocation", "EInvoiceDocType", "EInvoiceReceiverMode", "EInvoiceSignerType", "EInvoiceSubmissionEntryStatus", "EInvoiceUnitPriceSource", "EInvoiceUnitPriceType", "EcommerceEntityType", "EcommerceEventType", "EcommerceGraphEntityOperation", "EcommerceItemType", "EcommerceProductType", "EditAuthority", "EditType", "EditedObjectSourceTypeEnum", "ElementUpdateType", "EltezamLookupType", "EltezamOperation", "EltezamSendState", "EmailSendType", "EmployeeState", "EndStockTakingTaskType", "EndType", "EnrollmentStateType", "EntityCreationType", "EntityTargetAction", "EquaitionOperatorType", "EvacuationApprovalDecision", "EvacuationApprovalState", "EvaluationType", "ExcelFunction", "ExchangeRateType", "ExistenceType", "ExpensValueType", "ExpenseCreditSide", "ExporetdFields", "ExpressionRelationship", "ExpressionType", "ExpressionValueType", "ExtraDataSendType", "FADepreciationMethod", "FAStatus", "FATakingStatus", "FATakingType", "FPStatus", "FRMFreightType", "FRMFrequency", "FRMLocationStatus", "FRMOperationStatus", "FRMPriceListType", "FRMServiceContractType", "FRMTiming", "FSBalanceMovOpeningEqType", "FSComparisonType", "FSDebitCreditEquationType", "FSGroupBy", "FSIssueDocType", "FSLineLevel", "FSOpenningEquation", "FSTotals", "FacilityDescription", "FacilityLimtType", "FacilityType", "FavouriteItemLevel", "FeesType", "FieldAuthorityType", "FieldExportType", "FieldLayout", "FieldLayoutType", "FieldLinkType", "FillByAI", "FilterType", "FinancialPaperType", "FingerPrintException", "FiringReason", "FiscalPeriodStatus", "FiscalPeriodType", "FixedDepositState", "FixedDepositType", "FlatType", "FlatUsage", "FlowEntityTypeStrategy", "FontSize", "FormulaCalcMethod", "FormulaType", "FreeGroupPolicy", "FreeOfferPolicy", "FreightChargesType", "Gender", "GenerationType", "GlobalShortcutTargetType", "GoPayAccountMethod", "GoPayAccountType", "GoPayURLType", "GridFieldVisibilty", "GridSizeEnum", "GroupSection", "GuaranteeType", "HMSDocDegree", "HMSInvoiceType", "HMSLabTestStatus", "HMSOtherSurgeryDiscountValue", "HMSPatientCheckType", "HMSRoomBehavior", "HMSRoomStatus", "HMSRoomType", "HMSWeekDay", "HOCounterType", "HOOwnerShipType", "HRAllowRegenerate", "HRDocStatus", "HRRequestState", "HelpMessageContentType", "IPInvestmentSysEntryType", "IPSMailRetentionActionType", "IPSParcelsReceiverResponse", "IPSReceptaclesReceiptActionType", "IPSRetentionType", "IPSTaskType", "IPTermType", "ImplementationRepositoryType", "ImportExpressionType", "ImportingExportingType", "IncomeStatementEquationType", "InspectionDecsion", "InstallmentEditType", "InstallmentEffectField", "InstallmentState", "InstallmentsType", "InsuranceCategory", "InsuranceType", "Insured", "InterestCalcMethod", "InterestType", "InternalTransferType", "InterviewState", "InvItemCodeType", "InvTransReqType", "InvestmentDocStatus", "InvestmentDocType", "InvoiceOfferDiscountType", "IssueType", "ItemBarcodeProperty", "ItemClassRangeRelation", "ItemDimensionsAutoFillPolicy", "ItemPropertiesDisplayMethod", "ItemRelationType", "ItemRequestStatus", "ItemType", "ItemWarehouseRelationType", "JODamageType", "JODocStatus", "JOOperationType", "JOSalesOrderLineType", "JOSalesType", "JOrderExpenseType", "JREvaluationTimeEnum", "JRFill", "JRHorizontalAlign", "JRLineSpacing", "JRLineStyle", "JRMarkup", "JRModeEnum", "JRRotation", "JRScaleImage", "JRVerticalAlign", "JasperBand", "JasperVariableCalculation", "JasperVariableResetType", "JobOfferState", "JobOrderType", "JobTitle", "KeyboardKey", "LCActionType", "LCReqStatus", "LCShapeType", "LCState", "LGTType", "LanguageEnum", "LargeNumOperator", "LayoutMethod", "LeadSource", "LeastNumOperator", "LeavePermissionType", "LeaveReasonApplyOn", "LecturerSalaryCalcMethod", "LedgerEffectType", "LetterCaseType", "LetterOfGuaranteeReqType", "LetterOfGuaranteeStatus", "LineNumberGroup", "LineNumberType", "LinesType", "LinkingLetterType", "LiquidationComponentIncludedInType", "LiquidationStatus", "LiquidationType", "ListDisplayType", "ListViewPageSize", "LoanInterestType", "LoanPeriodType", "MAGPriceSourceLocation", "MCAdditionDeductionType", "MCContractTermType", "MCContractType", "MCCostItemType", "MCEquipmentCategory", "MCEquipmentType", "MCJobOrderStatus", "MCLaborUpdateTarget", "MCMaintenanceOccurenceType", "MCMaintenanceStatus", "MCProjectType", "MCTenderStatus", "MCTenderUpdateType", "MCWorkAreaType", "MFGMoldStatus", "MFGMoldType", "MRPAggregationPeriodType", "MRPForcastingPeriod", "MRPQtySrcType", "MachineRecallRequestType", "MagEcommerceSiteType", "MagentoOperationType", "MagentoPriceType", "MainOrSubType", "MainStatusEffectType", "MainStatusType", "MaintenanceOccurenceType", "MaintenanceStatus", "MaintenanceType", "MaritalStatus", "MaterialClassificationGrid", "MaxLoanType", "MealAllowanceType", "MealDeliveryStatus", "MeasurementsRequestStatus", "MeasuresType", "MediaType", "MenuTargetType", "MessageQueue", "MnCurrentStatusType", "MnOrderExeStatus", "MnOrderType", "MnStatusType", "MnVisitType", "MnWorkPlanGenerateType", "MobileAppActionType", "MobileAppShortcutType", "MobileAppSourcePrice", "MobileAppTargetMenuItem", "MobileEntityTitleType", "MobileEntityType", "MobileHeaderFieldsDisplayMethod", "MobileHeaderFieldsSize", "MobileIdentifierDocumentStatus", "MobileReferenceShowType", "ModifyWhileUnderApprovalPolicy", "MoneyEffectOperation", "MoneyEffectSource", "MoneyEffectSourceType", "MoneyEffectTypeDF", "MultiplesRoundingMode", "NamaDayOfWeek", "NamaPOSDepreciationReasonDiscount", "NamaPosAdditionalItemsType", "NamaPosUiSettingsSrc", "NoneTreatmentAnswer", "NotificationStatus", "OKTreatmentAnswer", "OfferItemsCountMechanism", "OfferMultiplePolicyMechanism", "OfferReplacementPolicy", "OnlinePaymentFieldType", "OnlinePaymentLinkStatus", "OnlinePaymentType", "OperationGroupPricing", "OperationStep", "OperationType", "Operator", "OrderCloseType", "OrderImportance", "OrderStatus", "OtherBankAssuranceType", "OtherComponentEffectType", "OtpFormat", "OverheadCalcuationType", "OverheadDistributionType", "OverrideSelectedDimension", "PFSalesSourceEffectType", "POROStatus", "POSBusinessFunction", "POSFieldType", "POSHeaderFields", "POSHeldInvoiceStatus", "POSLineCollectionMethod", "POSPaymentDocType", "POSProcedures", "POSReadQueueUpdateType", "POSSalesHeaderField", "POSSalesInvoiceType", "POSSalesReturnType", "POSSecurityCapability", "PRRStatus", "PackagingMethod", "PaperDirection", "ParamFieldType", "ParamOverrideUsage", "ParamSource", "ParamType", "ParameterType", "PartyType", "PatternType", "PayType", "PaymentFrequencyType", "PaymentGatewayProvider", "PaymentMethodCalcType", "PaymentMethodType", "PaymentStarategy", "PaymentStatus", "PaymentType", "PaymentWay", "PaymentsType", "PenaltyUom", "PendingSystemActionType", "PercentBasis", "PerformanceFactor", "PerformanceIndicatorType", "PerformanceIndicatorValueType", "PeriodType", "PickDimensionSource", "PickPolicy", "PickType", "PivotColumnType", "PlanningStatus", "PointsExpiryType", "PoleCommunicationType", "PosPrepFormPrintMethod", "PosReqFieldRelationWithRef", "PosSalesGridField", "PosServiceItemCalcType", "PostponeType", "PreferredLanguageType", "PriceListDefaultPrice", "PriceSource", "PriceUpdaterApplicability", "PriceUpdaterField", "PriceUpdatingPolicy", "PriceValueType", "PriceVotingStatus", "PricingAction", "PricingOperator", "PricingParameter", "PrintAuthority", "Priority", "ProcedureType", "ProdOrderReqStatus", "ProdOrderStatus", "ProductStatus", "ProductType", "ProjectStatus", "ProjectType", "ProvisionMonthType", "PurchaseIncoTerm", "PurchaseOrderStatus", "PurchaseQuotationDeliveryMethod", "PurchaseQuotationRequestStatus", "PurchaseQuotationStatus", "PurgeBatchPhase", "PurgeBehavior", "PurgeInfoType", "PurgeStatus", "PurposeType", "QtyEffectType", "QtyTransType", "QualificationType", "QualityListType", "QuantityAffectedType", "QuantityEffectType", "QuantitySourceType", "QuantityToSendType", "QuantityType", "QuantityValueCopyType", "QuestionResponseType", "QueueEntryStatus", "REBuildingStatus", "RECommissionCalculationBasis", "RECostDistribution", "REExitType", "REInstallmentType", "REInvestmentInvestorType", "REMaintenanceAccrualBasis", "REOwnerType", "RERentStatus", "RERentalUnitType", "REReservationStatus", "REReturnPaymentMethod", "RESalesDocType", "RESalesPriceListType", "REUnitType", "REWaiverType", "RElandStatus", "ROIPeriod", "RVPVReqStatus", "RaiseSizesRequest", "ReLandUsageType", "ReconciliationStep", "ReferenceOrderBy", "RegionType", "RelationType", "Religion", "RemainingProcessingPolicy", "RepLaunchType", "RepOutputFormat", "ReportPageFormat", "ReportPageOrientation", "ReportType", "ReqQtyMethodType", "RequestType", "ReservationStatus", "ReservationType", "ResourceCalcType", "ResourceCostBasis", "ResourceType", "ResponsibleDimEntityType", "ResponsibleType", "ReviseLevel", "RevisionType", "RewardPenaltyIssue", "RewardPointCalculationMethod", "RewardPointsConfigApplicability", "RewardPointsConfigType", "RiskApplyType", "RiskExistenceType", "RoomUsage", "RoundingType", "RuleApplyType", "SFDARSDEnvironment", "SFDARSDGtinSource", "SFDARSDIncomingDispatchStatus", "SFDARSDOperation", "SForecastType", "SIInstallmentParty", "SIInstallmentProgramStatus", "SIInstallmentQuotationStatus", "SIInsuranceBeneficiary", "SIInsuranceCategoryType", "SIInsurancePaymentMethod", "SIInsurancePolicyPaymentStatus", "SIInsurancePolicyPhysicalStatus", "SIInsurancePolicyStatus", "SIPolicyRequestStatus", "SIProgramSource", "SIProgramType", "SISaleType", "SMFPerfectOperationSuggestion", "SMFProblemDeclarationSteps", "SafetyStockCalCulationType", "SafetyStockPeriodsCalcMethod", "SalaryBlockCondition", "SalaryCompEffectType", "SalaryDistributionType", "SalaryIncreaseType", "SalaryPaymentMethod", "SalarySheetStatus", "SalesInvoiceType", "SalesItemsCountType", "SalesOfferFreeItemClassification", "SalesOrderStatus", "SalesPriceCalcType", "SalesPriceRoundingType", "SalesPricingSource", "SalesRetRequestStatus", "SalesReturnType", "ScheduleType", "ScreenBlockModifierEffect", "ScreenModifierApplicability", "ScreenModifierEffect", "ScreenQuickFilterEffect", "SearchColumnVisibility", "SecurityApplicationType", "SecurityEquivalentType", "SemestersType", "SerialType", "ServiceContractStatus", "ServiceContractType", "ServiceExecutionType", "ServiceFeesOrChargedToCustomer", "ServiceFeesTreatmentInAdditionCase", "SessionStatus", "ShiftIndicatorType", "ShipmentState", "ShippingPolicy", "ShippingSiteType", "ShippingWay", "ShowCustomRepIn", "ShowRunningTotalInsteadOfValue", "SizingSystem", "SkillLevel", "SortDirection", "SortMethod", "SortType", "SoundEffects", "SourceInvoiceCalculation", "SourceSelectionMethod", "SpecificationType", "SqlAggregationType", "SrvCIssueType", "SrvCJobOrderStatus", "SrvcOrderInvoiceStatus", "StockTakingCalculation", "StockTakingMissingItems", "StockTakingStatus", "StorageType", "StudentContractType", "StudentProgramType", "SubItemCondition", "SubItemDeliveryStatus", "SubItemStatusType", "SubmittalStatus", "SubsidiaryAccountType", "SubsidiaryType", "SysAccountTransNature", "SysIndicatorApprovalType", "SysSaveBehavior", "SystemIndicatorType", "TRSituation", "TRTourStatus", "TRVoucherExtras", "TableType", "TargetAudience", "TargetPlan", "TaskDevelopmentStatus", "TaskScheduleExecutionStatus", "TaskStatus", "TaskType", "TaxApplyType", "TaxAuthorityEntityStatusType", "TaxCodesType", "TaxConfigDefault", "TaxEInvoiceSignatureType", "TaxItemTypeCodeFromType", "TaxItemValuesFromType", "TaxLocation", "TaxPayerType", "TeachingMethod", "TechnicianAppointmentPeriodChangeType", "TechnicianAppointmentStatus", "TelegramLinkStatus", "TelegramMessageState", "TelegramParseMode", "TemplateUpdatingType", "TermStatus", "TerminationCalcDaysType", "TerminationCalcType", "TerminationSectionType", "TestConclusion", "TestType", "TextDirection", "TextLanguage", "TicketExecutionStatus", "TicketPaymentType", "TicketPriceType", "TicketSeverity", "TicketStatus", "TicketStatusForEntry", "TicketType", "TimePeriodType", "TooltipDefApplyToRange", "TotalPosition", "TrainingCourseStatus", "TransLineItemType", "TransactionRequestStatus", "TransactionRequestType", "TransferType", "TreasuryBillState", "TrueFalseDefault", "UpdateInfoType", "UsedWith", "UserFavouritesElementType", "UserFeedback", "VacancyStatus", "VacationCalcPolicy", "VacationCalcType", "VacationClass", "VacationFactor", "VacationHolidayPolicyType", "VacationRepetitionStart", "VacationRepetitionType", "VacationTransferPolicy", "VacationUnderDay", "VacationUpdateType", "VacationWeekRestPolicyType", "Validity", "ValueCalculationMethod", "ValueMethod", "ValueType", "VehicleState", "ViewModificationType", "ViewNotificationContent", "ViolationRepetitionPeriod", "VirtualEntityMaterialization", "VoucherType", "WMSEntryStatus", "WMSPalletStatus", "WMSPriority", "WarePriority", "WareSource", "WarehouseIssueMethod", "WarehouseSourceType", "WarehouseType", "WarehouseUsagePolicyMode", "WarrantyStatus", "WeightScaleBarcodeProperty", "WhatsAppMessageServiceProvider", "WhatsAppMessageState", "WhatsAppMessageType", "WhatsAppTemplateParamType", "WhenNoDataType", "WizardFieldType", "WorkStartingType", "WorkTaskStatus", "YearlyAddedValueType", "YesNo", "YesNoAnswer", "YesNoDefault", "YesNoInheritedPolicy", "ZATCAExemptionReasonCode", "ZATCAIdType" ]
 }

@@ -2,6 +2,7 @@
   "entity" : "HealthInsuranceSysEntry",
   "table" : "HealthInsuranceSysEntry",
   "module" : "system-tables",
+  "en" : "Health Insurance Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/HealthInsuranceSysEntry.html",
   "fields" : [ {
     "id" : "creationDate",

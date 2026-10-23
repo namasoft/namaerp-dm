@@ -2,6 +2,7 @@
   "entity" : "PayReceiptDocsSysEntry",
   "table" : "PayReceiptDocsSysEntry",
   "module" : "system-tables",
+  "en" : "Pay Receipt Docs Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/PayReceiptDocsSysEntry.html",
   "fields" : [ {
     "id" : "cloned",

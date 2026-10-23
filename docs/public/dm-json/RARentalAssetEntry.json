@@ -2,6 +2,7 @@
   "entity" : "RARentalAssetEntry",
   "table" : "RARentalAssetEntry",
   "module" : "system-tables",
+  "en" : "RA Rental Asset Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/RARentalAssetEntry.html",
   "fields" : [ {
     "id" : "creationDate",

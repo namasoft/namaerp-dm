@@ -2,6 +2,7 @@
   "entity" : "LGTEntry",
   "table" : "LGTEntry",
   "module" : "system-tables",
+  "en" : "LGT Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/LGTEntry.html",
   "fields" : [ {
     "id" : "creationDate",

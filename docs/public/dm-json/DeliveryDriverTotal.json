@@ -2,6 +2,7 @@
   "entity" : "DeliveryDriverTotal",
   "table" : "DeliveryDriverTotal",
   "module" : "system-tables",
+  "en" : "Delivery Driver Total",
   "page" : "https://dm.namasoft.com/modules/system-tables/DeliveryDriverTotal.html",
   "fields" : [ {
     "id" : "deliveryCar",

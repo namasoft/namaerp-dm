@@ -2,6 +2,7 @@
   "entity" : "RESysEntry",
   "table" : "RESysEntry",
   "module" : "system-tables",
+  "en" : "RE Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/RESysEntry.html",
   "fields" : [ {
     "id" : "creationDate",

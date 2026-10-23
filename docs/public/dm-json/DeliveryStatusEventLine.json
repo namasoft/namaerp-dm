@@ -2,6 +2,7 @@
   "entity" : "DeliveryStatusEventLine",
   "table" : "DeliveryStatusEventLine",
   "module" : "system-tables",
+  "en" : "Delivery Status Event Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/DeliveryStatusEventLine.html",
   "fields" : [ {
     "id" : "event",

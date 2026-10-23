@@ -2,6 +2,7 @@
   "entity" : "POSReturnMainLine",
   "table" : "POSReturnMainLine",
   "module" : "system-tables",
+  "en" : "POS Return Main Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSReturnMainLine.html",
   "fields" : [ {
     "id" : "field",

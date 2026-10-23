@@ -2,6 +2,7 @@
   "entity" : "REInvestmentFundInvestorTransaction",
   "table" : "REInvestmentFundInvestorTransaction",
   "module" : "system-tables",
+  "en" : "RE Investment Fund Investor Transaction",
   "page" : "https://dm.namasoft.com/modules/system-tables/REInvestmentFundInvestorTransaction.html",
   "fields" : [ {
     "id" : "creationDate",

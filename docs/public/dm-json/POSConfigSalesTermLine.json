@@ -2,6 +2,7 @@
   "entity" : "POSConfigSalesTermLine",
   "table" : "POSConfigSalesTermLine",
   "module" : "system-tables",
+  "en" : "POS Config Sales Term Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSConfigSalesTermLine.html",
   "fields" : [ {
     "id" : "docCategory",

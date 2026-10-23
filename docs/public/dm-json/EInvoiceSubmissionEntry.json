@@ -2,6 +2,7 @@
   "entity" : "EInvoiceSubmissionEntry",
   "table" : "EInvoiceSubmissionEntry",
   "module" : "system-tables",
+  "en" : "E Invoice Submission Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/EInvoiceSubmissionEntry.html",
   "fields" : [ {
     "id" : "analysisSet",

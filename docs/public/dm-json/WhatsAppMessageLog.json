@@ -2,6 +2,7 @@
   "entity" : "WhatsAppMessageLog",
   "table" : "WhatsAppMessageLog",
   "module" : "system-tables",
+  "en" : "Whats App Message Log",
   "page" : "https://dm.namasoft.com/modules/system-tables/WhatsAppMessageLog.html",
   "fields" : [ {
     "id" : "executionDate",

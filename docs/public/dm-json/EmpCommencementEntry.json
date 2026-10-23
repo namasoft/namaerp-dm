@@ -2,6 +2,7 @@
   "entity" : "EmpCommencementEntry",
   "table" : "EmpCommencementEntry",
   "module" : "system-tables",
+  "en" : "Emp Commencement Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/EmpCommencementEntry.html",
   "fields" : [ {
     "id" : "commencementDate",

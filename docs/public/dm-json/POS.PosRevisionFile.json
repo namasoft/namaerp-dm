@@ -2,6 +2,7 @@
   "entity" : "POS.PosRevisionFile",
   "table" : "PosRevisionFile",
   "module" : "pos-app",
+  "en" : "Pos Revision File",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.PosRevisionFile.html",
   "fields" : [ {
     "id" : "code",

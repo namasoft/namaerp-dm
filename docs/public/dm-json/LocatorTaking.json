@@ -2,6 +2,7 @@
   "entity" : "LocatorTaking",
   "table" : "LocatorTaking",
   "module" : "system-tables",
+  "en" : "Locator Taking",
   "page" : "https://dm.namasoft.com/modules/system-tables/LocatorTaking.html",
   "fields" : [ {
     "id" : "endDate",

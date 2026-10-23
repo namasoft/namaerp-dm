@@ -2,6 +2,7 @@
   "entity" : "ItemMeasure",
   "table" : "ItemMeasure",
   "module" : "system-tables",
+  "en" : "Item Measure",
   "page" : "https://dm.namasoft.com/modules/system-tables/ItemMeasure.html",
   "fields" : [ {
     "id" : "id",

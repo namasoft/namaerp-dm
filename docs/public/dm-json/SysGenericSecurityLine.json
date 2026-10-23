@@ -2,6 +2,7 @@
   "entity" : "SysGenericSecurityLine",
   "table" : "SysGenericSecurityLine",
   "module" : "system-tables",
+  "en" : "Sys Generic Security Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/SysGenericSecurityLine.html",
   "fields" : [ {
     "id" : "allowViewOtherRecAtSerach",

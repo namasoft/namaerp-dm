@@ -4,6 +4,7 @@
   "module" : "accounting-banks",
   "ar" : "بنك",
   "arPlural" : "البنوك",
+  "en" : "Bank",
   "page" : "https://dm.namasoft.com/modules/accounting-banks/Bank.html",
   "fields" : [ {
     "id" : "analysisSet",

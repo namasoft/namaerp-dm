@@ -2,6 +2,7 @@
   "entity" : "EmployeeStateSysEntry",
   "table" : "EmployeeStateSysEntry",
   "module" : "system-tables",
+  "en" : "Employee State Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/EmployeeStateSysEntry.html",
   "fields" : [ {
     "id" : "creationDate",

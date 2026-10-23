@@ -2,6 +2,7 @@
   "entity" : "SupplierTransEntry",
   "table" : "SupplierTransEntry",
   "module" : "system-tables",
+  "en" : "Supplier Trans Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/SupplierTransEntry.html",
   "fields" : [ {
     "id" : "customer",

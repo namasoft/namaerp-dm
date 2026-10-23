@@ -2,6 +2,7 @@
   "entity" : "SrvCAppointmentsSysEntry",
   "table" : "SrvCAppointmentsSysEntry",
   "module" : "system-tables",
+  "en" : "Srv C Appointments Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/SrvCAppointmentsSysEntry.html",
   "fields" : [ {
     "id" : "availableEngineers",

@@ -2,6 +2,7 @@
   "entity" : "POSTransferWithSaveDocLine",
   "table" : "POSTransferWithSaveDocLine",
   "module" : "system-tables",
+  "en" : "POS Transfer With Save Doc Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSTransferWithSaveDocLine.html",
   "fields" : [ {
     "id" : "id",

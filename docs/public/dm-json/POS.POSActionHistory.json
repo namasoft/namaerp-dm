@@ -2,6 +2,7 @@
   "entity" : "POS.POSActionHistory",
   "table" : "POSActionHistory",
   "module" : "pos-app",
+  "en" : "POS Action History",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSActionHistory.html",
   "fields" : [ {
     "id" : "actionDate",

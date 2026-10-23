@@ -4,6 +4,7 @@
   "module" : "housing",
   "ar" : "صنف صيانة",
   "arPlural" : "أصناف صيانة",
+  "en" : "HO Maintenance Item",
   "enPlural" : "Maintenance Items",
   "page" : "https://dm.namasoft.com/modules/housing/HOMaintenanceItem.html",
   "fields" : [ {

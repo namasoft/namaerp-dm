@@ -2,6 +2,7 @@
   "entity" : "CostReturnReservation",
   "table" : "CostReturnReservation",
   "module" : "system-tables",
+  "en" : "Cost Return Reservation",
   "page" : "https://dm.namasoft.com/modules/system-tables/CostReturnReservation.html",
   "fields" : [ {
     "id" : "costDimensionId",

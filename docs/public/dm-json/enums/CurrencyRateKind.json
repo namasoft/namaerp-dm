@@ -1,0 +1,12 @@
+{
+  "enum" : "CurrencyRateKind",
+  "values" : [ {
+    "id" : "Closing",
+    "ar" : "اغلاق",
+    "en" : "Closing"
+  }, {
+    "id" : "Average",
+    "ar" : "متوسط",
+    "en" : "Average"
+  } ]
+}

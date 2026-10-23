@@ -2,6 +2,7 @@
   "entity" : "SysPORelatedDocLine",
   "table" : "SysPORelatedDocLine",
   "module" : "system-tables",
+  "en" : "Sys PO Related Doc Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/SysPORelatedDocLine.html",
   "fields" : [ {
     "id" : "id",

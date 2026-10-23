@@ -3,6 +3,7 @@
   "table" : "IPSIntegrationTask",
   "module" : "system-tables",
   "arPlural" : "IPS Integration Tasks",
+  "en" : "IPS Integration Task",
   "enPlural" : "IPS Integration Tasks",
   "page" : "https://dm.namasoft.com/modules/system-tables/IPSIntegrationTask.html",
   "fields" : [ {

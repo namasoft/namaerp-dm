@@ -4,6 +4,7 @@
   "module" : "accounting",
   "ar" : "إشعار دائن",
   "arPlural" : "إشعارات دائن",
+  "en" : "Credit Note",
   "page" : "https://dm.namasoft.com/modules/accounting/CreditNote.html",
   "fields" : [ {
     "id" : "analysisSet",
@@ -748,6 +749,12 @@
     "ar" : "الأقساط",
     "en" : "Installment Lines",
     "fields" : [ {
+      "id" : "installmentLines.collectionDiscount",
+      "column" : "collectionDiscount",
+      "ar" : "خصم التحصيل",
+      "en" : "Collection Discount",
+      "type" : "Decimal"
+    }, {
       "id" : "installmentLines.currencyRate",
       "column" : "currencyRate",
       "ar" : "المعدل",

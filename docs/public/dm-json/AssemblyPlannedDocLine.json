@@ -2,6 +2,7 @@
   "entity" : "AssemblyPlannedDocLine",
   "table" : "AssemblyPlannedDocLine",
   "module" : "system-tables",
+  "en" : "Assembly Planned Doc Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/AssemblyPlannedDocLine.html",
   "fields" : [ {
     "id" : "activeDoc",

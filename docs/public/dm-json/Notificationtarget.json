@@ -2,6 +2,7 @@
   "entity" : "Notificationtarget",
   "table" : "Notificationtarget",
   "module" : "system-tables",
+  "en" : "Notificationtarget",
   "page" : "https://dm.namasoft.com/modules/system-tables/Notificationtarget.html",
   "fields" : [ {
     "id" : "field",

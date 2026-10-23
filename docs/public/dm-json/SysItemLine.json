@@ -2,6 +2,7 @@
   "entity" : "SysItemLine",
   "table" : "SysItemLine",
   "module" : "system-tables",
+  "en" : "Sys Item Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/SysItemLine.html",
   "fields" : [ {
     "id" : "approvalNotRequired",

@@ -2,6 +2,7 @@
   "entity" : "CashierTransactionEntry",
   "table" : "CashierTransactionEntry",
   "module" : "system-tables",
+  "en" : "Cashier Transaction Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/CashierTransactionEntry.html",
   "fields" : [ {
     "id" : "amountIn",

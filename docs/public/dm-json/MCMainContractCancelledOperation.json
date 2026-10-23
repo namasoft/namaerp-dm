@@ -2,6 +2,7 @@
   "entity" : "MCMainContractCancelledOperation",
   "table" : "MCMainContractCancelledOperation",
   "module" : "system-tables",
+  "en" : "MC Main Contract Cancelled Operation",
   "page" : "https://dm.namasoft.com/modules/system-tables/MCMainContractCancelledOperation.html",
   "fields" : [ {
     "id" : "code",

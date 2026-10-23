@@ -4,6 +4,7 @@
   "module" : "manufacturing-mrp",
   "ar" : "سيناريو",
   "arPlural" : "سيناريوهات",
+  "en" : "Scenario",
   "page" : "https://dm.namasoft.com/modules/manufacturing-mrp/Scenario.html",
   "fields" : [ {
     "id" : "actualSalesQuery",

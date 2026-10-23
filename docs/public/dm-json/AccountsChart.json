@@ -79,6 +79,13 @@
     "en" : "Commited Before",
     "type" : "Boolean"
   }, {
+    "id" : "consolidationRateType",
+    "column" : "consolidationRateType",
+    "ar" : "سعر الترجمة في التوحيد",
+    "en" : "Consolidation Rate",
+    "type" : "Enum",
+    "enum" : "ConsolidationRateType"
+  }, {
     "id" : "createTransactionId",
     "column" : "createTransactionId",
     "type" : "Text"
@@ -278,6 +285,12 @@
     "id" : "indexInParent",
     "column" : "indexInParent",
     "type" : "Integer"
+  }, {
+    "id" : "intercompany",
+    "column" : "intercompany",
+    "ar" : "حساب بين شركات المجموعة",
+    "en" : "Intercompany",
+    "type" : "Boolean"
   }, {
     "id" : "isLeaf",
     "column" : "isLeaf",

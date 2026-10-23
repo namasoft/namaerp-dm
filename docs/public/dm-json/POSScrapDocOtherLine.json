@@ -2,6 +2,7 @@
   "entity" : "POSScrapDocOtherLine",
   "table" : "POSScrapDocOtherLine",
   "module" : "system-tables",
+  "en" : "POS Scrap Doc Other Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSScrapDocOtherLine.html",
   "fields" : [ {
     "id" : "field",

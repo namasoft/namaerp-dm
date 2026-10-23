@@ -2,6 +2,7 @@
   "entity" : "MCMainContractCancelledEquipment",
   "table" : "MCMainContractCancelledEquipment",
   "module" : "system-tables",
+  "en" : "MC Main Contract Cancelled Equipment",
   "page" : "https://dm.namasoft.com/modules/system-tables/MCMainContractCancelledEquipment.html",
   "fields" : [ {
     "id" : "code",

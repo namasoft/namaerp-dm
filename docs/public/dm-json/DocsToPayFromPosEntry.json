@@ -2,6 +2,7 @@
   "entity" : "DocsToPayFromPosEntry",
   "table" : "DocsToPayFromPosEntry",
   "module" : "system-tables",
+  "en" : "Docs To Pay From Pos Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/DocsToPayFromPosEntry.html",
   "fields" : [ {
     "id" : "analysisSet",

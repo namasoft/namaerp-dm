@@ -2,6 +2,7 @@
   "entity" : "POS.POSRegisteryUserLine",
   "table" : "POSRegisteryUserLine",
   "module" : "pos-app",
+  "en" : "POS Registery User Line",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSRegisteryUserLine.html",
   "fields" : [ {
     "id" : "id",

@@ -2,6 +2,7 @@
   "entity" : "POS.POSItemCode",
   "table" : "POSItemCode",
   "module" : "pos-app",
+  "en" : "POS Item Code",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSItemCode.html",
   "fields" : [ {
     "id" : "code",

@@ -2,6 +2,7 @@
   "entity" : "MCMainContractConsumedItemLine",
   "table" : "MCMainContractConsumedItemLine",
   "module" : "system-tables",
+  "en" : "MC Main Contract Consumed Item Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/MCMainContractConsumedItemLine.html",
   "fields" : [ {
     "id" : "code",

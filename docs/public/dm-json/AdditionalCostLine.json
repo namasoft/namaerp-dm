@@ -2,6 +2,7 @@
   "entity" : "AdditionalCostLine",
   "table" : "AdditionalCostLine",
   "module" : "system-tables",
+  "en" : "Additional Cost Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/AdditionalCostLine.html",
   "fields" : [ {
     "id" : "cost",

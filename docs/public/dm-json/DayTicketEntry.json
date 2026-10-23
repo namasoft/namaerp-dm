@@ -2,6 +2,7 @@
   "entity" : "DayTicketEntry",
   "table" : "DayTicketEntry",
   "module" : "system-tables",
+  "en" : "Day Ticket Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/DayTicketEntry.html",
   "fields" : [ {
     "id" : "assignedOn",

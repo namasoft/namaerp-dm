@@ -2,6 +2,7 @@
   "entity" : "UserNotification",
   "table" : "UserNotification",
   "module" : "system-tables",
+  "en" : "User Notification",
   "page" : "https://dm.namasoft.com/modules/system-tables/UserNotification.html",
   "fields" : [ {
     "id" : "body",

@@ -2,6 +2,7 @@
   "entity" : "NamaPOSInvoiceCreditNoteLine",
   "table" : "NamaPOSInvoiceCreditNoteLine",
   "module" : "system-tables",
+  "en" : "Nama POS Invoice Credit Note Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/NamaPOSInvoiceCreditNoteLine.html",
   "fields" : [ {
     "id" : "creditNoteCode",

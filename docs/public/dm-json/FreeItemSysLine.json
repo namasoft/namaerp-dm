@@ -2,6 +2,7 @@
   "entity" : "FreeItemSysLine",
   "table" : "FreeItemSysLine",
   "module" : "system-tables",
+  "en" : "Free Item Sys Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/FreeItemSysLine.html",
   "fields" : [ {
     "id" : "applyOfferBySlidesWay",

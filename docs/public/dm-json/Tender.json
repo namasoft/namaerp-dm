@@ -4,6 +4,7 @@
   "module" : "supplychain-sales",
   "ar" : "مناقصة",
   "arPlural" : "المناقصات",
+  "en" : "Tender",
   "page" : "https://dm.namasoft.com/modules/supplychain-sales/Tender.html",
   "fields" : [ {
     "id" : "allowEditingHdrTaxInDetails",
@@ -1061,7 +1062,11 @@
   }, {
     "id" : "pickingZone",
     "column" : "pickingZone_id",
-    "type" : "Reference"
+    "ar" : "منطقة التجهيز",
+    "en" : "Picking Zone",
+    "type" : "Reference",
+    "refTo" : "PickingZone",
+    "refPath" : "/modules/supplychain-mobile-wms/PickingZone.html"
   }, {
     "id" : "preventUsage",
     "column" : "preventUsage",

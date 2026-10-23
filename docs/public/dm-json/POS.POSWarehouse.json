@@ -4,6 +4,7 @@
   "module" : "pos-app",
   "ar" : "مخزن",
   "arPlural" : "مخازن",
+  "en" : "Warehouse",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSWarehouse.html",
   "fields" : [ {
     "id" : "code",

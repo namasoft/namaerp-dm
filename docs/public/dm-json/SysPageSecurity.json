@@ -2,6 +2,7 @@
   "entity" : "SysPageSecurity",
   "table" : "SysPageSecurity",
   "module" : "system-tables",
+  "en" : "Sys Page Security",
   "page" : "https://dm.namasoft.com/modules/system-tables/SysPageSecurity.html",
   "fields" : [ {
     "id" : "authorityType",

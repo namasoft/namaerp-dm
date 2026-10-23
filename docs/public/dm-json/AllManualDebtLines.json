@@ -2,6 +2,7 @@
   "entity" : "AllManualDebtLines",
   "table" : "AllManualDebtLines",
   "module" : "system-tables",
+  "en" : "All Manual Debt Lines",
   "page" : "https://dm.namasoft.com/modules/system-tables/AllManualDebtLines.html",
   "fields" : [ {
     "id" : "account",

@@ -16,7 +16,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 ## Accounting (accounting)
 
 - [AccDistribution](https://dm.namasoft.com/dm-json/AccDistribution.json): Account Distribution / توزيع حسابات
-- [Account](https://dm.namasoft.com/dm-json/Account.json): حساب
+- [Account](https://dm.namasoft.com/dm-json/Account.json): Account / حساب
 - [AccountCategory](https://dm.namasoft.com/dm-json/AccountCategory.json): Account Category / تصنيف حساب
 - [AccountChartType](https://dm.namasoft.com/dm-json/AccountChartType.json): Account ChartType / نوع شجرة حسابات
 - [AccountTaxCategory](https://dm.namasoft.com/dm-json/AccountTaxCategory.json): Account Tax Category / تصنيف حساب ضريبي
@@ -25,9 +25,9 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [ClosingEntry](https://dm.namasoft.com/dm-json/ClosingEntry.json): Closing Entry / قيد ختامي
 - [ConsolidatedPVRequest](https://dm.namasoft.com/dm-json/ConsolidatedPVRequest.json): Consolidated PV Request / طلب صرف مجمع
 - [ConsolidatedRVRequest](https://dm.namasoft.com/dm-json/ConsolidatedRVRequest.json): Consolidate Receipt Voucher Request / طلب قبض مجمع
-- [CreditNote](https://dm.namasoft.com/dm-json/CreditNote.json): إشعار دائن
+- [CreditNote](https://dm.namasoft.com/dm-json/CreditNote.json): Credit Note / إشعار دائن
 - [CurrencyDiffJournal](https://dm.namasoft.com/dm-json/CurrencyDiffJournal.json): Currency Diff Journal / سند قيد فرق عملة
-- [DebitNote](https://dm.namasoft.com/dm-json/DebitNote.json): إشعار مدين
+- [DebitNote](https://dm.namasoft.com/dm-json/DebitNote.json): Debit Note / إشعار مدين
 - [FSAccountGroup](https://dm.namasoft.com/dm-json/FSAccountGroup.json): FS Account Group / مجموعة حساب
 - [FSEquation](https://dm.namasoft.com/dm-json/FSEquation.json): FS Equation / معادلة
 - [FSIssueFile](https://dm.namasoft.com/dm-json/FSIssueFile.json): Issuing Financial Statement File / إصدار قائمة مالية
@@ -35,14 +35,14 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [FSSettingsFile](https://dm.namasoft.com/dm-json/FSSettingsFile.json): FS Settings File / إعدادات قائمة مالية
 - [InterCompanyTransfer](https://dm.namasoft.com/dm-json/InterCompanyTransfer.json): Inter Company Transfer / جارى تحويل شركات
 - [JournalEntry](https://dm.namasoft.com/dm-json/JournalEntry.json): Journal Entry / سند قيد
-- [Ledger](https://dm.namasoft.com/dm-json/Ledger.json): دفتر حسابات
+- [Ledger](https://dm.namasoft.com/dm-json/Ledger.json): Ledger / دفتر حسابات
 - [LedgerReviseDoc](https://dm.namasoft.com/dm-json/LedgerReviseDoc.json): Ledger Revise Document / سند مراجعة حسابات
 - [MachineRentInvoice](https://dm.namasoft.com/dm-json/MachineRentInvoice.json): Machine Rent Invoice / فاتورة تشغيل معدات
 - [MiscPurchaseInvoice](https://dm.namasoft.com/dm-json/MiscPurchaseInvoice.json): Miscellaneous Invoice / فاتورة متنوعات
 - [MiscPurchaseOrder](https://dm.namasoft.com/dm-json/MiscPurchaseOrder.json): Misc purchase Order / أمر شراء متنوعات
 - [MiscPurchaseReq](https://dm.namasoft.com/dm-json/MiscPurchaseReq.json): Misc Purchase Request / طلب شراء متنوعات
 - [PVRequest](https://dm.namasoft.com/dm-json/PVRequest.json): Payment Request / طلب صرف
-- [Partner](https://dm.namasoft.com/dm-json/Partner.json): شريك
+- [Partner](https://dm.namasoft.com/dm-json/Partner.json): Partner / شريك
 - [PartyEvalElementGroup](https://dm.namasoft.com/dm-json/PartyEvalElementGroup.json): Party Evaluation Elements Group / مجموعة نقاط تقييم جهة
 - [PartyEvaluation](https://dm.namasoft.com/dm-json/PartyEvaluation.json): Party Evaluation / تقييم جهة
 - [PartyEvaluationElement](https://dm.namasoft.com/dm-json/PartyEvaluationElement.json): Party Evaluation Element / عنصر تقييم جهة
@@ -60,7 +60,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 
 ## Accounting Banks (accounting-banks)
 
-- [Bank](https://dm.namasoft.com/dm-json/Bank.json): بنك
+- [Bank](https://dm.namasoft.com/dm-json/Bank.json): Bank / بنك
 - [BankAccount](https://dm.namasoft.com/dm-json/BankAccount.json): Bank Account / حساب بنكي
 - [BankAdjustment](https://dm.namasoft.com/dm-json/BankAdjustment.json): Bank Adjustment / تسوية بنكية
 - [BankNotice](https://dm.namasoft.com/dm-json/BankNotice.json): Bank Notice / إشعار بنكي
@@ -133,7 +133,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [IPStake](https://dm.namasoft.com/dm-json/IPStake.json): Stake / حصة
 - [IPStakeType](https://dm.namasoft.com/dm-json/IPStakeType.json): Stake Type / نوع الحصة
 - [InvestmentProject](https://dm.namasoft.com/dm-json/InvestmentProject.json): Investment Project / مشروع استثماري
-- [Investor](https://dm.namasoft.com/dm-json/Investor.json): مستثمر
+- [Investor](https://dm.namasoft.com/dm-json/Investor.json): Investor / مستثمر
 
 ## Accounting Investment Documents (accounting-investment-documents)
 
@@ -238,7 +238,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [AUTrialBalance](https://dm.namasoft.com/dm-json/AUTrialBalance.json): Trial Balance / ميزان مراجعة
 - [AUWorkProgram](https://dm.namasoft.com/dm-json/AUWorkProgram.json): Work Program / برنامج عمل
 - [AUWorkSheet](https://dm.namasoft.com/dm-json/AUWorkSheet.json): Work Sheet / ورقة عمل
-- [Law](https://dm.namasoft.com/dm-json/Law.json): القانون
+- [Law](https://dm.namasoft.com/dm-json/Law.json): Law / القانون
 - [LawArticle](https://dm.namasoft.com/dm-json/LawArticle.json): Law Article / مادة قانون
 - [LawChapter](https://dm.namasoft.com/dm-json/LawChapter.json): Law Chapter / فصل قانون
 - [LawCirculars](https://dm.namasoft.com/dm-json/LawCirculars.json): Law Circulation / تعميم قانون
@@ -260,23 +260,23 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [ApprovalReason](https://dm.namasoft.com/dm-json/ApprovalReason.json): Approval Reason / سبب الموافقة
 - [BICrossFilter](https://dm.namasoft.com/dm-json/BICrossFilter.json): BI Cross Filter / فلتر تفاعلي للوحات
 - [BIPeriodComparisonConfig](https://dm.namasoft.com/dm-json/BIPeriodComparisonConfig.json): BI Period Comparison Config / إعدادات مقارنة الفترات
-- [Branch](https://dm.namasoft.com/dm-json/Branch.json): فرع
+- [Branch](https://dm.namasoft.com/dm-json/Branch.json): Branch / فرع
 - [BudgetScenario](https://dm.namasoft.com/dm-json/BudgetScenario.json): Budget Scenario / سيناريو موازنة
 - [BulkEditConfig](https://dm.namasoft.com/dm-json/BulkEditConfig.json): Bulk Edit Config / إعدادات التحرير المتعدد
 - [BulkMessage](https://dm.namasoft.com/dm-json/BulkMessage.json): Bulk message / رسالة مجمعة
-- [Car](https://dm.namasoft.com/dm-json/Car.json): سيارة
+- [Car](https://dm.namasoft.com/dm-json/Car.json): Car / سيارة
 - [CarBrand](https://dm.namasoft.com/dm-json/CarBrand.json): Car Brand / ماركة سياره
 - [CarModel](https://dm.namasoft.com/dm-json/CarModel.json): Car Model / موديل سياره
 - [ConfigEntry](https://dm.namasoft.com/dm-json/ConfigEntry.json): System Settings / إعدادات النظام
 - [ConfigGroup](https://dm.namasoft.com/dm-json/ConfigGroup.json): Configuration Group / قائمة إعدادات
-- [Contact](https://dm.namasoft.com/dm-json/Contact.json): جهة إتصال
+- [Contact](https://dm.namasoft.com/dm-json/Contact.json): Contact / جهة إتصال
 - [ContrTermCategory2](https://dm.namasoft.com/dm-json/ContrTermCategory2.json): Term Category 2 / تصنيف بند مقاولة 2
 - [CriteriaBasedValidator](https://dm.namasoft.com/dm-json/CriteriaBasedValidator.json): Criteria Based Validator / تحقق بناءا على معايير
 - [CriteriaDefinition](https://dm.namasoft.com/dm-json/CriteriaDefinition.json): Criteria Definition / تعريف معايير
-- [Currency](https://dm.namasoft.com/dm-json/Currency.json): عملة
+- [Currency](https://dm.namasoft.com/dm-json/Currency.json): Currency / عملة
 - [CustomListView](https://dm.namasoft.com/dm-json/CustomListView.json): Custom List View / عرض قائمة مخصصة
 - [CustomReportMenu](https://dm.namasoft.com/dm-json/CustomReportMenu.json): Custom Report Menu / قائمة تقارير مخصصة
-- [Customer](https://dm.namasoft.com/dm-json/Customer.json): عميل
+- [Customer](https://dm.namasoft.com/dm-json/Customer.json): Customer / عميل
 - [CustomerCategory](https://dm.namasoft.com/dm-json/CustomerCategory.json): Customer Category / تصنيف عميل
 - [CustomerClass](https://dm.namasoft.com/dm-json/CustomerClass.json): Customers' Class / فئة عملاء
 - [CustomerClass1](https://dm.namasoft.com/dm-json/CustomerClass1.json): Customers' Class 1 / فئة عميل 1
@@ -284,7 +284,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [CustomerClass3](https://dm.namasoft.com/dm-json/CustomerClass3.json): Customers' Class 3 / فئة عميل 3
 - [CustomerClass4](https://dm.namasoft.com/dm-json/CustomerClass4.json): Customers' Class 4 / فئة عميل 4
 - [CustomerClass5](https://dm.namasoft.com/dm-json/CustomerClass5.json): Customers' Class 5 / فئة عميل 5
-- [DashBoard](https://dm.namasoft.com/dm-json/DashBoard.json): لوحة
+- [DashBoard](https://dm.namasoft.com/dm-json/DashBoard.json): Dash Board / لوحة
 - [DashBoardGroup](https://dm.namasoft.com/dm-json/DashBoardGroup.json): Dash Board Group / مجموعة  لوحات
 - [DashBoardWidget](https://dm.namasoft.com/dm-json/DashBoardWidget.json): DashBoard Widget / عنصر اللوحة
 - [DashBoardWidgetWizard](https://dm.namasoft.com/dm-json/DashBoardWidgetWizard.json): Dashboard Widget Wizard / أداة إنشاء عنصر لوحة
@@ -292,9 +292,9 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [DatabaseCleaner](https://dm.namasoft.com/dm-json/DatabaseCleaner.json): Database Cleaner / تفريغ البيانات
 - [DatesOverrider](https://dm.namasoft.com/dm-json/DatesOverrider.json): Dates Overrider / تغيير التواريخ
 - [DefaultValuesTemplate](https://dm.namasoft.com/dm-json/DefaultValuesTemplate.json): Default Values Template / قالب قيم افتراضية
-- [Delegation](https://dm.namasoft.com/dm-json/Delegation.json): تفويض
+- [Delegation](https://dm.namasoft.com/dm-json/Delegation.json): Delegation / تفويض
 - [DeliveryCar](https://dm.namasoft.com/dm-json/DeliveryCar.json): Delivery Car / سيارة توصيل
-- [Department](https://dm.namasoft.com/dm-json/Department.json): إدارة
+- [Department](https://dm.namasoft.com/dm-json/Department.json): Department / إدارة
 - [DepartmentSection](https://dm.namasoft.com/dm-json/DepartmentSection.json):  Department Section /  القسم الوظيفي
 - [DetailedRemark](https://dm.namasoft.com/dm-json/DetailedRemark.json): Detailed Remark / ملحوظة مفصلة
 - [DetailedRevisionConfig](https://dm.namasoft.com/dm-json/DetailedRevisionConfig.json): Detailed Revision Settings / إعدادات المراجعة التفصيلية
@@ -303,7 +303,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [DocumentCancelDocument](https://dm.namasoft.com/dm-json/DocumentCancelDocument.json): Document Cancel Document / مستند إلغاء مستند
 - [DocumentTerm](https://dm.namasoft.com/dm-json/DocumentTerm.json): Document Term / توجيه مستند
 - [EmpWorkPlace](https://dm.namasoft.com/dm-json/EmpWorkPlace.json): Employee Work Place / مكان عمل
-- [Employee](https://dm.namasoft.com/dm-json/Employee.json): موظف
+- [Employee](https://dm.namasoft.com/dm-json/Employee.json): Employee / موظف
 - [EmployeeAgenda](https://dm.namasoft.com/dm-json/EmployeeAgenda.json): Employee Agenda / أجندة موظف
 - [EmployeeDepartment](https://dm.namasoft.com/dm-json/EmployeeDepartment.json): Employee Department / إدارة موظف
 - [EmployeeGroup](https://dm.namasoft.com/dm-json/EmployeeGroup.json): Employee Group / مجموعة موظفين
@@ -347,7 +347,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [MobileEntityTitleModifier](https://dm.namasoft.com/dm-json/MobileEntityTitleModifier.json): Mobile Entity Title Modifier / طريقة عرض بيانات المستند فى التطبيق
 - [MobileQRIntegrator](https://dm.namasoft.com/dm-json/MobileQRIntegrator.json): Mobile QR Integrator
 - [MultiValueReportParameter](https://dm.namasoft.com/dm-json/MultiValueReportParameter.json): Multi Value Report Parameter / قيم متعددة لمدخل تقرير
-- [Nationality](https://dm.namasoft.com/dm-json/Nationality.json): جنسية
+- [Nationality](https://dm.namasoft.com/dm-json/Nationality.json): Nationality / جنسية
 - [NotificationDefinition](https://dm.namasoft.com/dm-json/NotificationDefinition.json): Notification Definition / تعريف تنبيهات
 - [OAuthFile](https://dm.namasoft.com/dm-json/OAuthFile.json): OAuth File
 - [OrganizationPosition](https://dm.namasoft.com/dm-json/OrganizationPosition.json): Organizational Position / درجة وظيفية
@@ -361,7 +361,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [ReceiptBook](https://dm.namasoft.com/dm-json/ReceiptBook.json): Receipt Book / دفتر إيصالات
 - [ReceiptPaper](https://dm.namasoft.com/dm-json/ReceiptPaper.json): Receipt Paper / إيصال
 - [RecuringDocument](https://dm.namasoft.com/dm-json/RecuringDocument.json): Recuring Document / ملف مستندات دورية
-- [Remark](https://dm.namasoft.com/dm-json/Remark.json): ملاحظة
+- [Remark](https://dm.namasoft.com/dm-json/Remark.json): Remark / ملاحظة
 - [RemarkType](https://dm.namasoft.com/dm-json/RemarkType.json): Remark Type / نوع ملاحظة
 - [RemarkType2](https://dm.namasoft.com/dm-json/RemarkType2.json): Remark Type 2 / نوع ملاحظة 2
 - [RemarkType3](https://dm.namasoft.com/dm-json/RemarkType3.json): Remark Type 3 / نوع ملاحظة 3
@@ -383,17 +383,17 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [SalesPriceClassifier5](https://dm.namasoft.com/dm-json/SalesPriceClassifier5.json): Sales Price Classifier 5 / محدد سعر مبيعات 5
 - [SalesStandardTerm](https://dm.namasoft.com/dm-json/SalesStandardTerm.json): Sales Standard Term / بند بيع قياسي
 - [ScreenModifier](https://dm.namasoft.com/dm-json/ScreenModifier.json): Screen Modifier / تعديل شاشة
-- [Sector](https://dm.namasoft.com/dm-json/Sector.json): قطاع
+- [Sector](https://dm.namasoft.com/dm-json/Sector.json): Sector / قطاع
 - [SecurityCapability](https://dm.namasoft.com/dm-json/SecurityCapability.json): Capability Types / نوع الصلاحيات
 - [SecurityProfile](https://dm.namasoft.com/dm-json/SecurityProfile.json): Security Profile / ملف الصلاحيات
 - [SecurityProfileTransfer](https://dm.namasoft.com/dm-json/SecurityProfileTransfer.json): Security Profile Transfer / صلاحيات إضافية مؤقته
 - [ShortCutsDefinition](https://dm.namasoft.com/dm-json/ShortCutsDefinition.json): Shortcuts Definition / تعريف اختصارات
 - [SocialMediaSubscriberConfig](https://dm.namasoft.com/dm-json/SocialMediaSubscriberConfig.json): Social Media Subscriber Configuration / إعدادات اشتراكات وسائل التواصل
 - [SpecialResponsible](https://dm.namasoft.com/dm-json/SpecialResponsible.json): Special Responsible / مسئول مخصص
-- [Sponsor](https://dm.namasoft.com/dm-json/Sponsor.json): كفيل
+- [Sponsor](https://dm.namasoft.com/dm-json/Sponsor.json): Sponsor / كفيل
 - [StandardTermExtension](https://dm.namasoft.com/dm-json/StandardTermExtension.json): Standard Term Extension / تمديد فترة عمل البند
 - [StandardTermFulfillment](https://dm.namasoft.com/dm-json/StandardTermFulfillment.json): Standard Term Fulfillment / تحقق البند
-- [Supplier](https://dm.namasoft.com/dm-json/Supplier.json): مورد
+- [Supplier](https://dm.namasoft.com/dm-json/Supplier.json): Supplier / مورد
 - [SupplierClass](https://dm.namasoft.com/dm-json/SupplierClass.json): Suppliers' Class / فئة موردين
 - [TaskQueue](https://dm.namasoft.com/dm-json/TaskQueue.json): Task Queue / طابور المهام
 - [TaskSchedule](https://dm.namasoft.com/dm-json/TaskSchedule.json): Task Schedule / مهمة مجدولة
@@ -577,7 +577,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [ContractingTask](https://dm.namasoft.com/dm-json/ContractingTask.json): Contracting Task / مهمة مقاولات
 - [ContractingTaxExtractTerm](https://dm.namasoft.com/dm-json/ContractingTaxExtractTerm.json): Contracting Tax Extract Term / بند مستخلص ضريبي
 - [ContractingUOM](https://dm.namasoft.com/dm-json/ContractingUOM.json): Contracting UOM / وحدة قياس مقاولات
-- [Contractor](https://dm.namasoft.com/dm-json/Contractor.json): مقاول باطن
+- [Contractor](https://dm.namasoft.com/dm-json/Contractor.json): Contractor / مقاول باطن
 - [ContractorAdvancePayment](https://dm.namasoft.com/dm-json/ContractorAdvancePayment.json): Contractor Advance Payment / دفعة مقاول باطن مقدمة
 - [ContractorClassification](https://dm.namasoft.com/dm-json/ContractorClassification.json): Contractor Classification / فئة مقاول باطن
 - [ContractorContrExtract](https://dm.namasoft.com/dm-json/ContractorContrExtract.json): Contractor Contract Extract / مستخلص مقاول باطن
@@ -766,7 +766,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [CPAProjectReturn](https://dm.namasoft.com/dm-json/CPAProjectReturn.json): Project Return / مردود فاتورة المشاريع
 - [CPAProjectStage](https://dm.namasoft.com/dm-json/CPAProjectStage.json): Project Stage / مرحلة مشروع
 - [CPAProjectStageExtension](https://dm.namasoft.com/dm-json/CPAProjectStageExtension.json): Project Stage Extension / تمديد مرحلة مشروع
-- [CPAProjectSubType](https://dm.namasoft.com/dm-json/CPAProjectSubType.json): نوع مشروع فرعى
+- [CPAProjectSubType](https://dm.namasoft.com/dm-json/CPAProjectSubType.json): CPA Project Sub Type / نوع مشروع فرعى
 - [CPAProjectType](https://dm.namasoft.com/dm-json/CPAProjectType.json): Project Type / نوع المشروع
 - [CPASalesQuotation](https://dm.namasoft.com/dm-json/CPASalesQuotation.json): CPA Projects Sales Quotation / عرض أسعار مشروع
 - [CPAStageExtensionReason](https://dm.namasoft.com/dm-json/CPAStageExtensionReason.json): Stage Extension Reason / سبب تمديد مرحلة
@@ -801,7 +801,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [EDMainLevel](https://dm.namasoft.com/dm-json/EDMainLevel.json): Main Level / المستوى الرئيسي
 - [EDMarksBalance](https://dm.namasoft.com/dm-json/EDMarksBalance.json): Marks Balance / رصيد درجات
 - [EDMealDeliveryPlan](https://dm.namasoft.com/dm-json/EDMealDeliveryPlan.json): Education Meals Delivery Plan / خطة توصيل الوجبات المدرسية
-- [EDMealType](https://dm.namasoft.com/dm-json/EDMealType.json): نوع وجبة مدرسية
+- [EDMealType](https://dm.namasoft.com/dm-json/EDMealType.json): ED Meal Type / نوع وجبة مدرسية
 - [EDMealsDetails](https://dm.namasoft.com/dm-json/EDMealsDetails.json): Education Meals Details / تفاصيل الوجبات المدرسية
 - [EDRank](https://dm.namasoft.com/dm-json/EDRank.json): Rank / صف
 - [EDSchoolTrip](https://dm.namasoft.com/dm-json/EDSchoolTrip.json): SchoolTrips / رحلة مدرسية
@@ -1052,7 +1052,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [HOKitchen](https://dm.namasoft.com/dm-json/HOKitchen.json): Kitchen / مطبخ
 - [HOMaintenanceBudget](https://dm.namasoft.com/dm-json/HOMaintenanceBudget.json): Maintenance Budget / موازنة صيانة
 - [HOMaintenanceDoc](https://dm.namasoft.com/dm-json/HOMaintenanceDoc.json): Maintenance Document / مستند صيانة
-- [HOMaintenanceItem](https://dm.namasoft.com/dm-json/HOMaintenanceItem.json): صنف صيانة
+- [HOMaintenanceItem](https://dm.namasoft.com/dm-json/HOMaintenanceItem.json): HO Maintenance Item / صنف صيانة
 - [HOModifyMaintenanceBudget](https://dm.namasoft.com/dm-json/HOModifyMaintenanceBudget.json): Modify Maintenance Budget / سند تعديل موازنة صيانة
 - [HOOffice](https://dm.namasoft.com/dm-json/HOOffice.json): Office / مكتب
 - [HOOwner](https://dm.namasoft.com/dm-json/HOOwner.json): HO Owner / مالك
@@ -1146,7 +1146,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [HOPassportDeliveringReq](https://dm.namasoft.com/dm-json/HOPassportDeliveringReq.json): Passport Delivering Request / طلب استلام جواز سفر
 - [HOSponsorshipTransferDoc](https://dm.namasoft.com/dm-json/HOSponsorshipTransferDoc.json): Sponsorship Transfer Document / طلب نقل كفالة موظف
 - [HREmpAdventRegisteration](https://dm.namasoft.com/dm-json/HREmpAdventRegisteration.json): Employee Advent Registeration / تسجيل قدوم موظف
-- [HRIssuedVisas](https://dm.namasoft.com/dm-json/HRIssuedVisas.json): تأشيرات صادرة
+- [HRIssuedVisas](https://dm.namasoft.com/dm-json/HRIssuedVisas.json): HR Issued Visas / تأشيرات صادرة
 - [HRVisaHandling](https://dm.namasoft.com/dm-json/HRVisaHandling.json): Visa Handling / منح تأشيرة
 - [HRVisasDelegation](https://dm.namasoft.com/dm-json/HRVisasDelegation.json): Visas Delegation / تفويض تاشيرة
 - [ResidenceRenewReq](https://dm.namasoft.com/dm-json/ResidenceRenewReq.json): Residence Renew Request / طلب تجديد إقامة
@@ -1178,7 +1178,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [AttendancePlan](https://dm.namasoft.com/dm-json/AttendancePlan.json): Attendance Plan / خطة الدوام
 - [AttendanceShift](https://dm.namasoft.com/dm-json/AttendanceShift.json): Shift / ملف الدوام
 - [CandidateJobOffer](https://dm.namasoft.com/dm-json/CandidateJobOffer.json): Candidate Job Offer / عرض وظيفي لمتقدم للعمل
-- [ChangeEmployeeState](https://dm.namasoft.com/dm-json/ChangeEmployeeState.json): تغير حالة موظف
+- [ChangeEmployeeState](https://dm.namasoft.com/dm-json/ChangeEmployeeState.json): Change Employee State / تغير حالة موظف
 - [ComponentCalcFormula](https://dm.namasoft.com/dm-json/ComponentCalcFormula.json):  Component Calculation Formula /  معادلة حساب المفرد
 - [DailySalary](https://dm.namasoft.com/dm-json/DailySalary.json): Daily Salary / أجر يومى
 - [ElectronicAttendance](https://dm.namasoft.com/dm-json/ElectronicAttendance.json): Electronic Attendance / حضور إلكتروني
@@ -1280,7 +1280,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [JOCustomerDelivery](https://dm.namasoft.com/dm-json/JOCustomerDelivery.json): New Glass Customer Delivery / تسليم عميل زجاج جديد
 - [JODamageDoc](https://dm.namasoft.com/dm-json/JODamageDoc.json): New Glass Damage Document / مستند تالف زجاج جديد
 - [JOJobOrder](https://dm.namasoft.com/dm-json/JOJobOrder.json): New Glass Job Order / أمر شغل زجاج جديد
-- [JOOperation](https://dm.namasoft.com/dm-json/JOOperation.json): تشغيلة
+- [JOOperation](https://dm.namasoft.com/dm-json/JOOperation.json): JO Operation / تشغيلة
 - [JOOperationsExecution](https://dm.namasoft.com/dm-json/JOOperationsExecution.json): New Glass Operations Execution / تنفيذ تشغيلات زجاج جديد
 - [JOOutSourcManufacturReceipt](https://dm.namasoft.com/dm-json/JOOutSourcManufacturReceipt.json): New Glass Outsource Manufacture Receipt / مستند إستلام تصنيع خارجي زجاج جديد
 - [JOOutSourceManufactureIssue](https://dm.namasoft.com/dm-json/JOOutSourceManufactureIssue.json): New Glass Outsource Manufacture Issue / مستند صرف تصنيع خارجي زجاج جديد
@@ -1312,7 +1312,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [AggregatedProductDelivery](https://dm.namasoft.com/dm-json/AggregatedProductDelivery.json): Aggregated Product Delivery / تسليم منتج مجمع
 - [AggregatedProductionOrder](https://dm.namasoft.com/dm-json/AggregatedProductionOrder.json): Aggregated Production Order / سند أوامر الإنتاج المجمعة
 - [AggregatedProductionOrderClosing](https://dm.namasoft.com/dm-json/AggregatedProductionOrderClosing.json): Aggregated Production Order Closing / سند إغلاق أوامر إنتاج مجمع
-- [BOM](https://dm.namasoft.com/dm-json/BOM.json): مكونات منتج
+- [BOM](https://dm.namasoft.com/dm-json/BOM.json): BOM / مكونات منتج
 - [ManufacturingStandardPrice](https://dm.namasoft.com/dm-json/ManufacturingStandardPrice.json): Manufacturing Standard Price / سعر قياسي للتصنيع
 - [ManufacturingStockTaking](https://dm.namasoft.com/dm-json/ManufacturingStockTaking.json): Manufacturing Stock Taking / جرد مخزني للتصنيع
 - [OrderCloseVoucher](https://dm.namasoft.com/dm-json/OrderCloseVoucher.json): Order Close / إغلاق أمر إنتاج
@@ -1330,7 +1330,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [RawMaterialReturn](https://dm.namasoft.com/dm-json/RawMaterialReturn.json): Raw Materials Return / إرتجاع مواد خام
 - [RawMaterialReturnReq](https://dm.namasoft.com/dm-json/RawMaterialReturnReq.json): Raw material return request / طلب ارتجاع مواد خام
 - [ResourceVoucher](https://dm.namasoft.com/dm-json/ResourceVoucher.json): Resource Voucher / سند موارد
-- [Routing](https://dm.namasoft.com/dm-json/Routing.json): عملية تشغيل
+- [Routing](https://dm.namasoft.com/dm-json/Routing.json): Routing / عملية تشغيل
 - [ScrapReceipt](https://dm.namasoft.com/dm-json/ScrapReceipt.json): Scrap Receipt / إستلام تالف
 - [StandardOperation](https://dm.namasoft.com/dm-json/StandardOperation.json): Standard Operation / عملية قياسية
 - [WorkCenter](https://dm.namasoft.com/dm-json/WorkCenter.json): Work Center / صالة إنتاج
@@ -1338,7 +1338,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 ## Manufacturing Crtn Pln (manufacturing-crtn-pln)
 
 - [CRTNCorrugatingFactor](https://dm.namasoft.com/dm-json/CRTNCorrugatingFactor.json): CRTN Corrugating Factor / معامل التضليع
-- [CRTNCorrugatingType](https://dm.namasoft.com/dm-json/CRTNCorrugatingType.json): نوع التضليع
+- [CRTNCorrugatingType](https://dm.namasoft.com/dm-json/CRTNCorrugatingType.json): CRTN Corrugating Type / نوع التضليع
 - [CRTNFluting](https://dm.namasoft.com/dm-json/CRTNFluting.json): CRTN Fluting / الريجة
 - [CRTNJoinType](https://dm.namasoft.com/dm-json/CRTNJoinType.json): CRTN Join Type / نوع التقفيل
 - [CRTNLoadingType](https://dm.namasoft.com/dm-json/CRTNLoadingType.json): CRTN Loading Type / نوع التحميل
@@ -1367,7 +1367,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [MRPPurchaseRequest](https://dm.namasoft.com/dm-json/MRPPurchaseRequest.json): MRP Purchase Request / أمر شراء تخطيط
 - [MRPSalesForecasting](https://dm.namasoft.com/dm-json/MRPSalesForecasting.json): MRP Sales Forecasting / سند توقعات
 - [ManualDemand](https://dm.namasoft.com/dm-json/ManualDemand.json): Manual Demand / سند طلب يدوي
-- [Scenario](https://dm.namasoft.com/dm-json/Scenario.json): سيناريو
+- [Scenario](https://dm.namasoft.com/dm-json/Scenario.json): Scenario / سيناريو
 
 ## Mc (mc)
 
@@ -1449,37 +1449,37 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 
 ## Pos App (pos-app)
 
-- [POS.ItemLine](https://dm.namasoft.com/dm-json/POS.ItemLine.json) (table: ItemLine)
-- [POS.POSActionHistory](https://dm.namasoft.com/dm-json/POS.POSActionHistory.json) (table: POSActionHistory)
-- [POS.POSActionLine](https://dm.namasoft.com/dm-json/POS.POSActionLine.json) (table: POSActionLine)
-- [POS.POSAlias](https://dm.namasoft.com/dm-json/POS.POSAlias.json) (table: POSAlias)
+- [POS.ItemLine](https://dm.namasoft.com/dm-json/POS.ItemLine.json): Item Line (table: ItemLine)
+- [POS.POSActionHistory](https://dm.namasoft.com/dm-json/POS.POSActionHistory.json): POS Action History (table: POSActionHistory)
+- [POS.POSActionLine](https://dm.namasoft.com/dm-json/POS.POSActionLine.json): POS Action Line (table: POSActionLine)
+- [POS.POSAlias](https://dm.namasoft.com/dm-json/POS.POSAlias.json): POS Alias (table: POSAlias)
 - [POS.POSAnalysisset](https://dm.namasoft.com/dm-json/POS.POSAnalysisset.json): Analysis Set / مجموعة تحليلية (table: POSAnalysisset)
-- [POS.POSBranch](https://dm.namasoft.com/dm-json/POS.POSBranch.json): فرع (table: POSBranch)
+- [POS.POSBranch](https://dm.namasoft.com/dm-json/POS.POSBranch.json): Branch / فرع (table: POSBranch)
 - [POS.POSCreditNote](https://dm.namasoft.com/dm-json/POS.POSCreditNote.json): POS Credit Note / إشعار دائن نقاط البيع (table: POSCreditNote)
-- [POS.POSCurrency](https://dm.namasoft.com/dm-json/POS.POSCurrency.json): عملة (table: POSCurrency)
-- [POS.POSCustomer](https://dm.namasoft.com/dm-json/POS.POSCustomer.json): عميل (table: POSCustomer)
+- [POS.POSCurrency](https://dm.namasoft.com/dm-json/POS.POSCurrency.json): Currency / عملة (table: POSCurrency)
+- [POS.POSCustomer](https://dm.namasoft.com/dm-json/POS.POSCustomer.json): Customer / عميل (table: POSCustomer)
 - [POS.POSCustomerCategory](https://dm.namasoft.com/dm-json/POS.POSCustomerCategory.json): Customer Category / تصنيف عميل (table: POSCustomerCategory)
 - [POS.POSCustomerClass](https://dm.namasoft.com/dm-json/POS.POSCustomerClass.json): Customers' Class / فئة عملاء (table: POSCustomerClass)
 - [POS.POSCustomerClass2](https://dm.namasoft.com/dm-json/POS.POSCustomerClass2.json): Customers' Class 2 / فئة عميل 2 (table: POSCustomerClass2)
 - [POS.POSCustomerPhoneCountryCodes](https://dm.namasoft.com/dm-json/POS.POSCustomerPhoneCountryCodes.json): POS Customer Phone Country Codes / أكواد الدول لأرقام عملاء نقاط البيع (table: POSCustomerPhoneCountryCodes)
 - [POS.POSDBUpdateStatement](https://dm.namasoft.com/dm-json/POS.POSDBUpdateStatement.json): POS DB Update Statement Runner (table: POSDBUpdateStatement)
-- [POS.POSDepartment](https://dm.namasoft.com/dm-json/POS.POSDepartment.json): إدارة (table: POSDepartment)
+- [POS.POSDepartment](https://dm.namasoft.com/dm-json/POS.POSDepartment.json): Department / إدارة (table: POSDepartment)
 - [POS.POSDepreciationReason](https://dm.namasoft.com/dm-json/POS.POSDepreciationReason.json): POS Depreciation Reason / سبب الهالك (table: POSDepreciationReason)
 - [POS.POSDiscountCoupon](https://dm.namasoft.com/dm-json/POS.POSDiscountCoupon.json): Discount Coupon / قسيمة خصومات (table: POSDiscountCoupon)
-- [POS.POSEmployee](https://dm.namasoft.com/dm-json/POS.POSEmployee.json): موظف (table: POSEmployee)
-- [POS.POSError](https://dm.namasoft.com/dm-json/POS.POSError.json) (table: POSError)
+- [POS.POSEmployee](https://dm.namasoft.com/dm-json/POS.POSEmployee.json): Employee / موظف (table: POSEmployee)
+- [POS.POSError](https://dm.namasoft.com/dm-json/POS.POSError.json): POS Error (table: POSError)
 - [POS.POSExchangeRate](https://dm.namasoft.com/dm-json/POS.POSExchangeRate.json): Exchange Rate / سعر صرف (table: POSExchangeRate)
-- [POS.POSExtraFilter](https://dm.namasoft.com/dm-json/POS.POSExtraFilter.json) (table: POSExtraFilter)
-- [POS.POSFavouriteLine](https://dm.namasoft.com/dm-json/POS.POSFavouriteLine.json) (table: POSFavouriteLine)
-- [POS.POSFieldTooltipInfo](https://dm.namasoft.com/dm-json/POS.POSFieldTooltipInfo.json) (table: POSFieldTooltipInfo)
-- [POS.POSFinancialSysLine](https://dm.namasoft.com/dm-json/POS.POSFinancialSysLine.json) (table: POSFinancialSysLine)
+- [POS.POSExtraFilter](https://dm.namasoft.com/dm-json/POS.POSExtraFilter.json): POS Extra Filter (table: POSExtraFilter)
+- [POS.POSFavouriteLine](https://dm.namasoft.com/dm-json/POS.POSFavouriteLine.json): POS Favourite Line (table: POSFavouriteLine)
+- [POS.POSFieldTooltipInfo](https://dm.namasoft.com/dm-json/POS.POSFieldTooltipInfo.json): POS Field Tooltip Info (table: POSFieldTooltipInfo)
+- [POS.POSFinancialSysLine](https://dm.namasoft.com/dm-json/POS.POSFinancialSysLine.json): POS Financial Sys Line (table: POSFinancialSysLine)
 - [POS.POSFreeItemGroup](https://dm.namasoft.com/dm-json/POS.POSFreeItemGroup.json): Free Group / مجموعة مجانية (table: POSFreeItemGroup)
 - [POS.POSGenReference](https://dm.namasoft.com/dm-json/POS.POSGenReference.json): POS Generic Reference / المرجع العام لنقاط البيع (table: POSGenReference)
 - [POS.POSGenericReferenceOverrider](https://dm.namasoft.com/dm-json/POS.POSGenericReferenceOverrider.json): Fields and Entities Settings / أعدادات الحقول و الشاشات (table: POSGenericReferenceOverrider)
 - [POS.POSHall](https://dm.namasoft.com/dm-json/POS.POSHall.json): POS Hall / صالة نقاط البيع (table: POSHall)
 - [POS.POSInternalMessage](https://dm.namasoft.com/dm-json/POS.POSInternalMessage.json): POS Internal Message / رسالة نقاط بيع داخليه (table: POSInternalMessage)
 - [POS.POSInventory](https://dm.namasoft.com/dm-json/POS.POSInventory.json): POS Cash Drawer / جرد (table: POSInventory)
-- [POS.POSInvoiceClassification](https://dm.namasoft.com/dm-json/POS.POSInvoiceClassification.json): تصنيف الفواتير (table: POSInvoiceClassification)
+- [POS.POSInvoiceClassification](https://dm.namasoft.com/dm-json/POS.POSInvoiceClassification.json): Invoice Classification / تصنيف الفواتير (table: POSInvoiceClassification)
 - [POS.POSItem](https://dm.namasoft.com/dm-json/POS.POSItem.json): Item / صنف (table: POSItem)
 - [POS.POSItemBarcodeParser](https://dm.namasoft.com/dm-json/POS.POSItemBarcodeParser.json): POS Item Barcode Parser / مواصفات باركود أصناف نقاط البيع (table: POSItemBarcodeParser)
 - [POS.POSItemBrand](https://dm.namasoft.com/dm-json/POS.POSItemBrand.json): Item Brand / ماركة صنف (table: POSItemBrand)
@@ -1494,29 +1494,29 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [POS.POSItemClass7](https://dm.namasoft.com/dm-json/POS.POSItemClass7.json): Item class 7 / تصنيف صنف 7 (table: POSItemClass7)
 - [POS.POSItemClass8](https://dm.namasoft.com/dm-json/POS.POSItemClass8.json): Item class 8 / تصنيف صنف 8 (table: POSItemClass8)
 - [POS.POSItemClass9](https://dm.namasoft.com/dm-json/POS.POSItemClass9.json): Item class 9 / تصنيف صنف 9 (table: POSItemClass9)
-- [POS.POSItemCode](https://dm.namasoft.com/dm-json/POS.POSItemCode.json) (table: POSItemCode)
+- [POS.POSItemCode](https://dm.namasoft.com/dm-json/POS.POSItemCode.json): POS Item Code (table: POSItemCode)
 - [POS.POSItemColor](https://dm.namasoft.com/dm-json/POS.POSItemColor.json): Item Color / لون صنف (table: POSItemColor)
 - [POS.POSItemConfig](https://dm.namasoft.com/dm-json/POS.POSItemConfig.json): Item Configurations / إعدادات صنف (table: POSItemConfig)
-- [POS.POSItemCurrentQuantitySysEntry](https://dm.namasoft.com/dm-json/POS.POSItemCurrentQuantitySysEntry.json) (table: POSItemCurrentQuantitySysEntry)
+- [POS.POSItemCurrentQuantitySysEntry](https://dm.namasoft.com/dm-json/POS.POSItemCurrentQuantitySysEntry.json): POS Item Current Quantity Sys Entry (table: POSItemCurrentQuantitySysEntry)
 - [POS.POSItemQtyUpdateConfig](https://dm.namasoft.com/dm-json/POS.POSItemQtyUpdateConfig.json): POS Item Quantity Update Configuration / إعدادات تحديث كميات الماكينة (table: POSItemQtyUpdateConfig)
 - [POS.POSItemSection](https://dm.namasoft.com/dm-json/POS.POSItemSection.json): Item Section / قسم صنف (table: POSItemSection)
 - [POS.POSItemSize](https://dm.namasoft.com/dm-json/POS.POSItemSize.json): Item Size / مقاس صنف (table: POSItemSize)
 - [POS.POSLegalEntity](https://dm.namasoft.com/dm-json/POS.POSLegalEntity.json): Legal Entity / شركة (table: POSLegalEntity)
-- [POS.POSLocation](https://dm.namasoft.com/dm-json/POS.POSLocation.json): موقع (table: POSLocation)
+- [POS.POSLocation](https://dm.namasoft.com/dm-json/POS.POSLocation.json): Locator / موقع (table: POSLocation)
 - [POS.POSOrderReservation](https://dm.namasoft.com/dm-json/POS.POSOrderReservation.json): POS Order Reservation / سند حجز اوردر نقاط بيع (table: POSOrderReservation)
 - [POS.POSPaymentMethod](https://dm.namasoft.com/dm-json/POS.POSPaymentMethod.json): Payment Method / طريقة دفع (table: POSPaymentMethod)
-- [POS.POSPaymentMethodsSettings](https://dm.namasoft.com/dm-json/POS.POSPaymentMethodsSettings.json) (table: POSPaymentMethodsSettings)
+- [POS.POSPaymentMethodsSettings](https://dm.namasoft.com/dm-json/POS.POSPaymentMethodsSettings.json): POS Payment Methods Settings (table: POSPaymentMethodsSettings)
 - [POS.POSPaymentToRegistery](https://dm.namasoft.com/dm-json/POS.POSPaymentToRegistery.json): POS Payment / مصروف نقاط البيع (table: POSPaymentToRegistery)
 - [POS.POSPricingRange](https://dm.namasoft.com/dm-json/POS.POSPricingRange.json): Pricing Range / مدى تطبيق الأسعار (table: POSPricingRange)
-- [POS.POSPricingRangeExcludedInvoiceLine](https://dm.namasoft.com/dm-json/POS.POSPricingRangeExcludedInvoiceLine.json) (table: POSPricingRangeExcludedInvoiceLine)
-- [POS.POSPricingRangeExcludedItemLine](https://dm.namasoft.com/dm-json/POS.POSPricingRangeExcludedItemLine.json) (table: POSPricingRangeExcludedItemLine)
-- [POS.POSPricingRangeIncludedInvoiceLine](https://dm.namasoft.com/dm-json/POS.POSPricingRangeIncludedInvoiceLine.json) (table: POSPricingRangeIncludedInvoiceLine)
-- [POS.POSPricingRangeIncludedItemLine](https://dm.namasoft.com/dm-json/POS.POSPricingRangeIncludedItemLine.json) (table: POSPricingRangeIncludedItemLine)
+- [POS.POSPricingRangeExcludedInvoiceLine](https://dm.namasoft.com/dm-json/POS.POSPricingRangeExcludedInvoiceLine.json): POS Pricing Range Excluded Invoice Line (table: POSPricingRangeExcludedInvoiceLine)
+- [POS.POSPricingRangeExcludedItemLine](https://dm.namasoft.com/dm-json/POS.POSPricingRangeExcludedItemLine.json): POS Pricing Range Excluded Item Line (table: POSPricingRangeExcludedItemLine)
+- [POS.POSPricingRangeIncludedInvoiceLine](https://dm.namasoft.com/dm-json/POS.POSPricingRangeIncludedInvoiceLine.json): POS Pricing Range Included Invoice Line (table: POSPricingRangeIncludedInvoiceLine)
+- [POS.POSPricingRangeIncludedItemLine](https://dm.namasoft.com/dm-json/POS.POSPricingRangeIncludedItemLine.json): POS Pricing Range Included Item Line (table: POSPricingRangeIncludedItemLine)
 - [POS.POSReceiptFromRegistery](https://dm.namasoft.com/dm-json/POS.POSReceiptFromRegistery.json): POS Receipt / مقبوض نقاط البيع (table: POSReceiptFromRegistery)
-- [POS.POSRegisterContactInfoLine](https://dm.namasoft.com/dm-json/POS.POSRegisterContactInfoLine.json) (table: POSRegisterContactInfoLine)
+- [POS.POSRegisterContactInfoLine](https://dm.namasoft.com/dm-json/POS.POSRegisterContactInfoLine.json): POS Register Contact Info Line (table: POSRegisterContactInfoLine)
 - [POS.POSRegistery](https://dm.namasoft.com/dm-json/POS.POSRegistery.json): Register / ماكينة (table: POSRegistery)
-- [POS.POSRegisteryFixedFavouriteLine](https://dm.namasoft.com/dm-json/POS.POSRegisteryFixedFavouriteLine.json) (table: POSRegisteryFixedFavouriteLine)
-- [POS.POSRegisteryUserLine](https://dm.namasoft.com/dm-json/POS.POSRegisteryUserLine.json) (table: POSRegisteryUserLine)
+- [POS.POSRegisteryFixedFavouriteLine](https://dm.namasoft.com/dm-json/POS.POSRegisteryFixedFavouriteLine.json): POS Registery Fixed Favourite Line (table: POSRegisteryFixedFavouriteLine)
+- [POS.POSRegisteryUserLine](https://dm.namasoft.com/dm-json/POS.POSRegisteryUserLine.json): POS Registery User Line (table: POSRegisteryUserLine)
 - [POS.POSReportDefinition](https://dm.namasoft.com/dm-json/POS.POSReportDefinition.json): Report Definition / تعريف تقرير (table: POSReportDefinition)
 - [POS.POSReturnReason](https://dm.namasoft.com/dm-json/POS.POSReturnReason.json): Nama POS Return Reason / سبب الإرجاع (table: POSReturnReason)
 - [POS.POSRewardPointConfig](https://dm.namasoft.com/dm-json/POS.POSRewardPointConfig.json): Reward Points Configuration / إعدادات نقاط المكافأة (table: POSRewardPointConfig)
@@ -1533,10 +1533,10 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [POS.POSSalesReturn](https://dm.namasoft.com/dm-json/POS.POSSalesReturn.json): POS Sales Return / مردود نقاط البيع (table: POSSalesReturn)
 - [POS.POSSavingSettings](https://dm.namasoft.com/dm-json/POS.POSSavingSettings.json): POS Saving Settings / إعدادات الحفظ في نقاط البيع (table: POSSavingSettings)
 - [POS.POSScrapDoc](https://dm.namasoft.com/dm-json/POS.POSScrapDoc.json): Scrap Document / مستند الهوالك (table: POSScrapDoc)
-- [POS.POSSector](https://dm.namasoft.com/dm-json/POS.POSSector.json): قطاع (table: POSSector)
+- [POS.POSSector](https://dm.namasoft.com/dm-json/POS.POSSector.json): Sector / قطاع (table: POSSector)
 - [POS.POSSecurity](https://dm.namasoft.com/dm-json/POS.POSSecurity.json): POS Security Profile / صلاحيات نقاط البيع (table: POSSecurity)
 - [POS.POSServiceChargeSettings](https://dm.namasoft.com/dm-json/POS.POSServiceChargeSettings.json): POS Service Charge Settings / إعدادات الخدمة السياحية في نقاط البيع (table: POSServiceChargeSettings)
-- [POS.POSSettingsInfo](https://dm.namasoft.com/dm-json/POS.POSSettingsInfo.json) (table: POSSettingsInfo)
+- [POS.POSSettingsInfo](https://dm.namasoft.com/dm-json/POS.POSSettingsInfo.json): POS Settings Info (table: POSSettingsInfo)
 - [POS.POSShift](https://dm.namasoft.com/dm-json/POS.POSShift.json): POS Shift Opening / فتح ورديه (table: POSShift)
 - [POS.POSShiftClose](https://dm.namasoft.com/dm-json/POS.POSShiftClose.json): POS Shift Closing / غلق وردية (table: POSShiftClose)
 - [POS.POSShiftOpen](https://dm.namasoft.com/dm-json/POS.POSShiftOpen.json): POS Shift Opening / فتح ورديه (table: POSShiftOpen)
@@ -1547,17 +1547,17 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [POS.POSTable](https://dm.namasoft.com/dm-json/POS.POSTable.json): Table / طاولة نقاط البيع (table: POSTable)
 - [POS.POSTaxPlan](https://dm.namasoft.com/dm-json/POS.POSTaxPlan.json): Tax Plan / سياسة الضريبة (table: POSTaxPlan)
 - [POS.POSTranslationOverrider](https://dm.namasoft.com/dm-json/POS.POSTranslationOverrider.json): Translation OverRider / تغيير ترجمة (table: POSTranslationOverrider)
-- [POS.POSUnit](https://dm.namasoft.com/dm-json/POS.POSUnit.json): وحدة قياس (table: POSUnit)
-- [POS.POSUser](https://dm.namasoft.com/dm-json/POS.POSUser.json): مستخدم (table: POSUser)
+- [POS.POSUnit](https://dm.namasoft.com/dm-json/POS.POSUnit.json): UOM / وحدة قياس (table: POSUnit)
+- [POS.POSUser](https://dm.namasoft.com/dm-json/POS.POSUser.json): User / مستخدم (table: POSUser)
 - [POS.POSUserFingerprint](https://dm.namasoft.com/dm-json/POS.POSUserFingerprint.json): User Fingerprints / بصمات المستخدم (table: POSUserFingerprint)
-- [POS.POSVendor](https://dm.namasoft.com/dm-json/POS.POSVendor.json): مورد (table: POSVendor)
-- [POS.POSWarehouse](https://dm.namasoft.com/dm-json/POS.POSWarehouse.json): مخزن (table: POSWarehouse)
+- [POS.POSVendor](https://dm.namasoft.com/dm-json/POS.POSVendor.json): Supplier / مورد (table: POSVendor)
+- [POS.POSWarehouse](https://dm.namasoft.com/dm-json/POS.POSWarehouse.json): Warehouse / مخزن (table: POSWarehouse)
 - [POS.PosAddressRegion](https://dm.namasoft.com/dm-json/POS.PosAddressRegion.json): Address Region / منطقه (table: PosAddressRegion)
 - [POS.PosCancelReservation](https://dm.namasoft.com/dm-json/POS.PosCancelReservation.json): POS Cancel Reservation / سند إلغاء حجز اوردر نقاط بيع (table: PosCancelReservation)
 - [POS.PosDefaultsTemplate](https://dm.namasoft.com/dm-json/POS.PosDefaultsTemplate.json): Pos Defaults Template / قالب قيم افتراضيه لنقاط البيع (table: PosDefaultsTemplate)
 - [POS.PosDeliveryCost](https://dm.namasoft.com/dm-json/POS.PosDeliveryCost.json): POS Delivery Cost / تكاليف خدمة توصيل نقاط البيع (table: PosDeliveryCost)
 - [POS.PosDocCategory](https://dm.namasoft.com/dm-json/POS.PosDocCategory.json): Record Category / تصنيف سجل (table: PosDocCategory)
-- [POS.PosFieldAllowedValues](https://dm.namasoft.com/dm-json/POS.PosFieldAllowedValues.json) (table: PosFieldAllowedValues)
+- [POS.PosFieldAllowedValues](https://dm.namasoft.com/dm-json/POS.PosFieldAllowedValues.json): Pos Field Allowed Values (table: PosFieldAllowedValues)
 - [POS.PosItemAdditionalItems](https://dm.namasoft.com/dm-json/POS.PosItemAdditionalItems.json): POS Item Additional Items / الأصناف الإضافية للصنف في نقاط البيع (table: PosItemAdditionalItems)
 - [POS.PosMinCharge](https://dm.namasoft.com/dm-json/POS.PosMinCharge.json): Pos Minimum Charge Settings / إعدادات الحد الأدنى للطلب في نقاط البيع (table: PosMinCharge)
 - [POS.PosMobileUISettings](https://dm.namasoft.com/dm-json/POS.PosMobileUISettings.json): Pos Mobile UI Settings / إعدادات واجهة نقاط البيع للموبايل (table: PosMobileUISettings)
@@ -1565,9 +1565,9 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [POS.PosPaymentTerminal](https://dm.namasoft.com/dm-json/POS.PosPaymentTerminal.json): Payment Terminal (table: PosPaymentTerminal)
 - [POS.PosPoleDisplaySpecs](https://dm.namasoft.com/dm-json/POS.PosPoleDisplaySpecs.json): Pos Pole Display Specs / خصائص ال Pole Display لنقاط البيع (table: PosPoleDisplaySpecs)
 - [POS.PosRequiredFields](https://dm.namasoft.com/dm-json/POS.PosRequiredFields.json): Pos Required Fields / الحقول المطلوبه لنقاط البيع (table: PosRequiredFields)
-- [POS.PosRevisionFile](https://dm.namasoft.com/dm-json/POS.PosRevisionFile.json) (table: PosRevisionFile)
-- [POS.PosTableEntry](https://dm.namasoft.com/dm-json/POS.PosTableEntry.json) (table: PosTableEntry)
-- [POS.PosTempDocument](https://dm.namasoft.com/dm-json/POS.PosTempDocument.json) (table: PosTempDocument)
+- [POS.PosRevisionFile](https://dm.namasoft.com/dm-json/POS.PosRevisionFile.json): Pos Revision File (table: PosRevisionFile)
+- [POS.PosTableEntry](https://dm.namasoft.com/dm-json/POS.PosTableEntry.json): Pos Table Entry (table: PosTableEntry)
+- [POS.PosTempDocument](https://dm.namasoft.com/dm-json/POS.PosTempDocument.json): Pos Temp Document (table: PosTempDocument)
 - [POS.PosUISettings](https://dm.namasoft.com/dm-json/POS.PosUISettings.json):  Pos UI Settings /  إعدادات واجهة نقاط البيع الجديده (table: PosUISettings)
 - [POS.Shortcuts](https://dm.namasoft.com/dm-json/POS.Shortcuts.json): Nama POS Shortcuts / اختصارات نقطة البيع (table: Shortcuts)
 
@@ -1756,14 +1756,14 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 
 ## Supplychain (supplychain)
 
-- [Activity](https://dm.namasoft.com/dm-json/Activity.json): نشاط
+- [Activity](https://dm.namasoft.com/dm-json/Activity.json): Activity / نشاط
 - [CalculationFormula](https://dm.namasoft.com/dm-json/CalculationFormula.json): Calculation Formula / صيغة حسابية
 - [DeliveryConfiguration](https://dm.namasoft.com/dm-json/DeliveryConfiguration.json): Delivery Configuration File / ملف إعدادات التوصيل
 - [FrozenCostAccounts](https://dm.namasoft.com/dm-json/FrozenCostAccounts.json): Freeze Of Cost Effects On Accounts / إيقاف تأثير التكاليف على الحسابات
 - [InvItem](https://dm.namasoft.com/dm-json/InvItem.json): Item / صنف
 - [InvItemOpiningRequest](https://dm.namasoft.com/dm-json/InvItemOpiningRequest.json): Item Opening Request / طلب فتح صنف
 - [InvItemUpdate](https://dm.namasoft.com/dm-json/InvItemUpdate.json): Item Update / تحديث بيانات صنف
-- [InvoiceClassification](https://dm.namasoft.com/dm-json/InvoiceClassification.json): تصنيف الفواتير
+- [InvoiceClassification](https://dm.namasoft.com/dm-json/InvoiceClassification.json): Invoice Classification / تصنيف الفواتير
 - [ItemAssortment](https://dm.namasoft.com/dm-json/ItemAssortment.json): Item Assortment / تشكيلة ألوان ومقاسات
 - [ItemBrand](https://dm.namasoft.com/dm-json/ItemBrand.json): Item Brand / ماركة صنف
 - [ItemCategory](https://dm.namasoft.com/dm-json/ItemCategory.json): Item Category / فئة صنف
@@ -1787,20 +1787,20 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [ItemSizeClassification](https://dm.namasoft.com/dm-json/ItemSizeClassification.json): Item Size Classification / تصنيف مقاس صنف
 - [ItemSizeColorCollection](https://dm.namasoft.com/dm-json/ItemSizeColorCollection.json):  Size Color Revision Collection /  مصفوفة ألوان ومقاسات و إصدارات
 - [ItemSupplierLink](https://dm.namasoft.com/dm-json/ItemSupplierLink.json): Item Supplier Link / ربط صنف بمورد
-- [Locator](https://dm.namasoft.com/dm-json/Locator.json): موقع
+- [Locator](https://dm.namasoft.com/dm-json/Locator.json): Locator / موقع
 - [ManufacturerCertificate](https://dm.namasoft.com/dm-json/ManufacturerCertificate.json): Manufacturer Certificate / شهادات مُصنع
 - [MaterialClassification](https://dm.namasoft.com/dm-json/MaterialClassification.json): Material Classification / تصنيف الخامة
 - [OrderStatusQtyTrackConfig](https://dm.namasoft.com/dm-json/OrderStatusQtyTrackConfig.json): Quantity Tracking Source Config File / إعدادات  مصدر متابعة الكميات
-- [Resource](https://dm.namasoft.com/dm-json/Resource.json): مورد تشغيل
+- [Resource](https://dm.namasoft.com/dm-json/Resource.json): Resource / مورد تشغيل
 - [SCCopierExtraFields](https://dm.namasoft.com/dm-json/SCCopierExtraFields.json): Copier Extra Fields / الحقول الإضافية لإنشاء المستندات
 - [SCDocRuleSet](https://dm.namasoft.com/dm-json/SCDocRuleSet.json): Doc Generation Rule Set / قائمة قواعد
 - [SCExtraDocCreationRule](https://dm.namasoft.com/dm-json/SCExtraDocCreationRule.json): SC Creation Rule / قاعدة إنشاء مستندات  مخزنية
 - [StandardMeasures](https://dm.namasoft.com/dm-json/StandardMeasures.json): Standard Measures / أبعاد قياسية
-- [UOM](https://dm.namasoft.com/dm-json/UOM.json): وحدة قياس
+- [UOM](https://dm.namasoft.com/dm-json/UOM.json): UOM / وحدة قياس
 - [UOMConversions](https://dm.namasoft.com/dm-json/UOMConversions.json): Unit Conversions / تحويل وحدات
 - [UOMGroup](https://dm.namasoft.com/dm-json/UOMGroup.json): UOM Unit Group / مجموعة وحدات
 - [WareLocationClass](https://dm.namasoft.com/dm-json/WareLocationClass.json): Ware location class / تصنيف الموقع المخزني
-- [Warehouse](https://dm.namasoft.com/dm-json/Warehouse.json): مخزن
+- [Warehouse](https://dm.namasoft.com/dm-json/Warehouse.json): Warehouse / مخزن
 - [WarehouseGroup](https://dm.namasoft.com/dm-json/WarehouseGroup.json): Warehouse Group / مجموعة مخازن
 
 ## Supplychain Assembly (supplychain-assembly)
@@ -1942,7 +1942,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [QualityCheckList](https://dm.namasoft.com/dm-json/QualityCheckList.json): Quality Check List / قائمة تحقق جودة
 - [QualityControlDoc](https://dm.namasoft.com/dm-json/QualityControlDoc.json): Quality Control / مستند فحص جودة
 - [QualityControlReq](https://dm.namasoft.com/dm-json/QualityControlReq.json): Quality Control Request / طلب فحص جودة
-- [QuestionClassification](https://dm.namasoft.com/dm-json/QuestionClassification.json): تصنيف سؤال
+- [QuestionClassification](https://dm.namasoft.com/dm-json/QuestionClassification.json): Question Classification / تصنيف سؤال
 
 ## Supplychain Sales (supplychain-sales)
 
@@ -1990,8 +1990,8 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [SalesReplacementReq](https://dm.namasoft.com/dm-json/SalesReplacementReq.json): Sales Replacement Request / طلب استبدال مبيعات
 - [SalesReturn](https://dm.namasoft.com/dm-json/SalesReturn.json): Sales Return / مردودات مبيعات
 - [SalesReturnRequest](https://dm.namasoft.com/dm-json/SalesReturnRequest.json): Sales Return Request / طلب مردودات مبيعات
-- [Season](https://dm.namasoft.com/dm-json/Season.json): موسم
-- [Tender](https://dm.namasoft.com/dm-json/Tender.json): مناقصة
+- [Season](https://dm.namasoft.com/dm-json/Season.json): Season / موسم
+- [Tender](https://dm.namasoft.com/dm-json/Tender.json): Tender / مناقصة
 - [TenderCondition](https://dm.namasoft.com/dm-json/TenderCondition.json): Tender Conditions / شرط مناقصة
 - [UpdateSeasonsDoc](https://dm.namasoft.com/dm-json/UpdateSeasonsDoc.json): Update Seasons Document / مستند تحديث المواسم
 
@@ -2033,378 +2033,379 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 
 ## System Tables (system-tables)
 
-- [ACCSideConfigSysLine](https://dm.namasoft.com/dm-json/ACCSideConfigSysLine.json)
-- [AIChatMessage](https://dm.namasoft.com/dm-json/AIChatMessage.json)
-- [AIChatSession](https://dm.namasoft.com/dm-json/AIChatSession.json)
-- [AIEmbeddingFile](https://dm.namasoft.com/dm-json/AIEmbeddingFile.json)
-- [AUFilePhaseLine](https://dm.namasoft.com/dm-json/AUFilePhaseLine.json)
-- [ActionsHistory](https://dm.namasoft.com/dm-json/ActionsHistory.json)
-- [AdditionalCostLine](https://dm.namasoft.com/dm-json/AdditionalCostLine.json)
-- [AggrRewardPenaltieLine](https://dm.namasoft.com/dm-json/AggrRewardPenaltieLine.json)
-- [Alias](https://dm.namasoft.com/dm-json/Alias.json)
-- [AllManualDebtLines](https://dm.namasoft.com/dm-json/AllManualDebtLines.json)
-- [AllowedEmployeeStatusesForLoanDocument](https://dm.namasoft.com/dm-json/AllowedEmployeeStatusesForLoanDocument.json)
-- [AlwataniaInvoiceLog](https://dm.namasoft.com/dm-json/AlwataniaInvoiceLog.json)
-- [AlwataniaMasterDataLog](https://dm.namasoft.com/dm-json/AlwataniaMasterDataLog.json)
-- [AnalysisSetParentLine](https://dm.namasoft.com/dm-json/AnalysisSetParentLine.json)
+- [ACCSideConfigSysLine](https://dm.namasoft.com/dm-json/ACCSideConfigSysLine.json): ACC Side Config Sys Line
+- [AIChatMessage](https://dm.namasoft.com/dm-json/AIChatMessage.json): AI Chat Message
+- [AIChatSession](https://dm.namasoft.com/dm-json/AIChatSession.json): AI Chat Session
+- [AIEmbeddingFile](https://dm.namasoft.com/dm-json/AIEmbeddingFile.json): AI Embedding File
+- [AUFilePhaseLine](https://dm.namasoft.com/dm-json/AUFilePhaseLine.json): AU File Phase Line
+- [ActionsHistory](https://dm.namasoft.com/dm-json/ActionsHistory.json): Actions History
+- [AdditionalCostLine](https://dm.namasoft.com/dm-json/AdditionalCostLine.json): Additional Cost Line
+- [AggrRewardPenaltieLine](https://dm.namasoft.com/dm-json/AggrRewardPenaltieLine.json): Aggr Reward Penaltie Line Ref
+- [Alias](https://dm.namasoft.com/dm-json/Alias.json): Alias
+- [AllManualDebtLines](https://dm.namasoft.com/dm-json/AllManualDebtLines.json): All Manual Debt Lines
+- [AllowedEmployeeStatusesForLoanDocument](https://dm.namasoft.com/dm-json/AllowedEmployeeStatusesForLoanDocument.json): Allowed Employee Statuses For Loan Document
+- [AlwataniaInvoiceLog](https://dm.namasoft.com/dm-json/AlwataniaInvoiceLog.json): Alwatania Invoice Log
+- [AlwataniaMasterDataLog](https://dm.namasoft.com/dm-json/AlwataniaMasterDataLog.json): Alwatania Master Data Log
+- [AnalysisSetParentLine](https://dm.namasoft.com/dm-json/AnalysisSetParentLine.json): Analysis Set Parent Line
 - [ApprovalCase](https://dm.namasoft.com/dm-json/ApprovalCase.json): Approval Case
-- [AssemblyPlannedDocLine](https://dm.namasoft.com/dm-json/AssemblyPlannedDocLine.json)
-- [AtheerRequestLog](https://dm.namasoft.com/dm-json/AtheerRequestLog.json)
+- [AssemblyPlannedDocLine](https://dm.namasoft.com/dm-json/AssemblyPlannedDocLine.json): Assembly Planned Doc Line
+- [AtheerRequestLog](https://dm.namasoft.com/dm-json/AtheerRequestLog.json): Atheer Request Log
 - [AttachmentInfo](https://dm.namasoft.com/dm-json/AttachmentInfo.json): All Attachments In System / كل المرفقات بالنظام
-- [AttendanceMachineConfigStats](https://dm.namasoft.com/dm-json/AttendanceMachineConfigStats.json)
-- [AttendanceMachineCronLog](https://dm.namasoft.com/dm-json/AttendanceMachineCronLog.json)
+- [AttendanceMachineConfigStats](https://dm.namasoft.com/dm-json/AttendanceMachineConfigStats.json): Attendance Machine Config Stats
+- [AttendanceMachineCronLog](https://dm.namasoft.com/dm-json/AttendanceMachineCronLog.json): Attendance Machine Cron Log
 - [AttendanceMachineLogInbox](https://dm.namasoft.com/dm-json/AttendanceMachineLogInbox.json): Attendance Machine Log Inbox
-- [AutoSystemAction](https://dm.namasoft.com/dm-json/AutoSystemAction.json)
-- [BLCEntry](https://dm.namasoft.com/dm-json/BLCEntry.json)
-- [BlockTree](https://dm.namasoft.com/dm-json/BlockTree.json)
-- [BranchParentLine](https://dm.namasoft.com/dm-json/BranchParentLine.json)
+- [AutoSystemAction](https://dm.namasoft.com/dm-json/AutoSystemAction.json): Auto System Action
+- [BLCEntry](https://dm.namasoft.com/dm-json/BLCEntry.json): BLC Entry
+- [BlockTree](https://dm.namasoft.com/dm-json/BlockTree.json): Block Tree
+- [BranchParentLine](https://dm.namasoft.com/dm-json/BranchParentLine.json): Branch Parent Line
 - [BusinessRequestStatus](https://dm.namasoft.com/dm-json/BusinessRequestStatus.json): Business Request Status
-- [CNTRTermCostEntry](https://dm.namasoft.com/dm-json/CNTRTermCostEntry.json)
-- [CPAInvoiceAggregateLine](https://dm.namasoft.com/dm-json/CPAInvoiceAggregateLine.json)
-- [CPAProjReturnLine](https://dm.namasoft.com/dm-json/CPAProjReturnLine.json)
-- [CRMAssigningToSysEntry](https://dm.namasoft.com/dm-json/CRMAssigningToSysEntry.json)
-- [CRMComplianSourceLine](https://dm.namasoft.com/dm-json/CRMComplianSourceLine.json)
-- [CRMLeadMovement](https://dm.namasoft.com/dm-json/CRMLeadMovement.json)
+- [CNTRTermCostEntry](https://dm.namasoft.com/dm-json/CNTRTermCostEntry.json): CNTR Term Cost Entry
+- [CPAInvoiceAggregateLine](https://dm.namasoft.com/dm-json/CPAInvoiceAggregateLine.json): CPA Invoice Aggregate Line
+- [CPAProjReturnLine](https://dm.namasoft.com/dm-json/CPAProjReturnLine.json): CPA Proj Return Line
+- [CRMAssigningToSysEntry](https://dm.namasoft.com/dm-json/CRMAssigningToSysEntry.json): CRM Assigning To Sys Entry
+- [CRMComplianSourceLine](https://dm.namasoft.com/dm-json/CRMComplianSourceLine.json): CRM Complian Source Line
+- [CRMLeadMovement](https://dm.namasoft.com/dm-json/CRMLeadMovement.json): CRM Lead Movement
 - [CRMTroubleTicketReq](https://dm.namasoft.com/dm-json/CRMTroubleTicketReq.json): Trouble Ticket Request / طلب دعم مبدئي
-- [CapabilityUsageSysLine](https://dm.namasoft.com/dm-json/CapabilityUsageSysLine.json)
-- [CashierTransactionEntry](https://dm.namasoft.com/dm-json/CashierTransactionEntry.json)
-- [ChartTree](https://dm.namasoft.com/dm-json/ChartTree.json)
-- [ChatConversation](https://dm.namasoft.com/dm-json/ChatConversation.json)
-- [ChatMessage](https://dm.namasoft.com/dm-json/ChatMessage.json)
-- [ChatParticipant](https://dm.namasoft.com/dm-json/ChatParticipant.json)
-- [ClonePayReceiptEntry](https://dm.namasoft.com/dm-json/ClonePayReceiptEntry.json)
-- [ClosingEntryBatch](https://dm.namasoft.com/dm-json/ClosingEntryBatch.json)
-- [ClosingEntryDocLine](https://dm.namasoft.com/dm-json/ClosingEntryDocLine.json)
-- [ClosingEntryPostedLine](https://dm.namasoft.com/dm-json/ClosingEntryPostedLine.json)
-- [ConfigSalaryComponentLine](https://dm.namasoft.com/dm-json/ConfigSalaryComponentLine.json)
-- [ContPaymentTransactionEntry](https://dm.namasoft.com/dm-json/ContPaymentTransactionEntry.json)
-- [ContactInfoEntry](https://dm.namasoft.com/dm-json/ContactInfoEntry.json)
-- [ContrCostExecutionEntry](https://dm.namasoft.com/dm-json/ContrCostExecutionEntry.json)
-- [ContrDocToGenerateFPFrom](https://dm.namasoft.com/dm-json/ContrDocToGenerateFPFrom.json)
-- [ContrInvoicePaymentLine](https://dm.namasoft.com/dm-json/ContrInvoicePaymentLine.json)
-- [ContrMatIssueStatusEntry](https://dm.namasoft.com/dm-json/ContrMatIssueStatusEntry.json)
-- [ContrMaterialDiscountEntry](https://dm.namasoft.com/dm-json/ContrMaterialDiscountEntry.json)
-- [ContrOrderPaymentLine](https://dm.namasoft.com/dm-json/ContrOrderPaymentLine.json)
-- [ContractingCostSalaryComponents](https://dm.namasoft.com/dm-json/ContractingCostSalaryComponents.json)
-- [ContractingCostSourceEntry](https://dm.namasoft.com/dm-json/ContractingCostSourceEntry.json)
-- [ContractingEstateCostEntry](https://dm.namasoft.com/dm-json/ContractingEstateCostEntry.json)
-- [ContractingFineEntry](https://dm.namasoft.com/dm-json/ContractingFineEntry.json)
-- [ContractingPaymentRootEntry](https://dm.namasoft.com/dm-json/ContractingPaymentRootEntry.json)
-- [ContractingPriceListSysLine](https://dm.namasoft.com/dm-json/ContractingPriceListSysLine.json)
+- [CapabilityUsageSysLine](https://dm.namasoft.com/dm-json/CapabilityUsageSysLine.json): Capability Usage Sys Line
+- [CashierTransactionEntry](https://dm.namasoft.com/dm-json/CashierTransactionEntry.json): Cashier Transaction Entry
+- [ChartTree](https://dm.namasoft.com/dm-json/ChartTree.json): Chart Tree
+- [ChatConversation](https://dm.namasoft.com/dm-json/ChatConversation.json): Chat Conversation
+- [ChatMessage](https://dm.namasoft.com/dm-json/ChatMessage.json): Chat Message
+- [ChatParticipant](https://dm.namasoft.com/dm-json/ChatParticipant.json): Chat Participant
+- [ClonePayReceiptEntry](https://dm.namasoft.com/dm-json/ClonePayReceiptEntry.json): Clone Pay Receipt Entry
+- [ClosingEntryBatch](https://dm.namasoft.com/dm-json/ClosingEntryBatch.json): Closing Entry Batch
+- [ClosingEntryDocLine](https://dm.namasoft.com/dm-json/ClosingEntryDocLine.json): Closing Entry Doc Line
+- [ClosingEntryPostedLine](https://dm.namasoft.com/dm-json/ClosingEntryPostedLine.json): Closing Entry Posted Line
+- [ConfigSalaryComponentLine](https://dm.namasoft.com/dm-json/ConfigSalaryComponentLine.json): Config Salary Component Line
+- [ContPaymentTransactionEntry](https://dm.namasoft.com/dm-json/ContPaymentTransactionEntry.json): Cont Payment Transaction Entry
+- [ContactInfoEntry](https://dm.namasoft.com/dm-json/ContactInfoEntry.json): Contact Info Entry
+- [ContrCostExecutionEntry](https://dm.namasoft.com/dm-json/ContrCostExecutionEntry.json): Contr Cost Execution Entry
+- [ContrDocToGenerateFPFrom](https://dm.namasoft.com/dm-json/ContrDocToGenerateFPFrom.json): Contr Doc To Generate FP From
+- [ContrInvoicePaymentLine](https://dm.namasoft.com/dm-json/ContrInvoicePaymentLine.json): Contr Invoice Payment Line
+- [ContrMatIssueStatusEntry](https://dm.namasoft.com/dm-json/ContrMatIssueStatusEntry.json): Contr Mat Issue Status Entry
+- [ContrMaterialDiscountEntry](https://dm.namasoft.com/dm-json/ContrMaterialDiscountEntry.json): Contr Material Discount Entry
+- [ContrOrderPaymentLine](https://dm.namasoft.com/dm-json/ContrOrderPaymentLine.json): Contr Order Payment Line
+- [ContractingCostSalaryComponents](https://dm.namasoft.com/dm-json/ContractingCostSalaryComponents.json): Contracting Cost Salary Components
+- [ContractingCostSourceEntry](https://dm.namasoft.com/dm-json/ContractingCostSourceEntry.json): Contracting Cost Source Entry
+- [ContractingEstateCostEntry](https://dm.namasoft.com/dm-json/ContractingEstateCostEntry.json): Contracting Estate Cost Entry
+- [ContractingFineEntry](https://dm.namasoft.com/dm-json/ContractingFineEntry.json): Contracting Fine Entry
+- [ContractingPaymentRootEntry](https://dm.namasoft.com/dm-json/ContractingPaymentRootEntry.json): Contracting Payment Root Entry
+- [ContractingPriceListSysLine](https://dm.namasoft.com/dm-json/ContractingPriceListSysLine.json): Contracting Price List Sys Line
 - [CostInTrans](https://dm.namasoft.com/dm-json/CostInTrans.json): Cost Transaction / قيد تكاليف الاستلام
 - [CostOutTrans](https://dm.namasoft.com/dm-json/CostOutTrans.json):  Cost Transaction / قيد تكاليف الصرف
-- [CostOverdraftLine](https://dm.namasoft.com/dm-json/CostOverdraftLine.json)
-- [CostReturnReservation](https://dm.namasoft.com/dm-json/CostReturnReservation.json)
-- [CouseSkillResult](https://dm.namasoft.com/dm-json/CouseSkillResult.json)
+- [CostOverdraftLine](https://dm.namasoft.com/dm-json/CostOverdraftLine.json): Cost Overdraft Line
+- [CostReturnReservation](https://dm.namasoft.com/dm-json/CostReturnReservation.json): Cost Return Reservation
+- [CouseSkillResult](https://dm.namasoft.com/dm-json/CouseSkillResult.json): Couse Skill Result
 - [CreditFacilityPayEntry](https://dm.namasoft.com/dm-json/CreditFacilityPayEntry.json): Credit Facility Payment Entry / الجدول النظامى لسداد التسهيل الائتمانى
-- [CustodySysLine](https://dm.namasoft.com/dm-json/CustodySysLine.json)
-- [CustomerKeywordTemplateLine](https://dm.namasoft.com/dm-json/CustomerKeywordTemplateLine.json)
-- [CustomerTransEntry](https://dm.namasoft.com/dm-json/CustomerTransEntry.json)
-- [DLVDeliveryEntry](https://dm.namasoft.com/dm-json/DLVDeliveryEntry.json)
-- [DLVDeliveryStatusEventLine](https://dm.namasoft.com/dm-json/DLVDeliveryStatusEventLine.json)
-- [DLVDeliveryTransaction](https://dm.namasoft.com/dm-json/DLVDeliveryTransaction.json)
-- [DMSHistoryLine](https://dm.namasoft.com/dm-json/DMSHistoryLine.json)
-- [DatabaseCleanerFailureEntry](https://dm.namasoft.com/dm-json/DatabaseCleanerFailureEntry.json)
-- [DatanuumRequestLog](https://dm.namasoft.com/dm-json/DatanuumRequestLog.json)
-- [DayTicketEntry](https://dm.namasoft.com/dm-json/DayTicketEntry.json)
-- [DebtLine](https://dm.namasoft.com/dm-json/DebtLine.json)
-- [DebtLineMatcher](https://dm.namasoft.com/dm-json/DebtLineMatcher.json)
-- [DeliveryDriverTotal](https://dm.namasoft.com/dm-json/DeliveryDriverTotal.json)
-- [DeliveryDriverTransaction](https://dm.namasoft.com/dm-json/DeliveryDriverTransaction.json)
-- [DeliveryQueueEntry](https://dm.namasoft.com/dm-json/DeliveryQueueEntry.json)
-- [DeliveryStatusEventLine](https://dm.namasoft.com/dm-json/DeliveryStatusEventLine.json)
-- [DeliverySysEntry](https://dm.namasoft.com/dm-json/DeliverySysEntry.json)
-- [DeliveryTransactionEntry](https://dm.namasoft.com/dm-json/DeliveryTransactionEntry.json)
-- [DepartmentParentLine](https://dm.namasoft.com/dm-json/DepartmentParentLine.json)
-- [DimensionsBalance](https://dm.namasoft.com/dm-json/DimensionsBalance.json)
-- [DiscountSysLine](https://dm.namasoft.com/dm-json/DiscountSysLine.json)
-- [DiscussionRecord](https://dm.namasoft.com/dm-json/DiscussionRecord.json)
-- [DistributeContractingCostOnRealEstateTask](https://dm.namasoft.com/dm-json/DistributeContractingCostOnRealEstateTask.json)
-- [DocToCreateFPLine](https://dm.namasoft.com/dm-json/DocToCreateFPLine.json)
-- [DocToGenerateFPFrom](https://dm.namasoft.com/dm-json/DocToGenerateFPFrom.json)
-- [DocsToPayFromPosEntry](https://dm.namasoft.com/dm-json/DocsToPayFromPosEntry.json)
-- [DocsToPayFromPosTransaction](https://dm.namasoft.com/dm-json/DocsToPayFromPosTransaction.json)
-- [DraftSequenceEntity](https://dm.namasoft.com/dm-json/DraftSequenceEntity.json)
-- [EInvoiceReceivedEventEntry](https://dm.namasoft.com/dm-json/EInvoiceReceivedEventEntry.json)
-- [EInvoiceSubmissionEntry](https://dm.namasoft.com/dm-json/EInvoiceSubmissionEntry.json)
-- [EReceiptSubmissionSysEntry](https://dm.namasoft.com/dm-json/EReceiptSubmissionSysEntry.json)
-- [EcommerceAppRegistryEntry](https://dm.namasoft.com/dm-json/EcommerceAppRegistryEntry.json)
-- [EcommerceShippingEventLogEntry](https://dm.namasoft.com/dm-json/EcommerceShippingEventLogEntry.json)
-- [EcommerceWebhookEventProcessReq](https://dm.namasoft.com/dm-json/EcommerceWebhookEventProcessReq.json)
-- [EffectsUnitCostConfigLine](https://dm.namasoft.com/dm-json/EffectsUnitCostConfigLine.json)
+- [CurrencyCrossRate](https://dm.namasoft.com/dm-json/CurrencyCrossRate.json): Currency Cross Rate
+- [CustodySysLine](https://dm.namasoft.com/dm-json/CustodySysLine.json): Custody Sys Line
+- [CustomerKeywordTemplateLine](https://dm.namasoft.com/dm-json/CustomerKeywordTemplateLine.json): Customer Keyword Template Line
+- [CustomerTransEntry](https://dm.namasoft.com/dm-json/CustomerTransEntry.json): Customer Trans Entry
+- [DLVDeliveryEntry](https://dm.namasoft.com/dm-json/DLVDeliveryEntry.json): DLV Delivery Entry
+- [DLVDeliveryStatusEventLine](https://dm.namasoft.com/dm-json/DLVDeliveryStatusEventLine.json): DLV Delivery Status Event Line
+- [DLVDeliveryTransaction](https://dm.namasoft.com/dm-json/DLVDeliveryTransaction.json): DLV Delivery Transaction
+- [DMSHistoryLine](https://dm.namasoft.com/dm-json/DMSHistoryLine.json): DMS History Line
+- [DatabaseCleanerFailureEntry](https://dm.namasoft.com/dm-json/DatabaseCleanerFailureEntry.json): Database Cleaner Failure Entry
+- [DatanuumRequestLog](https://dm.namasoft.com/dm-json/DatanuumRequestLog.json): Datanuum Request Log
+- [DayTicketEntry](https://dm.namasoft.com/dm-json/DayTicketEntry.json): Day Ticket Entry
+- [DebtLine](https://dm.namasoft.com/dm-json/DebtLine.json): Debt Line
+- [DebtLineMatcher](https://dm.namasoft.com/dm-json/DebtLineMatcher.json): Debt Line Matcher
+- [DeliveryDriverTotal](https://dm.namasoft.com/dm-json/DeliveryDriverTotal.json): Delivery Driver Total
+- [DeliveryDriverTransaction](https://dm.namasoft.com/dm-json/DeliveryDriverTransaction.json): Delivery Driver Transaction
+- [DeliveryQueueEntry](https://dm.namasoft.com/dm-json/DeliveryQueueEntry.json): Delivery Queue Entry
+- [DeliveryStatusEventLine](https://dm.namasoft.com/dm-json/DeliveryStatusEventLine.json): Delivery Status Event Line
+- [DeliverySysEntry](https://dm.namasoft.com/dm-json/DeliverySysEntry.json): Delivery Sys Entry
+- [DeliveryTransactionEntry](https://dm.namasoft.com/dm-json/DeliveryTransactionEntry.json): Delivery Transaction Entry
+- [DepartmentParentLine](https://dm.namasoft.com/dm-json/DepartmentParentLine.json): Department Parent Line
+- [DimensionsBalance](https://dm.namasoft.com/dm-json/DimensionsBalance.json): Dimensions Balance
+- [DiscountSysLine](https://dm.namasoft.com/dm-json/DiscountSysLine.json): Discount Sys Line
+- [DiscussionRecord](https://dm.namasoft.com/dm-json/DiscussionRecord.json): Discussion Record
+- [DistributeContractingCostOnRealEstateTask](https://dm.namasoft.com/dm-json/DistributeContractingCostOnRealEstateTask.json): Distribute Contracting Cost On Real Estate Task
+- [DocToCreateFPLine](https://dm.namasoft.com/dm-json/DocToCreateFPLine.json): Doc To Create FP Line
+- [DocToGenerateFPFrom](https://dm.namasoft.com/dm-json/DocToGenerateFPFrom.json): Doc To Generate FP From
+- [DocsToPayFromPosEntry](https://dm.namasoft.com/dm-json/DocsToPayFromPosEntry.json): Docs To Pay From Pos Entry
+- [DocsToPayFromPosTransaction](https://dm.namasoft.com/dm-json/DocsToPayFromPosTransaction.json): Docs To Pay From Pos Transaction
+- [DraftSequenceEntity](https://dm.namasoft.com/dm-json/DraftSequenceEntity.json): Draft Sequence Entity
+- [EInvoiceReceivedEventEntry](https://dm.namasoft.com/dm-json/EInvoiceReceivedEventEntry.json): E Invoice Received Event Entry
+- [EInvoiceSubmissionEntry](https://dm.namasoft.com/dm-json/EInvoiceSubmissionEntry.json): E Invoice Submission Entry
+- [EReceiptSubmissionSysEntry](https://dm.namasoft.com/dm-json/EReceiptSubmissionSysEntry.json): E Receipt Submission Sys Entry
+- [EcommerceAppRegistryEntry](https://dm.namasoft.com/dm-json/EcommerceAppRegistryEntry.json): Ecommerce App Registry Entry
+- [EcommerceShippingEventLogEntry](https://dm.namasoft.com/dm-json/EcommerceShippingEventLogEntry.json): Ecommerce Shipping Event Log Entry
+- [EcommerceWebhookEventProcessReq](https://dm.namasoft.com/dm-json/EcommerceWebhookEventProcessReq.json): Ecommerce Webhook Event Process Req
+- [EffectsUnitCostConfigLine](https://dm.namasoft.com/dm-json/EffectsUnitCostConfigLine.json): Effects Unit Cost Config Line
 - [EltezamSysEntry](https://dm.namasoft.com/dm-json/EltezamSysEntry.json): MCS Eltezam System Entry / قيد التزام النظامي
-- [EmpAttendanceSysLine](https://dm.namasoft.com/dm-json/EmpAttendanceSysLine.json)
-- [EmpCommencementEntry](https://dm.namasoft.com/dm-json/EmpCommencementEntry.json)
-- [EmpProvisionsRecalcTermLine](https://dm.namasoft.com/dm-json/EmpProvisionsRecalcTermLine.json)
-- [EmployeeStateSysEntry](https://dm.namasoft.com/dm-json/EmployeeStateSysEntry.json)
-- [EndStockTakingLineForList](https://dm.namasoft.com/dm-json/EndStockTakingLineForList.json)
+- [EmpAttendanceSysLine](https://dm.namasoft.com/dm-json/EmpAttendanceSysLine.json): Emp Attendance Sys Line
+- [EmpCommencementEntry](https://dm.namasoft.com/dm-json/EmpCommencementEntry.json): Emp Commencement Entry
+- [EmpProvisionsRecalcTermLine](https://dm.namasoft.com/dm-json/EmpProvisionsRecalcTermLine.json): Emp Provisions Recalc Term Line
+- [EmployeeStateSysEntry](https://dm.namasoft.com/dm-json/EmployeeStateSysEntry.json): Employee State Sys Entry
+- [EndStockTakingLineForList](https://dm.namasoft.com/dm-json/EndStockTakingLineForList.json): End Stock Taking Line For List
 - [EndStockTakingTask](https://dm.namasoft.com/dm-json/EndStockTakingTask.json): End Stock Taking Tasks
-- [EntityEffectLine](https://dm.namasoft.com/dm-json/EntityEffectLine.json)
-- [EntitySystemEntry](https://dm.namasoft.com/dm-json/EntitySystemEntry.json)
-- [EntityTypeSysLine](https://dm.namasoft.com/dm-json/EntityTypeSysLine.json)
-- [EntityValidationLine](https://dm.namasoft.com/dm-json/EntityValidationLine.json)
-- [EntityVersion](https://dm.namasoft.com/dm-json/EntityVersion.json)
-- [EntityWithCriteriaLine](https://dm.namasoft.com/dm-json/EntityWithCriteriaLine.json)
-- [ExcludedInstallmentsTypes](https://dm.namasoft.com/dm-json/ExcludedInstallmentsTypes.json)
-- [ExtractCostSourceEntry](https://dm.namasoft.com/dm-json/ExtractCostSourceEntry.json)
-- [FALCItemExpenseLine](https://dm.namasoft.com/dm-json/FALCItemExpenseLine.json)
-- [FALCScheduledPayLine](https://dm.namasoft.com/dm-json/FALCScheduledPayLine.json)
-- [FALocationEntry](https://dm.namasoft.com/dm-json/FALocationEntry.json)
-- [FAMovementEntry](https://dm.namasoft.com/dm-json/FAMovementEntry.json)
-- [FAPropertiesEntry](https://dm.namasoft.com/dm-json/FAPropertiesEntry.json)
-- [FAScheduleTemplateLine](https://dm.namasoft.com/dm-json/FAScheduleTemplateLine.json)
-- [FATransferEntry](https://dm.namasoft.com/dm-json/FATransferEntry.json)
-- [FRMOOStatusSysEntry](https://dm.namasoft.com/dm-json/FRMOOStatusSysEntry.json)
-- [FRMOpUnInvoicedLine](https://dm.namasoft.com/dm-json/FRMOpUnInvoicedLine.json)
-- [FRMStorageTransEntry](https://dm.namasoft.com/dm-json/FRMStorageTransEntry.json)
-- [FacilityLimitSysEntry](https://dm.namasoft.com/dm-json/FacilityLimitSysEntry.json)
-- [FailedReplicationMessage](https://dm.namasoft.com/dm-json/FailedReplicationMessage.json)
-- [FieldDetailedAudit](https://dm.namasoft.com/dm-json/FieldDetailedAudit.json)
-- [FieldHelpLine](https://dm.namasoft.com/dm-json/FieldHelpLine.json)
-- [FifoCostMatcher](https://dm.namasoft.com/dm-json/FifoCostMatcher.json)
+- [EntityEffectLine](https://dm.namasoft.com/dm-json/EntityEffectLine.json): Entity Effect Line
+- [EntitySystemEntry](https://dm.namasoft.com/dm-json/EntitySystemEntry.json): Entity System Entry
+- [EntityTypeSysLine](https://dm.namasoft.com/dm-json/EntityTypeSysLine.json): Entity Type Sys Line
+- [EntityValidationLine](https://dm.namasoft.com/dm-json/EntityValidationLine.json): Entity Validation Line
+- [EntityVersion](https://dm.namasoft.com/dm-json/EntityVersion.json): Entity Version
+- [EntityWithCriteriaLine](https://dm.namasoft.com/dm-json/EntityWithCriteriaLine.json): Entity With Criteria Line
+- [ExcludedInstallmentsTypes](https://dm.namasoft.com/dm-json/ExcludedInstallmentsTypes.json): Excluded Installments Types
+- [ExtractCostSourceEntry](https://dm.namasoft.com/dm-json/ExtractCostSourceEntry.json): Extract Cost Source Entry
+- [FALCItemExpenseLine](https://dm.namasoft.com/dm-json/FALCItemExpenseLine.json): FALC Item Expense Line
+- [FALCScheduledPayLine](https://dm.namasoft.com/dm-json/FALCScheduledPayLine.json): FALC Scheduled Pay Line
+- [FALocationEntry](https://dm.namasoft.com/dm-json/FALocationEntry.json): FA Location Entry
+- [FAMovementEntry](https://dm.namasoft.com/dm-json/FAMovementEntry.json): FA Movement Entry
+- [FAPropertiesEntry](https://dm.namasoft.com/dm-json/FAPropertiesEntry.json): FA Properties Entry
+- [FAScheduleTemplateLine](https://dm.namasoft.com/dm-json/FAScheduleTemplateLine.json): FA Schedule Template Line
+- [FATransferEntry](https://dm.namasoft.com/dm-json/FATransferEntry.json): FA Transfer Entry
+- [FRMOOStatusSysEntry](https://dm.namasoft.com/dm-json/FRMOOStatusSysEntry.json): FRMOO Status Sys Entry
+- [FRMOpUnInvoicedLine](https://dm.namasoft.com/dm-json/FRMOpUnInvoicedLine.json): FRM Op Un Invoiced Line
+- [FRMStorageTransEntry](https://dm.namasoft.com/dm-json/FRMStorageTransEntry.json): FRM Storage Trans Entry
+- [FacilityLimitSysEntry](https://dm.namasoft.com/dm-json/FacilityLimitSysEntry.json): Facility Limit Sys Entry
+- [FailedReplicationMessage](https://dm.namasoft.com/dm-json/FailedReplicationMessage.json): Failed Replication Message
+- [FieldDetailedAudit](https://dm.namasoft.com/dm-json/FieldDetailedAudit.json): Field Detailed Audit
+- [FieldHelpLine](https://dm.namasoft.com/dm-json/FieldHelpLine.json): Field Help Line
+- [FifoCostMatcher](https://dm.namasoft.com/dm-json/FifoCostMatcher.json): Fifo Cost Matcher
 - [FifoCostTrans](https://dm.namasoft.com/dm-json/FifoCostTrans.json): Fifo Cost Trans / قيد تكاليف فيفو
-- [FinancialPaperStatusEntry](https://dm.namasoft.com/dm-json/FinancialPaperStatusEntry.json)
-- [FixedDepositInterestEntry](https://dm.namasoft.com/dm-json/FixedDepositInterestEntry.json)
-- [FreeItemSysLine](https://dm.namasoft.com/dm-json/FreeItemSysLine.json)
-- [GoPayInvoiceEntry](https://dm.namasoft.com/dm-json/GoPayInvoiceEntry.json)
-- [GoPayPaymentEntry](https://dm.namasoft.com/dm-json/GoPayPaymentEntry.json)
-- [GrantedDevice](https://dm.namasoft.com/dm-json/GrantedDevice.json)
-- [GrantedKitNetCustomerDevice](https://dm.namasoft.com/dm-json/GrantedKitNetCustomerDevice.json)
-- [HMSAccommodationEntry](https://dm.namasoft.com/dm-json/HMSAccommodationEntry.json)
-- [HMSInsuranceApprovalEntry](https://dm.namasoft.com/dm-json/HMSInsuranceApprovalEntry.json)
-- [HREmployeeSkill](https://dm.namasoft.com/dm-json/HREmployeeSkill.json)
-- [HRLoanInstallmentSysEntry](https://dm.namasoft.com/dm-json/HRLoanInstallmentSysEntry.json)
-- [HealthInsuranceSysEntry](https://dm.namasoft.com/dm-json/HealthInsuranceSysEntry.json)
-- [IPInvestmentSysEntry](https://dm.namasoft.com/dm-json/IPInvestmentSysEntry.json)
-- [IPSIntegrationTask](https://dm.namasoft.com/dm-json/IPSIntegrationTask.json)
-- [InBusMessage](https://dm.namasoft.com/dm-json/InBusMessage.json)
-- [InstallmentPaymentEntry](https://dm.namasoft.com/dm-json/InstallmentPaymentEntry.json)
-- [InsurancePolicyAddingLine](https://dm.namasoft.com/dm-json/InsurancePolicyAddingLine.json)
-- [InsurancePolicyRemovingLine](https://dm.namasoft.com/dm-json/InsurancePolicyRemovingLine.json)
-- [InvTransReq](https://dm.namasoft.com/dm-json/InvTransReq.json)
-- [InvestmentDocumentDocEntry](https://dm.namasoft.com/dm-json/InvestmentDocumentDocEntry.json)
-- [InvestmentProjectSysLine](https://dm.namasoft.com/dm-json/InvestmentProjectSysLine.json)
-- [InvoiceDiscountSysLine](https://dm.namasoft.com/dm-json/InvoiceDiscountSysLine.json)
-- [InvoiceFreeItemSysLine](https://dm.namasoft.com/dm-json/InvoiceFreeItemSysLine.json)
-- [InvoiceRetrieverID](https://dm.namasoft.com/dm-json/InvoiceRetrieverID.json)
-- [ItemDimensionCost](https://dm.namasoft.com/dm-json/ItemDimensionCost.json)
-- [ItemDimensionsQty](https://dm.namasoft.com/dm-json/ItemDimensionsQty.json)
-- [ItemDiscountSysLine](https://dm.namasoft.com/dm-json/ItemDiscountSysLine.json)
-- [ItemLevelLine](https://dm.namasoft.com/dm-json/ItemLevelLine.json)
-- [ItemLot](https://dm.namasoft.com/dm-json/ItemLot.json)
-- [ItemMeasure](https://dm.namasoft.com/dm-json/ItemMeasure.json)
-- [ItemSerial](https://dm.namasoft.com/dm-json/ItemSerial.json)
-- [ItemSerialTrans](https://dm.namasoft.com/dm-json/ItemSerialTrans.json)
-- [JOSalesOrderStatusEntry](https://dm.namasoft.com/dm-json/JOSalesOrderStatusEntry.json)
-- [LGTEntry](https://dm.namasoft.com/dm-json/LGTEntry.json)
-- [LargeData](https://dm.namasoft.com/dm-json/LargeData.json)
+- [FinancialPaperStatusEntry](https://dm.namasoft.com/dm-json/FinancialPaperStatusEntry.json): Financial Paper Status Entry
+- [FixedDepositInterestEntry](https://dm.namasoft.com/dm-json/FixedDepositInterestEntry.json): Fixed Deposit Interest Entry
+- [FreeItemSysLine](https://dm.namasoft.com/dm-json/FreeItemSysLine.json): Free Item Sys Line
+- [GoPayInvoiceEntry](https://dm.namasoft.com/dm-json/GoPayInvoiceEntry.json): Go Pay Invoice Entry
+- [GoPayPaymentEntry](https://dm.namasoft.com/dm-json/GoPayPaymentEntry.json): Go Pay Payment Entry
+- [GrantedDevice](https://dm.namasoft.com/dm-json/GrantedDevice.json): Granted Device
+- [GrantedKitNetCustomerDevice](https://dm.namasoft.com/dm-json/GrantedKitNetCustomerDevice.json): Granted Kit Net Customer Device
+- [HMSAccommodationEntry](https://dm.namasoft.com/dm-json/HMSAccommodationEntry.json): HMS Accommodation Entry
+- [HMSInsuranceApprovalEntry](https://dm.namasoft.com/dm-json/HMSInsuranceApprovalEntry.json): HMS Insurance Approval Entry
+- [HREmployeeSkill](https://dm.namasoft.com/dm-json/HREmployeeSkill.json): HR Employee Skill
+- [HRLoanInstallmentSysEntry](https://dm.namasoft.com/dm-json/HRLoanInstallmentSysEntry.json): HR Loan Installment Sys Entry
+- [HealthInsuranceSysEntry](https://dm.namasoft.com/dm-json/HealthInsuranceSysEntry.json): Health Insurance Sys Entry
+- [IPInvestmentSysEntry](https://dm.namasoft.com/dm-json/IPInvestmentSysEntry.json): IP Investment Sys Entry
+- [IPSIntegrationTask](https://dm.namasoft.com/dm-json/IPSIntegrationTask.json): IPS Integration Task
+- [InBusMessage](https://dm.namasoft.com/dm-json/InBusMessage.json): In Bus Message
+- [InstallmentPaymentEntry](https://dm.namasoft.com/dm-json/InstallmentPaymentEntry.json): Installment Payment Entry
+- [InsurancePolicyAddingLine](https://dm.namasoft.com/dm-json/InsurancePolicyAddingLine.json): Insurance Policy Adding Line
+- [InsurancePolicyRemovingLine](https://dm.namasoft.com/dm-json/InsurancePolicyRemovingLine.json): Insurance Policy Removing Line
+- [InvTransReq](https://dm.namasoft.com/dm-json/InvTransReq.json): Inv Trans Req
+- [InvestmentDocumentDocEntry](https://dm.namasoft.com/dm-json/InvestmentDocumentDocEntry.json): Investment Document Doc Entry
+- [InvestmentProjectSysLine](https://dm.namasoft.com/dm-json/InvestmentProjectSysLine.json): Investment Project Sys Line
+- [InvoiceDiscountSysLine](https://dm.namasoft.com/dm-json/InvoiceDiscountSysLine.json): Invoice Discount Sys Line
+- [InvoiceFreeItemSysLine](https://dm.namasoft.com/dm-json/InvoiceFreeItemSysLine.json): Invoice Free Item Sys Line
+- [InvoiceRetrieverID](https://dm.namasoft.com/dm-json/InvoiceRetrieverID.json): Invoice Retriever ID
+- [ItemDimensionCost](https://dm.namasoft.com/dm-json/ItemDimensionCost.json): Item Dimension Cost
+- [ItemDimensionsQty](https://dm.namasoft.com/dm-json/ItemDimensionsQty.json): Item Dimensions Qty
+- [ItemDiscountSysLine](https://dm.namasoft.com/dm-json/ItemDiscountSysLine.json): Item Discount Sys Line
+- [ItemLevelLine](https://dm.namasoft.com/dm-json/ItemLevelLine.json): Item Level Line
+- [ItemLot](https://dm.namasoft.com/dm-json/ItemLot.json): Item Lot
+- [ItemMeasure](https://dm.namasoft.com/dm-json/ItemMeasure.json): Item Measure
+- [ItemSerial](https://dm.namasoft.com/dm-json/ItemSerial.json): Item Serial
+- [ItemSerialTrans](https://dm.namasoft.com/dm-json/ItemSerialTrans.json): Item Serial Trans
+- [JOSalesOrderStatusEntry](https://dm.namasoft.com/dm-json/JOSalesOrderStatusEntry.json): JO Sales Order Status Entry
+- [LGTEntry](https://dm.namasoft.com/dm-json/LGTEntry.json): LGT Entry
+- [LargeData](https://dm.namasoft.com/dm-json/LargeData.json): Large Data
 - [LedgerTrans](https://dm.namasoft.com/dm-json/LedgerTrans.json): Ledger Transaction / قيود النظام
 - [LedgerTransReq](https://dm.namasoft.com/dm-json/LedgerTransReq.json): Ledger Trans Req
-- [LedgerTransReqQue](https://dm.namasoft.com/dm-json/LedgerTransReqQue.json)
-- [LedgerTransSerial](https://dm.namasoft.com/dm-json/LedgerTransSerial.json)
-- [LedgerTransSerialConfigLine](https://dm.namasoft.com/dm-json/LedgerTransSerialConfigLine.json)
-- [LegalEntityLicense](https://dm.namasoft.com/dm-json/LegalEntityLicense.json)
-- [LegalEntityParentLine](https://dm.namasoft.com/dm-json/LegalEntityParentLine.json)
+- [LedgerTransReqQue](https://dm.namasoft.com/dm-json/LedgerTransReqQue.json): Ledger Trans Req Que
+- [LedgerTransSerial](https://dm.namasoft.com/dm-json/LedgerTransSerial.json): Ledger Trans Serial
+- [LedgerTransSerialConfigLine](https://dm.namasoft.com/dm-json/LedgerTransSerialConfigLine.json): Ledger Trans Serial Config Line
+- [LegalEntityLicense](https://dm.namasoft.com/dm-json/LegalEntityLicense.json): Legal Entity License
+- [LegalEntityParentLine](https://dm.namasoft.com/dm-json/LegalEntityParentLine.json): Legal Entity Parent Line
 - [LoanDepositStatusEntry](https://dm.namasoft.com/dm-json/LoanDepositStatusEntry.json): Loan Deposit Status Entries / حركات حالة الوديعة أو القرض
-- [LocatorTaking](https://dm.namasoft.com/dm-json/LocatorTaking.json)
-- [MAGItemChangeReq](https://dm.namasoft.com/dm-json/MAGItemChangeReq.json)
-- [MAGItemPriceChangeReq](https://dm.namasoft.com/dm-json/MAGItemPriceChangeReq.json)
-- [MAGItemQtyChangeReq](https://dm.namasoft.com/dm-json/MAGItemQtyChangeReq.json)
-- [MAGItemQtyChangeReqUpdater](https://dm.namasoft.com/dm-json/MAGItemQtyChangeReqUpdater.json)
-- [MAGSiteError](https://dm.namasoft.com/dm-json/MAGSiteError.json)
-- [MCConfigLine](https://dm.namasoft.com/dm-json/MCConfigLine.json)
-- [MCMainContractCancelledEquipment](https://dm.namasoft.com/dm-json/MCMainContractCancelledEquipment.json)
-- [MCMainContractCancelledLaborLine](https://dm.namasoft.com/dm-json/MCMainContractCancelledLaborLine.json)
-- [MCMainContractCancelledOperation](https://dm.namasoft.com/dm-json/MCMainContractCancelledOperation.json)
-- [MCMainContractConsumedItemLine](https://dm.namasoft.com/dm-json/MCMainContractConsumedItemLine.json)
-- [MCMainContractEditOperationLine](https://dm.namasoft.com/dm-json/MCMainContractEditOperationLine.json)
-- [MFGMoldTransactionEntry](https://dm.namasoft.com/dm-json/MFGMoldTransactionEntry.json)
-- [MRPDocumentDemands](https://dm.namasoft.com/dm-json/MRPDocumentDemands.json)
-- [MagentoItemEntry](https://dm.namasoft.com/dm-json/MagentoItemEntry.json)
-- [MagentoSyncSystemFields](https://dm.namasoft.com/dm-json/MagentoSyncSystemFields.json)
-- [ManuallyCodedTermsEntities](https://dm.namasoft.com/dm-json/ManuallyCodedTermsEntities.json)
-- [MiscInvoiceQtyTransLine](https://dm.namasoft.com/dm-json/MiscInvoiceQtyTransLine.json)
-- [MnNoticeMobileAttendanceEntry](https://dm.namasoft.com/dm-json/MnNoticeMobileAttendanceEntry.json)
+- [LocatorTaking](https://dm.namasoft.com/dm-json/LocatorTaking.json): Locator Taking
+- [MAGItemChangeReq](https://dm.namasoft.com/dm-json/MAGItemChangeReq.json): MAG Item Change Req
+- [MAGItemPriceChangeReq](https://dm.namasoft.com/dm-json/MAGItemPriceChangeReq.json): MAG Item Price Change Req
+- [MAGItemQtyChangeReq](https://dm.namasoft.com/dm-json/MAGItemQtyChangeReq.json): MAG Item Qty Change Req
+- [MAGItemQtyChangeReqUpdater](https://dm.namasoft.com/dm-json/MAGItemQtyChangeReqUpdater.json): MAG Item Qty Change Req Updater
+- [MAGSiteError](https://dm.namasoft.com/dm-json/MAGSiteError.json): MAG Site Error
+- [MCConfigLine](https://dm.namasoft.com/dm-json/MCConfigLine.json): MC Config Line
+- [MCMainContractCancelledEquipment](https://dm.namasoft.com/dm-json/MCMainContractCancelledEquipment.json): MC Main Contract Cancelled Equipment
+- [MCMainContractCancelledLaborLine](https://dm.namasoft.com/dm-json/MCMainContractCancelledLaborLine.json): MC Main Contract Cancelled Labor Line
+- [MCMainContractCancelledOperation](https://dm.namasoft.com/dm-json/MCMainContractCancelledOperation.json): MC Main Contract Cancelled Operation
+- [MCMainContractConsumedItemLine](https://dm.namasoft.com/dm-json/MCMainContractConsumedItemLine.json): MC Main Contract Consumed Item Line
+- [MCMainContractEditOperationLine](https://dm.namasoft.com/dm-json/MCMainContractEditOperationLine.json): MC Main Contract Edit Operation Line
+- [MFGMoldTransactionEntry](https://dm.namasoft.com/dm-json/MFGMoldTransactionEntry.json): MFG Mold Transaction Entry
+- [MRPDocumentDemands](https://dm.namasoft.com/dm-json/MRPDocumentDemands.json): MRP Document Demands
+- [MagentoItemEntry](https://dm.namasoft.com/dm-json/MagentoItemEntry.json): Magento Item Entry
+- [MagentoSyncSystemFields](https://dm.namasoft.com/dm-json/MagentoSyncSystemFields.json): Magento Sync System Fields
+- [ManuallyCodedTermsEntities](https://dm.namasoft.com/dm-json/ManuallyCodedTermsEntities.json): Manually Coded Terms Entities
+- [MiscInvoiceQtyTransLine](https://dm.namasoft.com/dm-json/MiscInvoiceQtyTransLine.json): Misc Invoice Qty Trans Line
+- [MnNoticeMobileAttendanceEntry](https://dm.namasoft.com/dm-json/MnNoticeMobileAttendanceEntry.json): Mn Notice Mobile Attendance Entry
 - [MobileAppErrorLog](https://dm.namasoft.com/dm-json/MobileAppErrorLog.json): Mobile App Error Log
-- [ModuleInfo](https://dm.namasoft.com/dm-json/ModuleInfo.json)
-- [NaMaLayout](https://dm.namasoft.com/dm-json/NaMaLayout.json)
-- [NaMaUser](https://dm.namasoft.com/dm-json/NaMaUser.json)
-- [NamaPOSErrorSysLine](https://dm.namasoft.com/dm-json/NamaPOSErrorSysLine.json)
-- [NamaPOSInvoiceCouponLine](https://dm.namasoft.com/dm-json/NamaPOSInvoiceCouponLine.json)
-- [NamaPOSInvoiceCreditNoteLine](https://dm.namasoft.com/dm-json/NamaPOSInvoiceCreditNoteLine.json)
-- [NamaPOSItemQtyUpdater](https://dm.namasoft.com/dm-json/NamaPOSItemQtyUpdater.json)
-- [NamaUserLastInfo](https://dm.namasoft.com/dm-json/NamaUserLastInfo.json)
-- [NotificationAllowedTime](https://dm.namasoft.com/dm-json/NotificationAllowedTime.json)
-- [NotificationSite](https://dm.namasoft.com/dm-json/NotificationSite.json)
-- [Notificationtarget](https://dm.namasoft.com/dm-json/Notificationtarget.json)
-- [OfferOnItemsCountSysLine](https://dm.namasoft.com/dm-json/OfferOnItemsCountSysLine.json)
-- [OnlinePaymentTransactionSysEntry](https://dm.namasoft.com/dm-json/OnlinePaymentTransactionSysEntry.json)
-- [OutBusMessage](https://dm.namasoft.com/dm-json/OutBusMessage.json)
-- [POSCancelReservationGridLine](https://dm.namasoft.com/dm-json/POSCancelReservationGridLine.json)
-- [POSCancelReservationMainLine](https://dm.namasoft.com/dm-json/POSCancelReservationMainLine.json)
-- [POSCancelReservationOtherLine](https://dm.namasoft.com/dm-json/POSCancelReservationOtherLine.json)
-- [POSConfigFavouriteDocLine](https://dm.namasoft.com/dm-json/POSConfigFavouriteDocLine.json)
-- [POSConfigFavouriteItemLine](https://dm.namasoft.com/dm-json/POSConfigFavouriteItemLine.json)
-- [POSConfigPayMethodLine](https://dm.namasoft.com/dm-json/POSConfigPayMethodLine.json)
-- [POSConfigPayTermLine](https://dm.namasoft.com/dm-json/POSConfigPayTermLine.json)
-- [POSConfigReceiptTermLine](https://dm.namasoft.com/dm-json/POSConfigReceiptTermLine.json)
-- [POSConfigRegisterCurrencyLine](https://dm.namasoft.com/dm-json/POSConfigRegisterCurrencyLine.json)
-- [POSConfigReturnTermLine](https://dm.namasoft.com/dm-json/POSConfigReturnTermLine.json)
-- [POSConfigSalesTermLine](https://dm.namasoft.com/dm-json/POSConfigSalesTermLine.json)
-- [POSCustomerFieldLine](https://dm.namasoft.com/dm-json/POSCustomerFieldLine.json)
-- [POSCustomerPhoneCountryCodeLine](https://dm.namasoft.com/dm-json/POSCustomerPhoneCountryCodeLine.json)
-- [POSEntitiesSendConfigLine](https://dm.namasoft.com/dm-json/POSEntitiesSendConfigLine.json)
-- [POSFavProcedureLine](https://dm.namasoft.com/dm-json/POSFavProcedureLine.json)
-- [POSFilterDimensionsLine](https://dm.namasoft.com/dm-json/POSFilterDimensionsLine.json)
-- [POSOnlineOrderEntry](https://dm.namasoft.com/dm-json/POSOnlineOrderEntry.json)
-- [POSOrderReservationGridLine](https://dm.namasoft.com/dm-json/POSOrderReservationGridLine.json)
-- [POSOrderReservationMainLine](https://dm.namasoft.com/dm-json/POSOrderReservationMainLine.json)
-- [POSOrderReservationOtherLine](https://dm.namasoft.com/dm-json/POSOrderReservationOtherLine.json)
+- [ModuleInfo](https://dm.namasoft.com/dm-json/ModuleInfo.json): Module Info
+- [NaMaLayout](https://dm.namasoft.com/dm-json/NaMaLayout.json): Na Ma Layout
+- [NaMaUser](https://dm.namasoft.com/dm-json/NaMaUser.json): Na Ma User
+- [NamaPOSErrorSysLine](https://dm.namasoft.com/dm-json/NamaPOSErrorSysLine.json): Nama POS Error Sys Line
+- [NamaPOSInvoiceCouponLine](https://dm.namasoft.com/dm-json/NamaPOSInvoiceCouponLine.json): Nama POS Invoice Coupon Line
+- [NamaPOSInvoiceCreditNoteLine](https://dm.namasoft.com/dm-json/NamaPOSInvoiceCreditNoteLine.json): Nama POS Invoice Credit Note Line
+- [NamaPOSItemQtyUpdater](https://dm.namasoft.com/dm-json/NamaPOSItemQtyUpdater.json): Nama POS Item Qty Updater
+- [NamaUserLastInfo](https://dm.namasoft.com/dm-json/NamaUserLastInfo.json): Nama User Last Info
+- [NotificationAllowedTime](https://dm.namasoft.com/dm-json/NotificationAllowedTime.json): Notification Allowed Time
+- [NotificationSite](https://dm.namasoft.com/dm-json/NotificationSite.json): Notification Site
+- [Notificationtarget](https://dm.namasoft.com/dm-json/Notificationtarget.json): Notificationtarget
+- [OfferOnItemsCountSysLine](https://dm.namasoft.com/dm-json/OfferOnItemsCountSysLine.json): Offer On Items Count Sys Line
+- [OnlinePaymentTransactionSysEntry](https://dm.namasoft.com/dm-json/OnlinePaymentTransactionSysEntry.json): Online Payment Transaction Sys Entry
+- [OutBusMessage](https://dm.namasoft.com/dm-json/OutBusMessage.json): Out Bus Message
+- [POSCancelReservationGridLine](https://dm.namasoft.com/dm-json/POSCancelReservationGridLine.json): POS Cancel Reservation Grid Line
+- [POSCancelReservationMainLine](https://dm.namasoft.com/dm-json/POSCancelReservationMainLine.json): POS Cancel Reservation Main Line
+- [POSCancelReservationOtherLine](https://dm.namasoft.com/dm-json/POSCancelReservationOtherLine.json): POS Cancel Reservation Other Line
+- [POSConfigFavouriteDocLine](https://dm.namasoft.com/dm-json/POSConfigFavouriteDocLine.json): POS Config Favourite Doc Line
+- [POSConfigFavouriteItemLine](https://dm.namasoft.com/dm-json/POSConfigFavouriteItemLine.json): POS Config Favourite Item Line
+- [POSConfigPayMethodLine](https://dm.namasoft.com/dm-json/POSConfigPayMethodLine.json): POS Config Pay Method Line
+- [POSConfigPayTermLine](https://dm.namasoft.com/dm-json/POSConfigPayTermLine.json): POS Config Pay Term Line
+- [POSConfigReceiptTermLine](https://dm.namasoft.com/dm-json/POSConfigReceiptTermLine.json): POS Config Receipt Term Line
+- [POSConfigRegisterCurrencyLine](https://dm.namasoft.com/dm-json/POSConfigRegisterCurrencyLine.json): POS Config Register Currency Line
+- [POSConfigReturnTermLine](https://dm.namasoft.com/dm-json/POSConfigReturnTermLine.json): POS Config Return Term Line
+- [POSConfigSalesTermLine](https://dm.namasoft.com/dm-json/POSConfigSalesTermLine.json): POS Config Sales Term Line
+- [POSCustomerFieldLine](https://dm.namasoft.com/dm-json/POSCustomerFieldLine.json): POS Customer Field Line
+- [POSCustomerPhoneCountryCodeLine](https://dm.namasoft.com/dm-json/POSCustomerPhoneCountryCodeLine.json): POS Customer Phone Country Code Line
+- [POSEntitiesSendConfigLine](https://dm.namasoft.com/dm-json/POSEntitiesSendConfigLine.json): POS Entities Send Config Line
+- [POSFavProcedureLine](https://dm.namasoft.com/dm-json/POSFavProcedureLine.json): POS Fav Procedure Line
+- [POSFilterDimensionsLine](https://dm.namasoft.com/dm-json/POSFilterDimensionsLine.json): POS Filter Dimensions Line
+- [POSOnlineOrderEntry](https://dm.namasoft.com/dm-json/POSOnlineOrderEntry.json): POS Online Order Entry
+- [POSOrderReservationGridLine](https://dm.namasoft.com/dm-json/POSOrderReservationGridLine.json): POS Order Reservation Grid Line
+- [POSOrderReservationMainLine](https://dm.namasoft.com/dm-json/POSOrderReservationMainLine.json): POS Order Reservation Main Line
+- [POSOrderReservationOtherLine](https://dm.namasoft.com/dm-json/POSOrderReservationOtherLine.json): POS Order Reservation Other Line
 - [POSReadQueue](https://dm.namasoft.com/dm-json/POSReadQueue.json): POS Read Queue / رسائل بيانات نما
-- [POSReadQueueUpdater](https://dm.namasoft.com/dm-json/POSReadQueueUpdater.json)
-- [POSReplacementGridLine](https://dm.namasoft.com/dm-json/POSReplacementGridLine.json)
-- [POSReplacementMainLine](https://dm.namasoft.com/dm-json/POSReplacementMainLine.json)
-- [POSReplacementOtherLine](https://dm.namasoft.com/dm-json/POSReplacementOtherLine.json)
-- [POSReturnGridLine](https://dm.namasoft.com/dm-json/POSReturnGridLine.json)
-- [POSReturnMainLine](https://dm.namasoft.com/dm-json/POSReturnMainLine.json)
-- [POSReturnOtherLine](https://dm.namasoft.com/dm-json/POSReturnOtherLine.json)
-- [POSScrapDocGridLine](https://dm.namasoft.com/dm-json/POSScrapDocGridLine.json)
-- [POSScrapDocMainLine](https://dm.namasoft.com/dm-json/POSScrapDocMainLine.json)
-- [POSScrapDocOtherLine](https://dm.namasoft.com/dm-json/POSScrapDocOtherLine.json)
-- [POSServiceChargeLine](https://dm.namasoft.com/dm-json/POSServiceChargeLine.json)
-- [POSShiftCloseLine](https://dm.namasoft.com/dm-json/POSShiftCloseLine.json)
-- [POSShiftOpenLine](https://dm.namasoft.com/dm-json/POSShiftOpenLine.json)
-- [POSShortfallsDocGridLine](https://dm.namasoft.com/dm-json/POSShortfallsDocGridLine.json)
-- [POSShortfallsDocMainLine](https://dm.namasoft.com/dm-json/POSShortfallsDocMainLine.json)
-- [POSShortfallsDocOtherLine](https://dm.namasoft.com/dm-json/POSShortfallsDocOtherLine.json)
-- [POSStockReceiptGridLine](https://dm.namasoft.com/dm-json/POSStockReceiptGridLine.json)
-- [POSStockReceiptMainLine](https://dm.namasoft.com/dm-json/POSStockReceiptMainLine.json)
-- [POSStockReceiptOtherLine](https://dm.namasoft.com/dm-json/POSStockReceiptOtherLine.json)
-- [POSTakingGridLine](https://dm.namasoft.com/dm-json/POSTakingGridLine.json)
-- [POSTakingMainLine](https://dm.namasoft.com/dm-json/POSTakingMainLine.json)
-- [POSTakingOtherLine](https://dm.namasoft.com/dm-json/POSTakingOtherLine.json)
-- [POSTransferGridLine](https://dm.namasoft.com/dm-json/POSTransferGridLine.json)
-- [POSTransferMainLine](https://dm.namasoft.com/dm-json/POSTransferMainLine.json)
-- [POSTransferOtherLine](https://dm.namasoft.com/dm-json/POSTransferOtherLine.json)
-- [POSTransferWithSaveDocLine](https://dm.namasoft.com/dm-json/POSTransferWithSaveDocLine.json)
-- [PVRequestInstallmentLine](https://dm.namasoft.com/dm-json/PVRequestInstallmentLine.json)
-- [PartitionedCostReqInfo](https://dm.namasoft.com/dm-json/PartitionedCostReqInfo.json)
-- [PayReceiptDocsSysEntry](https://dm.namasoft.com/dm-json/PayReceiptDocsSysEntry.json)
-- [PaymentSubsidiaryTypeLine](https://dm.namasoft.com/dm-json/PaymentSubsidiaryTypeLine.json)
-- [PendingEntityFlow](https://dm.namasoft.com/dm-json/PendingEntityFlow.json)
-- [PendingSystemAction](https://dm.namasoft.com/dm-json/PendingSystemAction.json)
-- [PendingTask](https://dm.namasoft.com/dm-json/PendingTask.json)
-- [PendingTaskSchedule](https://dm.namasoft.com/dm-json/PendingTaskSchedule.json)
-- [PeriodicRewardPointsAmountSpentSysEntry](https://dm.namasoft.com/dm-json/PeriodicRewardPointsAmountSpentSysEntry.json)
-- [PeriodicRewardPointsGrantDocumentEntry](https://dm.namasoft.com/dm-json/PeriodicRewardPointsGrantDocumentEntry.json)
-- [PosConfigRequestAuthorizationLine](https://dm.namasoft.com/dm-json/PosConfigRequestAuthorizationLine.json)
-- [PosMinChargeLine](https://dm.namasoft.com/dm-json/PosMinChargeLine.json)
-- [PosReturnFromInvoiceEntry](https://dm.namasoft.com/dm-json/PosReturnFromInvoiceEntry.json)
-- [PreventRegenerateSalaryDocs](https://dm.namasoft.com/dm-json/PreventRegenerateSalaryDocs.json)
-- [ProductionMovementSysEntry](https://dm.namasoft.com/dm-json/ProductionMovementSysEntry.json)
-- [ProductionSysEntry](https://dm.namasoft.com/dm-json/ProductionSysEntry.json)
-- [PseudoContractingSalesLine](https://dm.namasoft.com/dm-json/PseudoContractingSalesLine.json)
-- [PseudoSalesLine](https://dm.namasoft.com/dm-json/PseudoSalesLine.json)
-- [PurchasePriceSysLine](https://dm.namasoft.com/dm-json/PurchasePriceSysLine.json)
-- [PurgeBatch](https://dm.namasoft.com/dm-json/PurgeBatch.json)
-- [PurgeInformation](https://dm.namasoft.com/dm-json/PurgeInformation.json)
-- [QtyTrackingTotalEntry](https://dm.namasoft.com/dm-json/QtyTrackingTotalEntry.json)
-- [QtyTrackingTransactionEntry](https://dm.namasoft.com/dm-json/QtyTrackingTransactionEntry.json)
+- [POSReadQueueUpdater](https://dm.namasoft.com/dm-json/POSReadQueueUpdater.json): POS Read Queue Updater
+- [POSReplacementGridLine](https://dm.namasoft.com/dm-json/POSReplacementGridLine.json): POS Replacement Grid Line
+- [POSReplacementMainLine](https://dm.namasoft.com/dm-json/POSReplacementMainLine.json): POS Replacement Main Line
+- [POSReplacementOtherLine](https://dm.namasoft.com/dm-json/POSReplacementOtherLine.json): POS Replacement Other Line
+- [POSReturnGridLine](https://dm.namasoft.com/dm-json/POSReturnGridLine.json): POS Return Grid Line
+- [POSReturnMainLine](https://dm.namasoft.com/dm-json/POSReturnMainLine.json): POS Return Main Line
+- [POSReturnOtherLine](https://dm.namasoft.com/dm-json/POSReturnOtherLine.json): POS Return Other Line
+- [POSScrapDocGridLine](https://dm.namasoft.com/dm-json/POSScrapDocGridLine.json): POS Scrap Doc Grid Line
+- [POSScrapDocMainLine](https://dm.namasoft.com/dm-json/POSScrapDocMainLine.json): POS Scrap Doc Main Line
+- [POSScrapDocOtherLine](https://dm.namasoft.com/dm-json/POSScrapDocOtherLine.json): POS Scrap Doc Other Line
+- [POSServiceChargeLine](https://dm.namasoft.com/dm-json/POSServiceChargeLine.json): POS Service Charge Line
+- [POSShiftCloseLine](https://dm.namasoft.com/dm-json/POSShiftCloseLine.json): POS Shift Close Line
+- [POSShiftOpenLine](https://dm.namasoft.com/dm-json/POSShiftOpenLine.json): POS Shift Open Line
+- [POSShortfallsDocGridLine](https://dm.namasoft.com/dm-json/POSShortfallsDocGridLine.json): POS Shortfalls Doc Grid Line
+- [POSShortfallsDocMainLine](https://dm.namasoft.com/dm-json/POSShortfallsDocMainLine.json): POS Shortfalls Doc Main Line
+- [POSShortfallsDocOtherLine](https://dm.namasoft.com/dm-json/POSShortfallsDocOtherLine.json): POS Shortfalls Doc Other Line
+- [POSStockReceiptGridLine](https://dm.namasoft.com/dm-json/POSStockReceiptGridLine.json): POS Stock Receipt Grid Line
+- [POSStockReceiptMainLine](https://dm.namasoft.com/dm-json/POSStockReceiptMainLine.json): POS Stock Receipt Main Line
+- [POSStockReceiptOtherLine](https://dm.namasoft.com/dm-json/POSStockReceiptOtherLine.json): POS Stock Receipt Other Line
+- [POSTakingGridLine](https://dm.namasoft.com/dm-json/POSTakingGridLine.json): POS Taking Grid Line
+- [POSTakingMainLine](https://dm.namasoft.com/dm-json/POSTakingMainLine.json): POS Taking Main Line
+- [POSTakingOtherLine](https://dm.namasoft.com/dm-json/POSTakingOtherLine.json): POS Taking Other Line
+- [POSTransferGridLine](https://dm.namasoft.com/dm-json/POSTransferGridLine.json): POS Transfer Grid Line
+- [POSTransferMainLine](https://dm.namasoft.com/dm-json/POSTransferMainLine.json): POS Transfer Main Line
+- [POSTransferOtherLine](https://dm.namasoft.com/dm-json/POSTransferOtherLine.json): POS Transfer Other Line
+- [POSTransferWithSaveDocLine](https://dm.namasoft.com/dm-json/POSTransferWithSaveDocLine.json): POS Transfer With Save Doc Line
+- [PVRequestInstallmentLine](https://dm.namasoft.com/dm-json/PVRequestInstallmentLine.json): PV Request Installment Line
+- [PartitionedCostReqInfo](https://dm.namasoft.com/dm-json/PartitionedCostReqInfo.json): Partitioned Cost Req Info
+- [PayReceiptDocsSysEntry](https://dm.namasoft.com/dm-json/PayReceiptDocsSysEntry.json): Pay Receipt Docs Sys Entry
+- [PaymentSubsidiaryTypeLine](https://dm.namasoft.com/dm-json/PaymentSubsidiaryTypeLine.json): Payment Subsidiary Type Line
+- [PendingEntityFlow](https://dm.namasoft.com/dm-json/PendingEntityFlow.json): Pending Entity Flow
+- [PendingSystemAction](https://dm.namasoft.com/dm-json/PendingSystemAction.json): Pending System Action
+- [PendingTask](https://dm.namasoft.com/dm-json/PendingTask.json): Pending Task
+- [PendingTaskSchedule](https://dm.namasoft.com/dm-json/PendingTaskSchedule.json): Pending Task Schedule
+- [PeriodicRewardPointsAmountSpentSysEntry](https://dm.namasoft.com/dm-json/PeriodicRewardPointsAmountSpentSysEntry.json): Periodic Reward Points Amount Spent Sys Entry
+- [PeriodicRewardPointsGrantDocumentEntry](https://dm.namasoft.com/dm-json/PeriodicRewardPointsGrantDocumentEntry.json): Periodic Reward Points Grant Document Entry
+- [PosConfigRequestAuthorizationLine](https://dm.namasoft.com/dm-json/PosConfigRequestAuthorizationLine.json): Pos Config Request Authorization Line
+- [PosMinChargeLine](https://dm.namasoft.com/dm-json/PosMinChargeLine.json): Pos Min Charge Line
+- [PosReturnFromInvoiceEntry](https://dm.namasoft.com/dm-json/PosReturnFromInvoiceEntry.json): Pos Return From Invoice Entry
+- [PreventRegenerateSalaryDocs](https://dm.namasoft.com/dm-json/PreventRegenerateSalaryDocs.json): Prevent Regenerate Salary Docs
+- [ProductionMovementSysEntry](https://dm.namasoft.com/dm-json/ProductionMovementSysEntry.json): Production Movement Sys Entry
+- [ProductionSysEntry](https://dm.namasoft.com/dm-json/ProductionSysEntry.json): Production Sys Entry
+- [PseudoContractingSalesLine](https://dm.namasoft.com/dm-json/PseudoContractingSalesLine.json): Pseudo Contracting Sales Line
+- [PseudoSalesLine](https://dm.namasoft.com/dm-json/PseudoSalesLine.json): Pseudo Sales Line
+- [PurchasePriceSysLine](https://dm.namasoft.com/dm-json/PurchasePriceSysLine.json): Purchase Price Sys Line
+- [PurgeBatch](https://dm.namasoft.com/dm-json/PurgeBatch.json): Purge Batch
+- [PurgeInformation](https://dm.namasoft.com/dm-json/PurgeInformation.json): Purge Information
+- [QtyTrackingTotalEntry](https://dm.namasoft.com/dm-json/QtyTrackingTotalEntry.json): Qty Tracking Total Entry
+- [QtyTrackingTransactionEntry](https://dm.namasoft.com/dm-json/QtyTrackingTransactionEntry.json): Qty Tracking Transaction Entry
 - [QtyTrans](https://dm.namasoft.com/dm-json/QtyTrans.json): Quantity Transaction / قيود الكميات
-- [RARentalAssetEntry](https://dm.namasoft.com/dm-json/RARentalAssetEntry.json)
-- [REEstateCostEntry](https://dm.namasoft.com/dm-json/REEstateCostEntry.json)
-- [REInvestmentFundInvestor](https://dm.namasoft.com/dm-json/REInvestmentFundInvestor.json)
-- [REInvestmentFundInvestorTransaction](https://dm.namasoft.com/dm-json/REInvestmentFundInvestorTransaction.json)
+- [RARentalAssetEntry](https://dm.namasoft.com/dm-json/RARentalAssetEntry.json): RA Rental Asset Entry
+- [REEstateCostEntry](https://dm.namasoft.com/dm-json/REEstateCostEntry.json): RE Estate Cost Entry
+- [REInvestmentFundInvestor](https://dm.namasoft.com/dm-json/REInvestmentFundInvestor.json): RE Investment Fund Investor
+- [REInvestmentFundInvestorTransaction](https://dm.namasoft.com/dm-json/REInvestmentFundInvestorTransaction.json): RE Investment Fund Investor Transaction
 - [REMaintenanceDistribution](https://dm.namasoft.com/dm-json/REMaintenanceDistribution.json): Maintenance Distribution / توزيع تكلفة الصيانة
-- [REPurchaseValueAndRevaluationEntry](https://dm.namasoft.com/dm-json/REPurchaseValueAndRevaluationEntry.json)
-- [RERentalUnitMovement](https://dm.namasoft.com/dm-json/RERentalUnitMovement.json)
-- [RERentalunitsalesLine](https://dm.namasoft.com/dm-json/RERentalunitsalesLine.json)
-- [REReservationEntry](https://dm.namasoft.com/dm-json/REReservationEntry.json)
-- [RESysEntry](https://dm.namasoft.com/dm-json/RESysEntry.json)
-- [RealEstateTaxPlan](https://dm.namasoft.com/dm-json/RealEstateTaxPlan.json)
-- [ReceiptSubsidiaryTypeLine](https://dm.namasoft.com/dm-json/ReceiptSubsidiaryTypeLine.json)
-- [RegenSalaryDocsAllowedStatus](https://dm.namasoft.com/dm-json/RegenSalaryDocsAllowedStatus.json)
-- [RegenSalarySheetsAllowedStatus](https://dm.namasoft.com/dm-json/RegenSalarySheetsAllowedStatus.json)
-- [ReplicationStatistics](https://dm.namasoft.com/dm-json/ReplicationStatistics.json)
-- [ReportLog](https://dm.namasoft.com/dm-json/ReportLog.json)
+- [REPurchaseValueAndRevaluationEntry](https://dm.namasoft.com/dm-json/REPurchaseValueAndRevaluationEntry.json): RE Purchase Value And Revaluation Entry
+- [RERentalUnitMovement](https://dm.namasoft.com/dm-json/RERentalUnitMovement.json): RE Rental Unit Movement
+- [RERentalunitsalesLine](https://dm.namasoft.com/dm-json/RERentalunitsalesLine.json): RE Rentalunitsales Line
+- [REReservationEntry](https://dm.namasoft.com/dm-json/REReservationEntry.json): RE Reservation Entry
+- [RESysEntry](https://dm.namasoft.com/dm-json/RESysEntry.json): RE Sys Entry
+- [RealEstateTaxPlan](https://dm.namasoft.com/dm-json/RealEstateTaxPlan.json): Real Estate Tax Plan
+- [ReceiptSubsidiaryTypeLine](https://dm.namasoft.com/dm-json/ReceiptSubsidiaryTypeLine.json): Receipt Subsidiary Type Line
+- [RegenSalaryDocsAllowedStatus](https://dm.namasoft.com/dm-json/RegenSalaryDocsAllowedStatus.json): Regen Salary Docs Allowed Status
+- [RegenSalarySheetsAllowedStatus](https://dm.namasoft.com/dm-json/RegenSalarySheetsAllowedStatus.json): Regen Salary Sheets Allowed Status
+- [ReplicationStatistics](https://dm.namasoft.com/dm-json/ReplicationStatistics.json): Replication Statistics
+- [ReportLog](https://dm.namasoft.com/dm-json/ReportLog.json): Report Log
 - [ReservationTrans](https://dm.namasoft.com/dm-json/ReservationTrans.json): Reservation Trans
-- [RevisionCase](https://dm.namasoft.com/dm-json/RevisionCase.json)
-- [RewardPointRedeemSysEntry](https://dm.namasoft.com/dm-json/RewardPointRedeemSysEntry.json)
-- [RewardPointTransactionSysEntry](https://dm.namasoft.com/dm-json/RewardPointTransactionSysEntry.json)
-- [RewardRedeemDetailedSysEntry](https://dm.namasoft.com/dm-json/RewardRedeemDetailedSysEntry.json)
-- [SCBox](https://dm.namasoft.com/dm-json/SCBox.json)
-- [SCCollectPropertyOrderConfigLine](https://dm.namasoft.com/dm-json/SCCollectPropertyOrderConfigLine.json)
-- [SCDocSecondSerial](https://dm.namasoft.com/dm-json/SCDocSecondSerial.json)
-- [SCDocSerial](https://dm.namasoft.com/dm-json/SCDocSerial.json)
-- [SCGridConfigLine](https://dm.namasoft.com/dm-json/SCGridConfigLine.json)
-- [SCMeasuresFactorsLine](https://dm.namasoft.com/dm-json/SCMeasuresFactorsLine.json)
+- [RevisionCase](https://dm.namasoft.com/dm-json/RevisionCase.json): Revision Case
+- [RewardPointRedeemSysEntry](https://dm.namasoft.com/dm-json/RewardPointRedeemSysEntry.json): Reward Point Redeem Sys Entry
+- [RewardPointTransactionSysEntry](https://dm.namasoft.com/dm-json/RewardPointTransactionSysEntry.json): Reward Point Transaction Sys Entry
+- [RewardRedeemDetailedSysEntry](https://dm.namasoft.com/dm-json/RewardRedeemDetailedSysEntry.json): Reward Redeem Detailed Sys Entry
+- [SCBox](https://dm.namasoft.com/dm-json/SCBox.json): SC Box
+- [SCCollectPropertyOrderConfigLine](https://dm.namasoft.com/dm-json/SCCollectPropertyOrderConfigLine.json): SC Collect Property Order Config Line
+- [SCDocSecondSerial](https://dm.namasoft.com/dm-json/SCDocSecondSerial.json): SC Doc Second Serial
+- [SCDocSerial](https://dm.namasoft.com/dm-json/SCDocSerial.json): SC Doc Serial
+- [SCGridConfigLine](https://dm.namasoft.com/dm-json/SCGridConfigLine.json): SC Grid Config Line
+- [SCMeasuresFactorsLine](https://dm.namasoft.com/dm-json/SCMeasuresFactorsLine.json): SC Measures Factors Line
 - [SFDARSDDocStatus](https://dm.namasoft.com/dm-json/SFDARSDDocStatus.json): SFDA RSD Document Status / حالة المستند في هيئة تتبع الدواء
 - [SFDARSDIncomingDispatch](https://dm.namasoft.com/dm-json/SFDARSDIncomingDispatch.json): SFDA RSD Incoming Dispatch / شحنة واردة من مورد (تتبع الأدوية)
 - [SFDARSDLineError](https://dm.namasoft.com/dm-json/SFDARSDLineError.json): SFDA RSD Line Result / نتيجة تتبع الأدوية على مستوى الصنف
-- [SFDARSDReportTask](https://dm.namasoft.com/dm-json/SFDARSDReportTask.json)
-- [SIInsurancePolicyEntry](https://dm.namasoft.com/dm-json/SIInsurancePolicyEntry.json)
-- [SISalesInvGeneratedDocsLine](https://dm.namasoft.com/dm-json/SISalesInvGeneratedDocsLine.json)
-- [STCLoyaltyPointsRewardEntry](https://dm.namasoft.com/dm-json/STCLoyaltyPointsRewardEntry.json)
-- [SWInvItemTrans](https://dm.namasoft.com/dm-json/SWInvItemTrans.json)
-- [SWMatchedInvItemTrans](https://dm.namasoft.com/dm-json/SWMatchedInvItemTrans.json)
-- [SWQuentityReprocessReq](https://dm.namasoft.com/dm-json/SWQuentityReprocessReq.json)
-- [SalaryDetailSysEntry](https://dm.namasoft.com/dm-json/SalaryDetailSysEntry.json)
-- [SalarySheetLine](https://dm.namasoft.com/dm-json/SalarySheetLine.json)
-- [SalarySheetTermLine](https://dm.namasoft.com/dm-json/SalarySheetTermLine.json)
-- [SalasaRequestLog](https://dm.namasoft.com/dm-json/SalasaRequestLog.json)
-- [SalesOrderCouponSysEntry](https://dm.namasoft.com/dm-json/SalesOrderCouponSysEntry.json)
-- [SalesPriceSysLine](https://dm.namasoft.com/dm-json/SalesPriceSysLine.json)
-- [SavedBusinessRequest](https://dm.namasoft.com/dm-json/SavedBusinessRequest.json)
-- [SavedEntityRequest](https://dm.namasoft.com/dm-json/SavedEntityRequest.json)
-- [SectorParentLine](https://dm.namasoft.com/dm-json/SectorParentLine.json)
-- [SentEntityToAnotherServerSysEntry](https://dm.namasoft.com/dm-json/SentEntityToAnotherServerSysEntry.json)
-- [SequenceEntity](https://dm.namasoft.com/dm-json/SequenceEntity.json)
-- [ShipmentDeliveryLine](https://dm.namasoft.com/dm-json/ShipmentDeliveryLine.json)
-- [SiteOutMessage](https://dm.namasoft.com/dm-json/SiteOutMessage.json)
-- [SrvCAppointmentsSysEntry](https://dm.namasoft.com/dm-json/SrvCAppointmentsSysEntry.json)
-- [SrvCJobOrderStatusEntry](https://dm.namasoft.com/dm-json/SrvCJobOrderStatusEntry.json)
-- [SrvCProductLastService](https://dm.namasoft.com/dm-json/SrvCProductLastService.json)
-- [SrvCProductLastServiceTrans](https://dm.namasoft.com/dm-json/SrvCProductLastServiceTrans.json)
-- [SrvCProductStatusEntry](https://dm.namasoft.com/dm-json/SrvCProductStatusEntry.json)
-- [SrvcMaterialEntry](https://dm.namasoft.com/dm-json/SrvcMaterialEntry.json)
-- [StockAgesInfo](https://dm.namasoft.com/dm-json/StockAgesInfo.json)
-- [StockAgesMatcher](https://dm.namasoft.com/dm-json/StockAgesMatcher.json)
-- [StockAgesProcessRequest](https://dm.namasoft.com/dm-json/StockAgesProcessRequest.json)
+- [SFDARSDReportTask](https://dm.namasoft.com/dm-json/SFDARSDReportTask.json): SFDARSD Report Task
+- [SIInsurancePolicyEntry](https://dm.namasoft.com/dm-json/SIInsurancePolicyEntry.json): SI Insurance Policy Entry
+- [SISalesInvGeneratedDocsLine](https://dm.namasoft.com/dm-json/SISalesInvGeneratedDocsLine.json): SI Sales Inv Generated Docs Line
+- [STCLoyaltyPointsRewardEntry](https://dm.namasoft.com/dm-json/STCLoyaltyPointsRewardEntry.json): STC Loyalty Points Reward Entry
+- [SWInvItemTrans](https://dm.namasoft.com/dm-json/SWInvItemTrans.json): SW Inv Item Trans
+- [SWMatchedInvItemTrans](https://dm.namasoft.com/dm-json/SWMatchedInvItemTrans.json): SW Matched Inv Item Trans
+- [SWQuentityReprocessReq](https://dm.namasoft.com/dm-json/SWQuentityReprocessReq.json): SW Quentity Reprocess Req
+- [SalaryDetailSysEntry](https://dm.namasoft.com/dm-json/SalaryDetailSysEntry.json): Salary Detail Sys Entry
+- [SalarySheetLine](https://dm.namasoft.com/dm-json/SalarySheetLine.json): Salary Sheet Line Ref
+- [SalarySheetTermLine](https://dm.namasoft.com/dm-json/SalarySheetTermLine.json): Salary Sheet Term Line
+- [SalasaRequestLog](https://dm.namasoft.com/dm-json/SalasaRequestLog.json): Salasa Request Log
+- [SalesOrderCouponSysEntry](https://dm.namasoft.com/dm-json/SalesOrderCouponSysEntry.json): Sales Order Coupon Sys Entry
+- [SalesPriceSysLine](https://dm.namasoft.com/dm-json/SalesPriceSysLine.json): Sales Price Sys Line
+- [SavedBusinessRequest](https://dm.namasoft.com/dm-json/SavedBusinessRequest.json): Saved Business Request
+- [SavedEntityRequest](https://dm.namasoft.com/dm-json/SavedEntityRequest.json): Saved Entity Request
+- [SectorParentLine](https://dm.namasoft.com/dm-json/SectorParentLine.json): Sector Parent Line
+- [SentEntityToAnotherServerSysEntry](https://dm.namasoft.com/dm-json/SentEntityToAnotherServerSysEntry.json): Sent Entity To Another Server Sys Entry
+- [SequenceEntity](https://dm.namasoft.com/dm-json/SequenceEntity.json): Sequence Entity
+- [ShipmentDeliveryLine](https://dm.namasoft.com/dm-json/ShipmentDeliveryLine.json): Shipment Delivery Line
+- [SiteOutMessage](https://dm.namasoft.com/dm-json/SiteOutMessage.json): Site Out Message
+- [SrvCAppointmentsSysEntry](https://dm.namasoft.com/dm-json/SrvCAppointmentsSysEntry.json): Srv C Appointments Sys Entry
+- [SrvCJobOrderStatusEntry](https://dm.namasoft.com/dm-json/SrvCJobOrderStatusEntry.json): Srv C Job Order Status Entry
+- [SrvCProductLastService](https://dm.namasoft.com/dm-json/SrvCProductLastService.json): Srv C Product Last Service
+- [SrvCProductLastServiceTrans](https://dm.namasoft.com/dm-json/SrvCProductLastServiceTrans.json): Srv C Product Last Service Trans
+- [SrvCProductStatusEntry](https://dm.namasoft.com/dm-json/SrvCProductStatusEntry.json): Srv C Product Status Entry
+- [SrvcMaterialEntry](https://dm.namasoft.com/dm-json/SrvcMaterialEntry.json): Srvc Material Entry
+- [StockAgesInfo](https://dm.namasoft.com/dm-json/StockAgesInfo.json): Stock Ages Info
+- [StockAgesMatcher](https://dm.namasoft.com/dm-json/StockAgesMatcher.json): Stock Ages Matcher
+- [StockAgesProcessRequest](https://dm.namasoft.com/dm-json/StockAgesProcessRequest.json): Stock Ages Process Request
 - [StockAgesTask](https://dm.namasoft.com/dm-json/StockAgesTask.json): Stock Ages Tasks
-- [StockAgesTaskUpdater](https://dm.namasoft.com/dm-json/StockAgesTaskUpdater.json)
-- [StockAgesTrans](https://dm.namasoft.com/dm-json/StockAgesTrans.json)
-- [SubItemStatusEntry](https://dm.namasoft.com/dm-json/SubItemStatusEntry.json)
-- [SubsidiaryAccounts](https://dm.namasoft.com/dm-json/SubsidiaryAccounts.json)
-- [SubsidiarySingleAccount](https://dm.namasoft.com/dm-json/SubsidiarySingleAccount.json)
-- [SupplierTransEntry](https://dm.namasoft.com/dm-json/SupplierTransEntry.json)
-- [SysActionSecurityLine](https://dm.namasoft.com/dm-json/SysActionSecurityLine.json)
-- [SysGenericSecurityLine](https://dm.namasoft.com/dm-json/SysGenericSecurityLine.json)
-- [SysItemLine](https://dm.namasoft.com/dm-json/SysItemLine.json)
-- [SysPORelatedDocLine](https://dm.namasoft.com/dm-json/SysPORelatedDocLine.json)
-- [SysPageSecurity](https://dm.namasoft.com/dm-json/SysPageSecurity.json)
-- [SysSecurityFieldAuthority](https://dm.namasoft.com/dm-json/SysSecurityFieldAuthority.json)
-- [SysSecurityLine](https://dm.namasoft.com/dm-json/SysSecurityLine.json)
-- [SysServiceLine](https://dm.namasoft.com/dm-json/SysServiceLine.json)
-- [SysVacBalanceTransaction](https://dm.namasoft.com/dm-json/SysVacBalanceTransaction.json)
-- [SysVacationsBalance](https://dm.namasoft.com/dm-json/SysVacationsBalance.json)
-- [SysVacationsBalanceByDate](https://dm.namasoft.com/dm-json/SysVacationsBalanceByDate.json)
-- [TaskScheduleExecutionLog](https://dm.namasoft.com/dm-json/TaskScheduleExecutionLog.json)
-- [TaxPayerLastSubmissionInfo](https://dm.namasoft.com/dm-json/TaxPayerLastSubmissionInfo.json)
-- [TechnicianAppointmentChangeHistory](https://dm.namasoft.com/dm-json/TechnicianAppointmentChangeHistory.json)
-- [TelegramBotInfo](https://dm.namasoft.com/dm-json/TelegramBotInfo.json)
-- [TelegramMessageEntry](https://dm.namasoft.com/dm-json/TelegramMessageEntry.json)
-- [TenderInvoiceLine](https://dm.namasoft.com/dm-json/TenderInvoiceLine.json)
-- [TermConditionLine](https://dm.namasoft.com/dm-json/TermConditionLine.json)
-- [TermItemLine](https://dm.namasoft.com/dm-json/TermItemLine.json)
-- [TerminationCalcSysEntry](https://dm.namasoft.com/dm-json/TerminationCalcSysEntry.json)
-- [TooltipDefApplyTo](https://dm.namasoft.com/dm-json/TooltipDefApplyTo.json)
-- [TooltipEntityMapping](https://dm.namasoft.com/dm-json/TooltipEntityMapping.json)
-- [TooltipPart](https://dm.namasoft.com/dm-json/TooltipPart.json)
-- [UnmatchedManualDebtLine](https://dm.namasoft.com/dm-json/UnmatchedManualDebtLine.json)
-- [UserHelpApplicableLine](https://dm.namasoft.com/dm-json/UserHelpApplicableLine.json)
-- [UserNotification](https://dm.namasoft.com/dm-json/UserNotification.json)
-- [VacationsBalSysLine](https://dm.namasoft.com/dm-json/VacationsBalSysLine.json)
-- [VacationsSysLine](https://dm.namasoft.com/dm-json/VacationsSysLine.json)
+- [StockAgesTaskUpdater](https://dm.namasoft.com/dm-json/StockAgesTaskUpdater.json): Stock Ages Task Updater
+- [StockAgesTrans](https://dm.namasoft.com/dm-json/StockAgesTrans.json): Stock Ages Trans
+- [SubItemStatusEntry](https://dm.namasoft.com/dm-json/SubItemStatusEntry.json): Sub Item Status Entry
+- [SubsidiaryAccounts](https://dm.namasoft.com/dm-json/SubsidiaryAccounts.json): Subsidiary Accounts
+- [SubsidiarySingleAccount](https://dm.namasoft.com/dm-json/SubsidiarySingleAccount.json): Subsidiary Single Account
+- [SupplierTransEntry](https://dm.namasoft.com/dm-json/SupplierTransEntry.json): Supplier Trans Entry
+- [SysActionSecurityLine](https://dm.namasoft.com/dm-json/SysActionSecurityLine.json): Sys Action Security Line
+- [SysGenericSecurityLine](https://dm.namasoft.com/dm-json/SysGenericSecurityLine.json): Sys Generic Security Line
+- [SysItemLine](https://dm.namasoft.com/dm-json/SysItemLine.json): Sys Item Line
+- [SysPORelatedDocLine](https://dm.namasoft.com/dm-json/SysPORelatedDocLine.json): Sys PO Related Doc Line
+- [SysPageSecurity](https://dm.namasoft.com/dm-json/SysPageSecurity.json): Sys Page Security
+- [SysSecurityFieldAuthority](https://dm.namasoft.com/dm-json/SysSecurityFieldAuthority.json): Sys Security Field Authority
+- [SysSecurityLine](https://dm.namasoft.com/dm-json/SysSecurityLine.json): Sys Security Line
+- [SysServiceLine](https://dm.namasoft.com/dm-json/SysServiceLine.json): Sys Service Line
+- [SysVacBalanceTransaction](https://dm.namasoft.com/dm-json/SysVacBalanceTransaction.json): Sys Vac Balance Transaction
+- [SysVacationsBalance](https://dm.namasoft.com/dm-json/SysVacationsBalance.json): Sys Vacations Balance
+- [SysVacationsBalanceByDate](https://dm.namasoft.com/dm-json/SysVacationsBalanceByDate.json): Sys Vacations Balance By Date
+- [TaskScheduleExecutionLog](https://dm.namasoft.com/dm-json/TaskScheduleExecutionLog.json): Task Schedule Execution Log
+- [TaxPayerLastSubmissionInfo](https://dm.namasoft.com/dm-json/TaxPayerLastSubmissionInfo.json): Tax Payer Last Submission Info
+- [TechnicianAppointmentChangeHistory](https://dm.namasoft.com/dm-json/TechnicianAppointmentChangeHistory.json): Technician Appointment Change History
+- [TelegramBotInfo](https://dm.namasoft.com/dm-json/TelegramBotInfo.json): Telegram Bot Info
+- [TelegramMessageEntry](https://dm.namasoft.com/dm-json/TelegramMessageEntry.json): Telegram Message Entry
+- [TenderInvoiceLine](https://dm.namasoft.com/dm-json/TenderInvoiceLine.json): Tender Invoice Line
+- [TermConditionLine](https://dm.namasoft.com/dm-json/TermConditionLine.json): Term Condition Line
+- [TermItemLine](https://dm.namasoft.com/dm-json/TermItemLine.json): Term Item Line
+- [TerminationCalcSysEntry](https://dm.namasoft.com/dm-json/TerminationCalcSysEntry.json): Termination Calc Sys Entry
+- [TooltipDefApplyTo](https://dm.namasoft.com/dm-json/TooltipDefApplyTo.json): Tooltip Def Apply To
+- [TooltipEntityMapping](https://dm.namasoft.com/dm-json/TooltipEntityMapping.json): Tooltip Entity Mapping
+- [TooltipPart](https://dm.namasoft.com/dm-json/TooltipPart.json): Tooltip Part
+- [UnmatchedManualDebtLine](https://dm.namasoft.com/dm-json/UnmatchedManualDebtLine.json): Unmatched Manual Debt Line
+- [UserHelpApplicableLine](https://dm.namasoft.com/dm-json/UserHelpApplicableLine.json): User Help Applicable Line
+- [UserNotification](https://dm.namasoft.com/dm-json/UserNotification.json): User Notification
+- [VacationsBalSysLine](https://dm.namasoft.com/dm-json/VacationsBalSysLine.json): Vacations Bal Sys Line
+- [VacationsSysLine](https://dm.namasoft.com/dm-json/VacationsSysLine.json): Vacations Sys Line
 - [WMSPickingDocItemTotalEntry](https://dm.namasoft.com/dm-json/WMSPickingDocItemTotalEntry.json): Item Totals / إجماليات الصنف
 - [WMSPickingDocItemTotalPartialEntry](https://dm.namasoft.com/dm-json/WMSPickingDocItemTotalPartialEntry.json): Partial Item Totals / إجماليات الأصناف الجزئية
 - [WMSPickingDocOrderItemEntry](https://dm.namasoft.com/dm-json/WMSPickingDocOrderItemEntry.json): Order Items / تفاصيل الطلب
@@ -2413,9 +2414,9 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [WMSReceiptDocOrderItemEntry](https://dm.namasoft.com/dm-json/WMSReceiptDocOrderItemEntry.json): Order Items / تفاصيل الطلب
 - [WMSReceiptDocOrderItemPartialEntry](https://dm.namasoft.com/dm-json/WMSReceiptDocOrderItemPartialEntry.json): Partial Receipt Items / الأصناف المستلمة جزئي
 - [WMSReceiptDocOrderItemPartialPutAwayEntry](https://dm.namasoft.com/dm-json/WMSReceiptDocOrderItemPartialPutAwayEntry.json): PutAway Receipt Items / أصناف الاستلام المُخزّنة
-- [WarehouseLocatorFilterLine](https://dm.namasoft.com/dm-json/WarehouseLocatorFilterLine.json)
-- [WarehouseTaking](https://dm.namasoft.com/dm-json/WarehouseTaking.json)
-- [WathqCallInfo](https://dm.namasoft.com/dm-json/WathqCallInfo.json)
-- [WebEngageSentEvent](https://dm.namasoft.com/dm-json/WebEngageSentEvent.json)
-- [WhatsAppMessageEntry](https://dm.namasoft.com/dm-json/WhatsAppMessageEntry.json)
-- [WhatsAppMessageLog](https://dm.namasoft.com/dm-json/WhatsAppMessageLog.json)
+- [WarehouseLocatorFilterLine](https://dm.namasoft.com/dm-json/WarehouseLocatorFilterLine.json): Warehouse Locator Filter Line
+- [WarehouseTaking](https://dm.namasoft.com/dm-json/WarehouseTaking.json): Warehouse Taking
+- [WathqCallInfo](https://dm.namasoft.com/dm-json/WathqCallInfo.json): Wathq Call Info
+- [WebEngageSentEvent](https://dm.namasoft.com/dm-json/WebEngageSentEvent.json): Web Engage Sent Event
+- [WhatsAppMessageEntry](https://dm.namasoft.com/dm-json/WhatsAppMessageEntry.json): Whats App Message Entry
+- [WhatsAppMessageLog](https://dm.namasoft.com/dm-json/WhatsAppMessageLog.json): Whats App Message Log

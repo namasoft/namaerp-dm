@@ -2,6 +2,7 @@
   "entity" : "ItemDimensionCost",
   "table" : "ItemDimensionCost",
   "module" : "system-tables",
+  "en" : "Item Dimension Cost",
   "page" : "https://dm.namasoft.com/modules/system-tables/ItemDimensionCost.html",
   "fields" : [ {
     "id" : "data.avgCost",

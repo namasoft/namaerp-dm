@@ -4,6 +4,7 @@
   "module" : "basic",
   "ar" : "عميل",
   "arPlural" : "العملاء",
+  "en" : "Customer",
   "page" : "https://dm.namasoft.com/modules/basic/Customer.html",
   "fields" : [ {
     "id" : "activated",

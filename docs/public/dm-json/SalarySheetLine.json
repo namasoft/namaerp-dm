@@ -2,6 +2,7 @@
   "entity" : "SalarySheetLine",
   "table" : "SalarySheetLine",
   "module" : "system-tables",
+  "en" : "Salary Sheet Line Ref",
   "page" : "https://dm.namasoft.com/modules/system-tables/SalarySheetLine.html",
   "fields" : [ {
     "id" : "employee",

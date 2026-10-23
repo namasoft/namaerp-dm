@@ -4,6 +4,7 @@
   "module" : "basic",
   "ar" : "فرع",
   "arPlural" : "فروع",
+  "en" : "Branch",
   "enPlural" : "Branches",
   "page" : "https://dm.namasoft.com/modules/basic/Branch.html",
   "fields" : [ {

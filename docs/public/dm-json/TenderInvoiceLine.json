@@ -2,6 +2,7 @@
   "entity" : "TenderInvoiceLine",
   "table" : "TenderInvoiceLine",
   "module" : "system-tables",
+  "en" : "Tender Invoice Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/TenderInvoiceLine.html",
   "fields" : [ {
     "id" : "activeDoc",

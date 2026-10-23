@@ -2,6 +2,7 @@
   "entity" : "POSTransferMainLine",
   "table" : "POSTransferMainLine",
   "module" : "system-tables",
+  "en" : "POS Transfer Main Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSTransferMainLine.html",
   "fields" : [ {
     "id" : "field",

@@ -2,6 +2,7 @@
   "entity" : "REInvestmentFundInvestor",
   "table" : "REInvestmentFundInvestor",
   "module" : "system-tables",
+  "en" : "RE Investment Fund Investor",
   "page" : "https://dm.namasoft.com/modules/system-tables/REInvestmentFundInvestor.html",
   "fields" : [ {
     "id" : "currentInvestment",

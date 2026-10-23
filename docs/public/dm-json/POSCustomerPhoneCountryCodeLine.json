@@ -2,6 +2,7 @@
   "entity" : "POSCustomerPhoneCountryCodeLine",
   "table" : "POSCustomerPhoneCountryCodeLine",
   "module" : "system-tables",
+  "en" : "POS Customer Phone Country Code Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSCustomerPhoneCountryCodeLine.html",
   "fields" : [ {
     "id" : "arabicName",

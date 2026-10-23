@@ -2,6 +2,7 @@
   "entity" : "NaMaUser",
   "table" : "NaMaUser",
   "module" : "system-tables",
+  "en" : "Na Ma User",
   "page" : "https://dm.namasoft.com/modules/system-tables/NaMaUser.html",
   "fields" : [ {
     "id" : "activated",

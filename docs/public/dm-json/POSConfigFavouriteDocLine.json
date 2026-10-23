@@ -2,6 +2,7 @@
   "entity" : "POSConfigFavouriteDocLine",
   "table" : "POSConfigFavouriteDocLine",
   "module" : "system-tables",
+  "en" : "POS Config Favourite Doc Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSConfigFavouriteDocLine.html",
   "fields" : [ {
     "id" : "btnArabicTitle",

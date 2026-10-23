@@ -2,6 +2,7 @@
   "entity" : "EcommerceAppRegistryEntry",
   "table" : "EcommerceAppRegistryEntry",
   "module" : "system-tables",
+  "en" : "Ecommerce App Registry Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/EcommerceAppRegistryEntry.html",
   "fields" : [ {
     "id" : "id",

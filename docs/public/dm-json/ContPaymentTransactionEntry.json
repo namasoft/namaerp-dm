@@ -2,6 +2,7 @@
   "entity" : "ContPaymentTransactionEntry",
   "table" : "ContPaymentTransactionEntry",
   "module" : "system-tables",
+  "en" : "Cont Payment Transaction Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/ContPaymentTransactionEntry.html",
   "fields" : [ {
     "id" : "conditionValueAfterTax",

@@ -2,6 +2,7 @@
   "entity" : "ProductionMovementSysEntry",
   "table" : "ProductionMovementSysEntry",
   "module" : "system-tables",
+  "en" : "Production Movement Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/ProductionMovementSysEntry.html",
   "fields" : [ {
     "id" : "creationDate",

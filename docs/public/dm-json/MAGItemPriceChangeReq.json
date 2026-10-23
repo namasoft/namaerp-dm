@@ -2,6 +2,7 @@
   "entity" : "MAGItemPriceChangeReq",
   "table" : "MAGItemPriceChangeReq",
   "module" : "system-tables",
+  "en" : "MAG Item Price Change Req",
   "page" : "https://dm.namasoft.com/modules/system-tables/MAGItemPriceChangeReq.html",
   "fields" : [ {
     "id" : "dimensions.analysisSet",

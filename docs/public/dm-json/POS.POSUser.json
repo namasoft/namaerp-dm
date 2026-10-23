@@ -4,6 +4,7 @@
   "module" : "pos-app",
   "ar" : "مستخدم",
   "arPlural" : "المستخدمين",
+  "en" : "User",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSUser.html",
   "fields" : [ {
     "id" : "code",

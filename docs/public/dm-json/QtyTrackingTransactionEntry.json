@@ -2,6 +2,7 @@
   "entity" : "QtyTrackingTransactionEntry",
   "table" : "QtyTrackingTransactionEntry",
   "module" : "system-tables",
+  "en" : "Qty Tracking Transaction Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/QtyTrackingTransactionEntry.html",
   "fields" : [ {
     "id" : "creationDate",

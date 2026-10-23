@@ -2,6 +2,7 @@
   "entity" : "FAMovementEntry",
   "table" : "FAMovementEntry",
   "module" : "system-tables",
+  "en" : "FA Movement Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/FAMovementEntry.html",
   "fields" : [ {
     "id" : "addedCount",

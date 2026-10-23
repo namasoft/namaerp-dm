@@ -2,6 +2,7 @@
   "entity" : "POSReadQueueUpdater",
   "table" : "POSReadQueueUpdater",
   "module" : "system-tables",
+  "en" : "POS Read Queue Updater",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSReadQueueUpdater.html",
   "fields" : [ {
     "id" : "connectionProperties",

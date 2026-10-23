@@ -2,6 +2,7 @@
   "entity" : "ContractingEstateCostEntry",
   "table" : "ContractingEstateCostEntry",
   "module" : "system-tables",
+  "en" : "Contracting Estate Cost Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/ContractingEstateCostEntry.html",
   "fields" : [ {
     "id" : "cost",

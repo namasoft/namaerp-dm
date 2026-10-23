@@ -2,6 +2,7 @@
   "entity" : "PendingTask",
   "table" : "PendingTask",
   "module" : "system-tables",
+  "en" : "Pending Task",
   "page" : "https://dm.namasoft.com/modules/system-tables/PendingTask.html",
   "fields" : [ {
     "id" : "allowedTimesToSend",

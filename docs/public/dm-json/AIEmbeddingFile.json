@@ -2,6 +2,7 @@
   "entity" : "AIEmbeddingFile",
   "table" : "AIEmbeddingFile",
   "module" : "system-tables",
+  "en" : "AI Embedding File",
   "page" : "https://dm.namasoft.com/modules/system-tables/AIEmbeddingFile.html",
   "fields" : [ {
     "id" : "createdByUser",

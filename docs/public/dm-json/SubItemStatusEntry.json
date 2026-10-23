@@ -2,6 +2,7 @@
   "entity" : "SubItemStatusEntry",
   "table" : "SubItemStatusEntry",
   "module" : "system-tables",
+  "en" : "Sub Item Status Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/SubItemStatusEntry.html",
   "fields" : [ {
     "id" : "creationDate",

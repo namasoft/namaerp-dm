@@ -2,6 +2,7 @@
   "entity" : "POS.POSRegisteryFixedFavouriteLine",
   "table" : "POSRegisteryFixedFavouriteLine",
   "module" : "pos-app",
+  "en" : "POS Registery Fixed Favourite Line",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSRegisteryFixedFavouriteLine.html",
   "fields" : [ {
     "id" : "favourite.code",

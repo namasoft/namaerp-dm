@@ -2,6 +2,7 @@
   "entity" : "ContrCostExecutionEntry",
   "table" : "ContrCostExecutionEntry",
   "module" : "system-tables",
+  "en" : "Contr Cost Execution Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/ContrCostExecutionEntry.html",
   "fields" : [ {
     "id" : "analysisCard",

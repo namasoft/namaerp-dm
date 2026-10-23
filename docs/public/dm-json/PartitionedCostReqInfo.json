@@ -2,6 +2,7 @@
   "entity" : "PartitionedCostReqInfo",
   "table" : "PartitionedCostReqInfo",
   "module" : "system-tables",
+  "en" : "Partitioned Cost Req Info",
   "page" : "https://dm.namasoft.com/modules/system-tables/PartitionedCostReqInfo.html",
   "fields" : [ {
     "id" : "costTransStatus",

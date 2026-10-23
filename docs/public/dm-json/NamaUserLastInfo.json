@@ -2,6 +2,7 @@
   "entity" : "NamaUserLastInfo",
   "table" : "NamaUserLastInfo",
   "module" : "system-tables",
+  "en" : "Nama User Last Info",
   "page" : "https://dm.namasoft.com/modules/system-tables/NamaUserLastInfo.html",
   "fields" : [ {
     "id" : "id",

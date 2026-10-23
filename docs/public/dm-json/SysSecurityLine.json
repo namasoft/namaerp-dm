@@ -2,6 +2,7 @@
   "entity" : "SysSecurityLine",
   "table" : "SysSecurityLine",
   "module" : "system-tables",
+  "en" : "Sys Security Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/SysSecurityLine.html",
   "fields" : [ {
     "id" : "allowViewOtherRecAtSerach",

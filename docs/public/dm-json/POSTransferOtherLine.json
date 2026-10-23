@@ -2,6 +2,7 @@
   "entity" : "POSTransferOtherLine",
   "table" : "POSTransferOtherLine",
   "module" : "system-tables",
+  "en" : "POS Transfer Other Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSTransferOtherLine.html",
   "fields" : [ {
     "id" : "field",

@@ -2,6 +2,7 @@
   "entity" : "OnlinePaymentTransactionSysEntry",
   "table" : "OnlinePaymentTransactionSysEntry",
   "module" : "system-tables",
+  "en" : "Online Payment Transaction Sys Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/OnlinePaymentTransactionSysEntry.html",
   "fields" : [ {
     "id" : "authorizationNumber",

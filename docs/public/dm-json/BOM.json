@@ -4,6 +4,7 @@
   "module" : "manufacturing",
   "ar" : "مكونات منتج",
   "arPlural" : " مكونات منتج",
+  "en" : "BOM",
   "enPlural" : " BOM",
   "page" : "https://dm.namasoft.com/modules/manufacturing/BOM.html",
   "fields" : [ {

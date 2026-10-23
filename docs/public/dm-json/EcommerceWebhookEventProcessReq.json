@@ -2,6 +2,7 @@
   "entity" : "EcommerceWebhookEventProcessReq",
   "table" : "EcommerceWebhookEventProcessReq",
   "module" : "system-tables",
+  "en" : "Ecommerce Webhook Event Process Req",
   "page" : "https://dm.namasoft.com/modules/system-tables/EcommerceWebhookEventProcessReq.html",
   "fields" : [ {
     "id" : "creationDate",

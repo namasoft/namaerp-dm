@@ -2,6 +2,7 @@
   "entity" : "POSReplacementGridLine",
   "table" : "POSReplacementGridLine",
   "module" : "system-tables",
+  "en" : "POS Replacement Grid Line",
   "page" : "https://dm.namasoft.com/modules/system-tables/POSReplacementGridLine.html",
   "fields" : [ {
     "id" : "field",
