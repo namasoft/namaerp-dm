@@ -1348,6 +1348,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [CRTNPattern](https://dm.namasoft.com/dm-json/CRTNPattern.json): CRTN Pattern / نمط الكرتونة
 - [CRTNPlanningConfiguration](https://dm.namasoft.com/dm-json/CRTNPlanningConfiguration.json): CRTN Planning Configuration / إعدادات تخطيط الكرتون
 - [CRTNPrintingType](https://dm.namasoft.com/dm-json/CRTNPrintingType.json): Printing Type / نوع الطباعة
+- [CRTNSalesInvoice](https://dm.namasoft.com/dm-json/CRTNSalesInvoice.json): Carton Sales Invoice / فاتورة مبيعات كرتون
 - [CRTNSlottingType](https://dm.namasoft.com/dm-json/CRTNSlottingType.json): CRTN Slotting Type / نوع التفتيح
 - [CRTNSpecification](https://dm.namasoft.com/dm-json/CRTNSpecification.json): CRTN Specification / مواصفات الكرتونة
 - [CRTNType](https://dm.namasoft.com/dm-json/CRTNType.json): CRTN Type / نوع الكرتونه

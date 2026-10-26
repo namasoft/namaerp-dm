@@ -2609,6 +2609,31 @@
     "ar" : "نوع الطباعة",
     "en" : "Printing Type"
   }, {
+    "name" : "CRTNSalesInvoice",
+    "table" : "CRTNSalesInvoice",
+    "module" : "manufacturing-crtn-pln",
+    "ar" : "فاتورة مبيعات كرتون",
+    "en" : "Carton Sales Invoice",
+    "details" : [ {
+      "id" : "details",
+      "table" : "CRTNSalesInvoiceLine"
+    }, {
+      "id" : "externalPaymentLines",
+      "table" : "CRTNSalesInvExternalPayLine"
+    }, {
+      "id" : "paymentLines",
+      "table" : "CRTNSalesInvoicePaymentLine"
+    }, {
+      "id" : "scheduleLines",
+      "table" : "CRTNSalesInvScheduledPayLine"
+    }, {
+      "id" : "stockDocs",
+      "table" : "CRTNSalesInvoiceIssue"
+    }, {
+      "id" : "terms",
+      "table" : "CRTNSalesInvStandTermsLine"
+    } ]
+  }, {
     "name" : "CRTNSlottingType",
     "table" : "CRTNSlottingType",
     "module" : "manufacturing-crtn-pln",

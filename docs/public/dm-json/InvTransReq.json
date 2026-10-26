@@ -59,7 +59,7 @@
     "id" : "errorDescription",
     "column" : "errorDescription",
     "ar" : "وصف الخطأ",
-    "en" : "Error Desciption",
+    "en" : "Error Description",
     "type" : "BigText"
   }, {
     "id" : "errorMessage",
@@ -240,7 +240,7 @@
     "id" : "requestType",
     "column" : "requestType",
     "ar" : "نوع الطلب",
-    "en" : "Reqyest Type",
+    "en" : "Request Type",
     "type" : "Enum",
     "enum" : "TransactionRequestType"
   }, {

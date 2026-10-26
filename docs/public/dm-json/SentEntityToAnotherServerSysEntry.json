@@ -8,7 +8,7 @@
     "id" : "errorDescription",
     "column" : "errorDescription",
     "ar" : "وصف الخطأ",
-    "en" : "Error Desciption",
+    "en" : "Error Description",
     "type" : "BigText"
   }, {
     "id" : "errorMessage",

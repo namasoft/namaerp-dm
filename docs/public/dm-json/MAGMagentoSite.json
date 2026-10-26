@@ -28,6 +28,8 @@
   }, {
     "id" : "amazonDestinationId",
     "column" : "amazonDestinationId",
+    "ar" : "معرف الوجهة في أمازون",
+    "en" : "Amazon Destination ID",
     "type" : "Text"
   }, {
     "id" : "amazonMarketplaceId",
@@ -44,6 +46,8 @@
   }, {
     "id" : "amazonSubscriptionId",
     "column" : "amazonSubscriptionId",
+    "ar" : "معرف الاشتراك في أمازون",
+    "en" : "Amazon Subscription ID",
     "type" : "Text"
   }, {
     "id" : "analysisSet",

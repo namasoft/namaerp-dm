@@ -486,5 +486,11 @@
     "id" : "viewCapabilityId",
     "column" : "viewCapability_id",
     "type" : "ID"
+  }, {
+    "id" : "webhookVerifyToken",
+    "column" : "webhookVerifyToken",
+    "ar" : "رمز التحقق من الـ Webhook",
+    "en" : "Webhook Verify Token",
+    "type" : "Text"
   } ]
 }

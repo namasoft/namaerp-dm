@@ -2493,6 +2493,20 @@
       "en" : "Do Not Cache",
       "type" : "Boolean"
     }, {
+      "id" : "invoiceRetrieverLines.entityType",
+      "column" : "entityType",
+      "ar" : "النوع",
+      "en" : "Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "invoiceRetrieverLines.entityTypeList",
+      "column" : "entityTypeList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
       "id" : "invoiceRetrieverLines.id",
       "column" : "id",
       "type" : "ID"
@@ -2521,6 +2535,12 @@
       "type" : "Reference",
       "refTo" : "GenericReferenceOverrider",
       "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    }, {
+      "id" : "invoiceRetrieverLines.printUsingSystemForm",
+      "column" : "printUsingSystemForm",
+      "ar" : "طباعة بنموذج الطباعة المعرف بالنظام",
+      "en" : "Print Using System Defined Printing Form",
+      "type" : "Boolean"
     }, {
       "id" : "invoiceRetrieverLines.reportDefinition",
       "column" : "reportDefinition_id",

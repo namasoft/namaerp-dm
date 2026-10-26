@@ -585,7 +585,7 @@
     "id" : "requestType",
     "column" : "requestType",
     "ar" : "نوع الطلب",
-    "en" : "Reqyest Type",
+    "en" : "Request Type",
     "type" : "Enum",
     "enum" : "RequestType"
   }, {
