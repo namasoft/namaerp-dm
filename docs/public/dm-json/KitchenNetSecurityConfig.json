@@ -484,6 +484,12 @@
       "en" : "View Kitchen Design",
       "type" : "Boolean"
     }, {
+      "id" : "details.canViewKitchenDesignsDashboard",
+      "column" : "canViewKitchenDesignsDashboard",
+      "ar" : "استعراض لوحة تصميمات المطابخ",
+      "en" : "View Kitchen Designs Dashboard",
+      "type" : "Boolean"
+    }, {
       "id" : "details.canViewMaintenanceDashboard",
       "column" : "canViewMaintenanceDashboard",
       "ar" : "استعراض لوحة الصيانة",

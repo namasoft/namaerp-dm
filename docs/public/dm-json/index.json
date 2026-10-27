@@ -13360,6 +13360,16 @@
     "ar" : "Mobile QR Integrator",
     "en" : "Mobile QR Integrator"
   }, {
+    "name" : "MobileSecurityConfig",
+    "table" : "MobileSecurityConfig",
+    "module" : "system-tables",
+    "ar" : "إعدادات صلاحيات الموبايل",
+    "en" : "Mobile Security Configuration",
+    "details" : [ {
+      "id" : "lines",
+      "table" : "MobileSecurityConfigLine"
+    } ]
+  }, {
     "name" : "ModifyContractorInfoReq",
     "table" : "ModifyContractorInfoReq",
     "module" : "basic-customer-portal",

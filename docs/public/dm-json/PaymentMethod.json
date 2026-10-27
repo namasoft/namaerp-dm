@@ -528,6 +528,14 @@
     "en" : "Name2",
     "type" : "Text"
   }, {
+    "id" : "onlinePaymentConfig",
+    "column" : "onlinePaymentConfig_id",
+    "ar" : " Online Payment Configuration",
+    "en" : " Online Payment Configuration",
+    "type" : "Reference",
+    "refTo" : "OnlinePaymentConfig",
+    "refPath" : "/modules/basic-online-payment/OnlinePaymentConfig.html"
+  }, {
     "id" : "parentCode",
     "column" : "parentCode",
     "type" : "Text"

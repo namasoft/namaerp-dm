@@ -228,6 +228,10 @@
     "en" : "Name2",
     "type" : "Text"
   }, {
+    "id" : "onlinePaymentConfigId",
+    "column" : "onlinePaymentConfigId",
+    "type" : "ID"
+  }, {
     "id" : "orderInPOS",
     "column" : "orderInPOS",
     "ar" : "ترتيب الظهور في برنامج نقاط البيع",

@@ -2228,6 +2228,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [MiscInvoiceQtyTransLine](https://dm.namasoft.com/dm-json/MiscInvoiceQtyTransLine.json): Misc Invoice Qty Trans Line
 - [MnNoticeMobileAttendanceEntry](https://dm.namasoft.com/dm-json/MnNoticeMobileAttendanceEntry.json): Mn Notice Mobile Attendance Entry
 - [MobileAppErrorLog](https://dm.namasoft.com/dm-json/MobileAppErrorLog.json): Mobile App Error Log
+- [MobileSecurityConfig](https://dm.namasoft.com/dm-json/MobileSecurityConfig.json): Mobile Security Configuration / إعدادات صلاحيات الموبايل
 - [ModuleInfo](https://dm.namasoft.com/dm-json/ModuleInfo.json): Module Info
 - [NaMaLayout](https://dm.namasoft.com/dm-json/NaMaLayout.json): Na Ma Layout
 - [NaMaUser](https://dm.namasoft.com/dm-json/NaMaUser.json): Na Ma User

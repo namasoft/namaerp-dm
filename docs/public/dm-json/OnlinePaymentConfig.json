@@ -20,6 +20,12 @@
     "column" : "analysisSet_id",
     "type" : "ID"
   }, {
+    "id" : "apiBaseUrl",
+    "column" : "apiBaseUrl",
+    "ar" : "رابط الـ API الأساسي",
+    "en" : "API Base URL",
+    "type" : "Text"
+  }, {
     "id" : "apiToken",
     "column" : "apiToken",
     "ar" : "API Token",
@@ -358,11 +364,23 @@
     "refTo" : "LargeData",
     "refPath" : "/modules/system-tables/LargeData.html"
   }, {
+    "id" : "maxPaymentAmount",
+    "column" : "maxPaymentAmount",
+    "ar" : "أقصى مبلغ للدفع",
+    "en" : "Maximum Payment Amount",
+    "type" : "Decimal"
+  }, {
     "id" : "merchantId",
     "column" : "merchantId",
     "ar" : "Merchant Id",
     "en" : "Merchant Id",
     "type" : "Text"
+  }, {
+    "id" : "minPaymentAmount",
+    "column" : "minPaymentAmount",
+    "ar" : "أقل مبلغ للدفع",
+    "en" : "Minimum Payment Amount",
+    "type" : "Decimal"
   }, {
     "id" : "mondayIsWeekend",
     "column" : "mondayIsWeekend",

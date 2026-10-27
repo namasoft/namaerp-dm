@@ -5,6 +5,8 @@
   }, {
     "id" : "InterPay"
   }, {
-    "id" : "Geidea"
+    "id" : "Geidea",
+    "ar" : "جيديا",
+    "en" : "Geidea"
   } ]
 }
