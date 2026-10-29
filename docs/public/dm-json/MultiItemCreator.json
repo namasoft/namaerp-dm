@@ -164,7 +164,8 @@
     "en" : "Calculation Formula",
     "type" : "Reference",
     "refTo" : "CalculationFormula",
-    "refPath" : "/modules/supplychain/CalculationFormula.html"
+    "refPath" : "/modules/supplychain/CalculationFormula.html",
+    "feature" : "scMeasures"
   }, {
     "id" : "category1",
     "column" : "category1_id",
@@ -526,55 +527,64 @@
     "column" : "hasActivePercentage",
     "ar" : "له نسبة فعالة",
     "en" : "Has Active Percentage",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "hasCalcFormula",
     "column" : "hasCalcFormula",
     "ar" : "له صيغة حسابية",
     "en" : "has Calculation Formula",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scMeasures"
   }, {
     "id" : "hasColor",
     "column" : "hasColor",
     "ar" : "له ألوان",
     "en" : "Has Colors",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "hasExpiry",
     "column" : "hasExpiry",
     "ar" : "له تاريخ صلاحية",
     "en" : "Has Expiry",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scLot"
   }, {
     "id" : "hasInActivePercentage",
     "column" : "hasInActivePercentage",
     "ar" : "له نسبة غير فعالة",
     "en" : "Has Inactive Percentage",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "hasLot",
     "column" : "hasLot",
     "ar" : "له شحنات",
     "en" : "Has Lot",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scLot"
   }, {
     "id" : "hasMeasures",
     "column" : "hasMeasures",
     "ar" : "له أبعاد",
     "en" : "Has Measures",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scMeasures"
   }, {
     "id" : "hasPackages",
     "column" : "hasPackages",
     "ar" : "يوضع بصناديق",
     "en" : "Has Packages",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scPackaging"
   }, {
     "id" : "hasRevisions",
     "column" : "hasRevisions",
     "ar" : "له إصدارات",
     "en" : "Has Revisions",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scRevisions"
   }, {
     "id" : "hasSalesCoupons",
     "column" : "hasSalesCoupons",
@@ -586,37 +596,43 @@
     "column" : "hasSecondUnit",
     "ar" : "له وحدة ثانية",
     "en" : "Has Second Unit",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSecondUnit"
   }, {
     "id" : "hasSerial",
     "column" : "hasSerial",
     "ar" : "له رقم مسلسل",
     "en" : "Has Serial",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSerialNumbers"
   }, {
     "id" : "hasSize",
     "column" : "hasSize",
     "ar" : "له مقاسات",
     "en" : "Has Size",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "hasSubItem",
     "column" : "hasSubItem",
     "ar" : "له صنف فرعي",
     "en" : "Has SubItem",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSubItem"
   }, {
     "id" : "hasTwoSerials",
     "column" : "hasTwoSerials",
     "ar" : "له رقمان مسلسلان",
     "en" : "HasTwo Serials",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scTwoSerials"
   }, {
     "id" : "hasWarrantyCode",
     "column" : "hasWarrantyCode",
     "ar" : "له كود ضمان",
     "en" : "Has Warranty Code",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSerialNumbers"
   }, {
     "id" : "id",
     "column" : "id",
@@ -843,13 +859,15 @@
     "ar" : "نوع الأبعاد",
     "en" : "Measures Type",
     "type" : "Enum",
-    "enum" : "MeasuresType"
+    "enum" : "MeasuresType",
+    "feature" : "scMeasures"
   }, {
     "id" : "model",
     "column" : "model",
     "ar" : "الموديل",
     "en" : "Item Model",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "n1",
     "column" : "n1",
@@ -1093,7 +1111,8 @@
     "ar" : "نوع الحجز",
     "en" : "Reservation Type",
     "type" : "Enum",
-    "enum" : "ReservationType"
+    "enum" : "ReservationType",
+    "feature" : "reservation"
   }, {
     "id" : "returnable",
     "column" : "returnable",
@@ -1145,7 +1164,8 @@
     "en" : "Base Unit(Smallest)",
     "type" : "Reference",
     "refTo" : "UOM",
-    "refPath" : "/modules/supplychain/UOM.html"
+    "refPath" : "/modules/supplychain/UOM.html",
+    "feature" : "scSecondUnit"
   }, {
     "id" : "secondaryUOM.defaultPurchaseUnit",
     "column" : "secDefaultPurchaseUnit_id",
@@ -1153,7 +1173,8 @@
     "en" : "Default Purchase Unit",
     "type" : "Reference",
     "refTo" : "UOM",
-    "refPath" : "/modules/supplychain/UOM.html"
+    "refPath" : "/modules/supplychain/UOM.html",
+    "feature" : "scSecondUnit"
   }, {
     "id" : "secondaryUOM.defaultSalesUnit",
     "column" : "secDefaultSalesUnit_id",
@@ -1161,7 +1182,8 @@
     "en" : "Default Sales Unit",
     "type" : "Reference",
     "refTo" : "UOM",
-    "refPath" : "/modules/supplychain/UOM.html"
+    "refPath" : "/modules/supplychain/UOM.html",
+    "feature" : "scSecondUnit"
   }, {
     "id" : "secondaryUOM.reportingUnit1",
     "column" : "secReportingUnit1_id",
@@ -1169,7 +1191,8 @@
     "en" : "Reporting Unit 1",
     "type" : "Reference",
     "refTo" : "UOM",
-    "refPath" : "/modules/supplychain/UOM.html"
+    "refPath" : "/modules/supplychain/UOM.html",
+    "feature" : "scSecondUnit"
   }, {
     "id" : "secondaryUOM.reportingUnit2",
     "column" : "secReportingUnit2_id",
@@ -1177,7 +1200,8 @@
     "en" : "Reporting Unit 2",
     "type" : "Reference",
     "refTo" : "UOM",
-    "refPath" : "/modules/supplychain/UOM.html"
+    "refPath" : "/modules/supplychain/UOM.html",
+    "feature" : "scSecondUnit"
   }, {
     "id" : "secondaryUOM.uomGroup",
     "column" : "secUomGroup_id",
@@ -1185,7 +1209,8 @@
     "en" : "Unit Group",
     "type" : "Reference",
     "refTo" : "UOMGroup",
-    "refPath" : "/modules/supplychain/UOMGroup.html"
+    "refPath" : "/modules/supplychain/UOMGroup.html",
+    "feature" : "scSecondUnit"
   }, {
     "id" : "section",
     "column" : "section_id",
@@ -1261,13 +1286,15 @@
     "en" : " Tax Plan",
     "type" : "Reference",
     "refTo" : "TaxPlan",
-    "refPath" : "/modules/basic/TaxPlan.html"
+    "refPath" : "/modules/basic/TaxPlan.html",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxable",
     "column" : "taxable",
     "ar" : "خاضع للضريبة",
     "en" : "Taxable",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSalesTax"
   }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
@@ -1310,13 +1337,15 @@
     "ar" : "الوحدة",
     "en" : "Unit",
     "type" : "Enum",
-    "enum" : "TimePeriodType"
+    "enum" : "TimePeriodType",
+    "feature" : "scSerialNumbers"
   }, {
     "id" : "warrantyPeriod.value",
     "column" : "wrnpdValue",
     "ar" : "فترة الضمان",
     "en" : "Warranty Period",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSerialNumbers"
   } ],
   "details" : [ {
     "id" : "lines",

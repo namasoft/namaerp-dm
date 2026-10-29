@@ -504,7 +504,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "jobOrder",
     "column" : "jobOrder_id",
@@ -1301,97 +1302,113 @@
       "column" : "tax1AfterValue",
       "ar" : "ضريبة مبيعات | الصافي",
       "en" : "Tax | After Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "tasks.tax1.maxNormalPercent",
       "column" : "tax1MaxNormalPercent",
       "ar" : "ضريبة مبيعات | %",
       "en" : "Item Tax | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "tasks.tax1.percentage",
       "column" : "tax1Percentage",
       "ar" : "قيمة إضافية 1",
       "en" : "Tax 1",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "tasks.tax1.value",
       "column" : "tax1Value",
       "ar" : "ضريبة مبيعات | القيمة",
       "en" : "Tax value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "tasks.tax2.afterValue",
       "column" : "tax2AfterValue",
       "ar" : "ضريبة مبيعات 2 | الصافي",
       "en" : "Tax 2 | After Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "tasks.tax2.maxNormalPercent",
       "column" : "tax2MaxNormalPercent",
       "ar" : "ضريبة مبيعات 2 | %",
       "en" : "Tax 2 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "tasks.tax2.percentage",
       "column" : "tax2Percentage",
       "ar" : "قيمة إضافية 2",
       "en" : "Tax 2",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "tasks.tax2.value",
       "column" : "tax2Value",
       "ar" : "ضريبة مبيعات 2 | القيمة",
       "en" : "Tax 2 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "tasks.tax3.afterValue",
       "column" : "tax3AfterValue",
       "ar" : "ضريبة 3 | الصافي",
       "en" : "Tax 3 | After Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "tasks.tax3.maxNormalPercent",
       "column" : "tax3MaxNormalPercent",
       "ar" : "ضريبة 3 | %",
       "en" : "Tax 3 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "tasks.tax3.percentage",
       "column" : "tax3Percentage",
       "ar" : "النسبة",
       "en" : "Percentage",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "tasks.tax3.value",
       "column" : "tax3Value",
       "ar" : "ضريبة 3 | القيمة",
       "en" : "Tax 3 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "tasks.tax4.afterValue",
       "column" : "tax4AfterValue",
       "ar" : "ضريبة 4 | الصافي",
       "en" : "Tax 4 | After Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "tasks.tax4.maxNormalPercent",
       "column" : "tax4MaxNormalPercent",
       "ar" : "ضريبة 4 | %",
       "en" : "Tax 4 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "tasks.tax4.percentage",
       "column" : "tax4Percentage",
       "ar" : "النسبة",
       "en" : "Percentage",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "tasks.tax4.value",
       "column" : "tax4Value",
       "ar" : "ضريبة 4 | القيمة",
       "en" : "Tax 4 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "tasks.technician",
       "column" : "technician_id",

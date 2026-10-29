@@ -7,6 +7,7 @@
   "en" : " Size Color Revision Collection",
   "enPlural" : "Size Color Revision Collections",
   "page" : "https://dm.namasoft.com/modules/supplychain/ItemSizeColorCollection.html",
+  "feature" : "scSizeAndColor",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

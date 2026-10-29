@@ -492,7 +492,8 @@
     "ar" : "Allow Access To AI Capabilities",
     "en" : "Allow Access To AI Capabilities",
     "type" : "Enum",
-    "enum" : "YesNoDefault"
+    "enum" : "YesNoDefault",
+    "feature" : "m:ai"
   }, {
     "id" : "settings.allowEditFrozenCostAccounts",
     "column" : "allowEditFrozenCostAccounts",
@@ -534,7 +535,8 @@
     "column" : "allowSavesHOOnlineCount",
     "ar" : "عدد مرات الحفظ بينما الرئيسي يعمل",
     "en" : "Saves allowed while HO is Online",
-    "type" : "Integer"
+    "type" : "Integer",
+    "feature" : "replication"
   }, {
     "id" : "settings.alwaysPrint1InBarcode",
     "column" : "alwaysPrint1InBarcode",

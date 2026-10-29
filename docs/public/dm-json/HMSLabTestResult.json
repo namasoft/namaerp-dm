@@ -358,7 +358,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "labTestRequest",
     "column" : "labTestRequest_id",
@@ -522,37 +523,43 @@
     "column" : "dis1MaxValue",
     "ar" : "خصم 1 | أقصى قيمة",
     "en" : "Discount 1 | Max Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount1"
   }, {
     "id" : "price.discount1.percentage",
     "column" : "dis1Percentage",
     "ar" : "خصم 1 | %",
     "en" : "Discount 1 | %",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount1"
   }, {
     "id" : "price.discount1.value",
     "column" : "dis1Value",
     "ar" : "خصم 1 | قيمة",
     "en" : "Discount 1 | Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount1"
   }, {
     "id" : "price.discount2.maxValue",
     "column" : "dis2MaxValue",
     "ar" : "خصم 2 | أقصى قيمة",
     "en" : "Discount 2 | Max Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount2"
   }, {
     "id" : "price.discount2.percentage",
     "column" : "dis2Percentage",
     "ar" : "خصم 2 | %",
     "en" : "Discount 2 | %",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount2"
   }, {
     "id" : "price.discount2.value",
     "column" : "dis2Value",
     "ar" : "خصم 2 | قيمة",
     "en" : "Discount 2 | Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount2"
   }, {
     "id" : "price.insurancMxValFromAdmision",
     "column" : "insurancMxValFromAdmision",
@@ -690,37 +697,43 @@
     "column" : "tax1MaxValue",
     "ar" : "أقصي قيمة",
     "en" : "Maximum Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "price.tax1.percentage",
     "column" : "tax1Percentage",
     "ar" : "قيمة إضافية 1",
     "en" : "Tax 1",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "price.tax1.value",
     "column" : "tax1Value",
     "ar" : "ضريبة مبيعات | القيمة",
     "en" : "Tax value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "price.tax2.maxValue",
     "column" : "tax2MaxValue",
     "ar" : "أقصي قيمة",
     "en" : "Maximum Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "price.tax2.percentage",
     "column" : "tax2Percentage",
     "ar" : "قيمة إضافية 2",
     "en" : "Tax 2",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "price.tax2.value",
     "column" : "tax2Value",
     "ar" : "ضريبة مبيعات 2 | القيمة",
     "en" : "Tax 2 | Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "price.totalInsuranceDueAmount",
     "column" : "totalInsuranceDueAmount",

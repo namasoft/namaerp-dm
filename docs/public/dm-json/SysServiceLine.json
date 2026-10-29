@@ -167,7 +167,8 @@
     "en" : "Unit",
     "type" : "Reference",
     "refTo" : "UOM",
-    "refPath" : "/modules/supplychain/UOM.html"
+    "refPath" : "/modules/supplychain/UOM.html",
+    "feature" : "multiUnits"
   }, {
     "id" : "reqServiceQty.value",
     "column" : "reqServiceQtyValue",

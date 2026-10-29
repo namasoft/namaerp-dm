@@ -1,0 +1,12 @@
+{
+  "enum" : "SIInsurancePolicyOrderType",
+  "values" : [ {
+    "id" : "Issuance",
+    "ar" : "إصدار",
+    "en" : "Issuance"
+  }, {
+    "id" : "Renew",
+    "ar" : "تجديد",
+    "en" : "Renew"
+  } ]
+}

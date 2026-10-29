@@ -1,0 +1,20 @@
+{
+  "enum" : "SIInsurancePolicyIssuanceType",
+  "values" : [ {
+    "id" : "Issuance",
+    "ar" : "إصدار",
+    "en" : "Issuance"
+  }, {
+    "id" : "ExternalIssuance",
+    "ar" : "إصدار خارجي",
+    "en" : "External Issuance"
+  }, {
+    "id" : "Renewal",
+    "ar" : "تجديد",
+    "en" : "renewal"
+  }, {
+    "id" : "ExternalRenewal",
+    "ar" : "تجديد خارجي",
+    "en" : "External Renewal"
+  } ]
+}

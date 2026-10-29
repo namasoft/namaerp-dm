@@ -18,7 +18,8 @@
     "column" : "allowEditingHdrTaxInDetails",
     "ar" : "السماح بتعديل ضريبة الفاتورة في السطر",
     "en" : "Allow Editing Header Tax In Details",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSalesTax"
   }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -328,7 +329,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -380,61 +382,71 @@
     "column" : "afterDiscount1",
     "ar" : "صافي بعد الخصم 1",
     "en" : "Net after Discount 1",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount1"
   }, {
     "id" : "money.afterDiscount2",
     "column" : "afterDiscount2",
     "ar" : "صافي بعد الخصم 2",
     "en" : "Net after Discount 2",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount2"
   }, {
     "id" : "money.afterDiscount3",
     "column" : "afterDiscount3",
     "ar" : "صافي بعد الخصم 3",
     "en" : "Net after Discount 3",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount3"
   }, {
     "id" : "money.afterDiscount4",
     "column" : "afterDiscount4",
     "ar" : "صافي بعد الخصم 4",
     "en" : "Net after Discount 4",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount4"
   }, {
     "id" : "money.afterDiscount5",
     "column" : "afterDiscount5",
     "ar" : "صافي بعد الخصم 5",
     "en" : "Net after Discount 5",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount5"
   }, {
     "id" : "money.afterDiscount6",
     "column" : "afterDiscount6",
     "ar" : "صافي بعد الخصم 6",
     "en" : "Net after Discount 6",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount6"
   }, {
     "id" : "money.afterDiscount7",
     "column" : "afterDiscount7",
     "ar" : "صافي بعد الخصم 7",
     "en" : "Net after Discount 7",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount7"
   }, {
     "id" : "money.afterDiscount8",
     "column" : "afterDiscount8",
     "ar" : "صافي بعد الخصم 8",
     "en" : "Net after Discount 8",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount8"
   }, {
     "id" : "money.afterHTaxValue",
     "column" : "afterHTaxValue",
     "ar" : "بعد ضريبة الفاتورة",
     "en" : "After Tax Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "money.afterTaxValue",
     "column" : "afterTaxValue",
     "ar" : "القيمة بعد الضريبة",
     "en" : "After Tax Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "money.cashAmount",
     "column" : "cashAmount",
@@ -460,49 +472,57 @@
     "column" : "discount1Total",
     "ar" : "إجمالي الخصم",
     "en" : "Discount Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount1"
   }, {
     "id" : "money.discount2Total",
     "column" : "discount2Total",
     "ar" : "إجمالي خصم 2",
     "en" : "Discount 1 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount2"
   }, {
     "id" : "money.discount3Total",
     "column" : "discount3Total",
     "ar" : "إجمالي خصم 3",
     "en" : "Discount 2 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount3"
   }, {
     "id" : "money.discount4Total",
     "column" : "discount4Total",
     "ar" : "إجمالي خصم 4",
     "en" : "Discount 3 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount4"
   }, {
     "id" : "money.discount5Total",
     "column" : "discount5Total",
     "ar" : "إجمالي خصم 5",
     "en" : "Discount 4 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount5"
   }, {
     "id" : "money.discount6Total",
     "column" : "discount6Total",
     "ar" : "إجمالي خصم 6",
     "en" : "Discount 5 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount6"
   }, {
     "id" : "money.discount7Total",
     "column" : "discount7Total",
     "ar" : "إجمالي خصم 7",
     "en" : "Discount 6 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount7"
   }, {
     "id" : "money.discount8Total",
     "column" : "discount8Total",
     "ar" : "إجمالي خصم 8",
     "en" : "Discount 7 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount8"
   }, {
     "id" : "money.headerDiscount.afterValue",
     "column" : "hdrDiscountAfterValue",
@@ -584,37 +604,43 @@
     "column" : "tax1Total",
     "ar" : "إجمالي ضريبة مبيعات 1",
     "en" : "Tax 1 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "money.tax2Total",
     "column" : "tax2Total",
     "ar" : "إجمالي ضريبة مبيعات 2",
     "en" : "Tax 2 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "money.tax3Per",
     "column" : "tax3Per",
     "ar" : "ضريبة 3 %",
     "en" : "Invoice Tax 3",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "money.tax3Total",
     "column" : "tax3Total",
     "ar" : "إجمالي ضريبة 3",
     "en" : "Tax 3 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "money.tax4Per",
     "column" : "tax4Per",
     "ar" : "ضريبة الفاتورة 4 %",
     "en" : "Invoice Tax 4",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "money.tax4Total",
     "column" : "tax4Total",
     "ar" : "إجمالي ضريبة 4",
     "en" : "Tax 4 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "money.total",
     "column" : "total",
@@ -632,7 +658,8 @@
     "column" : "totalPaymentMethods",
     "ar" : "إجمالى طرق الدفع الأخرى",
     "en" : "Other Payments Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "PaymentMethod"
   }, {
     "id" : "money.vouchersPayments",
     "column" : "vouchersPayments",
@@ -876,13 +903,15 @@
     "en" : " Tax Plan",
     "type" : "Reference",
     "refTo" : "TaxPlan",
-    "refPath" : "/modules/basic/TaxPlan.html"
+    "refPath" : "/modules/basic/TaxPlan.html",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxable",
     "column" : "taxable",
     "ar" : "خاضع للضريبة",
     "en" : "Taxable",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSalesTax"
   }, {
     "id" : "term",
     "column" : "term_id",
@@ -1182,185 +1211,217 @@
       "column" : "dis1AfterValue",
       "ar" : "خصم 1 | صافي",
       "en" : "Discount 1 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount1"
     }, {
       "id" : "details.price.discount1.maxNormalPercent",
       "column" : "dis1MaxNormalPercent",
       "ar" : "خصم 1 | النسبة العادية",
       "en" : "Discount 1 | Normal Percent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount1"
     }, {
       "id" : "details.price.discount1.percentage",
       "column" : "dis1Percentage",
       "ar" : "خصم 1 | %",
       "en" : "Discount 1 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount1"
     }, {
       "id" : "details.price.discount1.value",
       "column" : "dis1Value",
       "ar" : "خصم 1 | قيمة",
       "en" : "Discount 1 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount1"
     }, {
       "id" : "details.price.discount2.afterValue",
       "column" : "dis2AfterValue",
       "ar" : "خصم 2 | صافي",
       "en" : "Discount 2 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount2"
     }, {
       "id" : "details.price.discount2.maxNormalPercent",
       "column" : "dis2MaxNormalPercent",
       "ar" : "خصم 2 | النسبة العادية",
       "en" : "Discount 2 | Normal Percent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount2"
     }, {
       "id" : "details.price.discount2.percentage",
       "column" : "dis2Percentage",
       "ar" : "خصم 2 | %",
       "en" : "Discount 2 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount2"
     }, {
       "id" : "details.price.discount2.value",
       "column" : "dis2Value",
       "ar" : "خصم 2 | قيمة",
       "en" : "Discount 2 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount2"
     }, {
       "id" : "details.price.discount3.afterValue",
       "column" : "dis3AfterValue",
       "ar" : "خصم 3 | صافي",
       "en" : "Discount 3 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount3"
     }, {
       "id" : "details.price.discount3.maxNormalPercent",
       "column" : "dis3MaxNormalPercent",
       "ar" : "خصم 3 | النسبة العادية",
       "en" : "Discount 3 | Normal Percent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount3"
     }, {
       "id" : "details.price.discount3.percentage",
       "column" : "dis3Percentage",
       "ar" : "خصم 3 | %",
       "en" : "Discount 3 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount3"
     }, {
       "id" : "details.price.discount3.value",
       "column" : "dis3Value",
       "ar" : "خصم 3 | قيمة",
       "en" : "Discount 3 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount3"
     }, {
       "id" : "details.price.discount4.afterValue",
       "column" : "dis4AfterValue",
       "ar" : "خصم 4 | صافي",
       "en" : "Discount 4 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount4"
     }, {
       "id" : "details.price.discount4.maxNormalPercent",
       "column" : "dis4MaxNormalPercent",
       "ar" : "خصم 4 | النسبة العادية",
       "en" : "Discount 4 | Normal Percent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount4"
     }, {
       "id" : "details.price.discount4.percentage",
       "column" : "dis4Percentage",
       "ar" : "خصم 4 | %",
       "en" : "Discount 4 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount4"
     }, {
       "id" : "details.price.discount4.value",
       "column" : "dis4Value",
       "ar" : "خصم 4 | قيمة",
       "en" : "Discount 4 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount4"
     }, {
       "id" : "details.price.discount5.afterValue",
       "column" : "dis5AfterValue",
       "ar" : "خصم 5 | صافي",
       "en" : "Discount 5 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount5"
     }, {
       "id" : "details.price.discount5.maxNormalPercent",
       "column" : "dis5MaxNormalPercent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount5"
     }, {
       "id" : "details.price.discount5.percentage",
       "column" : "dis5Percentage",
       "ar" : "خصم 5 | %",
       "en" : "Discount 5 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount5"
     }, {
       "id" : "details.price.discount5.value",
       "column" : "dis5Value",
       "ar" : "خصم 5 | قيمة",
       "en" : "Discount 5 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount5"
     }, {
       "id" : "details.price.discount6.afterValue",
       "column" : "dis6AfterValue",
       "ar" : "خصم 6 | صافي",
       "en" : "Discount 6 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount6"
     }, {
       "id" : "details.price.discount6.maxNormalPercent",
       "column" : "dis6MaxNormalPercent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount6"
     }, {
       "id" : "details.price.discount6.percentage",
       "column" : "dis6Percentage",
       "ar" : "خصم 6 | %",
       "en" : "Discount 6 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount6"
     }, {
       "id" : "details.price.discount6.value",
       "column" : "dis6Value",
       "ar" : "خصم 6 | قيمة",
       "en" : "Discount 6 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount6"
     }, {
       "id" : "details.price.discount7.afterValue",
       "column" : "dis7AfterValue",
       "ar" : "خصم 7 | صافي",
       "en" : "Discount 7 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount7"
     }, {
       "id" : "details.price.discount7.maxNormalPercent",
       "column" : "dis7MaxNormalPercent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount7"
     }, {
       "id" : "details.price.discount7.percentage",
       "column" : "dis7Percentage",
       "ar" : "خصم 7 | %",
       "en" : "Discount 7 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount7"
     }, {
       "id" : "details.price.discount7.value",
       "column" : "dis7Value",
       "ar" : "خصم 7 | قيمة",
       "en" : "Discount 7 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount7"
     }, {
       "id" : "details.price.discount8.afterValue",
       "column" : "dis8AfterValue",
       "ar" : "خصم 8 | صافي",
       "en" : "Discount 8 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount8"
     }, {
       "id" : "details.price.discount8.maxNormalPercent",
       "column" : "dis8MaxNormalPercent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount8"
     }, {
       "id" : "details.price.discount8.percentage",
       "column" : "dis8Percentage",
       "ar" : "خصم 8 | %",
       "en" : "Discount 8 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount8"
     }, {
       "id" : "details.price.discount8.value",
       "column" : "dis8Value",
       "ar" : "خصم 8 | قيمة",
       "en" : "Discount 8 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount8"
     }, {
       "id" : "details.price.headerDicount.afterValue",
       "column" : "hdrAfterValue",
@@ -1398,97 +1459,113 @@
       "column" : "tax1AfterValue",
       "ar" : "ضريبة مبيعات | الصافي",
       "en" : "Tax | After Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.price.tax1.maxNormalPercent",
       "column" : "tax1MaxNormalPercent",
       "ar" : "ضريبة مبيعات | %",
       "en" : "Item Tax | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.price.tax1.percentage",
       "column" : "tax1Percentage",
       "ar" : "قيمة إضافية 1",
       "en" : "Tax 1",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.price.tax1.value",
       "column" : "tax1Value",
       "ar" : "ضريبة مبيعات | القيمة",
       "en" : "Tax value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.price.tax2.afterValue",
       "column" : "tax2AfterValue",
       "ar" : "ضريبة مبيعات 2 | الصافي",
       "en" : "Tax 2 | After Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.price.tax2.maxNormalPercent",
       "column" : "tax2MaxNormalPercent",
       "ar" : "ضريبة مبيعات 2 | %",
       "en" : "Tax 2 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.price.tax2.percentage",
       "column" : "tax2Percentage",
       "ar" : "قيمة إضافية 2",
       "en" : "Tax 2",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.price.tax2.value",
       "column" : "tax2Value",
       "ar" : "ضريبة مبيعات 2 | القيمة",
       "en" : "Tax 2 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.price.tax3.afterValue",
       "column" : "tax3AfterValue",
       "ar" : "ضريبة 3 | الصافي",
       "en" : "Tax 3 | After Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.price.tax3.maxNormalPercent",
       "column" : "tax3MaxNormalPercent",
       "ar" : "ضريبة 3 | %",
       "en" : "Tax 3 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.price.tax3.percentage",
       "column" : "tax3Percentage",
       "ar" : "النسبة",
       "en" : "Percentage",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.price.tax3.value",
       "column" : "tax3Value",
       "ar" : "ضريبة 3 | القيمة",
       "en" : "Tax 3 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.price.tax4.afterValue",
       "column" : "tax4AfterValue",
       "ar" : "ضريبة 4 | الصافي",
       "en" : "Tax 4 | After Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.price.tax4.maxNormalPercent",
       "column" : "tax4MaxNormalPercent",
       "ar" : "ضريبة 4 | %",
       "en" : "Tax 4 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.price.tax4.percentage",
       "column" : "tax4Percentage",
       "ar" : "النسبة",
       "en" : "Percentage",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.price.tax4.value",
       "column" : "tax4Value",
       "ar" : "ضريبة 4 | القيمة",
       "en" : "Tax 4 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.price.totalCashShare",
       "column" : "totalCashShare",
@@ -1496,7 +1573,8 @@
     }, {
       "id" : "details.price.totalPaymentMethodShare",
       "column" : "totalPaymentMethodShare",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "details.price.unitPrice",
       "column" : "unitPrice",
@@ -1729,185 +1807,217 @@
       "column" : "dis1AfterValue",
       "ar" : "خصم 1 | صافي",
       "en" : "Discount 1 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount1"
     }, {
       "id" : "einvoiceDetails.price.discount1.maxNormalPercent",
       "column" : "dis1MaxNormalPercent",
       "ar" : "خصم 1 | النسبة العادية",
       "en" : "Discount 1 | Normal Percent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount1"
     }, {
       "id" : "einvoiceDetails.price.discount1.percentage",
       "column" : "dis1Percentage",
       "ar" : "خصم 1 | %",
       "en" : "Discount 1 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount1"
     }, {
       "id" : "einvoiceDetails.price.discount1.value",
       "column" : "dis1Value",
       "ar" : "خصم 1 | قيمة",
       "en" : "Discount 1 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount1"
     }, {
       "id" : "einvoiceDetails.price.discount2.afterValue",
       "column" : "dis2AfterValue",
       "ar" : "خصم 2 | صافي",
       "en" : "Discount 2 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount2"
     }, {
       "id" : "einvoiceDetails.price.discount2.maxNormalPercent",
       "column" : "dis2MaxNormalPercent",
       "ar" : "خصم 2 | النسبة العادية",
       "en" : "Discount 2 | Normal Percent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount2"
     }, {
       "id" : "einvoiceDetails.price.discount2.percentage",
       "column" : "dis2Percentage",
       "ar" : "خصم 2 | %",
       "en" : "Discount 2 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount2"
     }, {
       "id" : "einvoiceDetails.price.discount2.value",
       "column" : "dis2Value",
       "ar" : "خصم 2 | قيمة",
       "en" : "Discount 2 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount2"
     }, {
       "id" : "einvoiceDetails.price.discount3.afterValue",
       "column" : "dis3AfterValue",
       "ar" : "خصم 3 | صافي",
       "en" : "Discount 3 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount3"
     }, {
       "id" : "einvoiceDetails.price.discount3.maxNormalPercent",
       "column" : "dis3MaxNormalPercent",
       "ar" : "خصم 3 | النسبة العادية",
       "en" : "Discount 3 | Normal Percent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount3"
     }, {
       "id" : "einvoiceDetails.price.discount3.percentage",
       "column" : "dis3Percentage",
       "ar" : "خصم 3 | %",
       "en" : "Discount 3 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount3"
     }, {
       "id" : "einvoiceDetails.price.discount3.value",
       "column" : "dis3Value",
       "ar" : "خصم 3 | قيمة",
       "en" : "Discount 3 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount3"
     }, {
       "id" : "einvoiceDetails.price.discount4.afterValue",
       "column" : "dis4AfterValue",
       "ar" : "خصم 4 | صافي",
       "en" : "Discount 4 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount4"
     }, {
       "id" : "einvoiceDetails.price.discount4.maxNormalPercent",
       "column" : "dis4MaxNormalPercent",
       "ar" : "خصم 4 | النسبة العادية",
       "en" : "Discount 4 | Normal Percent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount4"
     }, {
       "id" : "einvoiceDetails.price.discount4.percentage",
       "column" : "dis4Percentage",
       "ar" : "خصم 4 | %",
       "en" : "Discount 4 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount4"
     }, {
       "id" : "einvoiceDetails.price.discount4.value",
       "column" : "dis4Value",
       "ar" : "خصم 4 | قيمة",
       "en" : "Discount 4 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount4"
     }, {
       "id" : "einvoiceDetails.price.discount5.afterValue",
       "column" : "dis5AfterValue",
       "ar" : "خصم 5 | صافي",
       "en" : "Discount 5 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount5"
     }, {
       "id" : "einvoiceDetails.price.discount5.maxNormalPercent",
       "column" : "dis5MaxNormalPercent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount5"
     }, {
       "id" : "einvoiceDetails.price.discount5.percentage",
       "column" : "dis5Percentage",
       "ar" : "خصم 5 | %",
       "en" : "Discount 5 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount5"
     }, {
       "id" : "einvoiceDetails.price.discount5.value",
       "column" : "dis5Value",
       "ar" : "خصم 5 | قيمة",
       "en" : "Discount 5 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount5"
     }, {
       "id" : "einvoiceDetails.price.discount6.afterValue",
       "column" : "dis6AfterValue",
       "ar" : "خصم 6 | صافي",
       "en" : "Discount 6 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount6"
     }, {
       "id" : "einvoiceDetails.price.discount6.maxNormalPercent",
       "column" : "dis6MaxNormalPercent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount6"
     }, {
       "id" : "einvoiceDetails.price.discount6.percentage",
       "column" : "dis6Percentage",
       "ar" : "خصم 6 | %",
       "en" : "Discount 6 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount6"
     }, {
       "id" : "einvoiceDetails.price.discount6.value",
       "column" : "dis6Value",
       "ar" : "خصم 6 | قيمة",
       "en" : "Discount 6 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount6"
     }, {
       "id" : "einvoiceDetails.price.discount7.afterValue",
       "column" : "dis7AfterValue",
       "ar" : "خصم 7 | صافي",
       "en" : "Discount 7 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount7"
     }, {
       "id" : "einvoiceDetails.price.discount7.maxNormalPercent",
       "column" : "dis7MaxNormalPercent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount7"
     }, {
       "id" : "einvoiceDetails.price.discount7.percentage",
       "column" : "dis7Percentage",
       "ar" : "خصم 7 | %",
       "en" : "Discount 7 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount7"
     }, {
       "id" : "einvoiceDetails.price.discount7.value",
       "column" : "dis7Value",
       "ar" : "خصم 7 | قيمة",
       "en" : "Discount 7 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount7"
     }, {
       "id" : "einvoiceDetails.price.discount8.afterValue",
       "column" : "dis8AfterValue",
       "ar" : "خصم 8 | صافي",
       "en" : "Discount 8 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount8"
     }, {
       "id" : "einvoiceDetails.price.discount8.maxNormalPercent",
       "column" : "dis8MaxNormalPercent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount8"
     }, {
       "id" : "einvoiceDetails.price.discount8.percentage",
       "column" : "dis8Percentage",
       "ar" : "خصم 8 | %",
       "en" : "Discount 8 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount8"
     }, {
       "id" : "einvoiceDetails.price.discount8.value",
       "column" : "dis8Value",
       "ar" : "خصم 8 | قيمة",
       "en" : "Discount 8 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount8"
     }, {
       "id" : "einvoiceDetails.price.headerDicount.afterValue",
       "column" : "hdrAfterValue",
@@ -1945,97 +2055,113 @@
       "column" : "tax1AfterValue",
       "ar" : "ضريبة مبيعات | الصافي",
       "en" : "Tax | After Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "einvoiceDetails.price.tax1.maxNormalPercent",
       "column" : "tax1MaxNormalPercent",
       "ar" : "ضريبة مبيعات | %",
       "en" : "Item Tax | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "einvoiceDetails.price.tax1.percentage",
       "column" : "tax1Percentage",
       "ar" : "قيمة إضافية 1",
       "en" : "Tax 1",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "einvoiceDetails.price.tax1.value",
       "column" : "tax1Value",
       "ar" : "ضريبة مبيعات | القيمة",
       "en" : "Tax value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "einvoiceDetails.price.tax2.afterValue",
       "column" : "tax2AfterValue",
       "ar" : "ضريبة مبيعات 2 | الصافي",
       "en" : "Tax 2 | After Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "einvoiceDetails.price.tax2.maxNormalPercent",
       "column" : "tax2MaxNormalPercent",
       "ar" : "ضريبة مبيعات 2 | %",
       "en" : "Tax 2 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "einvoiceDetails.price.tax2.percentage",
       "column" : "tax2Percentage",
       "ar" : "قيمة إضافية 2",
       "en" : "Tax 2",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "einvoiceDetails.price.tax2.value",
       "column" : "tax2Value",
       "ar" : "ضريبة مبيعات 2 | القيمة",
       "en" : "Tax 2 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "einvoiceDetails.price.tax3.afterValue",
       "column" : "tax3AfterValue",
       "ar" : "ضريبة 3 | الصافي",
       "en" : "Tax 3 | After Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "einvoiceDetails.price.tax3.maxNormalPercent",
       "column" : "tax3MaxNormalPercent",
       "ar" : "ضريبة 3 | %",
       "en" : "Tax 3 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "einvoiceDetails.price.tax3.percentage",
       "column" : "tax3Percentage",
       "ar" : "النسبة",
       "en" : "Percentage",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "einvoiceDetails.price.tax3.value",
       "column" : "tax3Value",
       "ar" : "ضريبة 3 | القيمة",
       "en" : "Tax 3 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "einvoiceDetails.price.tax4.afterValue",
       "column" : "tax4AfterValue",
       "ar" : "ضريبة 4 | الصافي",
       "en" : "Tax 4 | After Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "einvoiceDetails.price.tax4.maxNormalPercent",
       "column" : "tax4MaxNormalPercent",
       "ar" : "ضريبة 4 | %",
       "en" : "Tax 4 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "einvoiceDetails.price.tax4.percentage",
       "column" : "tax4Percentage",
       "ar" : "النسبة",
       "en" : "Percentage",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "einvoiceDetails.price.tax4.value",
       "column" : "tax4Value",
       "ar" : "ضريبة 4 | القيمة",
       "en" : "Tax 4 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "einvoiceDetails.price.totalCashShare",
       "column" : "totalCashShare",
@@ -2043,7 +2169,8 @@
     }, {
       "id" : "einvoiceDetails.price.totalPaymentMethodShare",
       "column" : "totalPaymentMethodShare",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "einvoiceDetails.price.unitPrice",
       "column" : "unitPrice",
@@ -2206,30 +2333,35 @@
     "joinColumn" : "fRMSalesInvoice_id",
     "ar" : "الســداد",
     "en" : "Payment Lines",
+    "feature" : "PaymentMethod",
     "fields" : [ {
       "id" : "paymentLines.afterFeesValue",
       "column" : "afterFeesValue",
       "ar" : "المبلغ بعد الرسوم",
       "en" : "Value After Fees",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.authorizationNumber",
       "column" : "authorizationNumber",
       "ar" : "رقم العملية",
       "en" : "Authorization Number",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.date1",
       "column" : "date1",
       "ar" : "تـــاريخ 1",
       "en" : "Date 1",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.date2",
       "column" : "date2",
       "ar" : "تـــاريخ 2",
       "en" : "Date 2",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.discountCoupon",
       "column" : "discountCoupon_id",
@@ -2237,35 +2369,41 @@
       "en" : "Discount Coupon",
       "type" : "Reference",
       "refTo" : "DiscountCoupon",
-      "refPath" : "/modules/supplychain-sales/DiscountCoupon.html"
+      "refPath" : "/modules/supplychain-sales/DiscountCoupon.html",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.doNotAffectRemaining",
       "column" : "doNotAffectRemaining",
       "ar" : "عدم التأثير على المتبقي",
       "en" : "Do Not Affect Remaining",
-      "type" : "Boolean"
+      "type" : "Boolean",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.feesTaxValue",
       "column" : "feesTaxValue",
       "ar" : "قيمة ضريبة الرسوم",
       "en" : "Fees Tax Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.feesValue",
       "column" : "feesValue",
       "ar" : "قيمة الرسوم",
       "en" : "Fees Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.id",
       "column" : "id",
-      "type" : "ID"
+      "type" : "ID",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.issuer",
       "column" : "issuer",
       "ar" : "جهة الإصدار",
       "en" : "Issuer",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.lineNumber",
       "column" : "lineNumber",
@@ -2275,19 +2413,22 @@
       "column" : "n1",
       "ar" : "رقم 1",
       "en" : "Number 1",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.n2",
       "column" : "n2",
       "ar" : "رقم 2",
       "en" : "Number 2",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.paidCash",
       "column" : "paidCash",
       "ar" : "النقدية المدفوعة",
       "en" : "Paid Cash",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.paymentMethod",
       "column" : "paymentMethod_id",
@@ -2295,111 +2436,130 @@
       "en" : " Payment Method",
       "type" : "Reference",
       "refTo" : "PaymentMethod",
-      "refPath" : "/modules/basic/PaymentMethod.html"
+      "refPath" : "/modules/basic/PaymentMethod.html",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.paymentTransactionType",
       "column" : "paymentTransactionType",
       "ar" : "نوع العملية",
       "en" : "Transaction Type",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.paymentValue",
       "column" : "paymentValue",
       "ar" : "المبلغ",
       "en" : "Payment Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.pgwProperties.authCode",
       "column" : "authCode",
       "ar" : "Auth Code / Txn Id",
       "en" : "Auth Code / Txn Id",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.cardType",
       "column" : "cardType",
       "ar" : "Card Type",
       "en" : "Card Type",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.de55Response",
       "column" : "de55Response",
       "ar" : "De55 Response",
       "en" : "De55 Response",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.ecrRefNum",
       "column" : "ecrRefNum",
       "ar" : "ECR Ref Number / Local Reference Number",
       "en" : "ECR Ref Number / Local Reference Number",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.failureMessage",
       "column" : "failureMessage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.maskedCardNumber",
       "column" : "maskedCardNumber",
       "ar" : "Masked Card Number",
       "en" : "Masked Card Number",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.merchantId",
       "column" : "merchantId",
       "ar" : "Merchant Id",
       "en" : "Merchant Id",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.paidFromTerminal",
       "column" : "paidFromTerminal",
       "ar" : "مدفوعة بواسطة ال Terminal",
       "en" : "Paid From Terminal",
-      "type" : "Boolean"
+      "type" : "Boolean",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.panNum",
       "column" : "panNum",
       "ar" : "PAN Number / ApprovalCode",
       "en" : "PAN Number / ApprovalCode",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.respCode",
       "column" : "respCode",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.schemeId",
       "column" : "schemeId",
       "ar" : "Scheme Id / Card Scheme Name",
       "en" : "Scheme Id / Card Scheme Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.stanNum",
       "column" : "stanNum",
       "ar" : "STAN Number / rrNumber",
       "en" : "STAN Number / rrNumber",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.terminalId",
       "column" : "terminalId",
       "ar" : "Terminal Id / Device Serial No",
       "en" : "Terminal Id / Device Serial No",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.remainingCash",
       "column" : "remainingCash",
       "ar" : "النقديه المتبقيه",
       "en" : "Remaining Cash",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.text1",
       "column" : "text1",
       "ar" : "نــــص 1",
       "en" : "Text 1",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.text2",
       "column" : "text2",
       "ar" : "نـــــص 2",
       "en" : "Text 2",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "PaymentMethod"
     } ]
   } ]
 }

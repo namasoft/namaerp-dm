@@ -388,7 +388,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -790,7 +791,8 @@
       "en" : "Actual Receipt Quantity | Uom",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "details.actualReciptQuantity.value",
       "column" : "actualReciptQuantityValue",
@@ -874,7 +876,8 @@
       "en" : " Calculation Formula",
       "type" : "Reference",
       "refTo" : "CalculationFormula",
-      "refPath" : "/modules/supplychain/CalculationFormula.html"
+      "refPath" : "/modules/supplychain/CalculationFormula.html",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.cartonCount",
       "column" : "cartonCount",
@@ -898,7 +901,8 @@
       "column" : "colorName",
       "ar" : "اسم اللون",
       "en" : "Color Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "details.comp",
       "column" : "comp_id",
@@ -947,7 +951,8 @@
       "column" : "expiryDate",
       "ar" : "تواريخ الصلاحية | الإنتهاء",
       "en" : "Date | Expiry",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "scLot"
     }, {
       "id" : "details.fixedMainMaterialCost",
       "column" : "fixedMainMaterialCost",
@@ -1101,7 +1106,8 @@
       "column" : "productionDate",
       "ar" : "تواريخ الصلاحية | الإنتاج",
       "en" : "Date | Production",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "scLot"
     }, {
       "id" : "details.qtyAtInsert",
       "column" : "qtyAtInsert",
@@ -1127,7 +1133,8 @@
       "en" : "Unit",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "details.quantity.baseQty.value",
       "column" : "quantityBaseValue",
@@ -1147,37 +1154,43 @@
       "column" : "quantityMeasureQty",
       "ar" : "الأبعاد | عدد",
       "en" : "Measures | Qty",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.quantity.measures.clippedLength1",
       "column" : "quantityClippedLength1",
       "ar" : "أبعادالجزء المقصوص 1 | الطول",
       "en" : "Clipped Part1 Measures | Length",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.quantity.measures.height",
       "column" : "quantityHeight",
       "ar" : "الأبعاد | ر",
       "en" : "Measures | H",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scThirdMeasure"
     }, {
       "id" : "details.quantity.measures.length",
       "column" : "quantityLength",
       "ar" : "الأبعاد | ط",
       "en" : "Measures | L",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.quantity.measures.text",
       "column" : "quantityText",
       "ar" : "الأبعاد | الأبعاد",
       "en" : "Measures | L * W * H",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.quantity.measures.width",
       "column" : "quantityWidth",
       "ar" : "الأبعاد | ع",
       "en" : "Measures | W",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.quantity.quantity.primeQty.uom",
       "column" : "quantityPUom_id",
@@ -1185,7 +1198,8 @@
       "en" : "Item Quantity | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "details.quantity.quantity.primeQty.value",
       "column" : "quantityPValue",
@@ -1199,13 +1213,15 @@
       "en" : "Secondary | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "details.quantity.quantity.secondQty.value",
       "column" : "quantitySValue",
       "ar" : "الوحدة الثانية | الكمية",
       "en" : "Secondary | Quantity",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSecondUnit"
     }, {
       "id" : "details.quantity.uomRate",
       "column" : "quantityUomRate",
@@ -1261,7 +1277,8 @@
       "column" : "retestDate",
       "ar" : "تاريخ إعادة الاختبار",
       "en" : "retest Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "retestDate"
     }, {
       "id" : "details.retunLine",
       "column" : "retunLine",
@@ -1277,7 +1294,8 @@
       "column" : "revisionName",
       "ar" : "اسم الإصدار",
       "en" : "Revision Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "details.satisfiedQty",
       "column" : "satisfiedQty",
@@ -1295,7 +1313,8 @@
       "column" : "sizeName",
       "ar" : "اسم المقاس",
       "en" : "Size Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "details.sourceLineId",
       "column" : "sourceLineId",
@@ -1313,25 +1332,29 @@
       "column" : "activePerc",
       "ar" : "النسبة الفعالة",
       "en" : "Active Percentage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "details.specificDimensions.box",
       "column" : "box",
       "ar" : "صندوق",
       "en" : "Box",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scPackaging"
     }, {
       "id" : "details.specificDimensions.color",
       "column" : "color",
       "ar" : "اللون",
       "en" : "Color",
-      "type" : "Color"
+      "type" : "Color",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "details.specificDimensions.inactivePerc",
       "column" : "inactivePerc",
       "ar" : "النسبة الغير فعالة",
       "en" : "Inactive Percentage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "details.specificDimensions.locator",
       "column" : "locator_id",
@@ -1345,37 +1368,43 @@
       "column" : "lotId",
       "ar" : "رقم الشحنه",
       "en" : "Lot ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scLot"
     }, {
       "id" : "details.specificDimensions.measures",
       "column" : "measures",
       "ar" : "الأبعاد",
       "en" : "Measures",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.specificDimensions.revisionId",
       "column" : "revisionId",
       "ar" : "الإصدار",
       "en" : "Revision ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "details.specificDimensions.secondSerial",
       "column" : "secondSerial",
       "ar" : "الرقم المسلسل الثاني",
       "en" : "Second Serial",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scTwoSerials"
     }, {
       "id" : "details.specificDimensions.serialNumber",
       "column" : "serialNumber",
       "ar" : "الرقم المسلسل",
       "en" : "Serial number",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scSerialNumbers"
     }, {
       "id" : "details.specificDimensions.size",
       "column" : "size",
       "ar" : "المقاس",
       "en" : "Size",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "details.specificDimensions.subItem",
       "column" : "subItem_id",
@@ -1383,7 +1412,8 @@
       "en" : " Customer Car",
       "type" : "Reference",
       "refTo" : "SubItem",
-      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html",
+      "feature" : "scSubItem"
     }, {
       "id" : "details.specificDimensions.warehouse",
       "column" : "warehouse_id",
@@ -1419,7 +1449,8 @@
     }, {
       "id" : "details.theSize",
       "column" : "size",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "details.totalCost",
       "column" : "totalCost",
@@ -1474,7 +1505,8 @@
       "column" : "warrantyCode",
       "ar" : "كود الضمان",
       "en" : "Warranty Code",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scSerialNumbers"
     } ]
   }, {
     "id" : "farzas",
@@ -1525,13 +1557,15 @@
       "en" : " Calculation Formula",
       "type" : "Reference",
       "refTo" : "CalculationFormula",
-      "refPath" : "/modules/supplychain/CalculationFormula.html"
+      "refPath" : "/modules/supplychain/CalculationFormula.html",
+      "feature" : "scMeasures"
     }, {
       "id" : "farzas.colorName",
       "column" : "colorName",
       "ar" : "اسم اللون",
       "en" : "Color Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "farzas.comp",
       "column" : "comp_id",
@@ -1565,7 +1599,8 @@
       "column" : "expiryDate",
       "ar" : "تاريخ الإنتهاء",
       "en" : "Expiry Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "scLot"
     }, {
       "id" : "farzas.genericDimensions.analysisSet",
       "column" : "analysisSet_id",
@@ -1689,7 +1724,8 @@
       "column" : "productionDate",
       "ar" : "تاريخ الإنتاج",
       "en" : "Production Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "scLot"
     }, {
       "id" : "farzas.qtyAtInsert",
       "column" : "qtyAtInsert",
@@ -1709,7 +1745,8 @@
       "en" : "Unit",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "farzas.quantity.baseQty.value",
       "column" : "quantityBaseValue",
@@ -1729,37 +1766,43 @@
       "column" : "quantityMeasureQty",
       "ar" : "الأبعاد | عدد",
       "en" : "Measures | Qty",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "farzas.quantity.measures.clippedLength1",
       "column" : "quantityClippedLength1",
       "ar" : "أبعادالجزء المقصوص 1 | الطول",
       "en" : "Clipped Part1 Measures | Length",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "farzas.quantity.measures.height",
       "column" : "quantityHeight",
       "ar" : "الأبعاد | ر",
       "en" : "Measures | H",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scThirdMeasure"
     }, {
       "id" : "farzas.quantity.measures.length",
       "column" : "quantityLength",
       "ar" : "الأبعاد | ط",
       "en" : "Measures | L",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "farzas.quantity.measures.text",
       "column" : "quantityText",
       "ar" : "الأبعاد | الأبعاد",
       "en" : "Measures | L * W * H",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "farzas.quantity.measures.width",
       "column" : "quantityWidth",
       "ar" : "الأبعاد | ع",
       "en" : "Measures | W",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "farzas.quantity.quantity.primeQty.uom",
       "column" : "quantityPUom_id",
@@ -1767,7 +1810,8 @@
       "en" : "Primary | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "farzas.quantity.quantity.primeQty.value",
       "column" : "quantityPValue",
@@ -1781,13 +1825,15 @@
       "en" : "Secondary | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "farzas.quantity.quantity.secondQty.value",
       "column" : "quantitySValue",
       "ar" : "الوحدة الثانية | الكمية",
       "en" : "Secondary | Quantity",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSecondUnit"
     }, {
       "id" : "farzas.quantity.uomRate",
       "column" : "quantityUomRate",
@@ -1837,7 +1883,8 @@
       "column" : "retestDate",
       "ar" : "تاريخ إعادة الاختبار",
       "en" : "retest Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "retestDate"
     }, {
       "id" : "farzas.retunLine",
       "column" : "retunLine",
@@ -1853,7 +1900,8 @@
       "column" : "revisionName",
       "ar" : "اسم الإصدار",
       "en" : "Revision Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "farzas.satisfiedQty",
       "column" : "satisfiedQty",
@@ -1871,7 +1919,8 @@
       "column" : "sizeName",
       "ar" : "اسم المقاس",
       "en" : "Size Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "farzas.sourceLineId",
       "column" : "sourceLineId",
@@ -1889,25 +1938,29 @@
       "column" : "activePerc",
       "ar" : "النسبة الفعالة",
       "en" : "Active Percentage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "farzas.specificDimensions.box",
       "column" : "box",
       "ar" : "صندوق",
       "en" : "Box",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scPackaging"
     }, {
       "id" : "farzas.specificDimensions.color",
       "column" : "color",
       "ar" : "اللون",
       "en" : "Color",
-      "type" : "Color"
+      "type" : "Color",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "farzas.specificDimensions.inactivePerc",
       "column" : "inactivePerc",
       "ar" : "النسبة الغير فعالة",
       "en" : "Inactive Percentage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "farzas.specificDimensions.locator",
       "column" : "locator_id",
@@ -1921,37 +1974,43 @@
       "column" : "lotId",
       "ar" : "رقم الشحنه",
       "en" : "Lot ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scLot"
     }, {
       "id" : "farzas.specificDimensions.measures",
       "column" : "measures",
       "ar" : "الأبعاد",
       "en" : "Measures",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "farzas.specificDimensions.revisionId",
       "column" : "revisionId",
       "ar" : "الإصدار",
       "en" : "Revision ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "farzas.specificDimensions.secondSerial",
       "column" : "secondSerial",
       "ar" : "الرقم المسلسل الثاني",
       "en" : "Second Serial",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scTwoSerials"
     }, {
       "id" : "farzas.specificDimensions.serialNumber",
       "column" : "serialNumber",
       "ar" : "الرقم المسلسل",
       "en" : "Serial number",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scSerialNumbers"
     }, {
       "id" : "farzas.specificDimensions.size",
       "column" : "size",
       "ar" : "المقاس",
       "en" : "Size",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "farzas.specificDimensions.subItem",
       "column" : "subItem_id",
@@ -1959,7 +2018,8 @@
       "en" : " Customer Car",
       "type" : "Reference",
       "refTo" : "SubItem",
-      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html",
+      "feature" : "scSubItem"
     }, {
       "id" : "farzas.specificDimensions.warehouse",
       "column" : "warehouse_id",
@@ -1995,7 +2055,8 @@
     }, {
       "id" : "farzas.theSize",
       "column" : "size",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "farzas.totalCost",
       "column" : "totalCost",
@@ -2050,7 +2111,8 @@
       "column" : "warrantyCode",
       "ar" : "كود الضمان",
       "en" : "Warranty Code",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scSerialNumbers"
     } ]
   }, {
     "id" : "fixedCosts",
@@ -2063,25 +2125,29 @@
       "column" : "activePerc",
       "ar" : "النسبة الفعالة",
       "en" : "Active Percentage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "fixedCosts.dimensions.box",
       "column" : "box",
       "ar" : "صندوق",
       "en" : "Box",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scPackaging"
     }, {
       "id" : "fixedCosts.dimensions.color",
       "column" : "color",
       "ar" : "اللون",
       "en" : "Color",
-      "type" : "Color"
+      "type" : "Color",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "fixedCosts.dimensions.inactivePerc",
       "column" : "inactivePerc",
       "ar" : "النسبة الغير فعالة",
       "en" : "Inactive Percentage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "fixedCosts.dimensions.locator",
       "column" : "locator_id",
@@ -2095,37 +2161,43 @@
       "column" : "lotId",
       "ar" : "كود الشحنة",
       "en" : "Lot ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scLot"
     }, {
       "id" : "fixedCosts.dimensions.measures",
       "column" : "measures",
       "ar" : "الأبعاد",
       "en" : "Measures",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "fixedCosts.dimensions.revisionId",
       "column" : "revisionId",
       "ar" : "الإصدار",
       "en" : "ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "fixedCosts.dimensions.secondSerial",
       "column" : "secondSerial",
       "ar" : "الرقم المسلسل الثاني",
       "en" : "Second Serial",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scTwoSerials"
     }, {
       "id" : "fixedCosts.dimensions.serialNumber",
       "column" : "serialNumber",
       "ar" : "الرقم المسلسل",
       "en" : "Serial Number",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scSerialNumbers"
     }, {
       "id" : "fixedCosts.dimensions.size",
       "column" : "size",
       "ar" : "المقاس",
       "en" : "Size",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "fixedCosts.dimensions.subItem",
       "column" : "subItem_id",
@@ -2133,7 +2205,8 @@
       "en" : " Customer Car",
       "type" : "Reference",
       "refTo" : "SubItem",
-      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html",
+      "feature" : "scSubItem"
     }, {
       "id" : "fixedCosts.dimensions.warehouse",
       "column" : "warehouse_id",
@@ -2214,13 +2287,15 @@
       "en" : " Calculation Formula",
       "type" : "Reference",
       "refTo" : "CalculationFormula",
-      "refPath" : "/modules/supplychain/CalculationFormula.html"
+      "refPath" : "/modules/supplychain/CalculationFormula.html",
+      "feature" : "scMeasures"
     }, {
       "id" : "halek.colorName",
       "column" : "colorName",
       "ar" : "اسم اللون",
       "en" : "Color Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "halek.comp",
       "column" : "comp_id",
@@ -2254,7 +2329,8 @@
       "column" : "expiryDate",
       "ar" : "تاريخ الإنتهاء",
       "en" : "Expiry Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "scLot"
     }, {
       "id" : "halek.genericDimensions.analysisSet",
       "column" : "analysisSet_id",
@@ -2378,7 +2454,8 @@
       "column" : "productionDate",
       "ar" : "تاريخ الإنتاج",
       "en" : "Production Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "scLot"
     }, {
       "id" : "halek.qtyAtInsert",
       "column" : "qtyAtInsert",
@@ -2398,7 +2475,8 @@
       "en" : "Unit",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "halek.quantity.baseQty.value",
       "column" : "quantityBaseValue",
@@ -2418,37 +2496,43 @@
       "column" : "quantityMeasureQty",
       "ar" : "الأبعاد | عدد",
       "en" : "Measures | Qty",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "halek.quantity.measures.clippedLength1",
       "column" : "quantityClippedLength1",
       "ar" : "أبعادالجزء المقصوص 1 | الطول",
       "en" : "Clipped Part1 Measures | Length",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "halek.quantity.measures.height",
       "column" : "quantityHeight",
       "ar" : "الأبعاد | ر",
       "en" : "Measures | H",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scThirdMeasure"
     }, {
       "id" : "halek.quantity.measures.length",
       "column" : "quantityLength",
       "ar" : "الأبعاد | ط",
       "en" : "Measures | L",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "halek.quantity.measures.text",
       "column" : "quantityText",
       "ar" : "الأبعاد | الأبعاد",
       "en" : "Measures | L * W * H",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "halek.quantity.measures.width",
       "column" : "quantityWidth",
       "ar" : "الأبعاد | ع",
       "en" : "Measures | W",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "halek.quantity.quantity.primeQty.uom",
       "column" : "quantityPUom_id",
@@ -2456,7 +2540,8 @@
       "en" : "Primary | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "halek.quantity.quantity.primeQty.value",
       "column" : "quantityPValue",
@@ -2470,13 +2555,15 @@
       "en" : "Secondary | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "halek.quantity.quantity.secondQty.value",
       "column" : "quantitySValue",
       "ar" : "الوحدة الثانية | الكمية",
       "en" : "Secondary | Quantity",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSecondUnit"
     }, {
       "id" : "halek.quantity.uomRate",
       "column" : "quantityUomRate",
@@ -2526,7 +2613,8 @@
       "column" : "retestDate",
       "ar" : "تاريخ إعادة الاختبار",
       "en" : "retest Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "retestDate"
     }, {
       "id" : "halek.retunLine",
       "column" : "retunLine",
@@ -2542,7 +2630,8 @@
       "column" : "revisionName",
       "ar" : "اسم الإصدار",
       "en" : "Revision Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "halek.satisfiedQty",
       "column" : "satisfiedQty",
@@ -2560,7 +2649,8 @@
       "column" : "sizeName",
       "ar" : "اسم المقاس",
       "en" : "Size Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "halek.sourceLineId",
       "column" : "sourceLineId",
@@ -2578,25 +2668,29 @@
       "column" : "activePerc",
       "ar" : "النسبة الفعالة",
       "en" : "Active Percentage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "halek.specificDimensions.box",
       "column" : "box",
       "ar" : "صندوق",
       "en" : "Box",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scPackaging"
     }, {
       "id" : "halek.specificDimensions.color",
       "column" : "color",
       "ar" : "اللون",
       "en" : "Color",
-      "type" : "Color"
+      "type" : "Color",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "halek.specificDimensions.inactivePerc",
       "column" : "inactivePerc",
       "ar" : "النسبة الغير فعالة",
       "en" : "Inactive Percentage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "halek.specificDimensions.locator",
       "column" : "locator_id",
@@ -2610,37 +2704,43 @@
       "column" : "lotId",
       "ar" : "رقم الشحنه",
       "en" : "Lot ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scLot"
     }, {
       "id" : "halek.specificDimensions.measures",
       "column" : "measures",
       "ar" : "الأبعاد",
       "en" : "Measures",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "halek.specificDimensions.revisionId",
       "column" : "revisionId",
       "ar" : "الإصدار",
       "en" : "Revision ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "halek.specificDimensions.secondSerial",
       "column" : "secondSerial",
       "ar" : "الرقم المسلسل الثاني",
       "en" : "Second Serial",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scTwoSerials"
     }, {
       "id" : "halek.specificDimensions.serialNumber",
       "column" : "serialNumber",
       "ar" : "الرقم المسلسل",
       "en" : "Serial number",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scSerialNumbers"
     }, {
       "id" : "halek.specificDimensions.size",
       "column" : "size",
       "ar" : "المقاس",
       "en" : "Size",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "halek.specificDimensions.subItem",
       "column" : "subItem_id",
@@ -2648,7 +2748,8 @@
       "en" : " Customer Car",
       "type" : "Reference",
       "refTo" : "SubItem",
-      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html",
+      "feature" : "scSubItem"
     }, {
       "id" : "halek.specificDimensions.warehouse",
       "column" : "warehouse_id",
@@ -2684,7 +2785,8 @@
     }, {
       "id" : "halek.theSize",
       "column" : "size",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "halek.transItemType",
       "column" : "transItemType",
@@ -2727,7 +2829,8 @@
       "column" : "warrantyCode",
       "ar" : "كود الضمان",
       "en" : "Warranty Code",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scSerialNumbers"
     } ]
   }, {
     "id" : "lines",
@@ -3113,13 +3216,15 @@
       "en" : " Calculation Formula",
       "type" : "Reference",
       "refTo" : "CalculationFormula",
-      "refPath" : "/modules/supplychain/CalculationFormula.html"
+      "refPath" : "/modules/supplychain/CalculationFormula.html",
+      "feature" : "scMeasures"
     }, {
       "id" : "materials.colorName",
       "column" : "colorName",
       "ar" : "اسم اللون",
       "en" : "Color Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "materials.comp",
       "column" : "comp_id",
@@ -3153,7 +3258,8 @@
       "column" : "expiryDate",
       "ar" : "تاريخ الإنتهاء",
       "en" : "Expiry Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "scLot"
     }, {
       "id" : "materials.genericDimensions.analysisSet",
       "column" : "analysisSet_id",
@@ -3277,7 +3383,8 @@
       "column" : "productionDate",
       "ar" : "تاريخ الإنتاج",
       "en" : "Production Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "scLot"
     }, {
       "id" : "materials.qtyAtInsert",
       "column" : "qtyAtInsert",
@@ -3297,7 +3404,8 @@
       "en" : "Unit",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "materials.quantity.baseQty.value",
       "column" : "quantityBaseValue",
@@ -3317,37 +3425,43 @@
       "column" : "quantityMeasureQty",
       "ar" : "الأبعاد | عدد",
       "en" : "Measures | Qty",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "materials.quantity.measures.clippedLength1",
       "column" : "quantityClippedLength1",
       "ar" : "أبعادالجزء المقصوص 1 | الطول",
       "en" : "Clipped Part1 Measures | Length",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "materials.quantity.measures.height",
       "column" : "quantityHeight",
       "ar" : "الأبعاد | ر",
       "en" : "Measures | H",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scThirdMeasure"
     }, {
       "id" : "materials.quantity.measures.length",
       "column" : "quantityLength",
       "ar" : "الأبعاد | ط",
       "en" : "Measures | L",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "materials.quantity.measures.text",
       "column" : "quantityText",
       "ar" : "الأبعاد | الأبعاد",
       "en" : "Measures | L * W * H",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "materials.quantity.measures.width",
       "column" : "quantityWidth",
       "ar" : "الأبعاد | ع",
       "en" : "Measures | W",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "materials.quantity.quantity.primeQty.uom",
       "column" : "quantityPUom_id",
@@ -3355,7 +3469,8 @@
       "en" : "Primary | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "materials.quantity.quantity.primeQty.value",
       "column" : "quantityPValue",
@@ -3369,13 +3484,15 @@
       "en" : "Secondary | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "materials.quantity.quantity.secondQty.value",
       "column" : "quantitySValue",
       "ar" : "الوحدة الثانية | الكمية",
       "en" : "Secondary | Quantity",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSecondUnit"
     }, {
       "id" : "materials.quantity.uomRate",
       "column" : "quantityUomRate",
@@ -3425,7 +3542,8 @@
       "column" : "retestDate",
       "ar" : "تاريخ إعادة الاختبار",
       "en" : "retest Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "retestDate"
     }, {
       "id" : "materials.retunLine",
       "column" : "retunLine",
@@ -3441,7 +3559,8 @@
       "column" : "revisionName",
       "ar" : "اسم الإصدار",
       "en" : "Revision Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "materials.satisfiedQty",
       "column" : "satisfiedQty",
@@ -3459,7 +3578,8 @@
       "column" : "sizeName",
       "ar" : "اسم المقاس",
       "en" : "Size Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "materials.sourceLineId",
       "column" : "sourceLineId",
@@ -3477,25 +3597,29 @@
       "column" : "activePerc",
       "ar" : "النسبة الفعالة",
       "en" : "Active Percentage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "materials.specificDimensions.box",
       "column" : "box",
       "ar" : "صندوق",
       "en" : "Box",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scPackaging"
     }, {
       "id" : "materials.specificDimensions.color",
       "column" : "color",
       "ar" : "اللون",
       "en" : "Color",
-      "type" : "Color"
+      "type" : "Color",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "materials.specificDimensions.inactivePerc",
       "column" : "inactivePerc",
       "ar" : "النسبة الغير فعالة",
       "en" : "Inactive Percentage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "materials.specificDimensions.locator",
       "column" : "locator_id",
@@ -3509,37 +3633,43 @@
       "column" : "lotId",
       "ar" : "رقم الشحنه",
       "en" : "Lot ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scLot"
     }, {
       "id" : "materials.specificDimensions.measures",
       "column" : "measures",
       "ar" : "الأبعاد",
       "en" : "Measures",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "materials.specificDimensions.revisionId",
       "column" : "revisionId",
       "ar" : "الإصدار",
       "en" : "Revision ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "materials.specificDimensions.secondSerial",
       "column" : "secondSerial",
       "ar" : "الرقم المسلسل الثاني",
       "en" : "Second Serial",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scTwoSerials"
     }, {
       "id" : "materials.specificDimensions.serialNumber",
       "column" : "serialNumber",
       "ar" : "الرقم المسلسل",
       "en" : "Serial number",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scSerialNumbers"
     }, {
       "id" : "materials.specificDimensions.size",
       "column" : "size",
       "ar" : "المقاس",
       "en" : "Size",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "materials.specificDimensions.subItem",
       "column" : "subItem_id",
@@ -3547,7 +3677,8 @@
       "en" : " Customer Car",
       "type" : "Reference",
       "refTo" : "SubItem",
-      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html",
+      "feature" : "scSubItem"
     }, {
       "id" : "materials.specificDimensions.warehouse",
       "column" : "warehouse_id",
@@ -3583,7 +3714,8 @@
     }, {
       "id" : "materials.theSize",
       "column" : "size",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "materials.transItemType",
       "column" : "transItemType",
@@ -3626,7 +3758,8 @@
       "column" : "warrantyCode",
       "ar" : "كود الضمان",
       "en" : "Warranty Code",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scSerialNumbers"
     } ]
   }, {
     "id" : "previousDayLines",
@@ -3645,7 +3778,8 @@
       "en" : "Actual Receipt Quantity | Uom",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "previousDayLines.actualReciptQuantity.value",
       "column" : "actualReciptQuantityValue",
@@ -3727,7 +3861,8 @@
       "en" : " Calculation Formula",
       "type" : "Reference",
       "refTo" : "CalculationFormula",
-      "refPath" : "/modules/supplychain/CalculationFormula.html"
+      "refPath" : "/modules/supplychain/CalculationFormula.html",
+      "feature" : "scMeasures"
     }, {
       "id" : "previousDayLines.cartonCount",
       "column" : "cartonCount",
@@ -3751,7 +3886,8 @@
       "column" : "colorName",
       "ar" : "اسم اللون",
       "en" : "Color Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "previousDayLines.comp",
       "column" : "comp_id",
@@ -3798,7 +3934,8 @@
       "column" : "expiryDate",
       "ar" : "تاريخ الإنتهاء",
       "en" : "Expiry Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "scLot"
     }, {
       "id" : "previousDayLines.fixedMainMaterialCost",
       "column" : "fixedMainMaterialCost",
@@ -3952,7 +4089,8 @@
       "column" : "productionDate",
       "ar" : "تاريخ الإنتاج",
       "en" : "Production Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "scLot"
     }, {
       "id" : "previousDayLines.qtyAtInsert",
       "column" : "qtyAtInsert",
@@ -3976,7 +4114,8 @@
       "en" : "Unit",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "previousDayLines.quantity.baseQty.value",
       "column" : "quantityBaseValue",
@@ -3996,37 +4135,43 @@
       "column" : "quantityMeasureQty",
       "ar" : "الأبعاد | عدد",
       "en" : "Measures | Qty",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "previousDayLines.quantity.measures.clippedLength1",
       "column" : "quantityClippedLength1",
       "ar" : "أبعادالجزء المقصوص 1 | الطول",
       "en" : "Clipped Part1 Measures | Length",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "previousDayLines.quantity.measures.height",
       "column" : "quantityHeight",
       "ar" : "الأبعاد | ر",
       "en" : "Measures | H",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scThirdMeasure"
     }, {
       "id" : "previousDayLines.quantity.measures.length",
       "column" : "quantityLength",
       "ar" : "الأبعاد | ط",
       "en" : "Measures | L",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "previousDayLines.quantity.measures.text",
       "column" : "quantityText",
       "ar" : "الأبعاد | الأبعاد",
       "en" : "Measures | L * W * H",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "previousDayLines.quantity.measures.width",
       "column" : "quantityWidth",
       "ar" : "الأبعاد | ع",
       "en" : "Measures | W",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "previousDayLines.quantity.quantity.primeQty.uom",
       "column" : "quantityPUom_id",
@@ -4034,7 +4179,8 @@
       "en" : "Primary | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "previousDayLines.quantity.quantity.primeQty.value",
       "column" : "quantityPValue",
@@ -4048,13 +4194,15 @@
       "en" : "Secondary | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "previousDayLines.quantity.quantity.secondQty.value",
       "column" : "quantitySValue",
       "ar" : "الوحدة الثانية | الكمية",
       "en" : "Secondary | Quantity",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSecondUnit"
     }, {
       "id" : "previousDayLines.quantity.uomRate",
       "column" : "quantityUomRate",
@@ -4110,7 +4258,8 @@
       "column" : "retestDate",
       "ar" : "تاريخ إعادة الاختبار",
       "en" : "retest Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "retestDate"
     }, {
       "id" : "previousDayLines.retunLine",
       "column" : "retunLine",
@@ -4126,7 +4275,8 @@
       "column" : "revisionName",
       "ar" : "اسم الإصدار",
       "en" : "Revision Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "previousDayLines.satisfiedQty",
       "column" : "satisfiedQty",
@@ -4144,7 +4294,8 @@
       "column" : "sizeName",
       "ar" : "اسم المقاس",
       "en" : "Size Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "previousDayLines.sourceLineId",
       "column" : "sourceLineId",
@@ -4162,25 +4313,29 @@
       "column" : "activePerc",
       "ar" : "النسبة الفعالة",
       "en" : "Active Percentage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "previousDayLines.specificDimensions.box",
       "column" : "box",
       "ar" : "صندوق",
       "en" : "Box",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scPackaging"
     }, {
       "id" : "previousDayLines.specificDimensions.color",
       "column" : "color",
       "ar" : "اللون",
       "en" : "Color",
-      "type" : "Color"
+      "type" : "Color",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "previousDayLines.specificDimensions.inactivePerc",
       "column" : "inactivePerc",
       "ar" : "النسبة الغير فعالة",
       "en" : "Inactive Percentage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "previousDayLines.specificDimensions.locator",
       "column" : "locator_id",
@@ -4194,37 +4349,43 @@
       "column" : "lotId",
       "ar" : "رقم الشحنه",
       "en" : "Lot ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scLot"
     }, {
       "id" : "previousDayLines.specificDimensions.measures",
       "column" : "measures",
       "ar" : "الأبعاد",
       "en" : "Measures",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "previousDayLines.specificDimensions.revisionId",
       "column" : "revisionId",
       "ar" : "الإصدار",
       "en" : "Revision ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "previousDayLines.specificDimensions.secondSerial",
       "column" : "secondSerial",
       "ar" : "الرقم المسلسل الثاني",
       "en" : "Second Serial",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scTwoSerials"
     }, {
       "id" : "previousDayLines.specificDimensions.serialNumber",
       "column" : "serialNumber",
       "ar" : "الرقم المسلسل",
       "en" : "Serial number",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scSerialNumbers"
     }, {
       "id" : "previousDayLines.specificDimensions.size",
       "column" : "size",
       "ar" : "المقاس",
       "en" : "Size",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "previousDayLines.specificDimensions.subItem",
       "column" : "subItem_id",
@@ -4232,7 +4393,8 @@
       "en" : " Customer Car",
       "type" : "Reference",
       "refTo" : "SubItem",
-      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html",
+      "feature" : "scSubItem"
     }, {
       "id" : "previousDayLines.specificDimensions.warehouse",
       "column" : "warehouse_id",
@@ -4268,7 +4430,8 @@
     }, {
       "id" : "previousDayLines.theSize",
       "column" : "size",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "previousDayLines.totalCost",
       "column" : "totalCost",
@@ -4323,7 +4486,8 @@
       "column" : "warrantyCode",
       "ar" : "كود الضمان",
       "en" : "Warranty Code",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scSerialNumbers"
     } ]
   } ]
 }

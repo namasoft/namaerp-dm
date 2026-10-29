@@ -288,7 +288,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -588,7 +589,8 @@
       "en" : "Unit",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "detailLines.finishedProductQty.baseQty.value",
       "column" : "finishedQtyBaseValue",
@@ -608,37 +610,43 @@
       "column" : "finishedQtyMeasureQty",
       "ar" : "الأبعاد | عدد",
       "en" : "Measures | Qty",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "detailLines.finishedProductQty.measures.clippedLength1",
       "column" : "finishedQtyClippedLength1",
       "ar" : "أبعادالجزء المقصوص 1 | الطول",
       "en" : "Clipped Part1 Measures | Length",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "detailLines.finishedProductQty.measures.height",
       "column" : "finishedQtyHeight",
       "ar" : "الأبعاد | ر",
       "en" : "Measures | H",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scThirdMeasure"
     }, {
       "id" : "detailLines.finishedProductQty.measures.length",
       "column" : "finishedQtyLength",
       "ar" : "الأبعاد | ط",
       "en" : "Measures | L",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "detailLines.finishedProductQty.measures.text",
       "column" : "finishedQtyText",
       "ar" : "الأبعاد | الأبعاد",
       "en" : "Measures | L * W * H",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "detailLines.finishedProductQty.measures.width",
       "column" : "finishedQtyWidth",
       "ar" : "الأبعاد | ع",
       "en" : "Measures | W",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "detailLines.finishedProductQty.quantity.primeQty.uom",
       "column" : "finishedQtyPUom_id",
@@ -646,7 +654,8 @@
       "en" : "uom",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "detailLines.finishedProductQty.quantity.primeQty.value",
       "column" : "finishedQtyPValue",
@@ -660,13 +669,15 @@
       "en" : "Secondary | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "detailLines.finishedProductQty.quantity.secondQty.value",
       "column" : "finishedQtySValue",
       "ar" : "الوحدة الثانية | الكمية",
       "en" : "Secondary | Quantity",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSecondUnit"
     }, {
       "id" : "detailLines.finishedProductQty.uomRate",
       "column" : "finishedQtyUomRate",
@@ -730,7 +741,8 @@
       "en" : "Unit",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "detailLines.quantity.baseQty.value",
       "column" : "qtyBaseValue",
@@ -750,37 +762,43 @@
       "column" : "qtyMeasureQty",
       "ar" : "الأبعاد | عدد",
       "en" : "Measures | Qty",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "detailLines.quantity.measures.clippedLength1",
       "column" : "qtyClippedLength1",
       "ar" : "أبعادالجزء المقصوص 1 | الطول",
       "en" : "Clipped Part1 Measures | Length",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "detailLines.quantity.measures.height",
       "column" : "qtyHeight",
       "ar" : "الأبعاد | ر",
       "en" : "Measures | H",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scThirdMeasure"
     }, {
       "id" : "detailLines.quantity.measures.length",
       "column" : "qtyLength",
       "ar" : "الأبعاد | ط",
       "en" : "Measures | L",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "detailLines.quantity.measures.text",
       "column" : "qtyText",
       "ar" : "الأبعاد | الأبعاد",
       "en" : "Measures | L * W * H",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "detailLines.quantity.measures.width",
       "column" : "qtyWidth",
       "ar" : "الأبعاد | ع",
       "en" : "Measures | W",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "detailLines.quantity.quantity.primeQty.uom",
       "column" : "qtyPUom_id",
@@ -788,7 +806,8 @@
       "en" : "uom",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "detailLines.quantity.quantity.primeQty.value",
       "column" : "qtyPValue",
@@ -802,13 +821,15 @@
       "en" : "Secondary | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "detailLines.quantity.quantity.secondQty.value",
       "column" : "qtySValue",
       "ar" : "الوحدة الثانية | الكمية",
       "en" : "Secondary | Quantity",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSecondUnit"
     }, {
       "id" : "detailLines.quantity.uomRate",
       "column" : "qtyUomRate",
@@ -873,13 +894,15 @@
       "en" : " Calculation Formula",
       "type" : "Reference",
       "refTo" : "CalculationFormula",
-      "refPath" : "/modules/supplychain/CalculationFormula.html"
+      "refPath" : "/modules/supplychain/CalculationFormula.html",
+      "feature" : "scMeasures"
     }, {
       "id" : "purchaseLines.colorName",
       "column" : "colorName",
       "ar" : "اسم اللون",
       "en" : "Color Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "purchaseLines.comp",
       "column" : "comp_id",
@@ -913,7 +936,8 @@
       "column" : "expiryDate",
       "ar" : "تاريخ الإنتهاء",
       "en" : "Expiry Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "scLot"
     }, {
       "id" : "purchaseLines.genericDimensions.analysisSet",
       "column" : "analysisSet_id",
@@ -1055,7 +1079,8 @@
       "column" : "productionDate",
       "ar" : "تاريخ الإنتاج",
       "en" : "Production Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "scLot"
     }, {
       "id" : "purchaseLines.qtyAtInsert",
       "column" : "qtyAtInsert",
@@ -1075,7 +1100,8 @@
       "en" : "Unit",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "purchaseLines.quantity.baseQty.value",
       "column" : "quantityBaseValue",
@@ -1095,37 +1121,43 @@
       "column" : "quantityMeasureQty",
       "ar" : "الأبعاد | عدد",
       "en" : "Measures | Qty",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "purchaseLines.quantity.measures.clippedLength1",
       "column" : "quantityClippedLength1",
       "ar" : "أبعادالجزء المقصوص 1 | الطول",
       "en" : "Clipped Part1 Measures | Length",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "purchaseLines.quantity.measures.height",
       "column" : "quantityHeight",
       "ar" : "الأبعاد | ر",
       "en" : "Measures | H",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scThirdMeasure"
     }, {
       "id" : "purchaseLines.quantity.measures.length",
       "column" : "quantityLength",
       "ar" : "الأبعاد | ط",
       "en" : "Measures | L",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "purchaseLines.quantity.measures.text",
       "column" : "quantityText",
       "ar" : "الأبعاد | الأبعاد",
       "en" : "Measures | L * W * H",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "purchaseLines.quantity.measures.width",
       "column" : "quantityWidth",
       "ar" : "الأبعاد | ع",
       "en" : "Measures | W",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "purchaseLines.quantity.quantity.primeQty.uom",
       "column" : "quantityPUom_id",
@@ -1133,7 +1165,8 @@
       "en" : "uom",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "purchaseLines.quantity.quantity.primeQty.value",
       "column" : "quantityPValue",
@@ -1147,13 +1180,15 @@
       "en" : "Secondary | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "purchaseLines.quantity.quantity.secondQty.value",
       "column" : "quantitySValue",
       "ar" : "الوحدة الثانية | الكمية",
       "en" : "Secondary | Quantity",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSecondUnit"
     }, {
       "id" : "purchaseLines.quantity.uomRate",
       "column" : "quantityUomRate",
@@ -1215,7 +1250,8 @@
       "column" : "retestDate",
       "ar" : "تاريخ إعادة الاختبار",
       "en" : "retest Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "retestDate"
     }, {
       "id" : "purchaseLines.retunLine",
       "column" : "retunLine",
@@ -1231,7 +1267,8 @@
       "column" : "revisionName",
       "ar" : "اسم الإصدار",
       "en" : "Revision Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "purchaseLines.satisfiedQty",
       "column" : "satisfiedQty",
@@ -1249,7 +1286,8 @@
       "column" : "sizeName",
       "ar" : "اسم المقاس",
       "en" : "Size Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "purchaseLines.sourceLineId",
       "column" : "sourceLineId",
@@ -1267,25 +1305,29 @@
       "column" : "activePerc",
       "ar" : "النسبة الفعالة",
       "en" : "Active Percentage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "purchaseLines.specificDimensions.box",
       "column" : "box",
       "ar" : "صندوق",
       "en" : "Box",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scPackaging"
     }, {
       "id" : "purchaseLines.specificDimensions.color",
       "column" : "color",
       "ar" : "اللون",
       "en" : "Color",
-      "type" : "Color"
+      "type" : "Color",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "purchaseLines.specificDimensions.inactivePerc",
       "column" : "inactivePerc",
       "ar" : "النسبة الغير فعالة",
       "en" : "Inactive Percentage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "purchaseLines.specificDimensions.locator",
       "column" : "locator_id",
@@ -1299,37 +1341,43 @@
       "column" : "lotId",
       "ar" : "رقم الشحنه",
       "en" : "Lot ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scLot"
     }, {
       "id" : "purchaseLines.specificDimensions.measures",
       "column" : "measures",
       "ar" : "الأبعاد",
       "en" : "Measures",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "purchaseLines.specificDimensions.revisionId",
       "column" : "revisionId",
       "ar" : "الإصدار",
       "en" : "Revision ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "purchaseLines.specificDimensions.secondSerial",
       "column" : "secondSerial",
       "ar" : "الرقم المسلسل الثاني",
       "en" : "Second Serial",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scTwoSerials"
     }, {
       "id" : "purchaseLines.specificDimensions.serialNumber",
       "column" : "serialNumber",
       "ar" : "الرقم المسلسل",
       "en" : "Serial number",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scSerialNumbers"
     }, {
       "id" : "purchaseLines.specificDimensions.size",
       "column" : "size",
       "ar" : "المقاس",
       "en" : "Size",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "purchaseLines.specificDimensions.subItem",
       "column" : "subItem_id",
@@ -1337,7 +1385,8 @@
       "en" : " Customer Car",
       "type" : "Reference",
       "refTo" : "SubItem",
-      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html",
+      "feature" : "scSubItem"
     }, {
       "id" : "purchaseLines.specificDimensions.warehouse",
       "column" : "warehouse_id",
@@ -1373,7 +1422,8 @@
     }, {
       "id" : "purchaseLines.theSize",
       "column" : "size",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "purchaseLines.transItemType",
       "column" : "transItemType",
@@ -1416,7 +1466,8 @@
       "column" : "warrantyCode",
       "ar" : "كود الضمان",
       "en" : "Warranty Code",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scSerialNumbers"
     } ]
   } ]
 }

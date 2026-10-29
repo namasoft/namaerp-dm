@@ -515,7 +515,8 @@
     "en" : "Ensured Legal Entity",
     "type" : "Reference",
     "refTo" : "LegalEntity",
-    "refPath" : "/modules/basic/LegalEntity.html"
+    "refPath" : "/modules/basic/LegalEntity.html",
+    "feature" : "gulfHr"
   }, {
     "id" : "entitySystemEntryId",
     "column" : "entitySystemEntry_id",
@@ -646,7 +647,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "jobPosition",
     "column" : "jobPosition_id",
@@ -956,26 +958,30 @@
     "column" : "ticketValue",
     "ar" : "قيمة التذكرة",
     "en" : "Ticket Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "gulfHr"
   }, {
     "id" : "ticketsNumber",
     "column" : "ticketsNumber",
     "ar" : "عدد التذاكر",
     "en" : "Tickets Number",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "gulfHr"
   }, {
     "id" : "ticketsPeriod.uom",
     "column" : "ticketsPeriodUom",
     "ar" : "الوحدة",
     "en" : "Unit",
     "type" : "Enum",
-    "enum" : "TimePeriodType"
+    "enum" : "TimePeriodType",
+    "feature" : "gulfHr"
   }, {
     "id" : "ticketsPeriod.value",
     "column" : "ticketsPeriodValue",
     "ar" : "القيمة",
     "en" : "Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "gulfHr"
   }, {
     "id" : "totalConstantAdditions",
     "column" : "totalConstantAdditions",

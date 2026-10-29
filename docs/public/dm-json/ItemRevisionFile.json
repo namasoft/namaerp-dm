@@ -7,6 +7,7 @@
   "en" : "Item Revision File",
   "enPlural" : "Item Revision Files",
   "page" : "https://dm.namasoft.com/modules/supplychain/ItemRevisionFile.html",
+  "feature" : "scRevisions",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

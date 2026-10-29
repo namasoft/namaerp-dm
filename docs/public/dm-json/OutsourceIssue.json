@@ -7,6 +7,7 @@
   "en" : "Outsource Issue",
   "enPlural" : "Outsource Issues",
   "page" : "https://dm.namasoft.com/modules/supplychain-gjo/OutsourceIssue.html",
+  "feature" : "GlassJobOrder",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -288,7 +289,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -636,7 +638,8 @@
       "en" : "Unit",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "details.quantity.baseQty.value",
       "column" : "baseValue",
@@ -656,37 +659,43 @@
       "column" : "measureQty",
       "ar" : "الأبعاد | عدد",
       "en" : "Measures | Qty",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.quantity.measures.clippedLength1",
       "column" : "clippedLength1",
       "ar" : "أبعادالجزء المقصوص 1 | الطول",
       "en" : "Clipped Part1 Measures | Length",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.quantity.measures.height",
       "column" : "height",
       "ar" : "الأبعاد | ر",
       "en" : "Measures | H",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scThirdMeasure"
     }, {
       "id" : "details.quantity.measures.length",
       "column" : "length",
       "ar" : "الأبعاد | ط",
       "en" : "Measures | L",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.quantity.measures.text",
       "column" : "text",
       "ar" : "الأبعاد | الأبعاد",
       "en" : "Measures | L * W * H",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.quantity.measures.width",
       "column" : "width",
       "ar" : "الأبعاد | ع",
       "en" : "Measures | W",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.quantity.quantity.primeQty.uom",
       "column" : "pUom_id",
@@ -694,7 +703,8 @@
       "en" : "Item Quantity | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "details.quantity.quantity.primeQty.value",
       "column" : "pValue",
@@ -708,13 +718,15 @@
       "en" : "Secondary | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "details.quantity.quantity.secondQty.value",
       "column" : "sValue",
       "ar" : "الوحدة الثانية | الكمية",
       "en" : "Secondary | Quantity",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSecondUnit"
     }, {
       "id" : "details.quantity.uomRate",
       "column" : "uomRate",
@@ -752,7 +764,8 @@
       "en" : "Unit",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "details.serviceQty.baseQty.value",
       "column" : "serviceQtyBaseValue",
@@ -772,37 +785,43 @@
       "column" : "serviceQtyMeasureQty",
       "ar" : "الأبعاد | عدد",
       "en" : "Measures | Qty",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.serviceQty.measures.clippedLength1",
       "column" : "serviceQtyClippedLength1",
       "ar" : "أبعادالجزء المقصوص 1 | الطول",
       "en" : "Clipped Part1 Measures | Length",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.serviceQty.measures.height",
       "column" : "serviceQtyHeight",
       "ar" : "الأبعاد | ر",
       "en" : "Measures | H",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scThirdMeasure"
     }, {
       "id" : "details.serviceQty.measures.length",
       "column" : "serviceQtyLength",
       "ar" : "الأبعاد | ط",
       "en" : "Measures | L",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.serviceQty.measures.text",
       "column" : "serviceQtyText",
       "ar" : "الأبعاد | الأبعاد",
       "en" : "Measures | L * W * H",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.serviceQty.measures.width",
       "column" : "serviceQtyWidth",
       "ar" : "الأبعاد | ع",
       "en" : "Measures | W",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.serviceQty.quantity.primeQty.uom",
       "column" : "serviceQtyPUom_id",
@@ -810,7 +829,8 @@
       "en" : "Primary UOM Service | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "details.serviceQty.quantity.primeQty.value",
       "column" : "serviceQtyPValue",
@@ -824,13 +844,15 @@
       "en" : "Secondary | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "details.serviceQty.quantity.secondQty.value",
       "column" : "serviceQtySValue",
       "ar" : "الوحدة الثانية | الكمية",
       "en" : "Secondary | Quantity",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSecondUnit"
     }, {
       "id" : "details.serviceQty.uomRate",
       "column" : "serviceQtyUomRate",

@@ -294,7 +294,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -574,13 +575,15 @@
       "column" : "changePercentage2",
       "ar" : "السنة الثانية | نسبة التغير",
       "en" : "Year 2 | Change Percentage",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "threeYearBudget"
     }, {
       "id" : "details.changePercentage3",
       "column" : "changePercentage3",
       "ar" : "السنة الثالثة | نسبة التغير",
       "en" : "Year 3 | Change Percentage",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "twoYearBudget"
     }, {
       "id" : "details.changePercentage4",
       "column" : "changePercentage4",
@@ -610,37 +613,43 @@
       "column" : "creditDebitYear1CreditVal",
       "ar" : "السنة الأولي | دائن",
       "en" : "Year 1 | Credit",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "fourYearBudget"
     }, {
       "id" : "details.creditDebitYear1.debitVal",
       "column" : "creditDebitYear1DebitVal",
       "ar" : "السنة الأولي | مدين",
       "en" : "Year 1 | Debit",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "fourYearBudget"
     }, {
       "id" : "details.creditDebitYear2.creditVal",
       "column" : "creditDebitYear2CreditVal",
       "ar" : "السنة الثانية | دائن",
       "en" : "Year 2 | Credit",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "threeYearBudget"
     }, {
       "id" : "details.creditDebitYear2.debitVal",
       "column" : "creditDebitYear2DebitVal",
       "ar" : "السنة الثانية | مدين",
       "en" : "Year 2 | Debit",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "threeYearBudget"
     }, {
       "id" : "details.creditDebitYear3.creditVal",
       "column" : "creditDebitYear3CreditVal",
       "ar" : "السنة الثالثة | دائن",
       "en" : "Year 3 | Credit",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "twoYearBudget"
     }, {
       "id" : "details.creditDebitYear3.debitVal",
       "column" : "creditDebitYear3DebitVal",
       "ar" : "السنة الثالثة | مدين",
       "en" : "Year 3 | Debit",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "twoYearBudget"
     }, {
       "id" : "details.creditDebitYear4.creditVal",
       "column" : "creditDebitYear4CreditVal",
@@ -838,19 +847,22 @@
       "column" : "valueOfYear1",
       "ar" : "السنة الأولي | صافي",
       "en" : "Year 1 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "fourYearBudget"
     }, {
       "id" : "details.valueOfYear2",
       "column" : "valueOfYear2",
       "ar" : "السنة الثانية | صافي",
       "en" : "Year 2 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "threeYearBudget"
     }, {
       "id" : "details.valueOfYear3",
       "column" : "valueOfYear3",
       "ar" : "السنة الثالثة | صافي",
       "en" : "Year 3 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "twoYearBudget"
     }, {
       "id" : "details.valueOfYear4",
       "column" : "valueOfYear4",

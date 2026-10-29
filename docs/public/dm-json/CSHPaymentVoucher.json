@@ -253,19 +253,22 @@
     "en" : "Fees Account",
     "type" : "Reference",
     "refTo" : "Account",
-    "refPath" : "/modules/accounting/Account.html"
+    "refPath" : "/modules/accounting/Account.html",
+    "feature" : "PaymentMethod"
   }, {
     "id" : "feesTaxValue",
     "column" : "feesTaxValue",
     "ar" : "قيمة ضريبة الرسوم",
     "en" : "Fees Tax Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "PaymentMethod"
   }, {
     "id" : "feesValue",
     "column" : "feesValue",
     "ar" : "قيمة الرسوم",
     "en" : "Fees Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "PaymentMethod"
   }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
@@ -342,7 +345,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -432,7 +436,8 @@
     "column" : "operationNumber",
     "ar" : "رقم العملية",
     "en" : "Operation Number",
-    "type" : "BigText"
+    "type" : "BigText",
+    "feature" : "PaymentMethod"
   }, {
     "id" : "parentCode",
     "column" : "parentCode",

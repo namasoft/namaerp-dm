@@ -1,5 +1,5 @@
 {
-  "about" : "Nama ERP data model index. Every entity has a JSON schema file at https://dm.namasoft.com/dm-json/{name}.json and a human page at https://dm.namasoft.com/modules/{module}/{name}.html. Enum values are at https://dm.namasoft.com/dm-json/enums/{enum}.json.",
+  "about" : "Nama ERP data model index. Every entity has a JSON schema file at https://dm.namasoft.com/dm-json/{name}.json and a human page at https://dm.namasoft.com/modules/{module}/{name}.html. Enum values are at https://dm.namasoft.com/dm-json/enums/{enum}.json. The features that hide entities, grids and fields are at https://dm.namasoft.com/dm-json/features.json.",
   "entities" : [ {
     "name" : "ACCSideConfigSysLine",
     "table" : "ACCSideConfigSysLine",
@@ -2704,7 +2704,8 @@
     "table" : "CalculationFormula",
     "module" : "supplychain",
     "ar" : "صيغة حسابية",
-    "en" : "Calculation Formula"
+    "en" : "Calculation Formula",
+    "feature" : "scMeasures"
   }, {
     "name" : "CandidateJobOffer",
     "table" : "CandidateJobOffer",
@@ -5392,6 +5393,9 @@
       "id" : "details",
       "table" : "EntityActionLine"
     }, {
+      "id" : "manualRunAllowedUsers",
+      "table" : "EntityFlowAllowedUserLine"
+    }, {
       "id" : "runInSites",
       "table" : "EntityFlowSiteLine"
     } ]
@@ -6544,6 +6548,7 @@
     "module" : "basic",
     "ar" : "مجموعة مميزات",
     "en" : "Feature Set",
+    "feature" : "cloudmode",
     "details" : [ {
       "id" : "availableEntities",
       "table" : "FeatureSet_availableEntities"
@@ -8150,6 +8155,7 @@
     "module" : "supplychain-gjo",
     "ar" : "عمليات تشغيل زجاج",
     "en" : "Operations",
+    "feature" : "GlassJobOrder",
     "details" : [ {
       "id" : "details",
       "table" : "GlassOperationMapLine"
@@ -8163,6 +8169,7 @@
     "module" : "supplychain-gjo",
     "ar" : "تشغيلة يوم",
     "en" : "Day Order",
+    "feature" : "GlassJobOrder",
     "details" : [ {
       "id" : "branches",
       "table" : "OrderListBranchData"
@@ -10566,6 +10573,7 @@
     "module" : "supplychain",
     "ar" : "تشكيلة ألوان ومقاسات",
     "en" : "Item Assortment",
+    "feature" : "scSizeAndColor",
     "details" : [ {
       "id" : "details",
       "table" : "ItemAssortmentLine"
@@ -10585,13 +10593,15 @@
     "table" : "ItemCategory",
     "module" : "supplychain",
     "ar" : "فئة صنف",
-    "en" : "Item Category"
+    "en" : "Item Category",
+    "feature" : "scItemAutoCoding"
   }, {
     "name" : "ItemClass1",
     "table" : "ItemClass1",
     "module" : "supplychain",
     "ar" : "تصنيف صنف 1",
     "en" : "Item class 1",
+    "feature" : "scItemClasses",
     "details" : [ {
       "id" : "lines",
       "table" : "ItemClass1Line"
@@ -10605,6 +10615,7 @@
     "module" : "supplychain",
     "ar" : "تصنيف صنف 10",
     "en" : "Item class 10",
+    "feature" : "scItemClasses",
     "details" : [ {
       "id" : "relations",
       "table" : "ItemClass10Range"
@@ -10615,6 +10626,7 @@
     "module" : "supplychain",
     "ar" : "تصنيف صنف 2",
     "en" : "Item class 2",
+    "feature" : "scItemClasses",
     "details" : [ {
       "id" : "relations",
       "table" : "ItemClass2Range"
@@ -10625,6 +10637,7 @@
     "module" : "supplychain",
     "ar" : "تصنيف صنف 3",
     "en" : "Item class 3",
+    "feature" : "scItemClasses",
     "details" : [ {
       "id" : "relations",
       "table" : "ItemClass3Range"
@@ -10635,6 +10648,7 @@
     "module" : "supplychain",
     "ar" : "تصنيف صنف 4",
     "en" : "Item class 4",
+    "feature" : "scItemClasses",
     "details" : [ {
       "id" : "relations",
       "table" : "ItemClass4Range"
@@ -10645,6 +10659,7 @@
     "module" : "supplychain",
     "ar" : "تصنيف صنف 5",
     "en" : "Item class 5",
+    "feature" : "scItemClasses",
     "details" : [ {
       "id" : "relations",
       "table" : "ItemClass5Range"
@@ -10655,6 +10670,7 @@
     "module" : "supplychain",
     "ar" : "تصنيف صنف 6",
     "en" : "Item class 6",
+    "feature" : "scItemClasses",
     "details" : [ {
       "id" : "relations",
       "table" : "ItemClass6Range"
@@ -10665,6 +10681,7 @@
     "module" : "supplychain",
     "ar" : "تصنيف صنف 7",
     "en" : "Item class 7",
+    "feature" : "scItemClasses",
     "details" : [ {
       "id" : "relations",
       "table" : "ItemClass7Range"
@@ -10675,6 +10692,7 @@
     "module" : "supplychain",
     "ar" : "تصنيف صنف 8",
     "en" : "Item class 8",
+    "feature" : "scItemClasses",
     "details" : [ {
       "id" : "relations",
       "table" : "ItemClass8Range"
@@ -10685,6 +10703,7 @@
     "module" : "supplychain",
     "ar" : "تصنيف صنف 9",
     "en" : "Item class 9",
+    "feature" : "scItemClasses",
     "details" : [ {
       "id" : "relations",
       "table" : "ItemClass9Range"
@@ -10694,13 +10713,15 @@
     "table" : "ItemColor",
     "module" : "supplychain",
     "ar" : "لون صنف",
-    "en" : "Item Color"
+    "en" : "Item Color",
+    "feature" : "scSizeAndColor"
   }, {
     "name" : "ItemColorClassification",
     "table" : "ItemColorClassification",
     "module" : "supplychain",
     "ar" : "تصنيف لون صنف",
-    "en" : "Item Color Classification"
+    "en" : "Item Color Classification",
+    "feature" : "scSizeAndColor"
   }, {
     "name" : "ItemConfigurations",
     "table" : "ItemConfigurations",
@@ -10793,6 +10814,7 @@
     "module" : "supplychain",
     "ar" : "اصدار صنف",
     "en" : "Item Revision File",
+    "feature" : "scRevisions",
     "details" : [ {
       "id" : "colorLines",
       "table" : "ItemRevisionFileColor"
@@ -10828,19 +10850,22 @@
     "table" : "ItemSize",
     "module" : "supplychain",
     "ar" : "مقاس صنف",
-    "en" : "Item Size"
+    "en" : "Item Size",
+    "feature" : "scSizeAndColor"
   }, {
     "name" : "ItemSizeClassification",
     "table" : "ItemSizeClassification",
     "module" : "supplychain",
     "ar" : "تصنيف مقاس صنف",
-    "en" : "Item Size Classification"
+    "en" : "Item Size Classification",
+    "feature" : "scSizeAndColor"
   }, {
     "name" : "ItemSizeColorCollection",
     "table" : "ItemSizeColorCollection",
     "module" : "supplychain",
     "ar" : " مصفوفة ألوان ومقاسات و إصدارات",
     "en" : " Size Color Revision Collection",
+    "feature" : "scSizeAndColor",
     "details" : [ {
       "id" : "colorLines",
       "table" : "ItemCollectionColorLine"
@@ -11083,6 +11108,7 @@
     "module" : "supplychain-gjo",
     "ar" : "مصاريف على أمر شغل",
     "en" : "Order Expense",
+    "feature" : "GlassJobOrder",
     "details" : [ {
       "id" : "lines",
       "table" : "JOrderExpenseLine"
@@ -11606,7 +11632,8 @@
     "table" : "Locator",
     "module" : "supplychain",
     "ar" : "موقع",
-    "en" : "Locator"
+    "en" : "Locator",
+    "feature" : "scLocation"
   }, {
     "name" : "LocatorTaking",
     "table" : "LocatorTaking",
@@ -13362,7 +13389,7 @@
   }, {
     "name" : "MobileSecurityConfig",
     "table" : "MobileSecurityConfig",
-    "module" : "system-tables",
+    "module" : "basic",
     "ar" : "إعدادات صلاحيات الموبايل",
     "en" : "Mobile Security Configuration",
     "details" : [ {
@@ -14246,6 +14273,7 @@
     "module" : "supplychain-gjo",
     "ar" : "سند تلفيات",
     "en" : "Order Damage",
+    "feature" : "GlassJobOrder",
     "details" : [ {
       "id" : "details",
       "table" : "OrderDamageLine"
@@ -14256,6 +14284,7 @@
     "module" : "supplychain-gjo",
     "ar" : "تسليم عميل",
     "en" : "Order Delivery",
+    "feature" : "GlassJobOrder",
     "details" : [ {
       "id" : "details",
       "table" : "OrderDeliveryLine"
@@ -14266,6 +14295,7 @@
     "module" : "supplychain-gjo",
     "ar" : "تنفيذ تشغيلة",
     "en" : "Service Execution",
+    "feature" : "GlassJobOrder",
     "details" : [ {
       "id" : "batchInfo",
       "table" : "OrderExecutionBatchInfo"
@@ -14285,6 +14315,7 @@
     "module" : "supplychain-gjo",
     "ar" : "إنهاء وتسليم لصالة التسليم",
     "en" : "Order Finished",
+    "feature" : "GlassJobOrder",
     "details" : [ {
       "id" : "details",
       "table" : "OrderFinishedLine"
@@ -14323,6 +14354,7 @@
     "module" : "supplychain-gjo",
     "ar" : "صرف لتصنيع خارجي",
     "en" : "Outsource Issue",
+    "feature" : "GlassJobOrder",
     "details" : [ {
       "id" : "details",
       "table" : "OutsourceIssueLine"
@@ -14333,6 +14365,7 @@
     "module" : "supplychain-gjo",
     "ar" : "استلام تصنيع خارجي",
     "en" : "Outsource Receipt",
+    "feature" : "GlassJobOrder",
     "details" : [ {
       "id" : "details",
       "table" : "OutsourceReceiptLine"
@@ -14343,6 +14376,7 @@
     "module" : "supplychain-gjo",
     "ar" : "طلب تصنيع خارجي",
     "en" : "Outsource Request",
+    "feature" : "GlassJobOrder",
     "details" : [ {
       "id" : "details",
       "table" : "OutsourceRequestLine"
@@ -14386,6 +14420,7 @@
     "module" : "basic-payment-gateway",
     "ar" : "Payment Gateway Method Group",
     "en" : "Payment Gateway Method Group",
+    "feature" : "paymentGateway",
     "details" : [ {
       "id" : "details",
       "table" : "PGWMethodGroupLine"
@@ -16053,7 +16088,8 @@
     "table" : "PaymentTerminal",
     "module" : "basic-payment-gateway",
     "ar" : "Payment Terminal",
-    "en" : "Payment Terminal"
+    "en" : "Payment Terminal",
+    "feature" : "paymentGateway"
   }, {
     "name" : "PaymentVoucher",
     "table" : "PaymentVoucher",
@@ -16366,6 +16402,7 @@
     "module" : "supplychain-inventory",
     "ar" : "منع إستخدام الشحنة",
     "en" : "Prevent Using Batch",
+    "feature" : "scLot",
     "details" : [ {
       "id" : "details",
       "table" : "PreventUsingBatchLine"
@@ -18353,7 +18390,8 @@
     "table" : "ReplicationSite",
     "module" : "basic",
     "ar" : "موقع تكرار",
-    "en" : "Replication Site"
+    "en" : "Replication Site",
+    "feature" : "replication"
   }, {
     "name" : "ReplicationStatistics",
     "table" : "ReplicationStatistics",
@@ -20067,6 +20105,7 @@
     "module" : "supplychain-gjo",
     "ar" : "تفاصيل التشغيل",
     "en" : "Service Item BOM",
+    "feature" : "GlassJobOrder",
     "details" : [ {
       "id" : "materials",
       "table" : "ServiceItemMaterial"
@@ -20519,6 +20558,7 @@
     "module" : "supplychain",
     "ar" : "أبعاد قياسية",
     "en" : "Standard Measures",
+    "feature" : "scMeasures",
     "details" : [ {
       "id" : "details",
       "table" : "StandardMeasuresLine"
@@ -20989,6 +21029,12 @@
     "ar" : "دولة سفر",
     "en" : "Travel Country"
   }, {
+    "name" : "TRExternalDriver",
+    "table" : "TRExternalDriver",
+    "module" : "system-tables",
+    "ar" : "سائق خارجي",
+    "en" : "External Driver"
+  }, {
     "name" : "TRHotel",
     "table" : "TRHotel",
     "module" : "travel",
@@ -21010,6 +21056,22 @@
     "module" : "travel",
     "ar" : "قسيمة فندق",
     "en" : "Hotel Voucher"
+  }, {
+    "name" : "TRPaxCheckIn",
+    "table" : "TRPaxCheckIn",
+    "module" : "system-tables",
+    "ar" : "تسجيل وصول الركاب",
+    "en" : "Pax Check-In",
+    "details" : [ {
+      "id" : "paxData",
+      "table" : "TRPaxCheckInLine"
+    } ]
+  }, {
+    "name" : "TRPlatform",
+    "table" : "TRPlatform",
+    "module" : "system-tables",
+    "ar" : "منصة",
+    "en" : "Platform"
   }, {
     "name" : "TRPurchaseInvoice",
     "table" : "TRPurchaseInvoice",
@@ -21170,6 +21232,9 @@
     }, {
       "id" : "flights",
       "table" : "TRTourFlightLine"
+    }, {
+      "id" : "paxData",
+      "table" : "TRTourPaxDataLine"
     }, {
       "id" : "services",
       "table" : "TRTourServiceLine"
@@ -21344,6 +21409,7 @@
     "module" : "basic",
     "ar" : "سياسة الضريبة",
     "en" : "Tax Plan",
+    "feature" : "scSalesTax",
     "details" : [ {
       "id" : "legalEntityTaxes",
       "table" : "LegalEntityTax"
@@ -22210,5 +22276,5 @@
     "ar" : "تصنيف مهمة عمل",
     "en" : "Work Task Category"
   } ],
-  "enums" : [ "AIChatMessageType", "AIFieldType", "AIToolType", "AUAccountChartClass", "AUAssertionType", "AUChangeType", "AURiskType", "AccDistribPolicy", "AccDistribType", "AccMultiDistributeType", "AccSideType", "AcceptableAnswer", "AccountChartClass", "AccountDimensionSourceType", "AccountType", "ActionType", "AddedUserType", "AddingExpenseItemOptions", "AdultOrChild", "AdvancePaymentMethod", "AgrInvestmentContractStatus", "AgrInvestmentContractType", "AgreedPriceSource", "AllowanceType", "AnswerType", "AppFormElementType", "ApplicabilityMethod", "ApplicableWhen", "ApplicationMethod", "ApplyType", "ApprovalCaseState", "ApprovalDecision", "ApprovalEndAction", "ApprovalInitiator", "ApprovalStatus", "AscendingOrDescending", "AssayContractType", "AssayStatus", "AssemblyCostType", "AssemblyDocCalcGridType", "AssemblyDocStatus", "AssemblyProcessCalcMethod", "AttachedFileContentType", "AttendanceCertificate", "AttendanceMachineConnectionType", "AttendanceMachineResponseField", "AttendanceShiftType", "AuditStatusType", "AuthorityType", "AutoSaveBehavior", "AutoTicketingStepType", "BankAccountType", "BankAdjustmentType", "BankAssuranceType", "BarcodeType", "BasinSlotType", "BenefitClassification", "BorderLinePreset", "BudgetExceededBehavior", "BusActionType", "BusStatus", "BusType", "BusinessFunction", "BuyerPaymentType", "CPAPerformService", "CPAProcedureStatus", "CPAProjectMileStoneStatus", "CPAProjectStatus", "CPARequestState", "CPASalesQuotationStatus", "CPATaskStatus", "CPATimeSheetStatus", "CRMCallDirection", "CRMCompOrSugestion", "CRMCompliantSource", "CRMFollowUpActivityType", "CRMFollowUpStatus", "CRMFollowUpSubStatus", "CRMLeadStatus", "CRMLeadType", "CRMPlanTaskType", "CRMPlatform", "CRMQuestionairStatus", "CRMSalesStage", "CRMTaskStatus", "CRMTaskType", "CRTNLayerType", "CRTNManufacturingType", "CRTNPlaningSolutionType", "CRTNPlanningStatus", "CRTNProductionStages", "CalcMagentoQuantityType", "CampaignStatus", "CapabilityType", "CarActionType", "CarAuthorizationType", "CarClassification", "CarOwnership", "CarStatus", "CarType", "CashFlowType", "CategoryLevel", "ChangeType", "ChargeType", "ChartColumnUsage", "ChatConversationType", "ChatMessageStatus", "ChatMessageType", "ChatParticipantRole", "CheckResult", "ClassificationType", "ClosingEntryBatchPhase", "ClosingEntryGenStatus", "CoProductCostType", "CoSectorType", "CollectionWay", "Color", "ColorScheme", "ColorVariation", "CompanyType", "CompliantStatus", "ComponentCalcType", "ComponentPosition", "ComponentPositionMethod", "ComponentType", "ConditionEffectType", "ConditionRelationWithDocs", "ConditionType", "ConditionValType", "ConfigPropertyName", "ConfigurationType", "ConsiderActivePercentageType", "ConsolidationRateType", "ContactTitle", "ContrConcernedParty", "ContrItemType", "ContrWorkAreaType", "ContractType", "ContractTypeDependency", "ContractingCondStatus", "ContractingExtractType", "ContractingTermType", "ContractingTimePeriod", "ConversionType", "CopyTemplateFrom", "CostDistribution", "CostReallocation", "CostTransType", "CostType", "CouponCodingMehod", "CouponDimensionsCopyMethod", "CouponInvoiceValueSource", "CourseContractStatus", "CourseEvaluationType", "CourseStatus", "CreditFacilityLimitCalculationMethod", "CreditFacilityPaymentEffectOnRemaining", "CreditFacilityPaymentMethod", "CreditFacilityStatus", "CriteriaApplicationPolicy", "CriteriaValidatorApplicability", "CurrencyRateDerivation", "CurrencyRateKind", "CustodyStatus", "CustomEquationLinesSource", "CustomRepLaunchType", "DLVDeliveredStatus", "DLVDeliveryDocumentStatus", "DMSDocumentState", "DMSMovementType", "DMSOutMovementType", "DamageType", "DashBoardElementType", "DashBoardTheme", "DashboardKind", "DatabaseCleanerStatus", "DatanuumRequestType", "DatanuumResponseStatus", "DateCalculationMethod", "DefaultUOM", "DeliverdToType", "DeliveringPurpose", "DeliveryMethod", "DeliveryQueueStatus", "DeliveryState", "DeliveryStatus", "DensityMode", "DepositPaymentType", "DescriptorType", "DevelopmentType", "DimensionPolicy", "DimensionSourceEntityType", "DimensionSourceType", "DiscountCouponCalcType", "DiscountCouponStatus", "DiscountLocation", "DiscountLocationWithHeader", "DiscountType", "DiscountUpdaterField", "DisplayNumberAs", "DisplayReferenceAs", "DistributeCostType", "DistributionOrder", "DocumentFileStatus", "DrivingLicenseType", "EDocumentType", "EInvoiceDiscountLocation", "EInvoiceDocType", "EInvoiceReceiverMode", "EInvoiceSignerType", "EInvoiceSubmissionEntryStatus", "EInvoiceUnitPriceSource", "EInvoiceUnitPriceType", "EcommerceEntityType", "EcommerceEventType", "EcommerceGraphEntityOperation", "EcommerceItemType", "EcommerceProductType", "EditAuthority", "EditType", "EditedObjectSourceTypeEnum", "ElementUpdateType", "EltezamLookupType", "EltezamOperation", "EltezamSendState", "EmailSendType", "EmployeeState", "EndStockTakingTaskType", "EndType", "EnrollmentStateType", "EntityCreationType", "EntityTargetAction", "EquaitionOperatorType", "EvacuationApprovalDecision", "EvacuationApprovalState", "EvaluationType", "ExcelFunction", "ExchangeRateType", "ExistenceType", "ExpensValueType", "ExpenseCreditSide", "ExporetdFields", "ExpressionRelationship", "ExpressionType", "ExpressionValueType", "ExtraDataSendType", "FADepreciationMethod", "FAStatus", "FATakingStatus", "FATakingType", "FPStatus", "FRMFreightType", "FRMFrequency", "FRMLocationStatus", "FRMOperationStatus", "FRMPriceListType", "FRMServiceContractType", "FRMTiming", "FSBalanceMovOpeningEqType", "FSComparisonType", "FSDebitCreditEquationType", "FSGroupBy", "FSIssueDocType", "FSLineLevel", "FSOpenningEquation", "FSTotals", "FacilityDescription", "FacilityLimtType", "FacilityType", "FavouriteItemLevel", "FeesType", "FieldAuthorityType", "FieldExportType", "FieldLayout", "FieldLayoutType", "FieldLinkType", "FillByAI", "FilterType", "FinancialPaperType", "FingerPrintException", "FiringReason", "FiscalPeriodStatus", "FiscalPeriodType", "FixedDepositState", "FixedDepositType", "FlatType", "FlatUsage", "FlowEntityTypeStrategy", "FontSize", "FormulaCalcMethod", "FormulaType", "FreeGroupPolicy", "FreeOfferPolicy", "FreightChargesType", "Gender", "GenerationType", "GlobalShortcutTargetType", "GoPayAccountMethod", "GoPayAccountType", "GoPayURLType", "GridFieldVisibilty", "GridSizeEnum", "GroupSection", "GuaranteeType", "HMSDocDegree", "HMSInvoiceType", "HMSLabTestStatus", "HMSOtherSurgeryDiscountValue", "HMSPatientCheckType", "HMSRoomBehavior", "HMSRoomStatus", "HMSRoomType", "HMSWeekDay", "HOCounterType", "HOOwnerShipType", "HRAllowRegenerate", "HRDocStatus", "HRRequestState", "HelpMessageContentType", "IPInvestmentSysEntryType", "IPSMailRetentionActionType", "IPSParcelsReceiverResponse", "IPSReceptaclesReceiptActionType", "IPSRetentionType", "IPSTaskType", "IPTermType", "ImplementationRepositoryType", "ImportExpressionType", "ImportingExportingType", "IncomeStatementEquationType", "InspectionDecsion", "InstallmentEditType", "InstallmentEffectField", "InstallmentState", "InstallmentsType", "InsuranceCategory", "InsuranceType", "Insured", "InterestCalcMethod", "InterestType", "InternalTransferType", "InterviewState", "InvItemCodeType", "InvTransReqType", "InvestmentDocStatus", "InvestmentDocType", "InvoiceOfferDiscountType", "IssueType", "ItemBarcodeProperty", "ItemClassRangeRelation", "ItemDimensionsAutoFillPolicy", "ItemPropertiesDisplayMethod", "ItemRelationType", "ItemRequestStatus", "ItemType", "ItemWarehouseRelationType", "JODamageType", "JODocStatus", "JOOperationType", "JOSalesOrderLineType", "JOSalesType", "JOrderExpenseType", "JREvaluationTimeEnum", "JRFill", "JRHorizontalAlign", "JRLineSpacing", "JRLineStyle", "JRMarkup", "JRModeEnum", "JRRotation", "JRScaleImage", "JRVerticalAlign", "JasperBand", "JasperVariableCalculation", "JasperVariableResetType", "JobOfferState", "JobOrderType", "JobTitle", "KeyboardKey", "LCActionType", "LCReqStatus", "LCShapeType", "LCState", "LGTType", "LanguageEnum", "LargeNumOperator", "LayoutMethod", "LeadSource", "LeastNumOperator", "LeavePermissionType", "LeaveReasonApplyOn", "LecturerSalaryCalcMethod", "LedgerEffectType", "LetterCaseType", "LetterOfGuaranteeReqType", "LetterOfGuaranteeStatus", "LineNumberGroup", "LineNumberType", "LinesType", "LinkingLetterType", "LiquidationComponentIncludedInType", "LiquidationStatus", "LiquidationType", "ListDisplayType", "ListViewPageSize", "LoanInterestType", "LoanPeriodType", "MAGPriceSourceLocation", "MCAdditionDeductionType", "MCContractTermType", "MCContractType", "MCCostItemType", "MCEquipmentCategory", "MCEquipmentType", "MCJobOrderStatus", "MCLaborUpdateTarget", "MCMaintenanceOccurenceType", "MCMaintenanceStatus", "MCProjectType", "MCTenderStatus", "MCTenderUpdateType", "MCWorkAreaType", "MFGMoldStatus", "MFGMoldType", "MRPAggregationPeriodType", "MRPForcastingPeriod", "MRPQtySrcType", "MachineRecallRequestType", "MagEcommerceSiteType", "MagentoOperationType", "MagentoPriceType", "MainOrSubType", "MainStatusEffectType", "MainStatusType", "MaintenanceOccurenceType", "MaintenanceStatus", "MaintenanceType", "MaritalStatus", "MaterialClassificationGrid", "MaxLoanType", "MealAllowanceType", "MealDeliveryStatus", "MeasurementsRequestStatus", "MeasuresType", "MediaType", "MenuTargetType", "MessageQueue", "MnCurrentStatusType", "MnOrderExeStatus", "MnOrderType", "MnStatusType", "MnVisitType", "MnWorkPlanGenerateType", "MobileAppActionType", "MobileAppShortcutType", "MobileAppSourcePrice", "MobileAppTargetMenuItem", "MobileEntityTitleType", "MobileEntityType", "MobileHeaderFieldsDisplayMethod", "MobileHeaderFieldsSize", "MobileIdentifierDocumentStatus", "MobileReferenceShowType", "ModifyWhileUnderApprovalPolicy", "MoneyEffectOperation", "MoneyEffectSource", "MoneyEffectSourceType", "MoneyEffectTypeDF", "MultiplesRoundingMode", "NamaDayOfWeek", "NamaPOSDepreciationReasonDiscount", "NamaPosAdditionalItemsType", "NamaPosUiSettingsSrc", "NoneTreatmentAnswer", "NotificationStatus", "OKTreatmentAnswer", "OfferItemsCountMechanism", "OfferMultiplePolicyMechanism", "OfferReplacementPolicy", "OnlinePaymentFieldType", "OnlinePaymentLinkStatus", "OnlinePaymentType", "OperationGroupPricing", "OperationStep", "OperationType", "Operator", "OrderCloseType", "OrderImportance", "OrderStatus", "OtherBankAssuranceType", "OtherComponentEffectType", "OtpFormat", "OverheadCalcuationType", "OverheadDistributionType", "OverrideSelectedDimension", "PFSalesSourceEffectType", "POROStatus", "POSBusinessFunction", "POSFieldType", "POSHeaderFields", "POSHeldInvoiceStatus", "POSLineCollectionMethod", "POSPaymentDocType", "POSProcedures", "POSReadQueueUpdateType", "POSSalesHeaderField", "POSSalesInvoiceType", "POSSalesReturnType", "POSSecurityCapability", "PRRStatus", "PackagingMethod", "PaperDirection", "ParamFieldType", "ParamOverrideUsage", "ParamSource", "ParamType", "ParameterType", "PartyType", "PatternType", "PayType", "PaymentFrequencyType", "PaymentGatewayProvider", "PaymentMethodCalcType", "PaymentMethodType", "PaymentStarategy", "PaymentStatus", "PaymentType", "PaymentWay", "PaymentsType", "PenaltyUom", "PendingSystemActionType", "PercentBasis", "PerformanceFactor", "PerformanceIndicatorType", "PerformanceIndicatorValueType", "PeriodType", "PickDimensionSource", "PickPolicy", "PickType", "PivotColumnType", "PlanningStatus", "PointsExpiryType", "PoleCommunicationType", "PosPrepFormPrintMethod", "PosReqFieldRelationWithRef", "PosSalesGridField", "PosServiceItemCalcType", "PostponeType", "PreferredLanguageType", "PriceListDefaultPrice", "PriceSource", "PriceUpdaterApplicability", "PriceUpdaterField", "PriceUpdatingPolicy", "PriceValueType", "PriceVotingStatus", "PricingAction", "PricingOperator", "PricingParameter", "PrintAuthority", "Priority", "ProcedureType", "ProdOrderReqStatus", "ProdOrderStatus", "ProductStatus", "ProductType", "ProjectStatus", "ProjectType", "ProvisionMonthType", "PurchaseIncoTerm", "PurchaseOrderStatus", "PurchaseQuotationDeliveryMethod", "PurchaseQuotationRequestStatus", "PurchaseQuotationStatus", "PurgeBatchPhase", "PurgeBehavior", "PurgeInfoType", "PurgeStatus", "PurposeType", "QtyEffectType", "QtyTransType", "QualificationType", "QualityListType", "QuantityAffectedType", "QuantityEffectType", "QuantitySourceType", "QuantityToSendType", "QuantityType", "QuantityValueCopyType", "QuestionResponseType", "QueueEntryStatus", "REBuildingStatus", "RECommissionCalculationBasis", "RECostDistribution", "REExitType", "REInstallmentType", "REInvestmentInvestorType", "REMaintenanceAccrualBasis", "REOwnerType", "RERentStatus", "RERentalUnitType", "REReservationStatus", "REReturnPaymentMethod", "RESalesDocType", "RESalesPriceListType", "REUnitType", "REWaiverType", "RElandStatus", "ROIPeriod", "RVPVReqStatus", "RaiseSizesRequest", "ReLandUsageType", "ReconciliationStep", "ReferenceOrderBy", "RegionType", "RelationType", "Religion", "RemainingProcessingPolicy", "RepLaunchType", "RepOutputFormat", "ReportPageFormat", "ReportPageOrientation", "ReportType", "ReqQtyMethodType", "RequestType", "ReservationStatus", "ReservationType", "ResourceCalcType", "ResourceCostBasis", "ResourceType", "ResponsibleDimEntityType", "ResponsibleType", "ReviseLevel", "RevisionType", "RewardPenaltyIssue", "RewardPointCalculationMethod", "RewardPointsConfigApplicability", "RewardPointsConfigType", "RiskApplyType", "RiskExistenceType", "RoomUsage", "RoundingType", "RuleApplyType", "SFDARSDEnvironment", "SFDARSDGtinSource", "SFDARSDIncomingDispatchStatus", "SFDARSDOperation", "SForecastType", "SIInstallmentParty", "SIInstallmentProgramStatus", "SIInstallmentQuotationStatus", "SIInsuranceBeneficiary", "SIInsuranceCategoryType", "SIInsurancePaymentMethod", "SIInsurancePolicyPaymentStatus", "SIInsurancePolicyPhysicalStatus", "SIInsurancePolicyStatus", "SIPolicyRequestStatus", "SIProgramSource", "SIProgramType", "SISaleType", "SMFPerfectOperationSuggestion", "SMFProblemDeclarationSteps", "SafetyStockCalCulationType", "SafetyStockPeriodsCalcMethod", "SalaryBlockCondition", "SalaryCompEffectType", "SalaryDistributionType", "SalaryIncreaseType", "SalaryPaymentMethod", "SalarySheetStatus", "SalesInvoiceType", "SalesItemsCountType", "SalesOfferFreeItemClassification", "SalesOrderStatus", "SalesPriceCalcType", "SalesPriceRoundingType", "SalesPricingSource", "SalesRetRequestStatus", "SalesReturnType", "ScheduleType", "ScreenBlockModifierEffect", "ScreenModifierApplicability", "ScreenModifierEffect", "ScreenQuickFilterEffect", "SearchColumnVisibility", "SecurityApplicationType", "SecurityEquivalentType", "SemestersType", "SerialType", "ServiceContractStatus", "ServiceContractType", "ServiceExecutionType", "ServiceFeesOrChargedToCustomer", "ServiceFeesTreatmentInAdditionCase", "SessionStatus", "ShiftIndicatorType", "ShipmentState", "ShippingPolicy", "ShippingSiteType", "ShippingWay", "ShowCustomRepIn", "ShowRunningTotalInsteadOfValue", "SizingSystem", "SkillLevel", "SortDirection", "SortMethod", "SortType", "SoundEffects", "SourceInvoiceCalculation", "SourceSelectionMethod", "SpecificationType", "SqlAggregationType", "SrvCIssueType", "SrvCJobOrderStatus", "SrvcOrderInvoiceStatus", "StockTakingCalculation", "StockTakingMissingItems", "StockTakingStatus", "StorageType", "StudentContractType", "StudentProgramType", "SubItemCondition", "SubItemDeliveryStatus", "SubItemStatusType", "SubmittalStatus", "SubsidiaryAccountType", "SubsidiaryType", "SysAccountTransNature", "SysIndicatorApprovalType", "SysSaveBehavior", "SystemIndicatorType", "TRSituation", "TRTourStatus", "TRVoucherExtras", "TableType", "TargetAudience", "TargetPlan", "TaskDevelopmentStatus", "TaskScheduleExecutionStatus", "TaskStatus", "TaskType", "TaxApplyType", "TaxAuthorityEntityStatusType", "TaxCodesType", "TaxConfigDefault", "TaxEInvoiceSignatureType", "TaxItemTypeCodeFromType", "TaxItemValuesFromType", "TaxLocation", "TaxPayerType", "TeachingMethod", "TechnicianAppointmentPeriodChangeType", "TechnicianAppointmentStatus", "TelegramLinkStatus", "TelegramMessageState", "TelegramParseMode", "TemplateUpdatingType", "TermStatus", "TerminationCalcDaysType", "TerminationCalcType", "TerminationSectionType", "TestConclusion", "TestType", "TextDirection", "TextLanguage", "TicketExecutionStatus", "TicketPaymentType", "TicketPriceType", "TicketSeverity", "TicketStatus", "TicketStatusForEntry", "TicketType", "TimePeriodType", "TooltipDefApplyToRange", "TotalPosition", "TrainingCourseStatus", "TransLineItemType", "TransactionRequestStatus", "TransactionRequestType", "TransferType", "TreasuryBillState", "TrueFalseDefault", "UpdateInfoType", "UsedWith", "UserFavouritesElementType", "UserFeedback", "VacancyStatus", "VacationCalcPolicy", "VacationCalcType", "VacationClass", "VacationFactor", "VacationHolidayPolicyType", "VacationRepetitionStart", "VacationRepetitionType", "VacationTransferPolicy", "VacationUnderDay", "VacationUpdateType", "VacationWeekRestPolicyType", "Validity", "ValueCalculationMethod", "ValueMethod", "ValueType", "VehicleState", "ViewModificationType", "ViewNotificationContent", "ViolationRepetitionPeriod", "VirtualEntityMaterialization", "VoucherType", "WMSEntryStatus", "WMSPalletStatus", "WMSPriority", "WarePriority", "WareSource", "WarehouseIssueMethod", "WarehouseSourceType", "WarehouseType", "WarehouseUsagePolicyMode", "WarrantyStatus", "WeightScaleBarcodeProperty", "WhatsAppMessageServiceProvider", "WhatsAppMessageState", "WhatsAppMessageType", "WhatsAppTemplateParamType", "WhenNoDataType", "WizardFieldType", "WorkStartingType", "WorkTaskStatus", "YearlyAddedValueType", "YesNo", "YesNoAnswer", "YesNoDefault", "YesNoInheritedPolicy", "ZATCAExemptionReasonCode", "ZATCAIdType" ]
+  "enums" : [ "AIChatMessageType", "AIFieldType", "AIToolType", "AUAccountChartClass", "AUAssertionType", "AUChangeType", "AURiskType", "AccDistribPolicy", "AccDistribType", "AccMultiDistributeType", "AccSideType", "AcceptableAnswer", "AccountChartClass", "AccountDimensionSourceType", "AccountType", "ActionType", "AddedUserType", "AddingExpenseItemOptions", "AdultOrChild", "AdvancePaymentMethod", "AgrInvestmentContractStatus", "AgrInvestmentContractType", "AgreedPriceSource", "AllowanceType", "AnswerType", "AppFormElementType", "ApplicabilityMethod", "ApplicableWhen", "ApplicationMethod", "ApplyType", "ApprovalCaseState", "ApprovalDecision", "ApprovalEndAction", "ApprovalInitiator", "ApprovalStatus", "AscendingOrDescending", "AssayContractType", "AssayStatus", "AssemblyCostType", "AssemblyDocCalcGridType", "AssemblyDocStatus", "AssemblyProcessCalcMethod", "AttachedFileContentType", "AttendanceCertificate", "AttendanceMachineConnectionType", "AttendanceMachineResponseField", "AttendanceShiftType", "AuditStatusType", "AuthorityType", "AutoSaveBehavior", "AutoTicketingStepType", "BankAccountType", "BankAdjustmentType", "BankAssuranceType", "BarcodeType", "BasinSlotType", "BenefitClassification", "BorderLinePreset", "BudgetExceededBehavior", "BusActionType", "BusStatus", "BusType", "BusinessFunction", "BuyerPaymentType", "CPAPerformService", "CPAProcedureStatus", "CPAProjectMileStoneStatus", "CPAProjectStatus", "CPARequestState", "CPASalesQuotationStatus", "CPATaskStatus", "CPATimeSheetStatus", "CRMCallDirection", "CRMCompOrSugestion", "CRMCompliantSource", "CRMFollowUpActivityType", "CRMFollowUpStatus", "CRMFollowUpSubStatus", "CRMLeadStatus", "CRMLeadType", "CRMPlanTaskType", "CRMPlatform", "CRMQuestionairStatus", "CRMSalesStage", "CRMTaskStatus", "CRMTaskType", "CRTNLayerType", "CRTNManufacturingType", "CRTNPlaningSolutionType", "CRTNPlanningStatus", "CRTNProductionStages", "CalcMagentoQuantityType", "CampaignStatus", "CapabilityType", "CarActionType", "CarAuthorizationType", "CarClassification", "CarOwnership", "CarStatus", "CarType", "CashFlowType", "CategoryLevel", "ChangeType", "ChargeType", "ChartColumnUsage", "ChatConversationType", "ChatMessageStatus", "ChatMessageType", "ChatParticipantRole", "CheckResult", "ClassificationType", "ClosingEntryBatchPhase", "ClosingEntryGenStatus", "CoProductCostType", "CoSectorType", "CollectionWay", "Color", "ColorScheme", "ColorVariation", "CompanyType", "CompliantStatus", "ComponentCalcType", "ComponentPosition", "ComponentPositionMethod", "ComponentType", "ConditionEffectType", "ConditionRelationWithDocs", "ConditionType", "ConditionValType", "ConfigPropertyName", "ConfigurationType", "ConsiderActivePercentageType", "ConsolidationRateType", "ContactTitle", "ContrConcernedParty", "ContrItemType", "ContrWorkAreaType", "ContractType", "ContractTypeDependency", "ContractingCondStatus", "ContractingExtractType", "ContractingTermType", "ContractingTimePeriod", "ConversionType", "CopyTemplateFrom", "CostDistribution", "CostReallocation", "CostTransType", "CostType", "CouponCodingMehod", "CouponDimensionsCopyMethod", "CouponInvoiceValueSource", "CourseContractStatus", "CourseEvaluationType", "CourseStatus", "CreditFacilityLimitCalculationMethod", "CreditFacilityPaymentEffectOnRemaining", "CreditFacilityPaymentMethod", "CreditFacilityStatus", "CriteriaApplicationPolicy", "CriteriaValidatorApplicability", "CurrencyRateDerivation", "CurrencyRateKind", "CustodyStatus", "CustomEquationLinesSource", "CustomRepLaunchType", "DLVDeliveredStatus", "DLVDeliveryDocumentStatus", "DMSDocumentState", "DMSMovementType", "DMSOutMovementType", "DamageType", "DashBoardElementType", "DashBoardTheme", "DashboardKind", "DatabaseCleanerStatus", "DatanuumRequestType", "DatanuumResponseStatus", "DateCalculationMethod", "DefaultUOM", "DeliverdToType", "DeliveringPurpose", "DeliveryMethod", "DeliveryQueueStatus", "DeliveryState", "DeliveryStatus", "DensityMode", "DepositPaymentType", "DescriptorType", "DevelopmentType", "DimensionPolicy", "DimensionSourceEntityType", "DimensionSourceType", "DiscountCouponCalcType", "DiscountCouponStatus", "DiscountLocation", "DiscountLocationWithHeader", "DiscountType", "DiscountUpdaterField", "DisplayNumberAs", "DisplayReferenceAs", "DistributeCostType", "DistributionOrder", "DocumentFileStatus", "DrivingLicenseType", "EDocumentType", "EInvoiceDiscountLocation", "EInvoiceDocType", "EInvoiceReceiverMode", "EInvoiceSignerType", "EInvoiceSubmissionEntryStatus", "EInvoiceUnitPriceSource", "EInvoiceUnitPriceType", "EcommerceEntityType", "EcommerceEventType", "EcommerceGraphEntityOperation", "EcommerceItemType", "EcommerceProductType", "EditAuthority", "EditType", "EditedObjectSourceTypeEnum", "ElementUpdateType", "EltezamLookupType", "EltezamOperation", "EltezamSendState", "EmailSendType", "EmployeeState", "EndStockTakingTaskType", "EndType", "EnrollmentStateType", "EntityCreationType", "EntityTargetAction", "EquaitionOperatorType", "EvacuationApprovalDecision", "EvacuationApprovalState", "EvaluationType", "ExcelFunction", "ExchangeRateType", "ExistenceType", "ExpensValueType", "ExpenseCreditSide", "ExporetdFields", "ExpressionRelationship", "ExpressionType", "ExpressionValueType", "ExtraDataSendType", "FADepreciationMethod", "FAStatus", "FATakingStatus", "FATakingType", "FPStatus", "FRMFreightType", "FRMFrequency", "FRMLocationStatus", "FRMOperationStatus", "FRMPriceListType", "FRMServiceContractType", "FRMTiming", "FSBalanceMovOpeningEqType", "FSComparisonType", "FSDebitCreditEquationType", "FSGroupBy", "FSIssueDocType", "FSLineLevel", "FSOpenningEquation", "FSTotals", "FacilityDescription", "FacilityLimtType", "FacilityType", "FavouriteItemLevel", "FeesType", "FieldAuthorityType", "FieldExportType", "FieldLayout", "FieldLayoutType", "FieldLinkType", "FillByAI", "FilterType", "FinancialPaperType", "FingerPrintException", "FiringReason", "FiscalPeriodStatus", "FiscalPeriodType", "FixedDepositState", "FixedDepositType", "FlatType", "FlatUsage", "FlowEntityTypeStrategy", "FontSize", "FormulaCalcMethod", "FormulaType", "FreeGroupPolicy", "FreeOfferPolicy", "FreightChargesType", "Gender", "GenerationType", "GlobalShortcutTargetType", "GoPayAccountMethod", "GoPayAccountType", "GoPayURLType", "GridFieldVisibilty", "GridSizeEnum", "GroupSection", "GuaranteeType", "HMSDocDegree", "HMSInvoiceType", "HMSLabTestStatus", "HMSOtherSurgeryDiscountValue", "HMSPatientCheckType", "HMSRoomBehavior", "HMSRoomStatus", "HMSRoomType", "HMSWeekDay", "HOCounterType", "HOOwnerShipType", "HRAllowRegenerate", "HRDocStatus", "HRRequestState", "HelpMessageContentType", "IPInvestmentSysEntryType", "IPSMailRetentionActionType", "IPSParcelsReceiverResponse", "IPSReceptaclesReceiptActionType", "IPSRetentionType", "IPSTaskType", "IPTermType", "ImplementationRepositoryType", "ImportExpressionType", "ImportingExportingType", "IncomeStatementEquationType", "InspectionDecsion", "InstallmentEditType", "InstallmentEffectField", "InstallmentState", "InstallmentsType", "InsuranceCategory", "InsuranceType", "Insured", "InterestCalcMethod", "InterestType", "InternalTransferType", "InterviewState", "InvItemCodeType", "InvTransReqType", "InvestmentDocStatus", "InvestmentDocType", "InvoiceOfferDiscountType", "IssueType", "ItemBarcodeProperty", "ItemClassRangeRelation", "ItemDimensionsAutoFillPolicy", "ItemPropertiesDisplayMethod", "ItemRelationType", "ItemRequestStatus", "ItemType", "ItemWarehouseRelationType", "JODamageType", "JODocStatus", "JOOperationType", "JOSalesOrderLineType", "JOSalesType", "JOrderExpenseType", "JREvaluationTimeEnum", "JRFill", "JRHorizontalAlign", "JRLineSpacing", "JRLineStyle", "JRMarkup", "JRModeEnum", "JRRotation", "JRScaleImage", "JRVerticalAlign", "JasperBand", "JasperVariableCalculation", "JasperVariableResetType", "JobOfferState", "JobOrderType", "JobTitle", "KeyboardKey", "LCActionType", "LCReqStatus", "LCShapeType", "LCState", "LGTType", "LanguageEnum", "LargeNumOperator", "LayoutMethod", "LeadSource", "LeastNumOperator", "LeavePermissionType", "LeaveReasonApplyOn", "LecturerSalaryCalcMethod", "LedgerEffectType", "LetterCaseType", "LetterOfGuaranteeReqType", "LetterOfGuaranteeStatus", "LineNumberGroup", "LineNumberType", "LinesType", "LinkingLetterType", "LiquidationComponentIncludedInType", "LiquidationStatus", "LiquidationType", "ListDisplayType", "ListViewPageSize", "LoanInterestType", "LoanPeriodType", "MAGPriceSourceLocation", "MCAdditionDeductionType", "MCContractTermType", "MCContractType", "MCCostItemType", "MCEquipmentCategory", "MCEquipmentType", "MCJobOrderStatus", "MCLaborUpdateTarget", "MCMaintenanceOccurenceType", "MCMaintenanceStatus", "MCProjectType", "MCTenderStatus", "MCTenderUpdateType", "MCWorkAreaType", "MFGMoldStatus", "MFGMoldType", "MRPAggregationPeriodType", "MRPForcastingPeriod", "MRPQtySrcType", "MachineRecallRequestType", "MagEcommerceSiteType", "MagentoOperationType", "MagentoPriceType", "MainOrSubType", "MainStatusEffectType", "MainStatusType", "MaintenanceOccurenceType", "MaintenanceStatus", "MaintenanceType", "MaritalStatus", "MaterialClassificationGrid", "MaxLoanType", "MealAllowanceType", "MealDeliveryStatus", "MeasurementsRequestStatus", "MeasuresType", "MediaType", "MenuTargetType", "MessageQueue", "MnCurrentStatusType", "MnOrderExeStatus", "MnOrderType", "MnStatusType", "MnVisitType", "MnWorkPlanGenerateType", "MobileAppActionType", "MobileAppShortcutType", "MobileAppSourcePrice", "MobileAppTargetMenuItem", "MobileEntityTitleType", "MobileEntityType", "MobileHeaderFieldsDisplayMethod", "MobileHeaderFieldsSize", "MobileIdentifierDocumentStatus", "MobileReferenceShowType", "ModifyWhileUnderApprovalPolicy", "MoneyEffectOperation", "MoneyEffectSource", "MoneyEffectSourceType", "MoneyEffectTypeDF", "MultiplesRoundingMode", "NamaDayOfWeek", "NamaPOSDepreciationReasonDiscount", "NamaPosAdditionalItemsType", "NamaPosUiSettingsSrc", "NoneTreatmentAnswer", "NotificationStatus", "OKTreatmentAnswer", "OfferItemsCountMechanism", "OfferMultiplePolicyMechanism", "OfferReplacementPolicy", "OnlinePaymentFieldType", "OnlinePaymentLinkStatus", "OnlinePaymentType", "OperationGroupPricing", "OperationStep", "OperationType", "Operator", "OrderCloseType", "OrderImportance", "OrderStatus", "OtherBankAssuranceType", "OtherComponentEffectType", "OtpFormat", "OverheadCalcuationType", "OverheadDistributionType", "OverrideSelectedDimension", "PFSalesSourceEffectType", "POROStatus", "POSBusinessFunction", "POSFieldType", "POSHeaderFields", "POSHeldInvoiceStatus", "POSLineCollectionMethod", "POSPaymentDocType", "POSProcedures", "POSReadQueueUpdateType", "POSSalesHeaderField", "POSSalesInvoiceType", "POSSalesReturnType", "POSSecurityCapability", "PRRStatus", "PackagingMethod", "PaperDirection", "ParamFieldType", "ParamOverrideUsage", "ParamSource", "ParamType", "ParameterType", "PartyType", "PatternType", "PayType", "PaymentFrequencyType", "PaymentGatewayProvider", "PaymentMethodCalcType", "PaymentMethodType", "PaymentStarategy", "PaymentStatus", "PaymentType", "PaymentWay", "PaymentsType", "PenaltyUom", "PendingSystemActionType", "PercentBasis", "PerformanceFactor", "PerformanceIndicatorType", "PerformanceIndicatorValueType", "PeriodType", "PickDimensionSource", "PickPolicy", "PickType", "PivotColumnType", "PlanningStatus", "PointsExpiryType", "PoleCommunicationType", "PosPrepFormPrintMethod", "PosReqFieldRelationWithRef", "PosSalesGridField", "PosServiceItemCalcType", "PostponeType", "PreferredLanguageType", "PriceListDefaultPrice", "PriceSource", "PriceUpdaterApplicability", "PriceUpdaterField", "PriceUpdatingPolicy", "PriceValueType", "PriceVotingStatus", "PricingAction", "PricingOperator", "PricingParameter", "PrintAuthority", "Priority", "ProcedureType", "ProdOrderReqStatus", "ProdOrderStatus", "ProductStatus", "ProductType", "ProjectStatus", "ProjectType", "ProvisionMonthType", "PurchaseIncoTerm", "PurchaseOrderStatus", "PurchaseQuotationDeliveryMethod", "PurchaseQuotationRequestStatus", "PurchaseQuotationStatus", "PurgeBatchPhase", "PurgeBehavior", "PurgeInfoType", "PurgeStatus", "PurposeType", "QtyEffectType", "QtyTransType", "QualificationType", "QualityListType", "QuantityAffectedType", "QuantityEffectType", "QuantitySourceType", "QuantityToSendType", "QuantityType", "QuantityValueCopyType", "QuestionResponseType", "QueueEntryStatus", "REBuildingStatus", "RECommissionCalculationBasis", "RECostDistribution", "REExitType", "REInstallmentType", "REInvestmentInvestorType", "REMaintenanceAccrualBasis", "REOwnerType", "RERentStatus", "RERentalUnitType", "REReservationStatus", "REReturnPaymentMethod", "RESalesDocType", "RESalesPriceListType", "REUnitType", "REWaiverType", "RElandStatus", "ROIPeriod", "RVPVReqStatus", "RaiseSizesRequest", "ReLandUsageType", "ReconciliationStep", "ReferenceOrderBy", "RegionType", "RelationType", "Religion", "RemainingProcessingPolicy", "RepLaunchType", "RepOutputFormat", "ReportPageFormat", "ReportPageOrientation", "ReportType", "ReqQtyMethodType", "RequestType", "ReservationStatus", "ReservationType", "ResourceCalcType", "ResourceCostBasis", "ResourceType", "ResponsibleDimEntityType", "ResponsibleType", "ReviseLevel", "RevisionType", "RewardPenaltyIssue", "RewardPointCalculationMethod", "RewardPointsConfigApplicability", "RewardPointsConfigType", "RiskApplyType", "RiskExistenceType", "RoomUsage", "RoundingType", "RuleApplyType", "SFDARSDEnvironment", "SFDARSDGtinSource", "SFDARSDIncomingDispatchStatus", "SFDARSDOperation", "SForecastType", "SIInstallmentParty", "SIInstallmentProgramStatus", "SIInstallmentQuotationStatus", "SIInsuranceBeneficiary", "SIInsuranceCategoryType", "SIInsurancePaymentMethod", "SIInsurancePolicyIssuanceType", "SIInsurancePolicyOrderType", "SIInsurancePolicyPaymentStatus", "SIInsurancePolicyPhysicalStatus", "SIInsurancePolicyStatus", "SIPolicyRequestStatus", "SIProgramSource", "SIProgramType", "SISaleType", "SMFPerfectOperationSuggestion", "SMFProblemDeclarationSteps", "SafetyStockCalCulationType", "SafetyStockPeriodsCalcMethod", "SalaryBlockCondition", "SalaryCompEffectType", "SalaryDistributionType", "SalaryIncreaseType", "SalaryPaymentMethod", "SalarySheetStatus", "SalesInvoiceType", "SalesItemsCountType", "SalesOfferFreeItemClassification", "SalesOrderStatus", "SalesPriceCalcType", "SalesPriceRoundingType", "SalesPricingSource", "SalesRetRequestStatus", "SalesReturnType", "ScheduleType", "ScreenBlockModifierEffect", "ScreenModifierApplicability", "ScreenModifierEffect", "ScreenQuickFilterEffect", "SearchColumnVisibility", "SecurityApplicationType", "SecurityEquivalentType", "SemestersType", "SerialType", "ServiceContractStatus", "ServiceContractType", "ServiceExecutionType", "ServiceFeesOrChargedToCustomer", "ServiceFeesTreatmentInAdditionCase", "SessionStatus", "ShiftIndicatorType", "ShipmentState", "ShippingPolicy", "ShippingSiteType", "ShippingWay", "ShowCustomRepIn", "ShowRunningTotalInsteadOfValue", "SizingSystem", "SkillLevel", "SortDirection", "SortMethod", "SortType", "SoundEffects", "SourceInvoiceCalculation", "SourceSelectionMethod", "SpecificationType", "SqlAggregationType", "SrvCIssueType", "SrvCJobOrderStatus", "SrvcOrderInvoiceStatus", "StockTakingCalculation", "StockTakingMissingItems", "StockTakingStatus", "StorageType", "StudentContractType", "StudentProgramType", "SubItemCondition", "SubItemDeliveryStatus", "SubItemStatusType", "SubmittalStatus", "SubsidiaryAccountType", "SubsidiaryType", "SysAccountTransNature", "SysIndicatorApprovalType", "SysSaveBehavior", "SystemIndicatorType", "TRPaxStatus", "TRSituation", "TRTourStatus", "TRVoucherExtras", "TableType", "TargetAudience", "TargetPlan", "TaskDevelopmentStatus", "TaskScheduleExecutionStatus", "TaskStatus", "TaskType", "TaxApplyType", "TaxAuthorityEntityStatusType", "TaxCodesType", "TaxConfigDefault", "TaxEInvoiceSignatureType", "TaxItemTypeCodeFromType", "TaxItemValuesFromType", "TaxLocation", "TaxPayerType", "TeachingMethod", "TechnicianAppointmentPeriodChangeType", "TechnicianAppointmentStatus", "TelegramLinkStatus", "TelegramMessageState", "TelegramParseMode", "TemplateUpdatingType", "TermStatus", "TerminationCalcDaysType", "TerminationCalcType", "TerminationSectionType", "TestConclusion", "TestType", "TextDirection", "TextLanguage", "TicketExecutionStatus", "TicketPaymentType", "TicketPriceType", "TicketSeverity", "TicketStatus", "TicketStatusForEntry", "TicketType", "TimePeriodType", "TooltipDefApplyToRange", "TotalPosition", "TrainingCourseStatus", "TransLineItemType", "TransactionRequestStatus", "TransactionRequestType", "TransferType", "TreasuryBillState", "TrueFalseDefault", "UpdateInfoType", "UsedWith", "UserFavouritesElementType", "UserFeedback", "VacancyStatus", "VacationCalcPolicy", "VacationCalcType", "VacationClass", "VacationFactor", "VacationHolidayPolicyType", "VacationRepetitionStart", "VacationRepetitionType", "VacationTransferPolicy", "VacationUnderDay", "VacationUpdateType", "VacationWeekRestPolicyType", "Validity", "ValueCalculationMethod", "ValueMethod", "ValueType", "VehicleState", "ViewModificationType", "ViewNotificationContent", "ViolationRepetitionPeriod", "VirtualEntityMaterialization", "VoucherType", "WMSEntryStatus", "WMSPalletStatus", "WMSPriority", "WarePriority", "WareSource", "WarehouseIssueMethod", "WarehouseSourceType", "WarehouseType", "WarehouseUsagePolicyMode", "WarrantyStatus", "WeightScaleBarcodeProperty", "WhatsAppMessageServiceProvider", "WhatsAppMessageState", "WhatsAppMessageType", "WhatsAppTemplateParamType", "WhenNoDataType", "WizardFieldType", "WorkStartingType", "WorkTaskStatus", "YearlyAddedValueType", "YesNo", "YesNoAnswer", "YesNoDefault", "YesNoInheritedPolicy", "ZATCAExemptionReasonCode", "ZATCAIdType" ]
 }

@@ -7,6 +7,7 @@
   "en" : "Item class 4",
   "enPlural" : "Item classes 4",
   "page" : "https://dm.namasoft.com/modules/supplychain/ItemClass4.html",
+  "feature" : "scItemClasses",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

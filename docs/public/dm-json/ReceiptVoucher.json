@@ -309,19 +309,22 @@
     "en" : "Fees Account",
     "type" : "Reference",
     "refTo" : "Account",
-    "refPath" : "/modules/accounting/Account.html"
+    "refPath" : "/modules/accounting/Account.html",
+    "feature" : "PaymentMethod"
   }, {
     "id" : "feesTaxValue",
     "column" : "feesTaxValue",
     "ar" : "قيمة ضريبة الرسوم",
     "en" : "Fees Tax Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "PaymentMethod"
   }, {
     "id" : "feesValue",
     "column" : "feesValue",
     "ar" : "قيمة الرسوم",
     "en" : "Fees Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "PaymentMethod"
   }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
@@ -429,7 +432,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -540,7 +544,8 @@
     "column" : "operationNumber",
     "ar" : "رقم العملية",
     "en" : "Operation Number",
-    "type" : "BigText"
+    "type" : "BigText",
+    "feature" : "PaymentMethod"
   }, {
     "id" : "otherSideSubsidAccBagCode",
     "column" : "otherSideSubsidAccBagCode",
@@ -566,7 +571,8 @@
     "en" : "Payment Terminal",
     "type" : "Reference",
     "refTo" : "PaymentTerminal",
-    "refPath" : "/modules/basic-payment-gateway/PaymentTerminal.html"
+    "refPath" : "/modules/basic-payment-gateway/PaymentTerminal.html",
+    "feature" : "m:basic-payment-gateway"
   }, {
     "id" : "preventUsage",
     "column" : "preventUsage",
@@ -588,7 +594,8 @@
     "columns" : [ "projContractActualCode", " projContractCode", " projContractEntityType", " projContractId" ],
     "ar" : "عقد المشروع",
     "en" : "Project Contract",
-    "type" : "Genericreference"
+    "type" : "Genericreference",
+    "feature" : "e:ProjectContract"
   }, {
     "id" : "purged",
     "column" : "purged",
@@ -1554,19 +1561,22 @@
       "column" : "otherLocalAmount",
       "ar" : "المدين | المحلي",
       "en" : "Debit Amount | Local",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "accDefaultRVPVVouchers"
     }, {
       "id" : "lines.otherAmount.rate",
       "column" : "otherRate",
       "ar" : "المدين | المعدل",
       "en" : "Debit Amount | Rate",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "accDefaultRVPVVouchers"
     }, {
       "id" : "lines.otherAmount.value.amount",
       "column" : "otherValueAmount",
       "ar" : "المدين | القيمة",
       "en" : "Debit Amount | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "accDefaultRVPVVouchers"
     }, {
       "id" : "lines.otherAmount.value.currency",
       "column" : "otherValueCurrency_id",
@@ -1574,7 +1584,8 @@
       "en" : "Debit Amount | Currency",
       "type" : "Reference",
       "refTo" : "Currency",
-      "refPath" : "/modules/basic/Currency.html"
+      "refPath" : "/modules/basic/Currency.html",
+      "feature" : "accDefaultRVPVVouchers"
     }, {
       "id" : "lines.quantity",
       "column" : "quantity",
@@ -1620,7 +1631,8 @@
       "columns" : [ "salaryDocumentActualCode", " salaryDocumentCode", " salaryDocumentEntityType", " salaryDocumentId" ],
       "ar" : " سند الراتب",
       "en" : " Salary Document",
-      "type" : "Genericreference"
+      "type" : "Genericreference",
+      "feature" : "m:humanresource"
     }, {
       "id" : "lines.sector",
       "column" : "sector_id",
@@ -1640,25 +1652,29 @@
       "column" : "tax1Percentage",
       "ar" : "ضريبة 1 | نسبة",
       "en" : "Tax 1 | Percentage",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "lines.tax1Value",
       "column" : "tax1Value",
       "ar" : "ضريبة 1 | قيمة",
       "en" : "Tax 1 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "lines.tax2Percentage",
       "column" : "tax2Percentage",
       "ar" : "ضريبة 2 | نسبة",
       "en" : "Tax 2 | Percentage",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "lines.tax2Value",
       "column" : "tax2Value",
       "ar" : "ضريبة 2 | قيمة",
       "en" : "Tax 2 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "lines.text1",
       "column" : "text1",
@@ -1708,30 +1724,35 @@
     "joinColumn" : "receiptVoucher_id",
     "ar" : "الســداد",
     "en" : "Payment Lines",
+    "feature" : "PaymentMethod",
     "fields" : [ {
       "id" : "paymentLines.afterFeesValue",
       "column" : "afterFeesValue",
       "ar" : "المبلغ بعد الرسوم",
       "en" : "Value After Fees",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.authorizationNumber",
       "column" : "authorizationNumber",
       "ar" : "رقم العملية",
       "en" : "Authorization Number",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.date1",
       "column" : "date1",
       "ar" : "تـــاريخ 1",
       "en" : "Date 1",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.date2",
       "column" : "date2",
       "ar" : "تـــاريخ 2",
       "en" : "Date 2",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.discountCoupon",
       "column" : "discountCoupon_id",
@@ -1739,35 +1760,41 @@
       "en" : "Discount Coupon",
       "type" : "Reference",
       "refTo" : "DiscountCoupon",
-      "refPath" : "/modules/supplychain-sales/DiscountCoupon.html"
+      "refPath" : "/modules/supplychain-sales/DiscountCoupon.html",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.doNotAffectRemaining",
       "column" : "doNotAffectRemaining",
       "ar" : "عدم التأثير على المتبقي",
       "en" : "Do Not Affect Remaining",
-      "type" : "Boolean"
+      "type" : "Boolean",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.feesTaxValue",
       "column" : "feesTaxValue",
       "ar" : "قيمة ضريبة الرسوم",
       "en" : "Fees Tax Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.feesValue",
       "column" : "feesValue",
       "ar" : "قيمة الرسوم",
       "en" : "Fees Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.id",
       "column" : "id",
-      "type" : "ID"
+      "type" : "ID",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.issuer",
       "column" : "issuer",
       "ar" : "جهة الإصدار",
       "en" : "Issuer",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.lineNumber",
       "column" : "lineNumber",
@@ -1777,19 +1804,22 @@
       "column" : "n1",
       "ar" : "رقم 1",
       "en" : "Number 1",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.n2",
       "column" : "n2",
       "ar" : "رقم 2",
       "en" : "Number 2",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.paidCash",
       "column" : "paidCash",
       "ar" : "النقدية المدفوعة",
       "en" : "Paid Cash",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.paymentMethod",
       "column" : "paymentMethod_id",
@@ -1797,111 +1827,130 @@
       "en" : " Payment Method",
       "type" : "Reference",
       "refTo" : "PaymentMethod",
-      "refPath" : "/modules/basic/PaymentMethod.html"
+      "refPath" : "/modules/basic/PaymentMethod.html",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.paymentTransactionType",
       "column" : "paymentTransactionType",
       "ar" : "نوع العملية",
       "en" : "Transaction Type",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.paymentValue",
       "column" : "paymentValue",
       "ar" : "المبلغ",
       "en" : "Payment Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.pgwProperties.authCode",
       "column" : "authCode",
       "ar" : "Auth Code / Txn Id",
       "en" : "Auth Code / Txn Id",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.cardType",
       "column" : "cardType",
       "ar" : "Card Type",
       "en" : "Card Type",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.de55Response",
       "column" : "de55Response",
       "ar" : "De55 Response",
       "en" : "De55 Response",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.ecrRefNum",
       "column" : "ecrRefNum",
       "ar" : "ECR Ref Number / Local Reference Number",
       "en" : "ECR Ref Number / Local Reference Number",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.failureMessage",
       "column" : "failureMessage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.maskedCardNumber",
       "column" : "maskedCardNumber",
       "ar" : "Masked Card Number",
       "en" : "Masked Card Number",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.merchantId",
       "column" : "merchantId",
       "ar" : "Merchant Id",
       "en" : "Merchant Id",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.paidFromTerminal",
       "column" : "paidFromTerminal",
       "ar" : "مدفوعة بواسطة ال Terminal",
       "en" : "Paid From Terminal",
-      "type" : "Boolean"
+      "type" : "Boolean",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.panNum",
       "column" : "panNum",
       "ar" : "PAN Number / ApprovalCode",
       "en" : "PAN Number / ApprovalCode",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.respCode",
       "column" : "respCode",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.schemeId",
       "column" : "schemeId",
       "ar" : "Scheme Id / Card Scheme Name",
       "en" : "Scheme Id / Card Scheme Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.stanNum",
       "column" : "stanNum",
       "ar" : "STAN Number / rrNumber",
       "en" : "STAN Number / rrNumber",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.pgwProperties.terminalId",
       "column" : "terminalId",
       "ar" : "Terminal Id / Device Serial No",
       "en" : "Terminal Id / Device Serial No",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "paymentLines.remainingCash",
       "column" : "remainingCash",
       "ar" : "النقديه المتبقيه",
       "en" : "Remaining Cash",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.text1",
       "column" : "text1",
       "ar" : "نــــص 1",
       "en" : "Text 1",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "PaymentMethod"
     }, {
       "id" : "paymentLines.text2",
       "column" : "text2",
       "ar" : "نـــــص 2",
       "en" : "Text 2",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "PaymentMethod"
     } ]
   } ]
 }

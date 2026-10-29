@@ -264,19 +264,22 @@
     "column" : "ignoreHeight",
     "ar" : "تجاهل الارتفاع",
     "en" : "Ignore Height",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scMeasures"
   }, {
     "id" : "ignoreLength",
     "column" : "ignoreLength",
     "ar" : "تجاهل الطول",
     "en" : "Ignore Length",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scMeasures"
   }, {
     "id" : "ignoreWidth",
     "column" : "ignoreWidth",
     "ar" : "تجاهل العرض",
     "en" : "Ignore Width",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scMeasures"
   }, {
     "id" : "indexInParent",
     "column" : "indexInParent",
@@ -322,31 +325,36 @@
     "column" : "measuresClippedLength1",
     "ar" : "أبعادالجزء المقصوص 1 | الطول",
     "en" : "Clipped Part1 Measures | Length",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scMeasures"
   }, {
     "id" : "measures.height",
     "column" : "measuresHeight",
     "ar" : "الأبعاد | ر",
     "en" : "Measures | H",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scThirdMeasure"
   }, {
     "id" : "measures.length",
     "column" : "measuresLength",
     "ar" : "الأبعاد | ط",
     "en" : "Measures | L",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scMeasures"
   }, {
     "id" : "measures.text",
     "column" : "measuresText",
     "ar" : "الأبعاد | الأبعاد",
     "en" : "Measures | L * W * H",
-    "type" : "Measures"
+    "type" : "Measures",
+    "feature" : "scMeasures"
   }, {
     "id" : "measures.width",
     "column" : "measuresWidth",
     "ar" : "الأبعاد | ع",
     "en" : "Measures | W",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scMeasures"
   }, {
     "id" : "n1",
     "column" : "n1",
@@ -406,7 +414,8 @@
     "en" : "Primary UOM",
     "type" : "Reference",
     "refTo" : "UOM",
-    "refPath" : "/modules/supplychain/UOM.html"
+    "refPath" : "/modules/supplychain/UOM.html",
+    "feature" : "scMeasures"
   }, {
     "id" : "printCount",
     "column" : "printCount",
@@ -418,7 +427,8 @@
     "column" : "qty",
     "ar" : "الكمية",
     "en" : "Qty",
-    "type" : "Integer"
+    "type" : "Integer",
+    "feature" : "scMeasures"
   }, {
     "id" : "quantityMustBeInteger",
     "column" : "quantityMustBeInteger",
@@ -539,7 +549,8 @@
     "column" : "useWithMeasures",
     "ar" : "الإستخدام مع الأبعاد",
     "en" : "Use With Measures",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scMeasures"
   }, {
     "id" : "viewCapability",
     "column" : "viewCapability_id",

@@ -56,6 +56,12 @@
     "refTo" : "ItemBrand",
     "refPath" : "/modules/supplychain/ItemBrand.html"
   }, {
+    "id" : "buyerInsurancePercentage",
+    "column" : "buyerInsurancePercentage",
+    "ar" : "نسبة تأمين المشتري",
+    "en" : "Buyer Insurance Percentage",
+    "type" : "Decimal"
+  }, {
     "id" : "cancellationDate",
     "column" : "cancellationDate",
     "ar" : "تاريخ الإلغاء",
@@ -371,6 +377,20 @@
     "en" : "Beneficiary Type",
     "type" : "Genericreference"
   }, {
+    "id" : "insurancePercentage",
+    "column" : "insurancePercentage",
+    "ar" : "التأمين | %",
+    "en" : "Insurance | Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "insurancePolicyImage",
+    "column" : "insurancePolicyImage_id",
+    "ar" : "صورة وثيقة التأمين",
+    "en" : "Insurance Policy Image",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
     "id" : "insurancePolicyInvoice",
     "columns" : [ "insurncPlcyInvoiceActualCode", " insurancePolicyInvoiceCode", " insurncPlcyInvoiceEntityType", " insurancePolicyInvoiceId" ],
     "type" : "Genericreference"
@@ -481,6 +501,14 @@
     "en" : "Name2",
     "type" : "Text"
   }, {
+    "id" : "newInsurancePolicy",
+    "column" : "newInsurancePolicy_id",
+    "ar" : "الوثيقة الجديدة",
+    "en" : "New Insurance Policy",
+    "type" : "Reference",
+    "refTo" : "SICustomerInsurancePolicy",
+    "refPath" : "/modules/srvcenter-insurance-and-installments/SICustomerInsurancePolicy.html"
+  }, {
     "id" : "parentCode",
     "column" : "parentCode",
     "type" : "Text"
@@ -523,6 +551,13 @@
     "en" : "Policy Status",
     "type" : "Enum",
     "enum" : "SIInsurancePolicyStatus"
+  }, {
+    "id" : "policyType",
+    "column" : "policyType",
+    "ar" : "نوع الوثيقة",
+    "en" : "Policy Type",
+    "type" : "Enum",
+    "enum" : "SIInsurancePolicyIssuanceType"
   }, {
     "id" : "policyValue",
     "column" : "policyValue",
@@ -601,6 +636,12 @@
     "ar" : "ملاحظات",
     "en" : "Description",
     "type" : "BigText"
+  }, {
+    "id" : "renewed",
+    "column" : "renewed",
+    "ar" : "تم التجديد",
+    "en" : "Renewed",
+    "type" : "Boolean"
   }, {
     "id" : "reviseLevel",
     "column" : "reviseLevel",

@@ -382,7 +382,8 @@
     "en" : "Invoice Classification (Related To POS)",
     "type" : "Reference",
     "refTo" : "InvoiceClassification",
-    "refPath" : "/modules/supplychain/InvoiceClassification.html"
+    "refPath" : "/modules/supplychain/InvoiceClassification.html",
+    "feature" : "m:namapos"
   }, {
     "id" : "formPage",
     "column" : "formPage",
@@ -636,7 +637,8 @@
     "column" : "posOrderPreparationForm",
     "ar" : "نموذج طباعة تحضير الاوردر لنقاط البيع",
     "en" : "POS Order Preparation Form",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "NamaPOSSalesInvoice"
   }, {
     "id" : "preventUsage",
     "column" : "preventUsage",
@@ -896,7 +898,8 @@
     "column" : "usedInCaptainOrder",
     "ar" : "مستخدم لكابتن أوردر",
     "en" : "Used In Captain Order",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "NamaPOSSalesInvoice"
   }, {
     "id" : "usedInFullInvoice",
     "column" : "usedInFullInvoice",
@@ -908,7 +911,8 @@
     "column" : "usedInPOS",
     "ar" : "مستخدم لنقاط البيع",
     "en" : "Used In POS",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "NamaPOSSalesInvoice"
   }, {
     "id" : "viewCapability",
     "column" : "viewCapability_id",

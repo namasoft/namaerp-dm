@@ -304,7 +304,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -387,6 +388,13 @@
     "id" : "parentCode",
     "column" : "parentCode",
     "type" : "Text"
+  }, {
+    "id" : "policyType",
+    "column" : "policyType",
+    "ar" : "نوع الوثيقة",
+    "en" : "Policy Type",
+    "type" : "Enum",
+    "enum" : "SIInsurancePolicyOrderType"
   }, {
     "id" : "preventUsage",
     "column" : "preventUsage",
@@ -699,6 +707,20 @@
       "type" : "Enum",
       "enum" : "SIInsuranceCategoryType"
     }, {
+      "id" : "details.policyDeliveryDate",
+      "column" : "policyDeliveryDate",
+      "ar" : "تاريخ التسليم الوثيقة",
+      "en" : "Policy Delivery Date",
+      "type" : "Date"
+    }, {
+      "id" : "details.policyDeliveryDoc",
+      "column" : "policyDeliveryDoc_id",
+      "ar" : "مستند تسليم الوثيقة",
+      "en" : "Policy Delivery Document",
+      "type" : "Reference",
+      "refTo" : "SIInsurancePolicyDelivery",
+      "refPath" : "/modules/srvcenter-insurance-and-installments/SIInsurancePolicyDelivery.html"
+    }, {
       "id" : "details.policyDuration",
       "column" : "policyDuration",
       "ar" : "مدة الوثيقة",
@@ -756,6 +778,12 @@
       "ar" : "أمر البيع",
       "en" : "Sales Order",
       "type" : "Genericreference"
+    }, {
+      "id" : "details.salesOrderDate",
+      "column" : "salesOrderDate",
+      "ar" : "تاريخ أمر البيع",
+      "en" : "Sales Order Date",
+      "type" : "Date"
     }, {
       "id" : "details.subItem",
       "column" : "subItem_id",

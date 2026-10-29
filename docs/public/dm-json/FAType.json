@@ -112,7 +112,8 @@
     "en" : "Contracting Cost Credit",
     "type" : "Reference",
     "refTo" : "AccountingSideConfig",
-    "refPath" : "/modules/basic/AccountingSideConfig.html"
+    "refPath" : "/modules/basic/AccountingSideConfig.html",
+    "feature" : "m:contracting"
   }, {
     "id" : "contractingCostDebit",
     "column" : "contractingCostDebit_id",
@@ -120,7 +121,8 @@
     "en" : "Contracting Cost Debit",
     "type" : "Reference",
     "refTo" : "AccountingSideConfig",
-    "refPath" : "/modules/basic/AccountingSideConfig.html"
+    "refPath" : "/modules/basic/AccountingSideConfig.html",
+    "feature" : "m:contracting"
   }, {
     "id" : "countable",
     "column" : "countable",

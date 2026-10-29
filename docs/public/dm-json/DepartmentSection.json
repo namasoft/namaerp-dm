@@ -481,7 +481,8 @@
     "column" : "showInAppointmentsScreen",
     "ar" : "يظهر في شاشة المواعيد",
     "en" : "Show In Appointments Screen",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "m:crm-technician-appointments"
   }, {
     "id" : "systemGeneratedCodePrefix",
     "column" : "systemGeneratedCodePrefix",
@@ -539,10 +540,12 @@
     "joinColumn" : "departmentSection_id",
     "ar" : "المشرفون",
     "en" : "Supervisors",
+    "feature" : "m:crm-technician-appointments",
     "fields" : [ {
       "id" : "supervisors.id",
       "column" : "id",
-      "type" : "ID"
+      "type" : "ID",
+      "feature" : "m:crm-technician-appointments"
     }, {
       "id" : "supervisors.lineNumber",
       "column" : "lineNumber",
@@ -554,7 +557,8 @@
       "en" : "Supervisor",
       "type" : "Reference",
       "refTo" : "Employee",
-      "refPath" : "/modules/basic/Employee.html"
+      "refPath" : "/modules/basic/Employee.html",
+      "feature" : "m:crm-technician-appointments"
     } ]
   } ]
 }

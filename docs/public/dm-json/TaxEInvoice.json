@@ -377,7 +377,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "issuer.address.additionalInformation",
     "column" : "issuerAddressAdditionalInformation",

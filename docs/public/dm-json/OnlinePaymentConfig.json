@@ -663,6 +663,12 @@
     "en" : "Terminal Alias",
     "type" : "Text"
   }, {
+    "id" : "testMode",
+    "column" : "testMode",
+    "ar" : "وضع الاختبار",
+    "en" : "Test Mode",
+    "type" : "Boolean"
+  }, {
     "id" : "thursdayIsWeekend",
     "column" : "thursdayIsWeekend",
     "ar" : "الخميس راحة إسبوعية",

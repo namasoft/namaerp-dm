@@ -7,6 +7,7 @@
   "en" : "Calculation Formula",
   "enPlural" : "Calculation Formulas",
   "page" : "https://dm.namasoft.com/modules/supplychain/CalculationFormula.html",
+  "feature" : "scMeasures",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

@@ -804,19 +804,22 @@
     "column" : "taxInfoDealWay",
     "ar" : "ط تعامل",
     "en" : "Deal Way",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.dealWayCode",
     "column" : "taxInfoDealWayCode",
     "ar" : "كود",
     "en" : "Code",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.fileNo",
     "column" : "taxInfoFileNo",
     "ar" : "رقم الملف",
     "en" : "File No",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.idNumber",
     "column" : "taxInfoIdNumber",
@@ -828,38 +831,44 @@
     "column" : "taxInfoMission",
     "ar" : "المأمورية",
     "en" : "Mission",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.missionCode",
     "column" : "taxInfoMissionCode",
     "ar" : "كود",
     "en" : "Code",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.specialNumber",
     "column" : "taxInfoSpecialNumber",
     "ar" : "الرقم المميز",
     "en" : "Special Number",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.supplier",
     "column" : "taxInfoSupplier",
     "ar" : "مورد",
     "en" : " Supplier",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.taxRegNo",
     "column" : "taxInfoTaxRegNo",
     "ar" : "رقم التسجيل الضريبى",
     "en" : "Tax Registeration NO",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.zatcaIdType",
     "column" : "taxInfoZatcaIdType",
     "ar" : "نوع هوية المشتري (هيئة الزكاة)",
     "en" : "ZATCA Buyer Id Type",
     "type" : "Enum",
-    "enum" : "ZATCAIdType"
+    "enum" : "ZATCAIdType",
+    "feature" : "scSalesTax"
   }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",

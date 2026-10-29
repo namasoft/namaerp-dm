@@ -354,7 +354,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -644,19 +645,22 @@
       "column" : "actualStockSecondQty",
       "ar" : "الكمية الثانية | الفعلي",
       "en" : "Second Quantity | Actual",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSecondUnit"
     }, {
       "id" : "details.dbSecondSerialNumber",
       "column" : "dbSecondSerialNumber",
       "ar" : "رقم مسلسل ثاني دفتري",
       "en" : "DB Second Serial Number",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scTwoSerials"
     }, {
       "id" : "details.dbSerialNumber",
       "column" : "dbSerialNumber",
       "ar" : "رقم مسلسل دفتري",
       "en" : "DB Serial Number",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scSerialNumbers"
     }, {
       "id" : "details.description1",
       "column" : "description1",
@@ -728,25 +732,29 @@
       "column" : "activePerc",
       "ar" : "النسبة الفعالة",
       "en" : "Active Percentage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "details.dimensions.specificDimensions.box",
       "column" : "box",
       "ar" : "صندوق",
       "en" : "Box",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scPackaging"
     }, {
       "id" : "details.dimensions.specificDimensions.color",
       "column" : "color",
       "ar" : "اللون",
       "en" : "Color",
-      "type" : "Color"
+      "type" : "Color",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "details.dimensions.specificDimensions.inactivePerc",
       "column" : "inactivePerc",
       "ar" : "النسبة الغير فعالة",
       "en" : "Inactive Percentage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "details.dimensions.specificDimensions.locator",
       "column" : "locator_id",
@@ -760,37 +768,43 @@
       "column" : "lotId",
       "ar" : "رقم الشحنه",
       "en" : "Lot ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scLot"
     }, {
       "id" : "details.dimensions.specificDimensions.measures",
       "column" : "measures",
       "ar" : "الأبعاد",
       "en" : "Measures",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.dimensions.specificDimensions.revisionId",
       "column" : "revisionId",
       "ar" : "الإصدار",
       "en" : "Revision ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "details.dimensions.specificDimensions.secondSerial",
       "column" : "secondSerial",
       "ar" : "الرقم المسلسل الثاني",
       "en" : "Second Serial",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scTwoSerials"
     }, {
       "id" : "details.dimensions.specificDimensions.serialNumber",
       "column" : "serialNumber",
       "ar" : "الرقم المسلسل",
       "en" : "Serial number",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scSerialNumbers"
     }, {
       "id" : "details.dimensions.specificDimensions.size",
       "column" : "size",
       "ar" : "المقاس",
       "en" : "Size",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "details.dimensions.specificDimensions.subItem",
       "column" : "subItem_id",
@@ -798,7 +812,8 @@
       "en" : " Customer Car",
       "type" : "Reference",
       "refTo" : "SubItem",
-      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html",
+      "feature" : "scSubItem"
     }, {
       "id" : "details.dimensions.specificDimensions.warehouse",
       "column" : "warehouse_id",
@@ -812,7 +827,8 @@
       "column" : "expiryDate",
       "ar" : "تواريخ الصلاحية | الإنتهاء",
       "en" : "Date | Expiry",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "scLot"
     }, {
       "id" : "details.id",
       "column" : "id",
@@ -838,7 +854,8 @@
       "column" : "productionDate",
       "ar" : "تواريخ الصلاحية | الإنتاج",
       "en" : "Date | Production",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "scLot"
     }, {
       "id" : "details.qtyDiff",
       "column" : "qtyDiff",
@@ -872,25 +889,29 @@
       "column" : "retestDate",
       "ar" : "تاريخ إعادة الاختبار",
       "en" : "retest Date",
-      "type" : "Date"
+      "type" : "Date",
+      "feature" : "retestDate"
     }, {
       "id" : "details.secondQtyDiff",
       "column" : "secondQtyDiff",
       "ar" : "الكمية الثانية | فرق الكمية",
       "en" : "Second Quantity | Quantity Difference",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSecondUnit"
     }, {
       "id" : "details.stockSecondSerialNumber",
       "column" : "stockSecondSerialNumber",
       "ar" : "رقم مسلسل ثاني في لجنة الجرد",
       "en" : "Stock Second Details Serial Number",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scTwoSerials"
     }, {
       "id" : "details.stockSerialNumber",
       "column" : "stockSerialNumber",
       "ar" : "رقم مسلسل في لجنة الجرد",
       "en" : "Stock Details Serial Number",
-      "type" : "BigText"
+      "type" : "BigText",
+      "feature" : "scSerialNumbers"
     }, {
       "id" : "details.systemStockQty",
       "column" : "systemStockQty",
@@ -902,7 +923,8 @@
       "column" : "systemStockSecondQty",
       "ar" : "الكمية الثانية | الدفتري",
       "en" : "Second Quantity | System",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSecondUnit"
     }, {
       "id" : "details.text1",
       "column" : "text1",

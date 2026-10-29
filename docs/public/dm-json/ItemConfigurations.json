@@ -12,39 +12,45 @@
     "column" : "actvAllwAdmnTRcptWthEmptyVlu",
     "ar" : "Allow Admin To Receipt With Empty Value",
     "en" : "Allow Admin To Receipt With Empty Value",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "activePercentConfig.allowEmptyValuesBeforeDate",
     "column" : "actvAllwEmptyVluesBeforeDate",
     "ar" : "Allow Empty Values Before Date",
     "en" : "Allow Empty Values Before Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "activePercentConfig.issuePolicy",
     "column" : "activeIssuePolicy",
     "ar" : "السياسة في السحب",
     "en" : "Issue Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "activePercentConfig.receiptPolicy",
     "column" : "activeReceiptPolicy",
     "ar" : "السياسة في الإستلام",
     "en" : "Receipt Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "activePercentConfig.trackCost",
     "column" : "activeTrackCost",
     "ar" : "متابعة التكاليف",
     "en" : "Track Cost",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "activePercentConfig.trackQuantity",
     "column" : "activeTrackQuantity",
     "ar" : "متابعة الكميات",
     "en" : "Track Quantity",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "allowOverdraftInReservation",
     "column" : "allowOverdraftInReservation",
@@ -120,39 +126,45 @@
     "column" : "clrAllwAdmnTRcptWthEmptyVlue",
     "ar" : "Allow Admin To Receipt With Empty Value",
     "en" : "Allow Admin To Receipt With Empty Value",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "colorConfigurations.allowEmptyValuesBeforeDate",
     "column" : "clrAllowEmptyValuesBeforeDate",
     "ar" : "Allow Empty Values Before Date",
     "en" : "Allow Empty Values Before Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "colorConfigurations.issuePolicy",
     "column" : "clrIssuePolicy",
     "ar" : "السياسة في السحب",
     "en" : "Issue Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "colorConfigurations.receiptPolicy",
     "column" : "clrReceiptPolicy",
     "ar" : "السياسة في الإستلام",
     "en" : "Receipt Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "colorConfigurations.trackCost",
     "column" : "clrTrackCost",
     "ar" : "متابعة التكاليف",
     "en" : "Track Cost",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "colorConfigurations.trackQuantity",
     "column" : "clrTrackQuantity",
     "ar" : "متابعة الكميات",
     "en" : "Track Quantity",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "commitedBefore",
     "column" : "commitedBefore",
@@ -414,73 +426,85 @@
     "column" : "hasActivePercentage",
     "ar" : "له نسبة فعالة",
     "en" : "Has Active Percentage",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "hasColor",
     "column" : "hasColor",
     "ar" : "له ألوان",
     "en" : "Has Colors",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "hasExpiry",
     "column" : "hasExpiry",
     "ar" : "له تاريخ صلاحية",
     "en" : "Has Expiry",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scLot"
   }, {
     "id" : "hasInActivePercentage",
     "column" : "hasInActivePercentage",
     "ar" : "له نسبة غير فعالة",
     "en" : "Has Inactive Percentage",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "hasLot",
     "column" : "hasLot",
     "ar" : "له شحنات",
     "en" : "Has Lot",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scLot"
   }, {
     "id" : "hasMeasures",
     "column" : "hasMeasures",
     "ar" : "له أبعاد",
     "en" : "Has Measures",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scMeasures"
   }, {
     "id" : "hasPackages",
     "column" : "hasPackages",
     "ar" : "يوضع بصناديق",
     "en" : "Has Packages",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scPackaging"
   }, {
     "id" : "hasRevisions",
     "column" : "hasRevisions",
     "ar" : "له إصدارات",
     "en" : "Has Revisions",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scRevisions"
   }, {
     "id" : "hasSerial",
     "column" : "hasSerial",
     "ar" : "له رقم مسلسل",
     "en" : "Has Serial",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSerialNumbers"
   }, {
     "id" : "hasSize",
     "column" : "hasSize",
     "ar" : "له مقاسات",
     "en" : "Has Size",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "hasSubItem",
     "column" : "hasSubItem",
     "ar" : "له صنف فرعي",
     "en" : "Has SubItem",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSubItem"
   }, {
     "id" : "hasTwoSerials",
     "column" : "hasTwoSerials",
     "ar" : "له رقمان مسلسلان",
     "en" : "HasTwo Serials",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scTwoSerials"
   }, {
     "id" : "id",
     "column" : "id",
@@ -496,39 +520,45 @@
     "column" : "inctvAllwAdmnTRcptWthEmptyVlu",
     "ar" : "Allow Admin To Receipt With Empty Value",
     "en" : "Allow Admin To Receipt With Empty Value",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "inActivePercentConfig.allowEmptyValuesBeforeDate",
     "column" : "inctvAllwEmptyVlusBeforeDate",
     "ar" : "Allow Empty Values Before Date",
     "en" : "Allow Empty Values Before Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "inActivePercentConfig.issuePolicy",
     "column" : "inactiveIssuePolicy",
     "ar" : "السياسة في السحب",
     "en" : "Issue Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "inActivePercentConfig.receiptPolicy",
     "column" : "inactiveReceiptPolicy",
     "ar" : "السياسة في الإستلام",
     "en" : "Receipt Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "inActivePercentConfig.trackCost",
     "column" : "inactiveTrackCost",
     "ar" : "متابعة التكاليف",
     "en" : "Track Cost",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "inActivePercentConfig.trackQuantity",
     "column" : "inactiveTrackQuantity",
     "ar" : "متابعة الكميات",
     "en" : "Track Quantity",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "includeReservedInBalance",
     "column" : "includeReservedInBalance",
@@ -581,39 +611,45 @@
     "column" : "ltAllwAdmnTRcptWthEmptyValue",
     "ar" : "Allow Admin To Receipt With Empty Value",
     "en" : "Allow Admin To Receipt With Empty Value",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scLot"
   }, {
     "id" : "lotIdConfigurations.allowEmptyValuesBeforeDate",
     "column" : "ltAllowEmptyValuesBeforeDate",
     "ar" : "Allow Empty Values Before Date",
     "en" : "Allow Empty Values Before Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "scLot"
   }, {
     "id" : "lotIdConfigurations.issuePolicy",
     "column" : "ltIssuePolicy",
     "ar" : "السياسة في السحب",
     "en" : "Issue Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scLot"
   }, {
     "id" : "lotIdConfigurations.receiptPolicy",
     "column" : "ltReceiptPolicy",
     "ar" : "السياسة في الإستلام",
     "en" : "Receipt Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scLot"
   }, {
     "id" : "lotIdConfigurations.trackCost",
     "column" : "ltTrackCost",
     "ar" : "متابعة التكاليف",
     "en" : "Track Cost",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scLot"
   }, {
     "id" : "lotIdConfigurations.trackQuantity",
     "column" : "ltTrackQuantity",
     "ar" : "متابعة الكميات",
     "en" : "Track Quantity",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scLot"
   }, {
     "id" : "mainFile",
     "column" : "mainFile_id",
@@ -631,39 +667,45 @@
     "column" : "mAllwAdmnTRcptWithEmptyValue",
     "ar" : "Allow Admin To Receipt With Empty Value",
     "en" : "Allow Admin To Receipt With Empty Value",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scMeasures"
   }, {
     "id" : "measuresConfigurations.allowEmptyValuesBeforeDate",
     "column" : "meAllowEmptyValuesBeforeDate",
     "ar" : "Allow Empty Values Before Date",
     "en" : "Allow Empty Values Before Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "scMeasures"
   }, {
     "id" : "measuresConfigurations.issuePolicy",
     "column" : "meIssuePolicy",
     "ar" : "السياسة في السحب",
     "en" : "Issue Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scMeasures"
   }, {
     "id" : "measuresConfigurations.receiptPolicy",
     "column" : "meReceiptPolicy",
     "ar" : "السياسة في الإستلام",
     "en" : "Receipt Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scMeasures"
   }, {
     "id" : "measuresConfigurations.trackCost",
     "column" : "meTrackCost",
     "ar" : "متابعة التكاليف",
     "en" : "Track Cost",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scMeasures"
   }, {
     "id" : "measuresConfigurations.trackQuantity",
     "column" : "meTrackQuantity",
     "ar" : "متابعة الكميات",
     "en" : "Track Quantity",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scMeasures"
   }, {
     "id" : "n1",
     "column" : "n1",
@@ -718,39 +760,45 @@
     "column" : "pckAllwAdmnTRcptWthEmptyVlue",
     "ar" : "Allow Admin To Receipt With Empty Value",
     "en" : "Allow Admin To Receipt With Empty Value",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scPackaging"
   }, {
     "id" : "packagingConfigurations.allowEmptyValuesBeforeDate",
     "column" : "pckAllwEmptyValuesBeforeDate",
     "ar" : "Allow Empty Values Before Date",
     "en" : "Allow Empty Values Before Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "scPackaging"
   }, {
     "id" : "packagingConfigurations.issuePolicy",
     "column" : "packIssuePolicy",
     "ar" : "السياسة في السحب",
     "en" : "Issue Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scPackaging"
   }, {
     "id" : "packagingConfigurations.receiptPolicy",
     "column" : "packReceiptPolicy",
     "ar" : "السياسة في الإستلام",
     "en" : "Receipt Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scPackaging"
   }, {
     "id" : "packagingConfigurations.trackCost",
     "column" : "packTrackCost",
     "ar" : "متابعة التكاليف",
     "en" : "Track Cost",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scPackaging"
   }, {
     "id" : "packagingConfigurations.trackQuantity",
     "column" : "packTrackQuantity",
     "ar" : "متابعة الكميات",
     "en" : "Track Quantity",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scPackaging"
   }, {
     "id" : "parentCode",
     "column" : "parentCode",
@@ -845,39 +893,45 @@
     "column" : "rvAllwAdmnTRcptWthEmptyValue",
     "ar" : "Allow Admin To Receipt With Empty Value",
     "en" : "Allow Admin To Receipt With Empty Value",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scRevisions"
   }, {
     "id" : "revisionIdConfigurations.allowEmptyValuesBeforeDate",
     "column" : "rvAllowEmptyValuesBeforeDate",
     "ar" : "Allow Empty Values Before Date",
     "en" : "Allow Empty Values Before Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "scRevisions"
   }, {
     "id" : "revisionIdConfigurations.issuePolicy",
     "column" : "rvIssuePolicy",
     "ar" : "السياسة في السحب",
     "en" : "Issue Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scRevisions"
   }, {
     "id" : "revisionIdConfigurations.receiptPolicy",
     "column" : "rvReceiptPolicy",
     "ar" : "السياسة في الإستلام",
     "en" : "Receipt Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scRevisions"
   }, {
     "id" : "revisionIdConfigurations.trackCost",
     "column" : "rvTrackCost",
     "ar" : "متابعة التكاليف",
     "en" : "Track Cost",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scRevisions"
   }, {
     "id" : "revisionIdConfigurations.trackQuantity",
     "column" : "rvTrackQuantity",
     "ar" : "متابعة الكميات",
     "en" : "Track Quantity",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scRevisions"
   }, {
     "id" : "sector",
     "column" : "sector_id",
@@ -901,115 +955,133 @@
     "column" : "srAllwAdmnTRcptWthEmptyValue",
     "ar" : "Allow Admin To Receipt With Empty Value",
     "en" : "Allow Admin To Receipt With Empty Value",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSerialNumbers"
   }, {
     "id" : "serialNumberConfigurations.allowEmptyValuesBeforeDate",
     "column" : "srAllowEmptyValuesBeforeDate",
     "ar" : "Allow Empty Values Before Date",
     "en" : "Allow Empty Values Before Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "scSerialNumbers"
   }, {
     "id" : "serialNumberConfigurations.issuePolicy",
     "column" : "srIssuePolicy",
     "ar" : "السياسة في السحب",
     "en" : "Issue Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scSerialNumbers"
   }, {
     "id" : "serialNumberConfigurations.receiptPolicy",
     "column" : "srReceiptPolicy",
     "ar" : "السياسة في الإستلام",
     "en" : "Receipt Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scSerialNumbers"
   }, {
     "id" : "serialNumberConfigurations.trackCost",
     "column" : "srTrackCost",
     "ar" : "متابعة التكاليف",
     "en" : "Track Cost",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSerialNumbers"
   }, {
     "id" : "serialNumberConfigurations.trackQuantity",
     "column" : "srTrackQuantity",
     "ar" : "متابعة الكميات",
     "en" : "Track Quantity",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSerialNumbers"
   }, {
     "id" : "sizeConfigurations.allowAdminToReceiptWithEmptyValue",
     "column" : "szAllwAdmnTRcptWthEmptyValue",
     "ar" : "Allow Admin To Receipt With Empty Value",
     "en" : "Allow Admin To Receipt With Empty Value",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "sizeConfigurations.allowEmptyValuesBeforeDate",
     "column" : "szAllowEmptyValuesBeforeDate",
     "ar" : "Allow Empty Values Before Date",
     "en" : "Allow Empty Values Before Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "sizeConfigurations.issuePolicy",
     "column" : "szIssuePolicy",
     "ar" : "السياسة في السحب",
     "en" : "Issue Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "sizeConfigurations.receiptPolicy",
     "column" : "szReceiptPolicy",
     "ar" : "السياسة في الإستلام",
     "en" : "Receipt Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "sizeConfigurations.trackCost",
     "column" : "szTrackCost",
     "ar" : "متابعة التكاليف",
     "en" : "Track Cost",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "sizeConfigurations.trackQuantity",
     "column" : "szTrackQuantity",
     "ar" : "متابعة الكميات",
     "en" : "Track Quantity",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "subItemConfig.allowAdminToReceiptWithEmptyValue",
     "column" : "subItmAllwAdmnTRcptWthEmptyVlu",
     "ar" : "Allow Admin To Receipt With Empty Value",
     "en" : "Allow Admin To Receipt With Empty Value",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSubItem"
   }, {
     "id" : "subItemConfig.allowEmptyValuesBeforeDate",
     "column" : "subItmAllwEmptyVlusBforeDate",
     "ar" : "Allow Empty Values Before Date",
     "en" : "Allow Empty Values Before Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "scSubItem"
   }, {
     "id" : "subItemConfig.issuePolicy",
     "column" : "subItemIssuePolicy",
     "ar" : "السياسة في السحب",
     "en" : "Issue Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scSubItem"
   }, {
     "id" : "subItemConfig.receiptPolicy",
     "column" : "subItemReceiptPolicy",
     "ar" : "السياسة في الإستلام",
     "en" : "Receipt Policy",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scSubItem"
   }, {
     "id" : "subItemConfig.trackCost",
     "column" : "subItemTrackCost",
     "ar" : "متابعة التكاليف",
     "en" : "Track Cost",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSubItem"
   }, {
     "id" : "subItemConfig.trackQuantity",
     "column" : "subItemTrackQuantity",
     "ar" : "متابعة الكميات",
     "en" : "Track Quantity",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSubItem"
   }, {
     "id" : "subItemStatusConfig",
     "column" : "subItemStatusConfig_id",
@@ -1017,7 +1089,8 @@
     "en" : "SubItem Status Configurations",
     "type" : "Reference",
     "refTo" : "SubItemStatusConfigurations",
-    "refPath" : "/modules/srvcenter-subitems/SubItemStatusConfigurations.html"
+    "refPath" : "/modules/srvcenter-subitems/SubItemStatusConfigurations.html",
+    "feature" : "scSubItem"
   }, {
     "id" : "systemGeneratedCodePrefix",
     "column" : "systemGeneratedCodePrefix",

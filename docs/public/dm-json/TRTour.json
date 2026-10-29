@@ -8,6 +8,12 @@
   "enPlural" : "Tours",
   "page" : "https://dm.namasoft.com/modules/travel/TRTour.html",
   "fields" : [ {
+    "id" : "adult",
+    "column" : "adult",
+    "ar" : "بالغ",
+    "en" : "Adult",
+    "type" : "Integer"
+  }, {
     "id" : "agent",
     "column" : "agent_id",
     "ar" : "الوكيل",
@@ -54,6 +60,12 @@
     "en" : "Arrival Flight",
     "type" : "Text"
   }, {
+    "id" : "arrivalTime",
+    "column" : "arrivalTime",
+    "ar" : "وقت الوصول",
+    "en" : "Arrival Time",
+    "type" : "Time"
+  }, {
     "id" : "book",
     "column" : "book_id",
     "ar" : "الدفتر",
@@ -84,6 +96,14 @@
     "refTo" : "DocumentCancelDocument",
     "refPath" : "/modules/basic/DocumentCancelDocument.html"
   }, {
+    "id" : "car",
+    "column" : "car_id",
+    "ar" : "السيارة",
+    "en" : "Car",
+    "type" : "Reference",
+    "refTo" : "Car",
+    "refPath" : "/modules/basic/Car.html"
+  }, {
     "id" : "careOf",
     "column" : "careOf_id",
     "ar" : "عناية",
@@ -91,6 +111,12 @@
     "type" : "Reference",
     "refTo" : "Employee",
     "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "child",
+    "column" : "child",
+    "ar" : "طفل",
+    "en" : "Child",
+    "type" : "Integer"
   }, {
     "id" : "code",
     "column" : "code",
@@ -204,6 +230,12 @@
     "en" : "Departure Flight",
     "type" : "Text"
   }, {
+    "id" : "departureTime",
+    "column" : "departureTime",
+    "ar" : "وقت القيام",
+    "en" : "Departure time",
+    "type" : "Time"
+  }, {
     "id" : "description1",
     "column" : "description1",
     "ar" : "الوصف 1",
@@ -280,6 +312,14 @@
     "ar" : "النوع",
     "en" : "Entity Type",
     "type" : "EntityType"
+  }, {
+    "id" : "externalDriver",
+    "column" : "externalDriver_id",
+    "ar" : "السائق الخارجي",
+    "en" : "External Driver",
+    "type" : "Reference",
+    "refTo" : "TRExternalDriver",
+    "refPath" : "/modules/system-tables/TRExternalDriver.html"
   }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
@@ -382,11 +422,20 @@
     "column" : "indexInParent",
     "type" : "Integer"
   }, {
+    "id" : "internalDriver",
+    "column" : "internalDriver_id",
+    "ar" : "السائق الداخلي",
+    "en" : "Internal Driver",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
     "id" : "issueDate",
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -1161,6 +1210,84 @@
       "ar" : "المهلة",
       "en" : "Time Limit",
       "type" : "Date"
+    } ]
+  }, {
+    "id" : "paxData",
+    "table" : "TRTourPaxDataLine",
+    "joinColumn" : "tRTour_id",
+    "ar" : "بيانات الركاب",
+    "en" : "Pax Data",
+    "fields" : [ {
+      "id" : "paxData.attachment1",
+      "column" : "attachment1_id",
+      "ar" : "مرفق 1",
+      "en" : "Attachment 1",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "paxData.attachment2",
+      "column" : "attachment2_id",
+      "ar" : "مرفق 2",
+      "en" : "Attachment 2",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "paxData.attachment3",
+      "column" : "attachment3_id",
+      "ar" : "مرفق 3",
+      "en" : "Attachment 3",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "paxData.confirmationCode",
+      "column" : "confirmationCode",
+      "ar" : "كود التأكيد",
+      "en" : "Confirmation Code",
+      "type" : "Text"
+    }, {
+      "id" : "paxData.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "paxData.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "paxData.net",
+      "column" : "net",
+      "ar" : "الصافي",
+      "en" : "Net",
+      "type" : "Decimal"
+    }, {
+      "id" : "paxData.paxName",
+      "column" : "paxName",
+      "ar" : "الاسم",
+      "en" : "Name",
+      "type" : "Text"
+    }, {
+      "id" : "paxData.paxStatus",
+      "column" : "paxStatus",
+      "ar" : "الحالة",
+      "en" : "Status",
+      "type" : "Enum",
+      "enum" : "TRPaxStatus"
+    }, {
+      "id" : "paxData.phoneNumber",
+      "column" : "phoneNumber",
+      "ar" : "رقم الهاتف",
+      "en" : "Phone Number",
+      "type" : "PhoneNumber"
+    }, {
+      "id" : "paxData.platform",
+      "column" : "platform_id",
+      "ar" : "المنصة",
+      "en" : "Platform",
+      "type" : "Reference",
+      "refTo" : "TRPlatform",
+      "refPath" : "/modules/system-tables/TRPlatform.html"
     } ]
   }, {
     "id" : "services",

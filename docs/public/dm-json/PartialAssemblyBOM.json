@@ -580,7 +580,8 @@
       "column" : "colorName",
       "ar" : "اسم اللون",
       "en" : "Color Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "details.comp",
       "columns" : [ "compActualCode", " compCode", " compEntityType", " compId" ],
@@ -705,7 +706,8 @@
       "column" : "measuresHeight",
       "ar" : "الأبعاد | ر",
       "en" : "Measures | H",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scThirdMeasure"
     }, {
       "id" : "details.measures.length",
       "column" : "measuresLength",
@@ -809,7 +811,8 @@
       "column" : "revisionName",
       "ar" : "اسم الإصدار",
       "en" : "Revision Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "details.size",
       "column" : "size",
@@ -821,7 +824,8 @@
       "column" : "sizeName",
       "ar" : "اسم المقاس",
       "en" : "Size Name",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "details.text1",
       "column" : "text1",
@@ -845,31 +849,36 @@
       "column" : "useOnlyWithActivePerc",
       "ar" : "يستعمل فقط مع النسبة الفعالة للصنف المجمع",
       "en" : "Use Only With Assembled Active Percent",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "details.useOnlyWithBox",
       "column" : "useOnlyWithBox",
       "ar" : "يستعمل فقط مع صندوق الصنف المجمع",
       "en" : "Use Only With Assembled Box",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scPackaging"
     }, {
       "id" : "details.useOnlyWithColor",
       "column" : "useOnlyWithColor",
       "ar" : "يستعمل فقط مع لون الصنف المجمع",
       "en" : "Use Only With Assembled Color",
-      "type" : "Color"
+      "type" : "Color",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "details.useOnlyWithInactivePerc",
       "column" : "useOnlyWithInactivePerc",
       "ar" : "يستعمل فقط مع النسبة الغير فعالة للصنف المجمع",
       "en" : "Use Only With Assembled Inactive Percent",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "activeInActivePercentage"
     }, {
       "id" : "details.useOnlyWithLotId",
       "column" : "useOnlyWithLotId",
       "ar" : "يستعمل فقط مع كود الشحنة للصنف المجمع",
       "en" : "Use Only With Assembled Lot Id",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scLot"
     }, {
       "id" : "details.useOnlyWithMainItemColors",
       "column" : "useOnlyWithMainItemColors",
@@ -893,13 +902,15 @@
       "column" : "useOnlyWithRevisionId",
       "ar" : "يستعمل فقط مع إصدار المجمع",
       "en" : "Use Only With Assembled Revision Id",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "details.useOnlyWithSize",
       "column" : "useOnlyWithSize",
       "ar" : "يستعمل فقط مع حجم الصنف المجمع",
       "en" : "Use Only With Assembled Size",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scSizeAndColor"
     }, {
       "id" : "details.useOnlyWithUOM",
       "column" : "useOnlyWithUOM_id",

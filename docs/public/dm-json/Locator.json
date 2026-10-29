@@ -6,6 +6,7 @@
   "arPlural" : "مواقع",
   "en" : "Locator",
   "page" : "https://dm.namasoft.com/modules/supplychain/Locator.html",
+  "feature" : "scLocation",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

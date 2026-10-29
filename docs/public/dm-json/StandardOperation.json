@@ -398,7 +398,8 @@
     "en" : "Output | Unit",
     "type" : "Reference",
     "refTo" : "UOM",
-    "refPath" : "/modules/supplychain/UOM.html"
+    "refPath" : "/modules/supplychain/UOM.html",
+    "feature" : "multiUnits"
   }, {
     "id" : "quantity.value",
     "column" : "quantityValue",

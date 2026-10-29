@@ -555,7 +555,8 @@
     "column" : "usedWithContractingCost",
     "ar" : "يستخدم مع تكلفة المقاولات",
     "en" : "Used With Contracting Cost",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "m:contracting"
   }, {
     "id" : "usedWithTerminatLiquidation",
     "column" : "usedWithTerminatLiquidation",

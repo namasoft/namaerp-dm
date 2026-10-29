@@ -389,7 +389,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -846,97 +847,113 @@
       "column" : "dis1AfterValue",
       "ar" : "خصم 1 | صافي",
       "en" : "Discount 1 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount1"
     }, {
       "id" : "details.price.discount1.maxNormalPercent",
       "column" : "dis1MaxNormalPercent",
       "ar" : "خصم 1 | النسبة العادية",
       "en" : "Discount 1 | Normal Percent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount1"
     }, {
       "id" : "details.price.discount1.percentage",
       "column" : "dis1Percentage",
       "ar" : "خصم 1 | %",
       "en" : "Discount 1 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount1"
     }, {
       "id" : "details.price.discount1.value",
       "column" : "dis1Value",
       "ar" : "خصم 1 | قيمة",
       "en" : "Discount 1 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount1"
     }, {
       "id" : "details.price.discount2.afterValue",
       "column" : "dis2AfterValue",
       "ar" : "خصم 2 | صافي",
       "en" : "Discount 2 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount2"
     }, {
       "id" : "details.price.discount2.maxNormalPercent",
       "column" : "dis2MaxNormalPercent",
       "ar" : "خصم 2 | النسبة العادية",
       "en" : "Discount 2 | Normal Percent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount2"
     }, {
       "id" : "details.price.discount2.percentage",
       "column" : "dis2Percentage",
       "ar" : "خصم 2 | %",
       "en" : "Discount 2 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount2"
     }, {
       "id" : "details.price.discount2.value",
       "column" : "dis2Value",
       "ar" : "خصم 2 | قيمة",
       "en" : "Discount 2 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount2"
     }, {
       "id" : "details.price.discount3.afterValue",
       "column" : "dis3AfterValue",
       "ar" : "خصم 3 | صافي",
       "en" : "Discount 3 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount3"
     }, {
       "id" : "details.price.discount3.maxNormalPercent",
       "column" : "dis3MaxNormalPercent",
       "ar" : "خصم 3 | النسبة العادية",
       "en" : "Discount 3 | Normal Percent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount3"
     }, {
       "id" : "details.price.discount3.percentage",
       "column" : "dis3Percentage",
       "ar" : "خصم 3 | %",
       "en" : "Discount 3 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount3"
     }, {
       "id" : "details.price.discount3.value",
       "column" : "dis3Value",
       "ar" : "خصم 3 | قيمة",
       "en" : "Discount 3 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount3"
     }, {
       "id" : "details.price.discount4.afterValue",
       "column" : "dis4AfterValue",
       "ar" : "خصم 4 | صافي",
       "en" : "Discount 4 | After value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount4"
     }, {
       "id" : "details.price.discount4.maxNormalPercent",
       "column" : "dis4MaxNormalPercent",
       "ar" : "خصم 4 | النسبة العادية",
       "en" : "Discount 4 | Normal Percent",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount4"
     }, {
       "id" : "details.price.discount4.percentage",
       "column" : "dis4Percentage",
       "ar" : "خصم 4 | %",
       "en" : "Discount 4 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount4"
     }, {
       "id" : "details.price.discount4.value",
       "column" : "dis4Value",
       "ar" : "خصم 4 | قيمة",
       "en" : "Discount 4 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "additionalDiscount4"
     }, {
       "id" : "details.price.netValue",
       "column" : "netValue",

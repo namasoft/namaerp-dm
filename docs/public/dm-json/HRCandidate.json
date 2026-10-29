@@ -643,7 +643,8 @@
     "ar" : "الديانة",
     "en" : "Religion",
     "type" : "Enum",
-    "enum" : "Religion"
+    "enum" : "Religion",
+    "feature" : "gulfHr"
   }, {
     "id" : "remarks",
     "column" : "remark",
@@ -655,19 +656,22 @@
     "column" : "residencyEnd",
     "ar" : "تاريخ الأنتهاء",
     "en" : "End at",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "gulfHr"
   }, {
     "id" : "residency.issue",
     "column" : "residencyIssue",
     "ar" : "تاريخ الإصدار",
     "en" : "Issue",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "gulfHr"
   }, {
     "id" : "residency.number",
     "column" : "residencyNumber",
     "ar" : "رقم",
     "en" : "Number",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "gulfHr"
   }, {
     "id" : "reviseLevel",
     "column" : "reviseLevel",

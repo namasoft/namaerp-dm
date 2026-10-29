@@ -7,6 +7,7 @@
   "en" : "Service Item BOM",
   "enPlural" : "Service Item BOMs",
   "page" : "https://dm.namasoft.com/modules/supplychain-gjo/ServiceItemBOM.html",
+  "feature" : "GlassJobOrder",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -218,7 +219,8 @@
     "en" : " Service UOM",
     "type" : "Reference",
     "refTo" : "UOM",
-    "refPath" : "/modules/supplychain/UOM.html"
+    "refPath" : "/modules/supplychain/UOM.html",
+    "feature" : "multiUnits"
   }, {
     "id" : "finshedQty.value",
     "column" : "finshedQtyValue",
@@ -523,7 +525,8 @@
       "en" : "Material Qty | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "materials.materialQty.value",
       "column" : "matValue",
@@ -537,7 +540,8 @@
       "en" : "Service Prod. | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "materials.serviceProdQty.value",
       "column" : "servValue",

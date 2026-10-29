@@ -376,7 +376,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -955,49 +956,57 @@
       "column" : "installmentTax1AfterValue",
       "ar" : "ضريبة القسط 1 | الصافي",
       "en" : "Installment Tax 1 | After Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.installmentTax1.maxNormalPercent",
       "column" : "instllmntTx1MaxNormalPercent",
       "ar" : "ضريبة القسط 1 | %",
       "en" : "Installment Tax 1 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.installmentTax1.percentage",
       "column" : "installmentTax1Percentage",
       "ar" : "ضريبة القسط 1 | النسبة",
       "en" : "Installment Tax 1 | Percentage",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.installmentTax1.value",
       "column" : "installmentTax1Value",
       "ar" : "ضريبة القسط 1 | القيمة",
       "en" : "Installment Tax 1 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.installmentTax2.afterValue",
       "column" : "installmentTax2AfterValue",
       "ar" : "ضريبة القسط 2 | الصافي",
       "en" : "Installment Tax 2 | After Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.installmentTax2.maxNormalPercent",
       "column" : "instllmntTx2MaxNormalPercent",
       "ar" : "ضريبة القسط 2 | %",
       "en" : "Installment Tax 2 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.installmentTax2.percentage",
       "column" : "installmentTax2Percentage",
       "ar" : "ضريبة القسط 2 | النسبة",
       "en" : "Installment Tax 2 | Percentage",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.installmentTax2.value",
       "column" : "installmentTax2Value",
       "ar" : "ضريبة القسط 2 | القيمة",
       "en" : "Installment Tax 2 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.installmentValue",
       "column" : "installmentValue",
@@ -1045,49 +1054,57 @@
       "column" : "tax1AfterValue",
       "ar" : "ضريبة مبيعات | الصافي",
       "en" : "Tax | After Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.tax1.maxNormalPercent",
       "column" : "tax1MaxNormalPercent",
       "ar" : "ضريبة مبيعات | %",
       "en" : "Item Tax | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.tax1.percentage",
       "column" : "tax1Percentage",
       "ar" : "قيمة إضافية 1",
       "en" : "Tax 1",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.tax1.value",
       "column" : "tax1Value",
       "ar" : "ضريبة مبيعات | القيمة",
       "en" : "Tax value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.tax2.afterValue",
       "column" : "tax2AfterValue",
       "ar" : "ضريبة مبيعات 2 | الصافي",
       "en" : "Tax 2 | After Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.tax2.maxNormalPercent",
       "column" : "tax2MaxNormalPercent",
       "ar" : "ضريبة مبيعات 2 | %",
       "en" : "Tax 2 | %",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.tax2.percentage",
       "column" : "tax2Percentage",
       "ar" : "قيمة إضافية 2",
       "en" : "Tax 2",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.tax2.value",
       "column" : "tax2Value",
       "ar" : "ضريبة مبيعات 2 | القيمة",
       "en" : "Tax 2 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "details.toDate",
       "column" : "toDate",

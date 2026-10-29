@@ -302,103 +302,120 @@
     "column" : "altCodeFormula",
     "ar" : "صيغه الكود البديل",
     "en" : "Alternate Code Formula",
-    "type" : "BigText"
+    "type" : "BigText",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "itemCodingFormula.codeCalculationFormula",
     "column" : "codeCalculationFormula",
     "ar" : "صيغة حساب الكود",
     "en" : "Code Calculation Formula",
-    "type" : "BigText"
+    "type" : "BigText",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "itemCodingFormula.codeSequencePrefix",
     "column" : "codeSequencePrefix",
     "ar" : "بادئة حساب التسلسل",
     "en" : "Code Sequence Prefix",
-    "type" : "BigText"
+    "type" : "BigText",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "itemCodingFormula.codeSuffixFirstNumber",
     "column" : "codeSuffixFirstNumber",
     "ar" : "أول رقم في لاحقة الكود",
     "en" : "Suffix First Number",
-    "type" : "Integer"
+    "type" : "Integer",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "itemCodingFormula.codeSuffixLength",
     "column" : "codeSuffixLength",
     "ar" : "طول لاحقة الكود",
     "en" : "Code Suffix Length",
-    "type" : "Integer"
+    "type" : "Integer",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "itemCodingFormula.codeValidityQuery",
     "column" : "codeValidityQuery",
     "ar" : "Code Validity Query (Skip code if 1 is returned, and calculate next)",
     "en" : "Code Validity Query (Skip code if 1 is returned, and calculate next)",
-    "type" : "BigText"
+    "type" : "BigText",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "itemCodingFormula.doNotResetCodeWithUpdate",
     "column" : "doNotResetCodeWithUpdate",
     "ar" : "عدم تحديث الكود مع التعديل",
     "en" : "Do Not Reset Code With Update",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "itemCodingFormula.name1CalculationFormula",
     "column" : "name1CalculationFormula",
     "ar" : "صيغة حساب الاسم العربي",
     "en" : "Name1 Calculation Formula",
-    "type" : "BigText"
+    "type" : "BigText",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "itemCodingFormula.name2CalculationFormula",
     "column" : "name2CalculationFormula",
     "ar" : "صيغة حساب الاسم الإنجليزي",
     "en" : "Name2 Calculation Formula",
-    "type" : "BigText"
+    "type" : "BigText",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "itemCodingFormula.revCodeCalculationFormula",
     "column" : "revCodeCalculationFormula",
     "ar" : "صيغة حساب الكود للإصدارات",
     "en" : "Revision Code Calculation Formula",
-    "type" : "BigText"
+    "type" : "BigText",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "itemCodingFormula.rvName1Formula",
     "column" : "rvName1Formula",
     "ar" : "صيغة تكويد اسم 1 للاصدارة",
     "en" : "Name 1 Encoding Formula For Revision",
-    "type" : "BigText"
+    "type" : "BigText",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "itemCodingFormula.rvName2Formula",
     "column" : "rvName2Formula",
     "ar" : "صيغة تكويد اسم 2 للاصدارة",
     "en" : "Name 2 Encoding Formula For Revision",
-    "type" : "BigText"
+    "type" : "BigText",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "itemCodingFormula.sizeAndColorCodeCalculationFormula",
     "column" : "sizeAndColorCodeCalculationFormula",
     "ar" : "صيغة حساب الكود للمقاس و اللون",
     "en" : "Size And Color Code Calculation Formula",
-    "type" : "BigText"
+    "type" : "BigText",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "itemCodingFormula.szName1Formula",
     "column" : "szName1Formula",
     "ar" : "صيغة تكويد اسم 1 للون والمقاس",
     "en" : "Name 1 Encoding Formula For Colour And Size",
-    "type" : "BigText"
+    "type" : "BigText",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "itemCodingFormula.szName2Formula",
     "column" : "szName2Formula",
     "ar" : "صيغة تكويد اسم 2 للون والمقاس",
     "en" : "Name 2 Encoding Formula For Colour And Size",
-    "type" : "BigText"
+    "type" : "BigText",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "itemCodingFormula.updateColorAndSizeIfEmpty",
     "column" : "updateColorAndSizeIfEmpty",
     "ar" : "تحديث اللون والمقاس إذا كانا فارغين فقط",
     "en" : "Update Color and Size If Empty Only",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "itemCodingFormula.updateRevisionIfEmpty",
     "column" : "updateRevisionIfEmpty",
     "ar" : "تحديث الإصدار إذا كان فارغا فقط",
     "en" : "Update Revision If Empty Only",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scItemAutoCoding"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",

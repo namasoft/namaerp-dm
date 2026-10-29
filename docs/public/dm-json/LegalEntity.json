@@ -892,7 +892,8 @@
     "column" : "maxNumOfUsers",
     "ar" : "عدد المستخدمين",
     "en" : "Number Of User",
-    "type" : "Integer"
+    "type" : "Integer",
+    "feature" : "cloudmode"
   }, {
     "id" : "n1",
     "column" : "n1",

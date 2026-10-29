@@ -62,7 +62,8 @@
     "en" : "Replication Site",
     "type" : "Reference",
     "refTo" : "ReplicationSite",
-    "refPath" : "/modules/basic/ReplicationSite.html"
+    "refPath" : "/modules/basic/ReplicationSite.html",
+    "feature" : "replication"
   }, {
     "id" : "autoCodingParams.suffixFirstNumber",
     "column" : "suffixFirstNumber",

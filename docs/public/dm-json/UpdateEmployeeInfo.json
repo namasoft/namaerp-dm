@@ -741,67 +741,78 @@
     "column" : "homlandAddressAddress1",
     "ar" : "عنوان 1",
     "en" : "Address 1",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.address.address2",
     "column" : "homlandAddressAddress2",
     "ar" : "رقم المبني",
     "en" : "Building Number",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.address.area",
     "column" : "homlandAddressArea",
     "ar" : "المنطقة",
     "en" : "Area",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.address.buildingNumber",
     "column" : "homlandAddressBuildingNumber",
     "ar" : "رقم المبني",
     "en" : "Building Number",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.address.city",
     "column" : "homlandAddressCity",
     "ar" : "المدينة",
     "en" : "City",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.address.country",
     "column" : "homlandAddressCountry",
     "ar" : "الدولة",
     "en" : "Country",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.address.countryCode",
     "column" : "homlandAddressCountryCode",
     "ar" : "كود الدولة",
     "en" : "Country Code",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.address.district",
     "column" : "homlandAddressDistrict",
     "ar" : "الحي",
     "en" : "District",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.address.landPlotNumber",
     "column" : "homlandAddressLandPlotNumber",
     "ar" : "رقم تعريفي للأرض",
     "en" : "Land Plot Number",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.address.mapLocation",
     "column" : "homlandAddressMapLocation",
     "ar" : "الموقع على الخريطة",
     "en" : "Map Location",
-    "type" : "LatLng"
+    "type" : "LatLng",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.address.postalCode",
     "column" : "homlandAddressPostalCode",
     "ar" : "الكود البريدي",
     "en" : "Postal Code",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.address.region",
     "column" : "homlandAddressRegion_id",
@@ -809,61 +820,71 @@
     "en" : "Address region",
     "type" : "Reference",
     "refTo" : "AddressRegion",
-    "refPath" : "/modules/basic/AddressRegion.html"
+    "refPath" : "/modules/basic/AddressRegion.html",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.address.state",
     "column" : "homlandAddressState",
     "ar" : "المحافظة",
     "en" : "State",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.address.street",
     "column" : "homlandAddressStreet",
     "ar" : " شارع",
     "en" : " Street",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.email",
     "column" : "homlandEmail",
     "ar" : "إيميل",
     "en" : "E-mail",
-    "type" : "Email"
+    "type" : "Email",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.faxNumber",
     "column" : "homlandFaxNumber",
     "ar" : "الفاكس",
     "en" : "Fax",
-    "type" : "PhoneNumber"
+    "type" : "PhoneNumber",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.mobile",
     "column" : "homlandMobile",
     "ar" : "الموبايل",
     "en" : "Mobile",
-    "type" : "PhoneNumber"
+    "type" : "PhoneNumber",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.telephone1",
     "column" : "homlandTelephone1",
     "ar" : "تليفون 1",
     "en" : "Phone 1",
-    "type" : "PhoneNumber"
+    "type" : "PhoneNumber",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.telephone2",
     "column" : "homlandTelephone2",
     "ar" : "تليفون 2",
     "en" : "Phone 2",
-    "type" : "PhoneNumber"
+    "type" : "PhoneNumber",
+    "feature" : "gulfHr"
   }, {
     "id" : "homelandContactInfo.website",
     "column" : "homlandWebsite",
     "ar" : "موقع الكتروني",
     "en" : "Website",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "gulfHr"
   }, {
     "id" : "hourlyWorkCost",
     "column" : "hourlyWorkCost",
     "ar" : "سعر البيع بالساعة",
     "en" : "Hourly Work Cost",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "CPAProject"
   }, {
     "id" : "hrPeriod",
     "column" : "hrPeriod_id",
@@ -891,7 +912,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "laborID",
     "column" : "laborID",
@@ -1115,19 +1137,22 @@
     "column" : "residencyEnd",
     "ar" : "تاريخ الأنتهاء",
     "en" : "End at",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "gulfHr"
   }, {
     "id" : "residency.issue",
     "column" : "residencyIssue",
     "ar" : "تاريخ الإصدار",
     "en" : "Issue",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "gulfHr"
   }, {
     "id" : "residency.number",
     "column" : "residencyNumber",
     "ar" : "رقم",
     "en" : "Number",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "gulfHr"
   }, {
     "id" : "residencyPosition",
     "column" : "residencyPosition_id",
@@ -1135,7 +1160,8 @@
     "en" : "Current position",
     "type" : "Reference",
     "refTo" : "OrganizationPosition",
-    "refPath" : "/modules/basic/OrganizationPosition.html"
+    "refPath" : "/modules/basic/OrganizationPosition.html",
+    "feature" : "gulfHr"
   }, {
     "id" : "reviseLevel",
     "column" : "reviseLevel",
@@ -1353,7 +1379,8 @@
     "en" : "Ensured Legal Entity",
     "type" : "Reference",
     "refTo" : "LegalEntity",
-    "refPath" : "/modules/basic/LegalEntity.html"
+    "refPath" : "/modules/basic/LegalEntity.html",
+    "feature" : "gulfHr"
   }, {
     "id" : "toInfo.housingAllowanceType",
     "column" : "housingAllowanceType",
@@ -1633,7 +1660,8 @@
       "column" : "isTicketApplyTo",
       "ar" : "التذاكر | يطبق عليه",
       "en" : "Tickets | Apply To",
-      "type" : "Boolean"
+      "type" : "Boolean",
+      "feature" : "gulfHr"
     }, {
       "id" : "attendants.lineNumber",
       "column" : "lineNumber",
@@ -1690,7 +1718,8 @@
       "ar" : "التذاكر | التصنيف",
       "en" : "Tickets | Classification",
       "type" : "Enum",
-      "enum" : "BenefitClassification"
+      "enum" : "BenefitClassification",
+      "feature" : "gulfHr"
     }, {
       "id" : "attendants.ticketsValue",
       "column" : "ticketsValue",

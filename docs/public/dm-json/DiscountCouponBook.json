@@ -50,7 +50,8 @@
     "en" : "Replication Site",
     "type" : "Reference",
     "refTo" : "ReplicationSite",
-    "refPath" : "/modules/basic/ReplicationSite.html"
+    "refPath" : "/modules/basic/ReplicationSite.html",
+    "feature" : "replication"
   }, {
     "id" : "autoCodingParams.suffixFirstNumber",
     "column" : "suffixFirstNumber",
@@ -420,7 +421,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",

@@ -506,7 +506,8 @@
       "column" : "invoiceCode",
       "ar" : "كود الفاتورة",
       "en" : "Invoice Code",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "NamaPOSRegister"
     }, {
       "id" : "details.invoiceEntityType",
       "column" : "invoiceEntityType",

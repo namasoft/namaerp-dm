@@ -136,7 +136,8 @@
     "en" : "Contracting Cost Credit",
     "type" : "Reference",
     "refTo" : "AccountingSideConfig",
-    "refPath" : "/modules/basic/AccountingSideConfig.html"
+    "refPath" : "/modules/basic/AccountingSideConfig.html",
+    "feature" : "m:contracting"
   }, {
     "id" : "contractingCostDebit",
     "column" : "contractingCostDebit_id",
@@ -144,7 +145,8 @@
     "en" : "Contracting Cost Debit",
     "type" : "Reference",
     "refTo" : "AccountingSideConfig",
-    "refPath" : "/modules/basic/AccountingSideConfig.html"
+    "refPath" : "/modules/basic/AccountingSideConfig.html",
+    "feature" : "m:contracting"
   }, {
     "id" : "createTransactionId",
     "column" : "createTransactionId",
@@ -325,7 +327,8 @@
     "en" : "Employee Provision Component Group",
     "type" : "Reference",
     "refTo" : "SalaryComponentGroup",
-    "refPath" : "/modules/humanresource-payroll/SalaryComponentGroup.html"
+    "refPath" : "/modules/humanresource-payroll/SalaryComponentGroup.html",
+    "feature" : "gulfHr"
   }, {
     "id" : "entitySystemEntryId",
     "column" : "entitySystemEntry_id",
@@ -496,7 +499,8 @@
     "column" : "includeCompulsoryVacation",
     "ar" : "يستخدم في حساب تصفية الأجازة الإضطرارية",
     "en" : "Include Compulsory Vacation Liqudation",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "gulfHr"
   }, {
     "id" : "includedInFixedInsurance",
     "column" : "includedInFixedInsurance",
@@ -520,13 +524,15 @@
     "column" : "includedTerminationLiqud",
     "ar" : "يستخدم في حساب تصفيه نهاية الخدمة",
     "en" : "included Termination Liqudation",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "gulfHr"
   }, {
     "id" : "includedVacationLiqudation",
     "column" : "includedVacationLiqudation",
     "ar" : "يستخدم في حساب تصفيه الاجازة السنوية",
     "en" : "included Annual Vacation Liqudation",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "gulfHr"
   }, {
     "id" : "indexInParent",
     "column" : "indexInParent",
@@ -1110,7 +1116,8 @@
     "column" : "useOnlyInDuesLiquidationSalary",
     "ar" : "يستعمل فقط مع راتب التصفية",
     "en" : "Use Only In Dues Liquidation Salary",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "gulfHr"
   }, {
     "id" : "useSectionInProvisionRecalc",
     "column" : "useSectionInProvisionRecalc",

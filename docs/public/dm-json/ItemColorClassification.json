@@ -7,6 +7,7 @@
   "en" : "Item Color Classification",
   "enPlural" : "Item Color Classifications",
   "page" : "https://dm.namasoft.com/modules/supplychain/ItemColorClassification.html",
+  "feature" : "scSizeAndColor",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

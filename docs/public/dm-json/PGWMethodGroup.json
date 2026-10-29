@@ -7,6 +7,7 @@
   "en" : "Payment Gateway Method Group",
   "enPlural" : "Payment Gateway Method Groups",
   "page" : "https://dm.namasoft.com/modules/basic-payment-gateway/PGWMethodGroup.html",
+  "feature" : "paymentGateway",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -516,75 +517,88 @@
       "column" : "authCode",
       "ar" : "Auth Code / Txn Id | -",
       "en" : "Auth Code / Txn Id| -",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "details.pgwProperties.cardType",
       "column" : "cardType",
       "ar" : "Card Type | -",
       "en" : "Card Type | -",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "details.pgwProperties.de55Response",
       "column" : "de55Response",
       "ar" : "De55 Response | -",
       "en" : "De55 Response | -",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "details.pgwProperties.ecrRefNum",
       "column" : "ecrRefNum",
       "ar" : "ECR Ref Number / Local Reference Number | -",
       "en" : "ECR Ref Number / Local Reference Number | -",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "details.pgwProperties.failureMessage",
       "column" : "failureMessage",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "details.pgwProperties.maskedCardNumber",
       "column" : "maskedCardNumber",
       "ar" : "Masked Card Number | -",
       "en" : "Masked Card Number | -",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "details.pgwProperties.merchantId",
       "column" : "merchantId",
       "ar" : "Merchant Id | -",
       "en" : "Merchant Id | -",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "details.pgwProperties.paidFromTerminal",
       "column" : "paidFromTerminal",
       "ar" : "مدفوعة بواسطة ال Terminal",
       "en" : "Paid From Terminal",
-      "type" : "Boolean"
+      "type" : "Boolean",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "details.pgwProperties.panNum",
       "column" : "panNum",
       "ar" : "PAN Number / ApprovalCode| -",
       "en" : "PAN Number / ApprovalCode | -",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "details.pgwProperties.respCode",
       "column" : "respCode",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "details.pgwProperties.schemeId",
       "column" : "schemeId",
       "ar" : "Scheme Id / Card Scheme Name | -",
       "en" : "Scheme Id / Card Scheme Name | -",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "details.pgwProperties.stanNum",
       "column" : "stanNum",
       "ar" : "STAN Number / rrNumber | -",
       "en" : "STAN Number / rrNumber | -",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "details.pgwProperties.terminalId",
       "column" : "terminalId",
       "ar" : "Terminal Id / Device Serial No| -",
       "en" : "Terminal Id / Device Serial No| -",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "m:basic-payment-gateway"
     }, {
       "id" : "details.schemeIdOperator",
       "column" : "schemeIdOperator",

@@ -7,6 +7,7 @@
   "en" : "Item class 2",
   "enPlural" : "Item classes 2",
   "page" : "https://dm.namasoft.com/modules/supplychain/ItemClass2.html",
+  "feature" : "scItemClasses",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

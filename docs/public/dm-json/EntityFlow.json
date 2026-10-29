@@ -275,7 +275,8 @@
     "column" : "doNotRunWhileReplicating",
     "ar" : "عدم التشغيل اثناء الريبليكشن",
     "en" : "Do Not Run While Replicating",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "replication"
   }, {
     "id" : "docCategory",
     "column" : "docCategory_id",
@@ -958,15 +959,52 @@
       "type" : "BigText"
     } ]
   }, {
+    "id" : "manualRunAllowedUsers",
+    "table" : "EntityFlowAllowedUserLine",
+    "joinColumn" : "entityFlow_id",
+    "ar" : "المستخدمون المسموح لهم بالتشغيل اليدوي",
+    "fields" : [ {
+      "id" : "manualRunAllowedUsers.allowDisallow",
+      "column" : "allowDisallow",
+      "ar" : "سماح - منع",
+      "en" : "Allow - Disallow",
+      "type" : "Enum",
+      "enum" : "TooltipDefApplyToRange"
+    }, {
+      "id" : "manualRunAllowedUsers.documentCriteria",
+      "column" : "documentCriteria_id",
+      "ar" : "شروط المستند",
+      "en" : "Document Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "manualRunAllowedUsers.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "manualRunAllowedUsers.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "manualRunAllowedUsers.target",
+      "columns" : [ "targetActualCode", " targetCode", " targetEntityType", " targetId" ],
+      "ar" : "الجهة",
+      "en" : "Taregt",
+      "type" : "Genericreference"
+    } ]
+  }, {
     "id" : "runInSites",
     "table" : "EntityFlowSiteLine",
     "joinColumn" : "entityFlow_id",
     "ar" : "تشغيل في",
     "en" : "Run In Sites",
+    "feature" : "replication",
     "fields" : [ {
       "id" : "runInSites.id",
       "column" : "id",
-      "type" : "ID"
+      "type" : "ID",
+      "feature" : "replication"
     }, {
       "id" : "runInSites.lineNumber",
       "column" : "lineNumber",
@@ -978,7 +1016,8 @@
       "en" : "Replication Site",
       "type" : "Reference",
       "refTo" : "ReplicationSite",
-      "refPath" : "/modules/basic/ReplicationSite.html"
+      "refPath" : "/modules/basic/ReplicationSite.html",
+      "feature" : "replication"
     } ]
   } ]
 }

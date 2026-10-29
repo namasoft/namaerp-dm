@@ -7,6 +7,7 @@
   "en" : "Outsource Request",
   "enPlural" : "Outsource Requests",
   "page" : "https://dm.namasoft.com/modules/supplychain-gjo/OutsourceRequest.html",
+  "feature" : "GlassJobOrder",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -288,7 +289,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -330,61 +332,71 @@
     "column" : "afterDiscount1",
     "ar" : "صافي بعد الخصم 1",
     "en" : "Net after Discount 1",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount1"
   }, {
     "id" : "money.afterDiscount2",
     "column" : "afterDiscount2",
     "ar" : "صافي بعد الخصم 2",
     "en" : "Net after Discount 2",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount2"
   }, {
     "id" : "money.afterDiscount3",
     "column" : "afterDiscount3",
     "ar" : "صافي بعد الخصم 3",
     "en" : "Net after Discount 3",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount3"
   }, {
     "id" : "money.afterDiscount4",
     "column" : "afterDiscount4",
     "ar" : "صافي بعد الخصم 4",
     "en" : "Net after Discount 4",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount4"
   }, {
     "id" : "money.afterDiscount5",
     "column" : "afterDiscount5",
     "ar" : "صافي بعد الخصم 5",
     "en" : "Net after Discount 5",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount5"
   }, {
     "id" : "money.afterDiscount6",
     "column" : "afterDiscount6",
     "ar" : "صافي بعد الخصم 6",
     "en" : "Net after Discount 6",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount6"
   }, {
     "id" : "money.afterDiscount7",
     "column" : "afterDiscount7",
     "ar" : "صافي بعد الخصم 7",
     "en" : "Net after Discount 7",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount7"
   }, {
     "id" : "money.afterDiscount8",
     "column" : "afterDiscount8",
     "ar" : "صافي بعد الخصم 8",
     "en" : "Net after Discount 8",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount8"
   }, {
     "id" : "money.afterHTaxValue",
     "column" : "afterHTaxValue",
     "ar" : "بعد ضريبة الفاتورة",
     "en" : "After Tax Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "money.afterTaxValue",
     "column" : "afterTaxValue",
     "ar" : "القيمة بعد الضريبة",
     "en" : "After Tax Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "money.cashAmount",
     "column" : "cashAmount",
@@ -410,49 +422,57 @@
     "column" : "discount1Total",
     "ar" : "إجمالي الخصم",
     "en" : "Discount Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount1"
   }, {
     "id" : "money.discount2Total",
     "column" : "discount2Total",
     "ar" : "إجمالي خصم 2",
     "en" : "Discount 1 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount2"
   }, {
     "id" : "money.discount3Total",
     "column" : "discount3Total",
     "ar" : "إجمالي خصم 3",
     "en" : "Discount 2 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount3"
   }, {
     "id" : "money.discount4Total",
     "column" : "discount4Total",
     "ar" : "إجمالي خصم 4",
     "en" : "Discount 3 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount4"
   }, {
     "id" : "money.discount5Total",
     "column" : "discount5Total",
     "ar" : "إجمالي خصم 5",
     "en" : "Discount 4 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount5"
   }, {
     "id" : "money.discount6Total",
     "column" : "discount6Total",
     "ar" : "إجمالي خصم 6",
     "en" : "Discount 5 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount6"
   }, {
     "id" : "money.discount7Total",
     "column" : "discount7Total",
     "ar" : "إجمالي خصم 7",
     "en" : "Discount 6 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount7"
   }, {
     "id" : "money.discount8Total",
     "column" : "discount8Total",
     "ar" : "إجمالي خصم 8",
     "en" : "Discount 7 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "additionalDiscount8"
   }, {
     "id" : "money.headerDiscount.afterValue",
     "column" : "hdrDiscountAfterValue",
@@ -534,37 +554,43 @@
     "column" : "tax1Total",
     "ar" : "إجمالي ضريبة مبيعات 1",
     "en" : "Tax 1 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "money.tax2Total",
     "column" : "tax2Total",
     "ar" : "إجمالي ضريبة مبيعات 2",
     "en" : "Tax 2 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "money.tax3Per",
     "column" : "tax3Per",
     "ar" : "ضريبة 3 %",
     "en" : "Invoice Tax 3",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "money.tax3Total",
     "column" : "tax3Total",
     "ar" : "إجمالي ضريبة 3",
     "en" : "Tax 3 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "money.tax4Per",
     "column" : "tax4Per",
     "ar" : "ضريبة الفاتورة 4 %",
     "en" : "Invoice Tax 4",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "money.tax4Total",
     "column" : "tax4Total",
     "ar" : "إجمالي ضريبة 4",
     "en" : "Tax 4 Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSalesTax"
   }, {
     "id" : "money.total",
     "column" : "total",
@@ -582,7 +608,8 @@
     "column" : "totalPaymentMethods",
     "ar" : "إجمالى طرق الدفع الأخرى",
     "en" : "Other Payments Total",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "PaymentMethod"
   }, {
     "id" : "money.vouchersPayments",
     "column" : "vouchersPayments",
@@ -912,7 +939,8 @@
       "en" : "Unit",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "details.quantity.baseQty.value",
       "column" : "baseValue",
@@ -932,37 +960,43 @@
       "column" : "measureQty",
       "ar" : "الأبعاد | عدد",
       "en" : "Measures | Qty",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.quantity.measures.clippedLength1",
       "column" : "clippedLength1",
       "ar" : "أبعادالجزء المقصوص 1 | الطول",
       "en" : "Clipped Part1 Measures | Length",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.quantity.measures.height",
       "column" : "height",
       "ar" : "الأبعاد | ر",
       "en" : "Measures | H",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scThirdMeasure"
     }, {
       "id" : "details.quantity.measures.length",
       "column" : "length",
       "ar" : "الأبعاد | ط",
       "en" : "Measures | L",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.quantity.measures.text",
       "column" : "text",
       "ar" : "الأبعاد | الأبعاد",
       "en" : "Measures | L * W * H",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.quantity.measures.width",
       "column" : "width",
       "ar" : "الأبعاد | ع",
       "en" : "Measures | W",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.quantity.quantity.primeQty.uom",
       "column" : "pUom_id",
@@ -970,7 +1004,8 @@
       "en" : "Item Quantity | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "details.quantity.quantity.primeQty.value",
       "column" : "pValue",
@@ -984,13 +1019,15 @@
       "en" : "Secondary | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "details.quantity.quantity.secondQty.value",
       "column" : "sValue",
       "ar" : "الوحدة الثانية | الكمية",
       "en" : "Secondary | Quantity",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSecondUnit"
     }, {
       "id" : "details.quantity.uomRate",
       "column" : "uomRate",
@@ -1018,7 +1055,8 @@
       "en" : "Unit",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "details.serviceQty.baseQty.value",
       "column" : "serviceQtyBaseValue",
@@ -1038,37 +1076,43 @@
       "column" : "serviceQtyMeasureQty",
       "ar" : "الأبعاد | عدد",
       "en" : "Measures | Qty",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.serviceQty.measures.clippedLength1",
       "column" : "serviceQtyClippedLength1",
       "ar" : "أبعادالجزء المقصوص 1 | الطول",
       "en" : "Clipped Part1 Measures | Length",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.serviceQty.measures.height",
       "column" : "serviceQtyHeight",
       "ar" : "الأبعاد | ر",
       "en" : "Measures | H",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scThirdMeasure"
     }, {
       "id" : "details.serviceQty.measures.length",
       "column" : "serviceQtyLength",
       "ar" : "الأبعاد | ط",
       "en" : "Measures | L",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.serviceQty.measures.text",
       "column" : "serviceQtyText",
       "ar" : "الأبعاد | الأبعاد",
       "en" : "Measures | L * W * H",
-      "type" : "Measures"
+      "type" : "Measures",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.serviceQty.measures.width",
       "column" : "serviceQtyWidth",
       "ar" : "الأبعاد | ع",
       "en" : "Measures | W",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scMeasures"
     }, {
       "id" : "details.serviceQty.quantity.primeQty.uom",
       "column" : "serviceQtyPUom_id",
@@ -1076,7 +1120,8 @@
       "en" : "Primary UOM Service | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "details.serviceQty.quantity.primeQty.value",
       "column" : "serviceQtyPValue",
@@ -1090,13 +1135,15 @@
       "en" : "Secondary | UOM",
       "type" : "Reference",
       "refTo" : "UOM",
-      "refPath" : "/modules/supplychain/UOM.html"
+      "refPath" : "/modules/supplychain/UOM.html",
+      "feature" : "multiUnits"
     }, {
       "id" : "details.serviceQty.quantity.secondQty.value",
       "column" : "serviceQtySValue",
       "ar" : "الوحدة الثانية | الكمية",
       "en" : "Secondary | Quantity",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSecondUnit"
     }, {
       "id" : "details.serviceQty.uomRate",
       "column" : "serviceQtyUomRate",

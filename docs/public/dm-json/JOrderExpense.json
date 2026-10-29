@@ -7,6 +7,7 @@
   "en" : "Order Expense",
   "enPlural" : "Order Expense",
   "page" : "https://dm.namasoft.com/modules/supplychain-gjo/JOrderExpense.html",
+  "feature" : "GlassJobOrder",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -303,7 +304,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "jobOrder",
     "column" : "jobOrder_id",

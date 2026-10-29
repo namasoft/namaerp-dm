@@ -430,7 +430,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "item",
     "column" : "item_id",
@@ -889,6 +890,14 @@
       "id" : "details.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
+    }, {
+      "id" : "details.newInsurancePolicy",
+      "column" : "newInsurancePolicy_id",
+      "ar" : "الوثيقة الجديدة",
+      "en" : "New Insurance Policy",
+      "type" : "Reference",
+      "refTo" : "SICustomerInsurancePolicy",
+      "refPath" : "/modules/srvcenter-insurance-and-installments/SICustomerInsurancePolicy.html"
     }, {
       "id" : "details.newValue",
       "column" : "newValue",

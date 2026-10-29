@@ -7,6 +7,7 @@
   "en" : "Item Category",
   "enPlural" : "Item Categories",
   "page" : "https://dm.namasoft.com/modules/supplychain/ItemCategory.html",
+  "feature" : "scItemAutoCoding",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

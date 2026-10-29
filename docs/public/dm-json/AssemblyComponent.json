@@ -12,7 +12,8 @@
     "column" : "allowDuplicateLines",
     "ar" : "السماح بتكرار السطور",
     "en" : "Allow Duplicate Lines",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "GlassJobOrder"
   }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -504,7 +505,8 @@
       "column" : "measuresHeight",
       "ar" : "الأبعاد | ر",
       "en" : "Measures | H",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scThirdMeasure"
     }, {
       "id" : "details.measures.length",
       "column" : "measuresLength",

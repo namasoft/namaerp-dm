@@ -7,6 +7,7 @@
   "en" : "Prevent Using Batch",
   "enPlural" : " Prevent Using Batch",
   "page" : "https://dm.namasoft.com/modules/supplychain-inventory/PreventUsingBatch.html",
+  "feature" : "scLot",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

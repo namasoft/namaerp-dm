@@ -826,7 +826,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -1447,81 +1448,94 @@
     "column" : "taxInfoCommercialRegNo",
     "ar" : "رقم السجل التجاري",
     "en" : "Commercial Registration Number",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.companyType",
     "column" : "taxInfoCompanyType",
     "ar" : "الكيان القانونى للشركة",
     "en" : "The legal entity of the company",
     "type" : "Enum",
-    "enum" : "CompanyType"
+    "enum" : "CompanyType",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.crNationalNumber",
     "column" : "taxInfoCrNationalNumber",
     "ar" : "الرقم الوطني الموحد",
     "en" : "Commercial Registration National Number",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.dealWay",
     "column" : "taxInfoDealWay",
     "ar" : "ط تعامل",
     "en" : "Deal Way",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.dealWayCode",
     "column" : "taxInfoDealWayCode",
     "ar" : "كود",
     "en" : "Code",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.fileNo",
     "column" : "taxInfoFileNo",
     "ar" : "رقم الملف",
     "en" : "File No",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.idNumber",
     "column" : "taxInfoIdNumber",
     "ar" : "رقم البطاقة الشخصيه",
     "en" : "Id Number",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.mission",
     "column" : "taxInfoMission",
     "ar" : "المأمورية",
     "en" : "Mission",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.missionCode",
     "column" : "taxInfoMissionCode",
     "ar" : "كود",
     "en" : "Code",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.specialNumber",
     "column" : "taxInfoSpecialNumber",
     "ar" : "الرقم المميز",
     "en" : "Special Number",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.supplier",
     "column" : "taxInfoSupplier",
     "ar" : "مورد",
     "en" : " Supplier",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.taxRegNo",
     "column" : "taxInfoTaxRegNo",
     "ar" : "رقم التسجيل الضريبى",
     "en" : "Tax Registeration NO",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxInfo.zatcaIdType",
     "column" : "taxInfoZatcaIdType",
     "ar" : "نوع هوية المشتري (هيئة الزكاة)",
     "en" : "ZATCA Buyer Id Type",
     "type" : "Enum",
-    "enum" : "ZATCAIdType"
+    "enum" : "ZATCAIdType",
+    "feature" : "scSalesTax"
   }, {
     "id" : "taxPlan",
     "column" : "taxPlan_id",
@@ -1529,7 +1543,8 @@
     "en" : " Tax Plan",
     "type" : "Reference",
     "refTo" : "TaxPlan",
-    "refPath" : "/modules/basic/TaxPlan.html"
+    "refPath" : "/modules/basic/TaxPlan.html",
+    "feature" : "scSalesTax"
   }, {
     "id" : "term",
     "column" : "term_id",

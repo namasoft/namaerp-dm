@@ -446,7 +446,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "item",
     "column" : "item_id",
@@ -872,8 +873,8 @@
     }, {
       "id" : "details.effectiveStartDate",
       "column" : "effectiveStartDate",
-      "ar" : "تاريخ فعلي",
-      "en" : "Effective Date",
+      "ar" : "تاريخ البداية",
+      "en" : "Start Date",
       "type" : "Date"
     }, {
       "id" : "details.engineNumber",
@@ -905,6 +906,14 @@
       "type" : "Reference",
       "refTo" : "SICustomerInsurancePolicy",
       "refPath" : "/modules/srvcenter-insurance-and-installments/SICustomerInsurancePolicy.html"
+    }, {
+      "id" : "details.insurancePolicyImage",
+      "column" : "insurancePolicyImage_id",
+      "ar" : "صورة وثيقة التأمين",
+      "en" : "Insurance Policy Image",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
     }, {
       "id" : "details.insurancePrice",
       "column" : "insurancePrice",
@@ -954,6 +963,12 @@
       "ar" : "مدة الوثيقة",
       "en" : "Policy Duration",
       "type" : "Integer"
+    }, {
+      "id" : "details.policyNumber",
+      "column" : "policyNumber",
+      "ar" : "رقم الوثيقة",
+      "en" : "Policy Number",
+      "type" : "Text"
     }, {
       "id" : "details.policyPaymentStatus",
       "column" : "policyPaymentStatus",

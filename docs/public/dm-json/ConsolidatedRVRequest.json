@@ -400,7 +400,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -536,7 +537,8 @@
     "columns" : [ "projContractActualCode", " projContractCode", " projContractEntityType", " projContractId" ],
     "ar" : "عقد المشروع",
     "en" : "Project Contract",
-    "type" : "Genericreference"
+    "type" : "Genericreference",
+    "feature" : "e:ProjectContract"
   }, {
     "id" : "purged",
     "column" : "purged",

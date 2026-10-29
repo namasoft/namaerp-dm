@@ -209,7 +209,8 @@
     "en" : "Unit",
     "type" : "Reference",
     "refTo" : "UOM",
-    "refPath" : "/modules/supplychain/UOM.html"
+    "refPath" : "/modules/supplychain/UOM.html",
+    "feature" : "multiUnits"
   }, {
     "id" : "quantity.baseQty.value",
     "column" : "baseValue",
@@ -229,37 +230,43 @@
     "column" : "measureQty",
     "ar" : "الأبعاد | عدد",
     "en" : "Measures | Qty",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scMeasures"
   }, {
     "id" : "quantity.measures.clippedLength1",
     "column" : "clippedLength1",
     "ar" : "أبعادالجزء المقصوص 1 | الطول",
     "en" : "Clipped Part1 Measures | Length",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scMeasures"
   }, {
     "id" : "quantity.measures.height",
     "column" : "height",
     "ar" : "الأبعاد | ر",
     "en" : "Measures | H",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scThirdMeasure"
   }, {
     "id" : "quantity.measures.length",
     "column" : "length",
     "ar" : "الأبعاد | ط",
     "en" : "Measures | L",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scMeasures"
   }, {
     "id" : "quantity.measures.text",
     "column" : "text",
     "ar" : "الأبعاد | الأبعاد",
     "en" : "Measures | L * W * H",
-    "type" : "Measures"
+    "type" : "Measures",
+    "feature" : "scMeasures"
   }, {
     "id" : "quantity.measures.width",
     "column" : "width",
     "ar" : "الأبعاد | ع",
     "en" : "Measures | W",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scMeasures"
   }, {
     "id" : "quantity.quantity.primeQty.uom",
     "column" : "pUom_id",
@@ -267,7 +274,8 @@
     "en" : "Primary | UOM",
     "type" : "Reference",
     "refTo" : "UOM",
-    "refPath" : "/modules/supplychain/UOM.html"
+    "refPath" : "/modules/supplychain/UOM.html",
+    "feature" : "multiUnits"
   }, {
     "id" : "quantity.quantity.primeQty.value",
     "column" : "pValue",
@@ -281,13 +289,15 @@
     "en" : "Secondary | UOM",
     "type" : "Reference",
     "refTo" : "UOM",
-    "refPath" : "/modules/supplychain/UOM.html"
+    "refPath" : "/modules/supplychain/UOM.html",
+    "feature" : "multiUnits"
   }, {
     "id" : "quantity.quantity.secondQty.value",
     "column" : "sValue",
     "ar" : "الوحدة الثانية | الكمية",
     "en" : "Secondary | Quantity",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "scSecondUnit"
   }, {
     "id" : "quantity.uomRate",
     "column" : "uomRate",

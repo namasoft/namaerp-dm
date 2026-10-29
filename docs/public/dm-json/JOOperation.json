@@ -39,7 +39,8 @@
     "en" : " Calculation Formula",
     "type" : "Reference",
     "refTo" : "CalculationFormula",
-    "refPath" : "/modules/supplychain/CalculationFormula.html"
+    "refPath" : "/modules/supplychain/CalculationFormula.html",
+    "feature" : "scMeasures"
   }, {
     "id" : "code",
     "column" : "code",

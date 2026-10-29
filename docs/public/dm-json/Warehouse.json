@@ -353,7 +353,8 @@
     "en" : "Inspection WareHouse",
     "type" : "Reference",
     "refTo" : "Warehouse",
-    "refPath" : "/modules/supplychain/Warehouse.html"
+    "refPath" : "/modules/supplychain/Warehouse.html",
+    "feature" : "ReceiptInspection"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -392,7 +393,8 @@
     "ar" : "إستخدام الموقع",
     "en" : "Locator Usage",
     "type" : "Enum",
-    "enum" : "DimensionPolicy"
+    "enum" : "DimensionPolicy",
+    "feature" : "scLocation"
   }, {
     "id" : "lockVersion",
     "column" : "lockVersion",
@@ -567,7 +569,8 @@
     "column" : "secondUOMRequired",
     "ar" : "الوحدة الثانية مطلوبة",
     "en" : "Second UOM Required",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scSecondUnit"
   }, {
     "id" : "sector",
     "column" : "sector_id",
@@ -988,10 +991,12 @@
     "joinColumn" : "warehouse_id",
     "ar" : "المواقع المخزنية",
     "en" : "Locators",
+    "feature" : "scLocation",
     "fields" : [ {
       "id" : "locators.id",
       "column" : "id",
-      "type" : "ID"
+      "type" : "ID",
+      "feature" : "scLocation"
     }, {
       "id" : "locators.lineNumber",
       "column" : "lineNumber",
@@ -1003,41 +1008,48 @@
       "en" : "Locator",
       "type" : "Reference",
       "refTo" : "Locator",
-      "refPath" : "/modules/supplychain/Locator.html"
+      "refPath" : "/modules/supplychain/Locator.html",
+      "feature" : "scLocation"
     }, {
       "id" : "locators.locatorCode",
       "column" : "locatorCode",
       "ar" : "كود",
       "en" : "Code",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scLocation"
     }, {
       "id" : "locators.locatorPriority",
       "column" : "locatorPriority",
       "ar" : " الأولوية",
       "en" : "Priority",
-      "type" : "Long"
+      "type" : "Long",
+      "feature" : "scLocation"
     }, {
       "id" : "locators.name1",
       "column" : "name1",
       "ar" : "الاسم العربي",
       "en" : "Name1",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scLocation"
     }, {
       "id" : "locators.name2",
       "column" : "name2",
       "ar" : "الاسم الإنجليزي",
       "en" : "Name2",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scLocation"
     }, {
       "id" : "locators.relatedTo",
       "columns" : [ "relatedToActualCode", " relatedToCode", " relatedToEntityType", " relatedToId" ],
       "ar" : "يرتبط بـ",
       "en" : "Related To",
-      "type" : "Genericreference"
+      "type" : "Genericreference",
+      "feature" : "scLocation"
     }, {
       "id" : "locators.replLocatorId",
       "column" : "replLocatorId",
-      "type" : "ID"
+      "type" : "ID",
+      "feature" : "scLocation"
     }, {
       "id" : "locators.reservationLocator",
       "column" : "reservationLocator_id",
@@ -1045,7 +1057,8 @@
       "en" : "Reservation Locator",
       "type" : "Reference",
       "refTo" : "Locator",
-      "refPath" : "/modules/supplychain/Locator.html"
+      "refPath" : "/modules/supplychain/Locator.html",
+      "feature" : "scLocation"
     }, {
       "id" : "locators.wareLocationClass",
       "column" : "wareLocationClass_id",
@@ -1053,7 +1066,8 @@
       "en" : "Ware location class",
       "type" : "Reference",
       "refTo" : "WareLocationClass",
-      "refPath" : "/modules/supplychain/WareLocationClass.html"
+      "refPath" : "/modules/supplychain/WareLocationClass.html",
+      "feature" : "scLocation"
     } ]
   } ]
 }

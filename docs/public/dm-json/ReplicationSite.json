@@ -7,6 +7,7 @@
   "en" : "Replication Site",
   "enPlural" : "Replication Sites",
   "page" : "https://dm.namasoft.com/modules/basic/ReplicationSite.html",
+  "feature" : "replication",
   "fields" : [ {
     "id" : "administraorEmails",
     "column" : "administraorEmails",

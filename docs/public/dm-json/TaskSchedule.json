@@ -2518,10 +2518,12 @@
     "joinColumn" : "taskSchedule_id",
     "ar" : "تشغيل في",
     "en" : "Run In Sites",
+    "feature" : "replication",
     "fields" : [ {
       "id" : "runInSites.id",
       "column" : "id",
-      "type" : "ID"
+      "type" : "ID",
+      "feature" : "replication"
     }, {
       "id" : "runInSites.lineNumber",
       "column" : "lineNumber",
@@ -2533,7 +2535,8 @@
       "en" : "Replication Site",
       "type" : "Reference",
       "refTo" : "ReplicationSite",
-      "refPath" : "/modules/basic/ReplicationSite.html"
+      "refPath" : "/modules/basic/ReplicationSite.html",
+      "feature" : "replication"
     } ]
   }, {
     "id" : "targetLines",

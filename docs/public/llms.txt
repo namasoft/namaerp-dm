@@ -7,9 +7,12 @@ How to use this site programmatically:
 - Entity list (all entities with names, tables, modules, and detail tables): https://dm.namasoft.com/dm-json/index.json
 - Entity schema: https://dm.namasoft.com/dm-json/{EntityName}.json
 - Enum values: https://dm.namasoft.com/dm-json/enums/{EnumName}.json
+- Features (what each feature hides): https://dm.namasoft.com/dm-json/features.json
 - Human-readable page: https://dm.namasoft.com/modules/{module}/{EntityName}.html
 
-Field entries use: id (property name), column (database column; "columns" array for multi-column generic references), ar/en (labels), type (field type), refTo (referenced entity for Reference fields), enum (enum type name for Enum fields).
+Field entries use: id (property name), column (database column; "columns" array for multi-column generic references), ar/en (labels), type (field type), refTo (referenced entity for Reference fields), enum (enum type name for Enum fields), feature (the feature the field depends on).
+
+A "feature" key on an entity, a detail table or a field means the screen hides it unless that feature is available. A plain value such as accDefaultRVPVVouchers is hidden while it is listed in Unused Features on the user's legal entity or on the Configuration Group; "m:<module>" needs that module installed; "e:<EntityType>", or a plain value that is an entity type name, needs that screen available. A Screen Modifier cannot show a field whose feature is unavailable. features.json lists every feature with its Arabic/English names and everything it hides.
 
 Entities are grouped below by module. Each heading carries the module slug, which is the {module} segment of the page URL.
 
@@ -346,6 +349,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [MobileAppTranslationOverride](https://dm.namasoft.com/dm-json/MobileAppTranslationOverride.json): Mobile App Translation Override / ترجمة حقول تطبيق المحمول
 - [MobileEntityTitleModifier](https://dm.namasoft.com/dm-json/MobileEntityTitleModifier.json): Mobile Entity Title Modifier / طريقة عرض بيانات المستند فى التطبيق
 - [MobileQRIntegrator](https://dm.namasoft.com/dm-json/MobileQRIntegrator.json): Mobile QR Integrator
+- [MobileSecurityConfig](https://dm.namasoft.com/dm-json/MobileSecurityConfig.json): Mobile Security Configuration / إعدادات صلاحيات الموبايل
 - [MultiValueReportParameter](https://dm.namasoft.com/dm-json/MultiValueReportParameter.json): Multi Value Report Parameter / قيم متعددة لمدخل تقرير
 - [Nationality](https://dm.namasoft.com/dm-json/Nationality.json): Nationality / جنسية
 - [NotificationDefinition](https://dm.namasoft.com/dm-json/NotificationDefinition.json): Notification Definition / تعريف تنبيهات
@@ -2228,7 +2232,6 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [MiscInvoiceQtyTransLine](https://dm.namasoft.com/dm-json/MiscInvoiceQtyTransLine.json): Misc Invoice Qty Trans Line
 - [MnNoticeMobileAttendanceEntry](https://dm.namasoft.com/dm-json/MnNoticeMobileAttendanceEntry.json): Mn Notice Mobile Attendance Entry
 - [MobileAppErrorLog](https://dm.namasoft.com/dm-json/MobileAppErrorLog.json): Mobile App Error Log
-- [MobileSecurityConfig](https://dm.namasoft.com/dm-json/MobileSecurityConfig.json): Mobile Security Configuration / إعدادات صلاحيات الموبايل
 - [ModuleInfo](https://dm.namasoft.com/dm-json/ModuleInfo.json): Module Info
 - [NaMaLayout](https://dm.namasoft.com/dm-json/NaMaLayout.json): Na Ma Layout
 - [NaMaUser](https://dm.namasoft.com/dm-json/NaMaUser.json): Na Ma User
@@ -2391,6 +2394,9 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [SysVacBalanceTransaction](https://dm.namasoft.com/dm-json/SysVacBalanceTransaction.json): Sys Vac Balance Transaction
 - [SysVacationsBalance](https://dm.namasoft.com/dm-json/SysVacationsBalance.json): Sys Vacations Balance
 - [SysVacationsBalanceByDate](https://dm.namasoft.com/dm-json/SysVacationsBalanceByDate.json): Sys Vacations Balance By Date
+- [TRExternalDriver](https://dm.namasoft.com/dm-json/TRExternalDriver.json): External Driver / سائق خارجي
+- [TRPaxCheckIn](https://dm.namasoft.com/dm-json/TRPaxCheckIn.json): Pax Check-In / تسجيل وصول الركاب
+- [TRPlatform](https://dm.namasoft.com/dm-json/TRPlatform.json): Platform / منصة
 - [TaskScheduleExecutionLog](https://dm.namasoft.com/dm-json/TaskScheduleExecutionLog.json): Task Schedule Execution Log
 - [TaxPayerLastSubmissionInfo](https://dm.namasoft.com/dm-json/TaxPayerLastSubmissionInfo.json): Tax Payer Last Submission Info
 - [TechnicianAppointmentChangeHistory](https://dm.namasoft.com/dm-json/TechnicianAppointmentChangeHistory.json): Technician Appointment Change History

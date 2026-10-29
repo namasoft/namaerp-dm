@@ -35,7 +35,8 @@
     "ar" : "ملء الصندوق تلقائيا",
     "en" : "Auto Fill Box",
     "type" : "Enum",
-    "enum" : "ItemDimensionsAutoFillPolicy"
+    "enum" : "ItemDimensionsAutoFillPolicy",
+    "feature" : "scPackaging"
   }, {
     "id" : "branch",
     "column" : "branch_id",
@@ -116,7 +117,8 @@
     "ar" : "ملء اللون تلقائيا",
     "en" : "Auto Fill Color",
     "type" : "Enum",
-    "enum" : "ItemDimensionsAutoFillPolicy"
+    "enum" : "ItemDimensionsAutoFillPolicy",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "commitedBefore",
     "column" : "commitedBefore",
@@ -523,7 +525,8 @@
     "ar" : "ملء الشحنة تلقائيا",
     "en" : "Auto Fill Lot",
     "type" : "Enum",
-    "enum" : "ItemDimensionsAutoFillPolicy"
+    "enum" : "ItemDimensionsAutoFillPolicy",
+    "feature" : "scLot"
   }, {
     "id" : "mainFile",
     "column" : "mainFile_id",
@@ -661,7 +664,8 @@
     "ar" : "ملء الإصدار تلقائيا",
     "en" : "Auto Fill Revision",
     "type" : "Enum",
-    "enum" : "ItemDimensionsAutoFillPolicy"
+    "enum" : "ItemDimensionsAutoFillPolicy",
+    "feature" : "scRevisions"
   }, {
     "id" : "sector",
     "column" : "sector_id",
@@ -680,7 +684,8 @@
     "ar" : "ملء الحجم تلقائيا",
     "en" : "Auto Fill Size",
     "type" : "Enum",
-    "enum" : "ItemDimensionsAutoFillPolicy"
+    "enum" : "ItemDimensionsAutoFillPolicy",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "systemGeneratedCodePrefix",
     "column" : "systemGeneratedCodePrefix",

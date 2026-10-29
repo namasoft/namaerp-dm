@@ -1,0 +1,20 @@
+{
+  "enum" : "TRPaxStatus",
+  "values" : [ {
+    "id" : "Confirm",
+    "ar" : "تأكيد",
+    "en" : "Confirm"
+  }, {
+    "id" : "NoShow",
+    "ar" : "لم يحضر",
+    "en" : "No Show"
+  }, {
+    "id" : "Reschedule",
+    "ar" : "إعادة جدولة",
+    "en" : "Reschedule"
+  }, {
+    "id" : "Cancel",
+    "ar" : "إلغاء",
+    "en" : "Cancel"
+  } ]
+}

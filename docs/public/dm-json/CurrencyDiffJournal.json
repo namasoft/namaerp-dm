@@ -296,7 +296,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -777,25 +778,29 @@
       "column" : "tax1Percentage",
       "ar" : "ضريبة 1 | نسبة",
       "en" : "Tax 1 | Percentage",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "lines.tax1Value",
       "column" : "tax1Value",
       "ar" : "ضريبة 1 | قيمة",
       "en" : "Tax 1 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "lines.tax2Percentage",
       "column" : "tax2Percentage",
       "ar" : "ضريبة 2 | نسبة",
       "en" : "Tax 2 | Percentage",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "lines.tax2Value",
       "column" : "tax2Value",
       "ar" : "ضريبة 2 | قيمة",
       "en" : "Tax 2 | Value",
-      "type" : "Decimal"
+      "type" : "Decimal",
+      "feature" : "scSalesTax"
     }, {
       "id" : "lines.text1",
       "column" : "text1",

@@ -343,7 +343,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -845,7 +846,8 @@
       "en" : "Ensured Legal Entity",
       "type" : "Reference",
       "refTo" : "LegalEntity",
-      "refPath" : "/modules/basic/LegalEntity.html"
+      "refPath" : "/modules/basic/LegalEntity.html",
+      "feature" : "gulfHr"
     }, {
       "id" : "employeeInfo.entryVisa.end",
       "column" : "entryVisaEnd",
@@ -1010,7 +1012,8 @@
       "en" : "Current position",
       "type" : "Reference",
       "refTo" : "OrganizationPosition",
-      "refPath" : "/modules/basic/OrganizationPosition.html"
+      "refPath" : "/modules/basic/OrganizationPosition.html",
+      "feature" : "gulfHr"
     }, {
       "id" : "employeeInfo.salaryStructure",
       "column" : "salaryStructure_id",

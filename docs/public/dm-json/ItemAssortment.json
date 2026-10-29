@@ -7,6 +7,7 @@
   "en" : "Item Assortment",
   "enPlural" : "Item Assortments",
   "page" : "https://dm.namasoft.com/modules/supplychain/ItemAssortment.html",
+  "feature" : "scSizeAndColor",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

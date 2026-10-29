@@ -9,7 +9,8 @@
     "column" : "afterFeesValue",
     "ar" : "المبلغ بعد الرسوم",
     "en" : "Value After Fees",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "PaymentMethod"
   }, {
     "id" : "authorizationNumber",
     "column" : "authorizationNumber",
@@ -47,13 +48,15 @@
     "column" : "feesTaxValue",
     "ar" : "قيمة ضريبة الرسوم",
     "en" : "Fees Tax Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "PaymentMethod"
   }, {
     "id" : "feesValue",
     "column" : "feesValue",
     "ar" : "قيمة الرسوم",
     "en" : "Fees Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "PaymentMethod"
   }, {
     "id" : "id",
     "column" : "id",
@@ -101,81 +104,95 @@
     "column" : "paymentValue",
     "ar" : "المبلغ",
     "en" : "Payment Value",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "PaymentMethod"
   }, {
     "id" : "pgwProperties.authCode",
     "column" : "authCode",
     "ar" : "Auth Code / Txn Id",
     "en" : "Auth Code / Txn Id",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "m:basic-payment-gateway"
   }, {
     "id" : "pgwProperties.cardType",
     "column" : "cardType",
     "ar" : "Card Type",
     "en" : "Card Type",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "m:basic-payment-gateway"
   }, {
     "id" : "pgwProperties.de55Response",
     "column" : "de55Response",
     "ar" : "De55 Response",
     "en" : "De55 Response",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "m:basic-payment-gateway"
   }, {
     "id" : "pgwProperties.ecrRefNum",
     "column" : "ecrRefNum",
     "ar" : "ECR Ref Number / Local Reference Number",
     "en" : "ECR Ref Number / Local Reference Number",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "m:basic-payment-gateway"
   }, {
     "id" : "pgwProperties.failureMessage",
     "column" : "failureMessage",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "m:basic-payment-gateway"
   }, {
     "id" : "pgwProperties.maskedCardNumber",
     "column" : "maskedCardNumber",
     "ar" : "Masked Card Number",
     "en" : "Masked Card Number",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "m:basic-payment-gateway"
   }, {
     "id" : "pgwProperties.merchantId",
     "column" : "merchantId",
     "ar" : "Merchant Id",
     "en" : "Merchant Id",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "m:basic-payment-gateway"
   }, {
     "id" : "pgwProperties.paidFromTerminal",
     "column" : "paidFromTerminal",
     "ar" : "مدفوعة بواسطة ال Terminal",
     "en" : "Paid From Terminal",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "m:basic-payment-gateway"
   }, {
     "id" : "pgwProperties.panNum",
     "column" : "panNum",
     "ar" : "PAN Number / ApprovalCode",
     "en" : "PAN Number / ApprovalCode",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "m:basic-payment-gateway"
   }, {
     "id" : "pgwProperties.respCode",
     "column" : "respCode",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "m:basic-payment-gateway"
   }, {
     "id" : "pgwProperties.schemeId",
     "column" : "schemeId",
     "ar" : "Scheme Id / Card Scheme Name",
     "en" : "Scheme Id / Card Scheme Name",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "m:basic-payment-gateway"
   }, {
     "id" : "pgwProperties.stanNum",
     "column" : "stanNum",
     "ar" : "STAN Number / rrNumber",
     "en" : "STAN Number / rrNumber",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "m:basic-payment-gateway"
   }, {
     "id" : "pgwProperties.terminalId",
     "column" : "terminalId",
     "ar" : "Terminal Id / Device Serial No",
     "en" : "Terminal Id / Device Serial No",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "m:basic-payment-gateway"
   }, {
     "id" : "ref1",
     "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],

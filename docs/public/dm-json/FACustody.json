@@ -504,7 +504,8 @@
     "en" : " Tax Plan",
     "type" : "Reference",
     "refTo" : "TaxPlan",
-    "refPath" : "/modules/basic/TaxPlan.html"
+    "refPath" : "/modules/basic/TaxPlan.html",
+    "feature" : "scSalesTax"
   }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",

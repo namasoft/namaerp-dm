@@ -7,6 +7,7 @@
   "en" : "Feature Set",
   "enPlural" : "Feature Sets",
   "page" : "https://dm.namasoft.com/modules/basic/FeatureSet.html",
+  "feature" : "cloudmode",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

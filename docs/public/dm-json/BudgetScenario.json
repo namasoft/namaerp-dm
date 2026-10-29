@@ -245,7 +245,8 @@
     "en" : "Fiscal Year 1",
     "type" : "Reference",
     "refTo" : "FiscalYear",
-    "refPath" : "/modules/basic/FiscalYear.html"
+    "refPath" : "/modules/basic/FiscalYear.html",
+    "feature" : "fourYearBudget"
   }, {
     "id" : "fiscalYear2",
     "column" : "fiscalYear2_id",
@@ -253,7 +254,8 @@
     "en" : "Fiscal Year 2",
     "type" : "Reference",
     "refTo" : "FiscalYear",
-    "refPath" : "/modules/basic/FiscalYear.html"
+    "refPath" : "/modules/basic/FiscalYear.html",
+    "feature" : "threeYearBudget"
   }, {
     "id" : "fiscalYear3",
     "column" : "fiscalYear3_id",
@@ -261,7 +263,8 @@
     "en" : "Fiscal Year 3",
     "type" : "Reference",
     "refTo" : "FiscalYear",
-    "refPath" : "/modules/basic/FiscalYear.html"
+    "refPath" : "/modules/basic/FiscalYear.html",
+    "feature" : "twoYearBudget"
   }, {
     "id" : "fiscalYear4",
     "column" : "fiscalYear4_id",
@@ -604,7 +607,8 @@
       "en" : "Year1 Period",
       "type" : "Reference",
       "refTo" : "FiscalPeriod",
-      "refPath" : "/modules/basic/FiscalPeriod.html"
+      "refPath" : "/modules/basic/FiscalPeriod.html",
+      "feature" : "fourYearBudget"
     }, {
       "id" : "actualsSrc.year1ToPeriod",
       "column" : "year1ToPeriod_id",
@@ -620,7 +624,8 @@
       "en" : "Year2 Period",
       "type" : "Reference",
       "refTo" : "FiscalPeriod",
-      "refPath" : "/modules/basic/FiscalPeriod.html"
+      "refPath" : "/modules/basic/FiscalPeriod.html",
+      "feature" : "threeYearBudget"
     }, {
       "id" : "actualsSrc.year2ToPeriod",
       "column" : "year2ToPeriod_id",
@@ -636,7 +641,8 @@
       "en" : "Year3 Period",
       "type" : "Reference",
       "refTo" : "FiscalPeriod",
-      "refPath" : "/modules/basic/FiscalPeriod.html"
+      "refPath" : "/modules/basic/FiscalPeriod.html",
+      "feature" : "twoYearBudget"
     }, {
       "id" : "actualsSrc.year3ToPeriod",
       "column" : "year3ToPeriod_id",

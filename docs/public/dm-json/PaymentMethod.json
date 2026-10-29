@@ -12,7 +12,8 @@
     "column" : "actualBalanceRequiredInPOS",
     "ar" : "الرصيد الفعلي في نقطة البيع إجباري",
     "en" : "Actual Balance Is Required In POS",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "m:namapos"
   }, {
     "id" : "allowEditFeesValueManually",
     "column" : "allowEditFeesValueManually",
@@ -136,7 +137,8 @@
     "column" : "criticalPosPaymentMethod",
     "ar" : "طريقة دفع حرجه لنقاط البيع",
     "en" : "Critical Pos Payment Method",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "NamaPOSRegister"
   }, {
     "id" : "currentApprovalCase",
     "column" : "currentApprovalCase_id",
@@ -194,7 +196,8 @@
     "column" : "daysBeforeAllowingReturn",
     "ar" : "عدد الأيام قبل السماح بالمرتجع",
     "en" : "Days Before Allowing Return",
-    "type" : "Integer"
+    "type" : "Integer",
+    "feature" : "m:namapos"
   }, {
     "id" : "department",
     "column" : "department_id",
@@ -242,7 +245,8 @@
     "column" : "disableActualBalanceInPOS",
     "ar" : "تعطيل الرصيد الفعلي في نقطة البيع",
     "en" : "Disable Actual Balance In POS",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "m:namapos"
   }, {
     "id" : "doNotAffectRemaining",
     "column" : "doNotAffectRemaining",
@@ -254,13 +258,15 @@
     "column" : "doNotUseInPosPayments",
     "ar" : "لا تستخدم في مصروفات نقاط البيع",
     "en" : "Do Not Use In POS Payments",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "NamaPOSRegister"
   }, {
     "id" : "doNotUseInPosReceipts",
     "column" : "doNotUseInPosReceipts",
     "ar" : "لا تستخدم في مقبوضات نقاط البيع",
     "en" : "Do Not Use In POS Receipts",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "NamaPOSRegister"
   }, {
     "id" : "docCategory",
     "column" : "docCategory_id",
@@ -416,25 +422,29 @@
     "column" : "hideInPOSPayment",
     "ar" : "إخفاء في شاشة الدفع في نقاط البيع",
     "en" : "Hide In POS Payment Dialog",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "m:namapos"
   }, {
     "id" : "hideInReturnsPayment",
     "column" : "hideInReturnsPayment",
     "ar" : "إخفاء في دفع المردودات",
     "en" : "Hide In Returns Payment",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "m:namapos"
   }, {
     "id" : "hideInSalesPayment",
     "column" : "hideInSalesPayment",
     "ar" : "إخفاء في دفع المبيعات",
     "en" : "Hide In Sales Payment",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "m:namapos"
   }, {
     "id" : "hideInShifts",
     "column" : "hideInShifts",
     "ar" : "اخفاء في شاشة الورديات",
     "en" : "Hide In Shifts",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "NamaPOSRegister"
   }, {
     "id" : "id",
     "column" : "id",
@@ -688,25 +698,29 @@
     "ar" : "المفتاح",
     "en" : "Key",
     "type" : "Enum",
-    "enum" : "KeyboardKey"
+    "enum" : "KeyboardKey",
+    "feature" : "m:namapos"
   }, {
     "id" : "shortCut.useAlt",
     "column" : "shortCutUseAlt",
     "ar" : "Alt",
     "en" : "Alt",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "m:namapos"
   }, {
     "id" : "shortCut.useCtrl",
     "column" : "shortCutUseCtrl",
     "ar" : "Ctrl",
     "en" : "Ctrl",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "m:namapos"
   }, {
     "id" : "shortCut.useShift",
     "column" : "shortCutUseShift",
     "ar" : "Shift",
     "en" : "Shift",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "m:namapos"
   }, {
     "id" : "subsidiary",
     "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],

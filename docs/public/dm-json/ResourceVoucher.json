@@ -340,7 +340,8 @@
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
-    "type" : "Date"
+    "type" : "Date",
+    "feature" : "issueDate"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -615,25 +616,29 @@
     "column" : "fpActivePerc",
     "ar" : "النسبة الفعالة",
     "en" : "Active Percentage",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "specificDimensions.box",
     "column" : "fpBox",
     "ar" : "صندوق",
     "en" : "Box",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scPackaging"
   }, {
     "id" : "specificDimensions.color",
     "column" : "fpColor",
     "ar" : "اللون",
     "en" : "Color",
-    "type" : "Color"
+    "type" : "Color",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "specificDimensions.inactivePerc",
     "column" : "fpInactivePerc",
     "ar" : "النسبة الغير فعالة",
     "en" : "Inactive Percentage",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "activeInActivePercentage"
   }, {
     "id" : "specificDimensions.locator",
     "column" : "fpLocator_id",
@@ -647,37 +652,43 @@
     "column" : "fpLotId",
     "ar" : "رقم الشحنه",
     "en" : "Lot ID",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scLot"
   }, {
     "id" : "specificDimensions.measures",
     "column" : "fpMeasures",
     "ar" : "الأبعاد",
     "en" : "Measures",
-    "type" : "Measures"
+    "type" : "Measures",
+    "feature" : "scMeasures"
   }, {
     "id" : "specificDimensions.revisionId",
     "column" : "fpRevisionId",
     "ar" : "الإصدار",
     "en" : "Revision ID",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scRevisions"
   }, {
     "id" : "specificDimensions.secondSerial",
     "column" : "fpSecondSerial",
     "ar" : "الرقم المسلسل الثاني",
     "en" : "Second Serial",
-    "type" : "BigText"
+    "type" : "BigText",
+    "feature" : "scTwoSerials"
   }, {
     "id" : "specificDimensions.serialNumber",
     "column" : "fpSerialNumber",
     "ar" : "الرقم المسلسل",
     "en" : "Serial number",
-    "type" : "BigText"
+    "type" : "BigText",
+    "feature" : "scSerialNumbers"
   }, {
     "id" : "specificDimensions.size",
     "column" : "fpSize",
     "ar" : "المقاس",
     "en" : "Size",
-    "type" : "Text"
+    "type" : "Text",
+    "feature" : "scSizeAndColor"
   }, {
     "id" : "specificDimensions.subItem",
     "column" : "fpSubItem_id",
@@ -685,7 +696,8 @@
     "en" : " Customer Car",
     "type" : "Reference",
     "refTo" : "SubItem",
-    "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+    "refPath" : "/modules/srvcenter-subitems/SubItem.html",
+    "feature" : "scSubItem"
   }, {
     "id" : "specificDimensions.warehouse",
     "column" : "fpWarehouse_id",

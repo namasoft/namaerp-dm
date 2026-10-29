@@ -7,6 +7,7 @@
   "en" : "Payment Terminal",
   "enPlural" : "Payment Terminals",
   "page" : "https://dm.namasoft.com/modules/basic-payment-gateway/PaymentTerminal.html",
+  "feature" : "paymentGateway",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

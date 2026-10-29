@@ -17,7 +17,8 @@
     "ar" : "Allow Access To AI Capabilities",
     "en" : "Allow Access To AI Capabilities",
     "type" : "Enum",
-    "enum" : "YesNoDefault"
+    "enum" : "YesNoDefault",
+    "feature" : "m:ai"
   }, {
     "id" : "allowPDFPrintOnlyForForms",
     "column" : "allowPDFPrintOnlyForForms",
@@ -615,23 +616,27 @@
     "column" : "canEditSalesPrice",
     "ar" : "يمكن تعديل سعر البيع",
     "en" : "Can Edit Sales Price",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "supplychain"
   }, {
     "id" : "scCustomSecurity.canPurchaseAboveLastPrice",
     "column" : "canPurchaseAboveLastPrice",
     "ar" : "يمكن شراء أعلى من سعر الشراء",
     "en" : "Can Purchase Above Last Price",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "supplychain"
   }, {
     "id" : "scCustomSecurity.canSellBelowMinPrice",
     "column" : "canSellBelowMinPrice",
     "ar" : "يمكن النزول عن أقل سعر",
     "en" : "Can Sell Below Minimum Price",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "supplychain"
   }, {
     "id" : "scCustomSecurity.maxDiscountPercentage",
     "column" : "maxDiscountPercentage",
-    "type" : "Decimal"
+    "type" : "Decimal",
+    "feature" : "supplychain"
   }, {
     "id" : "sector",
     "column" : "sector_id",

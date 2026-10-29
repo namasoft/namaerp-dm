@@ -250,19 +250,22 @@
     "column" : "ignoreHeight",
     "ar" : "تجاهل الارتفاع",
     "en" : "Ignore Height",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scMeasures"
   }, {
     "id" : "ignoreLength",
     "column" : "ignoreLength",
     "ar" : "تجاهل الطول",
     "en" : "Ignore Length",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scMeasures"
   }, {
     "id" : "ignoreWidth",
     "column" : "ignoreWidth",
     "ar" : "تجاهل العرض",
     "en" : "Ignore Width",
-    "type" : "Boolean"
+    "type" : "Boolean",
+    "feature" : "scMeasures"
   }, {
     "id" : "indexInParent",
     "column" : "indexInParent",

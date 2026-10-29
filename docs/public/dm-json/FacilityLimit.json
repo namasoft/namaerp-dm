@@ -922,7 +922,8 @@
       "columns" : [ "projContractActualCode", " projContractCode", " projContractEntityType", " projContractId" ],
       "ar" : "عقد المشروع",
       "en" : "Project Contract",
-      "type" : "Genericreference"
+      "type" : "Genericreference",
+      "feature" : "e:ProjectContract"
     }, {
       "id" : "details.ref1",
       "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],

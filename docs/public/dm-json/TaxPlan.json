@@ -7,6 +7,7 @@
   "en" : "Tax Plan",
   "enPlural" : "Tax Plans",
   "page" : "https://dm.namasoft.com/modules/basic/TaxPlan.html",
+  "feature" : "scSalesTax",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -1087,7 +1088,8 @@
       "column" : "revisionId",
       "ar" : "الإصدار",
       "en" : "ID",
-      "type" : "Text"
+      "type" : "Text",
+      "feature" : "scRevisions"
     }, {
       "id" : "legalEntityTaxes.tax1",
       "column" : "tax1",
