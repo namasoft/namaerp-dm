@@ -9,7 +9,7 @@
     "id" : "actionDateTime",
     "column" : "actionDateTime",
     "ar" : "Action Date Time",
-    "en" : "وقت الحدوث",
+    "en" : "Action Date Time",
     "type" : "DateAndTime"
   }, {
     "id" : "description",

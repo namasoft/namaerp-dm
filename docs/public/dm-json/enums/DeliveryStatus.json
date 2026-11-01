@@ -2,8 +2,8 @@
   "enum" : "DeliveryStatus",
   "values" : [ {
     "id" : "NotDelivered",
-    "ar" : "بإنتظار التوصيل",
-    "en" : "NotDelivered"
+    "ar" : "بانتظار التوصيل",
+    "en" : "Not Delivered"
   }, {
     "id" : "PartialDelivered",
     "ar" : "توصيل جزئي",
@@ -18,7 +18,7 @@
     "en" : "Cancelled"
   }, {
     "id" : "Delivering",
-    "ar" : "جارى التوصيل",
+    "ar" : "جاري التوصيل",
     "en" : "Delivering"
   }, {
     "id" : "Loaded",

@@ -7,13 +7,13 @@
   "fields" : [ {
     "id" : "chatId",
     "column" : "chatId",
-    "ar" : "Chat ID",
+    "ar" : "معرف المحادثة (Chat ID)",
     "en" : "Chat ID",
     "type" : "Text"
   }, {
     "id" : "contact",
     "columns" : [ "contactActualCode", " contactCode", " contactEntityType", " contactId" ],
-    "ar" : "جهة إتصال",
+    "ar" : "جهة اتصال",
     "en" : "Contact",
     "type" : "Genericreference"
   }, {
@@ -23,7 +23,7 @@
   }, {
     "id" : "messagingConfig",
     "column" : "messagingConfig_id",
-    "ar" : "Messaging Configuration",
+    "ar" : "إعدادات المراسلة",
     "en" : "Messaging Configuration",
     "type" : "Reference",
     "refTo" : "TelegramBotConfiguration",
@@ -31,7 +31,7 @@
   }, {
     "id" : "optedOut",
     "column" : "optedOut",
-    "ar" : "Opted Out",
+    "ar" : "ألغى الاشتراك",
     "en" : "Opted Out",
     "type" : "Boolean"
   }, {
@@ -56,7 +56,7 @@
   }, {
     "id" : "telegramUserId",
     "column" : "telegramUserId",
-    "ar" : "Telegram User ID",
+    "ar" : "معرف مستخدم تيليجرام",
     "en" : "Telegram User ID",
     "type" : "Text"
   } ]

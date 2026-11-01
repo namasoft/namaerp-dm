@@ -81,7 +81,7 @@
   }, {
     "id" : "lastOutTime",
     "column" : "lastOutTime",
-    "ar" : "أخر وقت خروج",
+    "ar" : "آخر وقت خروج",
     "en" : "Last Out Time",
     "type" : "DateAndTime"
   }, {
@@ -113,7 +113,7 @@
   }, {
     "id" : "netPartialVacationTime",
     "column" : "netPartialVacationTime",
-    "ar" : "صافي اجازه جزئيه",
+    "ar" : "صافي إجازة جزئية",
     "en" : "Net Partial Vacation",
     "type" : "Decimal"
   }, {
@@ -169,7 +169,7 @@
   }, {
     "id" : "part1Details.lastOutTime",
     "column" : "p1LastOutTime",
-    "ar" : "دوام 1 | أخر وقت خروج",
+    "ar" : "دوام 1 | آخر وقت خروج",
     "en" : "Part 1 | Last Out Time",
     "type" : "DateAndTime"
   }, {
@@ -211,7 +211,7 @@
   }, {
     "id" : "part1Details.partialVacationTime",
     "column" : "p1PartialVacationTime",
-    "ar" : "أجازه جزئيه",
+    "ar" : "إجازة جزئية",
     "en" : "Partial Vacation",
     "type" : "Decimal"
   }, {
@@ -251,7 +251,7 @@
   }, {
     "id" : "part2Details.lastOutTime",
     "column" : "p2LastOutTime",
-    "ar" : "دوام 2 | أخر وقت خروج",
+    "ar" : "دوام 2 | آخر وقت خروج",
     "en" : "Part 2 | Last Out Time",
     "type" : "DateAndTime"
   }, {
@@ -293,7 +293,7 @@
   }, {
     "id" : "part2Details.partialVacationTime",
     "column" : "p2PartialVacationTime",
-    "ar" : "أجازه جزئيه",
+    "ar" : "إجازة جزئية",
     "en" : "Partial Vacation",
     "type" : "Decimal"
   }, {
@@ -333,7 +333,7 @@
   }, {
     "id" : "part3Details.lastOutTime",
     "column" : "p3LastOutTime",
-    "ar" : "دوام 3 | أخر وقت خروج",
+    "ar" : "دوام 3 | آخر وقت خروج",
     "en" : "Part 3 | Last Out Time",
     "type" : "DateAndTime"
   }, {
@@ -375,12 +375,13 @@
   }, {
     "id" : "part3Details.partialVacationTime",
     "column" : "p3PartialVacationTime",
-    "ar" : "أجازه جزئيه",
+    "ar" : "إجازة جزئية",
     "en" : "Partial Vacation",
     "type" : "Decimal"
   }, {
     "id" : "shift",
     "column" : "shift_id",
+    "ar" : "الوردية",
     "en" : "Shift",
     "type" : "Reference",
     "refTo" : "AttendanceShift",
@@ -388,7 +389,7 @@
   }, {
     "id" : "vacationType",
     "column" : "vacationType_id",
-    "ar" : "نوع الأجازة",
+    "ar" : "نوع الإجازة",
     "en" : "Vacation Type",
     "type" : "Reference",
     "refTo" : "VacationType",
@@ -396,7 +397,7 @@
   }, {
     "id" : "withoutSalaryVacation",
     "column" : "withoutSalaryVacation",
-    "ar" : "أجازة بدون مرتب",
+    "ar" : "إجازة بدون مرتب",
     "en" : "Without Salary Vacation",
     "type" : "Boolean"
   } ]

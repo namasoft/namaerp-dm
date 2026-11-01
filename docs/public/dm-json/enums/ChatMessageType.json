@@ -6,7 +6,7 @@
     "en" : "Text"
   }, {
     "id" : "Image",
-    "ar" : "الصوره",
+    "ar" : "الصورة",
     "en" : "Image"
   }, {
     "id" : "File",
@@ -22,14 +22,15 @@
     "en" : "Video"
   }, {
     "id" : "Location",
-    "ar" : "موقع مخزني"
+    "ar" : "موقع مخزني",
+    "en" : "Location"
   }, {
     "id" : "Contact",
-    "ar" : "جهة إتصال",
+    "ar" : "جهة اتصال",
     "en" : "Contact"
   }, {
     "id" : "System",
-    "ar" : "نظامى",
+    "ar" : "نظامي",
     "en" : "System"
   } ]
 }

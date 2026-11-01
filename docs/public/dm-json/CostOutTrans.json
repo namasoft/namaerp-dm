@@ -72,8 +72,8 @@
   }, {
     "id" : "data.lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "data.legalEntity",
@@ -108,7 +108,7 @@
   }, {
     "id" : "data.originLastUpdateDate",
     "column" : "originLastUpdateDate",
-    "ar" : "تاريخ اخر تحديث للمستند",
+    "ar" : "تاريخ آخر تحديث للمستند",
     "en" : "Origin Last Update Date",
     "type" : "DateAndTime"
   }, {
@@ -234,7 +234,7 @@
   }, {
     "id" : "itemDimensions.subItem",
     "column" : "subItem_id",
-    "ar" : " السياره",
+    "ar" : " السيارة",
     "en" : " Customer Car",
     "type" : "Reference",
     "refTo" : "SubItem",
@@ -537,7 +537,7 @@
     }, {
       "id" : "details.itemDimensions.subItem",
       "column" : "subItem_id",
-      "ar" : " السياره",
+      "ar" : " السيارة",
       "en" : " Customer Car",
       "type" : "Reference",
       "refTo" : "SubItem",
@@ -607,7 +607,7 @@
       "id" : "details.overdraftCost",
       "column" : "overdraftCost",
       "ar" : "تكلفة المكشوف",
-      "en" : "OverDraft Cost",
+      "en" : "Overdraft Cost",
       "type" : "Decimal"
     }, {
       "id" : "details.overdraftDetails",
@@ -617,7 +617,7 @@
       "id" : "details.overdraftQty",
       "column" : "overdraftQty",
       "ar" : "كمية المكشوف",
-      "en" : "Over Draft Qty",
+      "en" : "Overdraft Qty",
       "type" : "Decimal"
     }, {
       "id" : "details.overdraftSatisCost",
@@ -686,7 +686,7 @@
     }, {
       "id" : "details.totalCost",
       "column" : "totalCost",
-      "ar" : "اجمالى التكلفة",
+      "ar" : "إجمالي التكلفة",
       "en" : "Total Cost",
       "type" : "Decimal"
     }, {
@@ -709,7 +709,7 @@
     }, {
       "id" : "details.unitCost",
       "column" : "unitCost",
-      "ar" : "تكلفة الوحده",
+      "ar" : "تكلفة الوحدة",
       "en" : "Unit Cost",
       "type" : "Decimal"
     }, {

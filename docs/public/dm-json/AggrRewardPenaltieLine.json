@@ -25,7 +25,7 @@
   }, {
     "id" : "issuedValue",
     "column" : "issuedValue",
-    "ar" : "ما تم صرفة",
+    "ar" : "ما تم صرفه",
     "en" : "Issued Value",
     "type" : "Decimal"
   }, {

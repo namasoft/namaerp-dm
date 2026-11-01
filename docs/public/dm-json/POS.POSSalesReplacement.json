@@ -2,8 +2,8 @@
   "entity" : "POS.POSSalesReplacement",
   "table" : "POSSalesReplacement",
   "module" : "pos-app",
-  "ar" : "إستبدال مبيعات نقاط البيع",
-  "arPlural" : "إستبدال مبيعات نقاط البيع",
+  "ar" : "استبدال مبيعات نقاط البيع",
+  "arPlural" : "استبدال مبيعات نقاط البيع",
   "en" : "POS Sales Replacement",
   "enPlural" : "POS Sales Replacement",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSSalesReplacement.html",
@@ -134,7 +134,7 @@
   }, {
     "id" : "currentUser",
     "column" : "currentUser_id",
-    "ar" : "المستخدم الحالى",
+    "ar" : "المستخدم الحالي",
     "en" : "Current User",
     "type" : "Reference",
     "refTo" : "POS.POSUser",
@@ -154,7 +154,7 @@
   }, {
     "id" : "customerName",
     "column" : "customerName",
-    "ar" : "إسم العميل",
+    "ar" : "اسم العميل",
     "en" : "Customer Name",
     "type" : "Text"
   }, {
@@ -398,8 +398,8 @@
   }, {
     "id" : "hold",
     "column" : "hold",
-    "ar" : "HOLD",
-    "en" : "HOLD",
+    "ar" : "معلق",
+    "en" : "Hold",
     "type" : "Boolean"
   }, {
     "id" : "holdTime",
@@ -418,8 +418,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "lineTotalsBeforeDiscs",
@@ -883,7 +883,7 @@
     }, {
       "id" : "details.expiryDate",
       "column" : "expiryDate",
-      "ar" : "تواريخ الصلاحية | الإنتهاء",
+      "ar" : "تواريخ الصلاحية | الانتهاء",
       "en" : "Date | Expiry",
       "type" : "DateAndTime"
     }, {
@@ -1108,7 +1108,7 @@
       "id" : "details.returnedLine",
       "column" : "returnedLine",
       "ar" : "مردود",
-      "en" : "return",
+      "en" : "Return",
       "type" : "Boolean"
     }, {
       "id" : "details.salesman",

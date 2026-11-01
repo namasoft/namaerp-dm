@@ -2,7 +2,7 @@
   "enum" : "POSFieldType",
   "values" : [ {
     "id" : "Required",
-    "ar" : "إجبارى",
+    "ar" : "إجباري",
     "en" : "Required"
   }, {
     "id" : "MustBeEmpty",

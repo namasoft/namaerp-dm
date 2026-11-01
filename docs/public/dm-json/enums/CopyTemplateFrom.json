@@ -2,7 +2,7 @@
   "enum" : "CopyTemplateFrom",
   "values" : [ {
     "id" : "Email",
-    "ar" : "الايميل",
+    "ar" : "الإيميل",
     "en" : "Email"
   }, {
     "id" : "SMS",

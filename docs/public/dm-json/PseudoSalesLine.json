@@ -119,7 +119,7 @@
     "id" : "delivStatus",
     "column" : "delivStatus",
     "ar" : "حالة التوصيل",
-    "en" : "deliveryStatus",
+    "en" : "Delivery Status",
     "type" : "Enum",
     "enum" : "DeliveryStatus"
   }, {
@@ -186,7 +186,7 @@
   }, {
     "id" : "expiryDate",
     "column" : "expiryDate",
-    "ar" : "تاريخ الإنتهاء",
+    "ar" : "تاريخ الانتهاء",
     "en" : "Expiry Date",
     "type" : "Date",
     "feature" : "scLot"
@@ -782,7 +782,7 @@
     "id" : "qtyAtInsertWithReserv",
     "column" : "qtyAtInsertWithReserv",
     "ar" : "الكمية عند الإنشاء مع الحجز",
-    "en" : "Qty At Insert With Reserv",
+    "en" : "Qty At Insert With Reservation",
     "type" : "Decimal"
   }, {
     "id" : "quantity.baseQty.uom",
@@ -817,7 +817,7 @@
   }, {
     "id" : "quantity.measures.clippedLength1",
     "column" : "quantityClippedLength1",
-    "ar" : "أبعادالجزء المقصوص 1 | الطول",
+    "ar" : "أبعاد الجزء المقصوص 1 | الطول",
     "en" : "Clipped Part1 Measures | Length",
     "type" : "Decimal",
     "feature" : "scMeasures"
@@ -954,7 +954,7 @@
     "id" : "reservationWareHouse",
     "column" : "reservationWareHouse_id",
     "ar" : "مخزن الحجز",
-    "en" : "Reservation WareHouse",
+    "en" : "Reservation Warehouse",
     "type" : "Reference",
     "refTo" : "Warehouse",
     "refPath" : "/modules/supplychain/Warehouse.html",
@@ -1023,7 +1023,7 @@
   }, {
     "id" : "shippingAddress.address2",
     "column" : "address2",
-    "ar" : "رقم المبني",
+    "ar" : "رقم المبنى",
     "en" : "Building Number",
     "type" : "Text"
   }, {
@@ -1035,7 +1035,7 @@
   }, {
     "id" : "shippingAddress.buildingNumber",
     "column" : "buildingNumber",
-    "ar" : "رقم المبني",
+    "ar" : "رقم المبنى",
     "en" : "Building Number",
     "type" : "Text"
   }, {
@@ -1083,7 +1083,7 @@
   }, {
     "id" : "shippingAddress.region",
     "column" : "region_id",
-    "ar" : "منطقة جغرافيه",
+    "ar" : "منطقة جغرافية",
     "en" : "Region",
     "type" : "Reference",
     "refTo" : "AddressRegion",
@@ -1176,7 +1176,7 @@
   }, {
     "id" : "specificDimensions.lotId",
     "column" : "lotId",
-    "ar" : "رقم الشحنه",
+    "ar" : "رقم الشحنة",
     "en" : "Lot ID",
     "type" : "Text",
     "feature" : "scLot"
@@ -1218,7 +1218,7 @@
   }, {
     "id" : "specificDimensions.subItem",
     "column" : "subItem_id",
-    "ar" : " السياره",
+    "ar" : " السيارة",
     "en" : " Customer Car",
     "type" : "Reference",
     "refTo" : "SubItem",
@@ -1279,8 +1279,8 @@
   }, {
     "id" : "unReservedQty",
     "column" : "unReservedQty",
-    "ar" : "الكمية العير محجوزة",
-    "en" : "Un Reserved Quantity",
+    "ar" : "الكمية الغير محجوزة",
+    "en" : "Unreserved Quantity",
     "type" : "Decimal",
     "feature" : "reservation"
   }, {

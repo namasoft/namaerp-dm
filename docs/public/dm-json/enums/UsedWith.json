@@ -7,10 +7,10 @@
   }, {
     "id" : "QuestionairOnly",
     "ar" : "الاستبيانات فقط",
-    "en" : "Questionair Only"
+    "en" : "Questionnaire Only"
   }, {
     "id" : "Both",
-    "ar" : "أى منهما",
+    "ar" : "أي منهما",
     "en" : "Both"
   } ]
 }

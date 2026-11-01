@@ -103,7 +103,7 @@
   }, {
     "id" : "itemSpecificDimensions.subItem",
     "column" : "subItem_id",
-    "ar" : " السياره",
+    "ar" : " السيارة",
     "en" : " Customer Car",
     "type" : "Reference",
     "refTo" : "SubItem",
@@ -146,8 +146,8 @@
   }, {
     "id" : "transferReturnedQty",
     "column" : "transferReturnedQty",
-    "ar" : "مرتجع( بتحويل)",
-    "en" : "Transfer Retruned Quantity",
+    "ar" : "مرتجع (بتحويل)",
+    "en" : "Transfer Returned Quantity",
     "type" : "Decimal"
   }, {
     "id" : "unitPrice",

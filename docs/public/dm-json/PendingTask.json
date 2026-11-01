@@ -92,7 +92,7 @@
     "id" : "longReceipient",
     "column" : "longReceipient",
     "ar" : "Long Receipient",
-    "en" : "Long Receipient",
+    "en" : "Long Recipient",
     "type" : "BigText"
   }, {
     "id" : "owner",
@@ -110,7 +110,7 @@
     "id" : "recepient",
     "column" : "recepient",
     "ar" : "Recepient",
-    "en" : "Recepient",
+    "en" : "Recipient",
     "type" : "Text"
   }, {
     "id" : "sendFromUserEmail",
@@ -149,13 +149,13 @@
     "id" : "submitionDate",
     "column" : "submitionDate",
     "ar" : "تاريخ الحدث",
-    "en" : "Submition Date",
+    "en" : "Submission Date",
     "type" : "DateAndTime"
   }, {
     "id" : "target",
     "columns" : [ "targetActualCode", " targetCode", " targetEntityType", " targetId" ],
     "ar" : "الجهة",
-    "en" : "Taregt",
+    "en" : "Target",
     "type" : "Genericreference"
   }, {
     "id" : "trials",

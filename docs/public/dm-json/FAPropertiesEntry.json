@@ -73,7 +73,7 @@
   }, {
     "id" : "deduction",
     "column" : "deduction",
-    "ar" : "إستقطاع",
+    "ar" : "استقطاع",
     "en" : "Deduction",
     "type" : "Decimal"
   }, {
@@ -111,7 +111,7 @@
   }, {
     "id" : "openValue",
     "column" : "openValue",
-    "ar" : "القيمة الأفتتاحية",
+    "ar" : "القيمة الافتتاحية",
     "en" : "Open Value",
     "type" : "Decimal"
   }, {
@@ -136,12 +136,12 @@
     "id" : "properties.salvageValue",
     "column" : "salvageValue",
     "ar" : "قيمة الأصل كخردة",
-    "en" : "Salavge Value",
+    "en" : "Salvage Value",
     "type" : "Decimal"
   }, {
     "id" : "properties.usefulLife",
     "column" : "usefulLife",
-    "ar" : "العمر الإفتراضي",
+    "ar" : "العمر الافتراضي",
     "en" : "Useful Life",
     "type" : "Integer"
   }, {

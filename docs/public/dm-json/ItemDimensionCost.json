@@ -8,7 +8,7 @@
     "id" : "data.avgCost",
     "column" : "avgCost",
     "ar" : "متوسط تكلفة",
-    "en" : "Avg.Cost",
+    "en" : "Avg. Cost",
     "type" : "Decimal"
   }, {
     "id" : "data.currentVersion",
@@ -25,19 +25,19 @@
   }, {
     "id" : "data.lastCost",
     "column" : "lastCost",
-    "ar" : "اخر تكلفة",
+    "ar" : "آخر تكلفة",
     "en" : "Last Cost",
     "type" : "Decimal"
   }, {
     "id" : "data.lastDates.lastFromCTransfer",
     "column" : "lastFromCTransfer",
-    "ar" : "اخر تواريخ | تحويل شركات(من)",
+    "ar" : "آخر تواريخ | تحويل شركات(من)",
     "en" : "Last Dates | Com.Transfer(From)",
     "type" : "Date"
   }, {
     "id" : "data.lastDates.lastFromTransfer",
     "column" : "lastFromTransfer",
-    "ar" : "اخر تواريخ | تحويل(من)",
+    "ar" : "آخر تواريخ | تحويل(من)",
     "en" : "Last Dates | Transfer(From)",
     "type" : "Date"
   }, {
@@ -47,25 +47,25 @@
   }, {
     "id" : "data.lastDates.lastPurchase",
     "column" : "lastPurchase",
-    "ar" : "اخر تواريخ |شراء",
+    "ar" : "آخر تواريخ |شراء",
     "en" : "Last Dates | Purchase",
     "type" : "Date"
   }, {
     "id" : "data.lastDates.lastSales",
     "column" : "lastSales",
-    "ar" : "اخر تواريخ | بيع",
+    "ar" : "آخر تواريخ | بيع",
     "en" : "Last Dates | Sales",
     "type" : "Date"
   }, {
     "id" : "data.lastDates.lastToCTransfer",
     "column" : "lastToCTransfer",
-    "ar" : "اخر تواريخ | تحويل شركات(إلى)",
+    "ar" : "آخر تواريخ | تحويل شركات(إلى)",
     "en" : "Last Dates | Com.Transfer(To)",
     "type" : "Date"
   }, {
     "id" : "data.lastDates.lastToTransfer",
     "column" : "lastToTransfer",
-    "ar" : "اخر تواريخ | تحويل(إلى)",
+    "ar" : "آخر تواريخ | تحويل(إلى)",
     "en" : "Last Dates | Transfer(To)",
     "type" : "Date"
   }, {
@@ -83,13 +83,13 @@
   }, {
     "id" : "data.lastPrice",
     "column" : "lastPrice",
-    "ar" : "اخر سعر",
+    "ar" : "آخر سعر",
     "en" : "Last Price",
     "type" : "Decimal"
   }, {
     "id" : "data.lastSupplier",
     "column" : "lastSupplier_id",
-    "ar" : "اخر تواريخ | مورد",
+    "ar" : "آخر تواريخ | مورد",
     "en" : "Last Dates | Supplier",
     "type" : "Reference",
     "refTo" : "Supplier",
@@ -205,7 +205,7 @@
   }, {
     "id" : "dimensions.specificDimensions.lotId",
     "column" : "lotId",
-    "ar" : "رقم الشحنه",
+    "ar" : "رقم الشحنة",
     "en" : "Lot ID",
     "type" : "Text",
     "feature" : "scLot"
@@ -247,7 +247,7 @@
   }, {
     "id" : "dimensions.specificDimensions.subItem",
     "column" : "subItem_id",
-    "ar" : " السياره",
+    "ar" : " السيارة",
     "en" : " Customer Car",
     "type" : "Reference",
     "refTo" : "SubItem",

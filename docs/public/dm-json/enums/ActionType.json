@@ -41,7 +41,7 @@
   }, {
     "id" : "UnCancelled",
     "ar" : "غير ملغى",
-    "en" : "Un Cancelled"
+    "en" : "Uncancelled"
   }, {
     "id" : "SaveDraft",
     "ar" : "إضافة مسودة",
@@ -80,7 +80,7 @@
     "en" : "Return"
   }, {
     "id" : "EscalateToSupervisor",
-    "ar" : "تصعيد إلى المدير الأعلي",
+    "ar" : "تصعيد إلى المدير الأعلى",
     "en" : "Escalate To Supervisor"
   }, {
     "id" : "ReturnToPreviousStep",
@@ -88,7 +88,7 @@
     "en" : "Return To Previous Step"
   }, {
     "id" : "EscalateToSpecificEmployee",
-    "ar" : "تصعيد الي موظف بعينه",
+    "ar" : "تصعيد إلى موظف بعينه",
     "en" : "Escalate To Specific Employee"
   }, {
     "id" : "ReturnToSpecificStep",

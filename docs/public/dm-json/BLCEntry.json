@@ -7,7 +7,7 @@
   "fields" : [ {
     "id" : "blc",
     "column" : "blc_id",
-    "ar" : " اعتماد بنكى",
+    "ar" : " اعتماد بنكي",
     "en" : "Bank LC",
     "type" : "Reference",
     "refTo" : "BankLC",
@@ -66,7 +66,7 @@
   }, {
     "id" : "fromValues.deliveredTo",
     "columns" : [ "fromDeliveredToActualCode", " fromDeliveredToCode", " fromDeliveredToEntityType", " fromDeliveredToId" ],
-    "ar" : "من | يسلم الي",
+    "ar" : "من | يسلم إلى",
     "en" : "From | Delivered To",
     "type" : "Genericreference"
   }, {
@@ -114,7 +114,7 @@
   }, {
     "id" : "fromValues.toDate",
     "column" : "fromToDate",
-    "ar" : "من | الي تاريخ",
+    "ar" : "من | إلى تاريخ",
     "en" : "From | To Date",
     "type" : "Date"
   }, {
@@ -167,31 +167,31 @@
   }, {
     "id" : "toValues.changeFees",
     "column" : "toChangeFees",
-    "ar" : "الي | قيمة رسوم التعديل",
+    "ar" : "إلى | قيمة رسوم التعديل",
     "en" : "To | Change Fees",
     "type" : "Decimal"
   }, {
     "id" : "toValues.changeFeesPercentage",
     "column" : "toChangeFeesPercentage",
-    "ar" : "الي | % رسوم التعديل",
+    "ar" : "إلى | % رسوم التعديل",
     "en" : "To | Change Fees Percentage",
     "type" : "Decimal"
   }, {
     "id" : "toValues.coveredAmount",
     "column" : "toCoveredAmount",
-    "ar" : "الي |القيمة المغطاة",
+    "ar" : "إلى |القيمة المغطاة",
     "en" : "To |Covered Amount",
     "type" : "Decimal"
   }, {
     "id" : "toValues.coveredPercentage",
     "column" : "toCoveredPercentage",
-    "ar" : "الي | %القيمة المغطاة",
+    "ar" : "إلى | %القيمة المغطاة",
     "en" : "To | Covered Percentage",
     "type" : "Decimal"
   }, {
     "id" : "toValues.deliveredTo",
     "columns" : [ "toDeliveredToActualCode", " toDeliveredToCode", " toDeliveredToEntityType", " toDeliveredToId" ],
-    "ar" : "الي يسلم الي",
+    "ar" : "إلى يسلم إلى",
     "en" : "To | Delivered To",
     "type" : "Genericreference"
   }, {
@@ -209,13 +209,13 @@
   }, {
     "id" : "toValues.feesPercentage",
     "column" : "toFeesPercentage",
-    "ar" : "الي | % الرسوم",
+    "ar" : "إلى | % الرسوم",
     "en" : "To | Fees Percentage",
     "type" : "Decimal"
   }, {
     "id" : "toValues.feesValue",
     "column" : "toFeesValue",
-    "ar" : "الي | قيمة الرسوم",
+    "ar" : "إلى | قيمة الرسوم",
     "en" : "To | Fees Value",
     "type" : "Decimal"
   }, {
@@ -227,25 +227,25 @@
   }, {
     "id" : "toValues.issueFees",
     "column" : "toIssueFees",
-    "ar" : "الي | قيمة رسوم الإصدار",
+    "ar" : "إلى | قيمة رسوم الإصدار",
     "en" : "To | Issue Fees",
     "type" : "Decimal"
   }, {
     "id" : "toValues.issueFeesPercentage",
     "column" : "toIssueFeesPercentage",
-    "ar" : "الي | % رسوم الإصدار",
+    "ar" : "إلى | % رسوم الإصدار",
     "en" : "To | Issue Fees Percentage",
     "type" : "Decimal"
   }, {
     "id" : "toValues.toDate",
     "column" : "toToDate",
-    "ar" : "إلى | الي تاريخ",
+    "ar" : "إلى | إلى تاريخ",
     "en" : "To | To Date",
     "type" : "Date"
   }, {
     "id" : "toValues.totalChangeFees",
     "column" : "toTotalChangeFees",
-    "ar" : "الي | إجمالي التعديلات",
+    "ar" : "إلى | إجمالي التعديلات",
     "en" : "To | Total Change Fees",
     "type" : "Decimal"
   }, {

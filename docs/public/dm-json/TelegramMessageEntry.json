@@ -13,7 +13,7 @@
   }, {
     "id" : "chatId",
     "column" : "chatId",
-    "ar" : "Chat ID",
+    "ar" : "معرف المحادثة (Chat ID)",
     "en" : "Chat ID",
     "type" : "Text"
   }, {
@@ -30,7 +30,7 @@
     "id" : "messageState",
     "column" : "messageState",
     "ar" : "حالة الرسالة",
-    "en" : "message Status",
+    "en" : "Message Status",
     "type" : "Enum",
     "enum" : "TelegramMessageState"
   }, {
@@ -48,7 +48,7 @@
   }, {
     "id" : "telegramMessageId",
     "column" : "telegramMessageId",
-    "ar" : "Telegram Message ID",
+    "ar" : "معرف رسالة تيليجرام",
     "en" : "Telegram Message ID",
     "type" : "Text"
   } ]

@@ -2,7 +2,8 @@
   "enum" : "EInvoiceSignerType",
   "values" : [ {
     "id" : "ESeal",
-    "ar" : "E Seal"
+    "ar" : "E Seal",
+    "en" : "E Seal"
   }, {
     "id" : "MCDR",
     "ar" : "MCDR",

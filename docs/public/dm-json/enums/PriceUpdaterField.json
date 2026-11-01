@@ -6,11 +6,11 @@
     "en" : "min price"
   }, {
     "id" : "MaxPrice",
-    "ar" : "أقصي سعر",
+    "ar" : "أقصى سعر",
     "en" : "max Price"
   }, {
     "id" : "DefaultPrice",
-    "ar" : "السعر الإفتراضي",
+    "ar" : "السعر الافتراضي",
     "en" : "default Price"
   }, {
     "id" : "FixedPrice",

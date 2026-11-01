@@ -46,7 +46,7 @@
     "en" : "Query Item Details"
   }, {
     "id" : "QRScannerIntegrator",
-    "ar" : "QR Scanner Integrator",
+    "ar" : "ربط ماسح QR",
     "en" : "QR Scanner Integrator"
   }, {
     "id" : "changePassword",
@@ -98,7 +98,7 @@
     "en" : "Development request"
   }, {
     "id" : "CRMComplaint",
-    "ar" : "شكوي - إقتراح",
+    "ar" : "شكوى - اقتراح",
     "en" : "Complaint - Suggestion"
   }, {
     "id" : "MissionDocument",
@@ -126,11 +126,11 @@
     "en" : "Leave Permission Request"
   }, {
     "id" : "VacationRequest",
-    "ar" : "طلب أجازة",
+    "ar" : "طلب إجازة",
     "en" : "Vacation Request"
   }, {
     "id" : "VacationType",
-    "ar" : "نوع الأجازة",
+    "ar" : "نوع الإجازة",
     "en" : "Vacation Type"
   }, {
     "id" : "ElectronicAttendance",
@@ -186,11 +186,12 @@
     "en" : "Delivery Document"
   }, {
     "id" : "AwaitingDeliveries",
+    "ar" : "التسليمات المنتظرة",
     "en" : "Awaiting Deliveries"
   }, {
     "id" : "DLVDeliveryDocument",
     "ar" : "سند توصيل شحنات",
-    "en" : "Shipment Delivery  Document"
+    "en" : "Shipment Delivery Document"
   }, {
     "id" : "DLVDeliveryOrders",
     "ar" : "طلبات توصيل الشحنات",
@@ -257,7 +258,7 @@
     "en" : "Help Screen"
   }, {
     "id" : "MnMachine",
-    "ar" : "الة",
+    "ar" : "آلة",
     "en" : "Machine"
   }, {
     "id" : "MnOrder",
@@ -278,7 +279,7 @@
   }, {
     "id" : "CRMQuestionair",
     "ar" : "استبيان",
-    "en" : "Questionair"
+    "en" : "Questionnaire"
   }, {
     "id" : "CRMQuestion",
     "ar" : "سؤال",
@@ -286,7 +287,7 @@
   }, {
     "id" : "CRMQuestionairTemplate",
     "ar" : "قالب استبيان",
-    "en" : "Questionair Template"
+    "en" : "Questionnaire Template"
   }, {
     "id" : "Reports",
     "ar" : "التقارير",
@@ -334,7 +335,7 @@
   }, {
     "id" : "showIds",
     "ar" : "Show Ids",
-    "en" : "Show Ids"
+    "en" : "Show IDs"
   }, {
     "id" : "checkUpdate",
     "ar" : "تحقق من التحديثات",

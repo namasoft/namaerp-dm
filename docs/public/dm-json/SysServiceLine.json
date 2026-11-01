@@ -80,7 +80,7 @@
   }, {
     "id" : "freeItem",
     "column" : "freeItem",
-    "ar" : "الصنف المجانى",
+    "ar" : "الصنف المجاني",
     "en" : "Free Item",
     "type" : "Boolean"
   }, {
@@ -208,7 +208,7 @@
   }, {
     "id" : "totalCost",
     "column" : "totalCost",
-    "ar" : "اجمالى التكلفة",
+    "ar" : "إجمالي التكلفة",
     "en" : "Total Cost",
     "type" : "Decimal"
   }, {

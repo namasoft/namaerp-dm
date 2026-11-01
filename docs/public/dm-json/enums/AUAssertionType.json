@@ -2,7 +2,7 @@
   "enum" : "AUAssertionType",
   "values" : [ {
     "id" : "Completion",
-    "ar" : "الإكتمال",
+    "ar" : "الاكتمال",
     "en" : "Completion"
   }, {
     "id" : "Accuracy",
@@ -27,6 +27,6 @@
   }, {
     "id" : "ShowAndTab",
     "ar" : "العرض والتبويب",
-    "en" : "ShowAndTab"
+    "en" : "Show And Tab"
   } ]
 }

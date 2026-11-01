@@ -17,7 +17,7 @@
     "id" : "createdOn",
     "column" : "createdOn",
     "ar" : "تاريخ الإنشاء",
-    "en" : "Create On",
+    "en" : "Created On",
     "type" : "DateAndTime"
   }, {
     "id" : "fieldID",

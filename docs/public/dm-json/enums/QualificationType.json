@@ -10,7 +10,7 @@
     "en" : "Master"
   }, {
     "id" : "Doctorate",
-    "ar" : "دكتوراة",
+    "ar" : "دكتوراه",
     "en" : "Doctorate"
   }, {
     "id" : "Secondary",
@@ -19,10 +19,10 @@
   }, {
     "id" : "PREP",
     "ar" : "إعدادية",
-    "en" : "PREP"
+    "en" : "Preparatory"
   }, {
     "id" : "Elementary",
-    "ar" : "إبتدائية",
+    "ar" : "ابتدائية",
     "en" : "Elementary"
   }, {
     "id" : "Licence",

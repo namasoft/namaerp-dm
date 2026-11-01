@@ -49,7 +49,7 @@
     "id" : "securityProfile",
     "column" : "securityProfile_id",
     "ar" : "الصلاحيات",
-    "en" : "SecurityProfile",
+    "en" : "Security Profile",
     "type" : "Reference",
     "refTo" : "SecurityProfile",
     "refPath" : "/modules/basic/SecurityProfile.html"

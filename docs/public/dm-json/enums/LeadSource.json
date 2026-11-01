@@ -2,7 +2,7 @@
   "enum" : "LeadSource",
   "values" : [ {
     "id" : "ColdCall",
-    "ar" : "إتصال ارتجالي",
+    "ar" : "اتصال ارتجالي",
     "en" : "Cold Call"
   }, {
     "id" : "ExistingCustomer",
@@ -10,7 +10,7 @@
     "en" : "Existing Customer"
   }, {
     "id" : "SelfGenerated",
-    "ar" : "من تلقاء نفسة",
+    "ar" : "من تلقاء نفسه",
     "en" : "Self Generated"
   }, {
     "id" : "Employee",
@@ -62,7 +62,7 @@
     "en" : "Social Networks"
   }, {
     "id" : "Other",
-    "ar" : "أخري",
+    "ar" : "أخرى",
     "en" : "Other"
   } ]
 }

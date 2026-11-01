@@ -8,7 +8,7 @@
     "id" : "billNumber",
     "column" : "billNumber",
     "ar" : "رقم الفاتورة",
-    "en" : "BillNumber",
+    "en" : "Bill Number",
     "type" : "Text"
   }, {
     "id" : "config",

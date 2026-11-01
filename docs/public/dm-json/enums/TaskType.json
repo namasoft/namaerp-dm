@@ -3,7 +3,7 @@
   "values" : [ {
     "id" : "EMail",
     "ar" : "EMail",
-    "en" : "EMail"
+    "en" : "Email"
   }, {
     "id" : "SMS",
     "ar" : "الرسائل القصيرة",
@@ -19,10 +19,10 @@
   }, {
     "id" : "WhatsAppMessage",
     "ar" : "WhatsApp Message",
-    "en" : "WhatsApp  Message"
+    "en" : "WhatsApp Message"
   }, {
     "id" : "TelegramMessage",
-    "ar" : "Telegram Message",
+    "ar" : "رسالة تيليجرام",
     "en" : "Telegram Message"
   } ]
 }

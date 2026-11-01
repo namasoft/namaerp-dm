@@ -25,13 +25,13 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "orderJson",
     "column" : "orderJson",
-    "ar" : "Order Json",
+    "ar" : "بيانات الطلب (JSON)",
     "en" : "Order Json",
     "type" : "BigText"
   }, {

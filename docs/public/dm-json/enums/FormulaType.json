@@ -10,7 +10,7 @@
     "en" : "Percentage From Additions"
   }, {
     "id" : "PercentageFromDeductions",
-    "ar" : "نسبة من الأستقطاعات",
+    "ar" : "نسبة من الاستقطاعات",
     "en" : "Percentage From Deductions"
   }, {
     "id" : "InsurancePercentage",
@@ -35,10 +35,10 @@
   }, {
     "id" : "RelatedToPerformanceIndecator",
     "ar" : "مرتبط بمؤشر أداء",
-    "en" : "Related To Performance Indecator"
+    "en" : "Related To Performance Indicator"
   }, {
     "id" : "CompositeFormula",
-    "ar" : "تتكون من معادلات أخري",
+    "ar" : "تتكون من معادلات أخرى",
     "en" : "Composite Formula"
   }, {
     "id" : "Taxes",
@@ -46,7 +46,7 @@
     "en" : "Taxes"
   }, {
     "id" : "EmployeeVariableInsurancePercent",
-    "ar" : " حصة العامل في الأساسي التأميني المتغيربناء",
+    "ar" : " حصة العامل في الأساسي التأميني المتغير",
     "en" : " Employee Variable Insurance Percent"
   }, {
     "id" : "EmployeeFixedInsurancePercent",
@@ -54,7 +54,7 @@
     "en" : " Employee Fixed Insurance Percent"
   }, {
     "id" : "EmployeeInsurancePercent",
-    "ar" : "إجمالي حصة العامل في التامينات",
+    "ar" : "إجمالي حصة العامل في التأمينات",
     "en" : "Employee Insurance Percent"
   }, {
     "id" : "CompanyVariableInsurancePercent",
@@ -66,7 +66,7 @@
     "en" : "Company Fixed Insurance Percent"
   }, {
     "id" : "CompanyInsurancePercent",
-    "ar" : "إجمالي حصة الشركة في التامينات",
+    "ar" : "إجمالي حصة الشركة في التأمينات",
     "en" : "Company Insurance Percent"
   }, {
     "id" : "FixedValueInOffer",

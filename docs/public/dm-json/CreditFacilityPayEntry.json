@@ -2,7 +2,7 @@
   "entity" : "CreditFacilityPayEntry",
   "table" : "CreditFacilityPayEntry",
   "module" : "system-tables",
-  "ar" : "الجدول النظامى لسداد التسهيل الائتمانى",
+  "ar" : "الجدول النظامي لسداد التسهيل الائتماني",
   "en" : "Credit Facility Payment Entry",
   "page" : "https://dm.namasoft.com/modules/system-tables/CreditFacilityPayEntry.html",
   "fields" : [ {
@@ -20,7 +20,7 @@
   }, {
     "id" : "creditFacility",
     "column" : "creditFacility_id",
-    "ar" : "التسهيل الائتمانى",
+    "ar" : "التسهيل الائتماني",
     "en" : "Credit Facility",
     "type" : "Reference",
     "refTo" : "CreditFacility",
@@ -34,7 +34,7 @@
   }, {
     "id" : "creditFacilityRemainingBeforePayment",
     "column" : "creditFacilityRemainingBeforePayment",
-    "ar" : "المتبقي من التسهيل الائتمانى قبل الدفع",
+    "ar" : "المتبقي من التسهيل الائتماني قبل الدفع",
     "en" : "Credit Facility Remaining Before Payment",
     "type" : "Decimal"
   }, {
@@ -68,7 +68,7 @@
   }, {
     "id" : "paymentOfCreditFacilityValue",
     "column" : "paymentOfCreditFacilityValue",
-    "ar" : "المسدد من قيمة التسهيل الائتمانى",
+    "ar" : "المسدد من قيمة التسهيل الائتماني",
     "en" : "Payment Of Credit Facility Value",
     "type" : "Decimal"
   }, {

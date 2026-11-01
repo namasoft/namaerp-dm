@@ -16,7 +16,7 @@
   }, {
     "id" : "actualVacationPeriod",
     "column" : "actualVacationPeriod",
-    "ar" : "مدة الأجازة الفعلية",
+    "ar" : "مدة الإجازة الفعلية",
     "en" : "Actual Vacation Period",
     "type" : "Decimal"
   }, {
@@ -82,67 +82,67 @@
   }, {
     "id" : "allMoney.issuedValue",
     "column" : "allIssuedValue",
-    "ar" : "ما تم صرفة",
+    "ar" : "ما تم صرفه",
     "en" : "Issued Value",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.modifiedSubsidiaryAmount1",
     "column" : "allModifiedSubsidiaryAmount1",
-    "ar" : "مبلغ بالذمه 1 المعدل",
+    "ar" : "مبلغ بالذمة 1 المعدل",
     "en" : "Modified Subsidiary Amount 1",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.modifiedSubsidiaryAmount10",
     "column" : "allModifiedSubsidiaryAmount10",
-    "ar" : "مبلغ بالذمه 10 المعدل",
+    "ar" : "مبلغ بالذمة 10 المعدل",
     "en" : "Modified Subsidiary Amount 10",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.modifiedSubsidiaryAmount2",
     "column" : "allModifiedSubsidiaryAmount2",
-    "ar" : "مبلغ بالذمه 2 المعدل",
+    "ar" : "مبلغ بالذمة 2 المعدل",
     "en" : "Modified Subsidiary Amount 2",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.modifiedSubsidiaryAmount3",
     "column" : "allModifiedSubsidiaryAmount3",
-    "ar" : "مبلغ بالذمه 3 المعدل",
+    "ar" : "مبلغ بالذمة 3 المعدل",
     "en" : "Modified Subsidiary Amount 3",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.modifiedSubsidiaryAmount4",
     "column" : "allModifiedSubsidiaryAmount4",
-    "ar" : "مبلغ بالذمه 4 المعدل",
+    "ar" : "مبلغ بالذمة 4 المعدل",
     "en" : "Modified Subsidiary Amount 4",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.modifiedSubsidiaryAmount5",
     "column" : "allModifiedSubsidiaryAmount5",
-    "ar" : "مبلغ بالذمه 5 المعدل",
+    "ar" : "مبلغ بالذمة 5 المعدل",
     "en" : "Modified Subsidiary Amount 5",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.modifiedSubsidiaryAmount6",
     "column" : "allModifiedSubsidiaryAmount6",
-    "ar" : "مبلغ بالذمه 6 المعدل",
+    "ar" : "مبلغ بالذمة 6 المعدل",
     "en" : "Modified Subsidiary Amount 6",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.modifiedSubsidiaryAmount7",
     "column" : "allModifiedSubsidiaryAmount7",
-    "ar" : "مبلغ بالذمه 7 المعدل",
+    "ar" : "مبلغ بالذمة 7 المعدل",
     "en" : "Modified Subsidiary Amount 7",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.modifiedSubsidiaryAmount8",
     "column" : "allModifiedSubsidiaryAmount8",
-    "ar" : "مبلغ بالذمه 8 المعدل",
+    "ar" : "مبلغ بالذمة 8 المعدل",
     "en" : "Modified Subsidiary Amount 8",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.modifiedSubsidiaryAmount9",
     "column" : "allModifiedSubsidiaryAmount9",
-    "ar" : "مبلغ بالذمه 9 المعدل",
+    "ar" : "مبلغ بالذمة 9 المعدل",
     "en" : "Modified Subsidiary Amount 9",
     "type" : "Decimal"
   }, {
@@ -172,67 +172,67 @@
   }, {
     "id" : "allMoney.subsidiaryAmount1",
     "column" : "allSubsidiaryAmount1",
-    "ar" : "مبلغ بالذمه1",
+    "ar" : "مبلغ بالذمة1",
     "en" : "Subsidiary Amount1",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.subsidiaryAmount10",
     "column" : "allSubsidiaryAmount10",
-    "ar" : "مبلغ بالذمه10",
+    "ar" : "مبلغ بالذمة10",
     "en" : "Subsidiary Amount10",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.subsidiaryAmount2",
     "column" : "allSubsidiaryAmount2",
-    "ar" : "مبلغ بالذمه2",
+    "ar" : "مبلغ بالذمة2",
     "en" : "Subsidiary Amount2",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.subsidiaryAmount3",
     "column" : "allSubsidiaryAmount3",
-    "ar" : "مبلغ بالذمه3",
+    "ar" : "مبلغ بالذمة3",
     "en" : "Subsidiary Amount3",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.subsidiaryAmount4",
     "column" : "allSubsidiaryAmount4",
-    "ar" : "مبلغ بالذمه4",
+    "ar" : "مبلغ بالذمة4",
     "en" : "Subsidiary Amount4",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.subsidiaryAmount5",
     "column" : "allSubsidiaryAmount5",
-    "ar" : "مبلغ بالذمه5",
+    "ar" : "مبلغ بالذمة5",
     "en" : "Subsidiary Amount5",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.subsidiaryAmount6",
     "column" : "allSubsidiaryAmount6",
-    "ar" : "مبلغ بالذمه6",
+    "ar" : "مبلغ بالذمة6",
     "en" : "Subsidiary Amount6",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.subsidiaryAmount7",
     "column" : "allSubsidiaryAmount7",
-    "ar" : "مبلغ بالذمه7",
+    "ar" : "مبلغ بالذمة7",
     "en" : "Subsidiary Amount7",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.subsidiaryAmount8",
     "column" : "allSubsidiaryAmount8",
-    "ar" : "مبلغ بالذمه8",
+    "ar" : "مبلغ بالذمة8",
     "en" : "Subsidiary Amount8",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.subsidiaryAmount9",
     "column" : "allSubsidiaryAmount9",
-    "ar" : "مبلغ بالذمه9",
+    "ar" : "مبلغ بالذمة9",
     "en" : "Subsidiary Amount9",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.totalAddFromSlryComponent",
     "column" : "allTotalAddFromSlryComponent",
-    "ar" : "إجمالى الاضافات من مفردات الراتب",
+    "ar" : "إجمالي الإضافات من مفردات الراتب",
     "en" : "Total addition from Salary component",
     "type" : "Decimal"
   }, {
@@ -250,31 +250,31 @@
   }, {
     "id" : "allMoney.totalDedFromSlryComponent",
     "column" : "allTotalDedFromSlryComponent",
-    "ar" : "إجمالى الاستقطاعات من مفردات الراتب",
+    "ar" : "إجمالي الاستقطاعات من مفردات الراتب",
     "en" : "Total Deduction from Salary component",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.totalDeductedSubsidAmount",
     "column" : "allTotalDeductedSubsidAmount",
-    "ar" : "إجمالى الذمة المخصومة من التصفية",
+    "ar" : "إجمالي الذمة المخصومة من التصفية",
     "en" : "Total Deducted Subsidiary Amount",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.totalDeductions",
     "column" : "allTotalDeductions",
-    "ar" : "إجمالي الإستقطاعات",
+    "ar" : "إجمالي الاستقطاعات",
     "en" : "Total Deductions",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.totalOthers",
     "column" : "allTotalOthers",
-    "ar" : "إجمالي الآخري",
+    "ar" : "إجمالي الأخرى",
     "en" : "Others Total",
     "type" : "Decimal"
   }, {
     "id" : "allMoney.totalTicketWorthAmount",
     "column" : "allTotalTicketWorthAmount",
-    "ar" : "إجمالى بدل التذاكر",
+    "ar" : "إجمالي بدل التذاكر",
     "en" : "Total Ticket Worth Amount",
     "type" : "Decimal"
   }, {
@@ -365,7 +365,7 @@
     "id" : "commitedBefore",
     "column" : "commitedBefore",
     "ar" : "تم الحفظ مسبقا",
-    "en" : "Commited Before",
+    "en" : "Committed Before",
     "type" : "Boolean"
   }, {
     "id" : "createTransactionId",
@@ -567,7 +567,7 @@
   }, {
     "id" : "fromDoc",
     "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
-    "ar" : "بناءا على",
+    "ar" : "بناءً على",
     "en" : "From Document",
     "type" : "Genericreference"
   }, {
@@ -588,7 +588,7 @@
     "id" : "generatedByLine",
     "column" : "generatedByLine",
     "ar" : "كود سطر الإنشاء",
-    "en" : "generated By Line",
+    "en" : "Generated By Line",
     "type" : "Text"
   }, {
     "id" : "generatedDocsCount",
@@ -638,7 +638,7 @@
   }, {
     "id" : "ignoreVacationWorkStartDoc",
     "column" : "ignoreVacationWorkStartDoc",
-    "ar" : "تجاهل عمل سند مباشرة عمل للأجازات التي تطلب سند المباشرة",
+    "ar" : "تجاهل عمل سند مباشرة عمل للإجازات التي تطلب سند المباشرة",
     "en" : "Ignore Vacation Work Starting Document For Vacation That Requires Work Starting Document",
     "type" : "Boolean"
   }, {
@@ -659,7 +659,7 @@
   }, {
     "id" : "lastLiquidationDate",
     "column" : "lastLiquidationDate",
-    "ar" : "تم التصفيه حتى تاريخ",
+    "ar" : "تم التصفية حتى تاريخ",
     "en" : "Last Liquidation Date",
     "type" : "Date"
   }, {
@@ -669,13 +669,13 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "lastWorkDay",
     "column" : "lastWorkDay",
-    "ar" : "اخر يوم عمل",
+    "ar" : "آخر يوم عمل",
     "en" : "Last Work Day",
     "type" : "Date"
   }, {
@@ -697,7 +697,7 @@
   }, {
     "id" : "liquidateToDate",
     "column" : "liquidateToDate",
-    "ar" : "تصفيه حتى تاريخ",
+    "ar" : "تصفية حتى تاريخ",
     "en" : "Liquidate To Date",
     "type" : "Date"
   }, {
@@ -709,38 +709,38 @@
   }, {
     "id" : "liquidationDaysInfo.annualVacationWithSalary",
     "column" : "annualVacationWithSalary",
-    "ar" : "إجمالي الأجازات السنوية بمرتب",
-    "en" : "Total Annual Vacation Wih Salary",
+    "ar" : "إجمالي الإجازات السنوية بمرتب",
+    "en" : "Total Annual Vacation With Salary",
     "type" : "Decimal"
   }, {
     "id" : "liquidationDaysInfo.manSubTotalAnnualVacation",
     "column" : "manSubTotalAnnualVacation",
-    "ar" : "إجمالي أجازات سنوية (تُضاف يدويا الي ايام العمل)",
+    "ar" : "إجمالي إجازات سنوية (تُضاف يدويا إلى أيام العمل)",
     "en" : "Total Annual Vacations (Manually Added To Work Days)",
     "type" : "Decimal"
   }, {
     "id" : "liquidationDaysInfo.manSubTotalOtherVacation",
     "column" : "manSubTotalOtherVacation",
-    "ar" : "إجمالي أجازات أُخري (تُضاف يدويا الي يام العمل)",
+    "ar" : "إجمالي إجازات أُخرى (تُضاف يدويا إلى أيام العمل)",
     "en" : "Total Other Vacations (Manually Added To Work Days)",
     "type" : "Decimal"
   }, {
     "id" : "liquidationDaysInfo.manualTotalAnnualVacation",
     "column" : "manualTotalAnnualVacation",
-    "ar" : "إجمالي أجازات سنوية (تخُصم يدويا من ايام العمل)",
+    "ar" : "إجمالي إجازات سنوية (تُخصم يدويا من أيام العمل)",
     "en" : "Total Annual Vacations (Manually Deducted From Work Days)",
     "type" : "Decimal"
   }, {
     "id" : "liquidationDaysInfo.manualTotalOtherVacation",
     "column" : "manualTotalOtherVacation",
-    "ar" : "إجمالي أجازات أُخري (تُخصم يدويا من ايام العمل)",
+    "ar" : "إجمالي إجازات أُخرى (تُخصم يدويا من أيام العمل)",
     "en" : "Total Other Vacations (Manually Deducted From Work Days)",
     "type" : "Decimal"
   }, {
     "id" : "liquidationDaysInfo.netPaidVacationPeriod",
     "column" : "netPaidVacationPeriod",
-    "ar" : "صافي مدة الأجازة مدفوعة الأجر",
-    "en" : "Net Paid Vacation Period Period",
+    "ar" : "صافي مدة الإجازة مدفوعة الأجر",
+    "en" : "Net Paid Vacation Period",
     "type" : "Decimal"
   }, {
     "id" : "liquidationDaysInfo.netWorkedDays",
@@ -751,43 +751,43 @@
   }, {
     "id" : "liquidationDaysInfo.paidVacationPerYear",
     "column" : "paidVacationPerYear",
-    "ar" : "عدد أيام الاجازة المدفوعة سنوياً",
+    "ar" : "عدد أيام الإجازة المدفوعة سنوياً",
     "en" : "Paid Vacation Per Year",
     "type" : "Decimal"
   }, {
     "id" : "liquidationDaysInfo.paidVacationPeriod",
     "column" : "paidVacationPeriod",
-    "ar" : "مدة الاجازة مدفوعة الأجر",
+    "ar" : "مدة الإجازة مدفوعة الأجر",
     "en" : "Paid Vacation Period",
     "type" : "Decimal"
   }, {
     "id" : "liquidationDaysInfo.prePaidVacationPeriod",
     "column" : "prePaidVacationPeriod",
-    "ar" : "عدد أيام الاجازة المدفوعة مقدما",
-    "en" : "PrePaid Vacation Period",
+    "ar" : "عدد أيام الإجازة المدفوعة مقدما",
+    "en" : "Prepaid Vacation Period",
     "type" : "Decimal"
   }, {
     "id" : "liquidationDaysInfo.totalAnnualVacation",
     "column" : "totalAnnualVacation",
-    "ar" : "إجمالى أجازات سنويه بدون مرتب",
+    "ar" : "إجمالي إجازات سنوية بدون مرتب",
     "en" : "Total Annual Vacation Without Salary",
     "type" : "Decimal"
   }, {
     "id" : "liquidationDaysInfo.totalDaysFromLastLiquidation",
     "column" : "totalDaysFromLastLiquidation",
-    "ar" : "إجمالى أيام من أخر تصفيه",
+    "ar" : "إجمالي أيام من آخر تصفية",
     "en" : "Total Days From Last Liquidation",
     "type" : "Decimal"
   }, {
     "id" : "liquidationDaysInfo.totalOtherVacation",
     "column" : "totalOtherVacation",
-    "ar" : "إجمالى أجازات أخرى",
+    "ar" : "إجمالي إجازات أخرى",
     "en" : "Total Other Vacation",
     "type" : "Decimal"
   }, {
     "id" : "liquidationType",
     "column" : "liquidationType",
-    "ar" : "نوع تصفية الأجازة",
+    "ar" : "نوع تصفية الإجازة",
     "en" : "Vacation Liquidation Type",
     "type" : "Enum",
     "enum" : "LiquidationType"
@@ -870,67 +870,67 @@
   }, {
     "id" : "money.issuedValue",
     "column" : "issuedValue",
-    "ar" : "ما تم صرفة",
+    "ar" : "ما تم صرفه",
     "en" : "Issued Value",
     "type" : "Decimal"
   }, {
     "id" : "money.modifiedSubsidiaryAmount1",
     "column" : "modifiedSubsidiaryAmount1",
-    "ar" : "مبلغ بالذمه 1 المعدل",
+    "ar" : "مبلغ بالذمة 1 المعدل",
     "en" : "Modified Subsidiary Amount 1",
     "type" : "Decimal"
   }, {
     "id" : "money.modifiedSubsidiaryAmount10",
     "column" : "modifiedSubsidiaryAmount10",
-    "ar" : "مبلغ بالذمه 10 المعدل",
+    "ar" : "مبلغ بالذمة 10 المعدل",
     "en" : "Modified Subsidiary Amount 10",
     "type" : "Decimal"
   }, {
     "id" : "money.modifiedSubsidiaryAmount2",
     "column" : "modifiedSubsidiaryAmount2",
-    "ar" : "مبلغ بالذمه 2 المعدل",
+    "ar" : "مبلغ بالذمة 2 المعدل",
     "en" : "Modified Subsidiary Amount 2",
     "type" : "Decimal"
   }, {
     "id" : "money.modifiedSubsidiaryAmount3",
     "column" : "modifiedSubsidiaryAmount3",
-    "ar" : "مبلغ بالذمه 3 المعدل",
+    "ar" : "مبلغ بالذمة 3 المعدل",
     "en" : "Modified Subsidiary Amount 3",
     "type" : "Decimal"
   }, {
     "id" : "money.modifiedSubsidiaryAmount4",
     "column" : "modifiedSubsidiaryAmount4",
-    "ar" : "مبلغ بالذمه 4 المعدل",
+    "ar" : "مبلغ بالذمة 4 المعدل",
     "en" : "Modified Subsidiary Amount 4",
     "type" : "Decimal"
   }, {
     "id" : "money.modifiedSubsidiaryAmount5",
     "column" : "modifiedSubsidiaryAmount5",
-    "ar" : "مبلغ بالذمه 5 المعدل",
+    "ar" : "مبلغ بالذمة 5 المعدل",
     "en" : "Modified Subsidiary Amount 5",
     "type" : "Decimal"
   }, {
     "id" : "money.modifiedSubsidiaryAmount6",
     "column" : "modifiedSubsidiaryAmount6",
-    "ar" : "مبلغ بالذمه 6 المعدل",
+    "ar" : "مبلغ بالذمة 6 المعدل",
     "en" : "Modified Subsidiary Amount 6",
     "type" : "Decimal"
   }, {
     "id" : "money.modifiedSubsidiaryAmount7",
     "column" : "modifiedSubsidiaryAmount7",
-    "ar" : "مبلغ بالذمه 7 المعدل",
+    "ar" : "مبلغ بالذمة 7 المعدل",
     "en" : "Modified Subsidiary Amount 7",
     "type" : "Decimal"
   }, {
     "id" : "money.modifiedSubsidiaryAmount8",
     "column" : "modifiedSubsidiaryAmount8",
-    "ar" : "مبلغ بالذمه 8 المعدل",
+    "ar" : "مبلغ بالذمة 8 المعدل",
     "en" : "Modified Subsidiary Amount 8",
     "type" : "Decimal"
   }, {
     "id" : "money.modifiedSubsidiaryAmount9",
     "column" : "modifiedSubsidiaryAmount9",
-    "ar" : "مبلغ بالذمه 9 المعدل",
+    "ar" : "مبلغ بالذمة 9 المعدل",
     "en" : "Modified Subsidiary Amount 9",
     "type" : "Decimal"
   }, {
@@ -960,67 +960,67 @@
   }, {
     "id" : "money.subsidiaryAmount1",
     "column" : "subsidiaryAmount1",
-    "ar" : "مبلغ بالذمه1",
+    "ar" : "مبلغ بالذمة1",
     "en" : "Subsidiary Amount1",
     "type" : "Decimal"
   }, {
     "id" : "money.subsidiaryAmount10",
     "column" : "subsidiaryAmount10",
-    "ar" : "مبلغ بالذمه10",
+    "ar" : "مبلغ بالذمة10",
     "en" : "Subsidiary Amount10",
     "type" : "Decimal"
   }, {
     "id" : "money.subsidiaryAmount2",
     "column" : "subsidiaryAmount2",
-    "ar" : "مبلغ بالذمه2",
+    "ar" : "مبلغ بالذمة2",
     "en" : "Subsidiary Amount2",
     "type" : "Decimal"
   }, {
     "id" : "money.subsidiaryAmount3",
     "column" : "subsidiaryAmount3",
-    "ar" : "مبلغ بالذمه3",
+    "ar" : "مبلغ بالذمة3",
     "en" : "Subsidiary Amount3",
     "type" : "Decimal"
   }, {
     "id" : "money.subsidiaryAmount4",
     "column" : "subsidiaryAmount4",
-    "ar" : "مبلغ بالذمه4",
+    "ar" : "مبلغ بالذمة4",
     "en" : "Subsidiary Amount4",
     "type" : "Decimal"
   }, {
     "id" : "money.subsidiaryAmount5",
     "column" : "subsidiaryAmount5",
-    "ar" : "مبلغ بالذمه5",
+    "ar" : "مبلغ بالذمة5",
     "en" : "Subsidiary Amount5",
     "type" : "Decimal"
   }, {
     "id" : "money.subsidiaryAmount6",
     "column" : "subsidiaryAmount6",
-    "ar" : "مبلغ بالذمه6",
+    "ar" : "مبلغ بالذمة6",
     "en" : "Subsidiary Amount6",
     "type" : "Decimal"
   }, {
     "id" : "money.subsidiaryAmount7",
     "column" : "subsidiaryAmount7",
-    "ar" : "مبلغ بالذمه7",
+    "ar" : "مبلغ بالذمة7",
     "en" : "Subsidiary Amount7",
     "type" : "Decimal"
   }, {
     "id" : "money.subsidiaryAmount8",
     "column" : "subsidiaryAmount8",
-    "ar" : "مبلغ بالذمه8",
+    "ar" : "مبلغ بالذمة8",
     "en" : "Subsidiary Amount8",
     "type" : "Decimal"
   }, {
     "id" : "money.subsidiaryAmount9",
     "column" : "subsidiaryAmount9",
-    "ar" : "مبلغ بالذمه9",
+    "ar" : "مبلغ بالذمة9",
     "en" : "Subsidiary Amount9",
     "type" : "Decimal"
   }, {
     "id" : "money.totalAddFromSlryComponent",
     "column" : "totalAddFromSlryComponent",
-    "ar" : "إجمالى الاضافات من مفردات الراتب",
+    "ar" : "إجمالي الإضافات من مفردات الراتب",
     "en" : "Total addition from Salary component",
     "type" : "Decimal"
   }, {
@@ -1038,31 +1038,31 @@
   }, {
     "id" : "money.totalDedFromSlryComponent",
     "column" : "totalDedFromSlryComponent",
-    "ar" : "إجمالى الاستقطاعات من مفردات الراتب",
+    "ar" : "إجمالي الاستقطاعات من مفردات الراتب",
     "en" : "Total Deduction from Salary component",
     "type" : "Decimal"
   }, {
     "id" : "money.totalDeductedSubsidAmount",
     "column" : "totalDeductedSubsidAmount",
-    "ar" : "إجمالى الذمة المخصومة من التصفية",
+    "ar" : "إجمالي الذمة المخصومة من التصفية",
     "en" : "Total Deducted Subsidiary Amount",
     "type" : "Decimal"
   }, {
     "id" : "money.totalDeductions",
     "column" : "totalDeductions",
-    "ar" : "إجمالي الإستقطاعات",
+    "ar" : "إجمالي الاستقطاعات",
     "en" : "Total Deductions",
     "type" : "Decimal"
   }, {
     "id" : "money.totalOthers",
     "column" : "totalOthers",
-    "ar" : "إجمالي الآخري",
+    "ar" : "إجمالي الأخرى",
     "en" : "Others Total",
     "type" : "Decimal"
   }, {
     "id" : "money.totalTicketWorthAmount",
     "column" : "totalTicketWorthAmount",
-    "ar" : "إجمالى بدل التذاكر",
+    "ar" : "إجمالي بدل التذاكر",
     "en" : "Total Ticket Worth Amount",
     "type" : "Decimal"
   }, {
@@ -1132,7 +1132,7 @@
   }, {
     "id" : "rbook",
     "column" : "rbook_id",
-    "ar" : "دفتر الايصالات",
+    "ar" : "دفتر الإيصالات",
     "en" : "Receipt Book",
     "type" : "Reference",
     "refTo" : "ReceiptBook",
@@ -1203,7 +1203,7 @@
   }, {
     "id" : "rpaper",
     "column" : "rpaper_id",
-    "ar" : "الايصال",
+    "ar" : "الإيصال",
     "en" : "Receipt Paper",
     "type" : "Reference",
     "refTo" : "ReceiptPaper",
@@ -1211,8 +1211,8 @@
   }, {
     "id" : "salaryDocumentsTotalAmount",
     "column" : "salaryDocumentsTotalAmount",
-    "ar" : "إجمالى قيم سندات الراتب الواجب صرفها مع التصفية",
-    "en" : "ٍSalary Documents Total Amount",
+    "ar" : "إجمالي قيم سندات الراتب الواجب صرفها مع التصفية",
+    "en" : "Salary Documents Total Amount",
     "type" : "Decimal"
   }, {
     "id" : "sector",
@@ -1254,7 +1254,7 @@
   }, {
     "id" : "terminationCalcType",
     "column" : "terminationCalcType",
-    "ar" : "احتساب ايام تصفية نهاية الخدمة بناءا علي",
+    "ar" : "احتساب أيام تصفية نهاية الخدمة بناءً على",
     "en" : "Termination Days Calculation Type",
     "type" : "Enum",
     "enum" : "TerminationCalcType"
@@ -1267,7 +1267,7 @@
   }, {
     "id" : "terminationLiquidDaysInfo.calcDaysType",
     "column" : "tmCalcDaysType",
-    "ar" : "حساب ايام مدة الخدمة من",
+    "ar" : "حساب أيام مدة الخدمة من",
     "en" : "Calculate Work Period Days From",
     "type" : "Enum",
     "enum" : "TerminationCalcDaysType"
@@ -1280,25 +1280,25 @@
   }, {
     "id" : "terminationLiquidDaysInfo.manSubTotalAnnualVacation",
     "column" : "tmManSubTotalAnnualVacation",
-    "ar" : "إجمالي أجازات سنوية (تُضاف يدويا الي ايام العمل)",
+    "ar" : "إجمالي إجازات سنوية (تُضاف يدويا إلى أيام العمل)",
     "en" : "Total Annual Vacations (Manually Added To Work Days)",
     "type" : "Decimal"
   }, {
     "id" : "terminationLiquidDaysInfo.manSubTotalOtherVacation",
     "column" : "tmManSubTotalOtherVacation",
-    "ar" : "إجمالي أجازات أُخري (تُضاف يدويا الي يام العمل)",
+    "ar" : "إجمالي إجازات أُخرى (تُضاف يدويا إلى أيام العمل)",
     "en" : "Total Other Vacations (Manually Added To Work Days)",
     "type" : "Decimal"
   }, {
     "id" : "terminationLiquidDaysInfo.manualTotalAnnualVacation",
     "column" : "tmManualTotalAnnualVacation",
-    "ar" : "إجمالي أجازات سنوية (تخُصم يدويا من ايام العمل)",
+    "ar" : "إجمالي إجازات سنوية (تُخصم يدويا من أيام العمل)",
     "en" : "Total Annual Vacations (Manually Deducted From Work Days)",
     "type" : "Decimal"
   }, {
     "id" : "terminationLiquidDaysInfo.manualTotalOtherVacation",
     "column" : "tmManualTotalOtherVacation",
-    "ar" : "إجمالي أجازات أُخري (تُخصم يدويا من ايام العمل)",
+    "ar" : "إجمالي إجازات أُخرى (تُخصم يدويا من أيام العمل)",
     "en" : "Total Other Vacations (Manually Deducted From Work Days)",
     "type" : "Decimal"
   }, {
@@ -1316,19 +1316,19 @@
   }, {
     "id" : "terminationLiquidDaysInfo.totalAnnualVacation",
     "column" : "tmTotalAnnualVacation",
-    "ar" : "إجمالى أجازات سنويه بدون مرتب",
+    "ar" : "إجمالي إجازات سنوية بدون مرتب",
     "en" : "Total Annual Vacation Without Salary",
     "type" : "Decimal"
   }, {
     "id" : "terminationLiquidDaysInfo.totalOtherVacation",
     "column" : "tmTotalOtherVacation",
-    "ar" : "إجمالى أجازات أخرى",
+    "ar" : "إجمالي إجازات أخرى",
     "en" : "Total Other Vacation",
     "type" : "Decimal"
   }, {
     "id" : "terminationLiquidDaysInfo.totalWorkDays",
     "column" : "tmTotalWorkDays",
-    "ar" : "إجمالي ايام العمل",
+    "ar" : "إجمالي أيام العمل",
     "en" : "Total Work Days",
     "type" : "Decimal"
   }, {
@@ -1423,67 +1423,67 @@
   }, {
     "id" : "terminationMoney.issuedValue",
     "column" : "trmIssuedValue",
-    "ar" : "ما تم صرفة",
+    "ar" : "ما تم صرفه",
     "en" : "Issued Value",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.modifiedSubsidiaryAmount1",
     "column" : "trmModifiedSubsidiaryAmount1",
-    "ar" : "مبلغ بالذمه 1 المعدل",
+    "ar" : "مبلغ بالذمة 1 المعدل",
     "en" : "Modified Subsidiary Amount 1",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.modifiedSubsidiaryAmount10",
     "column" : "trmModifiedSubsidiaryAmount10",
-    "ar" : "مبلغ بالذمه 10 المعدل",
+    "ar" : "مبلغ بالذمة 10 المعدل",
     "en" : "Modified Subsidiary Amount 10",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.modifiedSubsidiaryAmount2",
     "column" : "trmModifiedSubsidiaryAmount2",
-    "ar" : "مبلغ بالذمه 2 المعدل",
+    "ar" : "مبلغ بالذمة 2 المعدل",
     "en" : "Modified Subsidiary Amount 2",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.modifiedSubsidiaryAmount3",
     "column" : "trmModifiedSubsidiaryAmount3",
-    "ar" : "مبلغ بالذمه 3 المعدل",
+    "ar" : "مبلغ بالذمة 3 المعدل",
     "en" : "Modified Subsidiary Amount 3",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.modifiedSubsidiaryAmount4",
     "column" : "trmModifiedSubsidiaryAmount4",
-    "ar" : "مبلغ بالذمه 4 المعدل",
+    "ar" : "مبلغ بالذمة 4 المعدل",
     "en" : "Modified Subsidiary Amount 4",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.modifiedSubsidiaryAmount5",
     "column" : "trmModifiedSubsidiaryAmount5",
-    "ar" : "مبلغ بالذمه 5 المعدل",
+    "ar" : "مبلغ بالذمة 5 المعدل",
     "en" : "Modified Subsidiary Amount 5",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.modifiedSubsidiaryAmount6",
     "column" : "trmModifiedSubsidiaryAmount6",
-    "ar" : "مبلغ بالذمه 6 المعدل",
+    "ar" : "مبلغ بالذمة 6 المعدل",
     "en" : "Modified Subsidiary Amount 6",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.modifiedSubsidiaryAmount7",
     "column" : "trmModifiedSubsidiaryAmount7",
-    "ar" : "مبلغ بالذمه 7 المعدل",
+    "ar" : "مبلغ بالذمة 7 المعدل",
     "en" : "Modified Subsidiary Amount 7",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.modifiedSubsidiaryAmount8",
     "column" : "trmModifiedSubsidiaryAmount8",
-    "ar" : "مبلغ بالذمه 8 المعدل",
+    "ar" : "مبلغ بالذمة 8 المعدل",
     "en" : "Modified Subsidiary Amount 8",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.modifiedSubsidiaryAmount9",
     "column" : "trmModifiedSubsidiaryAmount9",
-    "ar" : "مبلغ بالذمه 9 المعدل",
+    "ar" : "مبلغ بالذمة 9 المعدل",
     "en" : "Modified Subsidiary Amount 9",
     "type" : "Decimal"
   }, {
@@ -1513,67 +1513,67 @@
   }, {
     "id" : "terminationMoney.subsidiaryAmount1",
     "column" : "trmSubsidiaryAmount1",
-    "ar" : "مبلغ بالذمه1",
+    "ar" : "مبلغ بالذمة1",
     "en" : "Subsidiary Amount1",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.subsidiaryAmount10",
     "column" : "trmSubsidiaryAmount10",
-    "ar" : "مبلغ بالذمه10",
+    "ar" : "مبلغ بالذمة10",
     "en" : "Subsidiary Amount10",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.subsidiaryAmount2",
     "column" : "trmSubsidiaryAmount2",
-    "ar" : "مبلغ بالذمه2",
+    "ar" : "مبلغ بالذمة2",
     "en" : "Subsidiary Amount2",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.subsidiaryAmount3",
     "column" : "trmSubsidiaryAmount3",
-    "ar" : "مبلغ بالذمه3",
+    "ar" : "مبلغ بالذمة3",
     "en" : "Subsidiary Amount3",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.subsidiaryAmount4",
     "column" : "trmSubsidiaryAmount4",
-    "ar" : "مبلغ بالذمه4",
+    "ar" : "مبلغ بالذمة4",
     "en" : "Subsidiary Amount4",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.subsidiaryAmount5",
     "column" : "trmSubsidiaryAmount5",
-    "ar" : "مبلغ بالذمه5",
+    "ar" : "مبلغ بالذمة5",
     "en" : "Subsidiary Amount5",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.subsidiaryAmount6",
     "column" : "trmSubsidiaryAmount6",
-    "ar" : "مبلغ بالذمه6",
+    "ar" : "مبلغ بالذمة6",
     "en" : "Subsidiary Amount6",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.subsidiaryAmount7",
     "column" : "trmSubsidiaryAmount7",
-    "ar" : "مبلغ بالذمه7",
+    "ar" : "مبلغ بالذمة7",
     "en" : "Subsidiary Amount7",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.subsidiaryAmount8",
     "column" : "trmSubsidiaryAmount8",
-    "ar" : "مبلغ بالذمه8",
+    "ar" : "مبلغ بالذمة8",
     "en" : "Subsidiary Amount8",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.subsidiaryAmount9",
     "column" : "trmSubsidiaryAmount9",
-    "ar" : "مبلغ بالذمه9",
+    "ar" : "مبلغ بالذمة9",
     "en" : "Subsidiary Amount9",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.totalAddFromSlryComponent",
     "column" : "trmTotalAddFromSlryComponent",
-    "ar" : "إجمالى الاضافات من مفردات الراتب",
+    "ar" : "إجمالي الإضافات من مفردات الراتب",
     "en" : "Total addition from Salary component",
     "type" : "Decimal"
   }, {
@@ -1591,31 +1591,31 @@
   }, {
     "id" : "terminationMoney.totalDedFromSlryComponent",
     "column" : "trmTotalDedFromSlryComponent",
-    "ar" : "إجمالى الاستقطاعات من مفردات الراتب",
+    "ar" : "إجمالي الاستقطاعات من مفردات الراتب",
     "en" : "Total Deduction from Salary component",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.totalDeductedSubsidAmount",
     "column" : "trmTotalDeductedSubsidAmount",
-    "ar" : "إجمالى الذمة المخصومة من التصفية",
+    "ar" : "إجمالي الذمة المخصومة من التصفية",
     "en" : "Total Deducted Subsidiary Amount",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.totalDeductions",
     "column" : "trmTotalDeductions",
-    "ar" : "إجمالي الإستقطاعات",
+    "ar" : "إجمالي الاستقطاعات",
     "en" : "Total Deductions",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.totalOthers",
     "column" : "trmTotalOthers",
-    "ar" : "إجمالي الآخري",
+    "ar" : "إجمالي الأخرى",
     "en" : "Others Total",
     "type" : "Decimal"
   }, {
     "id" : "terminationMoney.totalTicketWorthAmount",
     "column" : "trmTotalTicketWorthAmount",
-    "ar" : "إجمالى بدل التذاكر",
+    "ar" : "إجمالي بدل التذاكر",
     "en" : "Total Ticket Worth Amount",
     "type" : "Decimal"
   }, {
@@ -1646,7 +1646,7 @@
   }, {
     "id" : "ticketDueInfo.paidWithLiquidation",
     "column" : "paidWithLiquidation",
-    "ar" : "تصرف مع التصفيه",
+    "ar" : "تصرف مع التصفية",
     "en" : "Paid With Liquidation",
     "type" : "Boolean"
   }, {
@@ -1658,7 +1658,7 @@
   }, {
     "id" : "ticketDueInfo.ticketRatio",
     "column" : "ticketRatio",
-    "ar" : "نسبه الاستحقاق من التذكرة",
+    "ar" : "نسبة الاستحقاق من التذكرة",
     "en" : "Ticket Ratio",
     "type" : "Decimal"
   }, {
@@ -1713,20 +1713,20 @@
   }, {
     "id" : "vacationCalcType",
     "column" : "vacationCalcType",
-    "ar" : "حساب عدد الأيام المستحقه بناءا علي",
+    "ar" : "حساب عدد الأيام المستحقة بناءً على",
     "en" : "Calculate Worth Days From",
     "type" : "Enum",
     "enum" : "VacationCalcType"
   }, {
     "id" : "vacationPeriod",
     "column" : "vacationPeriod",
-    "ar" : "مدة الأجازة من سند الأجازه",
+    "ar" : "مدة الإجازة من سند الإجازة",
     "en" : "Vacation Period From Vacation Document",
     "type" : "Decimal"
   }, {
     "id" : "vacationPlanDocument",
     "column" : "vacationPlanDocument_id",
-    "ar" : "خطة أجازة",
+    "ar" : "خطة إجازة",
     "en" : "Vacation Plan",
     "type" : "Reference",
     "refTo" : "VacationPlanDocument",
@@ -1845,13 +1845,13 @@
     }, {
       "id" : "details.deduction",
       "column" : "deduction",
-      "ar" : "إستقطاع",
+      "ar" : "استقطاع",
       "en" : "Deduction",
       "type" : "Decimal"
     }, {
       "id" : "details.dueValue",
       "column" : "dueValue",
-      "ar" : "القيمة المستحقه",
+      "ar" : "القيمة المستحقة",
       "en" : "Due Value",
       "type" : "Decimal"
     }, {
@@ -1876,7 +1876,7 @@
     }, {
       "id" : "details.other",
       "column" : "other",
-      "ar" : "آخري",
+      "ar" : "أخرى",
       "en" : "other",
       "type" : "Decimal"
     }, {
@@ -2070,7 +2070,7 @@
     }, {
       "id" : "salaryDocLines.totalDeductions",
       "column" : "totalDeductions",
-      "ar" : "إجمالي الإستقطاعات",
+      "ar" : "إجمالي الاستقطاعات",
       "en" : "Total Deductions",
       "type" : "Decimal"
     } ]
@@ -2169,13 +2169,13 @@
     }, {
       "id" : "terminationDetails.deduction",
       "column" : "deduction",
-      "ar" : "إستقطاع",
+      "ar" : "استقطاع",
       "en" : "Deduction",
       "type" : "Decimal"
     }, {
       "id" : "terminationDetails.dueValue",
       "column" : "dueValue",
-      "ar" : "القيمة المستحقه",
+      "ar" : "القيمة المستحقة",
       "en" : "Due Value",
       "type" : "Decimal"
     }, {
@@ -2200,7 +2200,7 @@
     }, {
       "id" : "terminationDetails.other",
       "column" : "other",
-      "ar" : "آخري",
+      "ar" : "أخرى",
       "en" : "other",
       "type" : "Decimal"
     }, {

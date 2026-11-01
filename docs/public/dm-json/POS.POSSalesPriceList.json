@@ -120,8 +120,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",
@@ -379,13 +379,13 @@
     }, {
       "id" : "details.maxPrice",
       "column" : "maxPrice",
-      "ar" : "اقصي سعر",
+      "ar" : "أقصى سعر",
       "en" : "Price Per Unit | Max. Price",
       "type" : "Decimal"
     }, {
       "id" : "details.maxQty",
       "column" : "maxQty",
-      "ar" : "اقصي كمية",
+      "ar" : "أقصى كمية",
       "en" : "Max Qty",
       "type" : "Decimal"
     }, {
@@ -497,7 +497,7 @@
     }, {
       "id" : "details.qty.value",
       "column" : "qValue",
-      "ar" : "الكمية | اقل قيمة",
+      "ar" : "الكمية | أقل قيمة",
       "en" : "Quantity | Min Value",
       "type" : "Decimal"
     }, {

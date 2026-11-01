@@ -2,7 +2,7 @@
   "enum" : "EndStockTakingTaskType",
   "values" : [ {
     "id" : "Ended",
-    "ar" : "منهي",
+    "ar" : "منتهي",
     "en" : "Ended"
   }, {
     "id" : "EndedAndActive",

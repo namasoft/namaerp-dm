@@ -3,10 +3,10 @@
   "values" : [ {
     "id" : "InValue",
     "ar" : "إيرادات",
-    "en" : "InValue"
+    "en" : "In Value"
   }, {
     "id" : "OutValue",
-    "ar" : "إلتزامات",
-    "en" : "OutValue"
+    "ar" : "التزامات",
+    "en" : "Out Value"
   } ]
 }

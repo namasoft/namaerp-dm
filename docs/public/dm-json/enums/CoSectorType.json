@@ -2,19 +2,19 @@
   "enum" : "CoSectorType",
   "values" : [ {
     "id" : "Other",
-    "ar" : "أخري",
+    "ar" : "أخرى",
     "en" : "Other"
   }, {
     "id" : "Services",
-    "ar" : "خدمى",
+    "ar" : "خدمي",
     "en" : "Services"
   }, {
     "id" : "Commercial",
-    "ar" : "تجارى",
+    "ar" : "تجاري",
     "en" : "Commercial"
   }, {
     "id" : "Industrial",
-    "ar" : "صناعى",
+    "ar" : "صناعي",
     "en" : "Industrial"
   } ]
 }

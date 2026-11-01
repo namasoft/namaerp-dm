@@ -24,13 +24,13 @@
     "name" : "AINamaDocsFile",
     "table" : "AINamaDocsFile",
     "module" : "ai",
-    "ar" : "AI Nama Docs Utility Manager",
+    "ar" : "مدير أدوات توثيق نما للذكاء الاصطناعي",
     "en" : "AI Nama Docs Utility Manager"
   }, {
     "name" : "AIRecordEmbeddingConfig",
     "table" : "AIRecordEmbeddingConfig",
     "module" : "ai",
-    "ar" : "AI Record Embedding Config",
+    "ar" : "إعدادات تضمين السجلات للذكاء الاصطناعي",
     "en" : "AI Record Embedding Config",
     "details" : [ {
       "id" : "embeddingLines",
@@ -50,7 +50,7 @@
     "name" : "AIToolDefinition",
     "table" : "AIToolDefinition",
     "module" : "ai",
-    "ar" : "AI Tool Definition",
+    "ar" : "تعريف أداة ذكاء اصطناعي",
     "en" : "AI Tool Definition",
     "details" : [ {
       "id" : "accessControl",
@@ -72,7 +72,7 @@
     "name" : "APICredentials",
     "table" : "APICredentials",
     "module" : "basic",
-    "ar" : "API Credentials",
+    "ar" : "بيانات اعتماد API",
     "en" : "API Credentials",
     "details" : [ {
       "id" : "allowedOperations",
@@ -94,7 +94,7 @@
     "name" : "AUAdjustments",
     "table" : "AUAdjustments",
     "module" : "auditing",
-    "ar" : "تسويه",
+    "ar" : "تسوية",
     "en" : "Adjustment",
     "details" : [ {
       "id" : "lines",
@@ -253,7 +253,7 @@
     "name" : "AUIndependency",
     "table" : "AUIndependency",
     "module" : "auditing",
-    "ar" : "نموذج الإستقلالية",
+    "ar" : "نموذج الاستقلالية",
     "en" : "Independency Model",
     "details" : [ {
       "id" : "inds",
@@ -290,7 +290,7 @@
     "table" : "AUP0Procedure",
     "module" : "auditing",
     "ar" : "إجراء  مرحلة التمهيد للتخطيط",
-    "en" : "Boot Planing Procedure",
+    "en" : "Boot Planning Procedure",
     "details" : [ {
       "id" : "p0Procedures",
       "table" : "AUProcedureP0Line"
@@ -300,7 +300,7 @@
     "table" : "AUP1Procedure",
     "module" : "auditing",
     "ar" : "إجراء مرحلة التخطيط",
-    "en" : "Planing Procedure",
+    "en" : "Planning Procedure",
     "details" : [ {
       "id" : "p1Procedures",
       "table" : "AUProcedureP1Line"
@@ -309,7 +309,7 @@
     "name" : "AUP4Procedure",
     "table" : "AUP4Procedure",
     "module" : "auditing",
-    "ar" : "إجراء مرحلة الإستكمال",
+    "ar" : "إجراء مرحلة الاستكمال",
     "en" : "Completion Procedure",
     "details" : [ {
       "id" : "p4Procedures",
@@ -325,7 +325,7 @@
     "name" : "AUPolicies",
     "table" : "AUPolicies",
     "module" : "auditing",
-    "ar" : "سياسة او إيضاح",
+    "ar" : "سياسة أو إيضاح",
     "en" : "Policy and clarification",
     "details" : [ {
       "id" : "policiess",
@@ -345,7 +345,7 @@
     "name" : "AUReportsProcedure",
     "table" : "AUReportsProcedure",
     "module" : "auditing",
-    "ar" : "إجراء اصدار التقارير",
+    "ar" : "إجراء إصدار التقارير",
     "en" : "Reports Procedure",
     "details" : [ {
       "id" : "reportsProcedures",
@@ -379,7 +379,7 @@
     "table" : "AUTeamWorkReq",
     "module" : "auditing",
     "ar" : "طلب إنشاء فريق عمل",
-    "en" : "TeamWork Request",
+    "en" : "Team Work Request",
     "details" : [ {
       "id" : "teamReq",
       "table" : "AUTeamWorkReqLine"
@@ -532,7 +532,7 @@
     "table" : "AccountChartType",
     "module" : "accounting",
     "ar" : "نوع شجرة حسابات",
-    "en" : "Account ChartType"
+    "en" : "Account Chart Type"
   }, {
     "name" : "AccountTaxCategory",
     "table" : "AccountTaxCategory",
@@ -623,7 +623,7 @@
     "name" : "AddressRegion",
     "table" : "AddressRegion",
     "module" : "basic",
-    "ar" : "منطقه",
+    "ar" : "منطقة",
     "en" : "Address Region"
   }, {
     "name" : "AggFATransferRequest",
@@ -818,7 +818,7 @@
     "table" : "AggrResidenceRenewReq",
     "module" : "humanresource-gulf-visa",
     "ar" : "طلب تجديد إقامة مجمع",
-    "en" : "Aggregated Residence Renew Requests",
+    "en" : "Aggregated Residence Renew Request",
     "details" : [ {
       "id" : "details",
       "table" : "AggrResidenceRenewReqLine"
@@ -827,8 +827,8 @@
     "name" : "AggrRewardAndPenaltieDoc",
     "table" : "AggrRewardAndPenaltieDoc",
     "module" : "humanresource-payroll",
-    "ar" : "سند مكافأه - جزاء مجمع",
-    "en" : "Aggregated Reward And Penaltie Document",
+    "ar" : "سند مكافأة - جزاء مجمع",
+    "en" : "Aggregated Reward And Penalty Document",
     "details" : [ {
       "id" : "details",
       "table" : "AggrRewardPenaltieLine"
@@ -904,7 +904,7 @@
     "name" : "AggregatedMissionDocument",
     "table" : "AggregatedMissionDocument",
     "module" : "humanresource-payroll",
-    "ar" : "سند مأموريه مجمع",
+    "ar" : "سند مأمورية مجمع",
     "en" : "Aggregated Mission Document",
     "details" : [ {
       "id" : "details",
@@ -953,7 +953,7 @@
     "name" : "AggregatedVacationCompensation",
     "table" : "AggregatedVacationCompensation",
     "module" : "humanresource-payroll",
-    "ar" : "صرف بدل أجازة مجمع",
+    "ar" : "صرف بدل إجازة مجمع",
     "en" : "Aggregated Vacation Compensation",
     "details" : [ {
       "id" : "details",
@@ -963,7 +963,7 @@
     "name" : "AggregatedVacationDocument",
     "table" : "AggregatedVacationDocument",
     "module" : "humanresource-payroll",
-    "ar" : "سند أجازه مجمع",
+    "ar" : "سند إجازة مجمع",
     "en" : "Aggregated Vacation Document",
     "details" : [ {
       "id" : "details",
@@ -973,7 +973,7 @@
     "name" : "AggregatedVacationRequest",
     "table" : "AggregatedVacationRequest",
     "module" : "humanresource-payroll",
-    "ar" : "طلب أجازة مجمع",
+    "ar" : "طلب إجازة مجمع",
     "en" : "Aggregated Vacation Request",
     "details" : [ {
       "id" : "details",
@@ -983,7 +983,7 @@
     "name" : "AggregatedVacationStartingDoc",
     "table" : "AggregatedVacationStartingDoc",
     "module" : "humanresource-payroll",
-    "ar" : "سند مباشرة عمل أجازة مجمعة",
+    "ar" : "سند مباشرة عمل إجازة مجمعة",
     "en" : "Aggregated Vacation work Starting document",
     "details" : [ {
       "id" : "details",
@@ -1090,7 +1090,7 @@
     "name" : "AnnualIncreasesDoc",
     "table" : "AnnualIncreasesDoc",
     "module" : "humanresource-payroll",
-    "ar" : "مستند الزياده السنوية",
+    "ar" : "مستند الزيادة السنوية",
     "en" : "Annual Increases Document",
     "details" : [ {
       "id" : "details",
@@ -1107,7 +1107,7 @@
     "table" : "AppFormElement",
     "module" : "contracting",
     "ar" : "بند نموذج طلب",
-    "en" : "ApplForm Element",
+    "en" : "AppForm Element",
     "details" : [ {
       "id" : "details",
       "table" : "AppFormElementLine"
@@ -1151,7 +1151,7 @@
     "name" : "ApprovalDefinition",
     "table" : "ApprovalDefinition",
     "module" : "basic",
-    "ar" : "تعريف موافقه",
+    "ar" : "تعريف موافقة",
     "en" : "Approval Definition",
     "details" : [ {
       "id" : "criticalFields",
@@ -1349,7 +1349,7 @@
     "name" : "AttendanceMachineLogInbox",
     "table" : "AttendanceMachineLogInbox",
     "module" : "system-tables",
-    "ar" : "Attendance Machine Log Inbox",
+    "ar" : "صندوق وارد سجلات جهاز الحضور",
     "en" : "Attendance Machine Log Inbox"
   }, {
     "name" : "AttendancePlan",
@@ -1423,13 +1423,13 @@
     "name" : "BLCChanging",
     "table" : "BLCChanging",
     "module" : "accounting-blc",
-    "ar" : "تعديل اعتماد بنكى",
+    "ar" : "تعديل اعتماد بنكي",
     "en" : "Bank LC Changing"
   }, {
     "name" : "BLCClosingDoc",
     "table" : "BLCClosingDoc",
     "module" : "accounting-blc",
-    "ar" : "إنهاء اعتماد بنكى",
+    "ar" : "إنهاء اعتماد بنكي",
     "en" : "Bank LC Closing"
   }, {
     "name" : "BLCEntry",
@@ -1440,13 +1440,13 @@
     "name" : "BLCOpeningDoc",
     "table" : "BLCOpeningDoc",
     "module" : "accounting-blc",
-    "ar" : "فتح اعتماد بنكى",
+    "ar" : "فتح اعتماد بنكي",
     "en" : "Bank LC Opening"
   }, {
     "name" : "BLCReq",
     "table" : "BLCReq",
     "module" : "accounting-blc",
-    "ar" : "طلب اعتماد بنكى",
+    "ar" : "طلب اعتماد بنكي",
     "en" : "Bank LC Request"
   }, {
     "name" : "BOM",
@@ -1491,13 +1491,13 @@
     "name" : "BankLC",
     "table" : "BankLC",
     "module" : "accounting-blc",
-    "ar" : "اعتماد بنكى",
+    "ar" : "اعتماد بنكي",
     "en" : "Bank LC"
   }, {
     "name" : "BankLCType",
     "table" : "BankLCType",
     "module" : "accounting-financial-commitments-regulation",
-    "ar" : "نوع الاعتماد البنكى",
+    "ar" : "نوع الاعتماد البنكي",
     "en" : "Bank Letter Of Credit Type"
   }, {
     "name" : "BankLoan",
@@ -1712,7 +1712,7 @@
     "name" : "CPAProcedure",
     "table" : "CPAProcedure",
     "module" : "ecpa",
-    "ar" : "الاجراء",
+    "ar" : "الإجراء",
     "en" : "Procedure"
   }, {
     "name" : "CPAProjExpenseDoc",
@@ -1734,11 +1734,6 @@
       "id" : "details",
       "table" : "CPAReqExpenseLine"
     } ]
-  }, {
-    "name" : "CPAProjReturnLine",
-    "table" : "CPAProjReturnLine",
-    "module" : "system-tables",
-    "en" : "CPA Proj Return Line"
   }, {
     "name" : "CPAProject",
     "table" : "CPAProject",
@@ -1772,7 +1767,7 @@
     "table" : "CPAProjectExpenseItem",
     "module" : "ecpa",
     "ar" : " بند مصروف مشروع",
-    "en" : " Project Expense Items"
+    "en" : " Project Expense Item"
   }, {
     "name" : "CPAProjectInvoice",
     "table" : "CPAProjectInvoice",
@@ -1806,7 +1801,7 @@
     "en" : "Project Return",
     "details" : [ {
       "id" : "details",
-      "table" : "CPAProjInvoiceLine"
+      "table" : "CPAProjReturnLine"
     }, {
       "id" : "executions",
       "table" : "CPAProjectReturnExecutionLine"
@@ -1815,7 +1810,7 @@
       "table" : "CPAProjReturnExternalPayment"
     }, {
       "id" : "invSrcLinesIdRef",
-      "table" : "InvApprTimeSRCLineIDRef"
+      "table" : "RetApprTimeSRCLineIDRef"
     } ]
   }, {
     "name" : "CPAProjectStage",
@@ -1865,8 +1860,8 @@
     "name" : "CPAProjectSubType",
     "table" : "CPAProjectSubType",
     "module" : "ecpa",
-    "ar" : "نوع مشروع فرعى",
-    "en" : "CPA Project Sub Type"
+    "ar" : "نوع مشروع فرعي",
+    "en" : "Project Sub Type"
   }, {
     "name" : "CPAProjectType",
     "table" : "CPAProjectType",
@@ -1987,7 +1982,7 @@
     "table" : "CQCHydroStaticFireSysTest",
     "module" : "contracting-qc",
     "ar" : "HydroStatic Test Report For Fire Protection System",
-    "en" : "HydroStatic Test Report For Fire Protection System"
+    "en" : "Hydrostatic Test Report For Fire Protection System"
   }, {
     "name" : "CQCITP",
     "table" : "CQCITP",
@@ -2142,7 +2137,7 @@
     "name" : "CRMComplaint",
     "table" : "CRMComplaint",
     "module" : "crm",
-    "ar" : "شكوي - إقتراح",
+    "ar" : "شكوى - اقتراح",
     "en" : "Complaint - Suggestion",
     "details" : [ {
       "id" : "followUpLines",
@@ -2230,7 +2225,7 @@
     "table" : "CRMMarketingPlan",
     "module" : "crm",
     "ar" : "خطة تسويق",
-    "en" : "MarketingPlan document",
+    "en" : "Marketing Plan document",
     "details" : [ {
       "id" : "details",
       "table" : "CRMMarketingPlanLine"
@@ -2283,7 +2278,7 @@
     "name" : "CRMProblemClassification",
     "table" : "CRMProblemClassification",
     "module" : "crm",
-    "ar" : "تصنيف مشكله",
+    "ar" : "تصنيف مشكلة",
     "en" : "Problem Classification"
   }, {
     "name" : "CRMProject",
@@ -2309,7 +2304,7 @@
     "table" : "CRMQuestionair",
     "module" : "crm",
     "ar" : "استبيان",
-    "en" : "Questionair",
+    "en" : "Questionnaire",
     "details" : [ {
       "id" : "responses",
       "table" : "CRMQuestionairResponse"
@@ -2319,7 +2314,7 @@
     "table" : "CRMQuestionairTemplate",
     "module" : "crm",
     "ar" : "قالب استبيان",
-    "en" : "Questionair Template",
+    "en" : "Questionnaire Template",
     "details" : [ {
       "id" : "lines",
       "table" : "CRMQuestionairTemplateLine"
@@ -2665,7 +2660,7 @@
     "name" : "CRTNType",
     "table" : "CRTNType",
     "module" : "manufacturing-crtn-pln",
-    "ar" : "نوع الكرتونه",
+    "ar" : "نوع الكرتونة",
     "en" : "CRTN Type"
   }, {
     "name" : "CSHCloseShift",
@@ -2758,7 +2753,7 @@
     "name" : "CarBrand",
     "table" : "CarBrand",
     "module" : "basic",
-    "ar" : "ماركة سياره",
+    "ar" : "ماركة سيارة",
     "en" : "Car Brand"
   }, {
     "name" : "CarInfoUpdater",
@@ -2876,7 +2871,7 @@
     "name" : "CarModel",
     "table" : "CarModel",
     "module" : "basic",
-    "ar" : "موديل سياره",
+    "ar" : "موديل سيارة",
     "en" : "Car Model"
   }, {
     "name" : "CarProblem",
@@ -2893,13 +2888,13 @@
     "name" : "ChangeEmployeeState",
     "table" : "ChangeEmployeeState",
     "module" : "humanresource-payroll",
-    "ar" : "تغير حالة موظف",
+    "ar" : "تغيير حالة موظف",
     "en" : "Change Employee State"
   }, {
     "name" : "ChargeItem",
     "table" : "ChargeItem",
     "module" : "housing",
-    "ar" : "صنف شحن إلكترونى",
+    "ar" : "صنف شحن إلكتروني",
     "en" : "Charge Item",
     "details" : [ {
       "id" : "priceList",
@@ -2909,7 +2904,7 @@
     "name" : "ChargeItemInvoice",
     "table" : "ChargeItemInvoice",
     "module" : "housing",
-    "ar" : "فاتورة شحن إلكترونى",
+    "ar" : "فاتورة شحن إلكتروني",
     "en" : "Charge Item Invoice",
     "details" : [ {
       "id" : "details",
@@ -3041,7 +3036,7 @@
     "table" : "ConsolidatedRVRequest",
     "module" : "accounting",
     "ar" : "طلب قبض مجمع",
-    "en" : "Consolidate Receipt Voucher Request",
+    "en" : "Consolidated Receipt Voucher Request",
     "details" : [ {
       "id" : "details",
       "table" : "ConsolidatedRVRequestLine"
@@ -3055,7 +3050,7 @@
     "name" : "Contact",
     "table" : "Contact",
     "module" : "basic",
-    "ar" : "جهة إتصال",
+    "ar" : "جهة اتصال",
     "en" : "Contact"
   }, {
     "name" : "ContactInfoEntry",
@@ -3096,7 +3091,7 @@
     "table" : "ContrEmployeeEquipmentAlloc",
     "module" : "contracting",
     "ar" : "تسكين موظفين ومعدات على مشروع",
-    "en" : "Employee And Equipments Project Allocation",
+    "en" : "Employee And Equipment Project Allocation",
     "details" : [ {
       "id" : "details",
       "table" : "ContrEmployeeEquipAllocLine"
@@ -3181,7 +3176,7 @@
     "name" : "ContractingAdvisory",
     "table" : "ContractingAdvisory",
     "module" : "contracting",
-    "ar" : "إستشاري",
+    "ar" : "استشاري",
     "en" : "Advisory"
   }, {
     "name" : "ContractingAssay",
@@ -3368,7 +3363,7 @@
     "name" : "ContractingOffer",
     "table" : "ContractingOffer",
     "module" : "contracting",
-    "ar" : "عرض سعرالمقاولات",
+    "ar" : "عرض سعر المقاولات",
     "en" : "Contracting Offer",
     "details" : [ {
       "id" : "conditions",
@@ -3772,25 +3767,25 @@
     "name" : "CreditFacility",
     "table" : "CreditFacility",
     "module" : "accounting-loans",
-    "ar" : "تسهيل ائتمانى",
+    "ar" : "تسهيل ائتماني",
     "en" : "Credit Facility"
   }, {
     "name" : "CreditFacilityIssuance",
     "table" : "CreditFacilityIssuance",
     "module" : "accounting-loans",
-    "ar" : "إصدار تسهيل ائتمانى",
+    "ar" : "إصدار تسهيل ائتماني",
     "en" : "Credit Facility Issuance"
   }, {
     "name" : "CreditFacilityPayEntry",
     "table" : "CreditFacilityPayEntry",
     "module" : "system-tables",
-    "ar" : "الجدول النظامى لسداد التسهيل الائتمانى",
+    "ar" : "الجدول النظامي لسداد التسهيل الائتماني",
     "en" : "Credit Facility Payment Entry"
   }, {
     "name" : "CreditFacilityPayment",
     "table" : "CreditFacilityPayment",
     "module" : "accounting-loans",
-    "ar" : "مستند سداد تسهيل ائتمانى",
+    "ar" : "مستند سداد تسهيل ائتماني",
     "en" : "Credit Facility Payment",
     "details" : [ {
       "id" : "details",
@@ -3810,7 +3805,7 @@
     "name" : "CreditFacilityTermination",
     "table" : "CreditFacilityTermination",
     "module" : "accounting-loans",
-    "ar" : "مستند انهاء تسهيل ائتمانى",
+    "ar" : "مستند إنهاء تسهيل ائتماني",
     "en" : "Credit Facility Termination"
   }, {
     "name" : "CreditNote",
@@ -3829,7 +3824,7 @@
     "name" : "CriteriaBasedValidator",
     "table" : "CriteriaBasedValidator",
     "module" : "basic",
-    "ar" : "تحقق بناءا على معايير",
+    "ar" : "تحقق بناءً على معايير",
     "en" : "Criteria Based Validator"
   }, {
     "name" : "CriteriaDefinition",
@@ -4014,7 +4009,7 @@
     "table" : "DLVDeliveryDocument",
     "module" : "basic-mobile-shipment-delivery",
     "ar" : "سند توصيل شحنات",
-    "en" : "Shipment Delivery  Document",
+    "en" : "Shipment Delivery Document",
     "details" : [ {
       "id" : "details",
       "table" : "DLVDeliveryDocumentLine"
@@ -4059,7 +4054,7 @@
     "table" : "DLVDriverCarAreaAssignment",
     "module" : "basic-mobile-shipment-delivery",
     "ar" : "مستند تسكين سائق و سيارة توصيل على منطقة توصيل",
-    "en" : "DLV Driver Car Area Assignments",
+    "en" : "DLV Driver Car Area Assignment",
     "details" : [ {
       "id" : "details",
       "table" : "DLVDriverCarAreaAssignmentLine"
@@ -4148,7 +4143,7 @@
     "name" : "DailyLaborBook",
     "table" : "DailyLaborBook",
     "module" : "contracting",
-    "ar" : "مستند السركى",
+    "ar" : "مستند السركي",
     "en" : "Daily Labor Book",
     "details" : [ {
       "id" : "costLines",
@@ -4164,7 +4159,7 @@
     "name" : "DailySalary",
     "table" : "DailySalary",
     "module" : "humanresource-payroll",
-    "ar" : "أجر يومى",
+    "ar" : "أجر يومي",
     "en" : "Daily Salary",
     "details" : [ {
       "id" : "details",
@@ -4194,7 +4189,7 @@
     "table" : "DashBoardGroup",
     "module" : "basic",
     "ar" : "مجموعة  لوحات",
-    "en" : "Dash Board Group",
+    "en" : "Dashboard Group",
     "details" : [ {
       "id" : "details",
       "table" : "DashBoardGroupLine"
@@ -4541,7 +4536,7 @@
     "table" : "DiggingBackFilingCheckList",
     "module" : "contracting",
     "ar" : "Digging And BackFiling CheckList",
-    "en" : "Digging And BackFiling CheckList",
+    "en" : "Digging And Backfilling CheckList",
     "details" : [ {
       "id" : "details",
       "table" : "DiggingBackFilingCheckListLine"
@@ -4579,7 +4574,7 @@
     "table" : "DiscountCouponType",
     "module" : "supplychain-sales",
     "ar" : "نوع قسيمة خصومات",
-    "en" : "DiscountCoupon Type"
+    "en" : "Discount Coupon Type"
   }, {
     "name" : "DiscountSysLine",
     "table" : "DiscountSysLine",
@@ -4602,7 +4597,7 @@
     "name" : "DiscountsReCalcDocument",
     "table" : "DiscountsReCalcDocument",
     "module" : "supplychain-purchases",
-    "ar" : "أعادة حساب الخصومات",
+    "ar" : "إعادة حساب الخصومات",
     "en" : "Discounts Recalculation",
     "details" : [ {
       "id" : "details",
@@ -4720,7 +4715,7 @@
     "name" : "EDAttendance",
     "table" : "EDAttendance",
     "module" : "education",
-    "ar" : "الحضور / الإنصراف الدراسي",
+    "ar" : "الحضور / الانصراف الدراسي",
     "en" : "Education Attendance",
     "details" : [ {
       "id" : "attendances",
@@ -4737,13 +4732,13 @@
     "table" : "EDBusAction",
     "module" : "education",
     "ar" : "إجراء سيارة مدرسية",
-    "en" : "BusAction"
+    "en" : "Bus Action"
   }, {
     "name" : "EDBusInfoUpdater",
     "table" : "EDBusInfoUpdater",
     "module" : "education",
     "ar" : "تحديث بيانات سيارة مدرسية",
-    "en" : "InfoUpdater",
+    "en" : "Info Updater",
     "details" : [ {
       "id" : "infoUpdaters",
       "table" : "EDBusInfoUpdaterLine"
@@ -4753,7 +4748,7 @@
     "table" : "EDBusPickupPlan",
     "module" : "education",
     "ar" : "خط سير سيارة مدرسية",
-    "en" : "PickupPlan",
+    "en" : "Pickup Plan",
     "details" : [ {
       "id" : "pickupPlans",
       "table" : "EDBusPickupPlanLine"
@@ -4856,7 +4851,7 @@
     "name" : "EDGuardian",
     "table" : "EDGuardian",
     "module" : "education",
-    "ar" : "ولى أمر",
+    "ar" : "ولي أمر",
     "en" : "Guardian",
     "details" : [ {
       "id" : "guardians",
@@ -4872,8 +4867,8 @@
     "name" : "EDLeaveReason",
     "table" : "EDLeaveReason",
     "module" : "education",
-    "ar" : " سبب الإنصراف",
-    "en" : "Education leave Reason"
+    "ar" : " سبب الانصراف",
+    "en" : "Education Leave Reason"
   }, {
     "name" : "EDLecturer",
     "table" : "EDLecturer",
@@ -4911,7 +4906,7 @@
     "table" : "EDMealType",
     "module" : "education",
     "ar" : "نوع وجبة مدرسية",
-    "en" : "ED Meal Type"
+    "en" : "Education Meal Type"
   }, {
     "name" : "EDMealsDetails",
     "table" : "EDMealsDetails",
@@ -4937,7 +4932,7 @@
     "table" : "EDSchoolTrip",
     "module" : "education",
     "ar" : "رحلة مدرسية",
-    "en" : "SchoolTrips",
+    "en" : "School Trip",
     "details" : [ {
       "id" : "emps",
       "table" : "EDSchoolTripsEmpLine"
@@ -5009,7 +5004,7 @@
     "name" : "EcommerceProductConfig",
     "table" : "EcommerceProductConfig",
     "module" : "magento",
-    "ar" : "إعدادات منتج بالمتجر الالكتروني",
+    "ar" : "إعدادات منتج بالمتجر الإلكتروني",
     "en" : "Ecommerce Product Configuration",
     "details" : [ {
       "id" : "categoryLines",
@@ -5033,7 +5028,7 @@
     "name" : "EcommerceShippingSite",
     "table" : "EcommerceShippingSite",
     "module" : "magento",
-    "ar" : "موقع شحن الكتروني",
+    "ar" : "موقع شحن إلكتروني",
     "en" : "Ecommerce Shipping Site",
     "details" : [ {
       "id" : "salasaWebhooks",
@@ -5072,8 +5067,8 @@
     "name" : "ElecAttendanceConfig",
     "table" : "ElecAttendanceConfig",
     "module" : "basic-mobile-ess",
-    "ar" : "إعدادات الحضور الالكتروني",
-    "en" : "ُElectronic Attendance Configuration",
+    "ar" : "إعدادات الحضور الإلكتروني",
+    "en" : "Electronic Attendance Configuration",
     "details" : [ {
       "id" : "attendanceConfigLines",
       "table" : "ElecAttendanceConfigLine"
@@ -5094,7 +5089,7 @@
     "name" : "ElectronicAttendanceZonesExclusion",
     "table" : "ElectronicAttendanceZonesExclusion",
     "module" : "basic-mobile-ess",
-    "ar" : "استثناء من مناطق الحضور و الانصراف",
+    "ar" : "استثناء من مناطق الحضور والانصراف",
     "en" : "Electronic Attendance Zones Exclusion",
     "details" : [ {
       "id" : "details",
@@ -5301,7 +5296,7 @@
     "name" : "EmployeeProvisionsOpening",
     "table" : "EmployeeProvisionsOpening",
     "module" : "humanresource-advanced",
-    "ar" : "سند إفتتاحي مخصصات موظف",
+    "ar" : "سند افتتاحي مخصصات موظف",
     "en" : "Employee Provisions Opening Document",
     "details" : [ {
       "id" : "details",
@@ -5339,7 +5334,7 @@
     "table" : "EmployementInformation",
     "module" : "humanresource-payroll",
     "ar" : "بيان توظيف",
-    "en" : "Employement Information",
+    "en" : "Employment Information",
     "details" : [ {
       "id" : "elementLines",
       "table" : "EmployementInfoComponentLine"
@@ -5425,7 +5420,7 @@
     "table" : "EntityTypeList",
     "module" : "basic",
     "ar" : "قائمة أنواع",
-    "en" : "EntityType List"
+    "en" : "Entity Type List"
   }, {
     "name" : "EntityTypeSysLine",
     "table" : "EntityTypeSysLine",
@@ -5582,14 +5577,14 @@
     "name" : "FAAdditionDeduction",
     "table" : "FAAdditionDeduction",
     "module" : "fixedassets",
-    "ar" : "سند الإضافة و الإستبعاد",
+    "ar" : "سند الإضافة و الاستبعاد",
     "en" : "Asset addition deduction"
   }, {
     "name" : "FACheckListItem",
     "table" : "FACheckListItem",
     "module" : "fixedassets-maintenance",
     "ar" : "نقاط اختبار صيانة",
-    "en" : "CheckList Items"
+    "en" : "CheckList Item"
   }, {
     "name" : "FAClassification1",
     "table" : "FAClassification1",
@@ -5733,7 +5728,7 @@
     "table" : "FAFixedAssetsTaking",
     "module" : "fixedassets",
     "ar" : "مستند جرد أصول",
-    "en" : "FixedAssets Taking Document",
+    "en" : "Fixed Assets Taking Document",
     "details" : [ {
       "id" : "actualLines",
       "table" : "FATakingActualLine"
@@ -5788,8 +5783,8 @@
     "name" : "FALCProformaInvoice",
     "table" : "FALCProformaInvoice",
     "module" : "fixedassets-lc",
-    "ar" : "فاتوره اعتماد مبدئية",
-    "en" : "Fixed Asset ProformaInvoice",
+    "ar" : "فاتورة اعتماد مبدئية",
+    "en" : "Fixed Asset Proforma Invoice",
     "details" : [ {
       "id" : "details",
       "table" : "FALcInvoiceLine"
@@ -5846,7 +5841,7 @@
     "name" : "FAMaintenancePlan",
     "table" : "FAMaintenancePlan",
     "module" : "fixedassets-maintenance",
-    "ar" : "خطه الصيانة",
+    "ar" : "خطة الصيانة",
     "en" : "Maintenance plan",
     "details" : [ {
       "id" : "details",
@@ -5907,7 +5902,7 @@
     "name" : "FAOpeningDocument",
     "table" : "FAOpeningDocument",
     "module" : "fixedassets",
-    "ar" : "أفتتاح أصل ثابت",
+    "ar" : "افتتاح أصل ثابت",
     "en" : "Fixed Asset Opening Document",
     "details" : [ {
       "id" : "details",
@@ -5923,7 +5918,7 @@
     "name" : "FAOpeningDocumentUpdate",
     "table" : "FAOpeningDocumentUpdate",
     "module" : "fixedassets",
-    "ar" : "تعديل أفتتاح أصل ثابت",
+    "ar" : "تعديل افتتاح أصل ثابت",
     "en" : "Fixed Asset Opening Document Update",
     "details" : [ {
       "id" : "details",
@@ -5943,7 +5938,7 @@
     "name" : "FAPreventAssetsDeprec",
     "table" : "FAPreventAssetsDeprec",
     "module" : "fixedassets",
-    "ar" : "مستند منع اهلاك اصول",
+    "ar" : "مستند منع إهلاك أصول",
     "en" : "Prevent Assets Depreciation Document",
     "details" : [ {
       "id" : "details",
@@ -6019,7 +6014,7 @@
     "table" : "FAPurchaseRequest",
     "module" : "fixedassets",
     "ar" : "طلب  شراء أصل",
-    "en" : "Fixed Asset Purchase  Request",
+    "en" : "Fixed Asset Purchase Request",
     "details" : [ {
       "id" : "details",
       "table" : "FAPurchOrderReqLine"
@@ -6028,7 +6023,7 @@
     "name" : "FAReceiptDoc",
     "table" : "FAReceiptDoc",
     "module" : "fixedassets-lc",
-    "ar" : "مستند أستلام أصل",
+    "ar" : "مستند استلام أصل",
     "en" : "Fixed Asset Receipt Document",
     "details" : [ {
       "id" : "details",
@@ -6109,7 +6104,7 @@
     "name" : "FPTransfer",
     "table" : "FPTransfer",
     "module" : "accounting-banks",
-    "ar" : "نقل ورقه مالية",
+    "ar" : "نقل ورقة مالية",
     "en" : "FP Transfer",
     "details" : [ {
       "id" : "lines",
@@ -6496,7 +6491,7 @@
     "name" : "FSIssueLinkConfig",
     "table" : "FSIssueLinkConfig",
     "module" : "accounting",
-    "ar" : "إعدادات رابط اصدار قائمة مالية",
+    "ar" : "إعدادات رابط إصدار قائمة مالية",
     "en" : "Issuing Financial Statement Link Configuration",
     "details" : [ {
       "id" : "sources",
@@ -6617,7 +6612,7 @@
     "name" : "FinancialBudget",
     "table" : "FinancialBudget",
     "module" : "accounting-budget",
-    "ar" : "موازنه مالية",
+    "ar" : "موازنة مالية",
     "en" : "Financial Budget",
     "details" : [ {
       "id" : "details",
@@ -6627,7 +6622,7 @@
     "name" : "FinancialCommitment",
     "table" : "FinancialCommitment",
     "module" : "accounting-financial-commitments-regulation",
-    "ar" : "إلتزام مالى",
+    "ar" : "التزام مالي",
     "en" : "Financial Commitment",
     "details" : [ {
       "id" : "installments",
@@ -6637,7 +6632,7 @@
     "name" : "FinancialCommitmentCategory",
     "table" : "FinancialCommitmentCategory",
     "module" : "accounting-financial-commitments-regulation",
-    "ar" : "فئة إلتزام مالى",
+    "ar" : "فئة التزام مالي",
     "en" : "Financial Commitment Category",
     "details" : [ {
       "id" : "relatedTo",
@@ -6647,7 +6642,7 @@
     "name" : "FinancialCommitmentPayDoc",
     "table" : "FinancialCommitmentPayDoc",
     "module" : "accounting-financial-commitments-regulation",
-    "ar" : "مستند دفع إلتزام مالى",
+    "ar" : "مستند دفع التزام مالي",
     "en" : "Financial Commitment Payment Document",
     "details" : [ {
       "id" : "paymentLines",
@@ -6657,7 +6652,7 @@
     "name" : "FinancialCommitmentReschedule",
     "table" : "FinancialCommitmentReschedule",
     "module" : "accounting-financial-commitments-regulation",
-    "ar" : "مستند إعادة جدولة إلتزام مالى",
+    "ar" : "مستند إعادة جدولة التزام مالي",
     "en" : "Financial Commitment Reschedule",
     "details" : [ {
       "id" : "details",
@@ -6714,7 +6709,7 @@
     "name" : "FinishedProductPricing",
     "table" : "FinishedProductPricing",
     "module" : "supplychain-purchases",
-    "ar" : "تسعير منتج نهائى",
+    "ar" : "تسعير منتج نهائي",
     "en" : "Finished Product Pricing",
     "details" : [ {
       "id" : "coProducts",
@@ -7969,7 +7964,7 @@
     "name" : "GenericReferenceOverrider",
     "table" : "GenericReferenceOverrider",
     "module" : "basic",
-    "ar" : "أعدادات الحقول و الشاشات",
+    "ar" : "إعدادات الحقول و الشاشات",
     "en" : "Fields and Entities Settings",
     "details" : [ {
       "id" : "addDiscussionTo",
@@ -8251,7 +8246,7 @@
     "table" : "HMSAccommodationTransfer",
     "module" : "hms",
     "ar" : "نقل تسكين مريض",
-    "en" : "AccommodationTransfer"
+    "en" : "Accommodation Transfer"
   }, {
     "name" : "HMSActualOverheadCalculation",
     "table" : "HMSActualOverheadCalculation",
@@ -8272,7 +8267,7 @@
     "name" : "HMSAntibiotic",
     "table" : "HMSAntibiotic",
     "module" : "hms",
-    "ar" : "مضاد حيوى",
+    "ar" : "مضاد حيوي",
     "en" : "Antibiotic"
   }, {
     "name" : "HMSAttendantInvoice",
@@ -8401,7 +8396,7 @@
     "name" : "HMSDiscount",
     "table" : "HMSDiscount",
     "module" : "hms",
-    "ar" : "خصم طبى",
+    "ar" : "خصم طبي",
     "en" : "Medical Discount",
     "details" : [ {
       "id" : "accomodationDiscountLines",
@@ -8456,7 +8451,7 @@
     "name" : "HMSDocumentCategory",
     "table" : "HMSDocumentCategory",
     "module" : "hms",
-    "ar" : "تصنيف طبى",
+    "ar" : "تصنيف طبي",
     "en" : "Medical Document Category"
   }, {
     "name" : "HMSFeedingIssue",
@@ -8502,19 +8497,19 @@
     "name" : "HMSInsuranceCompany",
     "table" : "HMSInsuranceCompany",
     "module" : "hms",
-    "ar" : "شركة تأمين طبى",
+    "ar" : "شركة تأمين طبي",
     "en" : "Medical Insurance Company"
   }, {
     "name" : "HMSInsuranceCompanyClass",
     "table" : "HMSInsuranceCompanyClass",
     "module" : "hms",
-    "ar" : "فئة شركة تأمين طبى",
+    "ar" : "فئة شركة تأمين طبي",
     "en" : "Medical Insurance Company Class"
   }, {
     "name" : "HMSLabTestCategory",
     "table" : "HMSLabTestCategory",
     "module" : "hms",
-    "ar" : "تصنيف تحليل طبى",
+    "ar" : "تصنيف تحليل طبي",
     "en" : "Laboratory Test Category"
   }, {
     "name" : "HMSLabTestInvoice",
@@ -8701,7 +8696,7 @@
     "name" : "HMSPatientAdmission",
     "table" : "HMSPatientAdmission",
     "module" : "hms",
-    "ar" : "إستمارة دخول مريض",
+    "ar" : "استمارة دخول مريض",
     "en" : "Patient Admission",
     "details" : [ {
       "id" : "labTestDetails",
@@ -8784,13 +8779,13 @@
     "name" : "HMSPhyTherapyCategory",
     "table" : "HMSPhyTherapyCategory",
     "module" : "hms",
-    "ar" : "تصنيف علاج طبيعى",
+    "ar" : "تصنيف علاج طبيعي",
     "en" : "Physical Therapy Category"
   }, {
     "name" : "HMSPhysicalTherapyInvoice",
     "table" : "HMSPhysicalTherapyInvoice",
     "module" : "hms",
-    "ar" : "فاتورة العلاج الطبيعى",
+    "ar" : "فاتورة العلاج الطبيعي",
     "en" : "Physical Therapy Invoice",
     "details" : [ {
       "id" : "details",
@@ -8809,7 +8804,7 @@
     "name" : "HMSPhysicalTherapyType",
     "table" : "HMSPhysicalTherapyType",
     "module" : "hms",
-    "ar" : "نوع العلاج الطبيعى",
+    "ar" : "نوع العلاج الطبيعي",
     "en" : "Physical Therapy Type",
     "details" : [ {
       "id" : "details",
@@ -8837,7 +8832,7 @@
     "name" : "HMSQuestionnaireTemplate",
     "table" : "HMSQuestionnaireTemplate",
     "module" : "hms",
-    "ar" : "قالب اسئلة حالة صحية",
+    "ar" : "قالب أسئلة حالة صحية",
     "en" : "Health Status Questionnaire Template",
     "details" : [ {
       "id" : "lines",
@@ -8965,7 +8960,7 @@
     "name" : "HMSSection",
     "table" : "HMSSection",
     "module" : "hms",
-    "ar" : "قسم طبى",
+    "ar" : "قسم طبي",
     "en" : "Hospital Section"
   }, {
     "name" : "HMSServiceSupplyInvoice",
@@ -9130,7 +9125,7 @@
     "name" : "HMSTestTubeColor",
     "table" : "HMSTestTubeColor",
     "module" : "hms",
-    "ar" : "لون أنبوبة الإختبار",
+    "ar" : "لون أنبوبة الاختبار",
     "en" : "Test Tube Color"
   }, {
     "name" : "HOBathroom",
@@ -9148,14 +9143,14 @@
     "name" : "HOBuilding",
     "table" : "HOBuilding",
     "module" : "housing",
-    "ar" : "مبني إسكان",
+    "ar" : "مبنى إسكان",
     "en" : "HO Building"
   }, {
     "name" : "HOBuildingType",
     "table" : "HOBuildingType",
     "module" : "housing",
-    "ar" : "نوع مبني",
-    "en" : "BuildingType"
+    "ar" : "نوع مبنى",
+    "en" : "Building Type"
   }, {
     "name" : "HOCarDeliveryDoc",
     "table" : "HOCarDeliveryDoc",
@@ -9190,7 +9185,7 @@
     "name" : "HOEmpSocialInsuranceAdd",
     "table" : "HOEmpSocialInsuranceAdd",
     "module" : "humanresource-gulf-social-insurance",
-    "ar" : "سند إضافة موظفين للتأمينات الإجتماعية",
+    "ar" : "سند إضافة موظفين للتأمينات الاجتماعية",
     "en" : "Employee Social Insurance Add",
     "details" : [ {
       "id" : "details",
@@ -9200,7 +9195,7 @@
     "name" : "HOEmpSocialInsuranceRemove",
     "table" : "HOEmpSocialInsuranceRemove",
     "module" : "humanresource-gulf-social-insurance",
-    "ar" : "سند حذف موظفين من التأمينات الإجتماعية",
+    "ar" : "سند حذف موظفين من التأمينات الاجتماعية",
     "en" : "Employee Social Insurance Remove",
     "details" : [ {
       "id" : "details",
@@ -9226,13 +9221,13 @@
     "name" : "HOExtendingVisaReq",
     "table" : "HOExtendingVisaReq",
     "module" : "humanresource-gulf-visa",
-    "ar" : "طلب تمديد تاشيرة الخروج والعودة",
+    "ar" : "طلب تمديد تأشيرة الخروج والعودة",
     "en" : "Extending Visa Request"
   }, {
     "name" : "HOFamilyVisitVisaRequest",
     "table" : "HOFamilyVisitVisaRequest",
     "module" : "humanresource-gulf-visa",
-    "ar" : "طلب زيارة عائليه",
+    "ar" : "طلب زيارة عائلية",
     "en" : "Family Visit Visa Request",
     "details" : [ {
       "id" : "details",
@@ -9242,13 +9237,13 @@
     "name" : "HOFinalExitVisaReq",
     "table" : "HOFinalExitVisaReq",
     "module" : "humanresource-gulf-visa",
-    "ar" : "طلب تاشيرة خروج نهائي",
+    "ar" : "طلب تأشيرة خروج نهائي",
     "en" : "Final Exit Visa Request"
   }, {
     "name" : "HOFlat",
     "table" : "HOFlat",
     "module" : "housing",
-    "ar" : "وحدةإسكان",
+    "ar" : "وحدة إسكان",
     "en" : "unit"
   }, {
     "name" : "HOFloor",
@@ -9329,7 +9324,7 @@
     "table" : "HOMaintenanceItem",
     "module" : "housing",
     "ar" : "صنف صيانة",
-    "en" : "HO Maintenance Item"
+    "en" : "Maintenance Item"
   }, {
     "name" : "HOModifyMaintenanceBudget",
     "table" : "HOModifyMaintenanceBudget",
@@ -9488,7 +9483,7 @@
     "table" : "HREmpAdventRegisteration",
     "module" : "humanresource-gulf-visa",
     "ar" : "تسجيل قدوم موظف",
-    "en" : "Employee Advent Registeration",
+    "en" : "Employee Advent Registration",
     "details" : [ {
       "id" : "details",
       "table" : "HREmpAdventRegistLine"
@@ -9533,7 +9528,7 @@
     "table" : "HRIssuedVisas",
     "module" : "humanresource-gulf-visa",
     "ar" : "تأشيرات صادرة",
-    "en" : "HR Issued Visas",
+    "en" : "Issued Visas",
     "details" : [ {
       "id" : "details",
       "table" : "HRIssuedVisasLine"
@@ -9558,7 +9553,7 @@
     "name" : "HRLoanInstallReschedule",
     "table" : "HRLoanInstallReschedule",
     "module" : "humanresource-payroll",
-    "ar" : "سند إعاده جدوله اقساط سلفه",
+    "ar" : "سند إعادة جدولة أقساط سلفة",
     "en" : "Loan Installment Reschedule",
     "details" : [ {
       "id" : "toScheduleLines",
@@ -9590,7 +9585,7 @@
     "name" : "HRLoanReliefDocument",
     "table" : "HRLoanReliefDocument",
     "module" : "humanresource-payroll",
-    "ar" : "سند أعفاء سلفة",
+    "ar" : "سند إعفاء سلفة",
     "en" : "Loan Relief Document",
     "details" : [ {
       "id" : "installmentsLines",
@@ -9641,7 +9636,7 @@
     "name" : "HRTest",
     "table" : "HRTest",
     "module" : "humanresource-hiring",
-    "ar" : "إختبار",
+    "ar" : "اختبار",
     "en" : "HR Test",
     "details" : [ {
       "id" : "relatedSkills",
@@ -9651,7 +9646,7 @@
     "name" : "HRTestResult",
     "table" : "HRTestResult",
     "module" : "humanresource-hiring",
-    "ar" : "نتائج الإختبار",
+    "ar" : "نتائج الاختبار",
     "en" : "Test Result",
     "details" : [ {
       "id" : "details",
@@ -9690,7 +9685,7 @@
     "name" : "HRVisasDelegation",
     "table" : "HRVisasDelegation",
     "module" : "humanresource-gulf-visa",
-    "ar" : "تفويض تاشيرة",
+    "ar" : "تفويض تأشيرة",
     "en" : "Visas Delegation",
     "details" : [ {
       "id" : "details",
@@ -9795,7 +9790,7 @@
     "name" : "HolidaysRestBalanceDoc",
     "table" : "HolidaysRestBalanceDoc",
     "module" : "humanresource-payroll",
-    "ar" : "بدل أرصده راحات أسبوعية و عطلات رسمية",
+    "ar" : "بدل أرصدة راحات أسبوعية و عطلات رسمية",
     "en" : "Holidays And Rest Days Balance Compensation Document",
     "details" : [ {
       "id" : "details",
@@ -9817,7 +9812,7 @@
     "name" : "IPInvestmentBudget",
     "table" : "IPInvestmentBudget",
     "module" : "accounting-investment",
-    "ar" : "موازنه مشاريع استثمارية",
+    "ar" : "موازنة مشاريع استثمارية",
     "en" : "Investment Budget",
     "details" : [ {
       "id" : "details",
@@ -10008,7 +10003,7 @@
     "table" : "IPSMailItemManifest",
     "module" : "frm-ips",
     "ar" : "مستند تجميع مواد",
-    "en" : "IPS MailItem Manifest",
+    "en" : "IPS Mail Item Manifest",
     "details" : [ {
       "id" : "details",
       "table" : "IPSMailItemManifestLine"
@@ -10110,7 +10105,7 @@
     "name" : "IPSTransferReceptacles",
     "table" : "IPSTransferReceptacles",
     "module" : "frm-ips",
-    "ar" : "مستند إرسال الاكياس جدول الطريق",
+    "ar" : "مستند إرسال الأكياس جدول الطريق",
     "en" : "IPS Transfer Receptacles",
     "details" : [ {
       "id" : "details",
@@ -10197,7 +10192,7 @@
     "table" : "ISOQuestionairTemplate",
     "module" : "iso",
     "ar" : "ISO Questionair Template",
-    "en" : "ISO Questionair Template",
+    "en" : "ISO Questionnaire Template",
     "details" : [ {
       "id" : "details",
       "table" : "ISOQuestionairTemplateLine"
@@ -10223,7 +10218,7 @@
     "table" : "ISOReceivingRawMaterial",
     "module" : "iso",
     "ar" : "ISO Receving Raw Material",
-    "en" : "ISO Receving Raw Material"
+    "en" : "ISO Receiving Raw Material"
   }, {
     "name" : "ISOSampleRecordListing",
     "table" : "ISOSampleRecordListing",
@@ -10253,7 +10248,7 @@
     "name" : "InitialReceipt",
     "table" : "InitialReceipt",
     "module" : "supplychain-inventory",
-    "ar" : "إستلام مبدئي",
+    "ar" : "استلام مبدئي",
     "en" : "Initial Receipt",
     "details" : [ {
       "id" : "details",
@@ -10330,7 +10325,7 @@
     "name" : "InterCompanyTransfer",
     "table" : "InterCompanyTransfer",
     "module" : "accounting",
-    "ar" : "جارى تحويل شركات",
+    "ar" : "جاري تحويل شركات",
     "en" : "Inter Company Transfer",
     "details" : [ {
       "id" : "generatedJournalsLines",
@@ -10812,7 +10807,7 @@
     "name" : "ItemRevisionFile",
     "table" : "ItemRevisionFile",
     "module" : "supplychain",
-    "ar" : "اصدار صنف",
+    "ar" : "إصدار صنف",
     "en" : "Item Revision File",
     "feature" : "scRevisions",
     "details" : [ {
@@ -10995,7 +10990,7 @@
     "name" : "JOOutSourcManufacturReceipt",
     "table" : "JOOutSourcManufacturReceipt",
     "module" : "joborder",
-    "ar" : "مستند إستلام تصنيع خارجي زجاج جديد",
+    "ar" : "مستند استلام تصنيع خارجي زجاج جديد",
     "en" : "New Glass Outsource Manufacture Receipt",
     "details" : [ {
       "id" : "details",
@@ -11274,13 +11269,13 @@
     "name" : "LCOpeningDoc",
     "table" : "LCOpeningDoc",
     "module" : "supplychain-lc",
-    "ar" : "فتح إعتماد",
+    "ar" : "فتح اعتماد",
     "en" : "Letter Of Credit Opening"
   }, {
     "name" : "LCOpeningRequest",
     "table" : "LCOpeningRequest",
     "module" : "supplychain-lc",
-    "ar" : "طلب فتح إعتماد",
+    "ar" : "طلب فتح اعتماد",
     "en" : "LC Opening Request"
   }, {
     "name" : "LCProformaInvoice",
@@ -11316,7 +11311,7 @@
       "table" : "LCShipmentInvoiceLine"
     }, {
       "id" : "scheduleLines",
-      "table" : "LCScheduledPayLine"
+      "table" : "LCShipmentScheduledPayLine"
     } ]
   }, {
     "name" : "LGTChanging",
@@ -11397,7 +11392,7 @@
     "table" : "LawCirculars",
     "module" : "auditing",
     "ar" : "تعميم قانون",
-    "en" : "Law Circulation"
+    "en" : "Law Circular"
   }, {
     "name" : "LcExpenseDocument",
     "table" : "LcExpenseDocument",
@@ -11424,7 +11419,7 @@
     "name" : "LeavePermission",
     "table" : "LeavePermission",
     "module" : "humanresource-payroll",
-    "ar" : "إذن إنصراف",
+    "ar" : "إذن انصراف",
     "en" : "Leave Permission"
   }, {
     "name" : "LeavePermissionConfiguration",
@@ -11528,7 +11523,7 @@
     "name" : "LetterOfCredit",
     "table" : "LetterOfCredit",
     "module" : "supplychain-lc",
-    "ar" : "الإعتماد المستندي",
+    "ar" : "الاعتماد المستندي",
     "en" : "Letter Of Credit",
     "details" : [ {
       "id" : "shipments",
@@ -11538,7 +11533,7 @@
     "name" : "LetterOfCreditRequest",
     "table" : "LetterOfCreditRequest",
     "module" : "supplychain-lc",
-    "ar" : "طلب إعتماد مستندي",
+    "ar" : "طلب اعتماد مستندي",
     "en" : "Letter Of Credit Request"
   }, {
     "name" : "LetterOfGuarantee",
@@ -11705,7 +11700,7 @@
     "name" : "MCAdditionDeduction",
     "table" : "MCAdditionDeduction",
     "module" : "mc",
-    "ar" : "بند الاضافات والاستقطاعات",
+    "ar" : "بند الإضافات والاستقطاعات",
     "en" : "MC Addition Deduction"
   }, {
     "name" : "MCConfigLine",
@@ -11908,7 +11903,7 @@
     "name" : "MCServiceDistribution",
     "table" : "MCServiceDistribution",
     "module" : "mc",
-    "ar" : "توزيع الخدمات على بنود المناقصه",
+    "ar" : "توزيع الخدمات على بنود المناقصة",
     "en" : "MC Services Distribution On Tender Terms",
     "details" : [ {
       "id" : "consumedLines",
@@ -12055,7 +12050,7 @@
     "name" : "MRPAvailableQtySource",
     "table" : "MRPAvailableQtySource",
     "module" : "manufacturing-mrp",
-    "ar" : "مصدر الكميات المتاحه",
+    "ar" : "مصدر الكميات المتاحة",
     "en" : "MRP Available Quantity Source",
     "details" : [ {
       "id" : "details",
@@ -12125,7 +12120,7 @@
       "table" : "MiscRentExternalPaymentLine"
     }, {
       "id" : "paymentLines",
-      "table" : "MiscPurchaseInvPaymentLine"
+      "table" : "MachineRentInvPaymentLine"
     }, {
       "id" : "scheduleLines",
       "table" : "MiscRentScheduledPayLine"
@@ -12159,7 +12154,7 @@
     "name" : "MagentoSiteGroup",
     "table" : "MagentoSiteGroup",
     "module" : "magento",
-    "ar" : "Magento Site Group",
+    "ar" : "مجموعة مواقع Magento",
     "en" : "Magento Site Group",
     "details" : [ {
       "id" : "lines",
@@ -12249,7 +12244,7 @@
     "table" : "MealDeliveryPlan",
     "module" : "humanresource-advanced",
     "ar" : "خطة توصيل الوجبة",
-    "en" : "MealDelivery Plan",
+    "en" : "Meal Delivery Plan",
     "details" : [ {
       "id" : "details",
       "table" : "MealDeliveryLine"
@@ -12685,7 +12680,7 @@
     "name" : "MnMachine",
     "table" : "MnMachine",
     "module" : "crm-maintenance",
-    "ar" : "الة",
+    "ar" : "آلة",
     "en" : "Machine",
     "details" : [ {
       "id" : "dependentMachines",
@@ -12726,7 +12721,7 @@
     "name" : "MnMachineUpdate",
     "table" : "MnMachineUpdate",
     "module" : "crm-maintenance",
-    "ar" : "تحديث بيانات الألة",
+    "ar" : "تحديث بيانات الآلة",
     "en" : "Machine Update Document"
   }, {
     "name" : "MnMaintenanceGroup",
@@ -13374,7 +13369,7 @@
     "name" : "MobileEntityTitleModifier",
     "table" : "MobileEntityTitleModifier",
     "module" : "basic",
-    "ar" : "طريقة عرض بيانات المستند فى التطبيق",
+    "ar" : "طريقة عرض بيانات المستند في التطبيق",
     "en" : "Mobile Entity Title Modifier",
     "details" : [ {
       "id" : "details",
@@ -13384,7 +13379,7 @@
     "name" : "MobileQRIntegrator",
     "table" : "MobileQRIntegrator",
     "module" : "basic",
-    "ar" : "Mobile QR Integrator",
+    "ar" : "ربط QR بتطبيق الموبايل",
     "en" : "Mobile QR Integrator"
   }, {
     "name" : "MobileSecurityConfig",
@@ -13435,7 +13430,7 @@
     "table" : "MultiAssemblyDoc",
     "module" : "supplychain-assembly",
     "ar" : "سند تجميع متعدد",
-    "en" : "Multi Assembly Docuemnt",
+    "en" : "Multi Assembly Document",
     "details" : [ {
       "id" : "details",
       "table" : "MultiAssemblyLine"
@@ -13453,7 +13448,7 @@
     "name" : "MultiEmpVacation",
     "table" : "MultiEmpVacation",
     "module" : "humanresource-payroll",
-    "ar" : "سند أجازة مجمع لأكثر من موظف",
+    "ar" : "سند إجازة مجمع لأكثر من موظف",
     "en" : "Multi Employee Vacation",
     "details" : [ {
       "id" : "lines",
@@ -13559,7 +13554,7 @@
     "name" : "NamaPOSDBUpdateStatement",
     "table" : "NamaPOSDBUpdateStatement",
     "module" : "namapos",
-    "ar" : "POS DB Update Statement Runner",
+    "ar" : "منفذ جمل تحديث قاعدة بيانات نقاط البيع",
     "en" : "POS DB Update Statement Runner",
     "details" : [ {
       "id" : "registers",
@@ -13629,7 +13624,7 @@
     "name" : "NamaPOSInternalMessage",
     "table" : "NamaPOSInternalMessage",
     "module" : "namapos",
-    "ar" : "رسالة نقاط بيع داخليه",
+    "ar" : "رسالة نقاط بيع داخلية",
     "en" : "POS Internal Message"
   }, {
     "name" : "NamaPOSInvSavingSettings",
@@ -13818,7 +13813,7 @@
     "name" : "NamaPOSSalesReplacement",
     "table" : "NamaPOSSalesReplacement",
     "module" : "namapos",
-    "ar" : "إستبدال مبيعات نقاط البيع",
+    "ar" : "استبدال مبيعات نقاط البيع",
     "en" : "POS Sales Replacement",
     "details" : [ {
       "id" : "details",
@@ -13894,7 +13889,7 @@
     "table" : "NamaPOSStockTakingDetails",
     "module" : "namapos",
     "ar" : "لجنة جرد نقط بيع",
-    "en" : "Point of Sale StockTaking Details Document",
+    "en" : "Point of Sale Stock Taking Details Document",
     "details" : [ {
       "id" : "details",
       "table" : "NamaPOSStockTakingLine"
@@ -13919,7 +13914,7 @@
     "name" : "NamaPosDefaultsTemplate",
     "table" : "NamaPosDefaultsTemplate",
     "module" : "namapos",
-    "ar" : "قالب قيم افتراضيه لنقاط البيع",
+    "ar" : "قالب قيم افتراضية لنقاط البيع",
     "en" : "Pos Defaults Template",
     "details" : [ {
       "id" : "details",
@@ -13988,7 +13983,7 @@
     "name" : "NamaPosRequiredFields",
     "table" : "NamaPosRequiredFields",
     "module" : "namapos",
-    "ar" : "الحقول المطلوبه لنقاط البيع",
+    "ar" : "الحقول المطلوبة لنقاط البيع",
     "en" : "Pos Required Fields",
     "details" : [ {
       "id" : "details",
@@ -13998,7 +13993,7 @@
     "name" : "NamaPosUISettings",
     "table" : "NamaPosUISettings",
     "module" : "namapos",
-    "ar" : " إعدادات واجهة نقاط البيع الجديده",
+    "ar" : " إعدادات واجهة نقاط البيع الجديدة",
     "en" : " Pos UI Settings",
     "details" : [ {
       "id" : "cancelReservationGridFields",
@@ -14188,7 +14183,7 @@
     "name" : "OmnifulConfig",
     "table" : "OmnifulConfig",
     "module" : "magento",
-    "ar" : "Omniful Configuration",
+    "ar" : "إعدادات Omniful",
     "en" : "Omniful Configuration",
     "details" : [ {
       "id" : "acceptedOrderStatusLines",
@@ -14235,7 +14230,7 @@
     "name" : "OpeningVacationBalanceDoc",
     "table" : "OpeningVacationBalanceDoc",
     "module" : "humanresource-payroll",
-    "ar" : "سند إدخال رصيد أجازة إفتتاحية",
+    "ar" : "سند إدخال رصيد إجازة افتتاحية",
     "en" : "Opening Vacation Balance Document",
     "details" : [ {
       "id" : "details",
@@ -14245,8 +14240,8 @@
     "name" : "OpenningFinancialPaper",
     "table" : "OpenningFinancialPaper",
     "module" : "accounting-banks",
-    "ar" : "إفتتاح ورقة تجارية",
-    "en" : "Openning Commercial Paper",
+    "ar" : "افتتاح ورقة تجارية",
+    "en" : "Opening Commercial Paper",
     "details" : [ {
       "id" : "lines",
       "table" : "OpenningFinancialPaperLine"
@@ -14511,7 +14506,7 @@
     "name" : "POS.POSDBUpdateStatement",
     "table" : "POSDBUpdateStatement",
     "module" : "pos-app",
-    "ar" : "POS DB Update Statement Runner",
+    "ar" : "منفذ جمل تحديث قاعدة بيانات نقاط البيع",
     "en" : "POS DB Update Statement Runner"
   }, {
     "name" : "POS.POSDepartment",
@@ -14604,7 +14599,7 @@
     "name" : "POS.POSGenericReferenceOverrider",
     "table" : "POSGenericReferenceOverrider",
     "module" : "pos-app",
-    "ar" : "أعدادات الحقول و الشاشات",
+    "ar" : "إعدادات الحقول و الشاشات",
     "en" : "Fields and Entities Settings",
     "details" : [ {
       "id" : "extraCodes",
@@ -14623,7 +14618,7 @@
     "name" : "POS.POSInternalMessage",
     "table" : "POSInternalMessage",
     "module" : "pos-app",
-    "ar" : "رسالة نقاط بيع داخليه",
+    "ar" : "رسالة نقاط بيع داخلية",
     "en" : "POS Internal Message"
   }, {
     "name" : "POS.POSInventory",
@@ -15074,7 +15069,7 @@
     "name" : "POS.POSSalesReplacement",
     "table" : "POSSalesReplacement",
     "module" : "pos-app",
-    "ar" : "إستبدال مبيعات نقاط البيع",
+    "ar" : "استبدال مبيعات نقاط البيع",
     "en" : "POS Sales Replacement",
     "details" : [ {
       "id" : "details",
@@ -15157,7 +15152,7 @@
     "name" : "POS.POSShift",
     "table" : "POSShift",
     "module" : "pos-app",
-    "ar" : "فتح ورديه",
+    "ar" : "فتح وردية",
     "en" : "POS Shift Opening",
     "details" : [ {
       "id" : "details",
@@ -15180,7 +15175,7 @@
     "name" : "POS.POSShiftOpen",
     "table" : "POSShiftOpen",
     "module" : "pos-app",
-    "ar" : "فتح ورديه",
+    "ar" : "فتح وردية",
     "en" : "POS Shift Opening",
     "details" : [ {
       "id" : "details",
@@ -15217,7 +15212,7 @@
     "table" : "POSStockTakingDetailsDoc",
     "module" : "pos-app",
     "ar" : "لجنة جرد نقط بيع",
-    "en" : "Point of Sale StockTaking Details Document",
+    "en" : "Point of Sale Stock Taking Details Document",
     "details" : [ {
       "id" : "details",
       "table" : "POSStockTakingDetailsDocLine"
@@ -15253,7 +15248,7 @@
     "table" : "POSTranslationOverrider",
     "module" : "pos-app",
     "ar" : "تغيير ترجمة",
-    "en" : "Translation OverRider",
+    "en" : "Translation Overrider",
     "details" : [ {
       "id" : "replacments",
       "table" : "POSReplacementLine"
@@ -15299,7 +15294,7 @@
     "name" : "POS.PosAddressRegion",
     "table" : "PosAddressRegion",
     "module" : "pos-app",
-    "ar" : "منطقه",
+    "ar" : "منطقة",
     "en" : "Address Region"
   }, {
     "name" : "POS.PosCancelReservation",
@@ -15321,7 +15316,7 @@
     "name" : "POS.PosDefaultsTemplate",
     "table" : "PosDefaultsTemplate",
     "module" : "pos-app",
-    "ar" : "قالب قيم افتراضيه لنقاط البيع",
+    "ar" : "قالب قيم افتراضية لنقاط البيع",
     "en" : "Pos Defaults Template",
     "details" : [ {
       "id" : "details",
@@ -15437,7 +15432,7 @@
     "name" : "POS.PosRequiredFields",
     "table" : "PosRequiredFields",
     "module" : "pos-app",
-    "ar" : "الحقول المطلوبه لنقاط البيع",
+    "ar" : "الحقول المطلوبة لنقاط البيع",
     "en" : "Pos Required Fields",
     "details" : [ {
       "id" : "details",
@@ -15469,7 +15464,7 @@
     "name" : "POS.PosUISettings",
     "table" : "PosUISettings",
     "module" : "pos-app",
-    "ar" : " إعدادات واجهة نقاط البيع الجديده",
+    "ar" : " إعدادات واجهة نقاط البيع الجديدة",
     "en" : " Pos UI Settings",
     "details" : [ {
       "id" : "cancelReservationGridFields",
@@ -15829,7 +15824,7 @@
     "name" : "POSShiftOpening",
     "table" : "POSShiftOpening",
     "module" : "namapos",
-    "ar" : "فتح ورديه",
+    "ar" : "فتح وردية",
     "en" : "POS Shift Opening",
     "details" : [ {
       "id" : "details",
@@ -16385,7 +16380,7 @@
     "name" : "PreventAccTransactions",
     "table" : "PreventAccTransactions",
     "module" : "accounting",
-    "ar" : "منع الحركات على حسابات او ذممم",
+    "ar" : "منع الحركات على حسابات أو ذمم",
     "en" : "Prevent Transactions On Accounts Or Subsidiaries",
     "details" : [ {
       "id" : "details",
@@ -16400,7 +16395,7 @@
     "name" : "PreventUsingBatch",
     "table" : "PreventUsingBatch",
     "module" : "supplychain-inventory",
-    "ar" : "منع إستخدام الشحنة",
+    "ar" : "منع استخدام الشحنة",
     "en" : "Prevent Using Batch",
     "feature" : "scLot",
     "details" : [ {
@@ -16600,7 +16595,7 @@
     "name" : "ProductReturn",
     "table" : "ProductReturn",
     "module" : "manufacturing",
-    "ar" : "إرتجاع منتج",
+    "ar" : "ارتجاع منتج",
     "en" : "Product Return",
     "details" : [ {
       "id" : "details",
@@ -17118,7 +17113,7 @@
     "name" : "QualityAssuranceDoc",
     "table" : "QualityAssuranceDoc",
     "module" : "supplychain-qc-qa",
-    "ar" : "سند تاكيد الجودة",
+    "ar" : "سند تأكيد الجودة",
     "en" : "Quality Assurance document",
     "details" : [ {
       "id" : "details",
@@ -17214,7 +17209,7 @@
     "name" : "RARentalInvoice",
     "table" : "RARentalInvoice",
     "module" : "srvcenter-rental-assets",
-    "ar" : "فاتورة حجز تأجيرى",
+    "ar" : "فاتورة حجز تأجيري",
     "en" : "Rental Asset Invoice",
     "details" : [ {
       "id" : "details",
@@ -17236,7 +17231,7 @@
     "name" : "RARentalRequest",
     "table" : "RARentalRequest",
     "module" : "srvcenter-rental-assets",
-    "ar" : "طلب حجز تأجيرى",
+    "ar" : "طلب حجز تأجيري",
     "en" : "Rental Asset Request",
     "details" : [ {
       "id" : "details",
@@ -17302,7 +17297,7 @@
     "name" : "RECancelContract",
     "table" : "RECancelContract",
     "module" : "realestate-rent",
-    "ar" : "انهاء عقد ايجار",
+    "ar" : "إنهاء عقد إيجار",
     "en" : "Cancel Contract",
     "details" : [ {
       "id" : "expenses",
@@ -17427,7 +17422,7 @@
     "table" : "REFineDoc",
     "module" : "realestate",
     "ar" : "سند غرامة",
-    "en" : "Real state fine Doc",
+    "en" : "Real estate fine Doc",
     "details" : [ {
       "id" : "details",
       "table" : "FineInstallmentLine"
@@ -17581,7 +17576,7 @@
     "name" : "REOpeningRentContract",
     "table" : "REOpeningRentContract",
     "module" : "realestate-rent",
-    "ar" : "عقد ايجار افتتاحي",
+    "ar" : "عقد إيجار افتتاحي",
     "en" : "Opening rent contract",
     "details" : [ {
       "id" : "details",
@@ -17655,7 +17650,7 @@
     "table" : "REOwnerShipTransfer",
     "module" : "realestate",
     "ar" : "سند تحويل ملكية",
-    "en" : "OwnerShip Transfer Document"
+    "en" : "Ownership Transfer Document"
   }, {
     "name" : "REProject",
     "table" : "REProject",
@@ -17731,7 +17726,7 @@
     "name" : "RERentOffer",
     "table" : "RERentOffer",
     "module" : "realestate-rent",
-    "ar" : "عرض سعر ايجار",
+    "ar" : "عرض سعر إيجار",
     "en" : "Rent offer",
     "details" : [ {
       "id" : "details",
@@ -17936,7 +17931,7 @@
     "name" : "REStandardTermsConditions",
     "table" : "REStandardTermsConditions",
     "module" : "realestate",
-    "ar" : "بنود تعاقد قياسيه",
+    "ar" : "بنود تعاقد قياسية",
     "en" : "RE Standard Terms And Conditions",
     "details" : [ {
       "id" : "lines",
@@ -18011,7 +18006,7 @@
     "name" : "RackQuantities",
     "table" : "RackQuantities",
     "module" : "supplychain-inventory",
-    "ar" : "كميات بالارفف",
+    "ar" : "كميات بالأرفف",
     "en" : "Rack Quantities",
     "details" : [ {
       "id" : "details",
@@ -18051,7 +18046,7 @@
     "name" : "RawMaterialReturn",
     "table" : "RawMaterialReturn",
     "module" : "manufacturing",
-    "ar" : "إرتجاع مواد خام",
+    "ar" : "ارتجاع مواد خام",
     "en" : "Raw Materials Return",
     "details" : [ {
       "id" : "details",
@@ -18076,7 +18071,7 @@
     "name" : "RecallCampaign",
     "table" : "RecallCampaign",
     "module" : "srvcenter",
-    "ar" : "حملة إستدعاء",
+    "ar" : "حملة استدعاء",
     "en" : "Recall Campaign",
     "details" : [ {
       "id" : "details",
@@ -18092,7 +18087,7 @@
     "name" : "ReceiptAdditionalCost",
     "table" : "ReceiptAdditionalCost",
     "module" : "supplychain-inventory",
-    "ar" : "تكاليف إستلام إضافية",
+    "ar" : "تكاليف استلام إضافية",
     "en" : "Receipt Additional Cost",
     "details" : [ {
       "id" : "externalPaymentLines",
@@ -18250,7 +18245,7 @@
     "table" : "RecuringDocument",
     "module" : "basic",
     "ar" : "ملف مستندات دورية",
-    "en" : "Recuring Document",
+    "en" : "Recurring Document",
     "details" : [ {
       "id" : "details",
       "table" : "RecuringDocumentLine"
@@ -18282,7 +18277,7 @@
     "table" : "RegulationCirculars",
     "module" : "auditing",
     "ar" : "تعميم لائحة",
-    "en" : "Regulation Circulation"
+    "en" : "Regulation Circular"
   }, {
     "name" : "RegulationLaw",
     "table" : "RegulationLaw",
@@ -18366,7 +18361,7 @@
     "name" : "RentalAsset",
     "table" : "RentalAsset",
     "module" : "srvcenter-rental-assets",
-    "ar" : "أصل تأجيرى",
+    "ar" : "أصل تأجيري",
     "en" : "Rental Asset",
     "details" : [ {
       "id" : "details",
@@ -18694,7 +18689,7 @@
     "name" : "RevisionDoc",
     "table" : "RevisionDoc",
     "module" : "basic",
-    "ar" : "مستند مراجعه",
+    "ar" : "مستند مراجعة",
     "en" : "Revision Document",
     "details" : [ {
       "id" : "details",
@@ -18705,7 +18700,7 @@
     "table" : "RewardAndPenaltieDocument",
     "module" : "humanresource-payroll",
     "ar" : "سند مكافأة/جزاء",
-    "en" : "(Reward / Penalty ) Document"
+    "en" : "(Reward / Penalty) Document"
   }, {
     "name" : "RewardAndPenalty",
     "table" : "RewardAndPenalty",
@@ -18759,7 +18754,7 @@
     "name" : "RewardPointsOpening",
     "table" : "RewardPointsOpening",
     "module" : "basic-external-reward-points",
-    "ar" : "سند إفتتاحي نقاط ولاء",
+    "ar" : "سند افتتاحي نقاط ولاء",
     "en" : "Reward Points Opening",
     "details" : [ {
       "id" : "details",
@@ -19083,7 +19078,7 @@
     "name" : "SIInsurancePurchaseInvoice",
     "table" : "SIInsurancePurchaseInvoice",
     "module" : "srvcenter-insurance-and-installments",
-    "ar" : "فاتورة شراء وثيقة تامين سيارة",
+    "ar" : "فاتورة شراء وثيقة تأمين سيارة",
     "en" : "Car Insurance Policy Purchase Invoice",
     "details" : [ {
       "id" : "details",
@@ -19099,7 +19094,7 @@
     "name" : "SIInsurancePurchaseReturn",
     "table" : "SIInsurancePurchaseReturn",
     "module" : "srvcenter-insurance-and-installments",
-    "ar" : "مرتجع شراء وثيقة تامين سيارة",
+    "ar" : "مرتجع شراء وثيقة تأمين سيارة",
     "en" : "Car Insurance Policy Purchase Return",
     "details" : [ {
       "id" : "details",
@@ -19125,7 +19120,7 @@
       "table" : "SIProformaPurchaseInvExternalPay"
     }, {
       "id" : "paymentLines",
-      "table" : "SIPurchaseOrderPaymentLine"
+      "table" : "SIProformaPurchaseInvPayLine"
     }, {
       "id" : "scheduleLines",
       "table" : "SIProformaPurchaseInvPaySchedule"
@@ -19308,7 +19303,7 @@
     "table" : "SISalesOrderCancel",
     "module" : "srvcenter-subitems",
     "ar" : "إلغاء أمر بيع سيارة",
-    "en" : "Car Sales OrderCancel",
+    "en" : "Car Sales Order Cancel",
     "details" : [ {
       "id" : "details",
       "table" : "SISalesOrderCancelLine"
@@ -19537,7 +19532,7 @@
     "name" : "SalaryGenerationRange",
     "table" : "SalaryGenerationRange",
     "module" : "humanresource-payroll",
-    "ar" : "مجال اصدار الرواتب",
+    "ar" : "مجال إصدار الرواتب",
     "en" : "Salary Generation Range",
     "details" : [ {
       "id" : "limitToEmployees",
@@ -19578,7 +19573,7 @@
     "table" : "SalaryUnBlockDocument",
     "module" : "humanresource-payroll",
     "ar" : "إلغاء حجب راتب",
-    "en" : "Salary UnBlock"
+    "en" : "Salary Unblock"
   }, {
     "name" : "SalasaRequestLog",
     "table" : "SalasaRequestLog",
@@ -19946,7 +19941,7 @@
     "name" : "ScrapReceipt",
     "table" : "ScrapReceipt",
     "module" : "manufacturing",
-    "ar" : "إستلام تالف",
+    "ar" : "استلام تالف",
     "en" : "Scrap Receipt",
     "details" : [ {
       "id" : "details",
@@ -20083,7 +20078,7 @@
     "name" : "SecurityProfileTransfer",
     "table" : "SecurityProfileTransfer",
     "module" : "basic",
-    "ar" : "صلاحيات إضافية مؤقته",
+    "ar" : "صلاحيات إضافية مؤقتة",
     "en" : "Security Profile Transfer",
     "details" : [ {
       "id" : "details",
@@ -20195,7 +20190,7 @@
     "name" : "SrvCExternalRepair",
     "table" : "SrvCExternalRepair",
     "module" : "srvcenter",
-    "ar" : "مستند اصلاج خارجي",
+    "ar" : "مستند إصلاح خارجي",
     "en" : "External Repair",
     "details" : [ {
       "id" : "details",
@@ -20440,7 +20435,7 @@
     "name" : "SrvCTask",
     "table" : "SrvCTask",
     "module" : "srvcenter",
-    "ar" : "المهمه",
+    "ar" : "المهمة",
     "en" : "Service Center Task",
     "details" : [ {
       "id" : "materials",
@@ -20472,7 +20467,7 @@
     "table" : "SrvCVisitType",
     "module" : "srvcenter",
     "ar" : "نوع الزيارة",
-    "en" : "Visit Type (Debit then Credit)"
+    "en" : "Visit Type"
   }, {
     "name" : "SrvCWorkCenter",
     "table" : "SrvCWorkCenter",
@@ -20505,8 +20500,8 @@
     "name" : "SrvcAddTaskToJobOrder",
     "table" : "SrvcAddTaskToJobOrder",
     "module" : "srvcenter",
-    "ar" : "إضافة مهام الي أمر الشغل",
-    "en" : "?Add Task To Job Order",
+    "ar" : "إضافة مهام إلى أمر الشغل",
+    "en" : "Add Task To Job Order",
     "details" : [ {
       "id" : "tasks",
       "table" : "SrvcAddTaskLine"
@@ -20536,7 +20531,7 @@
     "name" : "SrvcRawMaterialReturn",
     "table" : "SrvcRawMaterialReturn",
     "module" : "srvcenter",
-    "ar" : "إرتجاع قطع غيار",
+    "ar" : "ارتجاع قطع غيار",
     "en" : "Spare Parts Return",
     "details" : [ {
       "id" : "details",
@@ -20546,7 +20541,7 @@
     "name" : "SrvcResumeOperation",
     "table" : "SrvcResumeOperation",
     "module" : "srvcenter",
-    "ar" : "إستكمال خدمة",
+    "ar" : "استكمال خدمة",
     "en" : "Resuming Operation",
     "details" : [ {
       "id" : "details",
@@ -20711,8 +20706,8 @@
     "name" : "StockTakingElectronic",
     "table" : "StockTakingElectronic",
     "module" : "supplychain-electronic-taking",
-    "ar" : "لجنة جرد إلكترونى",
-    "en" : "Electronic StockTaking",
+    "ar" : "لجنة جرد إلكتروني",
+    "en" : "Electronic Stock Taking",
     "details" : [ {
       "id" : "details",
       "table" : "StockTakingElectronicLine"
@@ -20741,7 +20736,7 @@
     "name" : "SubItem",
     "table" : "SubItem",
     "module" : "srvcenter-subitems",
-    "ar" : "السياره",
+    "ar" : "السيارة",
     "en" : "Customer Car",
     "details" : [ {
       "id" : "attachmentLines",
@@ -20761,7 +20756,7 @@
     "name" : "SubItemStatusConfigurations",
     "table" : "SubItemStatusConfigurations",
     "module" : "srvcenter-subitems",
-    "ar" : "إعدادت حالة حاله السياره",
+    "ar" : "إعدادات حالة السيارة",
     "en" : "Car Status Configurations",
     "details" : [ {
       "id" : "statusMovements",
@@ -20955,7 +20950,7 @@
     "name" : "SysIndicatorApproval",
     "table" : "SysIndicatorApproval",
     "module" : "humanresource-payroll",
-    "ar" : "موافقة على مؤشر أداء نظامى",
+    "ar" : "موافقة على مؤشر أداء نظامي",
     "en" : "System Indicator Approval",
     "details" : [ {
       "id" : "details",
@@ -21308,7 +21303,7 @@
     "name" : "TaxAuthoritySubmissionDoc",
     "table" : "TaxAuthoritySubmissionDoc",
     "module" : "basic-tax-e-invoice",
-    "ar" : "إرسال مستندات الي مصلحة الضرائب",
+    "ar" : "إرسال مستندات إلى مصلحة الضرائب",
     "en" : "Tax Authority Submission Document",
     "details" : [ {
       "id" : "toSubmitLines",
@@ -21367,7 +21362,7 @@
     "name" : "TaxEInvoice",
     "table" : "TaxEInvoice",
     "module" : "egtax",
-    "ar" : "الفاتورة الإكترونية المستقبلة",
+    "ar" : "الفاتورة الإلكترونية المستقبلة",
     "en" : "Tax Electronic Invoice",
     "details" : [ {
       "id" : "signatureLines",
@@ -21511,7 +21506,7 @@
     "name" : "TelegramBotConfiguration",
     "table" : "TelegramBotConfiguration",
     "module" : "basic-whatsapp",
-    "ar" : "Telegram Bot Configuration",
+    "ar" : "إعدادات بوت تيليجرام",
     "en" : "Telegram Bot Configuration"
   }, {
     "name" : "TelegramBotInfo",
@@ -21522,7 +21517,7 @@
     "name" : "TelegramMessage",
     "table" : "TelegramMessage",
     "module" : "basic-whatsapp",
-    "ar" : "Telegram Message",
+    "ar" : "رسالة تيليجرام",
     "en" : "Telegram Message"
   }, {
     "name" : "TelegramMessageEntry",
@@ -21642,7 +21637,7 @@
     "name" : "TimeAttendance",
     "table" : "TimeAttendance",
     "module" : "humanresource-payroll",
-    "ar" : "حضور / إنصراف",
+    "ar" : "حضور / انصراف",
     "en" : "Time Attendance",
     "details" : [ {
       "id" : "attendanceLines",
@@ -21700,7 +21695,7 @@
     "table" : "TranslationOverRider",
     "module" : "basic",
     "ar" : "تغيير ترجمة",
-    "en" : "Translation OverRider",
+    "en" : "Translation Overrider",
     "details" : [ {
       "id" : "replacments",
       "table" : "ReplacementLine"
@@ -21885,7 +21880,7 @@
     "name" : "VacationBalanceRange",
     "table" : "VacationBalanceRange",
     "module" : "humanresource-payroll",
-    "ar" : "ملف أرصدة الأجازات (بناءا على الخبرات)",
+    "ar" : "ملف أرصدة الإجازات (بناءً على الخبرات)",
     "en" : "Vacation Balance Range File",
     "details" : [ {
       "id" : "details",
@@ -21895,7 +21890,7 @@
     "name" : "VacationChangingDocument",
     "table" : "VacationChangingDocument",
     "module" : "humanresource-payroll",
-    "ar" : "سند تعديل رصيد أجازة",
+    "ar" : "سند تعديل رصيد إجازة",
     "en" : "Vacation Changing Document",
     "details" : [ {
       "id" : "vacationLines",
@@ -21905,19 +21900,19 @@
     "name" : "VacationCompensation",
     "table" : "VacationCompensation",
     "module" : "humanresource-payroll",
-    "ar" : "سند صرف بدل أجازة",
-    "en" : "Vacation  Compensation"
+    "ar" : "سند صرف بدل إجازة",
+    "en" : "Vacation Compensation"
   }, {
     "name" : "VacationDocument",
     "table" : "VacationDocument",
     "module" : "humanresource-payroll",
-    "ar" : "سند أجازة",
+    "ar" : "سند إجازة",
     "en" : "Vacation Document"
   }, {
     "name" : "VacationPlanDocument",
     "table" : "VacationPlanDocument",
     "module" : "humanresource-payroll",
-    "ar" : "مستند خطة أجازة",
+    "ar" : "مستند خطة إجازة",
     "en" : "Vacation Plan Document",
     "details" : [ {
       "id" : "details",
@@ -21927,13 +21922,13 @@
     "name" : "VacationRequest",
     "table" : "VacationRequest",
     "module" : "humanresource-payroll",
-    "ar" : "طلب أجازة",
+    "ar" : "طلب إجازة",
     "en" : "Vacation Request"
   }, {
     "name" : "VacationTransferDocument",
     "table" : "VacationTransferDocument",
     "module" : "humanresource-payroll",
-    "ar" : "سند ترحيل أجازات",
+    "ar" : "سند ترحيل إجازات",
     "en" : "Vacation Transfer Document",
     "details" : [ {
       "id" : "details",
@@ -21946,7 +21941,7 @@
     "name" : "VacationType",
     "table" : "VacationType",
     "module" : "humanresource-payroll",
-    "ar" : "نوع الأجازة",
+    "ar" : "نوع الإجازة",
     "en" : "Vacation Type",
     "details" : [ {
       "id" : "deductionPercentageLines",
@@ -22050,7 +22045,7 @@
     "name" : "WMSReceiptDocOrderItemPartialEntry",
     "table" : "WMSReceiptDocOrderItemPartialEntry",
     "module" : "system-tables",
-    "ar" : "الأصناف المستلمة جزئي",
+    "ar" : "الأصناف المستلمة جزئياً",
     "en" : "Partial Receipt Items"
   }, {
     "name" : "WMSReceiptDocOrderItemPartialPutAwayEntry",
@@ -22189,7 +22184,7 @@
     "table" : "WhatsAppMessage",
     "module" : "basic-whatsapp",
     "ar" : "WhatsApp Message",
-    "en" : "WhatsApp  Message",
+    "en" : "WhatsApp Message",
     "details" : [ {
       "id" : "extraData",
       "table" : "WhatsAppMessageExtraDataLine"

@@ -6,7 +6,7 @@
     "en" : "None"
   }, {
     "id" : "OtherLinesSameItemSameInvoice",
-    "ar" : "إجمالي كميات السطور الأخرى لنفس الصنف (في نفس الغاتورة)",
+    "ar" : "إجمالي كميات السطور الأخرى لنفس الصنف (في نفس الفاتورة)",
     "en" : "Other Lines For Same Item (In Same Invoice)"
   }, {
     "id" : "SameMonth",

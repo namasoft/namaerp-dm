@@ -104,8 +104,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",
@@ -157,7 +157,7 @@
     }, {
       "id" : "taxes.effectiveTo",
       "column" : "effectiveTo",
-      "ar" : "تطبق الي",
+      "ar" : "تطبق إلى",
       "en" : "Effective To",
       "type" : "DateAndTime"
     }, {

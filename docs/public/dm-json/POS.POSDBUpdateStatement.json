@@ -2,8 +2,8 @@
   "entity" : "POS.POSDBUpdateStatement",
   "table" : "POSDBUpdateStatement",
   "module" : "pos-app",
-  "ar" : "POS DB Update Statement Runner",
-  "arPlural" : "POS DB Update Statement Runner",
+  "ar" : "منفذ جمل تحديث قاعدة بيانات نقاط البيع",
+  "arPlural" : "منفذ جمل تحديث قاعدة بيانات نقاط البيع",
   "en" : "POS DB Update Statement Runner",
   "enPlural" : "POS DB Update Statement Runners",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSDBUpdateStatement.html",
@@ -122,8 +122,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",
@@ -164,7 +164,7 @@
   }, {
     "id" : "validUntil",
     "column" : "validUntil",
-    "ar" : "صالح حتي",
+    "ar" : "صالح حتى",
     "en" : "Valid until",
     "type" : "DateAndTime"
   }, {

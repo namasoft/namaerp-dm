@@ -2,7 +2,7 @@
   "enum" : "WorkStartingType",
   "values" : [ {
     "id" : "BackFromVacation",
-    "ar" : "عودة من أجازة",
+    "ar" : "عودة من إجازة",
     "en" : "Back From Vacation"
   }, {
     "id" : "NewHiring",

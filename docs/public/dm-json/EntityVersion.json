@@ -38,7 +38,7 @@
   }, {
     "id" : "lastVersion",
     "column" : "lastVersion",
-    "ar" : "أخر إصدار",
+    "ar" : "آخر إصدار",
     "en" : "Last Version",
     "type" : "Boolean"
   }, {

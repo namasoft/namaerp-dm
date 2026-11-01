@@ -32,7 +32,7 @@
     "id" : "totalExpense",
     "column" : "totalExpense",
     "ar" : "إجمالي المصروفات",
-    "en" : "TotalExpense",
+    "en" : "Total Expense",
     "type" : "Decimal"
   } ]
 }

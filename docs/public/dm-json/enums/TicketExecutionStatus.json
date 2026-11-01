@@ -2,7 +2,7 @@
   "enum" : "TicketExecutionStatus",
   "values" : [ {
     "id" : "AwaitingReview",
-    "ar" : "منتهي بإنتظار المراجعة",
+    "ar" : "منتهي بانتظار المراجعة",
     "en" : "Awaiting Review"
   }, {
     "id" : "Reviewed",

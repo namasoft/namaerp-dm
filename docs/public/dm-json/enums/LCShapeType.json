@@ -2,12 +2,15 @@
   "enum" : "LCShapeType",
   "values" : [ {
     "id" : "Transferable",
-    "ar" : "قابل للتحويل"
+    "ar" : "قابل للتحويل",
+    "en" : "Transferable"
   }, {
     "id" : "Circular",
-    "ar" : "دائري"
+    "ar" : "دائري",
+    "en" : "Circular"
   }, {
     "id" : "BackToBack",
-    "ar" : "ظهير"
+    "ar" : "ظهير",
+    "en" : "Back to Back"
   } ]
 }

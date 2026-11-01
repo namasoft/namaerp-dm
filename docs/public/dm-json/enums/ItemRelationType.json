@@ -11,7 +11,7 @@
   }, {
     "id" : "Supercede",
     "ar" : "تغير إلى",
-    "en" : "Supercede"
+    "en" : "Supersede"
   }, {
     "id" : "AddedService",
     "ar" : "خدمة إضافية",
@@ -23,6 +23,6 @@
   }, {
     "id" : "FreeItem",
     "ar" : "صنف مجاني",
-    "en" : "FreeItem"
+    "en" : "Free Item"
   } ]
 }

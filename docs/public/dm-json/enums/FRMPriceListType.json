@@ -2,11 +2,11 @@
   "enum" : "FRMPriceListType",
   "values" : [ {
     "id" : "OceanFreight",
-    "ar" : "شحن بحرى",
+    "ar" : "شحن بحري",
     "en" : "Ocean Freight"
   }, {
     "id" : "CustomClearance",
-    "ar" : "تخليص جمركى",
+    "ar" : "تخليص جمركي",
     "en" : "Custom Clearance"
   }, {
     "id" : "Trucking",
@@ -22,7 +22,7 @@
     "en" : "Courier"
   }, {
     "id" : "Other",
-    "ar" : "أخري",
+    "ar" : "أخرى",
     "en" : "Other"
   } ]
 }

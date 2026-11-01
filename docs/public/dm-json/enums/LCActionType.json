@@ -6,7 +6,7 @@
     "en" : "Promot"
   }, {
     "id" : "Clearance",
-    "ar" : "تخليص جمركى",
+    "ar" : "تخليص جمركي",
     "en" : "Clearance Company"
   }, {
     "id" : "Cancellation",
@@ -22,7 +22,7 @@
     "en" : "Shipping Policy"
   }, {
     "id" : "Other",
-    "ar" : "أخري",
+    "ar" : "أخرى",
     "en" : "Other"
   } ]
 }

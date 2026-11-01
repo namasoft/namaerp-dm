@@ -15,8 +15,8 @@
   }, {
     "id" : "filterOnAnalysisSet",
     "column" : "filterOnAnalysisSet",
-    "ar" : "فلترة بالمجموعة التحليلة",
-    "en" : "Filter On AnalysisSet",
+    "ar" : "فلترة بالمجموعة التحليلية",
+    "en" : "Filter On Analysis Set",
     "type" : "Boolean"
   }, {
     "id" : "filterOnBranch",
@@ -34,7 +34,7 @@
     "id" : "filterOnLegalEntity",
     "column" : "filterOnLegalEntity",
     "ar" : "فلترة بالشركة",
-    "en" : "Filter On LegalEntity",
+    "en" : "Filter On Legal Entity",
     "type" : "Boolean"
   }, {
     "id" : "filterOnSector",

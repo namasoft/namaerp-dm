@@ -120,8 +120,8 @@
   }, {
     "id" : "trnsData.lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "trnsData.legalEntity",
@@ -156,7 +156,7 @@
   }, {
     "id" : "trnsData.originLastUpdateDate",
     "column" : "originLastUpdateDate",
-    "ar" : "تاريخ اخر تحديث للمستند",
+    "ar" : "تاريخ آخر تحديث للمستند",
     "en" : "Origin Last Update Date",
     "type" : "DateAndTime"
   }, {
@@ -212,7 +212,7 @@
       "id" : "lines.analysisSet",
       "column" : "analysisSet_id",
       "ar" : "المجموعة التحليلية",
-      "en" : "AnalysisSet",
+      "en" : "Analysis Set",
       "type" : "Reference",
       "refTo" : "AnalysisSet",
       "refPath" : "/modules/basic/AnalysisSet.html"

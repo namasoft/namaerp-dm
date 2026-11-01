@@ -26,7 +26,7 @@
   }, {
     "id" : "failRegisters",
     "column" : "failRegisters",
-    "ar" : "الماكينات التي فشل النقل اليها",
+    "ar" : "الماكينات التي فشل النقل إليها",
     "en" : "Failed to Transfer to Registers",
     "type" : "BigText"
   }, {
@@ -48,8 +48,8 @@
   }, {
     "id" : "successRegisters",
     "column" : "successRegisters",
-    "ar" : "الماكينات التي تم نقله اليها",
-    "en" : "Transfered to Registers",
+    "ar" : "الماكينات التي تم نقله إليها",
+    "en" : "Transferred to Registers",
     "type" : "BigText"
   } ]
 }

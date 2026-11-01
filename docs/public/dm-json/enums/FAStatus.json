@@ -2,11 +2,11 @@
   "enum" : "FAStatus",
   "values" : [ {
     "id" : "Initial",
-    "ar" : "إبتدائى",
+    "ar" : "ابتدائي",
     "en" : " Initial"
   }, {
     "id" : "Running",
-    "ar" : "جارى الإهلاك",
+    "ar" : "جاري الإهلاك",
     "en" : "Running Depreciation"
   }, {
     "id" : "Disposed",

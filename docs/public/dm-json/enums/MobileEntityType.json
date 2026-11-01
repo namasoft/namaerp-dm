@@ -66,11 +66,11 @@
     "en" : "Sales Invoice"
   }, {
     "id" : "Attendance",
-    "ar" : " الحضور / الإنصراف",
+    "ar" : " الحضور / الانصراف",
     "en" : " Time Attendance"
   }, {
     "id" : "Vacation",
-    "ar" : "الأجازة",
+    "ar" : "الإجازة",
     "en" : "Vacation"
   }, {
     "id" : "Permission",
@@ -95,7 +95,7 @@
   }, {
     "id" : "MaintenanceVisit",
     "ar" : "زيارة",
-    "en" : "MaintenanceVisit"
+    "en" : "Maintenance Visit"
   }, {
     "id" : "Questionnaire",
     "ar" : "استبيان",
@@ -139,7 +139,7 @@
   }, {
     "id" : "DLVDeliveryDocument",
     "ar" : "سند توصيل شحنات",
-    "en" : "Shipment Delivery  Document"
+    "en" : "Shipment Delivery Document"
   }, {
     "id" : "DamagedItemsDoc",
     "ar" : "مستند الأصناف المهلكة",
@@ -162,7 +162,7 @@
     "en" : "Purchase Invoice"
   }, {
     "id" : "CRMComplaint",
-    "ar" : "شكوي - إقتراح",
+    "ar" : "شكوى - اقتراح",
     "en" : "Complaint - Suggestion"
   }, {
     "id" : "MissionDocument",

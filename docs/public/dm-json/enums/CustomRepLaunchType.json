@@ -6,11 +6,11 @@
     "en" : "Direct in popup"
   }, {
     "id" : "DirectInNewPage",
-    "ar" : "بدء في نافذه جديدة",
+    "ar" : "بدء في نافذة جديدة",
     "en" : "Direct in new page"
   }, {
     "id" : "ParamsInPopup",
-    "ar" : "طلب المدخلات في نافذه منبثقة",
+    "ar" : "طلب المدخلات في نافذة منبثقة",
     "en" : "Parameters in popup"
   }, {
     "id" : "ParamsInNewPage",

@@ -68,8 +68,8 @@
   }, {
     "id" : "data.lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "data.legalEntity",
@@ -104,7 +104,7 @@
   }, {
     "id" : "data.originLastUpdateDate",
     "column" : "originLastUpdateDate",
-    "ar" : "تاريخ اخر تحديث للمستند",
+    "ar" : "تاريخ آخر تحديث للمستند",
     "en" : "Origin Last Update Date",
     "type" : "DateAndTime"
   }, {
@@ -226,7 +226,7 @@
   }, {
     "id" : "itemDimensions.subItem",
     "column" : "subItem_id",
-    "ar" : " السياره",
+    "ar" : " السيارة",
     "en" : " Customer Car",
     "type" : "Reference",
     "refTo" : "SubItem",
@@ -472,7 +472,7 @@
     }, {
       "id" : "details.itemDimensions.subItem",
       "column" : "subItem_id",
-      "ar" : " السياره",
+      "ar" : " السيارة",
       "en" : " Customer Car",
       "type" : "Reference",
       "refTo" : "SubItem",
@@ -631,7 +631,7 @@
     }, {
       "id" : "details.userQty.measures.clippedLength1",
       "column" : "userQtyClippedLength1",
-      "ar" : "أبعادالجزء المقصوص 1 | الطول",
+      "ar" : "أبعاد الجزء المقصوص 1 | الطول",
       "en" : "Clipped Part1 Measures | Length",
       "type" : "Decimal",
       "feature" : "scMeasures"

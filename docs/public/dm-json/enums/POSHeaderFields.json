@@ -15,7 +15,7 @@
   }, {
     "id" : "InvoiceClassification",
     "ar" : "تصنيف الفواتير",
-    "en" : "InvoiceClassification"
+    "en" : "Invoice Classification"
   }, {
     "id" : "Warehouse",
     "ar" : "مخزن",
@@ -66,7 +66,7 @@
     "en" : "Subsidiary"
   }, {
     "id" : "AddressRegion",
-    "ar" : "منطقه",
+    "ar" : "منطقة",
     "en" : "Address Region"
   }, {
     "id" : "Driver",

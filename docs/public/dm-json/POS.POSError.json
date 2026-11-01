@@ -107,8 +107,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "log",
@@ -147,6 +147,7 @@
   }, {
     "id" : "recordId",
     "column" : "recordId",
+    "ar" : "معرف السجل",
     "en" : "Record Id",
     "type" : "ID"
   }, {

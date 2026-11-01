@@ -2,7 +2,7 @@
   "enum" : "SafetyStockPeriodsCalcMethod",
   "values" : [ {
     "id" : "RequiredInCurrentPeriod",
-    "ar" : "المطلوب في نفس الفتره",
+    "ar" : "المطلوب في نفس الفترة",
     "en" : "Required In Current Period"
   }, {
     "id" : "PlanAverage",

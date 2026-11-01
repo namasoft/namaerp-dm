@@ -13,7 +13,7 @@
   }, {
     "id" : "changeDeliveryStatusTo",
     "column" : "changeDeliveryStatusTo",
-    "ar" : "تغيير حالة التوصيل إلي",
+    "ar" : "تغيير حالة التوصيل إلى",
     "en" : "Change Delivery Status To",
     "type" : "Text"
   }, {

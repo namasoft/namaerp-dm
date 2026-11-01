@@ -32,7 +32,7 @@
   }, {
     "id" : "contactInfo.address2",
     "column" : "address2",
-    "ar" : "رقم المبني",
+    "ar" : "رقم المبنى",
     "en" : "Building Number",
     "type" : "Text"
   }, {
@@ -44,7 +44,7 @@
   }, {
     "id" : "contactInfo.buildingNumber",
     "column" : "buildingNumber",
-    "ar" : "رقم المبني",
+    "ar" : "رقم المبنى",
     "en" : "Building Number",
     "type" : "Text"
   }, {
@@ -116,7 +116,7 @@
   }, {
     "id" : "contactInfo.website",
     "column" : "website",
-    "ar" : "موقع الكتروني",
+    "ar" : "موقع إلكتروني",
     "en" : "Website",
     "type" : "Text"
   }, {
@@ -196,8 +196,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",

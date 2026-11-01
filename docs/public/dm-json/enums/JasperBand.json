@@ -110,19 +110,24 @@
     "en" : "Detail Fields 5"
   }, {
     "id" : "ColumnHeader1",
-    "ar" : "رؤوس الأعمدة 1"
+    "ar" : "رؤوس الأعمدة 1",
+    "en" : "Column Headers 1"
   }, {
     "id" : "ColumnHeader2",
-    "ar" : "رؤوس الأعمدة 2"
+    "ar" : "رؤوس الأعمدة 2",
+    "en" : "Column Headers 2"
   }, {
     "id" : "ColumnHeader3",
-    "ar" : "رؤوس الأعمدة 3"
+    "ar" : "رؤوس الأعمدة 3",
+    "en" : "Column Headers 3"
   }, {
     "id" : "ColumnHeader4",
-    "ar" : "رؤوس الأعمدة 4"
+    "ar" : "رؤوس الأعمدة 4",
+    "en" : "Column Headers 4"
   }, {
     "id" : "ColumnHeader5",
-    "ar" : "رؤوس الأعمدة 5"
+    "ar" : "رؤوس الأعمدة 5",
+    "en" : "Column Headers 5"
   }, {
     "id" : "Title1"
   }, {
@@ -135,37 +140,47 @@
     "id" : "Title5"
   }, {
     "id" : "Details1",
-    "ar" : "التفاصيل 1"
+    "ar" : "التفاصيل 1",
+    "en" : "Details 1"
   }, {
     "id" : "Details2",
-    "ar" : "التفاصيل 2"
+    "ar" : "التفاصيل 2",
+    "en" : "Details 2"
   }, {
     "id" : "Details3",
-    "ar" : "التفاصيل 3"
+    "ar" : "التفاصيل 3",
+    "en" : "Details 3"
   }, {
     "id" : "Details4",
-    "ar" : "التفاصيل 4"
+    "ar" : "التفاصيل 4",
+    "en" : "Details 4"
   }, {
     "id" : "Details5",
-    "ar" : "التفاصيل 5"
+    "ar" : "التفاصيل 5",
+    "en" : "Details 5"
   }, {
     "id" : "Summary1",
-    "ar" : "الإجماليات 1"
+    "ar" : "الإجماليات 1",
+    "en" : "Summary 1"
   }, {
     "id" : "Summary2",
-    "ar" : "الإجماليات 2"
+    "ar" : "الإجماليات 2",
+    "en" : "Summary 2"
   }, {
     "id" : "Summary3",
-    "ar" : "الإجماليات 3"
+    "ar" : "الإجماليات 3",
+    "en" : "Summary 3"
   }, {
     "id" : "Summary4",
-    "ar" : "الإجماليات 4"
+    "ar" : "الإجماليات 4",
+    "en" : "Summary 4"
   }, {
     "id" : "Summary5",
-    "ar" : "الإجماليات 5"
+    "ar" : "الإجماليات 5",
+    "en" : "Summary 5"
   }, {
     "id" : "LastPageFooter",
-    "ar" : "ذيل اخر صفحة",
+    "ar" : "ذيل آخر صفحة",
     "en" : "Last Page Footer"
   } ]
 }

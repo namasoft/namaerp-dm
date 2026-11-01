@@ -2,19 +2,19 @@
   "enum" : "HMSDocDegree",
   "values" : [ {
     "id" : "Advisor",
-    "ar" : "استشارى",
+    "ar" : "استشاري",
     "en" : "Advisor"
   }, {
     "id" : "Specialist",
-    "ar" : "اخصائى",
+    "ar" : "أخصائي",
     "en" : "Specialist"
   }, {
     "id" : "Technician",
-    "ar" : "فنى",
+    "ar" : "فني",
     "en" : "Technician"
   }, {
     "id" : "AdvisorProfessor",
-    "ar" : "أستاذ استشارى",
+    "ar" : "أستاذ استشاري",
     "en" : "Advisor Professor"
   } ]
 }

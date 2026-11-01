@@ -62,7 +62,7 @@
     "id" : "target",
     "columns" : [ "targetActualCode", " targetCode", " targetEntityType", " targetId" ],
     "ar" : "الجهة",
-    "en" : "Taregt",
+    "en" : "Target",
     "type" : "Genericreference"
   }, {
     "id" : "valueDate",

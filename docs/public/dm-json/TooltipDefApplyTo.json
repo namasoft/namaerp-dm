@@ -14,7 +14,7 @@
   }, {
     "id" : "applyTo",
     "columns" : [ "applyToActualCode", " applyToCode", " applyToEntityType", " applyToId" ],
-    "ar" : "تطبق علي",
+    "ar" : "تطبق على",
     "en" : "Apply To",
     "type" : "Genericreference"
   }, {

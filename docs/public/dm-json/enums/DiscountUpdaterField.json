@@ -10,7 +10,7 @@
     "en" : "Max Discount"
   }, {
     "id" : "DefaultDiscount",
-    "ar" : "الافتراضى",
+    "ar" : "الافتراضي",
     "en" : "Default Discount"
   }, {
     "id" : "FixedDiscount",

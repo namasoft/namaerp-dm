@@ -3,7 +3,7 @@
   "values" : [ {
     "id" : "Avaliable",
     "ar" : "متاح",
-    "en" : "Avaliable"
+    "en" : "Available"
   }, {
     "id" : "Reserved",
     "ar" : "محجوز",
@@ -15,6 +15,6 @@
   }, {
     "id" : "UnAvaliable",
     "ar" : "غير متاح",
-    "en" : "Un Avaliable"
+    "en" : "Unavailable"
   } ]
 }

@@ -6,7 +6,7 @@
     "en" : "Reviewed"
   }, {
     "id" : "PendingReview",
-    "ar" : "منتهى بانتظار المراجعة",
+    "ar" : "منتهي بانتظار المراجعة",
     "en" : "Pending Review"
   }, {
     "id" : "Rejected",
@@ -14,7 +14,7 @@
     "en" : "Rejected"
   }, {
     "id" : "EndedWithCustomerApproval",
-    "ar" : "منتهى بموافقة العميل",
+    "ar" : "منتهي بموافقة العميل",
     "en" : "Ended With Customer Approval"
   } ]
 }

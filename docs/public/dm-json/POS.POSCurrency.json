@@ -38,7 +38,7 @@
   }, {
     "id" : "defaultCurrency",
     "column" : "defaultCurrency",
-    "ar" : "عملة إفتراضية",
+    "ar" : "عملة افتراضية",
     "en" : "Default Currency",
     "type" : "Boolean"
   }, {
@@ -136,8 +136,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",

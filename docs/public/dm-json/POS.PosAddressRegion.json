@@ -2,7 +2,7 @@
   "entity" : "POS.PosAddressRegion",
   "table" : "PosAddressRegion",
   "module" : "pos-app",
-  "ar" : "منطقه",
+  "ar" : "منطقة",
   "arPlural" : "مناطق",
   "en" : "Address Region",
   "enPlural" : "Address Regions",
@@ -100,8 +100,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",

@@ -24,7 +24,7 @@
     "id" : "messageState",
     "column" : "messageState",
     "ar" : "حالة الرسالة",
-    "en" : "message Status",
+    "en" : "Message Status",
     "type" : "Enum",
     "enum" : "WhatsAppMessageState"
   }, {

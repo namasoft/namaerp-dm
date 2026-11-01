@@ -126,8 +126,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "metadataXML",
@@ -183,7 +183,7 @@
     "id" : "runOnPosServerDB",
     "column" : "runOnPosServerDB",
     "ar" : "تشغيل على قاعدة بيانات الخادم وليس قاعدة بيانات نقاط البيع",
-    "en" : "Run On Server DataBase Not On POS Database",
+    "en" : "Run On Server Database Not On POS Database",
     "type" : "Boolean"
   }, {
     "id" : "selected",
@@ -200,7 +200,7 @@
   }, {
     "id" : "usedInFullInvoice",
     "column" : "usedInFullInvoice",
-    "ar" : "تستخدم في الفاتورة الكامله",
+    "ar" : "تستخدم في الفاتورة الكاملة",
     "en" : "Used In Full Invoice",
     "type" : "Boolean"
   }, {
@@ -260,7 +260,7 @@
     }, {
       "id" : "resources.reportContent",
       "column" : "reportContent",
-      "ar" : "محتوي ملف التقرير",
+      "ar" : "محتوى ملف التقرير",
       "en" : "Report File Content",
       "type" : "Text"
     }, {

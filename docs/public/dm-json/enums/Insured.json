@@ -3,19 +3,19 @@
   "values" : [ {
     "id" : "Employees",
     "ar" : "موظفين",
-    "en" : "Employeess"
+    "en" : "Employees"
   }, {
     "id" : "Wifes",
     "ar" : "زوجات",
-    "en" : "Wifes"
+    "en" : "Wives"
   }, {
     "id" : "Husbands",
     "ar" : "أزواج",
     "en" : "Husbands"
   }, {
     "id" : "Childrens",
-    "ar" : "اطفال",
-    "en" : "Childrens"
+    "ar" : "أطفال",
+    "en" : "Children"
   }, {
     "id" : "Adults",
     "ar" : "بالغين",
@@ -26,7 +26,7 @@
     "en" : "Mothers"
   }, {
     "id" : "Fathers",
-    "ar" : "أباء",
+    "ar" : "آباء",
     "en" : "Fathers"
   }, {
     "id" : "Child1",

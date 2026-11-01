@@ -8,12 +8,12 @@
     "id" : "automaticInMobileApp",
     "column" : "automaticInMobileApp",
     "ar" : "تعمل تلقائيا في تطبيق الهاتف",
-    "en" : "Automatic In MobileApp",
+    "en" : "Automatic In Mobile App",
     "type" : "Boolean"
   }, {
     "id" : "automaticTooltip",
     "column" : "automaticTooltip",
-    "ar" : "عرض المساعدة السريعة اليا مع تغيير قيمة الحقل",
+    "ar" : "عرض المساعدة السريعة آليا مع تغيير قيمة الحقل",
     "en" : "Automatically Display Tooltip When Field Value Changes",
     "type" : "Boolean"
   }, {
@@ -67,8 +67,8 @@
   }, {
     "id" : "p1.overrideParamter",
     "column" : "p1OverrideParamter",
-    "ar" : "1|إخفاء في الاسئلة",
-    "en" : "1|Override Paramter",
+    "ar" : "1|إخفاء في الأسئلة",
+    "en" : "1|Override Parameter",
     "type" : "Boolean"
   }, {
     "id" : "p1.parameterName",
@@ -85,8 +85,8 @@
   }, {
     "id" : "p2.overrideParamter",
     "column" : "p2OverrideParamter",
-    "ar" : "2|إخفاء في الاسئلة",
-    "en" : "2|Override Paramter",
+    "ar" : "2|إخفاء في الأسئلة",
+    "en" : "2|Override Parameter",
     "type" : "Boolean"
   }, {
     "id" : "p2.parameterName",
@@ -103,8 +103,8 @@
   }, {
     "id" : "p3.overrideParamter",
     "column" : "p3OverrideParamter",
-    "ar" : "3|إخفاء في الاسئلة",
-    "en" : "3|Override Paramter",
+    "ar" : "3|إخفاء في الأسئلة",
+    "en" : "3|Override Parameter",
     "type" : "Boolean"
   }, {
     "id" : "p3.parameterName",
@@ -121,8 +121,8 @@
   }, {
     "id" : "p4.overrideParamter",
     "column" : "p4OverrideParamter",
-    "ar" : "4|إخفاء في الاسئلة",
-    "en" : "4|Override Paramter",
+    "ar" : "4|إخفاء في الأسئلة",
+    "en" : "4|Override Parameter",
     "type" : "Boolean"
   }, {
     "id" : "p4.parameterName",
@@ -139,8 +139,8 @@
   }, {
     "id" : "p5.overrideParamter",
     "column" : "p5OverrideParamter",
-    "ar" : "5|إخفاء في الاسئلة",
-    "en" : "5|Override Paramter",
+    "ar" : "5|إخفاء في الأسئلة",
+    "en" : "5|Override Parameter",
     "type" : "Boolean"
   }, {
     "id" : "p5.parameterName",
@@ -157,8 +157,8 @@
   }, {
     "id" : "p6.overrideParamter",
     "column" : "p6OverrideParamter",
-    "ar" : "6|إخفاء في الاسئلة",
-    "en" : "6|Override Paramter",
+    "ar" : "6|إخفاء في الأسئلة",
+    "en" : "6|Override Parameter",
     "type" : "Boolean"
   }, {
     "id" : "p6.parameterName",
@@ -175,8 +175,8 @@
   }, {
     "id" : "p7.overrideParamter",
     "column" : "p7OverrideParamter",
-    "ar" : "7|إخفاء في الاسئلة",
-    "en" : "7|Override Paramter",
+    "ar" : "7|إخفاء في الأسئلة",
+    "en" : "7|Override Parameter",
     "type" : "Boolean"
   }, {
     "id" : "p7.parameterName",
@@ -193,8 +193,8 @@
   }, {
     "id" : "p8.overrideParamter",
     "column" : "p8OverrideParamter",
-    "ar" : "8|إخفاء في الاسئلة",
-    "en" : "8|Override Paramter",
+    "ar" : "8|إخفاء في الأسئلة",
+    "en" : "8|Override Parameter",
     "type" : "Boolean"
   }, {
     "id" : "p8.parameterName",
@@ -211,8 +211,8 @@
   }, {
     "id" : "p9.overrideParamter",
     "column" : "p9OverrideParamter",
-    "ar" : "9|إخفاء في الاسئلة",
-    "en" : "9|Override Paramter",
+    "ar" : "9|إخفاء في الأسئلة",
+    "en" : "9|Override Parameter",
     "type" : "Boolean"
   }, {
     "id" : "p9.parameterName",

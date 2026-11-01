@@ -18,7 +18,7 @@
   }, {
     "id" : "orderByField",
     "column" : "orderByField",
-    "ar" : "الترتيب بناءاً على حقل",
+    "ar" : "الترتيب بناءً على حقل",
     "en" : "Order By Field",
     "type" : "FieldID"
   }, {

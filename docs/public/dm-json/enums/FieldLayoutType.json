@@ -2,7 +2,7 @@
   "enum" : "FieldLayoutType",
   "values" : [ {
     "id" : "DefaultLayout",
-    "ar" : "1- إفتراضي",
+    "ar" : "1- افتراضي",
     "en" : "1- Default"
   }, {
     "id" : "Alone",
@@ -14,7 +14,7 @@
     "en" : "4- Spanned"
   }, {
     "id" : "Normal",
-    "ar" : "2- عادى",
+    "ar" : "2- عادي",
     "en" : "2- Normal"
   }, {
     "id" : "Spanned2",

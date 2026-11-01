@@ -2,7 +2,7 @@
   "enum" : "CRMLeadStatus",
   "values" : [ {
     "id" : "AttemptedToContact",
-    "ar" : "محاولة الأتصال",
+    "ar" : "محاولة الاتصال",
     "en" : "Attempted To Contact"
   }, {
     "id" : "Cold",
@@ -10,11 +10,11 @@
     "en" : "Cold"
   }, {
     "id" : "ContactInFuture",
-    "ar" : "الأتصال مستقبلا",
+    "ar" : "الاتصال مستقبلا",
     "en" : "Contact In Future"
   }, {
     "id" : "Contacted",
-    "ar" : "تم الأتصال",
+    "ar" : "تم الاتصال",
     "en" : "Contacted"
   }, {
     "id" : "Hot",
@@ -30,7 +30,7 @@
     "en" : "Lost Lead"
   }, {
     "id" : "NotContacted",
-    "ar" : "لم يتم الأتصال",
+    "ar" : "لم يتم الاتصال",
     "en" : "Not Contacted"
   }, {
     "id" : "PreQualified",

@@ -50,7 +50,7 @@
     "id" : "maxNumOfUsers",
     "column" : "maxNumOfUsers",
     "ar" : "عدد المستخدمين",
-    "en" : "Number Of User",
+    "en" : "Number Of Users",
     "type" : "Integer"
   }, {
     "id" : "paymentDate",

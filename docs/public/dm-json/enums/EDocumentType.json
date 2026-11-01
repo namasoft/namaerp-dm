@@ -19,11 +19,11 @@
   }, {
     "id" : "CreditNote",
     "ar" : "إشعار دائن",
-    "en" : "CreditNote"
+    "en" : "Credit Note"
   }, {
     "id" : "DebitNote",
     "ar" : "إشعار مدين",
-    "en" : "DebitNote"
+    "en" : "Debit Note"
   }, {
     "id" : "ExportInvoice",
     "ar" : "فاتورة تصدير للخارج",

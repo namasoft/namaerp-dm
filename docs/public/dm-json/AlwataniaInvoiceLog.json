@@ -47,7 +47,7 @@
   }, {
     "id" : "response",
     "column" : "response",
-    "ar" : "Response",
+    "ar" : "الاستجابة",
     "en" : "Response",
     "type" : "BigText"
   }, {

@@ -118,8 +118,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",
@@ -217,7 +217,7 @@
     }, {
       "id" : "details.note",
       "column" : "creditNote_id",
-      "ar" : "ملحوظه",
+      "ar" : "ملحوظة",
       "en" : "Note",
       "type" : "Reference",
       "refTo" : "POS.POSCreditNote",

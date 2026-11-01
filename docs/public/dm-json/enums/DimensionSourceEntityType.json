@@ -22,7 +22,7 @@
     "en" : "Warehouse"
   }, {
     "id" : "Locator",
-    "ar" : "الموقع المخزني (أو المخزن اذا لم يوجد موقع)",
+    "ar" : "الموقع المخزني (أو المخزن إذا لم يوجد موقع)",
     "en" : "Locator (Or Warehouse if Locator is empty)"
   }, {
     "id" : "InvItem",
@@ -74,7 +74,7 @@
     "en" : "Bank Account"
   }, {
     "id" : "LetterOfCredit",
-    "ar" : "الإعتماد المستندي",
+    "ar" : "الاعتماد المستندي",
     "en" : "Letter Of Credit"
   }, {
     "id" : "SafeDeposite",
@@ -102,7 +102,7 @@
     "en" : "Letter Of Guarantee"
   }, {
     "id" : "LoanOrDeposit",
-    "ar" : "قرض أو وديعه بنكيه",
+    "ar" : "قرض أو وديعة بنكية",
     "en" : "Loan Or Deposit"
   }, {
     "id" : "ref1",
@@ -160,7 +160,7 @@
     "en" : "Doctor"
   }, {
     "id" : "HMSInsuranceCompany",
-    "ar" : "شركة تأمين طبى",
+    "ar" : "شركة تأمين طبي",
     "en" : "Medical Insurance Company"
   }, {
     "id" : "HMSPharmacy",
@@ -180,7 +180,7 @@
     "en" : "Laboratory Test Type"
   }, {
     "id" : "HMSPhysicalTherapyType",
-    "ar" : "نوع العلاج الطبيعى",
+    "ar" : "نوع العلاج الطبيعي",
     "en" : "Physical Therapy Type"
   }, {
     "id" : "HMSMedicalService",
@@ -196,7 +196,7 @@
     "en" : "Student"
   }, {
     "id" : "EDGuardian",
-    "ar" : "ولى أمر",
+    "ar" : "ولي أمر",
     "en" : "Guardian"
   }, {
     "id" : "PaymentMethod",

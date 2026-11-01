@@ -6,7 +6,7 @@
     "en" : "Item With Minimum Price"
   }, {
     "id" : "ItemWithMaxPrice",
-    "ar" : "أعلي الأصناف سعرا",
+    "ar" : "أعلى الأصناف سعرا",
     "en" : "Item With Maximum Price"
   }, {
     "id" : "FirstItem",
@@ -14,7 +14,7 @@
     "en" : "First Item"
   }, {
     "id" : "LastItem",
-    "ar" : "أخر صنف في الفاتورة",
+    "ar" : "آخر صنف في الفاتورة",
     "en" : "Last Item"
   }, {
     "id" : "ItemFromFreeItemGroup",

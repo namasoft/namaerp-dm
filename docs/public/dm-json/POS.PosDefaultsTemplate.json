@@ -2,8 +2,8 @@
   "entity" : "POS.PosDefaultsTemplate",
   "table" : "PosDefaultsTemplate",
   "module" : "pos-app",
-  "ar" : "قالب قيم افتراضيه لنقاط البيع",
-  "arPlural" : " قالب قيم افتراضيه لنقاط البيع",
+  "ar" : "قالب قيم افتراضية لنقاط البيع",
+  "arPlural" : " قالب قيم افتراضية لنقاط البيع",
   "en" : "Pos Defaults Template",
   "enPlural" : " Pos Defaults Template",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.PosDefaultsTemplate.html",
@@ -100,8 +100,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",

@@ -2,11 +2,11 @@
   "enum" : "LeavePermissionType",
   "values" : [ {
     "id" : "EarlyLeavePermission",
-    "ar" : "اذن مبكر",
+    "ar" : "إذن مبكر",
     "en" : "Early Leave"
   }, {
     "id" : "LateArrivalPermission",
-    "ar" : "اذن تاخير",
+    "ar" : "إذن تأخير",
     "en" : "Late Arrival"
   }, {
     "id" : "LeaveDuringWork",

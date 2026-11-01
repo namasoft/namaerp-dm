@@ -10,7 +10,7 @@
     "en" : "POS Sales Return"
   }, {
     "id" : "NamaPOSSalesReplacement",
-    "ar" : "إستبدال مبيعات نقاط البيع",
+    "ar" : "استبدال مبيعات نقاط البيع",
     "en" : "POS Sales Replacement"
   }, {
     "id" : "NamaPOSStockTransferReq",
@@ -19,7 +19,7 @@
   }, {
     "id" : "NamaPOSStockTakingDetails",
     "ar" : "لجنة جرد نقط بيع",
-    "en" : "Point of Sale StockTaking Details Document"
+    "en" : "Point of Sale Stock Taking Details Document"
   }, {
     "id" : "NamaPOSOrderReservation",
     "ar" : "سند حجز اوردر نقاط بيع",

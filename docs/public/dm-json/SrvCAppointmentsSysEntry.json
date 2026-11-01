@@ -43,7 +43,7 @@
   }, {
     "id" : "remainingHours",
     "column" : "remainingHours",
-    "ar" : "الساعات المتبقة",
+    "ar" : "الساعات المتبقية",
     "en" : "Remaining Hours",
     "type" : "Decimal"
   }, {

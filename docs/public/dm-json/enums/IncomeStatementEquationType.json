@@ -2,11 +2,11 @@
   "enum" : "IncomeStatementEquationType",
   "values" : [ {
     "id" : "Revenue",
-    "ar" : "الايرادات",
+    "ar" : "الإيرادات",
     "en" : "Revenue"
   }, {
     "id" : "CostOfRevenue",
-    "ar" : "تكلفة الايرادات",
+    "ar" : "تكلفة الإيرادات",
     "en" : "Cost Of Revenue"
   }, {
     "id" : "Expenses",
@@ -14,7 +14,7 @@
     "en" : "Expenses"
   }, {
     "id" : "OtherRevenue",
-    "ar" : "الايرادات الأخرى",
+    "ar" : "الإيرادات الأخرى",
     "en" : "Other Revenue"
   }, {
     "id" : "NotInvolved",

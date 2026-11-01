@@ -62,15 +62,15 @@
     "en" : "Other 10"
   }, {
     "id" : "Appointed",
-    "ar" : "مْعين",
+    "ar" : "مُعين",
     "en" : "Appointed"
   }, {
     "id" : "Offered",
-    "ar" : "بأنتظار الموافقة",
+    "ar" : "بانتظار الموافقة",
     "en" : "Offered"
   }, {
     "id" : "InVacation",
-    "ar" : "في أجازة",
-    "en" : "InVacation"
+    "ar" : "في إجازة",
+    "en" : "In Vacation"
   } ]
 }

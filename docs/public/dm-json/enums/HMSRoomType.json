@@ -11,10 +11,10 @@
   }, {
     "id" : "NotNeedAccommodation",
     "ar" : "لا تحتاج لإقامة",
-    "en" : "Not Need Accommodation"
+    "en" : "Does Not Need Accommodation"
   }, {
     "id" : "Nurseries",
-    "ar" : "حضًانات",
+    "ar" : "حضّانات",
     "en" : "Nurseries"
   }, {
     "id" : "IntensiveCare",
@@ -30,16 +30,16 @@
     "en" : "Laboratory"
   }, {
     "id" : "ReceptionRoom",
-    "ar" : "إستقبال",
+    "ar" : "استقبال",
     "en" : "Reception Room"
   }, {
     "id" : "OutPatientClinic",
     "ar" : "عيادات خارجية",
-    "en" : "OutPatient Clinic"
+    "en" : "Outpatient Clinic"
   }, {
     "id" : "InPatientClinic",
     "ar" : "عيادات داخلية",
-    "en" : "InPatient Clinic"
+    "en" : "Inpatient Clinic"
   }, {
     "id" : "Radiology",
     "ar" : "أشعة",
@@ -54,7 +54,7 @@
     "en" : "Newborn"
   }, {
     "id" : "Other",
-    "ar" : "أخري",
+    "ar" : "أخرى",
     "en" : "Other"
   } ]
 }

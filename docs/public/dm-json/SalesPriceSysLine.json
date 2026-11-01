@@ -212,7 +212,7 @@
   }, {
     "id" : "itemDimensions.subItem",
     "column" : "subItem_id",
-    "ar" : " السياره",
+    "ar" : " السيارة",
     "en" : " Customer Car",
     "type" : "Reference",
     "refTo" : "SubItem",
@@ -229,8 +229,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "lineNumber",
@@ -241,13 +241,13 @@
   }, {
     "id" : "maxPrice",
     "column" : "maxPrice",
-    "ar" : "اقصي سعر",
+    "ar" : "أقصى سعر",
     "en" : "Max Price",
     "type" : "Decimal"
   }, {
     "id" : "maxQty",
     "column" : "maxQty",
-    "ar" : "اقصي كمية",
+    "ar" : "أقصى كمية",
     "en" : "Max Qty",
     "type" : "Decimal"
   }, {
@@ -304,7 +304,7 @@
     "id" : "ownerRef",
     "columns" : [ "ownerRefActualCode", " ownerRefCode", " ownerRefEntityType", " ownerRefId" ],
     "ar" : "المستند",
-    "en" : "owner",
+    "en" : "Owner",
     "type" : "Genericreference"
   }, {
     "id" : "priceAfterTax1",
@@ -423,7 +423,7 @@
   }, {
     "id" : "toLotId",
     "column" : "toLotId",
-    "ar" : "الي شحنة",
+    "ar" : "إلى شحنة",
     "en" : "To Lot Id",
     "type" : "Text",
     "feature" : "scLot"

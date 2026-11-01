@@ -2,15 +2,15 @@
   "enum" : "RegionType",
   "values" : [ {
     "id" : "Country",
-    "ar" : "دوله",
+    "ar" : "دولة",
     "en" : "Country"
   }, {
     "id" : "State",
-    "ar" : "محافظه",
+    "ar" : "محافظة",
     "en" : "State"
   }, {
     "id" : "City",
-    "ar" : "مدينه",
+    "ar" : "مدينة",
     "en" : "City"
   }, {
     "id" : "Area",

@@ -7,7 +7,7 @@
   }, {
     "id" : "preparement",
     "ar" : "تجهيز",
-    "en" : "preparement"
+    "en" : "preparation"
   }, {
     "id" : "Training",
     "ar" : "تدريب",
@@ -15,6 +15,6 @@
   }, {
     "id" : "TroubleTicket",
     "ar" : "دعم",
-    "en" : "TroubleTicket"
+    "en" : "Trouble Ticket"
   } ]
 }

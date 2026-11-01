@@ -97,8 +97,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",
@@ -150,7 +150,7 @@
     }, {
       "id" : "extraFilters.fieldId",
       "column" : "fieldId",
-      "ar" : "الحقل الذي يجب أن يطابق الذمة المتعلق",
+      "ar" : "الحقل الذي يجب أن يطابق الذمة المتعلقة",
       "en" : "Field Matching Related Subsidiary",
       "type" : "Text"
     }, {

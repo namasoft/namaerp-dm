@@ -3,10 +3,10 @@
   "values" : [ {
     "id" : "INDIVIDUAL",
     "ar" : "فرد",
-    "en" : "INDIVIDUAL"
+    "en" : "Individual"
   }, {
     "id" : "BUSINESS",
     "ar" : "عمل",
-    "en" : "BUSINESS"
+    "en" : "Business"
   } ]
 }

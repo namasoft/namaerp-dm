@@ -2,19 +2,19 @@
   "enum" : "AIToolType",
   "values" : [ {
     "id" : "QueryBased",
-    "ar" : "Query Based",
+    "ar" : "مبني على استعلام",
     "en" : "Query Based"
   }, {
     "id" : "EntityFlowBased",
-    "ar" : "Entity Flow Based",
+    "ar" : "مبني على مسار كيان",
     "en" : "Entity Flow Based"
   }, {
     "id" : "SystemTools",
-    "ar" : "System Tool",
+    "ar" : "أداة نظام",
     "en" : "System Tool"
   }, {
     "id" : "ReportBased",
-    "ar" : "Report Based",
+    "ar" : "مبني على تقرير",
     "en" : "Report Based"
   } ]
 }

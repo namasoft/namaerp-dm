@@ -14,7 +14,7 @@
   }, {
     "id" : "allowModifyWhileUnderApproval",
     "column" : "allowModifyWhileUnderApproval",
-    "ar" : "السماح بالتعديل اثناء انتظار الموافقة",
+    "ar" : "السماح بالتعديل أثناء انتظار الموافقة",
     "en" : "Allow Modification While Waiting Approval",
     "type" : "Boolean"
   }, {
@@ -28,7 +28,7 @@
   }, {
     "id" : "approvalDefinition",
     "column" : "approvalDefinition_id",
-    "ar" : " تعريف موافقه",
+    "ar" : " تعريف موافقة",
     "en" : " Approval Definition",
     "type" : "Reference",
     "refTo" : "ApprovalDefinition",

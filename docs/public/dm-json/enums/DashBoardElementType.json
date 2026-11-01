@@ -2,7 +2,7 @@
   "enum" : "DashBoardElementType",
   "values" : [ {
     "id" : "EChartDataSource",
-    "ar" : "1. Chart Data Source",
+    "ar" : "1. مصدر بيانات الرسم البياني",
     "en" : "1. Chart Data Source"
   }, {
     "id" : "EChart",
@@ -11,11 +11,11 @@
   }, {
     "id" : "PieChart",
     "ar" : "PieChart",
-    "en" : "PieChart"
+    "en" : "Pie Chart"
   }, {
     "id" : "ColumnWithRotatedLabels",
     "ar" : "ColumnWithRotatedLabels",
-    "en" : "ColumnWithRotatedLabels"
+    "en" : "Column With Rotated Labels"
   }, {
     "id" : "ColumnWithCategsAndLabels",
     "ar" : "Column With Categories And Labels",
@@ -27,7 +27,7 @@
   }, {
     "id" : "BasicAreaChart",
     "ar" : "BasicAreaChart",
-    "en" : "BasicAreaChart"
+    "en" : "Basic Area Chart"
   }, {
     "id" : "Table",
     "ar" : "جدول",

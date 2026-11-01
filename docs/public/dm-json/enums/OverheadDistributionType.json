@@ -2,7 +2,7 @@
   "enum" : "OverheadDistributionType",
   "values" : [ {
     "id" : "Equally",
-    "ar" : "بالتساي",
+    "ar" : "بالتساوي",
     "en" : "Equally"
   }, {
     "id" : "FinishedProductQuantity",

@@ -2,11 +2,11 @@
   "enum" : "TextDirection",
   "values" : [ {
     "id" : "RTL",
-    "ar" : "يمين إلي يسار",
+    "ar" : "يمين إلى يسار",
     "en" : "Right To Left"
   }, {
     "id" : "LTR",
-    "ar" : "يسار إلي يمين",
+    "ar" : "يسار إلى يمين",
     "en" : "Left To Right"
   } ]
 }

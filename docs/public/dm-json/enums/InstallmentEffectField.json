@@ -6,7 +6,7 @@
     "en" : "Requested Collect"
   }, {
     "id" : "CollectedByFP",
-    "ar" : "محصل باوراق تجارية",
+    "ar" : "محصل بأوراق تجارية",
     "en" : "Collected By Commercial Paper"
   }, {
     "id" : "SystemPaid",

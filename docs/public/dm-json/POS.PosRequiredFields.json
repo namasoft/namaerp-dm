@@ -2,8 +2,8 @@
   "entity" : "POS.PosRequiredFields",
   "table" : "PosRequiredFields",
   "module" : "pos-app",
-  "ar" : "الحقول المطلوبه لنقاط البيع",
-  "arPlural" : " الحقول المطلوبه لنقاط البيع",
+  "ar" : "الحقول المطلوبة لنقاط البيع",
+  "arPlural" : " الحقول المطلوبة لنقاط البيع",
   "en" : "Pos Required Fields",
   "enPlural" : " Pos Required Fields",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.PosRequiredFields.html",
@@ -100,8 +100,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",
@@ -147,7 +147,7 @@
     "fields" : [ {
       "id" : "details.customer",
       "column" : "customer_id",
-      "ar" : "العلاقه مع العميل | العميل",
+      "ar" : "العلاقة مع العميل | العميل",
       "en" : "Relation With Customer | Customer",
       "type" : "Reference",
       "refTo" : "POS.POSCustomer",
@@ -159,7 +159,7 @@
     }, {
       "id" : "details.docCategory",
       "column" : "docCategory_id",
-      "ar" : "العلاقه مع تصنيف السجل | تصنيف السجل",
+      "ar" : "العلاقة مع تصنيف السجل | تصنيف السجل",
       "en" : "Relation With Document Category | Document Category",
       "type" : "Reference",
       "refTo" : "POS.PosDocCategory",
@@ -183,8 +183,8 @@
     }, {
       "id" : "details.invoiceClassification",
       "column" : "invoiceClassification_id",
-      "ar" : "العلاقه مع تصنيف الفاتورة | تصنيف الفاتورة",
-      "en" : "Relation With Invoice classification | Invoice classification",
+      "ar" : "العلاقة مع تصنيف الفاتورة | تصنيف الفاتورة",
+      "en" : "Relation With Invoice Classification | Invoice Classification",
       "type" : "Reference",
       "refTo" : "POS.POSInvoiceClassification",
       "refPath" : "/modules/pos-app/POS.POSInvoiceClassification.html"
@@ -195,7 +195,7 @@
     }, {
       "id" : "details.locator",
       "column" : "locator_id",
-      "ar" : "العلاقه مع الموقع | الموقع",
+      "ar" : "العلاقة مع الموقع | الموقع",
       "en" : "Relation With Locator | Locator",
       "type" : "Reference",
       "refTo" : "POS.POSLocation",
@@ -209,37 +209,37 @@
     }, {
       "id" : "details.relationWithClassification",
       "column" : "relationWithClassification",
-      "ar" : "العلاقه مع تصنيف الفاتورة | العلاقه",
-      "en" : "Relation With Invoice classification | Relation",
+      "ar" : "العلاقة مع تصنيف الفاتورة | العلاقة",
+      "en" : "Relation With Invoice Classification | Relation",
       "type" : "Text"
     }, {
       "id" : "details.relationWithCustomer",
       "column" : "relationWithCustomer",
-      "ar" : "العلاقه مع العميل | العلاقه",
+      "ar" : "العلاقة مع العميل | العلاقة",
       "en" : "Relation With Customer | Relation",
       "type" : "Text"
     }, {
       "id" : "details.relationWithDocCategory",
       "column" : "relationWithDocCategory",
-      "ar" : "العلاقه مع تصنيف السجل | العلاقه",
+      "ar" : "العلاقة مع تصنيف السجل | العلاقة",
       "en" : "Relation With Document Category | Relation",
       "type" : "Text"
     }, {
       "id" : "details.relationWithLocator",
       "column" : "relationWithLocator",
-      "ar" : "العلاقه مع الموقع | العلاقه",
+      "ar" : "العلاقة مع الموقع | العلاقة",
       "en" : "Relation With Locator | Relation",
       "type" : "Text"
     }, {
       "id" : "details.relationWithSalesMan",
       "column" : "relationWithSalesMan",
-      "ar" : "العلاقه مع مندوب المبيعات | العلاقه",
+      "ar" : "العلاقة مع مندوب المبيعات | العلاقة",
       "en" : "Relation With Sales Man | Relation",
       "type" : "Text"
     }, {
       "id" : "details.relationWithWarehouse",
       "column" : "relationWithWarehouse",
-      "ar" : "العلاقه مع المخزن | العلاقه",
+      "ar" : "العلاقة مع المخزن | العلاقة",
       "en" : "Relation With Warehouse | Relation",
       "type" : "Text"
     }, {
@@ -251,7 +251,7 @@
     }, {
       "id" : "details.salesMan",
       "column" : "salesMan_id",
-      "ar" : "العلاقه مع مندوب المبيعات | مندوب المبيعات",
+      "ar" : "العلاقة مع مندوب المبيعات | مندوب المبيعات",
       "en" : "Relation With Sales Man | Sales Man",
       "type" : "Reference",
       "refTo" : "POS.POSEmployee",
@@ -259,7 +259,7 @@
     }, {
       "id" : "details.warehouse",
       "column" : "warehouse_id",
-      "ar" : "العلاقه مع المخزن | المخزن",
+      "ar" : "العلاقة مع المخزن | المخزن",
       "en" : "Relation With Warehouse | Warehouse",
       "type" : "Reference",
       "refTo" : "POS.POSWarehouse",

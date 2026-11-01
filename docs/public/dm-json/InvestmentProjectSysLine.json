@@ -36,7 +36,7 @@
     "id" : "inValue",
     "column" : "inValue",
     "ar" : "إيرادات",
-    "en" : "InValue",
+    "en" : "In Value",
     "type" : "Decimal"
   }, {
     "id" : "isPlanned",
@@ -57,8 +57,8 @@
   }, {
     "id" : "outValue",
     "column" : "outValue",
-    "ar" : "إلتزامات",
-    "en" : "OutValue",
+    "ar" : "التزامات",
+    "en" : "Out Value",
     "type" : "Decimal"
   }, {
     "id" : "remainingInValue",
@@ -86,7 +86,7 @@
     "id" : "target",
     "columns" : [ "targetActualCode", " targetCode", " targetEntityType", " targetId" ],
     "ar" : "الجهة",
-    "en" : "Taregt",
+    "en" : "Target",
     "type" : "Genericreference"
   }, {
     "id" : "toDate",

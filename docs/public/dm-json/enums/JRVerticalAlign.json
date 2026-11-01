@@ -2,7 +2,7 @@
   "enum" : "JRVerticalAlign",
   "values" : [ {
     "id" : "Top",
-    "ar" : "أعلي",
+    "ar" : "أعلى",
     "en" : "Top"
   }, {
     "id" : "Middle",

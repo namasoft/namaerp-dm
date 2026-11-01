@@ -100,8 +100,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",
@@ -178,7 +178,7 @@
       "id" : "details.ecrRefNumOperator",
       "column" : "ecrRefNumOperator",
       "ar" : "ECR Ref Number / Local Reference Number| -",
-      "en" : "ECR Ref Number  / Local Reference Number | -",
+      "en" : "ECR Ref Number / Local Reference Number | -",
       "type" : "Text"
     }, {
       "id" : "details.id",
@@ -272,7 +272,7 @@
       "id" : "details.terminalIdOperator",
       "column" : "terminalIdOperator",
       "ar" : "Terminal Id / Device Serial No | -",
-      "en" : "Terminal Id  / Device Serial No | -",
+      "en" : "Terminal Id / Device Serial No | -",
       "type" : "Text"
     } ]
   } ]

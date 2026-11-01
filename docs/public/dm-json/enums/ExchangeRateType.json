@@ -2,7 +2,7 @@
   "enum" : "ExchangeRateType",
   "values" : [ {
     "id" : "Annual",
-    "ar" : "سنوى",
+    "ar" : "سنوي",
     "en" : "Annual"
   }, {
     "id" : "Period",

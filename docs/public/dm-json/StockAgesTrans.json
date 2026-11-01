@@ -49,7 +49,7 @@
       "id" : "details.inQty",
       "column" : "inQty",
       "ar" : "الدخول | الكمية",
-      "en" : "IN |Qty",
+      "en" : "In |Qty",
       "type" : "Decimal"
     }, {
       "id" : "details.lineNumber",

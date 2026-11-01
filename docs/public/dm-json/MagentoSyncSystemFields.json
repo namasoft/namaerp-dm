@@ -17,7 +17,7 @@
   }, {
     "id" : "lastGatewayReadDateTime",
     "column" : "lastGatewayReadDateTime",
-    "ar" : "Last Gateway Read Date Time",
+    "ar" : "تاريخ ووقت آخر قراءة من البوابة",
     "en" : "Last Gateway Read Date Time",
     "type" : "DateAndTime"
   }, {

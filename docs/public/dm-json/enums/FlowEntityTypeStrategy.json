@@ -2,27 +2,27 @@
   "enum" : "FlowEntityTypeStrategy",
   "values" : [ {
     "id" : "RunsOnAnyDocumentType",
-    "ar" : "Runs On Any Document Type",
+    "ar" : "يعمل على أي نوع مستند",
     "en" : "Runs On Any Document Type"
   }, {
     "id" : "RunsOnAnyType",
-    "ar" : "Runs On Any Type",
+    "ar" : "يعمل على أي نوع",
     "en" : "Runs On Any Type"
   }, {
     "id" : "RunsOnAnyMasterFileType",
-    "ar" : "Runs On Any Master File Type",
+    "ar" : "يعمل على أي نوع ملف رئيسي",
     "en" : "Runs On Any Master File Type"
   }, {
     "id" : "RunsOnAnEntityTypeList",
-    "ar" : "Runs On Entity Type List",
+    "ar" : "يعمل على قائمة أنواع كيانات",
     "en" : "Runs On Entity Type List"
   }, {
     "id" : "RunsOnSingleEntityType",
-    "ar" : "Runs On Single Entity Type",
+    "ar" : "يعمل على نوع كيان واحد",
     "en" : "Runs On Single Entity Type"
   }, {
     "id" : "DoesNotNeedARecord",
-    "ar" : "Does Not Need A Record",
+    "ar" : "لا يحتاج إلى سجل",
     "en" : "Does Not Need A Record"
   } ]
 }

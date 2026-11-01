@@ -7,14 +7,14 @@
   "fields" : [ {
     "id" : "daysOfYear",
     "column" : "daysOfYear",
-    "ar" : "عدد الايام للسنة(مقسوما علي)",
-    "en" : "Days Of Year(Divided On)",
+    "ar" : "عدد الأيام للسنة(مقسوما على)",
+    "en" : "Days Of Year (Divided On)",
     "type" : "Decimal"
   }, {
     "id" : "daysPerYear",
     "column" : "daysPerYear",
-    "ar" : "عدد الايام عن كل سنة(مضروبا في)",
-    "en" : "Days Per Year(Multiplied by)",
+    "ar" : "عدد الأيام عن كل سنة(مضروبا في)",
+    "en" : "Days Per Year (Multiplied by)",
     "type" : "Decimal"
   }, {
     "id" : "dueMonths",
@@ -41,7 +41,7 @@
   }, {
     "id" : "sectionType",
     "column" : "sectionType",
-    "ar" : "نوع الشرايحة",
+    "ar" : "نوع الشريحة",
     "en" : "Section Type",
     "type" : "Enum",
     "enum" : "TerminationSectionType"
@@ -49,7 +49,7 @@
     "id" : "terminationDuePercentage",
     "column" : "terminationDuePercentage",
     "ar" : "نسبة استحقاق نهاية الخدمة",
-    "en" : "Termination Du Percentage",
+    "en" : "Termination Due Percentage",
     "type" : "Decimal"
   }, {
     "id" : "terminationReason",

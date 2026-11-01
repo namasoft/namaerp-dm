@@ -3,10 +3,10 @@
   "values" : [ {
     "id" : "PORTRAIT",
     "ar" : "PORTRAIT",
-    "en" : "PORTRAIT"
+    "en" : "Portrait"
   }, {
     "id" : "LANDSCAPE",
     "ar" : "LANDSCAPE",
-    "en" : "LANDSCAPE"
+    "en" : "Landscape"
   } ]
 }

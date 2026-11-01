@@ -13,7 +13,7 @@
   }, {
     "id" : "className",
     "column" : "className",
-    "ar" : "إسم العنصر",
+    "ar" : "اسم العنصر",
     "en" : "Class Name",
     "type" : "Text"
   }, {

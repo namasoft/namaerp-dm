@@ -226,7 +226,7 @@
   }, {
     "id" : "paymentPercentage",
     "column" : "paymentPercentage",
-    "ar" : "نسبة المحاسبه",
+    "ar" : "نسبة المحاسبة",
     "en" : "Payment Percentage",
     "type" : "Decimal"
   }, {
@@ -238,31 +238,31 @@
   }, {
     "id" : "phaseQty1.costExeQty",
     "column" : "phaseQty1CostExeQty",
-    "ar" : "المرحلة الأولي | الكمية المنفذة للتكاليف",
+    "ar" : "المرحلة الأولى | الكمية المنفذة للتكاليف",
     "en" : "Phase 1 | Cost Executed Quantity",
     "type" : "Decimal"
   }, {
     "id" : "phaseQty1.exeQty",
     "column" : "phaseQty1ExeQty",
-    "ar" : "المرحلة الأولي | الكمية المنفذة",
+    "ar" : "المرحلة الأولى | الكمية المنفذة",
     "en" : "Phase 1 | Executed Quantity",
     "type" : "Decimal"
   }, {
     "id" : "phaseQty1.extractQty",
     "column" : "phaseQty1ExtractQty",
-    "ar" : "المرحلة الأولي | كمية المستخلص",
+    "ar" : "المرحلة الأولى | كمية المستخلص",
     "en" : "Phase 1 | Extracted Quantity",
     "type" : "Decimal"
   }, {
     "id" : "phaseQty1.paymentPercentage",
     "column" : "phaseQty1PaymentPercentage",
-    "ar" : "المرحلة الأولي | نسبة المحاسبة",
+    "ar" : "المرحلة الأولى | نسبة المحاسبة",
     "en" : "Phase 1 | Payment Percentage",
     "type" : "Decimal"
   }, {
     "id" : "phaseQty1.phase",
     "column" : "phaseQty1Phase_id",
-    "ar" : "المرحلة الأولي | مرحلة",
+    "ar" : "المرحلة الأولى | مرحلة",
     "en" : "Phase 1 | Phase",
     "type" : "Reference",
     "refTo" : "ContractingPhase",
@@ -270,13 +270,13 @@
   }, {
     "id" : "phaseQty1.pricePercent",
     "column" : "phaseQty1PricePercent",
-    "ar" : "المرحلة الأولي | نسبة من السعر",
+    "ar" : "المرحلة الأولى | نسبة من السعر",
     "en" : "Phase 1 | Price Percentage",
     "type" : "Decimal"
   }, {
     "id" : "phaseQty1.qty",
     "column" : "phaseQty1Qty",
-    "ar" : "المرحلة الأولي | كمية",
+    "ar" : "المرحلة الأولى | كمية",
     "en" : "Phase 1 | Quantity",
     "type" : "Decimal"
   }, {
@@ -711,7 +711,7 @@
   }, {
     "id" : "totalCost",
     "column" : "totalCost",
-    "ar" : "اجمالى التكلفة",
+    "ar" : "إجمالي التكلفة",
     "en" : "Total Cost",
     "type" : "Decimal"
   }, {
@@ -747,7 +747,7 @@
   }, {
     "id" : "unitCost",
     "column" : "unitCost",
-    "ar" : "تكلفة الوحده",
+    "ar" : "تكلفة الوحدة",
     "en" : "Unit Cost",
     "type" : "Decimal"
   }, {

@@ -11,15 +11,15 @@
   }, {
     "id" : "UnderProcedure",
     "ar" : "تحت الإجراء",
-    "en" : "UnderProcedure"
+    "en" : "Under Procedure"
   }, {
     "id" : "TotalyExecuted",
     "ar" : "مُنفذ تماماً",
-    "en" : "Totaly Executed"
+    "en" : "Totally Executed"
   }, {
     "id" : "UnderExecuted",
     "ar" : "تحت التنفيذ",
-    "en" : "Under Executed"
+    "en" : "Under Execution"
   }, {
     "id" : "Finished",
     "ar" : "منتهي",
@@ -31,6 +31,6 @@
   }, {
     "id" : "TotalyReceipt",
     "ar" : "مُسلَم كلياً",
-    "en" : "Totaly Receipt"
+    "en" : "Total Receipt"
   } ]
 }

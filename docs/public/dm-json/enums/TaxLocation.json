@@ -2,7 +2,7 @@
   "enum" : "TaxLocation",
   "values" : [ {
     "id" : "MainPrice",
-    "ar" : "السعر الاساسي",
+    "ar" : "السعر الأساسي",
     "en" : "Main Price"
   }, {
     "id" : "Discount1",

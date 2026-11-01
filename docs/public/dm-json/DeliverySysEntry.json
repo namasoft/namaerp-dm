@@ -99,7 +99,7 @@
   }, {
     "id" : "itemDimensions.specificDimensions.lotId",
     "column" : "lotId",
-    "ar" : "رقم الشحنه",
+    "ar" : "رقم الشحنة",
     "en" : "Lot ID",
     "type" : "Text",
     "feature" : "scLot"
@@ -141,7 +141,7 @@
   }, {
     "id" : "itemDimensions.specificDimensions.subItem",
     "column" : "subItem_id",
-    "ar" : " السياره",
+    "ar" : " السيارة",
     "en" : " Customer Car",
     "type" : "Reference",
     "refTo" : "SubItem",

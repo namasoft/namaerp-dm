@@ -18,11 +18,11 @@
     "en" : "Sister"
   }, {
     "id" : "Son",
-    "ar" : "إبن",
+    "ar" : "ابن",
     "en" : "Son"
   }, {
     "id" : "Daughter",
-    "ar" : "إبنة",
+    "ar" : "ابنة",
     "en" : "Daughter"
   }, {
     "id" : "Husband",
@@ -46,7 +46,7 @@
     "en" : "Friend"
   }, {
     "id" : "Other",
-    "ar" : "أخري",
+    "ar" : "أخرى",
     "en" : "Other"
   }, {
     "id" : "Child1",

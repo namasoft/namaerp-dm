@@ -2,8 +2,8 @@
   "entity" : "POS.POSShiftOpen",
   "table" : "POSShiftOpen",
   "module" : "pos-app",
-  "ar" : "فتح ورديه",
-  "arPlural" : " فتح ورديه",
+  "ar" : "فتح وردية",
+  "arPlural" : " فتح وردية",
   "en" : "POS Shift Opening",
   "enPlural" : " POS Shift Opening",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSShiftOpen.html",
@@ -108,8 +108,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",
@@ -255,6 +255,7 @@
     }, {
       "id" : "details.shift",
       "column" : "shift_id",
+      "ar" : "الوردية",
       "en" : "Shift",
       "type" : "Reference",
       "refTo" : "POS.POSShiftOpen",

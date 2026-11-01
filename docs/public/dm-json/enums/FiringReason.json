@@ -2,7 +2,7 @@
   "enum" : "FiringReason",
   "values" : [ {
     "id" : "Resignation",
-    "ar" : "إستقالة",
+    "ar" : "استقالة",
     "en" : "Resignation"
   }, {
     "id" : "Dismissal",

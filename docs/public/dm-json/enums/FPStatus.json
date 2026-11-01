@@ -51,6 +51,6 @@
   }, {
     "id" : "PartialPaid",
     "ar" : "مسدد جزئيا",
-    "en" : "=Partial Paid"
+    "en" : "Partial Paid"
   } ]
 }

@@ -2,7 +2,7 @@
   "enum" : "ContractingExtractType",
   "values" : [ {
     "id" : "Initial",
-    "ar" : "مبدأي",
+    "ar" : "مبدئي",
     "en" : "Initial"
   }, {
     "id" : "Ongoing",

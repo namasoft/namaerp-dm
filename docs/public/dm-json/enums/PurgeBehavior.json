@@ -3,7 +3,7 @@
   "values" : [ {
     "id" : "DeleteAndCopyToArchiveDB",
     "ar" : "Delete And Copy ToArchive DB",
-    "en" : "Delete And Copy ToArchive DB"
+    "en" : "Delete And Copy To Archive DB"
   }, {
     "id" : "DeleteOnly",
     "ar" : "Delete Only",

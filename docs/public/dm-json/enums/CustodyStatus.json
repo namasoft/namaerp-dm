@@ -2,11 +2,11 @@
   "enum" : "CustodyStatus",
   "values" : [ {
     "id" : "Initial",
-    "ar" : "مبدأي",
+    "ar" : "مبدئي",
     "en" : "Initial"
   }, {
     "id" : "Purchased",
-    "ar" : "تم شراؤة",
+    "ar" : "تم شراؤه",
     "en" : "Purchased"
   }, {
     "id" : "Delivered",

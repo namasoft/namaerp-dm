@@ -3,7 +3,7 @@
   "values" : [ {
     "id" : "Openning",
     "ar" : "افتتاحية",
-    "en" : "Openning"
+    "en" : "Opening"
   }, {
     "id" : "Normal",
     "ar" : "عادية",
@@ -14,7 +14,7 @@
     "en" : "Adjustment"
   }, {
     "id" : "Closing",
-    "ar" : "اغلاق",
+    "ar" : "إغلاق",
     "en" : "Closing"
   }, {
     "id" : "PurgePeriod",

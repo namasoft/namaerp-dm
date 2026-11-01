@@ -2,7 +2,7 @@
   "enum" : "DimensionPolicy",
   "values" : [ {
     "id" : "Required",
-    "ar" : "إجبارى",
+    "ar" : "إجباري",
     "en" : "Required"
   }, {
     "id" : "Optional",

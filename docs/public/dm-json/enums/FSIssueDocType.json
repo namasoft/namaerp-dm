@@ -6,7 +6,7 @@
     "en" : "Income Statement"
   }, {
     "id" : "BalanceSheet",
-    "ar" : "قائمة المركز المالى",
+    "ar" : "قائمة المركز المالي",
     "en" : "Balance Sheet"
   }, {
     "id" : "CashFlow",

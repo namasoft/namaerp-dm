@@ -3,39 +3,39 @@
   "values" : [ {
     "id" : "OverTime",
     "ar" : "وقت إضافي (بالساعة)",
-    "en" : "OverTime (Hours)"
+    "en" : "Overtime (Hours)"
   }, {
     "id" : "OverTimeNormalDay",
     "ar" : "وقت إضافي يوم عادي (بالساعة)",
-    "en" : "OverTime Normal Day (Hours)"
+    "en" : "Overtime Normal Day (Hours)"
   }, {
     "id" : "OverTimeInWeekEnds",
     "ar" : "وقت إضافي عطلة أسبوعية (بالساعة)",
-    "en" : "OverTime In Week Ends (Hours)"
+    "en" : "Overtime In Week Ends (Hours)"
   }, {
     "id" : "OverTimeInHolidays",
     "ar" : "وقت إضافي يوم عطلة (بالساعة)",
-    "en" : "OverTime In Holidays (Hours)"
+    "en" : "Overtime In Holidays (Hours)"
   }, {
     "id" : "OverTimeInVacations",
-    "ar" : "وقت إضافي في اجازة (بالساعة)",
-    "en" : "OverTime In Vacations (Hours)"
+    "ar" : "وقت إضافي في إجازة (بالساعة)",
+    "en" : "Overtime In Vacations (Hours)"
   }, {
     "id" : "OverTimeNotNormalDay",
-    "ar" : "وقت إضافي اى اجازة (بالساعة)",
-    "en" : "OverTime Other Than Normal Day (Hours)"
+    "ar" : "وقت إضافي أي إجازة (بالساعة)",
+    "en" : "Overtime Other Than Normal Day (Hours)"
   }, {
     "id" : "OverTimeShift1",
     "ar" : "وقت إضافي دوام 1 (بالساعة)",
-    "en" : "OverTime Shift1 (Hours)"
+    "en" : "Overtime Shift1 (Hours)"
   }, {
     "id" : "OverTimeShift2",
     "ar" : "وقت إضافي دوام 2 (بالساعة)",
-    "en" : "OverTime Shift2 (Hours)"
+    "en" : "Overtime Shift2 (Hours)"
   }, {
     "id" : "OverTimeShift3",
     "ar" : "وقت إضافي دوام 3 (بالساعة)",
-    "en" : "OverTime Shift3 (Hours)"
+    "en" : "Overtime Shift3 (Hours)"
   }, {
     "id" : "LateHours",
     "ar" : "ساعات التأخير (بالساعة)",
@@ -70,19 +70,19 @@
     "en" : "Early Arrival Shift3 (Hours)"
   }, {
     "id" : "EarlyLeave",
-    "ar" : "إنصراف مبكر (بالساعة)",
+    "ar" : "انصراف مبكر (بالساعة)",
     "en" : "Early Leave (Hours)"
   }, {
     "id" : "EarlyLeaveShift1",
-    "ar" : "إنصراف مبكر دوام 1 (بالساعة)",
+    "ar" : "انصراف مبكر دوام 1 (بالساعة)",
     "en" : "Early Leave Shift1 (Hours)"
   }, {
     "id" : "EarlyLeaveShift2",
-    "ar" : "إنصراف مبكر دوام 2 (بالساعة)",
+    "ar" : "انصراف مبكر دوام 2 (بالساعة)",
     "en" : "Early Leave Shift2 (Hours)"
   }, {
     "id" : "EarlyLeaveShift3",
-    "ar" : "إنصراف مبكر دوام 3 (بالساعة)",
+    "ar" : "انصراف مبكر دوام 3 (بالساعة)",
     "en" : "Early Leave Shift3 (Hours)"
   }, {
     "id" : "OutShift1",
@@ -106,11 +106,11 @@
     "en" : "Permissions Hours of Specific Type (Hours)"
   }, {
     "id" : "PermissionTypeCount",
-    "ar" : "عدد أذون إنصراف",
+    "ar" : "عدد أذون انصراف",
     "en" : "Permission Types Count"
   }, {
     "id" : "VacationTypeCount",
-    "ar" : "عدد أجازات",
+    "ar" : "عدد إجازات",
     "en" : "Vacation Types Count"
   }, {
     "id" : "UnderTime",

@@ -2,7 +2,7 @@
   "enum" : "LCState",
   "values" : [ {
     "id" : "LCInitial",
-    "ar" : "مبدئى",
+    "ar" : "مبدئي",
     "en" : "Initial"
   }, {
     "id" : "Opened",
@@ -14,7 +14,8 @@
     "en" : "Shipped"
   }, {
     "id" : "InPort",
-    "ar" : "في الميناء"
+    "ar" : "في الميناء",
+    "en" : "In Port"
   }, {
     "id" : "Released",
     "ar" : "تم الإفراج عنه",

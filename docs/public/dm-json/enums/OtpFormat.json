@@ -7,10 +7,10 @@
   }, {
     "id" : "AlphaNumeric",
     "ar" : "أرقام و حروف",
-    "en" : "Numbers And Character"
+    "en" : "Numbers And Characters"
   }, {
     "id" : "Alphabetic",
     "ar" : "حروف فقط",
-    "en" : "Only Character"
+    "en" : "Only Characters"
   } ]
 }

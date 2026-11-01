@@ -34,6 +34,7 @@
   }, {
     "id" : "doNotDeleteAfterExecution",
     "column" : "doNotDeleteAfterExecution",
+    "ar" : "عدم الحذف بعد التنفيذ",
     "en" : "Do Not Delete After Execution",
     "type" : "Boolean"
   }, {
@@ -67,7 +68,7 @@
   }, {
     "id" : "notifyRecordAfterFinish",
     "column" : "notifyRecordAfterFinish",
-    "ar" : "Notify Record After Finish",
+    "ar" : "تنبيه السجل بعد الانتهاء",
     "en" : "Notify Record After Finish",
     "type" : "Boolean"
   }, {
@@ -101,7 +102,7 @@
     "id" : "submitionDate",
     "column" : "submitionDate",
     "ar" : "تاريخ الحدث",
-    "en" : "Submition Date",
+    "en" : "Submission Date",
     "type" : "DateAndTime"
   }, {
     "id" : "targetRecord",

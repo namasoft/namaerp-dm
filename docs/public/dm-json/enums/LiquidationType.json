@@ -2,11 +2,11 @@
   "enum" : "LiquidationType",
   "values" : [ {
     "id" : "AnnualVacation",
-    "ar" : "أجازة سنوية",
+    "ar" : "إجازة سنوية",
     "en" : "Annual Vacation"
   }, {
     "id" : "CompulsoryVacation",
-    "ar" : "أجازة إضطرارية",
+    "ar" : "إجازة اضطرارية",
     "en" : "Compulsory Vacation"
   } ]
 }

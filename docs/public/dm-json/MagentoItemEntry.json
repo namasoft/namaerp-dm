@@ -27,7 +27,7 @@
   }, {
     "id" : "originalPrice",
     "column" : "originalPrice",
-    "ar" : "السعر الاصلي",
+    "ar" : "السعر الأصلي",
     "en" : "Original Price",
     "type" : "Decimal"
   }, {

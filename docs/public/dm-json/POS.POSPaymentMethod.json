@@ -64,7 +64,7 @@
   }, {
     "id" : "criticalPosPaymentMethod",
     "column" : "criticalPosPaymentMethod",
-    "ar" : "طريقة دفع حرجه لنقاط البيع",
+    "ar" : "طريقة دفع حرجة لنقاط البيع",
     "en" : "Critical Pos Payment Method",
     "type" : "Boolean"
   }, {
@@ -180,7 +180,7 @@
   }, {
     "id" : "hideInShifts",
     "column" : "hideInShifts",
-    "ar" : "اخفاء في شاشة الورديات",
+    "ar" : "إخفاء في شاشة الورديات",
     "en" : "Hide In Shifts",
     "type" : "Boolean"
   }, {
@@ -194,8 +194,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "masterGroupId",
@@ -212,7 +212,7 @@
   }, {
     "id" : "mustBeWithFeesPercentInReturn",
     "column" : "mustBeWithFeesPercentInReturn",
-    "ar" : "الأرتجاع بها مع عدم خفض العموله في الفاتورة الاصليه",
+    "ar" : "الارتجاع بها مع عدم خفض العمولة في الفاتورة الأصلية",
     "en" : "Must Be With Fees Percentage In Return",
     "type" : "Boolean"
   }, {

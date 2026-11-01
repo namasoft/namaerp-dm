@@ -82,7 +82,7 @@
   }, {
     "id" : "numberOfDays",
     "column" : "numberOfDays",
-    "ar" : "عدد الايام",
+    "ar" : "عدد الأيام",
     "en" : "Number Of Days",
     "type" : "Integer"
   }, {

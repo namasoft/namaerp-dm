@@ -2,7 +2,7 @@
   "enum" : "TaxApplyType",
   "values" : [ {
     "id" : "TotalPrice",
-    "ar" : "السعر الإساسي",
+    "ar" : "السعر الأساسي",
     "en" : " Total"
   }, {
     "id" : "AfterDiscount1Price",

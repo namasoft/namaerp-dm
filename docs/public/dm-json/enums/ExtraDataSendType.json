@@ -2,11 +2,11 @@
   "enum" : "ExtraDataSendType",
   "values" : [ {
     "id" : "SendInFieldsElement",
-    "ar" : "Send In Fields Element",
+    "ar" : "الإرسال في عنصر الحقول",
     "en" : "Send In Fields Element"
   }, {
     "id" : "SendInJSONBody",
-    "ar" : "Send In JSON Body",
+    "ar" : "الإرسال في جسم JSON",
     "en" : "Send In JSON Body"
   } ]
 }

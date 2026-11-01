@@ -37,25 +37,25 @@
   }, {
     "id" : "favouritesLevel2",
     "column" : "favouritesLevel2",
-    "ar" : "المستوي 2",
+    "ar" : "المستوى 2",
     "en" : "Favourites Level 2",
     "type" : "Text"
   }, {
     "id" : "favouritesLevel3",
     "column" : "favouritesLevel3",
-    "ar" : "المستوي 3",
+    "ar" : "المستوى 3",
     "en" : "Favourites Level 3",
     "type" : "Text"
   }, {
     "id" : "favouritesLevel4",
     "column" : "favouritesLevel4",
-    "ar" : "المستوي 4",
+    "ar" : "المستوى 4",
     "en" : "Favourites Level 4",
     "type" : "Text"
   }, {
     "id" : "favouritesLevel5",
     "column" : "favouritesLevel5",
-    "ar" : "المستوي 5",
+    "ar" : "المستوى 5",
     "en" : "Favourites Level 5",
     "type" : "Text"
   }, {
@@ -143,8 +143,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",

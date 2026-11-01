@@ -34,7 +34,7 @@
   }, {
     "id" : "withSubsidiary",
     "column" : "withSubsidiary",
-    "ar" : "به ذمه",
+    "ar" : "به ذمة",
     "en" : "With Subsidiary",
     "type" : "Enum",
     "enum" : "YesNo"

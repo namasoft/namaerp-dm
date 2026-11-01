@@ -160,7 +160,7 @@
   }, {
     "id" : "ignoreMatchedItemToBeFreeQty",
     "column" : "ignoreMatchedItemToBeFreeQty",
-    "ar" : "يقتصر العرض على الصنف الذي سيتم صرفة مجاني مع تجاهل كميته",
+    "ar" : "يقتصر العرض على الصنف الذي سيتم صرفه مجاني مع تجاهل كميته",
     "en" : "Ignore Matched Item To Be Free Quantity",
     "type" : "Boolean"
   }, {
@@ -358,7 +358,7 @@
   }, {
     "id" : "stopOtherDiscounts",
     "column" : "stopOtherDiscounts",
-    "ar" : "إيقاف التخفبضات الأخرى",
+    "ar" : "إيقاف التخفيضات الأخرى",
     "en" : "stop other discounts",
     "type" : "Boolean"
   }, {

@@ -13,7 +13,7 @@
   }, {
     "id" : "assignedVacationsDays",
     "column" : "assignedVacationsDays",
-    "ar" : "أيام الأجازات المخصصة",
+    "ar" : "أيام الإجازات المخصصة",
     "en" : "Assigned Vacations Days",
     "type" : "Decimal"
   }, {
@@ -97,21 +97,21 @@
   }, {
     "id" : "vacDocCreationDate",
     "column" : "vacDocCreationDate",
-    "ar" : "تاريخ إنشاء مستند الاجازة",
+    "ar" : "تاريخ إنشاء مستند الإجازة",
     "en" : "Vacation Document Creation Date",
     "type" : "DateAndTime"
   }, {
     "id" : "vacationReason",
     "column" : "vacationReason_id",
-    "ar" : "سبب الأجازة",
-    "en" : "vacation Reason",
+    "ar" : "سبب الإجازة",
+    "en" : "Vacation Reason",
     "type" : "Reference",
     "refTo" : "LeaveReason",
     "refPath" : "/modules/humanresource-payroll/LeaveReason.html"
   }, {
     "id" : "vacationType",
     "column" : "vacationType_id",
-    "ar" : "نوع الأجازة",
+    "ar" : "نوع الإجازة",
     "en" : "Vacation Type",
     "type" : "Reference",
     "refTo" : "VacationType",

@@ -27,7 +27,7 @@
   }, {
     "id" : "deductedValue",
     "column" : "deductedValue",
-    "ar" : "الإجماليات | إستقطاعات",
+    "ar" : "الإجماليات | استقطاعات",
     "en" : "Total | Deductions",
     "type" : "Decimal"
   }, {

@@ -118,8 +118,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "ledgerTransId",
@@ -158,7 +158,7 @@
   }, {
     "id" : "originLastUpdateDate",
     "column" : "originLastUpdateDate",
-    "ar" : "تاريخ اخر تحديث للمستند",
+    "ar" : "تاريخ آخر تحديث للمستند",
     "en" : "Origin Last Update Date",
     "type" : "DateAndTime"
   }, {

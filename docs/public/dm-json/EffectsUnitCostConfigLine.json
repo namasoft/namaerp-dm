@@ -23,7 +23,7 @@
   }, {
     "id" : "percentBasis",
     "column" : "percentBasis",
-    "ar" : "اساس النسبة",
+    "ar" : "أساس النسبة",
     "en" : "Percentage Basis",
     "type" : "FieldID"
   }, {

@@ -33,7 +33,7 @@
   }, {
     "id" : "vacationType",
     "column" : "vacationType_id",
-    "ar" : "نوع الأجازة",
+    "ar" : "نوع الإجازة",
     "en" : "Vacation Type",
     "type" : "Reference",
     "refTo" : "VacationType",

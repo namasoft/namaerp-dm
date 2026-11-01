@@ -19,7 +19,7 @@
   }, {
     "id" : "InvoiceClassification",
     "ar" : "تصنيف الفواتير",
-    "en" : "InvoiceClassification"
+    "en" : "Invoice Classification"
   }, {
     "id" : "CustomerAddress",
     "ar" : "عنوان العميل",
@@ -50,7 +50,7 @@
     "en" : "Taxes Totals"
   }, {
     "id" : "TotalPrice",
-    "ar" : "السعر الإساسي",
+    "ar" : "السعر الأساسي",
     "en" : " Total"
   }, {
     "id" : "Table",
@@ -114,7 +114,7 @@
     "en" : "Attachment5"
   }, {
     "id" : "AddressRegion",
-    "ar" : "منطقه",
+    "ar" : "منطقة",
     "en" : "Address Region"
   }, {
     "id" : "Driver",
@@ -210,7 +210,7 @@
     "en" : "Reservation Net Value"
   }, {
     "id" : "ReservationTimes",
-    "ar" : "من وقت - الي وقت الحجز",
+    "ar" : "من وقت - إلى وقت الحجز",
     "en" : "Reservation From - To Time"
   }, {
     "id" : "ReceiptSource",
@@ -230,7 +230,7 @@
     "en" : "Table Search Field"
   }, {
     "id" : "FromDoc",
-    "ar" : " بناءا على",
+    "ar" : " بناءً على",
     "en" : " From Document"
   }, {
     "id" : "Ref1",

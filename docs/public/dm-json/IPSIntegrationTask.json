@@ -31,7 +31,7 @@
   }, {
     "id" : "lastShipmentStatus",
     "column" : "lastShipmentStatus",
-    "ar" : "اخر حالة للمادة",
+    "ar" : "آخر حالة للمادة",
     "en" : "Last Shipment Status",
     "type" : "Enum",
     "enum" : "TaskStatus"
@@ -76,7 +76,7 @@
     "id" : "submitionDate",
     "column" : "submitionDate",
     "ar" : "تاريخ الحدث",
-    "en" : "Submition Date",
+    "en" : "Submission Date",
     "type" : "DateAndTime"
   }, {
     "id" : "taskType",

@@ -3,7 +3,7 @@
   "values" : [ {
     "id" : "OneTime",
     "ar" : "مرة واحدة فقط",
-    "en" : "OneTime"
+    "en" : "One Time"
   }, {
     "id" : "Yearly",
     "ar" : "سنوية",
@@ -11,14 +11,14 @@
   }, {
     "id" : "EveryTwoYear",
     "ar" : "كل سنتين",
-    "en" : "Every Two Year"
+    "en" : "Every Two Years"
   }, {
     "id" : "EveryThreeYear",
     "ar" : "كل ثلاث سنوات",
-    "en" : "Every Three Year"
+    "en" : "Every Three Years"
   }, {
     "id" : "EveryFourYear",
-    "ar" : "كل اربع سنوات",
-    "en" : "Every Four Year"
+    "ar" : "كل أربع سنوات",
+    "en" : "Every Four Years"
   } ]
 }

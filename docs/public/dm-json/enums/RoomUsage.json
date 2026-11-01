@@ -3,7 +3,7 @@
   "values" : [ {
     "id" : "ResidenceRoom",
     "ar" : "سكن",
-    "en" : "ResidenceRoom"
+    "en" : "Residence Room"
   }, {
     "id" : "OfficeRoom",
     "ar" : "مكتب",

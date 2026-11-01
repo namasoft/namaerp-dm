@@ -2,7 +2,7 @@
   "enum" : "Validity",
   "values" : [ {
     "id" : "Valid",
-    "ar" : "ساريه",
+    "ar" : "سارية",
     "en" : "Valid"
   }, {
     "id" : "Expired",

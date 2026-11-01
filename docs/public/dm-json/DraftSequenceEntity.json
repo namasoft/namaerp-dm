@@ -23,6 +23,7 @@
   }, {
     "id" : "recordId",
     "column" : "recordId",
+    "ar" : "معرف السجل",
     "en" : "Record Id",
     "type" : "ID"
   }, {

@@ -38,7 +38,7 @@
   }, {
     "id" : "notPackagedQty",
     "column" : "notPackagedQty",
-    "ar" : "كمية غير معبئة",
+    "ar" : "كمية غير معبأة",
     "en" : "Not Packaged Quantity",
     "type" : "Decimal"
   }, {
@@ -56,7 +56,7 @@
   }, {
     "id" : "packagedQty",
     "column" : "packagedQty",
-    "ar" : "الكمية المعبئة",
+    "ar" : "الكمية المعبأة",
     "en" : "Packaged Quantity",
     "type" : "Decimal"
   }, {
@@ -121,7 +121,7 @@
   }, {
     "id" : "specificDimensions.lotId",
     "column" : "lotId",
-    "ar" : "رقم الشحنه",
+    "ar" : "رقم الشحنة",
     "en" : "Lot ID",
     "type" : "Text",
     "feature" : "scLot"
@@ -163,7 +163,7 @@
   }, {
     "id" : "specificDimensions.subItem",
     "column" : "subItem_id",
-    "ar" : " السياره",
+    "ar" : " السيارة",
     "en" : " Customer Car",
     "type" : "Reference",
     "refTo" : "SubItem",

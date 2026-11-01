@@ -4,8 +4,8 @@
   "module" : "pos-app",
   "ar" : "لجنة جرد نقط بيع",
   "arPlural" : "لجان جرد نقط بيع",
-  "en" : "Point of Sale StockTaking Details Document",
-  "enPlural" : "Point of Sale StockTaking Details Documents",
+  "en" : "Point of Sale Stock Taking Details Document",
+  "enPlural" : "Point of Sale Stock Taking Details Documents",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSStockTakingDetailsDoc.html",
   "fields" : [ {
     "id" : "address",
@@ -134,7 +134,7 @@
   }, {
     "id" : "currentUser",
     "column" : "currentUser_id",
-    "ar" : "المستخدم الحالى",
+    "ar" : "المستخدم الحالي",
     "en" : "Current User",
     "type" : "Reference",
     "refTo" : "POS.POSUser",
@@ -154,7 +154,7 @@
   }, {
     "id" : "customerName",
     "column" : "customerName",
-    "ar" : "إسم العميل",
+    "ar" : "اسم العميل",
     "en" : "Customer Name",
     "type" : "Text"
   }, {
@@ -374,8 +374,8 @@
   }, {
     "id" : "hold",
     "column" : "hold",
-    "ar" : "HOLD",
-    "en" : "HOLD",
+    "ar" : "معلق",
+    "en" : "Hold",
     "type" : "Boolean"
   }, {
     "id" : "holdTime",
@@ -394,8 +394,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "lineTotalsBeforeDiscs",
@@ -839,7 +839,7 @@
     }, {
       "id" : "details.expiryDate",
       "column" : "expiryDate",
-      "ar" : "تواريخ الصلاحية | الإنتهاء",
+      "ar" : "تواريخ الصلاحية | الانتهاء",
       "en" : "Date | Expiry",
       "type" : "DateAndTime"
     }, {
@@ -1095,7 +1095,7 @@
     }, {
       "id" : "details.totalCost",
       "column" : "totalCost",
-      "ar" : "اجمالى التكلفة",
+      "ar" : "إجمالي التكلفة",
       "en" : "Total Cost",
       "type" : "Decimal"
     }, {
@@ -1107,7 +1107,7 @@
     }, {
       "id" : "details.unitCost",
       "column" : "unitCost",
-      "ar" : "تكلفة الوحده",
+      "ar" : "تكلفة الوحدة",
       "en" : "Unit Cost",
       "type" : "Decimal"
     }, {

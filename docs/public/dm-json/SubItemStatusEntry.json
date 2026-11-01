@@ -61,7 +61,7 @@
   }, {
     "id" : "subItem",
     "column" : "subItem_id",
-    "ar" : " السياره",
+    "ar" : " السيارة",
     "en" : " Customer Car",
     "type" : "Reference",
     "refTo" : "SubItem",
@@ -69,7 +69,7 @@
   }, {
     "id" : "toMainStatus",
     "column" : "toMainStatus",
-    "ar" : "الي حالة رئيسية",
+    "ar" : "إلى حالة رئيسية",
     "en" : "To Main Status",
     "type" : "Enum",
     "enum" : "MainStatusType"

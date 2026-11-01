@@ -19,7 +19,7 @@
   }, {
     "id" : "effectiveTo",
     "column" : "effectiveTo",
-    "ar" : "تطبق الي",
+    "ar" : "تطبق إلى",
     "en" : "Effective To",
     "type" : "Date"
   }, {

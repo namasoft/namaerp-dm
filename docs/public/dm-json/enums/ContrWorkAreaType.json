@@ -6,7 +6,7 @@
     "en" : "Unit Component Branch"
   }, {
     "id" : "UnitComponent",
-    "ar" : "محتوي الوحدة",
+    "ar" : "محتوى الوحدة",
     "en" : "Unit component"
   }, {
     "id" : "Floor",
@@ -18,7 +18,7 @@
     "en" : "Unit"
   }, {
     "id" : "Building",
-    "ar" : "مبني",
+    "ar" : "مبنى",
     "en" : "Building"
   }, {
     "id" : "garage",
@@ -34,7 +34,7 @@
     "en" : "Block"
   }, {
     "id" : "Land",
-    "ar" : "قطعة ارض",
+    "ar" : "قطعة أرض",
     "en" : "Land"
   } ]
 }

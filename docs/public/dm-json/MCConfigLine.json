@@ -7,7 +7,7 @@
   "fields" : [ {
     "id" : "doNotAllowResidencyAllowance",
     "column" : "doNotAllowResidencyAllowance",
-    "ar" : "عدم السماح بصرف بدل اقامة",
+    "ar" : "عدم السماح بصرف بدل إقامة",
     "en" : "Don't Allow Residency Allowance",
     "type" : "Boolean"
   }, {

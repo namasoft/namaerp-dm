@@ -8,7 +8,7 @@
     "id" : "Assistant"
   }, {
     "id" : "System",
-    "ar" : "نظامى",
+    "ar" : "نظامي",
     "en" : "System"
   }, {
     "id" : "ToolExecutionResult"

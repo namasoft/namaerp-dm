@@ -18,7 +18,7 @@
     "id" : "billNumber",
     "column" : "billNumber",
     "ar" : "رقم الفاتورة",
-    "en" : "BillNumber",
+    "en" : "Bill Number",
     "type" : "Text"
   }, {
     "id" : "branchCode",
@@ -44,6 +44,7 @@
     "id" : "failed",
     "column" : "failed",
     "ar" : " فشل",
+    "en" : " Failed",
     "type" : "Boolean"
   }, {
     "id" : "id",

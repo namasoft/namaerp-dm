@@ -7,7 +7,7 @@
   "fields" : [ {
     "id" : "contentType",
     "column" : "contentType",
-    "ar" : "نوع المحتوي",
+    "ar" : "نوع المحتوى",
     "en" : "Content Type",
     "type" : "Text"
   }, {

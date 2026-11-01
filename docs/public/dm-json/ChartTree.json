@@ -22,7 +22,7 @@
   }, {
     "id" : "chartType",
     "column" : "chartType_id",
-    "ar" : "نوع شجره الحسابات",
+    "ar" : "نوع شجرة الحسابات",
     "en" : "Chart Type",
     "type" : "Reference",
     "refTo" : "AccountChartType",

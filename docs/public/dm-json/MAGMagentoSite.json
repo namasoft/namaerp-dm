@@ -10,7 +10,7 @@
   "fields" : [ {
     "id" : "allowMultipleSKUsPerItemInLinkers",
     "column" : "allowMultipleSKUsPerItemInLinkers",
-    "ar" : "السماح بأكثر من SKU لنفس الصنف بلمفات الربط",
+    "ar" : "السماح بأكثر من SKU لنفس الصنف بملفات الربط",
     "en" : "Allow Multiple SKUs Per Item In Linkers",
     "type" : "Boolean"
   }, {
@@ -108,7 +108,7 @@
   }, {
     "id" : "codPaymentMethod",
     "column" : "codPaymentMethod_id",
-    "ar" : "طريقة الدفع عند الإستلام",
+    "ar" : "طريقة الدفع عند الاستلام",
     "en" : "Cash on delivery Payment Method",
     "type" : "Reference",
     "refTo" : "PaymentMethod",
@@ -135,66 +135,66 @@
     "id" : "commitedBefore",
     "column" : "commitedBefore",
     "ar" : "تم الحفظ مسبقا",
-    "en" : "Commited Before",
+    "en" : "Committed Before",
     "type" : "Boolean"
   }, {
     "id" : "considerActivPercOnUpdate",
     "column" : "considerActivPercOnUpdate",
-    "ar" : "إعتبار النسبة الفعالة مع التحديث للموقع",
+    "ar" : "اعتبار النسبة الفعالة مع التحديث للموقع",
     "en" : "Consider Active Percentage On Update",
     "type" : "Boolean"
   }, {
     "id" : "considerBoxOnUpdate",
     "column" : "considerBoxOnUpdate",
-    "ar" : "إعتبار الصندوق مع التحديث للموقع",
+    "ar" : "اعتبار الصندوق مع التحديث للموقع",
     "en" : "Consider Box On Update",
     "type" : "Boolean"
   }, {
     "id" : "considerColorOnUpdate",
     "column" : "considerColorOnUpdate",
-    "ar" : "إعتبار اللون مع التحديث للموقع",
+    "ar" : "اعتبار اللون مع التحديث للموقع",
     "en" : "Consider Color On Update",
     "type" : "Boolean"
   }, {
     "id" : "considerInActivPercOnUpdate",
     "column" : "considerInActivPercOnUpdate",
-    "ar" : "إعتبار النسبة الغير فعالة مع التحديث للموقع",
-    "en" : "Consider In Active Percentage On Update",
+    "ar" : "اعتبار النسبة الغير فعالة مع التحديث للموقع",
+    "en" : "Consider Inactive Percentage On Update",
     "type" : "Boolean"
   }, {
     "id" : "considerLotIdOnUpdate",
     "column" : "considerLotIdOnUpdate",
-    "ar" : "إعتبار الشحنة مع التحديث للموقع",
+    "ar" : "اعتبار الشحنة مع التحديث للموقع",
     "en" : "Consider Lot Id On Update",
     "type" : "Boolean"
   }, {
     "id" : "considerMeasuresOnUpdate",
     "column" : "considerMeasuresOnUpdate",
-    "ar" : "إعتبار المقاسات مع التحديث للموقع",
+    "ar" : "اعتبار المقاسات مع التحديث للموقع",
     "en" : "Consider Measures On Update",
     "type" : "Boolean"
   }, {
     "id" : "considerRevisionIdOnUpdate",
     "column" : "considerRevisionIdOnUpdate",
-    "ar" : "إعتبار الإصدار مع التحديث للموقع",
+    "ar" : "اعتبار الإصدار مع التحديث للموقع",
     "en" : "Consider Revision Id On Update",
     "type" : "Boolean"
   }, {
     "id" : "considerSecSerialOnUpdate",
     "column" : "considerSecSerialOnUpdate",
-    "ar" : "إعتبار الرقم المسلسل الثاني مع التحديث للموقع",
+    "ar" : "اعتبار الرقم المسلسل الثاني مع التحديث للموقع",
     "en" : "Consider Second Serial On Update",
     "type" : "Boolean"
   }, {
     "id" : "considerSerialOnUpdate",
     "column" : "considerSerialOnUpdate",
-    "ar" : "إعتبار الرقم المسلسل مع التحديث للموقع",
+    "ar" : "اعتبار الرقم المسلسل مع التحديث للموقع",
     "en" : "Consider Serial On Update",
     "type" : "Boolean"
   }, {
     "id" : "considerSizeOnUpdate",
     "column" : "considerSizeOnUpdate",
-    "ar" : "إعتبار المقاس مع التحديث للموقع",
+    "ar" : "اعتبار المقاس مع التحديث للموقع",
     "en" : "Consider Size On Update",
     "type" : "Boolean"
   }, {
@@ -204,19 +204,19 @@
   }, {
     "id" : "considerUOMOnUpdate",
     "column" : "considerUOMOnUpdate",
-    "ar" : "إعتبار وحدة الصنف مع التحديث للموقع",
-    "en" : "Consider Item UOM Percentage On Update",
+    "ar" : "اعتبار وحدة الصنف مع التحديث للموقع",
+    "en" : "Consider Item UOM On Update",
     "type" : "Boolean"
   }, {
     "id" : "copyFieldMap",
     "column" : "copyFieldMap",
-    "ar" : "نسخ الي حقول معينة في مستند المبيعات",
+    "ar" : "نسخ إلى حقول معينة في مستند المبيعات",
     "en" : "Copy Sales Document Field Map",
     "type" : "BigText"
   }, {
     "id" : "copyLineFieldMap",
     "column" : "copyLineFieldMap",
-    "ar" : "نسخ الي حقول معينة في سطر المستند",
+    "ar" : "نسخ إلى حقول معينة في سطر المستند",
     "en" : "Copy Sales Document Line Field Map",
     "type" : "BigText"
   }, {
@@ -228,13 +228,13 @@
   }, {
     "id" : "copyToDetailsRemarks",
     "column" : "copyToDetailsRemarks",
-    "ar" : "نسخ الي ملاحظات السطر(الحقول المعرفة للوصف منفصلة ب (,))",
-    "en" : "Copy To Details Remarks (Keys Seperated By Comma)",
+    "ar" : "نسخ إلى ملاحظات السطر(الحقول المعرفة للوصف منفصلة ب (,))",
+    "en" : "Copy To Details Remarks (Keys Separated By Comma)",
     "type" : "Text"
   }, {
     "id" : "createCustomerIfNotExist",
     "column" : "createCustomerIfNotExist",
-    "ar" : "إنشاء عميل في حاله عدم وجوده",
+    "ar" : "إنشاء عميل في حالة عدم وجوده",
     "en" : "Create Customer If Not Found",
     "type" : "Boolean"
   }, {
@@ -314,7 +314,7 @@
   }, {
     "id" : "deliveryServiceItem",
     "column" : "deliveryServiceItem_id",
-    "ar" : "صنف خدمة الإستلام",
+    "ar" : "صنف خدمة الاستلام",
     "en" : "Delivery Service Item",
     "type" : "Reference",
     "refTo" : "InvItem",
@@ -364,7 +364,7 @@
   }, {
     "id" : "doNotSaveWebhookOrderWithoutShipment",
     "column" : "doNotSaveWebhookOrderWithoutShipment",
-    "ar" : "Do Not Save Webhook Order Without Shipment",
+    "ar" : "عدم حفظ طلب Webhook بدون شحنة",
     "en" : "Do Not Save Webhook Order Without Shipment",
     "type" : "Boolean"
   }, {
@@ -474,7 +474,7 @@
     "id" : "generatedByLine",
     "column" : "generatedByLine",
     "ar" : "كود سطر الإنشاء",
-    "en" : "generated By Line",
+    "en" : "Generated By Line",
     "type" : "Text"
   }, {
     "id" : "generatedDocsCount",
@@ -522,7 +522,7 @@
   }, {
     "id" : "ignoreLinesWithParentProd",
     "column" : "ignoreLinesWithParentProd",
-    "ar" : "تجاهل السطور الناتجة من خلال منتج أعلي",
+    "ar" : "تجاهل السطور الناتجة من خلال منتج أعلى",
     "en" : "Ignore Lines With Parent Product",
     "type" : "Boolean"
   }, {
@@ -578,8 +578,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "legalEntity",
@@ -606,7 +606,7 @@
   }, {
     "id" : "magInvoiceCreationCriteria",
     "column" : "magInvoiceCreationCriteria_id",
-    "ar" : "معايير إنشاء فاتورة ماحنتو",
+    "ar" : "معايير إنشاء فاتورة ماجنتو",
     "en" : "Criteria For Magento Invoice Creation",
     "type" : "Reference",
     "refTo" : "CriteriaDefinition",
@@ -620,7 +620,7 @@
   }, {
     "id" : "magShipCreationCriteria",
     "column" : "magShipCreationCriteria_id",
-    "ar" : "معايير إنشاء شحن فاتورة ماحنتو",
+    "ar" : "معايير إنشاء شحن فاتورة ماجنتو",
     "en" : "Magento Invoice Shipping Creation Criteria",
     "type" : "Reference",
     "refTo" : "CriteriaDefinition",
@@ -628,7 +628,7 @@
   }, {
     "id" : "magShipCreationQuery",
     "column" : "magShipCreationQuery",
-    "ar" : "استعلام إنشاء شحن فاتورة ماحنتو",
+    "ar" : "استعلام إنشاء شحن فاتورة ماجنتو",
     "en" : "Magento Invoice Shipping Creation Query",
     "type" : "BigText"
   }, {
@@ -673,7 +673,7 @@
   }, {
     "id" : "minQtyToSend",
     "column" : "minQtyToSend",
-    "ar" : "اقل كمية للارسال(قيمة)",
+    "ar" : "أقل كمية للإرسال(قيمة)",
     "en" : "Minimum Quantity To Send(Value)",
     "type" : "Decimal"
   }, {
@@ -691,7 +691,7 @@
   }, {
     "id" : "modifiedQuantityQuery",
     "column" : "modifiedQuantityQuery",
-    "ar" : "استعلام تصحيح الكمية (تضاف إلي الكمية المحسوبة)",
+    "ar" : "استعلام تصحيح الكمية (تضاف إلى الكمية المحسوبة)",
     "en" : "Modified Quantity Query(Added To Calculated Quantity)",
     "type" : "BigText"
   }, {
@@ -745,7 +745,7 @@
   }, {
     "id" : "orderComparedStatuses",
     "column" : "orderComparedStatuses",
-    "ar" : "نقل فقط الأوامر التي حالتها احدي التالي",
+    "ar" : "نقل فقط الأوامر التي حالتها إحدى التالي",
     "en" : "Only Transfer Orders With Status Equal to One of The Following",
     "type" : "Text"
   }, {
@@ -768,28 +768,28 @@
     "id" : "orderInfo.fromDiscount1",
     "column" : "orderInfoFromDiscount1",
     "ar" : "مصدر خصم 1",
-    "en" : "From Discount1",
+    "en" : "From Discount 1",
     "type" : "Enum",
     "enum" : "DiscountLocation"
   }, {
     "id" : "orderInfo.fromDiscount2",
     "column" : "orderInfoFromDiscount2",
     "ar" : "مصدر خصم 2",
-    "en" : "From Discount2",
+    "en" : "From Discount 2",
     "type" : "Enum",
     "enum" : "DiscountLocation"
   }, {
     "id" : "orderInfo.fromDiscount3",
     "column" : "orderInfoFromDiscount3",
     "ar" : "مصدر خصم 3",
-    "en" : "From Discount3",
+    "en" : "From Discount 3",
     "type" : "Enum",
     "enum" : "DiscountLocation"
   }, {
     "id" : "orderInfo.fromDiscount4",
     "column" : "orderInfoFromDiscount4",
     "ar" : "مصدر خصم 4",
-    "en" : "From Discount4",
+    "en" : "From Discount 4",
     "type" : "Enum",
     "enum" : "DiscountLocation"
   }, {
@@ -834,7 +834,7 @@
   }, {
     "id" : "originalPriceSource",
     "column" : "originalPriceSource",
-    "ar" : "مصدر السعر الاساسى",
+    "ar" : "مصدر السعر الأساسي",
     "en" : "Original Price Source",
     "type" : "Enum",
     "enum" : "MAGPriceSourceLocation"
@@ -865,7 +865,7 @@
     "id" : "paymentMethodTypeFieldId",
     "column" : "paymentMethodTypeFieldId",
     "ar" : "Payment Method Name Type ID",
-    "en" : "Payment Method Name Type ID",
+    "en" : "Payment Method Type Field ID",
     "type" : "Text"
   }, {
     "id" : "posRegister",
@@ -894,34 +894,34 @@
   }, {
     "id" : "pullWebhookEventsFromGateway",
     "column" : "pullWebhookEventsFromGateway",
-    "ar" : "Pull Webhook Events From Gateway",
+    "ar" : "سحب أحداث Webhook من البوابة",
     "en" : "Pull Webhook Events From Gateway",
     "type" : "Boolean"
   }, {
     "id" : "putCouponDiscountTo",
     "column" : "putCouponDiscountTo",
-    "ar" : "وضع خصم الكوبون إلي خصم (نسبة)",
+    "ar" : "وضع خصم الكوبون إلى خصم (نسبة)",
     "en" : "Put Coupon Discount To (Percent)",
     "type" : "Enum",
     "enum" : "DiscountLocationWithHeader"
   }, {
     "id" : "putHeaderDiscountInLineDiscount",
     "column" : "putHeaderDiscountInLineDiscount",
-    "ar" : "نقل خصم الهيدر الي خصم السطور",
+    "ar" : "نقل خصم الهيدر إلى خصم السطور",
     "en" : "Put Header Discount In Line Discount",
     "type" : "Enum",
     "enum" : "DiscountLocation"
   }, {
     "id" : "putLinesDiscount2To",
     "column" : "putLinesDiscount2To",
-    "ar" : "وضع خصم السطور 2 إلي (نسبة)",
+    "ar" : "وضع خصم السطور 2 إلى (نسبة)",
     "en" : "Put Lines Discount 2 To (Percent)",
     "type" : "Enum",
     "enum" : "DiscountLocation"
   }, {
     "id" : "putLinesDiscountTo",
     "column" : "putLinesDiscountTo",
-    "ar" : "وضع خصم السطور إلي (نسبة)",
+    "ar" : "وضع خصم السطور إلى (نسبة)",
     "en" : "Put Lines Discount To (Percent)",
     "type" : "Enum",
     "enum" : "DiscountLocation"
@@ -934,7 +934,7 @@
   }, {
     "id" : "quantityToSendType",
     "column" : "quantityToSendType",
-    "ar" : "إرسال الكمية ب (عندما تكون اقل من  اقل كمية للإرسال او تساويها)",
+    "ar" : "إرسال الكمية ب (عندما تكون أقل من  أقل كمية للإرسال أو تساويها)",
     "en" : "Send Quantity (If Quantity is less than minimum quantity to send)",
     "type" : "Enum",
     "enum" : "QuantityToSendType"
@@ -953,7 +953,7 @@
   }, {
     "id" : "readOrdersStatusesAsReturn",
     "column" : "readOrdersStatusesAsReturn",
-    "ar" : "قراءة الأوامر كمرتجع إذا كانت إحدى الحالات الأتية",
+    "ar" : "قراءة الأوامر كمرتجع إذا كانت إحدى الحالات الآتية",
     "en" : "Read Orders As Sales Return If Status Like One Of The Following",
     "type" : "Text"
   }, {
@@ -1001,7 +1001,7 @@
   }, {
     "id" : "relatedParentServiceItemsQueryForQtyUpdate",
     "column" : "relatedParentServiceItemsQueryForQtyUpdate",
-    "ar" : "Related Parent Service Items Query For Qty Update",
+    "ar" : "استعلام أصناف الخدمة الأم المرتبطة لتحديث الكمية",
     "en" : "Related Parent Service Items Query For Qty Update",
     "type" : "BigText"
   }, {
@@ -1022,28 +1022,28 @@
     "id" : "requestInfo.fromDiscount1",
     "column" : "requestInfoFromDiscount1",
     "ar" : "مصدر خصم 1",
-    "en" : "From Discount1",
+    "en" : "From Discount 1",
     "type" : "Enum",
     "enum" : "DiscountLocation"
   }, {
     "id" : "requestInfo.fromDiscount2",
     "column" : "requestInfoFromDiscount2",
     "ar" : "مصدر خصم 2",
-    "en" : "From Discount2",
+    "en" : "From Discount 2",
     "type" : "Enum",
     "enum" : "DiscountLocation"
   }, {
     "id" : "requestInfo.fromDiscount3",
     "column" : "requestInfoFromDiscount3",
     "ar" : "مصدر خصم 3",
-    "en" : "From Discount3",
+    "en" : "From Discount 3",
     "type" : "Enum",
     "enum" : "DiscountLocation"
   }, {
     "id" : "requestInfo.fromDiscount4",
     "column" : "requestInfoFromDiscount4",
     "ar" : "مصدر خصم 4",
-    "en" : "From Discount4",
+    "en" : "From Discount 4",
     "type" : "Enum",
     "enum" : "DiscountLocation"
   }, {
@@ -1097,28 +1097,28 @@
     "id" : "returnInfo.fromDiscount1",
     "column" : "returnInfoFromDiscount1",
     "ar" : "مصدر خصم 1",
-    "en" : "From Discount1",
+    "en" : "From Discount 1",
     "type" : "Enum",
     "enum" : "DiscountLocation"
   }, {
     "id" : "returnInfo.fromDiscount2",
     "column" : "returnInfoFromDiscount2",
     "ar" : "مصدر خصم 2",
-    "en" : "From Discount2",
+    "en" : "From Discount 2",
     "type" : "Enum",
     "enum" : "DiscountLocation"
   }, {
     "id" : "returnInfo.fromDiscount3",
     "column" : "returnInfoFromDiscount3",
     "ar" : "مصدر خصم 3",
-    "en" : "From Discount3",
+    "en" : "From Discount 3",
     "type" : "Enum",
     "enum" : "DiscountLocation"
   }, {
     "id" : "returnInfo.fromDiscount4",
     "column" : "returnInfoFromDiscount4",
     "ar" : "مصدر خصم 4",
-    "en" : "From Discount4",
+    "en" : "From Discount 4",
     "type" : "Enum",
     "enum" : "DiscountLocation"
   }, {
@@ -1197,7 +1197,7 @@
     "id" : "saveOrdersAsDraftIfErrorOccurs",
     "column" : "saveOrdersAsDraftIfErrorOccurs",
     "ar" : "حفظ الأوامر كمسودة في حالة حدوث أخطاء",
-    "en" : "Save Orders As Draft If Errors Occurs",
+    "en" : "Save Orders As Draft If Errors Occur",
     "type" : "Boolean"
   }, {
     "id" : "searchCustomerByMobileOnly",
@@ -1232,20 +1232,20 @@
   }, {
     "id" : "sendItemsToMagento",
     "column" : "sendItemsToMagento",
-    "ar" : "إرسال الأصناف إلي ماجنتو",
+    "ar" : "إرسال الأصناف إلى ماجنتو",
     "en" : "Send Items To Magento",
     "type" : "Boolean"
   }, {
     "id" : "sentQtyRoundingType",
     "column" : "sentQtyRoundingType",
-    "ar" : "تقريب الكمية المٌرسلة",
+    "ar" : "تقريب الكمية المُرسلة",
     "en" : "Sent Quantity Rounding Type",
     "type" : "Enum",
     "enum" : "RoundingType"
   }, {
     "id" : "sentQtyScale",
     "column" : "sentQtyScale",
-    "ar" : "عدد كسور الكمية المٌرسلة",
+    "ar" : "عدد كسور الكمية المُرسلة",
     "en" : "Send Quantity Scale",
     "type" : "Integer"
   }, {
@@ -1327,7 +1327,7 @@
   }, {
     "id" : "updateOrderIfFoundInNama",
     "column" : "updateOrderIfFoundInNama",
-    "ar" : "تحديث مستند المبيعات حتي و ان كان تم قراءته سابقا",
+    "ar" : "تحديث مستند المبيعات حتى وإن كان تم قراءته سابقا",
     "en" : "Update Sales Document Even If It was Read Before",
     "type" : "Boolean"
   }, {
@@ -1369,7 +1369,7 @@
   }, {
     "id" : "useGraphQL",
     "column" : "useGraphQL",
-    "ar" : "Use GraphQL Api",
+    "ar" : "استخدام GraphQL API",
     "en" : "Use GraphQL Api",
     "type" : "Boolean"
   }, {
@@ -1381,7 +1381,7 @@
   }, {
     "id" : "username",
     "column" : "username",
-    "ar" : "إسم المستخدم (Consumer Key)",
+    "ar" : "اسم المستخدم (Consumer Key)",
     "en" : "User Name (Consumer Key)",
     "type" : "Text"
   }, {
@@ -1394,7 +1394,7 @@
     "id" : "vatNumberZATCA",
     "column" : "vatNumberZATCA",
     "ar" : "Vat Number (ZATCA)",
-    "en" : "Vat Number (ZATCA)",
+    "en" : "VAT Number (ZATCA)",
     "type" : "Text"
   }, {
     "id" : "viewCapability",
@@ -1451,7 +1451,7 @@
     "id" : "copyToEcommerceItemLines",
     "table" : "MagCopyToEcommerceItemLine",
     "joinColumn" : "mAGMagentoSite_id",
-    "ar" : "نسخ حقول المنتج من النظام الي المتجر الالكتروني",
+    "ar" : "نسخ حقول المنتج من النظام إلى المتجر الإلكتروني",
     "en" : "Copy Fields Value From The System To Ecommerce Site",
     "fields" : [ {
       "id" : "copyToEcommerceItemLines.groovyScript",
@@ -1477,7 +1477,7 @@
       "id" : "copyToEcommerceItemLines.productFieldType",
       "column" : "productFieldType",
       "ar" : "نوع الحقل",
-      "en" : "Product Type",
+      "en" : "Product Field Type",
       "type" : "Enum",
       "enum" : "EcommerceProductType"
     }, {
@@ -1491,7 +1491,7 @@
     "id" : "documentGenerationInfoLines",
     "table" : "EcommerceDocumentGenerationInfo",
     "joinColumn" : "mAGMagentoSite_id",
-    "ar" : "سطور إنشاء مستندات بناءا على تطابق من الأمر",
+    "ar" : "سطور إنشاء مستندات بناءً على تطابق من الأمر",
     "en" : "Generate Document Based On Order Criteria Lines",
     "fields" : [ {
       "id" : "documentGenerationInfoLines.applyWhenQuery",
@@ -1502,13 +1502,13 @@
     }, {
       "id" : "documentGenerationInfoLines.copyFieldMap",
       "column" : "copyFieldMap",
-      "ar" : "نسخ الي حقول معينة في مستند المبيعات",
+      "ar" : "نسخ إلى حقول معينة في مستند المبيعات",
       "en" : "Copy Sales Document Field Map",
       "type" : "BigText"
     }, {
       "id" : "documentGenerationInfoLines.copyLineFieldMap",
       "column" : "copyLineFieldMap",
-      "ar" : "نسخ الي حقول معينة في سطر المستند",
+      "ar" : "نسخ إلى حقول معينة في سطر المستند",
       "en" : "Copy Sales Document Line Field Map",
       "type" : "BigText"
     }, {
@@ -1542,28 +1542,28 @@
       "id" : "documentGenerationInfoLines.generationInfo.fromDiscount1",
       "column" : "fromDiscount1",
       "ar" : "مصدر خصم 1",
-      "en" : "From Discount1",
+      "en" : "From Discount 1",
       "type" : "Enum",
       "enum" : "DiscountLocation"
     }, {
       "id" : "documentGenerationInfoLines.generationInfo.fromDiscount2",
       "column" : "fromDiscount2",
       "ar" : "مصدر خصم 2",
-      "en" : "From Discount2",
+      "en" : "From Discount 2",
       "type" : "Enum",
       "enum" : "DiscountLocation"
     }, {
       "id" : "documentGenerationInfoLines.generationInfo.fromDiscount3",
       "column" : "fromDiscount3",
       "ar" : "مصدر خصم 3",
-      "en" : "From Discount3",
+      "en" : "From Discount 3",
       "type" : "Enum",
       "enum" : "DiscountLocation"
     }, {
       "id" : "documentGenerationInfoLines.generationInfo.fromDiscount4",
       "column" : "fromDiscount4",
       "ar" : "مصدر خصم 4",
-      "en" : "From Discount4",
+      "en" : "From Discount 4",
       "type" : "Enum",
       "enum" : "DiscountLocation"
     }, {
@@ -1687,8 +1687,8 @@
     "id" : "graphQLLines",
     "table" : "EcommerceGraphQLLine",
     "joinColumn" : "mAGMagentoSite_id",
-    "ar" : "Graph QL Lines",
-    "en" : "Graph QL Lines",
+    "ar" : "سطور GraphQL",
+    "en" : "GraphQL Lines",
     "fields" : [ {
       "id" : "graphQLLines.ecommerceGraphEntityOperation",
       "column" : "ecommerceGraphEntityOperation",
@@ -1758,7 +1758,7 @@
     }, {
       "id" : "paymentMethods.paymentLineCopyFieldsMap",
       "column" : "paymentLineCopyFieldsMap",
-      "ar" : "نسخ حقول معينه الي سطر الدفع",
+      "ar" : "نسخ حقول معينة إلى سطر الدفع",
       "en" : "Copy Specific Fields To Payment Line",
       "type" : "BigText"
     }, {
@@ -1772,7 +1772,7 @@
     }, {
       "id" : "paymentMethods.paymentMethodName",
       "column" : "paymentMethodName",
-      "ar" : "إسم طريقة الدفع",
+      "ar" : "اسم طريقة الدفع",
       "en" : "Payment Method Name",
       "type" : "Text"
     }, {
@@ -1968,7 +1968,7 @@
     "id" : "updateOrderStatusTo",
     "table" : "MagentoOrderUpdateStatus",
     "joinColumn" : "mAGMagentoSite_id",
-    "ar" : "تحديث حالة طلب ماجنتو إلي",
+    "ar" : "تحديث حالة طلب ماجنتو إلى",
     "en" : "Update Magento Order Status To",
     "fields" : [ {
       "id" : "updateOrderStatusTo.applyWhenQuery",
@@ -1985,7 +1985,7 @@
     }, {
       "id" : "updateOrderStatusTo.commentVisibleOnFront",
       "column" : "commentVisibleOnFront",
-      "ar" : "عرض الملحوظه للعميل",
+      "ar" : "عرض الملحوظة للعميل",
       "en" : "Comment Visible To Customer",
       "type" : "Boolean"
     }, {
@@ -2242,7 +2242,7 @@
     }, {
       "id" : "updateQtyFor.minQtyToSend",
       "column" : "minQtyToSend",
-      "ar" : "اقل كمية للارسال(قيمة)",
+      "ar" : "أقل كمية للإرسال(قيمة)",
       "en" : "Minimum Quantity To Send(Value)",
       "type" : "Decimal"
     }, {
@@ -2260,14 +2260,14 @@
     }, {
       "id" : "updateQtyFor.quantityToSendType",
       "column" : "quantityToSendType",
-      "ar" : "إرسال الكمية ب (عندما تكون اقل من  اقل كمية للإرسال او تساويها)",
+      "ar" : "إرسال الكمية ب (عندما تكون أقل من  أقل كمية للإرسال أو تساويها)",
       "en" : "Send Quantity (If Quantity is less than minimum quantity to send)",
       "type" : "Enum",
       "enum" : "QuantityToSendType"
     }, {
       "id" : "updateQtyFor.reversedCriteriaDefinition",
       "column" : "reversedCriteriaDefinition_id",
-      "ar" : "معيار عدم التفيذ",
+      "ar" : "معيار عدم التنفيذ",
       "en" : "Reversed Criteria Definition",
       "type" : "Reference",
       "refTo" : "CriteriaDefinition",
@@ -2311,7 +2311,7 @@
     }, {
       "id" : "updateQtyFor.specificDimensions.lotId",
       "column" : "lotId",
-      "ar" : "رقم الشحنه",
+      "ar" : "رقم الشحنة",
       "en" : "Lot ID",
       "type" : "Text",
       "feature" : "scLot"
@@ -2353,7 +2353,7 @@
     }, {
       "id" : "updateQtyFor.specificDimensions.subItem",
       "column" : "subItem_id",
-      "ar" : " السياره",
+      "ar" : " السيارة",
       "en" : " Customer Car",
       "type" : "Reference",
       "refTo" : "SubItem",

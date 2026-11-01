@@ -2,7 +2,8 @@
   "enum" : "TransactionRequestType",
   "values" : [ {
     "id" : "Create",
-    "ar" : "إنشاء"
+    "ar" : "إنشاء",
+    "en" : "Create"
   }, {
     "id" : "Update"
   }, {

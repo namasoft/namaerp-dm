@@ -43,7 +43,7 @@
   }, {
     "id" : "monthlySingularPrice",
     "column" : "monthlySingularPrice",
-    "ar" : "السعر الافرادي الشهري",
+    "ar" : "السعر الإفرادي الشهري",
     "en" : "Monthly Singular Cost",
     "type" : "Decimal"
   }, {
@@ -93,6 +93,7 @@
     "id" : "totalAfterUpdate",
     "column" : "totalAfterUpdate",
     "ar" : "الإجمالي بعد التعديل",
+    "en" : "Total After Update",
     "type" : "Decimal"
   }, {
     "id" : "totalCostAfterUpdate",

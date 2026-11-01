@@ -172,7 +172,7 @@
   }, {
     "id" : "freeItemData.freeItem",
     "columns" : [ "freeDataTActualCode", " freeDataTCode", " freeDataTEntityType", " freeDataTId" ],
-    "ar" : "الصنف المجانى",
+    "ar" : "الصنف المجاني",
     "en" : "Free Item",
     "type" : "Genericreference"
   }, {
@@ -256,7 +256,7 @@
   }, {
     "id" : "freeItemData.freeItemDimensions.subItem",
     "column" : "freeDataFreeSubItem_id",
-    "ar" : " السياره",
+    "ar" : " السيارة",
     "en" : " Customer Car",
     "type" : "Reference",
     "refTo" : "SubItem",
@@ -341,7 +341,7 @@
   }, {
     "id" : "freeItemData.maxQty",
     "column" : "freeDataMaxQty",
-    "ar" : "اقصي كمية",
+    "ar" : "أقصى كمية",
     "en" : "Max Qty",
     "type" : "Decimal"
   }, {
@@ -355,7 +355,7 @@
   }, {
     "id" : "freeItemData.replacePolicy",
     "column" : "freeDataReplacePolicy",
-    "ar" : "سياسة الإستبدال",
+    "ar" : "سياسة الاستبدال",
     "en" : "Replacement Policy",
     "type" : "Enum",
     "enum" : "OfferReplacementPolicy"
@@ -572,7 +572,7 @@
   }, {
     "id" : "itemDimensions.subItem",
     "column" : "subItem_id",
-    "ar" : " السياره",
+    "ar" : " السيارة",
     "en" : " Customer Car",
     "type" : "Reference",
     "refTo" : "SubItem",
@@ -589,8 +589,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "lineNumber",
@@ -601,7 +601,7 @@
   }, {
     "id" : "maxQty",
     "column" : "maxQty",
-    "ar" : "اقصي كمية",
+    "ar" : "أقصى كمية",
     "en" : "Max Qty",
     "type" : "Decimal"
   }, {
@@ -614,7 +614,7 @@
     "id" : "ownerRef",
     "columns" : [ "ownerRefActualCode", " ownerRefCode", " ownerRefEntityType", " ownerRefId" ],
     "ar" : "المستند",
-    "en" : "owner",
+    "en" : "Owner",
     "type" : "Genericreference"
   }, {
     "id" : "priceClassifier1",
@@ -691,7 +691,7 @@
   }, {
     "id" : "stopOtherDiscounts",
     "column" : "stopOtherDiscounts",
-    "ar" : "إيقاف التخفبضات الأخرى",
+    "ar" : "إيقاف التخفيضات الأخرى",
     "en" : "stop other discounts",
     "type" : "Boolean"
   }, {
@@ -721,7 +721,7 @@
   }, {
     "id" : "toLotId",
     "column" : "toLotId",
-    "ar" : "الي شحنة",
+    "ar" : "إلى شحنة",
     "en" : "To Lot Id",
     "type" : "Text",
     "feature" : "scLot"

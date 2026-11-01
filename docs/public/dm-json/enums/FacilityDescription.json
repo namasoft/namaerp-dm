@@ -2,7 +2,7 @@
   "enum" : "FacilityDescription",
   "values" : [ {
     "id" : "Main",
-    "ar" : "رئيسيه",
+    "ar" : "رئيسية",
     "en" : "Main"
   }, {
     "id" : "Branch",

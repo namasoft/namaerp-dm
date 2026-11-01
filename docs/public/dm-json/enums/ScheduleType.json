@@ -14,7 +14,7 @@
     "en" : "Notification"
   }, {
     "id" : "System",
-    "ar" : "نظامى",
+    "ar" : "نظامي",
     "en" : "System"
   }, {
     "id" : "Scenario",
@@ -35,7 +35,7 @@
   }, {
     "id" : "RecurDocument",
     "ar" : "تكرار مستند",
-    "en" : "RecurDocument"
+    "en" : "Recur Document"
   }, {
     "id" : "ReadMagentoOrders",
     "ar" : "Read Magento Orders",

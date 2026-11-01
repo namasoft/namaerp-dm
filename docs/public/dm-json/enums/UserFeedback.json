@@ -2,11 +2,11 @@
   "enum" : "UserFeedback",
   "values" : [ {
     "id" : "Like",
-    "ar" : "Like",
+    "ar" : "إعجاب",
     "en" : "Like"
   }, {
     "id" : "Dislike",
-    "ar" : "Dislike",
+    "ar" : "عدم إعجاب",
     "en" : "Dislike"
   } ]
 }

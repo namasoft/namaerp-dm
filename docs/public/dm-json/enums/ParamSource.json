@@ -62,7 +62,7 @@
     "en" : "Constant Value"
   }, {
     "id" : "FiscalYearFirstPeriod",
-    "ar" : "اول فترات السنة المالية",
+    "ar" : "أول فترات السنة المالية",
     "en" : "Fiscal Year First Period"
   }, {
     "id" : "FiscalYearLastPeriod",
@@ -150,7 +150,7 @@
     "en" : "From Analysis Set"
   }, {
     "id" : "ToAnalysisSet",
-    "ar" : "إلى مجوعة تحليلية",
+    "ar" : "إلى مجموعة تحليلية",
     "en" : "To Analysis Set"
   }, {
     "id" : "FromLegalEntity",

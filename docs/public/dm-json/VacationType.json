@@ -2,15 +2,15 @@
   "entity" : "VacationType",
   "table" : "VacationType",
   "module" : "humanresource-payroll",
-  "ar" : "نوع الأجازة",
-  "arPlural" : "أنواع الأجازات",
+  "ar" : "نوع الإجازة",
+  "arPlural" : "أنواع الإجازات",
   "en" : "Vacation Type",
   "enPlural" : "Vacation Types",
   "page" : "https://dm.namasoft.com/modules/humanresource-payroll/VacationType.html",
   "fields" : [ {
     "id" : "affectedVacationType",
     "column" : "affectedVacationType_id",
-    "ar" : "التأثير أيضاً في رصيد الاجازة",
+    "ar" : "التأثير أيضاً في رصيد الإجازة",
     "en" : "Affected Vacation Type",
     "type" : "Reference",
     "refTo" : "VacationType",
@@ -18,19 +18,19 @@
   }, {
     "id" : "allowOverBalance",
     "column" : "allowOverBalance",
-    "ar" : "السماح بتعدى رصيد الاجازة",
+    "ar" : "السماح بتعدي رصيد الإجازة",
     "en" : "No Max Limit",
     "type" : "Boolean"
   }, {
     "id" : "allowVacationBeforeApplicableAfterMonths",
     "column" : "allowVacationBeforeApplicableAfterMonths",
-    "ar" : "السماح بالأجازة خلال شهور العمل قبل استحقاق الأجازة",
+    "ar" : "السماح بالإجازة خلال شهور العمل قبل استحقاق الإجازة",
     "en" : "Allow Vacation Before Applicable After Months",
     "type" : "Boolean"
   }, {
     "id" : "allowedDaysForBalanceExceed",
     "column" : "allowedDaysForBalanceExceed",
-    "ar" : "السماح بتعدى رصيد الاجازه بمدة(أيام)",
+    "ar" : "السماح بتعدي رصيد الإجازة بمدة(أيام)",
     "en" : "Allowed Days For Balance Exceed",
     "type" : "Decimal"
   }, {
@@ -48,13 +48,13 @@
   }, {
     "id" : "applicableAfterInMonth",
     "column" : "applicableAfterInMonth",
-    "ar" : "شهور العمل قبل استحقاق الأجازة",
+    "ar" : "شهور العمل قبل استحقاق الإجازة",
     "en" : "Applicable After",
     "type" : "Integer"
   }, {
     "id" : "applicableAfterValidationOnly",
     "column" : "applicableAfterValidationOnly",
-    "ar" : "استعمال شهور العمل قبل استحقاق الأجازة مع التحقق فقط",
+    "ar" : "استعمال شهور العمل قبل استحقاق الإجازة مع التحقق فقط",
     "en" : "Use Applicable After With Validation Only",
     "type" : "Boolean"
   }, {
@@ -74,14 +74,14 @@
   }, {
     "id" : "calcPolicy",
     "column" : "calcPolicy",
-    "ar" : "سياسة استحقاق الأجازة",
+    "ar" : "سياسة استحقاق الإجازة",
     "en" : "Vacation Calculation Policy",
     "type" : "Enum",
     "enum" : "VacationCalcPolicy"
   }, {
     "id" : "changeEmployeeStateTo",
     "column" : "changeEmployeeStateTo",
-    "ar" : "تغير حالة الموظف إلى",
+    "ar" : "تغيير حالة الموظف إلى",
     "en" : "Change Employee State To",
     "type" : "Enum",
     "enum" : "EmployeeState"
@@ -101,36 +101,36 @@
     "id" : "commitedBefore",
     "column" : "commitedBefore",
     "ar" : "تم الحفظ مسبقا",
-    "en" : "Commited Before",
+    "en" : "Committed Before",
     "type" : "Boolean"
   }, {
     "id" : "connectedDuration",
     "column" : "connectedDuration",
-    "ar" : "أقل مده للأجازه متصلة",
+    "ar" : "أقل مدة للإجازة متصلة",
     "en" : "Connected Duration",
     "type" : "Decimal"
   }, {
     "id" : "considerOpenVacWhenNoStartDoc",
     "column" : "considerOpenVacWhenNoStartDoc",
-    "ar" : "اعتبار الأجازة لنهاية الشهر عند عدم تسجيل سند مباشرة مع احتساب أيام الأجازة بدون مرتب",
+    "ar" : "اعتبار الإجازة لنهاية الشهر عند عدم تسجيل سند مباشرة مع احتساب أيام الإجازة بدون مرتب",
     "en" : "Consider Open Vacation With No Salary When No Start Document",
     "type" : "Boolean"
   }, {
     "id" : "considerRetDateAsWorkStart",
     "column" : "considerRetDateAsWorkStart",
-    "ar" : "إعتبار تاريخ العودة تاريخ مباشرة العمل",
+    "ar" : "اعتبار تاريخ العودة تاريخ مباشرة العمل",
     "en" : "Consider Return Date As Working Start Date",
     "type" : "Boolean"
   }, {
     "id" : "considerRetDateAsWorkStartFromReason",
     "column" : "considerRetDateAsWorkStartFromReason",
     "ar" : "قراءة اعتبار تاريخ العودة كبدء عمل من سبب الإجازة",
-    "en" : "Consider Return Date As Work From Vacation Reason",
+    "en" : "Consider Return Date As Work Start From Vacation Reason",
     "type" : "Boolean"
   }, {
     "id" : "considerVacationPeriodWhenCalculatingBalance",
     "column" : "considerVacationPeriodWhenCalculatingBalance",
-    "ar" : "إعتبار مدة الأجازة عند حساب الرصيد",
+    "ar" : "اعتبار مدة الإجازة عند حساب الرصيد",
     "en" : "Consider Vacation Period When Calculating Balance",
     "type" : "Boolean"
   }, {
@@ -206,7 +206,7 @@
   }, {
     "id" : "dedFromPaidVacPeriodInDues",
     "column" : "dedFromPaidVacPeriodInDues",
-    "ar" : "تخصم من مدة الأجازة مدفوعة الأجر في التصفية",
+    "ar" : "تخصم من مدة الإجازة مدفوعة الأجر في التصفية",
     "en" : "Deducted From Paid Vacation Period In Dues",
     "type" : "Boolean"
   }, {
@@ -224,13 +224,13 @@
   }, {
     "id" : "deductedFromWorkingDaysWhenCalcBalance",
     "column" : "deductedFromWorkingDaysWhenCalcBalance",
-    "ar" : "تخصم مدتها من أيام العمل عند احتساب رصيد الاجازات",
+    "ar" : "تخصم مدتها من أيام العمل عند احتساب رصيد الإجازات",
     "en" : "Deducted From Working Days When Calculating Balance",
     "type" : "Boolean"
   }, {
     "id" : "defaultVacationDays",
     "column" : "defaultVacationDays",
-    "ar" : "أيام الأجازة الأفتراضية",
+    "ar" : "أيام الإجازة الافتراضية",
     "en" : "Default Vacation Days",
     "type" : "Integer"
   }, {
@@ -278,7 +278,7 @@
   }, {
     "id" : "doNotShowInMobileApp",
     "column" : "doNotShowInMobileApp",
-    "ar" : "عدم الإظهار فى تطبيق الموبايل",
+    "ar" : "عدم الإظهار في تطبيق الموبايل",
     "en" : "Do Not Show In Mobile App",
     "type" : "Boolean"
   }, {
@@ -317,7 +317,7 @@
   }, {
     "id" : "effectVacationByFactor",
     "column" : "effectVacationByFactor",
-    "ar" : "التأثير على الأجازة الأخري بمعدل",
+    "ar" : "التأثير على الإجازة الأخرى بمعدل",
     "en" : "Effect Affected Vacation By Factor",
     "type" : "Decimal"
   }, {
@@ -358,7 +358,7 @@
     "id" : "fromDimensions.analysisSet",
     "column" : "fromAnalysisSet_id",
     "ar" : "من مجموعة تحليلية",
-    "en" : "From AnalysisSet",
+    "en" : "From Analysis Set",
     "type" : "Reference",
     "refTo" : "AnalysisSet",
     "refPath" : "/modules/basic/AnalysisSet.html"
@@ -382,7 +382,7 @@
     "id" : "fromDimensions.legalEntity",
     "column" : "fromLegalEntity_id",
     "ar" : "من شركة",
-    "en" : "From LegalEntity",
+    "en" : "From Legal Entity",
     "type" : "Reference",
     "refTo" : "LegalEntity",
     "refPath" : "/modules/basic/LegalEntity.html"
@@ -422,7 +422,7 @@
     "id" : "fromPostion",
     "column" : "fromPostion_id",
     "ar" : "من وظيفة",
-    "en" : "From Postion",
+    "en" : "From Position",
     "type" : "Reference",
     "refTo" : "OrganizationPosition",
     "refPath" : "/modules/basic/OrganizationPosition.html"
@@ -430,7 +430,7 @@
     "id" : "generatedByLine",
     "column" : "generatedByLine",
     "ar" : "كود سطر الإنشاء",
-    "en" : "generated By Line",
+    "en" : "Generated By Line",
     "type" : "Text"
   }, {
     "id" : "generatedDocsCount",
@@ -471,7 +471,7 @@
   }, {
     "id" : "ignoreStartingDateWhenCalculatingVacationPeriod",
     "column" : "ignoreStartingDateWhenCalculatingVacationPeriod",
-    "ar" : "تجاهل تاريخ مباشرة العمل عند حساب مدة الأجازة",
+    "ar" : "تجاهل تاريخ مباشرة العمل عند حساب مدة الإجازة",
     "en" : "Ignore Work Starting Date When Calculating Vacation Period",
     "type" : "Boolean"
   }, {
@@ -501,8 +501,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "legalEntity",
@@ -529,7 +529,7 @@
   }, {
     "id" : "maxBalanceDay",
     "column" : "maxBalanceDay",
-    "ar" : "الحد الأقصى لرصيد الأجازة (يوم)",
+    "ar" : "الحد الأقصى لرصيد الإجازة (يوم)",
     "en" : "Balance Days (Max)",
     "type" : "Decimal"
   }, {
@@ -561,7 +561,7 @@
   }, {
     "id" : "maxVacationDay",
     "column" : "maxVacationDay",
-    "ar" : "الحد الأقصى للأجازة(يوم)",
+    "ar" : "الحد الأقصى للإجازة(يوم)",
     "en" : "Vacation Days (Max)",
     "type" : "Integer"
   }, {
@@ -587,7 +587,7 @@
   }, {
     "id" : "minConsumedDays",
     "column" : "minConsumedDays",
-    "ar" : "الترحيل بحد أدني من المستهلك سنويا",
+    "ar" : "الترحيل بحد أدنى من المستهلك سنويا",
     "en" : "Minimum Consumed Days Per Year",
     "type" : "Decimal"
   }, {
@@ -599,8 +599,8 @@
   }, {
     "id" : "mustAddedToContract",
     "column" : "mustAddedToContract",
-    "ar" : "يجب إضافته الى العقد",
-    "en" : "Must Added To Contract",
+    "ar" : "يجب إضافته إلى العقد",
+    "en" : "Must Be Added To Contract",
     "type" : "Boolean"
   }, {
     "id" : "n1",
@@ -647,7 +647,7 @@
   }, {
     "id" : "numOfDaysBeforeResidencyEnd",
     "column" : "numOfDaysBeforeResidencyEnd",
-    "ar" : "المده بين العوده من الاجازه وانتهاء الاقامه",
+    "ar" : "المدة بين العودة من الإجازة وانتهاء الإقامة",
     "en" : "Number Of Days Before Residency End",
     "type" : "Integer"
   }, {
@@ -675,7 +675,7 @@
   }, {
     "id" : "reasonIsRequired",
     "column" : "reasonIsRequired",
-    "ar" : "عدم الحفظ إذا كان سبب الأجازة فارغاً",
+    "ar" : "عدم الحفظ إذا كان سبب الإجازة فارغاً",
     "en" : "Reason Is Required",
     "type" : "Boolean"
   }, {
@@ -761,7 +761,7 @@
     "id" : "toDimensions.analysisSet",
     "column" : "toAnalysisSet_id",
     "ar" : "إلى مجموعة تحليلية",
-    "en" : "to AnalysisSet",
+    "en" : "To Analysis Set",
     "type" : "Reference",
     "refTo" : "AnalysisSet",
     "refPath" : "/modules/basic/AnalysisSet.html"
@@ -769,7 +769,7 @@
     "id" : "toDimensions.branch",
     "column" : "toBranch_id",
     "ar" : "إلى فرع",
-    "en" : "to Branch",
+    "en" : "To Branch",
     "type" : "Reference",
     "refTo" : "Branch",
     "refPath" : "/modules/basic/Branch.html"
@@ -777,7 +777,7 @@
     "id" : "toDimensions.department",
     "column" : "toDepartment_id",
     "ar" : "إلى إدارة",
-    "en" : "to Department",
+    "en" : "To Department",
     "type" : "Reference",
     "refTo" : "Department",
     "refPath" : "/modules/basic/Department.html"
@@ -785,7 +785,7 @@
     "id" : "toDimensions.legalEntity",
     "column" : "toLegalEntity_id",
     "ar" : "إلى شركة",
-    "en" : "to LegalEntity",
+    "en" : "To Legal Entity",
     "type" : "Reference",
     "refTo" : "LegalEntity",
     "refPath" : "/modules/basic/LegalEntity.html"
@@ -793,7 +793,7 @@
     "id" : "toDimensions.sector",
     "column" : "toSector_id",
     "ar" : "إلى قطاع",
-    "en" : "to Sector",
+    "en" : "To Sector",
     "type" : "Reference",
     "refTo" : "Sector",
     "refPath" : "/modules/basic/Sector.html"
@@ -808,7 +808,7 @@
   }, {
     "id" : "toEmployee",
     "column" : "toEmployee_id",
-    "ar" : "الي موظف",
+    "ar" : "إلى موظف",
     "en" : "To Employee",
     "type" : "Reference",
     "refTo" : "Employee",
@@ -825,14 +825,14 @@
     "id" : "toPostion",
     "column" : "toPostion_id",
     "ar" : "إلى وظيفة",
-    "en" : "To Postion",
+    "en" : "To Position",
     "type" : "Reference",
     "refTo" : "OrganizationPosition",
     "refPath" : "/modules/basic/OrganizationPosition.html"
   }, {
     "id" : "transferPolicy",
     "column" : "transferPolicy",
-    "ar" : "سياسة ترحيل الأجازة",
+    "ar" : "سياسة ترحيل الإجازة",
     "en" : "Vacation Transfer Policy",
     "type" : "Enum",
     "enum" : "VacationTransferPolicy"
@@ -863,7 +863,7 @@
   }, {
     "id" : "vacationBalanceRange",
     "column" : "vacationBalanceRange_id",
-    "ar" : " ملف أرصدة الأجازات (بناءا على الخبرات)",
+    "ar" : " ملف أرصدة الإجازات (بناءً على الخبرات)",
     "en" : " Vacation Balance Range File",
     "type" : "Reference",
     "refTo" : "VacationBalanceRange",
@@ -871,14 +871,14 @@
   }, {
     "id" : "vacationClass",
     "column" : "vacationClass",
-    "ar" : "تصنيف الاجازة",
+    "ar" : "تصنيف الإجازة",
     "en" : "Vacation Classification",
     "type" : "Enum",
     "enum" : "VacationClass"
   }, {
     "id" : "vacationNumDuringSrvPeriod",
     "column" : "vacationNumDuringSrvPeriod",
-    "ar" : "عدد مرات الاجازه خلال فترة الخدمة",
+    "ar" : "عدد مرات الإجازة خلال فترة الخدمة",
     "en" : "Vacation Number During Service Period",
     "type" : "Decimal"
   }, {
@@ -896,21 +896,21 @@
   }, {
     "id" : "weekEndPolicyForSalary",
     "column" : "weekEndPolicyForSalary",
-    "ar" : "معاملة أجازة اسبوعية (رواتب)",
+    "ar" : "معاملة إجازة أسبوعية (رواتب)",
     "en" : "Weekend Policy (Salary)",
     "type" : "Enum",
     "enum" : "VacationHolidayPolicyType"
   }, {
     "id" : "weekRestPolicyForBalance",
     "column" : "weekRestPolicyForBalance",
-    "ar" : "معاملة راحة اسبوعية (أرصدة)",
+    "ar" : "معاملة راحة أسبوعية (أرصدة)",
     "en" : "Week Rest Policy (Balance)",
     "type" : "Enum",
     "enum" : "VacationWeekRestPolicyType"
   }, {
     "id" : "weekRestPolicyForSalary",
     "column" : "weekRestPolicyForSalary",
-    "ar" : "معاملة راحة اسبوعية (رواتب)",
+    "ar" : "معاملة راحة أسبوعية (رواتب)",
     "en" : "Week Rest Policy (Salary)",
     "type" : "Enum",
     "enum" : "VacationWeekRestPolicyType"
@@ -923,7 +923,7 @@
   }, {
     "id" : "withoutSalaryFromReason",
     "column" : "withoutSalaryFromReason",
-    "ar" : "قراءة بدون راتب من سبب الأجازة",
+    "ar" : "قراءة بدون راتب من سبب الإجازة",
     "en" : "Read Without Salary From Reason",
     "type" : "Boolean"
   }, {
@@ -950,13 +950,13 @@
     }, {
       "id" : "deductionPercentageLines.daysGreaterThanOrEqual",
       "column" : "daysGreaterThanOrEqual",
-      "ar" : "عدد أيام الإجازة |أكبر من أو يساوى",
+      "ar" : "عدد أيام الإجازة |أكبر من أو يساوي",
       "en" : "Vacation Days | Greater Than Or Equal",
       "type" : "Decimal"
     }, {
       "id" : "deductionPercentageLines.daysLessThanOrEqual",
       "column" : "daysLessThanOrEqual",
-      "ar" : "عدد أيام الإجازة |أقل من أو يساوى",
+      "ar" : "عدد أيام الإجازة |أقل من أو يساوي",
       "en" : "Vacation Days | Less Than Or Equal",
       "type" : "Decimal"
     }, {
@@ -990,7 +990,7 @@
     "id" : "discardComponents",
     "table" : "VacationTypeComponentLine",
     "joinColumn" : "vacationType_id",
-    "ar" : "المفردات الواجب تجاهلها مع الاجازه بدون مرتب",
+    "ar" : "المفردات الواجب تجاهلها مع الإجازة بدون مرتب",
     "en" : "Discard Components",
     "fields" : [ {
       "id" : "discardComponents.componentType",
@@ -1030,25 +1030,25 @@
     }, {
       "id" : "periodOfVacationReq.maxPeriodAfterVacationReq",
       "column" : "maxPeriodAfterVacationReq",
-      "ar" : "الفترة كحد أقصى بعد طلب الأجازة",
+      "ar" : "الفترة كحد أقصى بعد طلب الإجازة",
       "en" : "Maximum Period After Taking Vacation",
       "type" : "Integer"
     }, {
       "id" : "periodOfVacationReq.maxVacationPeriod",
       "column" : "maxVacationPeriod",
-      "ar" : "مدة الأجازة | أكبر من أو يساوى",
+      "ar" : "مدة الإجازة | أكبر من أو يساوي",
       "en" : "Max Vacation Period | Greater Than Or Equal",
       "type" : "Integer"
     }, {
       "id" : "periodOfVacationReq.minPeriodBeforeVacationReq",
       "column" : "minPeriodBeforeVacationReq",
-      "ar" : "الفترة كحد أدنى قبل طلب الأجازة",
+      "ar" : "الفترة كحد أدنى قبل طلب الإجازة",
       "en" : "Minimum Period Before Vacation Request",
       "type" : "Integer"
     }, {
       "id" : "periodOfVacationReq.minVacationPeriod",
       "column" : "minVacationPeriod",
-      "ar" : "مدة الأجازة | أقل من",
+      "ar" : "مدة الإجازة | أقل من",
       "en" : "Min Vacation Period | Less Than",
       "type" : "Integer"
     } ]

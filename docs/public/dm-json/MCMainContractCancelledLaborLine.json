@@ -102,6 +102,7 @@
     "id" : "totalAfterUpdate",
     "column" : "totalAfterUpdate",
     "ar" : "الإجمالي بعد التعديل",
+    "en" : "Total After Update",
     "type" : "Decimal"
   }, {
     "id" : "totalMonthlySalary",

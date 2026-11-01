@@ -2,7 +2,7 @@
   "enum" : "WhatsAppMessageState",
   "values" : [ {
     "id" : "Sent",
-    "ar" : "تم ارساله",
+    "ar" : "تم إرساله",
     "en" : "Sent"
   }, {
     "id" : "Delivered",

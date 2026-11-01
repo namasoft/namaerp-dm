@@ -2,17 +2,17 @@
   "enum" : "FSLineLevel",
   "values" : [ {
     "id" : "Main",
-    "ar" : "رئيسى",
+    "ar" : "رئيسي",
     "en" : "Main"
   }, {
     "id" : "Main1"
   }, {
     "id" : "Main2",
-    "ar" : "رئيسى 2",
+    "ar" : "رئيسي 2",
     "en" : "Main 2"
   }, {
     "id" : "Main3",
-    "ar" : "رئيسى 3",
+    "ar" : "رئيسي 3",
     "en" : "Main 3"
   }, {
     "id" : "Middle",
@@ -28,15 +28,15 @@
     "en" : "Middle 3"
   }, {
     "id" : "Leaf",
-    "ar" : "فرعى",
+    "ar" : "فرعي",
     "en" : "Leaf"
   }, {
     "id" : "Leaf2",
-    "ar" : "فرعى 2",
+    "ar" : "فرعي 2",
     "en" : "Leaf 2"
   }, {
     "id" : "Leaf3",
-    "ar" : "فرعى 3",
+    "ar" : "فرعي 3",
     "en" : "Leaf 3"
   } ]
 }

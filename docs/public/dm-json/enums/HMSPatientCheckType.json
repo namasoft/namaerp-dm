@@ -3,10 +3,10 @@
   "values" : [ {
     "id" : "OutPatientCheck",
     "ar" : "عيادات خارجية",
-    "en" : "OutPatient Clinic"
+    "en" : "Outpatient Clinic"
   }, {
     "id" : "InPatientCheck",
     "ar" : "عيادات داخلية",
-    "en" : "InPatient Clinic"
+    "en" : "Inpatient Clinic"
   } ]
 }

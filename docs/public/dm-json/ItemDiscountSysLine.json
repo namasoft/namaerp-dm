@@ -359,7 +359,7 @@
   }, {
     "id" : "itemDimensions.subItem",
     "column" : "subItem_id",
-    "ar" : " السياره",
+    "ar" : " السيارة",
     "en" : " Customer Car",
     "type" : "Reference",
     "refTo" : "SubItem",
@@ -376,8 +376,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "lineNumber",
@@ -400,26 +400,26 @@
   }, {
     "id" : "maxQty",
     "column" : "maxQty",
-    "ar" : "اقصي كمية",
+    "ar" : "أقصى كمية",
     "en" : "Max Qty",
     "type" : "Decimal"
   }, {
     "id" : "minInvValueToApplyDiscount",
     "column" : "minInvValueToApplyDiscount",
-    "ar" : "يطبق عندما يكون إجمالي الفاتورة | أكبر من او يساوي",
+    "ar" : "يطبق عندما يكون إجمالي الفاتورة | أكبر من أو يساوي",
     "en" : "Apply when invoice price | Greater than or equal",
     "type" : "Decimal"
   }, {
     "id" : "minItemValueToApplyDiscount",
     "column" : "minItemValueToApplyDiscount",
-    "ar" : "يطبق عندما يكون إجمالي الصنف على السطر (أسعار) | أكبر من او يساوي",
+    "ar" : "يطبق عندما يكون إجمالي الصنف على السطر (أسعار) | أكبر من أو يساوي",
     "en" : "Apply When Item Line Price | Greater than or equal",
     "type" : "Decimal"
   }, {
     "id" : "ownerRef",
     "columns" : [ "ownerRefActualCode", " ownerRefCode", " ownerRefEntityType", " ownerRefId" ],
     "ar" : "المستند",
-    "en" : "owner",
+    "en" : "Owner",
     "type" : "Genericreference"
   }, {
     "id" : "priceClassifier1",
@@ -516,14 +516,14 @@
   }, {
     "id" : "stopOtherDiscounts",
     "column" : "stopOtherDiscounts",
-    "ar" : "إيقاف التخفبضات الأخرى",
+    "ar" : "إيقاف التخفيضات الأخرى",
     "en" : "stop other discounts",
     "type" : "Boolean"
   }, {
     "id" : "stopSameTypeOtherDiscounts",
     "column" : "stopSameTypeOtherDiscounts",
     "ar" : "إيقاف التخفيضات الأخرى من نفس النوع",
-    "en" : "Stop Other Discounts of The  Same Type",
+    "en" : "Stop Other Discounts of The Same Type",
     "type" : "Boolean"
   }, {
     "id" : "subsidiary",
@@ -552,7 +552,7 @@
   }, {
     "id" : "toLotId",
     "column" : "toLotId",
-    "ar" : "الي شحنة",
+    "ar" : "إلى شحنة",
     "en" : "To Lot Id",
     "type" : "Text",
     "feature" : "scLot"

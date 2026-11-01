@@ -18,7 +18,7 @@
     "en" : "Decimal"
   }, {
     "id" : "Boolean",
-    "ar" : "صواب او خطأ",
+    "ar" : "صواب أو خطأ",
     "en" : "Boolean"
   }, {
     "id" : "Date",

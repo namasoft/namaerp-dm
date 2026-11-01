@@ -11,14 +11,14 @@
   }, {
     "id" : "lastTaskDate",
     "column" : "lastTaskDate",
-    "ar" : "تاريخ المهمه",
+    "ar" : "تاريخ المهمة",
     "en" : "Last Task Date",
     "type" : "Date"
   }, {
     "id" : "lastTaskKM",
     "column" : "lastTaskKM",
-    "ar" : "القراءة عند تنفيذ المهمه",
-    "en" : "Last Task KiloMetrage",
+    "ar" : "القراءة عند تنفيذ المهمة",
+    "en" : "Last Task Kilometrage",
     "type" : "Decimal"
   }, {
     "id" : "operation",
@@ -37,7 +37,7 @@
   }, {
     "id" : "previousOdometer",
     "column" : "previousOdometer",
-    "ar" : "القراءة العداد السابقة",
+    "ar" : "قراءة العداد السابقة",
     "en" : "Previous Odometer",
     "type" : "Decimal"
   }, {

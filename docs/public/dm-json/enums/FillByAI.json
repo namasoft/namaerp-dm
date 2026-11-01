@@ -2,11 +2,11 @@
   "enum" : "FillByAI",
   "values" : [ {
     "id" : "FillByAI",
-    "ar" : "Fill By AI",
+    "ar" : "تعبئة بالذكاء الاصطناعي",
     "en" : "Fill By AI"
   }, {
     "id" : "FillManually",
-    "ar" : "Fill Manually",
+    "ar" : "تعبئة يدوية",
     "en" : "Fill Manually"
   } ]
 }

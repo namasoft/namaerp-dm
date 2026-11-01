@@ -38,7 +38,7 @@
   }, {
     "id" : "contactInfo.address2",
     "column" : "address2",
-    "ar" : "رقم المبني",
+    "ar" : "رقم المبنى",
     "en" : "Building Number",
     "type" : "Text"
   }, {
@@ -50,7 +50,7 @@
   }, {
     "id" : "contactInfo.buildingNumber",
     "column" : "buildingNumber",
-    "ar" : "رقم المبني",
+    "ar" : "رقم المبنى",
     "en" : "Building Number",
     "type" : "Text"
   }, {
@@ -122,7 +122,7 @@
   }, {
     "id" : "contactInfo.website",
     "column" : "website",
-    "ar" : "موقع الكتروني",
+    "ar" : "موقع إلكتروني",
     "en" : "Website",
     "type" : "Text"
   }, {
@@ -208,8 +208,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "ledgerId",
@@ -254,13 +254,13 @@
   }, {
     "id" : "socialInsuranceNo",
     "column" : "socialInsuranceNo",
-    "ar" : "الرقم التأمينى للمنشأه",
+    "ar" : "الرقم التأميني للمنشأة",
     "en" : "Social Insurance Number",
     "type" : "Text"
   }, {
     "id" : "taxFileID",
     "column" : "taxFileID",
-    "ar" : "رقم الملف الضريبى",
+    "ar" : "رقم الملف الضريبي",
     "en" : "Tax File ID",
     "type" : "Text"
   }, {
@@ -272,7 +272,7 @@
   }, {
     "id" : "taxRegNumber",
     "column" : "taxRegNumber",
-    "ar" : "رقم التسجيل الضريبى",
+    "ar" : "رقم التسجيل الضريبي",
     "en" : "Tax Registration Number",
     "type" : "Text"
   }, {

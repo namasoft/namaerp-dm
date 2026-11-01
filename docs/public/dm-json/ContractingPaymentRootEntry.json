@@ -7,7 +7,7 @@
   "fields" : [ {
     "id" : "dueValue",
     "column" : "dueValue",
-    "ar" : "القيمة المستحقه",
+    "ar" : "القيمة المستحقة",
     "en" : "Due Value",
     "type" : "Decimal"
   }, {

@@ -29,7 +29,7 @@
   }, {
     "id" : "buildingNumber",
     "column" : "buildingNumber",
-    "ar" : "رقم المبني",
+    "ar" : "رقم المبنى",
     "en" : "Building Number",
     "type" : "Text"
   }, {
@@ -57,7 +57,7 @@
   }, {
     "id" : "companyType",
     "column" : "companyType",
-    "ar" : "الكيان القانونى للشركة",
+    "ar" : "الكيان القانوني للشركة",
     "en" : "The legal entity of the company",
     "type" : "Text"
   }, {
@@ -245,8 +245,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "n1",
@@ -329,7 +329,7 @@
   }, {
     "id" : "residency",
     "column" : "residency",
-    "ar" : "الأقامة",
+    "ar" : "الإقامة",
     "en" : "Residency",
     "type" : "Text"
   }, {
@@ -365,8 +365,8 @@
   }, {
     "id" : "taxRegNo",
     "column" : "taxRegNo",
-    "ar" : "رقم التسجيل الضريبى",
-    "en" : "Tax Registeration NO",
+    "ar" : "رقم التسجيل الضريبي",
+    "en" : "Tax Registration No",
     "type" : "Text"
   }, {
     "id" : "writeFailures",

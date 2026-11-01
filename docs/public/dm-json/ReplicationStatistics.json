@@ -45,7 +45,7 @@
   }, {
     "id" : "remoteFailuresCount",
     "column" : "remoteFailuresCount",
-    "ar" : "عدد الاخطاء بالسيرفر البعيد",
+    "ar" : "عدد الأخطاء بالسيرفر البعيد",
     "en" : "Remote Failures Count",
     "type" : "Long"
   }, {
@@ -63,7 +63,7 @@
   }, {
     "id" : "waitingWriteCount",
     "column" : "waitingWriteCount",
-    "ar" : "عدد الرسائل بانتظار الارسال",
+    "ar" : "عدد الرسائل بانتظار الإرسال",
     "en" : "Waiting Write Count",
     "type" : "Long"
   } ]

@@ -23,7 +23,7 @@
     "id" : "finishedPercent",
     "column" : "finishedPercent",
     "ar" : "نسبة التنفيذ",
-    "en" : "% OF Finished",
+    "en" : "% Of Finished",
     "type" : "Decimal"
   }, {
     "id" : "id",

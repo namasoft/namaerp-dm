@@ -2,15 +2,15 @@
   "enum" : "BuyerPaymentType",
   "values" : [ {
     "id" : "FullRecovered",
-    "ar" : "مغطي كليا",
-    "en" : "Full Recovered"
+    "ar" : "مغطى كليا",
+    "en" : "Fully Recovered"
   }, {
     "id" : "PartialRecovered",
-    "ar" : "مغطي جزئيا",
-    "en" : "Partial Recovered"
+    "ar" : "مغطى جزئيا",
+    "en" : "Partially Recovered"
   }, {
     "id" : "IrRecovered",
-    "ar" : "غير مغطي",
-    "en" : "IrRecovered"
+    "ar" : "غير مغطى",
+    "en" : "Unrecovered"
   } ]
 }

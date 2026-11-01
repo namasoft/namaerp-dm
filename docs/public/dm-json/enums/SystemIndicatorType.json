@@ -7,27 +7,27 @@
   }, {
     "id" : "OverTime",
     "ar" : "وقت إضافي (بالساعة)",
-    "en" : "OverTime (Hours)"
+    "en" : "Overtime (Hours)"
   }, {
     "id" : "OverTimeNormalDay",
     "ar" : "وقت إضافي يوم عادي (بالساعة)",
-    "en" : "OverTime Normal Day (Hours)"
+    "en" : "Overtime Normal Day (Hours)"
   }, {
     "id" : "OverTimeInWeekEnds",
     "ar" : "وقت إضافي عطلة أسبوعية (بالساعة)",
-    "en" : "OverTime In Week Ends (Hours)"
+    "en" : "Overtime In Week Ends (Hours)"
   }, {
     "id" : "OverTimeInHolidays",
     "ar" : "وقت إضافي يوم عطلة (بالساعة)",
-    "en" : "OverTime In Holidays (Hours)"
+    "en" : "Overtime In Holidays (Hours)"
   }, {
     "id" : "OverTimeInVacations",
-    "ar" : "وقت إضافي في اجازة (بالساعة)",
-    "en" : "OverTime In Vacations (Hours)"
+    "ar" : "وقت إضافي في إجازة (بالساعة)",
+    "en" : "Overtime In Vacations (Hours)"
   }, {
     "id" : "OverTimeNotNormalDay",
-    "ar" : "وقت إضافي اى اجازة (بالساعة)",
-    "en" : "OverTime Other Than Normal Day (Hours)"
+    "ar" : "وقت إضافي أي إجازة (بالساعة)",
+    "en" : "Overtime Other Than Normal Day (Hours)"
   }, {
     "id" : "AttendHours",
     "ar" : "ساعات الحضور (بالساعة)",
@@ -35,19 +35,19 @@
   }, {
     "id" : "AbsenseDays",
     "ar" : "أيام الغياب",
-    "en" : "Absense Days"
+    "en" : "Absence Days"
   }, {
     "id" : "OverTimeShift1",
     "ar" : "وقت إضافي دوام 1 (بالساعة)",
-    "en" : "OverTime Shift1 (Hours)"
+    "en" : "Overtime Shift1 (Hours)"
   }, {
     "id" : "OverTimeShift2",
     "ar" : "وقت إضافي دوام 2 (بالساعة)",
-    "en" : "OverTime Shift2 (Hours)"
+    "en" : "Overtime Shift2 (Hours)"
   }, {
     "id" : "OverTimeShift3",
     "ar" : "وقت إضافي دوام 3 (بالساعة)",
-    "en" : "OverTime Shift3 (Hours)"
+    "en" : "Overtime Shift3 (Hours)"
   }, {
     "id" : "LateHours",
     "ar" : "ساعات التأخير (بالساعة)",
@@ -82,19 +82,19 @@
     "en" : "Early Arrival Shift3 (Hours)"
   }, {
     "id" : "EarlyLeave",
-    "ar" : "إنصراف مبكر (بالساعة)",
+    "ar" : "انصراف مبكر (بالساعة)",
     "en" : "Early Leave (Hours)"
   }, {
     "id" : "EarlyLeaveShift1",
-    "ar" : "إنصراف مبكر دوام 1 (بالساعة)",
+    "ar" : "انصراف مبكر دوام 1 (بالساعة)",
     "en" : "Early Leave Shift1 (Hours)"
   }, {
     "id" : "EarlyLeaveShift2",
-    "ar" : "إنصراف مبكر دوام 2 (بالساعة)",
+    "ar" : "انصراف مبكر دوام 2 (بالساعة)",
     "en" : "Early Leave Shift2 (Hours)"
   }, {
     "id" : "EarlyLeaveShift3",
-    "ar" : "إنصراف مبكر دوام 3 (بالساعة)",
+    "ar" : "انصراف مبكر دوام 3 (بالساعة)",
     "en" : "Early Leave Shift3 (Hours)"
   }, {
     "id" : "OutShift1",
@@ -111,7 +111,7 @@
   }, {
     "id" : "MissionAllownce",
     "ar" : "بدل مأمورية",
-    "en" : "Mission Allownce"
+    "en" : "Mission Allowance"
   }, {
     "id" : "DaysMissions",
     "ar" : "مأمورية بالأيام",
@@ -134,23 +134,23 @@
     "en" : "Permissions Hours of Specific Type (Hours)"
   }, {
     "id" : "PermissionTypeCount",
-    "ar" : "عدد أذون إنصراف",
+    "ar" : "عدد أذون انصراف",
     "en" : "Permission Types Count"
   }, {
     "id" : "VacationTypeValueDaily",
-    "ar" : "أيام الأجازات يومي (يطبق عليه تكرارات)",
+    "ar" : "أيام الإجازات يومي (يطبق عليه تكرارات)",
     "en" : "Vacation Type Value Daily"
   }, {
     "id" : "VacationTypeCount",
-    "ar" : "عدد أجازات",
+    "ar" : "عدد إجازات",
     "en" : "Vacation Types Count"
   }, {
     "id" : "VacationTypeValue",
-    "ar" : "أيام الأجازات",
+    "ar" : "أيام الإجازات",
     "en" : "Vacation Days Value"
   }, {
     "id" : "RewardTypeCount",
-    "ar" : "عدد مكافأت",
+    "ar" : "عدد مكافآت",
     "en" : "Reward Types Count"
   }, {
     "id" : "PenaltyTypeCount",
@@ -158,7 +158,7 @@
     "en" : "Penalty Types Count"
   }, {
     "id" : "SuspensionType",
-    "ar" : "نوع ايقاف",
+    "ar" : "نوع إيقاف",
     "en" : "Suspension Type"
   }, {
     "id" : "UnderTime",
@@ -210,15 +210,15 @@
     "en" : "Shift 3 No Check Out"
   }, {
     "id" : "ActualWorkDays",
-    "ar" : "ايام العمل الفعلية",
+    "ar" : "أيام العمل الفعلية",
     "en" : "Actual Work Days"
   }, {
     "id" : "WeekEndDays",
-    "ar" : "ايام العطلات الأسبوعية",
+    "ar" : "أيام العطلات الأسبوعية",
     "en" : "Week End Days"
   }, {
     "id" : "HolidayDays",
-    "ar" : "ايام العطلات الرسمية",
+    "ar" : "أيام العطلات الرسمية",
     "en" : "Holiday Days"
   }, {
     "id" : "AttendHoursShift1",
@@ -246,7 +246,7 @@
     "en" : "Shift 3 Absence"
   }, {
     "id" : "RewardPenaltyDaily",
-    "ar" : "مكافأه - جزاء يومي (يطبق عليه تكرارات)",
+    "ar" : "مكافأة - جزاء يومي (يطبق عليه تكرارات)",
     "en" : "Reward Penalty Daily"
   }, {
     "id" : "DailySQL",
@@ -291,6 +291,6 @@
   }, {
     "id" : "NoneWorkingDays",
     "ar" : "أيام عدم العمل",
-    "en" : "None Working Days"
+    "en" : "Non Working Days"
   } ]
 }

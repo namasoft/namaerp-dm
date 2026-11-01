@@ -3,26 +3,26 @@
   "values" : [ {
     "id" : "DEFAULT",
     "ar" : "DEFAULT",
-    "en" : "DEFAULT"
+    "en" : "Default"
   }, {
     "id" : "PASTEL",
     "ar" : "PASTEL",
-    "en" : "PASTEL"
+    "en" : "Pastel"
   }, {
     "id" : "SOFT",
     "ar" : "SOFT",
-    "en" : "SOFT"
+    "en" : "Soft"
   }, {
     "id" : "HARD",
     "ar" : "HARD",
-    "en" : "HARD"
+    "en" : "Hard"
   }, {
     "id" : "LIGHT",
     "ar" : "LIGHT",
-    "en" : "LIGHT"
+    "en" : "Light"
   }, {
     "id" : "PALE",
     "ar" : "PALE",
-    "en" : "PALE"
+    "en" : "Pale"
   } ]
 }

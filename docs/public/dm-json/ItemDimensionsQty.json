@@ -8,7 +8,7 @@
     "id" : "avgCost",
     "column" : "avgCost",
     "ar" : "متوسط تكلفة",
-    "en" : "Avg.Cost",
+    "en" : "Avg. Cost",
     "type" : "Decimal"
   }, {
     "id" : "costDimension",
@@ -171,7 +171,7 @@
   }, {
     "id" : "dimensions.specificDimensions.lotId",
     "column" : "lotId",
-    "ar" : "رقم الشحنه",
+    "ar" : "رقم الشحنة",
     "en" : "Lot ID",
     "type" : "Text",
     "feature" : "scLot"
@@ -213,7 +213,7 @@
   }, {
     "id" : "dimensions.specificDimensions.subItem",
     "column" : "subItem_id",
-    "ar" : " السياره",
+    "ar" : " السيارة",
     "en" : " Customer Car",
     "type" : "Reference",
     "refTo" : "SubItem",
@@ -234,7 +234,7 @@
   }, {
     "id" : "expiryDate",
     "column" : "expiryDate",
-    "ar" : "تاريخ الإنتهاء",
+    "ar" : "تاريخ الانتهاء",
     "en" : "Expiry Date",
     "type" : "Date"
   }, {

@@ -54,7 +54,7 @@
     "en" : "Less Than Or Equal With Null"
   }, {
     "id" : "Contains",
-    "ar" : "يحتوي علي",
+    "ar" : "يحتوي على",
     "en" : "Contains"
   }, {
     "id" : "DoesNotContain",

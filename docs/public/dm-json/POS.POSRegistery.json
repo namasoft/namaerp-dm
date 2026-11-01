@@ -58,7 +58,7 @@
   }, {
     "id" : "alwaysPrintFullInvoice",
     "column" : "alwaysPrintFullInvoice",
-    "ar" : "طباعة الفاتورة الكامله دائماً",
+    "ar" : "طباعة الفاتورة الكاملة دائماً",
     "en" : "Always Print Full Invoice",
     "type" : "Boolean"
   }, {
@@ -86,7 +86,7 @@
   }, {
     "id" : "collectPayMethodsByGroup",
     "column" : "collectPayMethodsByGroup",
-    "ar" : "تجميع طرق الدفع بالمجموعه",
+    "ar" : "تجميع طرق الدفع بالمجموعة",
     "en" : "Collect Payment Methods By Group",
     "type" : "Boolean"
   }, {
@@ -128,7 +128,7 @@
   }, {
     "id" : "defaultPaySubsidiaryType",
     "column" : "defaultPaySubsidiaryType",
-    "ar" : "صرف الي الافتراضي بسند المصروف",
+    "ar" : "صرف إلى الافتراضي بسند المصروف",
     "en" : "Default Pay To In Payments",
     "type" : "Text"
   }, {
@@ -170,13 +170,13 @@
   }, {
     "id" : "doNotDisplayReturnedLinesWhenSelectingInv",
     "column" : "doNotDisplayReturnedLinesWhenSelectingInv",
-    "ar" : "عدم عرض السطور المردودة عند أختيار الفاتورة",
+    "ar" : "عدم عرض السطور المردودة عند اختيار الفاتورة",
     "en" : "Do Not Display Returned Lines When Selecting Invoice",
     "type" : "Boolean"
   }, {
     "id" : "doNotPrintNormalWithFullForm",
     "column" : "doNotPrintNormalWithFullForm",
-    "ar" : "عدم طباعه النموذج العادي في حالة طباعه النموذج الكامل",
+    "ar" : "عدم طباعة النموذج العادي في حالة طباعة النموذج الكامل",
     "en" : "Do Not Print Normal Form With Printing Full Form",
     "type" : "Boolean"
   }, {
@@ -202,13 +202,13 @@
   }, {
     "id" : "documentsPrintCount",
     "column" : "documentsPrintCount",
-    "ar" : "عدد مرات طباعه المستندات في كل أمر طباعه",
+    "ar" : "عدد مرات طباعة المستندات في كل أمر طباعة",
     "en" : "Documents Print Count",
     "type" : "Integer"
   }, {
     "id" : "downloadLatestRelease",
     "column" : "downloadLatestRelease",
-    "ar" : "تحميل اخر اصدار",
+    "ar" : "تحميل آخر إصدار",
     "en" : "Download Latest Release",
     "type" : "Boolean"
   }, {
@@ -222,8 +222,14 @@
   }, {
     "id" : "favouriteItemsQuery",
     "column" : "favouriteItemsQuery",
-    "ar" : "استعلام الأصناف المفضله",
+    "ar" : "استعلام الأصناف المفضلة",
     "en" : "Favourite Items Query",
+    "type" : "Text"
+  }, {
+    "id" : "fullInvoicePrinter",
+    "column" : "fullInvoicePrinter",
+    "ar" : "طابعة الفاتورة الكاملة",
+    "en" : "Full Invoice Printer",
     "type" : "Text"
   }, {
     "id" : "genericDims.analysisSet.code",
@@ -314,8 +320,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "linesCollectionMethod",
@@ -340,19 +346,19 @@
   }, {
     "id" : "machineIpAddress",
     "column" : "machineIpAddress",
-    "ar" : "عنوان الآي بي للماكينه",
+    "ar" : "عنوان الآي بي للماكينة",
     "en" : "Machine IP Address",
     "type" : "Text"
   }, {
     "id" : "machinePort",
     "column" : "machinePort",
-    "ar" : "رقم منفذ الماكينه",
+    "ar" : "رقم منفذ الماكينة",
     "en" : "Machine Port",
     "type" : "Integer"
   }, {
     "id" : "maxFractionDiscountValue",
     "column" : "maxFractionDiscountValue",
-    "ar" : "اقصي قيمة مسموحه لخصم الكسور",
+    "ar" : "أقصى قيمة مسموحة لخصم الكسور",
     "en" : "Max Fraction Discount Value",
     "type" : "Decimal"
   }, {
@@ -454,7 +460,7 @@
   }, {
     "id" : "printPrepFormWithHold",
     "column" : "printPrepFormWithHold",
-    "ar" : "طباعة فورمة تحضير الاوردر مع تعليق الفاتوره",
+    "ar" : "طباعة فورمة تحضير الاوردر مع تعليق الفاتورة",
     "en" : "Print Preparation Form With Hold",
     "type" : "Text"
   }, {
@@ -466,13 +472,13 @@
   }, {
     "id" : "printerName",
     "column" : "printerName",
-    "ar" : "إسم الطابعه",
+    "ar" : "اسم الطابعة",
     "en" : "Printer Name",
     "type" : "Text"
   }, {
     "id" : "reSendPOSDataToNama",
     "column" : "reSendPOSDataToNama",
-    "ar" : "إعادة إرسال بيانات نقاط البيع الي نما",
+    "ar" : "إعادة إرسال بيانات نقاط البيع إلى نما",
     "en" : "Resend POS Data To Nama",
     "type" : "Boolean"
   }, {
@@ -504,7 +510,7 @@
   }, {
     "id" : "registerLoginTitle",
     "column" : "registerLoginTitle",
-    "ar" : "عنوان الدخول للماكينه",
+    "ar" : "عنوان الدخول للماكينة",
     "en" : "Register Login Title",
     "type" : "Text"
   }, {
@@ -514,14 +520,14 @@
   }, {
     "id" : "replaceWithIn",
     "column" : "replaceWithIn",
-    "ar" : "إستبدال خلال (بالأيام)",
-    "en" : "Replace WithIn (In Days)",
+    "ar" : "استبدال خلال (بالأيام)",
+    "en" : "Replace Within (In Days)",
     "type" : "Integer"
   }, {
     "id" : "returnInvoicesWithIn",
     "column" : "returnInvoicesWithIn",
     "ar" : "ارتجاع الفواتير في خلال (بالأيام)",
-    "en" : "Return Invoices With In (In days)",
+    "en" : "Return Invoices Within (In days)",
     "type" : "Integer"
   }, {
     "id" : "rewardPointConfig",
@@ -567,14 +573,20 @@
     "id" : "shortcuts",
     "column" : "shortcuts",
     "ar" : " الاختصارات",
-    "en" : " ShortCuts",
+    "en" : " Shortcuts",
     "type" : "ID"
   }, {
     "id" : "showFavoritesWithNoNextLevels",
     "column" : "showFavoritesWithNoNextLevels",
-    "ar" : "اظهار المفضلات التي ليس تحتها مستويات أخرى",
+    "ar" : "إظهار المفضلات التي ليس تحتها مستويات أخرى",
     "en" : "Show Favourites With No Next Levels",
     "type" : "Boolean"
+  }, {
+    "id" : "smallInvoicePrinter",
+    "column" : "smallInvoicePrinter",
+    "ar" : "طابعة الفاتورة الصغيرة",
+    "en" : "Small Invoice Printer",
+    "type" : "Text"
   }, {
     "id" : "stopTaxes",
     "column" : "stopTaxes",
@@ -626,7 +638,7 @@
   }, {
     "id" : "uiSettings",
     "column" : "uiSettings_id",
-    "ar" : "إعدادات واجهة نقاط البيع الجديده",
+    "ar" : "إعدادات واجهة نقاط البيع الجديدة",
     "en" : "Pos UI Settings",
     "type" : "Reference",
     "refTo" : "POS.PosUISettings",
@@ -634,7 +646,7 @@
   }, {
     "id" : "useFavouritesColorCodeAsBG",
     "column" : "useFavouritesColorCodeAsBG",
-    "ar" : "استخدام الوان المفضلات كخلفيه",
+    "ar" : "استخدام ألوان المفضلات كخلفية",
     "en" : "Use Favourites Color Code As Background",
     "type" : "Boolean"
   }, {
@@ -776,7 +788,7 @@
     "id" : "favouriteDocs",
     "table" : "POSRegisteryFavouriteDocLine",
     "joinColumn" : "register_id",
-    "ar" : "المستندات المفضله",
+    "ar" : "المستندات المفضلة",
     "en" : "Favourite Documents",
     "fields" : [ {
       "id" : "favouriteDocs.btnArabicTitle",
@@ -836,25 +848,25 @@
     }, {
       "id" : "favouriteLines.favouritesLevel2",
       "column" : "favouritesLevel2",
-      "ar" : "المستوي 2",
+      "ar" : "المستوى 2",
       "en" : "Favourites Level 2",
       "type" : "Text"
     }, {
       "id" : "favouriteLines.favouritesLevel3",
       "column" : "favouritesLevel3",
-      "ar" : "المستوي 3",
+      "ar" : "المستوى 3",
       "en" : "Favourites Level 3",
       "type" : "Text"
     }, {
       "id" : "favouriteLines.favouritesLevel4",
       "column" : "favouritesLevel4",
-      "ar" : "المستوي 4",
+      "ar" : "المستوى 4",
       "en" : "Favourites Level 4",
       "type" : "Text"
     }, {
       "id" : "favouriteLines.favouritesLevel5",
       "column" : "favouritesLevel5",
-      "ar" : "المستوي 5",
+      "ar" : "المستوى 5",
       "en" : "Favourites Level 5",
       "type" : "Text"
     }, {

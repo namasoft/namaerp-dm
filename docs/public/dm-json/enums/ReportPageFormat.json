@@ -15,10 +15,10 @@
   }, {
     "id" : "LETTER",
     "ar" : "LETTER",
-    "en" : "LETTER"
+    "en" : "Letter"
   }, {
     "id" : "CUSTOM",
     "ar" : "مخصص",
-    "en" : "CUSTOM"
+    "en" : "Custom"
   } ]
 }

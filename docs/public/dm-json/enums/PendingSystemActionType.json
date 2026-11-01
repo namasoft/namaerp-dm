@@ -14,7 +14,7 @@
     "en" : "Send HTTP Request"
   }, {
     "id" : "CreateContractingCostEntries",
-    "ar" : "Create Contracting Cost Entries",
+    "ar" : "إنشاء قيود تكاليف المقاولات",
     "en" : "Create Contracting Cost Entries"
   }, {
     "id" : "SendImplFile"

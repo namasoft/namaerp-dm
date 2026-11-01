@@ -7,11 +7,11 @@
   }, {
     "id" : "NotInvoiced",
     "ar" : "غير مفوتر",
-    "en" : "NotInvoiced"
+    "en" : "Not Invoiced"
   }, {
     "id" : "PartialyInvoiced",
     "ar" : "مفوتر جزئياً",
-    "en" : "Partialy Invoiced"
+    "en" : "Partially Invoiced"
   }, {
     "id" : "NotApplicable",
     "ar" : "لا ينطبق",

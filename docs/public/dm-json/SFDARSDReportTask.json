@@ -122,7 +122,7 @@
     "id" : "submitionDate",
     "column" : "submitionDate",
     "ar" : "تاريخ الحدث",
-    "en" : "Submition Date",
+    "en" : "Submission Date",
     "type" : "DateAndTime"
   }, {
     "id" : "trials",

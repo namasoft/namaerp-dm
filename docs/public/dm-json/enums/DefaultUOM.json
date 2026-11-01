@@ -3,7 +3,7 @@
   "values" : [ {
     "id" : "BaseUnit",
     "ar" : " الوحدة الأساسية(الأصغر)",
-    "en" : " Base Unit(Smallest)"
+    "en" : " Base Unit (Smallest)"
   }, {
     "id" : "ReportingUnit1",
     "ar" : " وحدة التقارير 1",

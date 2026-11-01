@@ -2,7 +2,7 @@
   "enum" : "SerialType",
   "values" : [ {
     "id" : "First",
-    "ar" : "الاول",
+    "ar" : "الأول",
     "en" : "First"
   }, {
     "id" : "Second",

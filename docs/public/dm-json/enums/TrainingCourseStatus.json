@@ -15,10 +15,10 @@
   }, {
     "id" : "FinsihedUnSuccessfully",
     "ar" : "لم يتم الانتهاء بنجاح",
-    "en" : "Finished UnSuccessfully"
+    "en" : "Finished Unsuccessfully"
   }, {
     "id" : "Terminated",
-    "ar" : "منتهى",
+    "ar" : "منتهي",
     "en" : "Terminated"
   } ]
 }

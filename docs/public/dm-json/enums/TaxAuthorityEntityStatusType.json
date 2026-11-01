@@ -2,7 +2,7 @@
   "enum" : "TaxAuthorityEntityStatusType",
   "values" : [ {
     "id" : "Sent",
-    "ar" : "تم ارساله",
+    "ar" : "تم إرساله",
     "en" : "Sent"
   }, {
     "id" : "NotSent",
@@ -10,8 +10,8 @@
     "en" : "Not Sent"
   }, {
     "id" : "NotValidSent",
-    "ar" : "لم يتم ارساله بشكل صحيح",
-    "en" : "Not Send Correctly"
+    "ar" : "لم يتم إرساله بشكل صحيح",
+    "en" : "Not Sent Correctly"
   }, {
     "id" : "Cancelled",
     "ar" : "ملغي",

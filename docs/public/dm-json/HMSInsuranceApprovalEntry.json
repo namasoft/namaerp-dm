@@ -17,7 +17,7 @@
   }, {
     "id" : "patientAdmission",
     "column" : "patientAdmission_id",
-    "ar" : "إستمارة دخول المريض",
+    "ar" : "استمارة دخول المريض",
     "en" : "Patient Admission",
     "type" : "Reference",
     "refTo" : "HMSPatientAdmission",

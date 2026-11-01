@@ -14,7 +14,7 @@
     "id" : "createdOn",
     "column" : "createdOn",
     "ar" : "تاريخ الإنشاء",
-    "en" : "Create On",
+    "en" : "Created On",
     "type" : "DateAndTime"
   }, {
     "id" : "finishedBy",
@@ -41,7 +41,7 @@
   }, {
     "id" : "plateNumber",
     "column" : "plateNumber",
-    "ar" : "رقم اللوحه",
+    "ar" : "رقم اللوحة",
     "en" : "Plate Number",
     "type" : "Text"
   }, {
@@ -53,7 +53,7 @@
   }, {
     "id" : "queueCode",
     "column" : "queueCode",
-    "ar" : "كودالطابور",
+    "ar" : "كود الطابور",
     "en" : "Queue Code",
     "type" : "Text"
   }, {

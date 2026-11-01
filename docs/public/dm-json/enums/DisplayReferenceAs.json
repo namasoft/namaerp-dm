@@ -2,7 +2,7 @@
   "enum" : "DisplayReferenceAs",
   "values" : [ {
     "id" : "NameBasedOnLanguage",
-    "ar" : "الإسم بناءاً على اللغة",
+    "ar" : "الاسم بناءً على اللغة",
     "en" : "Name Based On Language"
   }, {
     "id" : "Code",
@@ -18,7 +18,7 @@
     "en" : " Name2"
   }, {
     "id" : "CodeColonName",
-    "ar" : "الكود:الإسم",
+    "ar" : "الكود:الاسم",
     "en" : "Code Colon Name"
   } ]
 }

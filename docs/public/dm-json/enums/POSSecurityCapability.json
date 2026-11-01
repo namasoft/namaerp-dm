@@ -30,7 +30,7 @@
     "en" : " Can Make Document Discount"
   }, {
     "id" : "CanDeleteHold",
-    "ar" : " امكانية حذف الفواتير المعلقة",
+    "ar" : " إمكانية حذف الفواتير المعلقة",
     "en" : " Can Delete Hold"
   }, {
     "id" : "CanCancelInvoiceBeforeSave",
@@ -38,11 +38,11 @@
     "en" : " Can Cancel Invoice Before Save"
   }, {
     "id" : "CanMakeReceipts",
-    "ar" : " امكانية عمل سند قبض",
+    "ar" : " إمكانية عمل سند قبض",
     "en" : " Can Make Receipts"
   }, {
     "id" : "CanMakePayments",
-    "ar" : " امكانية عمل سند صرف",
+    "ar" : " إمكانية عمل سند صرف",
     "en" : " Can Make Payments"
   }, {
     "id" : "CanOpenCloseShift",
@@ -66,16 +66,16 @@
     "en" : " Can Edit Settings"
   }, {
     "id" : "CanMakeReturnWithoutInvoice",
-    "ar" : " امكانية عمل مردود بدون اصل الفاتورة",
+    "ar" : " إمكانية عمل مردود بدون أصل الفاتورة",
     "en" : " Can Make Return Without Invoice"
   }, {
     "id" : "CanInquireForPrice",
-    "ar" : " إمكانية إستعلام عن سعر",
+    "ar" : " إمكانية استعلام عن سعر",
     "en" : " can Inquire For Prices"
   }, {
     "id" : "CanEditSalesUom",
     "ar" : " إمكانية تعديل وحدة المبيعات",
-    "en" : " Can Edit Sales Uom"
+    "en" : " Can Edit Sales UOM"
   }, {
     "id" : "CanHoldInvoice",
     "ar" : " إمكانية تعليق فاتورة",
@@ -102,15 +102,15 @@
     "en" : " Can Edit Item Dims"
   }, {
     "id" : "CanReplaceWithoutInvoice",
-    "ar" : " يمكن الإستبدال بدون أصل الفاتورة",
+    "ar" : " يمكن الاستبدال بدون أصل الفاتورة",
     "en" : " Can Replace Without Invoice"
   }, {
     "id" : "CanViewAccountant",
-    "ar" : " يمكن مراجعه الرصيد الدفتري",
+    "ar" : " يمكن مراجعة الرصيد الدفتري",
     "en" : " Can View System Balance"
   }, {
     "id" : "CanPrintFullInvoice",
-    "ar" : " إمكانية طباعة الفاتورة الكامله",
+    "ar" : " إمكانية طباعة الفاتورة الكاملة",
     "en" : " Can Print Full Invoice"
   }, {
     "id" : "CanEditSalesMan",
@@ -134,11 +134,11 @@
     "en" : " Can Search On Item Code"
   }, {
     "id" : "CanSearchOnInvoiceInReturnAndReplacement",
-    "ar" : " امكانية البحث عن الفاتورة في المردود والاستبدال",
+    "ar" : " إمكانية البحث عن الفاتورة في المردود والاستبدال",
     "en" : " Can Search On Invoice In Return And Replacement"
   }, {
     "id" : "CanMakeReplacement",
-    "ar" : " إمكانية عمل إستبدال مبيعات",
+    "ar" : " إمكانية عمل استبدال مبيعات",
     "en" : " Can Make Replacement"
   }, {
     "id" : "CanMakeReturn",
@@ -150,7 +150,7 @@
     "en" : " Can Show Data Transfer Errors"
   }, {
     "id" : "CanSearchByInvCodePart",
-    "ar" : " امكانية البحث بجزء من كود المستند",
+    "ar" : " إمكانية البحث بجزء من كود المستند",
     "en" : " Can Search By Invoice Code Part"
   }, {
     "id" : "CanUseCalculator",
@@ -159,7 +159,7 @@
   }, {
     "id" : "CanUseKeyBoard",
     "ar" : " إمكانية استعمال لوحة المفاتيح",
-    "en" : " Can Use KeyBoard"
+    "en" : " Can Use Keyboard"
   }, {
     "id" : "CanShowPaymentsDetails",
     "ar" : " إمكانية الإطلاع على تفاصيل الدفع في المبيعات",
@@ -170,11 +170,11 @@
     "en" : " Can Make Stock Transfer Request"
   }, {
     "id" : "CanGiveFreeItems",
-    "ar" : " إمكانية أعطاء أصناف مجانية",
+    "ar" : " إمكانية إعطاء أصناف مجانية",
     "en" : " Can Give Free Items"
   }, {
     "id" : "CanShowFieldIds",
-    "ar" : " إمكانية الأطلاع على معرف الحقول",
+    "ar" : " إمكانية الاطلاع على معرف الحقول",
     "en" : " Can Show Field Ids"
   }, {
     "id" : "CanEditServiceItemPrice",
@@ -191,10 +191,10 @@
   }, {
     "id" : "CanRePrintDocuments",
     "ar" : " إمكانية إعادة طباعة المستندات",
-    "en" : " Can RePrint Documents"
+    "en" : " Can Reprint Documents"
   }, {
     "id" : "CanEditReturnUnitPrice",
-    "ar" : " يمكن تعديل سعر الوحده في المردود",
+    "ar" : " يمكن تعديل سعر الوحدة في المردود",
     "en" : " Can Edit Return Unit Price"
   }, {
     "id" : "CanEditReturnDiscOrTax",
@@ -202,39 +202,39 @@
     "en" : " Can Edit Return Discount or Tax"
   }, {
     "id" : "CanResizeSalesColumns",
-    "ar" : " امكانية تعديل احجام اعمدة المبيعات",
+    "ar" : " إمكانية تعديل أحجام أعمدة المبيعات",
     "en" : " Can Resize Sales Columns"
   }, {
     "id" : "CanReorderSalesColumns",
-    "ar" : " امكانية اعادة ترتيب اعمدة المبيعات",
+    "ar" : " إمكانية إعادة ترتيب أعمدة المبيعات",
     "en" : " Can Reorder Sales Columns"
   }, {
     "id" : "CanViewNotification",
-    "ar" : " امكانية عرض التنبيهات",
+    "ar" : " إمكانية عرض التنبيهات",
     "en" : " Can View Notification"
   }, {
     "id" : "CanReturnInAnotherUserShift",
-    "ar" : " إمكانية عمل مردود بوردية مستخدم اخر",
+    "ar" : " إمكانية عمل مردود بوردية مستخدم آخر",
     "en" : " Can Return In Other User Shift"
   }, {
     "id" : "CanReplaceInAnotherUserShift",
-    "ar" : " إمكانية عمل استبدال بوردية مستخدم اخر",
+    "ar" : " إمكانية عمل استبدال بوردية مستخدم آخر",
     "en" : " Can Replace In Other User Shift"
   }, {
     "id" : "CanUseAnotherUserShift",
-    "ar" : " إمكانية استخدام وردية مستخدم أخر",
+    "ar" : " إمكانية استخدام وردية مستخدم آخر",
     "en" : " Can Use Another User Shift"
   }, {
     "id" : "CanUseShortcuts",
-    "ar" : " امكانية استخدام الاختصارات",
+    "ar" : " إمكانية استخدام الاختصارات",
     "en" : " Can Use Shortcuts"
   }, {
     "id" : "CanUseCriticalMethods",
-    "ar" : " امكانية استعمال طرق الدفع الحرجة",
+    "ar" : " إمكانية استعمال طرق الدفع الحرجة",
     "en" : " Can Use Critical Methods"
   }, {
     "id" : "CanUserFractionDiscounts",
-    "ar" : " امكانية استخدام خصم الكسور",
+    "ar" : " إمكانية استخدام خصم الكسور",
     "en" : " Can Use Fraction Discounts"
   }, {
     "id" : "CanEditCustomer",
@@ -242,7 +242,7 @@
     "en" : " Can Edit Customer"
   }, {
     "id" : "CanDelayInvoicePayment",
-    "ar" : " إمكانية تأجيل دفع الفاتوره",
+    "ar" : " إمكانية تأجيل دفع الفاتورة",
     "en" : " Can Delay Invoice Payment"
   }, {
     "id" : "CanReceiptFromStockTransfer",
@@ -330,7 +330,7 @@
     "en" : "Make Line Discount 8"
   }, {
     "id" : "CanMakeNegativeDuplicate",
-    "ar" : "إمكانية تكرار أخر سطر بكمية سالبة",
+    "ar" : "إمكانية تكرار آخر سطر بكمية سالبة",
     "en" : "Can Make Negative Duplicate"
   }, {
     "id" : "CanDisplayReturnedLinesWhenSelectingInv",
@@ -354,8 +354,8 @@
     "en" : "Read Item Code Using Scanner Only"
   }, {
     "id" : "CanPreventPrintingInvoices",
-    "ar" : "Can Prevent Printing Invoices",
-    "en" : "إمكانية منع طباعة الفواتير"
+    "ar" : "إمكانية منع طباعة الفواتير",
+    "en" : "Can Prevent Printing Invoices"
   }, {
     "id" : "CanNotModifyCreditNoteValueInPayment",
     "ar" : "منع تعديل قيمة إشعار الدائن في الدفع",

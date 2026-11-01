@@ -17,7 +17,7 @@
   }, {
     "id" : "required",
     "column" : "required",
-    "ar" : "إجبارى",
+    "ar" : "إجباري",
     "en" : "Required",
     "type" : "Boolean"
   } ]

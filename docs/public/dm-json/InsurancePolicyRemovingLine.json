@@ -27,7 +27,7 @@
   }, {
     "id" : "carBrand",
     "column" : "carBrand_id",
-    "ar" : "ماركة السياره",
+    "ar" : "ماركة السيارة",
     "en" : "Car Brand",
     "type" : "Reference",
     "refTo" : "CarBrand",
@@ -73,8 +73,8 @@
   }, {
     "id" : "maintenanceType",
     "column" : "maintenanceType",
-    "ar" : "نوع  الصيانة",
-    "en" : "Maintenance  type",
+    "ar" : "نوع الصيانة",
+    "en" : "Maintenance type",
     "type" : "Enum",
     "enum" : "MaintenanceType"
   }, {
@@ -86,7 +86,7 @@
   }, {
     "id" : "plateNumber",
     "column" : "plateNumber",
-    "ar" : "رقم اللوحه",
+    "ar" : "رقم اللوحة",
     "en" : "Plate Number",
     "type" : "Text"
   }, {

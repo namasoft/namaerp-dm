@@ -51,7 +51,7 @@
   }, {
     "id" : "paymentMethodName",
     "column" : "paymentMethodName",
-    "ar" : "إسم طريقة الدفع",
+    "ar" : "اسم طريقة الدفع",
     "en" : "Payment Method Name",
     "type" : "Text"
   }, {

@@ -11,7 +11,7 @@
   }, {
     "id" : "PostPoned",
     "ar" : "مؤجلة",
-    "en" : "PostPoned"
+    "en" : "Postponed"
   }, {
     "id" : "NotStarted",
     "ar" : "لم تبدأ",
@@ -22,7 +22,7 @@
     "en" : "Not Responsible"
   }, {
     "id" : "Other",
-    "ar" : "أخري",
+    "ar" : "أخرى",
     "en" : "Other"
   }, {
     "id" : "OpeningDate",

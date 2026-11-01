@@ -23,7 +23,7 @@
   }, {
     "id" : "UnCancelled",
     "ar" : "غير ملغى",
-    "en" : "Un Cancelled"
+    "en" : "Uncancelled"
   }, {
     "id" : "Revise",
     "ar" : " مراجعة",
@@ -58,7 +58,7 @@
     "en" : "Budget Exceeded"
   }, {
     "id" : "BudgetExceededDelete",
-    "ar" : "تخطى موازنة مع الحذف",
+    "ar" : "تخطي موازنة مع الحذف",
     "en" : "Budget Exceeded - Delete"
   }, {
     "id" : "Print",

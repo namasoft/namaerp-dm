@@ -6,11 +6,11 @@
     "en" : "Prevented"
   }, {
     "id" : "ReplaceAll",
-    "ar" : "إستبدال الكل",
-    "en" : "ReplaceAll"
+    "ar" : "استبدال الكل",
+    "en" : "Replace All"
   }, {
     "id" : "ReplaceFree",
-    "ar" : "إستبدال بأصناف مجانية",
+    "ar" : "استبدال بأصناف مجانية",
     "en" : "Replace Free Items"
   } ]
 }

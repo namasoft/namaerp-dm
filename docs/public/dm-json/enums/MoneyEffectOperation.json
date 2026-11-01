@@ -22,7 +22,7 @@
     "en" : "Calculate Percentage"
   }, {
     "id" : "CalcInversePercentage",
-    "ar" : "حساب النسبة المئوية المقلوبة (السعر يشمل الضريبى)",
+    "ar" : "حساب النسبة المئوية المقلوبة (السعر يشمل الضريبة)",
     "en" : "Calculate Inverse Percentage (Price Includes Tax)"
   } ]
 }

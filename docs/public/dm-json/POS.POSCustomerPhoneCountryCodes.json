@@ -100,8 +100,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",
@@ -147,7 +147,7 @@
     "fields" : [ {
       "id" : "details.arabicName",
       "column" : "arabicName",
-      "ar" : "Arabic Name",
+      "ar" : "الاسم العربي",
       "en" : "Arabic Name",
       "type" : "Text"
     }, {
@@ -159,7 +159,7 @@
     }, {
       "id" : "details.englishName",
       "column" : "englishName",
-      "ar" : "English Name",
+      "ar" : "الاسم الإنجليزي",
       "en" : "English Name",
       "type" : "Text"
     }, {

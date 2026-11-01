@@ -56,7 +56,7 @@
   }, {
     "id" : "currentUser",
     "column" : "currentUser_id",
-    "ar" : "المستخدم الحالى",
+    "ar" : "المستخدم الحالي",
     "en" : "Current User",
     "type" : "Reference",
     "refTo" : "POS.POSUser",
@@ -200,8 +200,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "mainTreasury",

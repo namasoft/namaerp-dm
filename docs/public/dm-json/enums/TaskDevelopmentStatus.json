@@ -26,7 +26,7 @@
     "en" : "Feedback from Development"
   }, {
     "id" : "ResponsibleSupervisorFeedback",
-    "ar" : "بانتظار رد مدير مستقبل الشكوي",
+    "ar" : "بانتظار رد مدير مستقبل الشكوى",
     "en" : "Responsible Supervisor Feedback"
   }, {
     "id" : "TechnicalSupportFeedback",
@@ -55,6 +55,6 @@
   }, {
     "id" : "ReOpen",
     "ar" : "معاد فتحه",
-    "en" : "ReOpen"
+    "en" : "Reopen"
   } ]
 }

@@ -14,8 +14,8 @@
     "en" : "Planned"
   }, {
     "id" : "NotDelivered",
-    "ar" : "بإنتظار التوصيل",
-    "en" : "NotDelivered"
+    "ar" : "بانتظار التوصيل",
+    "en" : "Not Delivered"
   }, {
     "id" : "Returned",
     "ar" : "تم إرجاعه",

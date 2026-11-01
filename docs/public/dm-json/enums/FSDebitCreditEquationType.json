@@ -3,11 +3,11 @@
   "values" : [ {
     "id" : "DebitMinusCredit",
     "ar" : "مدين ناقص دائن",
-    "en" : "Debit Only"
+    "en" : "Debit Minus Credit"
   }, {
     "id" : "CreditMinusDebit",
     "ar" : "دائن ناقص مدين",
-    "en" : "Credit Only"
+    "en" : "Credit Minus Debit"
   }, {
     "id" : "TotalCredit",
     "ar" : "دائن فقط",

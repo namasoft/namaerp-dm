@@ -11,7 +11,7 @@
   }, {
     "id" : "keyword",
     "column" : "keyword",
-    "ar" : "كلمة مفتاحية(عربي)",
+    "ar" : "كلمة مفتاحية (عربي)",
     "en" : "Keyword",
     "type" : "Text"
   } ]

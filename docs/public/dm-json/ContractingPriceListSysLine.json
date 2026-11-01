@@ -133,7 +133,7 @@
   }, {
     "id" : "maxPrice",
     "column" : "maxPrice",
-    "ar" : "اقصي سعر",
+    "ar" : "أقصى سعر",
     "en" : "Max Price",
     "type" : "Decimal"
   }, {
@@ -145,7 +145,7 @@
   }, {
     "id" : "minQty",
     "column" : "minQty",
-    "ar" : "اقل كمية",
+    "ar" : "أقل كمية",
     "en" : "minimum quantity",
     "type" : "Decimal"
   }, {

@@ -196,7 +196,7 @@
   }, {
     "id" : "itemDimensions.subItem",
     "column" : "subItem_id",
-    "ar" : " السياره",
+    "ar" : " السيارة",
     "en" : " Customer Car",
     "type" : "Reference",
     "refTo" : "SubItem",
@@ -213,8 +213,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "lineNumber",
@@ -244,7 +244,7 @@
     "id" : "ownerRef",
     "columns" : [ "ownerRefActualCode", " ownerRefCode", " ownerRefEntityType", " ownerRefId" ],
     "ar" : "المستند",
-    "en" : "owner",
+    "en" : "Owner",
     "type" : "Genericreference"
   }, {
     "id" : "price",
@@ -355,7 +355,7 @@
   }, {
     "id" : "toLotId",
     "column" : "toLotId",
-    "ar" : "الي شحنة",
+    "ar" : "إلى شحنة",
     "en" : "To Lot Id",
     "type" : "Text",
     "feature" : "scLot"

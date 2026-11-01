@@ -33,7 +33,7 @@
   }, {
     "id" : "value.localAmount",
     "column" : "localAmount",
-    "ar" : "القيمة المحليه",
+    "ar" : "القيمة المحلية",
     "en" : "Local amount",
     "type" : "Decimal"
   }, {

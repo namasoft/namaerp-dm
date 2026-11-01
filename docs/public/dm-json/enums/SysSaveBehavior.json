@@ -2,7 +2,8 @@
   "enum" : "SysSaveBehavior",
   "values" : [ {
     "id" : "SaveAsDraft",
-    "ar" : "الحفظ كمسودة"
+    "ar" : "الحفظ كمسودة",
+    "en" : "Save As Draft"
   }, {
     "id" : "SaveAndCommit",
     "ar" : "الحفظ نهائياً",

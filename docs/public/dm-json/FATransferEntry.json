@@ -27,7 +27,7 @@
   }, {
     "id" : "toEmployee",
     "column" : "toEmployee_id",
-    "ar" : "الي موظف",
+    "ar" : "إلى موظف",
     "en" : "To Employee",
     "type" : "Reference",
     "refTo" : "Employee",

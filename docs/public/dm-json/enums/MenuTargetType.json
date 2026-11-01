@@ -15,7 +15,7 @@
   }, {
     "id" : "DashboardsGroup",
     "ar" : " مجموعة  لوحات",
-    "en" : " Dash Board Group"
+    "en" : " Dashboard Group"
   }, {
     "id" : "Link",
     "ar" : "رابط",
@@ -43,7 +43,7 @@
   }, {
     "id" : "AutoDashBoards",
     "ar" : "اللوحات الآلية",
-    "en" : "Auto Dash Boards"
+    "en" : "Auto Dashboards"
   }, {
     "id" : "UserFavourites",
     "ar" : "مفضلة مستخدم",

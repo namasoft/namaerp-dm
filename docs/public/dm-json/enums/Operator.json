@@ -42,11 +42,11 @@
     "en" : "Not End With"
   }, {
     "id" : "Contains",
-    "ar" : "يحتوي علي",
+    "ar" : "يحتوي على",
     "en" : "Contains"
   }, {
     "id" : "NotContain",
-    "ar" : "لا يحتوي علي",
+    "ar" : "لا يحتوي على",
     "en" : "Not Contain"
   }, {
     "id" : "ContainsWithAnyOrder",

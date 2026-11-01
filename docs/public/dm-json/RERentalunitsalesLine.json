@@ -13,7 +13,7 @@
   }, {
     "id" : "collectedByFPValue",
     "column" : "collectedByFPValue",
-    "ar" : "محصل باوراق قبض",
+    "ar" : "محصل بأوراق قبض",
     "en" : "Collected By FP Value",
     "type" : "Decimal"
   }, {
@@ -186,19 +186,19 @@
     "id" : "payed",
     "column" : "payed",
     "ar" : "تم الدفع",
-    "en" : "payed",
+    "en" : "paid",
     "type" : "Boolean"
   }, {
     "id" : "penaletyValue",
     "column" : "penaletyValue",
     "ar" : "قيمة الغرامة",
-    "en" : "Penalety value",
+    "en" : "Penalty value",
     "type" : "Decimal"
   }, {
     "id" : "penaltyPercentage",
     "column" : "penaltyPercentage",
     "ar" : "من الراتب | %",
-    "en" : "From Salary|percentage",
+    "en" : "From Salary|Percentage",
     "type" : "Decimal"
   }, {
     "id" : "ref1",

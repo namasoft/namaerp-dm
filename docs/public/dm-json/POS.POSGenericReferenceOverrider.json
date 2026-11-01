@@ -2,8 +2,8 @@
   "entity" : "POS.POSGenericReferenceOverrider",
   "table" : "POSGenericReferenceOverrider",
   "module" : "pos-app",
-  "ar" : "أعدادات الحقول و الشاشات",
-  "arPlural" : " أعدادات الحقول و الشاشات",
+  "ar" : "إعدادات الحقول و الشاشات",
+  "arPlural" : " إعدادات الحقول و الشاشات",
   "en" : "Fields and Entities Settings",
   "enPlural" : " Fields and Entities Settings",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSGenericReferenceOverrider.html",
@@ -100,8 +100,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",
@@ -186,7 +186,7 @@
     }, {
       "id" : "fieldFormats.allowNumbers",
       "column" : "allowNumbers",
-      "ar" : "السماح بالارقام",
+      "ar" : "السماح بالأرقام",
       "en" : "Allow numbers",
       "type" : "Boolean"
     }, {
@@ -222,13 +222,13 @@
     }, {
       "id" : "fieldFormats.maxLength",
       "column" : "maxLength",
-      "ar" : "اقصي طول",
+      "ar" : "أقصى طول",
       "en" : "Max length",
       "type" : "Integer"
     }, {
       "id" : "fieldFormats.minLength",
       "column" : "minLength",
-      "ar" : "اقل طول",
+      "ar" : "أقل طول",
       "en" : "Min length",
       "type" : "Integer"
     }, {

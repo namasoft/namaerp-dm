@@ -6,11 +6,11 @@
     "en" : "Average Price | Suggested Prices"
   }, {
     "id" : "MinSuggestedPrice",
-    "ar" : "اقل سعر مقترح",
+    "ar" : "أقل سعر مقترح",
     "en" : "Minimum Price | Suggested Prices"
   }, {
     "id" : "MaxSuggestedPrice",
-    "ar" : "اكبر سعر مقترح",
+    "ar" : "أكبر سعر مقترح",
     "en" : "Maximum Price | Suggested Prices"
   } ]
 }

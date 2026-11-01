@@ -39,7 +39,7 @@
   }, {
     "id" : "equipmentCategory",
     "column" : "equipmentCategory",
-    "ar" : "فئه المعده",
+    "ar" : "فئة المعدة",
     "en" : "Equipment Category",
     "type" : "Enum",
     "enum" : "MCEquipmentCategory"
@@ -50,7 +50,7 @@
   }, {
     "id" : "monthlySingularPrice",
     "column" : "monthlySingularPrice",
-    "ar" : "السعر الافرادي الشهري",
+    "ar" : "السعر الإفرادي الشهري",
     "en" : "Monthly Singular Cost",
     "type" : "Decimal"
   }, {
@@ -81,6 +81,7 @@
     "id" : "totalAfterUpdate",
     "column" : "totalAfterUpdate",
     "ar" : "الإجمالي بعد التعديل",
+    "en" : "Total After Update",
     "type" : "Decimal"
   }, {
     "id" : "totalContractAfterUpdate",

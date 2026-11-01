@@ -15,15 +15,15 @@
   }, {
     "id" : "OwnerCommission",
     "ar" : "سعي مالك",
-    "en" : "OwnerCommission"
+    "en" : "Owner Commission"
   }, {
     "id" : "WaterCost",
-    "ar" : "تكاليف مياة",
+    "ar" : "تكاليف مياه",
     "en" : "Water Cost"
   }, {
     "id" : "MaintanceCost",
     "ar" : "تكاليف صيانة",
-    "en" : "Maintance Cost"
+    "en" : "Maintenance Cost"
   }, {
     "id" : "Installment",
     "ar" : "قسط",

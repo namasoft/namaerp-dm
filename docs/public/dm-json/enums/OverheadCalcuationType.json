@@ -38,8 +38,8 @@
     "en" : "Custom"
   }, {
     "id" : "MaterialAmont",
-    "ar" : "قيمة لكل وحدة ماده خام",
-    "en" : "Value Per Material Amont"
+    "ar" : "قيمة لكل وحدة مادة خام",
+    "en" : "Value Per Material Amount"
   }, {
     "id" : "ExecutionTimeAmount",
     "ar" : "قيمة لكل ساعة عمل ( من سند التنفيذ)",

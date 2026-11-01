@@ -7,7 +7,7 @@
   }, {
     "id" : "WooCommerceSite",
     "ar" : "Woo Commerce Site",
-    "en" : "Woo Commerce Site"
+    "en" : "WooCommerce Site"
   }, {
     "id" : "BigCommerceSite",
     "ar" : "BigCommerce Site",
@@ -34,15 +34,15 @@
     "en" : "Salasa"
   }, {
     "id" : "OTOUpdater",
-    "ar" : "OTO Updater",
+    "ar" : "تحديث OTO",
     "en" : "OTO Updater"
   }, {
     "id" : "AmazonSPAPI",
-    "ar" : "امازون",
+    "ar" : "أمازون",
     "en" : "Amazon"
   }, {
     "id" : "AmazonSandboxAPI",
-    "ar" : "امازون (تجريبي)",
+    "ar" : "أمازون (تجريبي)",
     "en" : "Amazon (Sandbox)"
   } ]
 }

@@ -70,7 +70,7 @@
   }, {
     "id" : "basicSalary",
     "column" : "basicSalary",
-    "ar" : "الراتب الأساسى",
+    "ar" : "الراتب الأساسي",
     "en" : "Basic Salary",
     "type" : "Decimal"
   }, {
@@ -130,7 +130,7 @@
   }, {
     "id" : "employeeName",
     "column" : "employeeName",
-    "ar" : "إسم الموظف",
+    "ar" : "اسم الموظف",
     "en" : "Employee Name",
     "type" : "Text"
   }, {
@@ -320,8 +320,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "Date"
   }, {
     "id" : "locationCode",

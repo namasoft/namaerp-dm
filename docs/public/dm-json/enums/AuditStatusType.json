@@ -3,7 +3,7 @@
   "values" : [ {
     "id" : "UnStarted",
     "ar" : "لم تبدأ",
-    "en" : "UnStarted"
+    "en" : "Unstarted"
   }, {
     "id" : "Prepared",
     "ar" : "قيد الإعداد",

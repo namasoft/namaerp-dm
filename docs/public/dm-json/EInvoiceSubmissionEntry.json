@@ -100,14 +100,14 @@
   }, {
     "id" : "taxAuthSysFields.submissionUUID",
     "column" : "submissionUUID",
-    "ar" : "معرف مرحلة الارسال",
+    "ar" : "معرف مرحلة الإرسال",
     "en" : "Submission ID",
     "type" : "Text"
   }, {
     "id" : "taxAuthSysFields.taxAuthEntityStatusType",
     "column" : "taxAuthEntityStatusType",
     "ar" : "حالة المستند بالنسبة لمصلحة الضرائب",
-    "en" : "Tax Authority Document Type",
+    "en" : "Tax Authority Document Status",
     "type" : "Enum",
     "enum" : "TaxAuthorityEntityStatusType"
   }, {

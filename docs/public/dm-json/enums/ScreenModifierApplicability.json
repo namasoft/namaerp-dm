@@ -3,7 +3,7 @@
   "values" : [ {
     "id" : "EntityTypeList",
     "ar" : "قائمة أنواع",
-    "en" : "EntityType List"
+    "en" : "Entity Type List"
   }, {
     "id" : "EntityType",
     "ar" : "نوع",

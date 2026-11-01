@@ -128,8 +128,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",
@@ -174,7 +174,7 @@
   }, {
     "id" : "usedOnce",
     "column" : "usedOnce",
-    "ar" : "تستخدم مره واحده",
+    "ar" : "تستخدم مرة واحدة",
     "en" : "Used Once",
     "type" : "Boolean"
   }, {

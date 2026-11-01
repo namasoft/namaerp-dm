@@ -3,18 +3,18 @@
   "values" : [ {
     "id" : "CEILING",
     "ar" : "التقريب لأعلى",
-    "en" : "CEILING"
+    "en" : "Ceiling"
   }, {
     "id" : "FLOOR",
     "ar" : "التقريب لأسفل",
-    "en" : "FLOOR"
+    "en" : "Floor"
   }, {
     "id" : "HALF_UP",
     "ar" : "لأقرب رقم",
-    "en" : "HALF_UP"
+    "en" : "Half Up"
   }, {
     "id" : "NONE",
     "ar" : "بدون",
-    "en" : "NONE"
+    "en" : "None"
   } ]
 }

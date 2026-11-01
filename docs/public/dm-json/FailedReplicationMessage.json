@@ -107,7 +107,7 @@
   }, {
     "id" : "originSite",
     "column" : "originSite",
-    "ar" : "الموقع الأصلى",
+    "ar" : "الموقع الأصلي",
     "en" : "Origin Site",
     "type" : "Text"
   }, {

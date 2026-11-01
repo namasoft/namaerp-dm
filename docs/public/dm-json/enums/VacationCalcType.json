@@ -6,11 +6,11 @@
     "en" : "Calculated Balance"
   }, {
     "id" : "VacationPeriodField",
-    "ar" : "حقل مدة الأجازه من سند الأجازه",
+    "ar" : "حقل مدة الإجازة من سند الإجازة",
     "en" : "Vacation Period From Vacation Document Field"
   }, {
     "id" : "ActualVacationPeriod",
-    "ar" : " مدة الأجازة الفعلية",
+    "ar" : " مدة الإجازة الفعلية",
     "en" : " Actual Vacation Period"
   }, {
     "id" : "ManualVacationPeriod",

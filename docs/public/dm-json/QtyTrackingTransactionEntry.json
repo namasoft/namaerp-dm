@@ -13,7 +13,7 @@
   }, {
     "id" : "firstQuantity",
     "column" : "firstQuantity",
-    "ar" : "الكمية في الاولي",
+    "ar" : "الكمية في الأولى",
     "en" : "First Quantity",
     "type" : "Decimal"
   }, {

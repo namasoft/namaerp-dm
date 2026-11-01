@@ -2,7 +2,7 @@
   "enum" : "SalaryIncreaseType",
   "values" : [ {
     "id" : "AdditionPercentage",
-    "ar" : "نسبه مضافة",
+    "ar" : "نسبة مضافة",
     "en" : "Addition Percentage"
   }, {
     "id" : "AdditionValue",
@@ -10,7 +10,7 @@
     "en" : "Addition Value"
   }, {
     "id" : "DeductionPercentage",
-    "ar" : "نسبه مخصومة",
+    "ar" : "نسبة مخصومة",
     "en" : "Deduction Percentage"
   }, {
     "id" : "DeductionValue",

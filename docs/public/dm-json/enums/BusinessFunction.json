@@ -102,47 +102,47 @@
     "en" : "Delete Row"
   }, {
     "id" : "rowUp",
-    "ar" : "إلي أعلي",
+    "ar" : "إلى أعلى",
     "en" : "Go Up"
   }, {
     "id" : "rowDown",
-    "ar" : "إلي أسفل",
+    "ar" : "إلى أسفل",
     "en" : "Go Down"
   }, {
     "id" : "exportAsPDF",
-    "ar" : " تصدير إلي PDF",
+    "ar" : " تصدير إلى PDF",
     "en" : " Export to PDF"
   }, {
     "id" : "exportAsDOCX",
-    "ar" : " تصدير إلي مستند ورد",
+    "ar" : " تصدير إلى مستند ورد",
     "en" : " Export to Word Document"
   }, {
     "id" : "exportAsPPTX",
-    "ar" : " تصدير إلي ملف باور بوينت",
-    "en" : " Export to Power Point"
+    "ar" : " تصدير إلى ملف باور بوينت",
+    "en" : " Export to PowerPoint"
   }, {
     "id" : "exportAsODS",
-    "ar" : " تصدير إلي OpenOffice SpreadSheet",
-    "en" : " Export to OpenOffice SpreadSheet"
+    "ar" : " تصدير إلى OpenOffice SpreadSheet",
+    "en" : " Export to OpenOffice Spreadsheet"
   }, {
     "id" : "exportAsODT",
-    "ar" : " تصدير إلي OpenOffice Document",
+    "ar" : " تصدير إلى OpenOffice Document",
     "en" : " Export to OpenOffice Document"
   }, {
     "id" : "exportAsRTF",
-    "ar" : " تصدير إلي RTF",
+    "ar" : " تصدير إلى RTF",
     "en" : " Export to RTF"
   }, {
     "id" : "exportAsTXT",
-    "ar" : " تصدير إلي ملف نصي",
+    "ar" : " تصدير إلى ملف نصي",
     "en" : " Export to Text File"
   }, {
     "id" : "exportAsXLS",
-    "ar" : " تصدير إلي إكسل 2000",
+    "ar" : " تصدير إلى إكسل 2000",
     "en" : " Export to Excel 2000"
   }, {
     "id" : "exportAsXLSX",
-    "ar" : " تصدير إلي إكسل 2007",
+    "ar" : " تصدير إلى إكسل 2007",
     "en" : " Export to Excel 2007"
   }, {
     "id" : "reportZoomIn",
@@ -166,7 +166,7 @@
     "en" : " Unrevise"
   }, {
     "id" : "sendEmailWithResult",
-    "ar" : "إرسال بريد إلكترونى بالتقرير",
+    "ar" : "إرسال بريد إلكتروني بالتقرير",
     "en" : "Send Email With Report Result"
   }, {
     "id" : "showHelpMsgs",
@@ -183,10 +183,10 @@
   }, {
     "id" : "filterAndSort",
     "ar" : "الفلترة والترتيب",
-    "en" : "Filter And SortAuto"
+    "en" : "Filter And Sort"
   }, {
     "id" : "autoFitCols",
-    "ar" : "ظبط عرض الأعمدة تلقائيا",
+    "ar" : "ضبط عرض الأعمدة تلقائيا",
     "en" : "Auto Fit Columns"
   }, {
     "id" : "toggleSortDirection",

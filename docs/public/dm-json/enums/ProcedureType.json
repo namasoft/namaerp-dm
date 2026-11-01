@@ -2,12 +2,12 @@
   "enum" : "ProcedureType",
   "values" : [ {
     "id" : "BootPlaningProcedures",
-    "ar" : "إجراءات مرحلة التمهيد التخطيط",
-    "en" : "Boot Planing Procedures"
+    "ar" : "إجراءات مرحلة التمهيد للتخطيط",
+    "en" : "Boot Planning Procedures"
   }, {
     "id" : "PlaningProcedures",
     "ar" : "إجراءات مرحلة التخطيط",
-    "en" : "Planing Procedures"
+    "en" : "Planning Procedures"
   }, {
     "id" : "BasicProcedures",
     "ar" : "إجراءات الأساسية",
@@ -22,15 +22,15 @@
     "en" : "Control Tests"
   }, {
     "id" : "AnalyticalProcedures",
-    "ar" : "إختبارات التحليلية",
+    "ar" : "اختبارات التحليلية",
     "en" : "Analytical Procedures"
   }, {
     "id" : "DetailedProcedures",
-    "ar" : "إختبارات التفصيلية",
+    "ar" : "اختبارات التفصيلية",
     "en" : "Detailed Procedures"
   }, {
     "id" : "CompletionProcedures",
-    "ar" : "إجراءات مرحلة الإستكمال",
+    "ar" : "إجراءات مرحلة الاستكمال",
     "en" : "Completion Procedures"
   }, {
     "id" : "CheckProcedures",
@@ -38,7 +38,7 @@
     "en" : "Check Procedures"
   }, {
     "id" : "ReportsProcedures",
-    "ar" : "إجراءات اصدار التقارير",
+    "ar" : "إجراءات إصدار التقارير",
     "en" : "Reports Procedures"
   }, {
     "id" : "AnalysisModel",
@@ -58,7 +58,7 @@
     "en" : "Team Work"
   }, {
     "id" : "IndependencyTemplate",
-    "ar" : "نموذج الإستقلالية",
+    "ar" : "نموذج الاستقلالية",
     "en" : "Independency Model"
   }, {
     "id" : "LinkingLetter",

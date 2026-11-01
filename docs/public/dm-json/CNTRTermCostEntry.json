@@ -13,7 +13,7 @@
   }, {
     "id" : "analysisTermCode",
     "column" : "analysisTermCode",
-    "ar" : "كود البند التحليلى",
+    "ar" : "كود البند التحليلي",
     "en" : "Analysis Term Code",
     "type" : "Text"
   }, {

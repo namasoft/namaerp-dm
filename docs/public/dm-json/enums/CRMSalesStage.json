@@ -10,7 +10,7 @@
     "en" : "Qualification"
   }, {
     "id" : "NeedsAnalysis",
-    "ar" : "بحاجه للتحليل",
+    "ar" : "بحاجة للتحليل",
     "en" : "Needs Analysis"
   }, {
     "id" : "ValueProposition",
@@ -26,19 +26,19 @@
     "en" : "Perception Analysis"
   }, {
     "id" : "PriceQuote",
-    "ar" : "إقتراح الأسعار",
+    "ar" : "اقتراح الأسعار",
     "en" : "Price Quote"
   }, {
     "id" : "Review",
-    "ar" : "المراجعه",
+    "ar" : "المراجعة",
     "en" : "Review"
   }, {
     "id" : "ClosedWon",
-    "ar" : "أنتهي بنجاح",
+    "ar" : "انتهى بنجاح",
     "en" : "Closed Won"
   }, {
     "id" : "ClosedLost",
-    "ar" : "أنتهي بفشل",
+    "ar" : "انتهى بفشل",
     "en" : "Closed Lost"
   }, {
     "id" : "ContractPreparation",

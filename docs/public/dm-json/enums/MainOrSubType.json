@@ -2,11 +2,11 @@
   "enum" : "MainOrSubType",
   "values" : [ {
     "id" : "Main",
-    "ar" : "رئيسيه",
+    "ar" : "رئيسية",
     "en" : "Main"
   }, {
     "id" : "Sub",
-    "ar" : "فرعيه",
+    "ar" : "فرعية",
     "en" : "Sub"
   } ]
 }

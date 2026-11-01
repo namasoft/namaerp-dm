@@ -101,7 +101,7 @@
   }, {
     "id" : "extraData",
     "column" : "extraData",
-    "ar" : "Extra Data",
+    "ar" : "بيانات إضافية",
     "en" : "Extra Data",
     "type" : ""
   }, {
@@ -131,7 +131,7 @@
   }, {
     "id" : "originSite",
     "column" : "originSite",
-    "ar" : "الموقع الأصلى",
+    "ar" : "الموقع الأصلي",
     "en" : "Origin Site",
     "type" : "Text"
   }, {
@@ -149,6 +149,7 @@
   }, {
     "id" : "recordId",
     "column" : "recordId",
+    "ar" : "معرف السجل",
     "en" : "Record Id",
     "type" : "ID"
   }, {
@@ -182,7 +183,7 @@
     "id" : "submitionDate",
     "column" : "submitionDate",
     "ar" : "تاريخ الحدث",
-    "en" : "Submition Date",
+    "en" : "Submission Date",
     "type" : "DateAndTime"
   }, {
     "id" : "targetQueueId",

@@ -6,11 +6,11 @@
     "en" : "Addition"
   }, {
     "id" : "Deduction",
-    "ar" : "إستقطاع",
+    "ar" : "استقطاع",
     "en" : "Deduction"
   }, {
     "id" : "Other",
-    "ar" : "أخري",
+    "ar" : "أخرى",
     "en" : "Other"
   } ]
 }

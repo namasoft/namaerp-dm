@@ -3,7 +3,7 @@
   "values" : [ {
     "id" : "FirstMatchingtOnly",
     "ar" : "أول سطر مطابق",
-    "en" : "First Matchingt Only"
+    "en" : "First Matching Only"
   }, {
     "id" : "AllMatchingConsecutively",
     "ar" : "توزيع بكل السطور المطابقة على التوالي",

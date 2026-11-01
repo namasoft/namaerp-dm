@@ -54,11 +54,12 @@
     "en" : "Safe Deposit"
   }, {
     "id" : "LetterOfCredit",
-    "ar" : "الإعتماد المستندي",
+    "ar" : "الاعتماد المستندي",
     "en" : "Letter Of Credit"
   }, {
     "id" : "LcExpenseItem",
-    "ar" : " بند مصروف"
+    "ar" : " بند مصروف",
+    "en" : " Expense Item"
   }, {
     "id" : "ThirdParty",
     "ar" : "جهة ذات صلة",
@@ -110,26 +111,26 @@
   }, {
     "id" : "RERentalUnit",
     "ar" : "استثمار عقاري - وحدة",
-    "en" : "RE - RentalUnit"
+    "en" : "RE - Rental Unit"
   }, {
     "id" : "REProject",
     "ar" : "استثمار عقاري - مشروع",
     "en" : "RE - Project"
   }, {
     "id" : "REBuilding",
-    "ar" : "استثمار عقاري - مبني",
+    "ar" : "استثمار عقاري - مبنى",
     "en" : "RE - Building"
   }, {
     "id" : "REUnitGroup",
     "ar" : "استثمار عقاري - وحدة مجمعة",
-    "en" : "RE - UnitGroup"
+    "en" : "RE - Unit Group"
   }, {
     "id" : "RESquare",
     "ar" : "استثمار عقاري - مربع",
     "en" : "RE - Square"
   }, {
     "id" : "RELand",
-    "ar" : "استثمار عقاري - قطعة ارض",
+    "ar" : "استثمار عقاري - قطعة أرض",
     "en" : "RE - Land"
   }, {
     "id" : "REAdditionalCost",
@@ -149,7 +150,7 @@
     "en" : "Purchase Element"
   }, {
     "id" : "CPAProject",
-    "ar" : "ادارة مشاريع - مشروع",
+    "ar" : "إدارة مشاريع - مشروع",
     "en" : "PM - Project"
   }, {
     "id" : "LetterOfGuarantee",
@@ -157,7 +158,7 @@
     "en" : "Letter Of Guarantee"
   }, {
     "id" : "BankLC",
-    "ar" : "اعتماد بنكى",
+    "ar" : "اعتماد بنكي",
     "en" : "Bank LC"
   }, {
     "id" : "BankLoan",
@@ -189,7 +190,7 @@
     "en" : "Doctor"
   }, {
     "id" : "HMSInsuranceCompany",
-    "ar" : "شركة تأمين طبى",
+    "ar" : "شركة تأمين طبي",
     "en" : "Medical Insurance Company"
   }, {
     "id" : "FRMServiceItem",
@@ -197,7 +198,7 @@
     "en" : "Service Item"
   }, {
     "id" : "ChargeItem",
-    "ar" : "صنف شحن إلكترونى",
+    "ar" : "صنف شحن إلكتروني",
     "en" : "Charge Item"
   }, {
     "id" : "HMSPharmacy",
@@ -217,7 +218,7 @@
     "en" : "Laboratory Test Type"
   }, {
     "id" : "HMSPhysicalTherapyType",
-    "ar" : "نوع العلاج الطبيعى",
+    "ar" : "نوع العلاج الطبيعي",
     "en" : "Physical Therapy Type"
   }, {
     "id" : "HMSMedicalService",
@@ -233,7 +234,7 @@
     "en" : "Student"
   }, {
     "id" : "EDGuardian",
-    "ar" : "ولى أمر",
+    "ar" : "ولي أمر",
     "en" : "Guardian"
   }, {
     "id" : "CRMMediator",
@@ -329,7 +330,7 @@
     "en" : "Finance Company"
   }, {
     "id" : "ContractingAdvisory",
-    "ar" : "إستشاري",
+    "ar" : "استشاري",
     "en" : "Advisory"
   } ]
 }

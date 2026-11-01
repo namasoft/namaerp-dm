@@ -108,7 +108,7 @@
   }, {
     "id" : "idleTemplate",
     "column" : "idleTemplate",
-    "ar" : "قالب البدأ",
+    "ar" : "قالب البدء",
     "en" : "Idle Template",
     "type" : "Text"
   }, {
@@ -118,8 +118,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "lineAddingTemplate",
@@ -154,7 +154,7 @@
   }, {
     "id" : "printerOrPortNumber",
     "column" : "printerOrPortNumber",
-    "ar" : "اسم الطابعه او رقم المنفذ",
+    "ar" : "اسم الطابعة أو رقم المنفذ",
     "en" : "Printer Name Or Port Number",
     "type" : "Text"
   }, {

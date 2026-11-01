@@ -45,7 +45,7 @@
   }, {
     "id" : "submissionUUID",
     "column" : "submissionUUID",
-    "ar" : "معرف مرحلة الارسال",
+    "ar" : "معرف مرحلة الإرسال",
     "en" : "Submission ID",
     "type" : "Text"
   }, {

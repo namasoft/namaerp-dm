@@ -31,7 +31,7 @@
   }, {
     "id" : "defaultLocator",
     "column" : "defaultLocator_id",
-    "ar" : "الموقع الإفتراضي",
+    "ar" : "الموقع الافتراضي",
     "en" : "Locator",
     "type" : "Reference",
     "refTo" : "POS.POSLocation",
@@ -107,13 +107,13 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "locatorPolicy",
     "column" : "locatorPolicy",
-    "ar" : "إستخدام الموقع",
+    "ar" : "استخدام الموقع",
     "en" : "Locator Usage",
     "type" : "Text"
   }, {

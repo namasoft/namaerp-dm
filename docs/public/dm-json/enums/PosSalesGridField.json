@@ -46,7 +46,7 @@
     "en" : " Production Date"
   }, {
     "id" : "ExpiryDate",
-    "ar" : "تاريخ الإنتهاء",
+    "ar" : "تاريخ الانتهاء",
     "en" : "Expiry Date"
   }, {
     "id" : "Quantity",
@@ -66,7 +66,7 @@
     "en" : " Unit Price"
   }, {
     "id" : "TotalPrice",
-    "ar" : "السعر الإساسي",
+    "ar" : "السعر الأساسي",
     "en" : " Total"
   }, {
     "id" : "Discount1",
@@ -119,7 +119,7 @@
   }, {
     "id" : "FreeItem",
     "ar" : "صنف مجاني",
-    "en" : "FreeItem"
+    "en" : "Free Item"
   }, {
     "id" : "LineNumber",
     "ar" : "رقم السطر",
@@ -131,7 +131,7 @@
   }, {
     "id" : "ShortCuts",
     "ar" : "الاختصارات",
-    "en" : "ShortCuts"
+    "en" : "Shortcuts"
   }, {
     "id" : "Remarks",
     "ar" : "الملاحظات",
@@ -150,7 +150,7 @@
     "en" : "Unit Cost"
   }, {
     "id" : "TotalCost",
-    "ar" : " اجمالى التكلفة",
+    "ar" : " إجمالي التكلفة",
     "en" : " Total Cost"
   }, {
     "id" : "Reference1",

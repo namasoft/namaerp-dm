@@ -2,7 +2,7 @@
   "enum" : "HOCounterType",
   "values" : [ {
     "id" : "Water",
-    "ar" : "مياة",
+    "ar" : "مياه",
     "en" : "Water"
   }, {
     "id" : "Electricity",

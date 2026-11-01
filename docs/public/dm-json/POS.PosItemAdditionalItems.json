@@ -40,7 +40,7 @@
   }, {
     "id" : "colorsTitleInPos",
     "column" : "colorsTitleInPos",
-    "ar" : "عنوان الالوان في نقاط البيع",
+    "ar" : "عنوان الألوان في نقاط البيع",
     "en" : "Colors Title In Pos",
     "type" : "Text"
   }, {
@@ -131,6 +131,7 @@
     "id" : "itemColorsOrder",
     "column" : "itemColorsOrder",
     "ar" : "ترتيب عرض ألوان الصنف",
+    "en" : "Item Colors Display Order",
     "type" : "Integer"
   }, {
     "id" : "itemRevisionsDisplayMethod",
@@ -142,6 +143,7 @@
     "id" : "itemRevisionsOrder",
     "column" : "itemRevisionsOrder",
     "ar" : "ترتيب عرض إصدارات الصنف",
+    "en" : "Item Revisions Display Order",
     "type" : "Integer"
   }, {
     "id" : "itemSizesDisplayMethod",
@@ -153,12 +155,13 @@
     "id" : "itemSizesOrder",
     "column" : "itemSizesOrder",
     "ar" : "ترتيب عرض مقاسات الصنف",
+    "en" : "Item Sizes Display Order",
     "type" : "Integer"
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "makeItemColorsRequired",
@@ -217,7 +220,7 @@
   }, {
     "id" : "showItemColors",
     "column" : "showItemColors",
-    "ar" : "عرض الوان الصنف",
+    "ar" : "عرض ألوان الصنف",
     "en" : "Show Item Colors",
     "type" : "Boolean"
   }, {
@@ -258,7 +261,7 @@
     }, {
       "id" : "additionalItems1.defaultItem",
       "column" : "defaultItem",
-      "ar" : "الأفتراضي",
+      "ar" : "الافتراضي",
       "en" : "Default",
       "type" : "Boolean"
     }, {
@@ -309,7 +312,7 @@
     }, {
       "id" : "additionalItems10.defaultItem",
       "column" : "defaultItem",
-      "ar" : "الأفتراضي",
+      "ar" : "الافتراضي",
       "en" : "Default",
       "type" : "Boolean"
     }, {
@@ -360,7 +363,7 @@
     }, {
       "id" : "additionalItems2.defaultItem",
       "column" : "defaultItem",
-      "ar" : "الأفتراضي",
+      "ar" : "الافتراضي",
       "en" : "Default",
       "type" : "Boolean"
     }, {
@@ -411,7 +414,7 @@
     }, {
       "id" : "additionalItems3.defaultItem",
       "column" : "defaultItem",
-      "ar" : "الأفتراضي",
+      "ar" : "الافتراضي",
       "en" : "Default",
       "type" : "Boolean"
     }, {
@@ -462,7 +465,7 @@
     }, {
       "id" : "additionalItems4.defaultItem",
       "column" : "defaultItem",
-      "ar" : "الأفتراضي",
+      "ar" : "الافتراضي",
       "en" : "Default",
       "type" : "Boolean"
     }, {
@@ -513,7 +516,7 @@
     }, {
       "id" : "additionalItems5.defaultItem",
       "column" : "defaultItem",
-      "ar" : "الأفتراضي",
+      "ar" : "الافتراضي",
       "en" : "Default",
       "type" : "Boolean"
     }, {
@@ -564,7 +567,7 @@
     }, {
       "id" : "additionalItems6.defaultItem",
       "column" : "defaultItem",
-      "ar" : "الأفتراضي",
+      "ar" : "الافتراضي",
       "en" : "Default",
       "type" : "Boolean"
     }, {
@@ -615,7 +618,7 @@
     }, {
       "id" : "additionalItems7.defaultItem",
       "column" : "defaultItem",
-      "ar" : "الأفتراضي",
+      "ar" : "الافتراضي",
       "en" : "Default",
       "type" : "Boolean"
     }, {
@@ -666,7 +669,7 @@
     }, {
       "id" : "additionalItems8.defaultItem",
       "column" : "defaultItem",
-      "ar" : "الأفتراضي",
+      "ar" : "الافتراضي",
       "en" : "Default",
       "type" : "Boolean"
     }, {
@@ -717,7 +720,7 @@
     }, {
       "id" : "additionalItems9.defaultItem",
       "column" : "defaultItem",
-      "ar" : "الأفتراضي",
+      "ar" : "الافتراضي",
       "en" : "Default",
       "type" : "Boolean"
     }, {
@@ -774,7 +777,7 @@
     }, {
       "id" : "additionalItemsSettings.addSearchButton",
       "column" : "addSearchButton",
-      "ar" : "إضافة رز البحث",
+      "ar" : "إضافة زر البحث",
       "en" : "Add Search Button",
       "type" : "Boolean"
     }, {

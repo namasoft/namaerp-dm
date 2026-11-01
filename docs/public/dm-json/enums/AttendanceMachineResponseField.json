@@ -6,11 +6,11 @@
     "en" : " Employee Code"
   }, {
     "id" : "firstName",
-    "ar" : "الاسم الاول",
+    "ar" : "الاسم الأول",
     "en" : "First Name"
   }, {
     "id" : "lastName",
-    "ar" : "الاسم الاخير",
+    "ar" : "الاسم الأخير",
     "en" : "Last Name"
   }, {
     "id" : "department",

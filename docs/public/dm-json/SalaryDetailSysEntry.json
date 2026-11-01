@@ -7,8 +7,8 @@
   "fields" : [ {
     "id" : "bylawCode",
     "column" : "bylawCode",
-    "ar" : "كود الائحة",
-    "en" : "ByLaw Code",
+    "ar" : "كود اللائحة",
+    "en" : "Bylaw Code",
     "type" : "Text"
   }, {
     "id" : "component",
@@ -27,7 +27,7 @@
   }, {
     "id" : "divideOn",
     "column" : "divideOn",
-    "ar" : "مقسوما علي",
+    "ar" : "مقسوما على",
     "en" : "Divide On",
     "type" : "Decimal"
   }, {
@@ -47,7 +47,7 @@
   }, {
     "id" : "finalResult",
     "column" : "finalResult",
-    "ar" : "الناتج النهائى",
+    "ar" : "الناتج النهائي",
     "en" : "Final Result",
     "type" : "Decimal"
   }, {

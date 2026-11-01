@@ -32,7 +32,7 @@
   }, {
     "id" : "doNotConsiderActivePercent",
     "column" : "doNotConsiderActivePercent",
-    "ar" : "عدم إعتبار النسبة الغير الفعالة",
+    "ar" : "عدم اعتبار النسبة الفعالة",
     "en" : "Do Not Consider Active Percentage",
     "type" : "Boolean"
   }, {
@@ -50,13 +50,13 @@
   }, {
     "id" : "doNotConsiderInActivePercent",
     "column" : "doNotConsiderInActivePercent",
-    "ar" : "عدم إعتبار النسبة الفعالة",
+    "ar" : "عدم اعتبار النسبة غير الفعالة",
     "en" : "Do Not Consider Inactive Percentage",
     "type" : "Boolean"
   }, {
     "id" : "doNotConsiderLocator",
     "column" : "doNotConsiderLocator",
-    "ar" : "عدم اعتبارالموقع",
+    "ar" : "عدم اعتبار الموقع",
     "en" : "Do Not Consider Locator",
     "type" : "Boolean"
   }, {
@@ -68,13 +68,13 @@
   }, {
     "id" : "doNotConsiderMeasures",
     "column" : "doNotConsiderMeasures",
-    "ar" : "عدم اعتبار الابعاد",
+    "ar" : "عدم اعتبار الأبعاد",
     "en" : "Do Not Consider Measures",
     "type" : "Boolean"
   }, {
     "id" : "doNotConsiderRevisionId",
     "column" : "doNotConsiderRevisionId",
-    "ar" : "عدم اعتبارالإصدار",
+    "ar" : "عدم اعتبار الإصدار",
     "en" : "Do Not Consider Revision Id",
     "type" : "Boolean"
   }, {
@@ -98,7 +98,7 @@
   }, {
     "id" : "doNotConsiderWarehouse",
     "column" : "doNotConsiderWarehouse",
-    "ar" : "عدم اعتبارالمخزن",
+    "ar" : "عدم اعتبار المخزن",
     "en" : "Do Not Consider Warehouse",
     "type" : "Boolean"
   }, {
@@ -172,8 +172,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",

@@ -100,8 +100,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",
@@ -142,7 +142,7 @@
   }, {
     "id" : "specs1.minCodeLength",
     "column" : "specs1MinCodeLength",
-    "ar" : "اقل طول للكود",
+    "ar" : "أقل طول للكود",
     "en" : "Minimum Code Length",
     "type" : "Integer"
   }, {
@@ -160,7 +160,7 @@
   }, {
     "id" : "specs1.treatPrefixAsPartOfFirstProperty",
     "column" : "specs1PrefixAsPartOfProperty",
-    "ar" : "معاملة البادئة على انها جزء من اول خاصية",
+    "ar" : "معاملة البادئة على أنها جزء من أول خاصية",
     "en" : "Treat Prefix As Part Of First Property",
     "type" : "Boolean"
   }, {
@@ -172,7 +172,7 @@
   }, {
     "id" : "specs2.minCodeLength",
     "column" : "specs2MinCodeLength",
-    "ar" : "اقل طول للكود",
+    "ar" : "أقل طول للكود",
     "en" : "Minimum Code Length",
     "type" : "Integer"
   }, {
@@ -190,7 +190,7 @@
   }, {
     "id" : "specs2.treatPrefixAsPartOfFirstProperty",
     "column" : "specs2PrefixAsPartOfProperty",
-    "ar" : "معاملة البادئة على انها جزء من اول خاصية",
+    "ar" : "معاملة البادئة على أنها جزء من أول خاصية",
     "en" : "Treat Prefix As Part Of First Property",
     "type" : "Boolean"
   }, {
@@ -202,7 +202,7 @@
   }, {
     "id" : "specs3.minCodeLength",
     "column" : "specs3MinCodeLength",
-    "ar" : "اقل طول للكود",
+    "ar" : "أقل طول للكود",
     "en" : "Minimum Code Length",
     "type" : "Integer"
   }, {
@@ -220,7 +220,7 @@
   }, {
     "id" : "specs3.treatPrefixAsPartOfFirstProperty",
     "column" : "specs3PrefixAsPartOfProperty",
-    "ar" : "معاملة البادئة على انها جزء من اول خاصية",
+    "ar" : "معاملة البادئة على أنها جزء من أول خاصية",
     "en" : "Treat Prefix As Part Of First Property",
     "type" : "Boolean"
   }, {
@@ -232,7 +232,7 @@
   }, {
     "id" : "specs4.minCodeLength",
     "column" : "specs4MinCodeLength",
-    "ar" : "اقل طول للكود",
+    "ar" : "أقل طول للكود",
     "en" : "Minimum Code Length",
     "type" : "Integer"
   }, {
@@ -250,7 +250,7 @@
   }, {
     "id" : "specs4.treatPrefixAsPartOfFirstProperty",
     "column" : "specs4PrefixAsPartOfProperty",
-    "ar" : "معاملة البادئة على انها جزء من اول خاصية",
+    "ar" : "معاملة البادئة على أنها جزء من أول خاصية",
     "en" : "Treat Prefix As Part Of First Property",
     "type" : "Boolean"
   }, {
@@ -262,7 +262,7 @@
   }, {
     "id" : "specs5.minCodeLength",
     "column" : "specs5MinCodeLength",
-    "ar" : "اقل طول للكود",
+    "ar" : "أقل طول للكود",
     "en" : "Minimum Code Length",
     "type" : "Integer"
   }, {
@@ -280,7 +280,7 @@
   }, {
     "id" : "specs5.treatPrefixAsPartOfFirstProperty",
     "column" : "specs5PrefixAsPartOfProperty",
-    "ar" : "معاملة البادئة على انها جزء من اول خاصية",
+    "ar" : "معاملة البادئة على أنها جزء من أول خاصية",
     "en" : "Treat Prefix As Part Of First Property",
     "type" : "Boolean"
   }, {
@@ -292,12 +292,12 @@
     "id" : "parts1",
     "table" : "POSItemBarcodePart1",
     "joinColumn" : "parser_id",
-    "ar" : " اجزاء العرض",
+    "ar" : " أجزاء العرض",
     "en" : " Parts",
     "fields" : [ {
       "id" : "parts1.divideOn",
       "column" : "divideOn",
-      "ar" : "مقسوما علي",
+      "ar" : "مقسوما على",
       "en" : "Divide On",
       "type" : "Decimal"
     }, {
@@ -349,12 +349,12 @@
     "id" : "parts2",
     "table" : "POSItemBarcodePart2",
     "joinColumn" : "parser_id",
-    "ar" : " اجزاء العرض",
+    "ar" : " أجزاء العرض",
     "en" : " Parts",
     "fields" : [ {
       "id" : "parts2.divideOn",
       "column" : "divideOn",
-      "ar" : "مقسوما علي",
+      "ar" : "مقسوما على",
       "en" : "Divide On",
       "type" : "Decimal"
     }, {
@@ -406,12 +406,12 @@
     "id" : "parts3",
     "table" : "POSItemBarcodePart3",
     "joinColumn" : "parser_id",
-    "ar" : " اجزاء العرض",
+    "ar" : " أجزاء العرض",
     "en" : " Parts",
     "fields" : [ {
       "id" : "parts3.divideOn",
       "column" : "divideOn",
-      "ar" : "مقسوما علي",
+      "ar" : "مقسوما على",
       "en" : "Divide On",
       "type" : "Decimal"
     }, {
@@ -463,12 +463,12 @@
     "id" : "parts4",
     "table" : "POSItemBarcodePart4",
     "joinColumn" : "parser_id",
-    "ar" : " اجزاء العرض",
+    "ar" : " أجزاء العرض",
     "en" : " Parts",
     "fields" : [ {
       "id" : "parts4.divideOn",
       "column" : "divideOn",
-      "ar" : "مقسوما علي",
+      "ar" : "مقسوما على",
       "en" : "Divide On",
       "type" : "Decimal"
     }, {
@@ -520,12 +520,12 @@
     "id" : "parts5",
     "table" : "POSItemBarcodePart5",
     "joinColumn" : "parser_id",
-    "ar" : " اجزاء العرض",
+    "ar" : " أجزاء العرض",
     "en" : " Parts",
     "fields" : [ {
       "id" : "parts5.divideOn",
       "column" : "divideOn",
-      "ar" : "مقسوما علي",
+      "ar" : "مقسوما على",
       "en" : "Divide On",
       "type" : "Decimal"
     }, {

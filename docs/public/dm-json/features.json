@@ -10817,18 +10817,6 @@
       "entity" : "CPAInvoiceAggregateLine",
       "field" : "price.discount1.value"
     }, {
-      "entity" : "CPAProjReturnLine",
-      "field" : "price.discount1.afterValue"
-    }, {
-      "entity" : "CPAProjReturnLine",
-      "field" : "price.discount1.maxNormalPercent"
-    }, {
-      "entity" : "CPAProjReturnLine",
-      "field" : "price.discount1.percentage"
-    }, {
-      "entity" : "CPAProjReturnLine",
-      "field" : "price.discount1.value"
-    }, {
       "entity" : "CPAProjectInvoice",
       "field" : "details.price.discount1.afterValue"
     }, {
@@ -15204,18 +15192,6 @@
       "field" : "price.discount2.percentage"
     }, {
       "entity" : "CPAInvoiceAggregateLine",
-      "field" : "price.discount2.value"
-    }, {
-      "entity" : "CPAProjReturnLine",
-      "field" : "price.discount2.afterValue"
-    }, {
-      "entity" : "CPAProjReturnLine",
-      "field" : "price.discount2.maxNormalPercent"
-    }, {
-      "entity" : "CPAProjReturnLine",
-      "field" : "price.discount2.percentage"
-    }, {
-      "entity" : "CPAProjReturnLine",
       "field" : "price.discount2.value"
     }, {
       "entity" : "CPAProjectInvoice",
@@ -19595,18 +19571,6 @@
       "entity" : "CPAInvoiceAggregateLine",
       "field" : "price.discount3.value"
     }, {
-      "entity" : "CPAProjReturnLine",
-      "field" : "price.discount3.afterValue"
-    }, {
-      "entity" : "CPAProjReturnLine",
-      "field" : "price.discount3.maxNormalPercent"
-    }, {
-      "entity" : "CPAProjReturnLine",
-      "field" : "price.discount3.percentage"
-    }, {
-      "entity" : "CPAProjReturnLine",
-      "field" : "price.discount3.value"
-    }, {
       "entity" : "CPAProjectInvoice",
       "field" : "details.price.discount3.afterValue"
     }, {
@@ -23325,18 +23289,6 @@
       "field" : "price.discount4.percentage"
     }, {
       "entity" : "CPAInvoiceAggregateLine",
-      "field" : "price.discount4.value"
-    }, {
-      "entity" : "CPAProjReturnLine",
-      "field" : "price.discount4.afterValue"
-    }, {
-      "entity" : "CPAProjReturnLine",
-      "field" : "price.discount4.maxNormalPercent"
-    }, {
-      "entity" : "CPAProjReturnLine",
-      "field" : "price.discount4.percentage"
-    }, {
-      "entity" : "CPAProjReturnLine",
       "field" : "price.discount4.value"
     }, {
       "entity" : "CPAProjectInvoice",
@@ -41780,7 +41732,7 @@
   }, {
     "id" : "cloudmode",
     "kind" : "feature",
-    "en" : "Cloude Mode",
+    "en" : "Cloud Mode",
     "ar" : "Cloude Mode",
     "entities" : [ "FeatureSet" ],
     "fields" : [ {
@@ -41791,7 +41743,7 @@
     "id" : "createAssetsInDisposal",
     "kind" : "feature",
     "en" : "Create Assets In Disposal",
-    "ar" : "إنشاء اصول في سندات التخلص",
+    "ar" : "إنشاء أصول في سندات التخلص",
     "details" : [ {
       "entity" : "FADisposalDocument",
       "detail" : "details"
@@ -50378,7 +50330,7 @@
     "id" : "replication",
     "kind" : "feature",
     "en" : "Replication between multiple sites",
-    "ar" : "تكرار بين اكثر من موقع",
+    "ar" : "تكرار بين أكثر من موقع",
     "fields" : [ {
       "entity" : "DiscountCouponBook",
       "field" : "autoCodingParams.replicationSite"
@@ -52880,7 +52832,7 @@
     "id" : "scItemAutoCoding",
     "kind" : "feature",
     "en" : "Item Autocoding",
-    "ar" : "تكويد آلى للأصناف",
+    "ar" : "تكويد آلي للأصناف",
     "fields" : [ {
       "entity" : "AUAccount",
       "field" : "itemCodingFormula.altCodeFormula"
@@ -94768,7 +94720,7 @@
     "id" : "twoYearBudget",
     "kind" : "feature",
     "en" : "Two Year Budget",
-    "ar" : "موازنة السنتان",
+    "ar" : "موازنة السنتين",
     "fields" : [ {
       "entity" : "BudgetScenario",
       "field" : "fiscalYear3"

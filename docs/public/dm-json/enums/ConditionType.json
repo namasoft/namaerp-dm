@@ -14,7 +14,7 @@
     "en" : "Related To Phase"
   }, {
     "id" : "ContractEnd",
-    "ar" : "إنتهاء عقد",
+    "ar" : "انتهاء عقد",
     "en" : "Contract End"
   }, {
     "id" : "WithInitialExtract",
@@ -30,7 +30,7 @@
     "en" : "With Final Extract"
   }, {
     "id" : "Other",
-    "ar" : "أخري",
+    "ar" : "أخرى",
     "en" : "Other"
   } ]
 }

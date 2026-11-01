@@ -356,7 +356,7 @@
   }, {
     "id" : "relativeWeight",
     "column" : "relativeWeight",
-    "ar" : "الوزن النسبى",
+    "ar" : "الوزن النسبي",
     "en" : "Relative weight",
     "type" : "Text"
   }, {
@@ -374,7 +374,7 @@
     "id" : "submitionDate",
     "column" : "submitionDate",
     "ar" : "تاريخ الحدث",
-    "en" : "Submition Date",
+    "en" : "Submission Date",
     "type" : "DateAndTime"
   }, {
     "id" : "ticketCode",
@@ -389,7 +389,7 @@
   }, {
     "id" : "ticketStatus",
     "column" : "ticketStatus",
-    "ar" : "حاله طلب الدعم",
+    "ar" : "حالة طلب الدعم",
     "en" : "Ticket Status",
     "type" : "Enum",
     "enum" : "TicketStatusForEntry"

@@ -2,8 +2,8 @@
   "enum" : "FRMFreightType",
   "values" : [ {
     "id" : "PrePaid",
-    "ar" : "مسبوقة الدفع",
-    "en" : "PrePaid"
+    "ar" : "مسبقة الدفع",
+    "en" : "Prepaid"
   }, {
     "id" : "Collected",
     "ar" : "تم تحصيله",

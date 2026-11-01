@@ -3,7 +3,7 @@
   "values" : [ {
     "id" : "PricingDocPurchasePrice",
     "ar" : "سعر الشراء من المستند القائم بالتسعير",
-    "en" : "Pricing Document PurchasePrice"
+    "en" : "Pricing Document Purchase Price"
   }, {
     "id" : "LastPricingDocPurchasePrice",
     "ar" : "آخر سعر شراء سابق للسند القائم بالتسعير",
@@ -23,6 +23,6 @@
   }, {
     "id" : "FromSQLQuery",
     "ar" : "من جملة SQL",
-    "en" : "From SQL Query SQL"
+    "en" : "From SQL Query"
   } ]
 }

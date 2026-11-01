@@ -51,7 +51,7 @@
   }, {
     "id" : "staticContent",
     "column" : "staticContent",
-    "ar" : "محتوي ثابت",
+    "ar" : "محتوى ثابت",
     "en" : "Static Content",
     "type" : "Boolean"
   } ]

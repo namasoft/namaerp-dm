@@ -30,19 +30,19 @@
     "en" : "Post Inv Trans Req Request Creation"
   }, {
     "id" : "UpdateCalculatedFields",
-    "ar" : "تحديث الحقول المحسوية",
+    "ar" : "تحديث الحقول المحسوبة",
     "en" : "Update Calculated Fields"
   }, {
     "id" : "PreUpdateCalculatedFields",
-    "ar" : "ما قبل تحديث الحقول المحسوية",
+    "ar" : "ما قبل تحديث الحقول المحسوبة",
     "en" : "Pre Update Calculated Fields"
   }, {
     "id" : "PreApplyEffects",
-    "ar" : "ما قبل تاثيرات الحفظ",
+    "ar" : "ما قبل تأثيرات الحفظ",
     "en" : "Pre Apply Effects"
   }, {
     "id" : "Other",
-    "ar" : "أخري",
+    "ar" : "أخرى",
     "en" : "Other"
   }, {
     "id" : "Manual",
@@ -50,7 +50,7 @@
     "en" : "Manual"
   }, {
     "id" : "PreValidateOnDelete",
-    "ar" : "ماقبل إمكانية الحذف",
+    "ar" : "ما قبل إمكانية الحذف",
     "en" : "PreValidate On Delete"
   }, {
     "id" : "SaveDraft",
@@ -74,8 +74,8 @@
     "en" : " Revise"
   }, {
     "id" : "UnRevise",
-    "ar" : "إلغاء مراجعه",
-    "en" : "UnRevise"
+    "ar" : "إلغاء مراجعة",
+    "en" : "Unrevise"
   }, {
     "id" : "RecordView",
     "ar" : " مطالعة السجل",

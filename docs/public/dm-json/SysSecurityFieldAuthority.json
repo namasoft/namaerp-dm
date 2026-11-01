@@ -14,20 +14,20 @@
   }, {
     "id" : "applicableWithDraftMode",
     "column" : "applicableWithDraftMode",
-    "ar" : "تطبق عند | مسودm",
-    "en" : "ApplicableWith | Draft Mode",
+    "ar" : "تطبق عند | مسودة",
+    "en" : "Applicable With | Draft Mode",
     "type" : "Boolean"
   }, {
     "id" : "applicableWithNewMode",
     "column" : "applicableWithNewMode",
     "ar" : "تطبق عند | جديد",
-    "en" : "ApplicableWith | New Mode",
+    "en" : "Applicable With | New Mode",
     "type" : "Boolean"
   }, {
     "id" : "applicableWithUpdateMode",
     "column" : "applicableWithUpdateMode",
     "ar" : "تطبق عند | تعديل",
-    "en" : "ApplicableWith | Update Mode",
+    "en" : "Applicable With | Update Mode",
     "type" : "Boolean"
   }, {
     "id" : "authorityType",
@@ -73,7 +73,7 @@
   }, {
     "id" : "preventInsertLine",
     "column" : "preventInsertLine",
-    "ar" : "منع ادراج سطر",
+    "ar" : "منع إدراج سطر",
     "en" : "Prevent Insert Line",
     "type" : "Boolean"
   }, {
@@ -90,7 +90,7 @@
     "id" : "securityProfile",
     "column" : "securityProfile_id",
     "ar" : "الصلاحيات",
-    "en" : "SecurityProfile",
+    "en" : "Security Profile",
     "type" : "Reference",
     "refTo" : "SecurityProfile",
     "refPath" : "/modules/basic/SecurityProfile.html"

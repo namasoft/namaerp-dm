@@ -2,7 +2,7 @@
   "enum" : "JobOfferState",
   "values" : [ {
     "id" : "Offered",
-    "ar" : "بأنتظار الموافقة",
+    "ar" : "بانتظار الموافقة",
     "en" : "Offered"
   }, {
     "id" : "Accepted",

@@ -7,7 +7,7 @@
   "fields" : [ {
     "id" : "actualDeliveryDate",
     "column" : "actualDeliveryDate",
-    "ar" : "تاريخ الإستلام الفعلى",
+    "ar" : "تاريخ الاستلام الفعلي",
     "en" : "Actual Delivery Date",
     "type" : "DateAndTime"
   }, {

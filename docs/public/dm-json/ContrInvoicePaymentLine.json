@@ -214,7 +214,7 @@
   }, {
     "id" : "remainingCash",
     "column" : "remainingCash",
-    "ar" : "النقديه المتبقيه",
+    "ar" : "النقدية المتبقية",
     "en" : "Remaining Cash",
     "type" : "Decimal"
   }, {

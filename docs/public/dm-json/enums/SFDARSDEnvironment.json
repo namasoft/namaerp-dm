@@ -3,10 +3,10 @@
   "values" : [ {
     "id" : "TestEnvironment",
     "ar" : "تجربة",
-    "en" : "TestEnvironment"
+    "en" : "Test Environment"
   }, {
     "id" : "ProductionEnvironment",
     "ar" : "فعلي",
-    "en" : "ProductionEnvironment"
+    "en" : "Production Environment"
   } ]
 }

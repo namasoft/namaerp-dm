@@ -2,7 +2,7 @@
   "enum" : "VacationClass",
   "values" : [ {
     "id" : "AnnualVacation",
-    "ar" : "أجازة سنوية",
+    "ar" : "إجازة سنوية",
     "en" : "Annual Vacation"
   }, {
     "id" : "Other3",

@@ -39,7 +39,7 @@
     "id" : "salarySheetStatus",
     "column" : "salarySheetStatus",
     "ar" : "حالة سجل الراتب(الموجود داخل سند الراتب)",
-    "en" : "Salary Sheet Status(Inside Salary Document)",
+    "en" : "Salary Sheet Status (Inside Salary Document)",
     "type" : "Enum",
     "enum" : "SalarySheetStatus"
   }, {

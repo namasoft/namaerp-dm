@@ -4,8 +4,8 @@
   "module" : "pos-app",
   "ar" : "تغيير ترجمة",
   "arPlural" : "تغيير الترجمات",
-  "en" : "Translation OverRider",
-  "enPlural" : "Translations OverRider",
+  "en" : "Translation Overrider",
+  "enPlural" : "Translations Overrider",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSTranslationOverrider.html",
   "fields" : [ {
     "id" : "code",
@@ -106,8 +106,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",
@@ -188,13 +188,13 @@
     "fields" : [ {
       "id" : "translations.arabic",
       "column" : "arabic",
-      "ar" : "عربى",
+      "ar" : "عربي",
       "en" : "Arabic",
       "type" : "Text"
     }, {
       "id" : "translations.english",
       "column" : "english",
-      "ar" : "إنجليزى",
+      "ar" : "إنجليزي",
       "en" : "English",
       "type" : "Text"
     }, {

@@ -47,13 +47,13 @@
   }, {
     "id" : "totalCost",
     "column" : "totalCost",
-    "ar" : "اجمالى التكلفة",
+    "ar" : "إجمالي التكلفة",
     "en" : "Total Cost",
     "type" : "Decimal"
   }, {
     "id" : "unitCost",
     "column" : "unitCost",
-    "ar" : "تكلفة الوحده",
+    "ar" : "تكلفة الوحدة",
     "en" : "Unit Cost",
     "type" : "Decimal"
   } ]

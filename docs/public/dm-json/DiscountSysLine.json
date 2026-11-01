@@ -177,7 +177,7 @@
   }, {
     "id" : "stopOtherDiscounts",
     "column" : "stopOtherDiscounts",
-    "ar" : "إيقاف التخفبضات الأخرى",
+    "ar" : "إيقاف التخفيضات الأخرى",
     "en" : "stop other discounts",
     "type" : "Boolean"
   }, {

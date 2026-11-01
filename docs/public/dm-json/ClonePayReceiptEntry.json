@@ -21,7 +21,7 @@
   }, {
     "id" : "fromDoc",
     "columns" : [ "fromDocActualCode", " fromDocCode", " fromDocEntityType", " fromDocId" ],
-    "ar" : "بناءا على",
+    "ar" : "بناءً على",
     "en" : "From Document",
     "type" : "Genericreference"
   }, {

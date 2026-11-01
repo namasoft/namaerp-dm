@@ -2,15 +2,15 @@
   "enum" : "CollectionWay",
   "values" : [ {
     "id" : "OnProject",
-    "ar" : "علي المشروع",
+    "ar" : "على المشروع",
     "en" : "On Project"
   }, {
     "id" : "OnTask",
-    "ar" : "علي المهمة",
+    "ar" : "على المهمة",
     "en" : "On Task"
   }, {
     "id" : "OnMilestone",
-    "ar" : "علي المرحلة",
+    "ar" : "على المرحلة",
     "en" : "On Milestone"
   } ]
 }

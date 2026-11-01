@@ -26,7 +26,7 @@
     "id" : "showLocatorsRelatedToItemOnly",
     "column" : "showLocatorsRelatedToItemOnly",
     "ar" : "عرض المواقع المرتبطة بالصنف فقط",
-    "en" : "Show Locators Which Related To Item Only",
+    "en" : "Show Locators Which Are Related To Item Only",
     "type" : "Boolean"
   }, {
     "id" : "showLocatorsWithAvailableQtyOnly",
@@ -38,7 +38,7 @@
     "id" : "showWarehousesRelatedToItemOnly",
     "column" : "showWarehousesRelatedToItemOnly",
     "ar" : "عرض المخازن المرتبطة بالصنف فقط",
-    "en" : "Show Warehouses Which Related To Item Only",
+    "en" : "Show Warehouses Which Are Related To Item Only",
     "type" : "Boolean"
   }, {
     "id" : "showWarehousesWithAvailableQtyOnly",

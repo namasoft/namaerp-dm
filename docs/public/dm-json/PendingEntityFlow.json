@@ -15,7 +15,7 @@
   }, {
     "id" : "entityFlow",
     "column" : "entityFlow_id",
-    "ar" : "المسار",
+    "ar" : "مسار الكيان",
     "en" : "Entity Flow",
     "type" : "Reference",
     "refTo" : "EntityFlow",
@@ -41,7 +41,7 @@
   }, {
     "id" : "fromDoc",
     "columns" : [ "fromDocActualCode", " fromDocCode", " fromDocEntityType", " fromDocId" ],
-    "ar" : "بناءا على",
+    "ar" : "بناءً على",
     "en" : "From Document",
     "type" : "Genericreference"
   }, {
@@ -63,7 +63,7 @@
   }, {
     "id" : "processAfter",
     "column" : "processAfter",
-    "ar" : "Process After",
+    "ar" : "المعالجة بعد",
     "en" : "Process After",
     "type" : "DateAndTime"
   }, {
@@ -137,7 +137,7 @@
     "id" : "submitionDate",
     "column" : "submitionDate",
     "ar" : "تاريخ الحدث",
-    "en" : "Submition Date",
+    "en" : "Submission Date",
     "type" : "DateAndTime"
   }, {
     "id" : "targetAction",

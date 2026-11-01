@@ -2,11 +2,11 @@
   "enum" : "LeaveReasonApplyOn",
   "values" : [ {
     "id" : "Vacation",
-    "ar" : "الأجازة",
+    "ar" : "الإجازة",
     "en" : "Vacation"
   }, {
     "id" : "Leave",
-    "ar" : "إنصراف",
+    "ar" : "انصراف",
     "en" : "Leave"
   }, {
     "id" : "Reward",

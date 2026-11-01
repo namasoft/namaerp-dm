@@ -7,7 +7,7 @@
   "fields" : [ {
     "id" : "divideOn",
     "column" : "divideOn",
-    "ar" : "مقسوما علي",
+    "ar" : "مقسوما على",
     "en" : "Divide On",
     "type" : "Decimal"
   }, {
@@ -29,7 +29,7 @@
   }, {
     "id" : "toDay",
     "column" : "toDay",
-    "ar" : "عدد الأيام | إلي",
+    "ar" : "عدد الأيام | إلى",
     "en" : "Number Of Days | To",
     "type" : "Decimal"
   } ]

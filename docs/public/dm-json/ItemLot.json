@@ -7,7 +7,7 @@
   "fields" : [ {
     "id" : "expiryDate",
     "column" : "expiryDate",
-    "ar" : "تاريخ الإنتهاء",
+    "ar" : "تاريخ الانتهاء",
     "en" : "Expiry Date",
     "type" : "Date"
   }, {

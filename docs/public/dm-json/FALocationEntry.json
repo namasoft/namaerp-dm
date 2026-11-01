@@ -271,7 +271,7 @@
   }, {
     "id" : "subsidiaryAccounts.forceNoDebtAgesTracking",
     "column" : "forceNoDebtAgesTracking",
-    "ar" : "منع متابعة أعمار الديون لهذه الذمة - حتي و إن تم تفعيلها للحساب",
+    "ar" : "منع متابعة أعمار الديون لهذه الذمة - حتى و إن تم تفعيلها للحساب",
     "en" : "Do Not Track Debt Ages For This Subsidiary - Even if it was activated in the account",
     "type" : "Boolean"
   }, {
@@ -285,7 +285,7 @@
   }, {
     "id" : "subsidiaryAccounts.parentParty",
     "columns" : [ "parentPartyActualCode", " parentPartyCode", " parentPartyEntityType", " parentPartyId" ],
-    "ar" : "الجهة الأعلي (البديل المحاسبي)",
+    "ar" : "الجهة الأعلى (البديل المحاسبي)",
     "en" : "Parent Party (Accounting Alternative)",
     "type" : "Genericreference"
   }, {
@@ -315,7 +315,7 @@
   }, {
     "id" : "toLocation",
     "column" : "toLocation_id",
-    "ar" : "إلي موقع",
+    "ar" : "إلى موقع",
     "en" : "To Location",
     "type" : "Reference",
     "refTo" : "FALocation",

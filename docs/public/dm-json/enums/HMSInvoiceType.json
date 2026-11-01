@@ -22,7 +22,7 @@
     "en" : "Surgery Invoice"
   }, {
     "id" : "HMSPhysicalTherapyInvoice",
-    "ar" : "فاتورة العلاج الطبيعى",
+    "ar" : "فاتورة العلاج الطبيعي",
     "en" : "Physical Therapy Invoice"
   }, {
     "id" : "HMSPharmacyInvoice",

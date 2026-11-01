@@ -99,7 +99,7 @@
     "id" : "fromLegalEntity",
     "column" : "fromLegalEntity_id",
     "ar" : "من شركة",
-    "en" : "From LegalEntity",
+    "en" : "From Legal Entity",
     "type" : "Reference",
     "refTo" : "LegalEntity",
     "refPath" : "/modules/basic/LegalEntity.html"
@@ -134,8 +134,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "legalEntity",
@@ -174,7 +174,7 @@
   }, {
     "id" : "originLastUpdateDate",
     "column" : "originLastUpdateDate",
-    "ar" : "تاريخ اخر تحديث للمستند",
+    "ar" : "تاريخ آخر تحديث للمستند",
     "en" : "Origin Last Update Date",
     "type" : "DateAndTime"
   }, {
@@ -258,8 +258,8 @@
   }, {
     "id" : "toLegalEntity",
     "column" : "toLegalEntity_id",
-    "ar" : "الي شركة",
-    "en" : "To LegalEntity",
+    "ar" : "إلى شركة",
+    "en" : "To Legal Entity",
     "type" : "Reference",
     "refTo" : "LegalEntity",
     "refPath" : "/modules/basic/LegalEntity.html"

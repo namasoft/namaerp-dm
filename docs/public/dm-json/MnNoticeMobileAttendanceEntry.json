@@ -19,7 +19,7 @@
   }, {
     "id" : "attendanceLocation.address2",
     "column" : "attAddress2",
-    "ar" : "رقم المبني",
+    "ar" : "رقم المبنى",
     "en" : "Building Number",
     "type" : "Text"
   }, {
@@ -31,7 +31,7 @@
   }, {
     "id" : "attendanceLocation.buildingNumber",
     "column" : "attBuildingNumber",
-    "ar" : "رقم المبني",
+    "ar" : "رقم المبنى",
     "en" : "Building Number",
     "type" : "Text"
   }, {
@@ -79,7 +79,7 @@
   }, {
     "id" : "attendanceLocation.region",
     "column" : "attRegion_id",
-    "ar" : "منطقة جغرافيه",
+    "ar" : "منطقة جغرافية",
     "en" : "Region",
     "type" : "Reference",
     "refTo" : "AddressRegion",
@@ -99,7 +99,7 @@
   }, {
     "id" : "attendanceTotalHours",
     "column" : "attendanceTotalHours",
-    "ar" : "إجمالى وقت الحضور بالساعات",
+    "ar" : "إجمالي وقت الحضور بالساعات",
     "en" : "Attendance Total Hours",
     "type" : "Decimal"
   }, {
@@ -141,7 +141,7 @@
   }, {
     "id" : "departureLocation.address2",
     "column" : "departAddress2",
-    "ar" : "رقم المبني",
+    "ar" : "رقم المبنى",
     "en" : "Building Number",
     "type" : "Text"
   }, {
@@ -153,7 +153,7 @@
   }, {
     "id" : "departureLocation.buildingNumber",
     "column" : "departBuildingNumber",
-    "ar" : "رقم المبني",
+    "ar" : "رقم المبنى",
     "en" : "Building Number",
     "type" : "Text"
   }, {
@@ -201,7 +201,7 @@
   }, {
     "id" : "departureLocation.region",
     "column" : "departRegion_id",
-    "ar" : "منطقة جغرافيه",
+    "ar" : "منطقة جغرافية",
     "en" : "Region",
     "type" : "Reference",
     "refTo" : "AddressRegion",

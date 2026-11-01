@@ -54,8 +54,8 @@
   }, {
     "id" : "accConfig.analysisSetSource.type",
     "column" : "analysisSetSourceType",
-    "ar" : "نوع مصدر المجموعة التحليلي",
-    "en" : "AnalysisSet Source type",
+    "ar" : "نوع مصدر المجموعة التحليلية",
+    "en" : "Analysis Set Source type",
     "type" : "Enum",
     "enum" : "DimensionSourceType"
   }, {
@@ -321,7 +321,7 @@
   }, {
     "id" : "accConfig.sqlStatment",
     "column" : "sqlStatment",
-    "ar" : "SQLجملة",
+    "ar" : "جملة SQL",
     "en" : "SQL Statement",
     "type" : "BigText"
   }, {

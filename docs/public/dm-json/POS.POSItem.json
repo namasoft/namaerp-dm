@@ -23,7 +23,7 @@
     "id" : "baseUnit",
     "column" : "baseUnit_id",
     "ar" : "الوحدة الأساسية(الأصغر)",
-    "en" : "Base Unit(Smallest)",
+    "en" : "Base Unit (Smallest)",
     "type" : "Reference",
     "refTo" : "POS.POSUnit",
     "refPath" : "/modules/pos-app/POS.POSUnit.html"
@@ -316,8 +316,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",
@@ -350,7 +350,7 @@
   }, {
     "id" : "replaceable",
     "column" : "replaceable",
-    "ar" : "يمكن إستبداله",
+    "ar" : "يمكن استبداله",
     "en" : "Replaceable",
     "type" : "Boolean"
   }, {
@@ -440,7 +440,7 @@
     "fields" : [ {
       "id" : "details.defaultLocator",
       "column" : "defaultLocator",
-      "ar" : "الموقع الإفتراضي",
+      "ar" : "الموقع الافتراضي",
       "en" : "Locator",
       "type" : "Boolean"
     }, {
@@ -528,7 +528,7 @@
     }, {
       "id" : "revisions.defaultRevision",
       "column" : "defaultRevision",
-      "ar" : " الإفتراضي",
+      "ar" : " الافتراضي",
       "en" : " Default",
       "type" : "Boolean"
     }, {
@@ -607,7 +607,7 @@
     }, {
       "id" : "sizesAndColors.colorName",
       "column" : "colorName",
-      "ar" : "اللون | الأسم",
+      "ar" : "اللون | الاسم",
       "en" : "Color | Name",
       "type" : "Text"
     }, {
@@ -679,7 +679,7 @@
     }, {
       "id" : "sizesAndColors.sizeName",
       "column" : "sizeName",
-      "ar" : "المقاس | الأسم",
+      "ar" : "المقاس | الاسم",
       "en" : "Size | Name",
       "type" : "Text"
     } ]
@@ -710,7 +710,7 @@
     }, {
       "id" : "units.maxPrice",
       "column" : "maxPrice",
-      "ar" : "اقصي سعر",
+      "ar" : "أقصى سعر",
       "en" : "Max Price",
       "type" : "Decimal"
     }, {

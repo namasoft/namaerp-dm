@@ -2,7 +2,7 @@
   "enum" : "PartyType",
   "values" : [ {
     "id" : "Clearance",
-    "ar" : "تخليص جمركى",
+    "ar" : "تخليص جمركي",
     "en" : "Clearance Company"
   }, {
     "id" : "Insurance",
@@ -30,7 +30,8 @@
     "en" : "Debtor"
   }, {
     "id" : "CarOwner",
-    "ar" : "مالك سيارة"
+    "ar" : "مالك سيارة",
+    "en" : "Car Owner"
   }, {
     "id" : "Creditor",
     "ar" : "دائن",
@@ -50,7 +51,7 @@
   }, {
     "id" : "MarinAgent",
     "ar" : "وكيل ملاحي",
-    "en" : "Marin Agent"
+    "en" : "Marine Agent"
   }, {
     "id" : "InspectionAgent",
     "ar" : "جهة فحص",

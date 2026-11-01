@@ -7,7 +7,7 @@
   "fields" : [ {
     "id" : "automaticTooltip",
     "column" : "automaticTooltip",
-    "ar" : "عرض المساعدة السريعة اليا مع تغيير قيمة الحقل",
+    "ar" : "عرض المساعدة السريعة آليا مع تغيير قيمة الحقل",
     "en" : "Automatically Display Tooltip When Field Value Changes",
     "type" : "Boolean"
   }, {
@@ -115,8 +115,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",

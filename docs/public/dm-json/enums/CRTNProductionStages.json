@@ -3,7 +3,7 @@
   "values" : [ {
     "id" : "FirstProductionStage",
     "ar" : "مرحلة الإنتاج الأولى",
-    "en" : "First Production  Stage"
+    "en" : "First Production Stage"
   }, {
     "id" : "SecondProductionStage",
     "ar" : "مرحلة الإنتاج الثانية",

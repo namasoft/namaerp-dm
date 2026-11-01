@@ -7,7 +7,7 @@
   "fields" : [ {
     "id" : "arabicName",
     "column" : "arabicName",
-    "ar" : "Arabic Name",
+    "ar" : "الاسم العربي",
     "en" : "Arabic Name",
     "type" : "Text"
   }, {
@@ -19,7 +19,7 @@
   }, {
     "id" : "englishName",
     "column" : "englishName",
-    "ar" : "English Name",
+    "ar" : "الاسم الإنجليزي",
     "en" : "English Name",
     "type" : "Text"
   }, {

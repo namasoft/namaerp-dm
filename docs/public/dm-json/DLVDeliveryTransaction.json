@@ -26,6 +26,7 @@
     "id" : "deliveryDocument",
     "columns" : [ "deliveryDocumentActualCode", " deliveryDocumentCode", " deliveryDocumentEntityType", " deliveryDocumentId" ],
     "ar" : "المستند الموصل",
+    "en" : "Delivery Document",
     "type" : "Genericreference"
   }, {
     "id" : "deliveryEntryId",

@@ -2,7 +2,7 @@
   "entity" : "WMSReceiptDocOrderItemPartialEntry",
   "table" : "WMSReceiptDocOrderItemPartialEntry",
   "module" : "system-tables",
-  "ar" : "الأصناف المستلمة جزئي",
+  "ar" : "الأصناف المستلمة جزئياً",
   "en" : "Partial Receipt Items",
   "page" : "https://dm.namasoft.com/modules/system-tables/WMSReceiptDocOrderItemPartialEntry.html",
   "fields" : [ {

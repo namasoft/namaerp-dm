@@ -97,8 +97,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",
@@ -148,7 +148,7 @@
     }, {
       "id" : "colors.defaultSizeAndColor",
       "column" : "defaultSizeAndColor",
-      "ar" : "الإفتراضي",
+      "ar" : "الافتراضي",
       "en" : "Default",
       "type" : "Boolean"
     }, {
@@ -175,7 +175,7 @@
     "fields" : [ {
       "id" : "sizes.defaultSizeAndColor",
       "column" : "defaultSizeAndColor",
-      "ar" : "الإفتراضي",
+      "ar" : "الافتراضي",
       "en" : "Default",
       "type" : "Boolean"
     }, {

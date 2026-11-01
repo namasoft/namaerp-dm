@@ -50,7 +50,7 @@
   }, {
     "id" : "lastCost",
     "column" : "lastCost",
-    "ar" : "اخر تكلفة",
+    "ar" : "آخر تكلفة",
     "en" : "Last Cost",
     "type" : "Decimal"
   }, {
@@ -64,7 +64,7 @@
   }, {
     "id" : "lastSupplier",
     "column" : "lastSupplier",
-    "ar" : "اخر تواريخ | مورد",
+    "ar" : "آخر تواريخ | مورد",
     "en" : "Last Dates | Supplier",
     "type" : "ID"
   }, {
@@ -117,7 +117,7 @@
   }, {
     "id" : "subItem",
     "column" : "subItem_id",
-    "ar" : " السياره",
+    "ar" : " السيارة",
     "en" : " Customer Car",
     "type" : "Reference",
     "refTo" : "SubItem",

@@ -3,10 +3,10 @@
   "values" : [ {
     "id" : "PoliticsExist",
     "ar" : "السياسة موجودة",
-    "en" : "Politics Is Exist"
+    "en" : "Policy Exists"
   }, {
     "id" : "PoliticsNotExist",
     "ar" : "السياسة غير موجودة",
-    "en" : "Politics Does Not Exist"
+    "en" : "Policy Does Not Exist"
   } ]
 }

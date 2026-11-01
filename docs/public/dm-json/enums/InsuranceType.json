@@ -11,10 +11,10 @@
   }, {
     "id" : "Cars",
     "ar" : "سيارات",
-    "en" : "cars"
+    "en" : "Cars"
   }, {
     "id" : "Betrayal",
-    "ar" : "خيانة الامانة",
+    "ar" : "خيانة الأمانة",
     "en" : "Betrayal"
   }, {
     "id" : "Theft",
@@ -23,7 +23,7 @@
   }, {
     "id" : "AgainstOthers",
     "ar" : "ضد الغير",
-    "en" : "AgainstOthers"
+    "en" : "Against Others"
   }, {
     "id" : "Other1",
     "ar" : "أخرى 1",

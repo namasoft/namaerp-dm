@@ -48,7 +48,7 @@
     "en" : "Approve"
   }, {
     "id" : "Other",
-    "ar" : "أخري",
+    "ar" : "أخرى",
     "en" : "Other"
   }, {
     "id" : "Revise",
@@ -84,7 +84,8 @@
     "id" : "SearchView"
   }, {
     "id" : "Export",
-    "ar" : "اعتماد تصدير"
+    "ar" : "اعتماد تصدير",
+    "en" : "Export"
   }, {
     "id" : "Import",
     "ar" : "اعتماد استيراد",

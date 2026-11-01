@@ -44,7 +44,7 @@
     "id" : "quantity.uom",
     "column" : "quantityUom_id",
     "ar" : "الكمية | الوحدة",
-    "en" : "Quantity | Uom",
+    "en" : "Quantity | UOM",
     "type" : "Reference",
     "refTo" : "UOM",
     "refPath" : "/modules/supplychain/UOM.html",

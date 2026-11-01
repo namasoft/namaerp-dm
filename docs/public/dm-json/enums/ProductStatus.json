@@ -6,15 +6,15 @@
     "en" : "Not Started"
   }, {
     "id" : "WaitingReception",
-    "ar" : "إنتظار استقبال",
+    "ar" : "انتظار استقبال",
     "en" : "Waiting Reception"
   }, {
     "id" : "ReceptionInProgress",
-    "ar" : "جارى الاستقبال",
+    "ar" : "جاري الاستقبال",
     "en" : "Reception In Progress"
   }, {
     "id" : "Loading",
-    "ar" : "إنتظار التحميل",
+    "ar" : "انتظار التحميل",
     "en" : "Loading"
   }, {
     "id" : "InProgress",
@@ -26,11 +26,11 @@
     "en" : "Discontinued Work"
   }, {
     "id" : "RepairCompleted",
-    "ar" : "إنتهاء الإصلاح",
+    "ar" : "انتهاء الإصلاح",
     "en" : "Repair Completed"
   }, {
     "id" : "AnInvoiceWasIssued",
-    "ar" : "تم اصدار فاتورة",
+    "ar" : "تم إصدار فاتورة",
     "en" : "An Invoice Was Issued"
   }, {
     "id" : "ExitedFromTheCenter",

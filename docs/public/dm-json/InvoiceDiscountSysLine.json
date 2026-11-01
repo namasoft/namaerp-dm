@@ -13,7 +13,7 @@
   }, {
     "id" : "considerStopOtherDiscounts",
     "column" : "considerStopOtherDiscounts",
-    "ar" : "عدم التطبيق في حال وجود عروض بها ايقاف التخفيضات الأخرى",
+    "ar" : "عدم التطبيق في حال وجود عروض بها إيقاف التخفيضات الأخرى",
     "en" : "Consider Stop Other Discounts When Applying Coupon",
     "type" : "Boolean"
   }, {
@@ -67,7 +67,7 @@
   }, {
     "id" : "discBasisFromMatchedLines",
     "column" : "discBasisFromMatchedLines",
-    "ar" : "اساس الخصم من إجمالى السطور المنطبقة فقط",
+    "ar" : "أساس الخصم من إجمالي السطور المنطبقة فقط",
     "en" : "Discount Basis From Total Of Only Matched Lines",
     "type" : "Boolean"
   }, {
@@ -145,7 +145,7 @@
   }, {
     "id" : "maxInvoiceValue",
     "column" : "maxInvoiceValue",
-    "ar" : "قيمة الفاتوره | اقل من",
+    "ar" : "قيمة الفاتورة | أقل من",
     "en" : "Invoice Value | less than",
     "type" : "Decimal"
   }, {
@@ -213,7 +213,7 @@
   }, {
     "id" : "stopOtherDiscounts",
     "column" : "stopOtherDiscounts",
-    "ar" : "إيقاف التخفبضات الأخرى",
+    "ar" : "إيقاف التخفيضات الأخرى",
     "en" : "stop other discounts",
     "type" : "Boolean"
   }, {

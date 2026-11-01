@@ -15,14 +15,14 @@
   }, {
     "id" : "PreviousStepSuperVisor",
     "ar" : "مدير الموافق على الخطوة السابقة",
-    "en" : "Previous Step Super Visor"
+    "en" : "Previous Step Supervisor"
   }, {
     "id" : "Initiator",
     "ar" : "منشئ السجل",
     "en" : "Initiator"
   }, {
     "id" : "BasedOnCriteria",
-    "ar" : "بناءا على معايير",
+    "ar" : "بناءً على معايير",
     "en" : "Based On Criteria"
   }, {
     "id" : "Field",

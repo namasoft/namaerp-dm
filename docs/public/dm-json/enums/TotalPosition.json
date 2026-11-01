@@ -3,12 +3,14 @@
   "values" : [ {
     "id" : "NONE",
     "ar" : "بدون",
-    "en" : "NONE"
+    "en" : "None"
   }, {
     "id" : "START",
-    "en" : "START"
+    "ar" : "بدء",
+    "en" : "Start"
   }, {
     "id" : "END",
-    "en" : "END"
+    "ar" : "انتهاء",
+    "en" : "End"
   } ]
 }

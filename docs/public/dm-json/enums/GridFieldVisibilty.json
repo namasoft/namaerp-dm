@@ -2,7 +2,7 @@
   "enum" : "GridFieldVisibilty",
   "values" : [ {
     "id" : "Default",
-    "ar" : "1- إفتراضي",
+    "ar" : "1- افتراضي",
     "en" : "1- Default"
   }, {
     "id" : "HideInGrid",

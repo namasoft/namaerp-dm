@@ -7,7 +7,7 @@
   "fields" : [ {
     "id" : "allowViewOtherRecAtSerach",
     "column" : "allowViewOtherRecAtSerach",
-    "ar" : "السماح بمطالعة سجلات الأخرين في البحث",
+    "ar" : "السماح بمطالعة سجلات الآخرين في البحث",
     "en" : "Allow View Other Records at Search",
     "type" : "Boolean"
   }, {
@@ -19,7 +19,7 @@
   }, {
     "id" : "canChangeCapability",
     "column" : "canChangeCapability",
-    "ar" : "إمكانية تغير الصلاحيات",
+    "ar" : "إمكانية تغيير الصلاحيات",
     "en" : "Can Change Capability",
     "type" : "Boolean"
   }, {
@@ -57,7 +57,7 @@
     "id" : "canPrint",
     "column" : "canPrint",
     "ar" : " الطباعة",
-    "en" : " Prinitng",
+    "en" : " Printing",
     "type" : "Enum",
     "enum" : "PrintAuthority"
   }, {
@@ -75,7 +75,7 @@
   }, {
     "id" : "canViewWithFromDoc",
     "column" : "canViewWithFromDoc",
-    "ar" : "فتح السجل من بناءا على و الاجراءات النظامية",
+    "ar" : "فتح السجل من بناءً على و الإجراءات النظامية",
     "en" : "View Record By From Doc and System Actions",
     "type" : "Boolean"
   }, {
@@ -139,7 +139,7 @@
   }, {
     "id" : "minSearchQueryLength",
     "column" : "minSearchQueryLength",
-    "ar" : "اقل عدد حروف للبدأ بالبحث",
+    "ar" : "أقل عدد حروف للبدء بالبحث",
     "en" : "Min Search Query Length",
     "type" : "Integer"
   }, {
@@ -204,7 +204,7 @@
     "id" : "securityProfile",
     "column" : "securityProfile_id",
     "ar" : "الصلاحيات",
-    "en" : "SecurityProfile",
+    "en" : "Security Profile",
     "type" : "Reference",
     "refTo" : "SecurityProfile",
     "refPath" : "/modules/basic/SecurityProfile.html"
@@ -231,7 +231,7 @@
   }, {
     "id" : "viewOnlyCreatedRecords",
     "column" : "viewOnlyCreatedRecords",
-    "ar" : "مطلعة السجلات التي انشأها فقط",
+    "ar" : "مطالعة السجلات التي أنشأها فقط",
     "en" : "View Records Created By Him Only",
     "type" : "Boolean"
   } ]

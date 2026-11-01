@@ -2,15 +2,15 @@
   "entity" : "POS.PosUISettings",
   "table" : "PosUISettings",
   "module" : "pos-app",
-  "ar" : " إعدادات واجهة نقاط البيع الجديده",
-  "arPlural" : " إعدادات واجهة نقاط البيع الجديده",
+  "ar" : " إعدادات واجهة نقاط البيع الجديدة",
+  "arPlural" : " إعدادات واجهة نقاط البيع الجديدة",
   "en" : " Pos UI Settings",
   "enPlural" : " Pos UI Settings",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.PosUISettings.html",
   "fields" : [ {
     "id" : "canelReservationBasicInfo.colsCountPerRow",
     "column" : "cancelColsCountPerRow",
-    "ar" : "عدد الأعمده في الصف الواحد",
+    "ar" : "عدد الأعمدة في الصف الواحد",
     "en" : "Columns Count Per Row",
     "type" : "Integer"
   }, {
@@ -22,7 +22,7 @@
   }, {
     "id" : "canelReservationBasicInfo.favouritePaneWidthPercent",
     "column" : "cancelFavouritePaneWidthPercent",
-    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشة)",
     "en" : "Favourite Pane Width Percentage",
     "type" : "Decimal"
   }, {
@@ -148,7 +148,7 @@
   }, {
     "id" : "invoiceBasicInfo.colsCountPerRow",
     "column" : "colsCountPerRow",
-    "ar" : "عدد الأعمده في الصف الواحد",
+    "ar" : "عدد الأعمدة في الصف الواحد",
     "en" : "Columns Count Per Row",
     "type" : "Integer"
   }, {
@@ -160,7 +160,7 @@
   }, {
     "id" : "invoiceBasicInfo.favouritePaneWidthPercent",
     "column" : "favouritePaneWidthPercent",
-    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشة)",
     "en" : "Favourite Pane Width Percentage",
     "type" : "Decimal"
   }, {
@@ -170,8 +170,8 @@
   }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
-    "ar" : "تاريخ اخر تحديث",
-    "en" : "Last update Date",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
     "type" : "DateAndTime"
   }, {
     "id" : "name1",
@@ -188,7 +188,7 @@
   }, {
     "id" : "orderReservationBasicInfo.colsCountPerRow",
     "column" : "ordColsCountPerRow",
-    "ar" : "عدد الأعمده في الصف الواحد",
+    "ar" : "عدد الأعمدة في الصف الواحد",
     "en" : "Columns Count Per Row",
     "type" : "Integer"
   }, {
@@ -200,7 +200,7 @@
   }, {
     "id" : "orderReservationBasicInfo.favouritePaneWidthPercent",
     "column" : "ordFavouritePaneWidthPercent",
-    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشة)",
     "en" : "Favourite Pane Width Percentage",
     "type" : "Decimal"
   }, {
@@ -218,7 +218,7 @@
   }, {
     "id" : "replacementBasicInfo.colsCountPerRow",
     "column" : "repColsCountPerRow",
-    "ar" : "عدد الأعمده في الصف الواحد",
+    "ar" : "عدد الأعمدة في الصف الواحد",
     "en" : "Columns Count Per Row",
     "type" : "Integer"
   }, {
@@ -230,13 +230,13 @@
   }, {
     "id" : "replacementBasicInfo.favouritePaneWidthPercent",
     "column" : "repFavouritePaneWidthPercent",
-    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشة)",
     "en" : "Favourite Pane Width Percentage",
     "type" : "Decimal"
   }, {
     "id" : "returnBasicInfo.colsCountPerRow",
     "column" : "retColsCountPerRow",
-    "ar" : "عدد الأعمده في الصف الواحد",
+    "ar" : "عدد الأعمدة في الصف الواحد",
     "en" : "Columns Count Per Row",
     "type" : "Integer"
   }, {
@@ -248,13 +248,13 @@
   }, {
     "id" : "returnBasicInfo.favouritePaneWidthPercent",
     "column" : "retFavouritePaneWidthPercent",
-    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشة)",
     "en" : "Favourite Pane Width Percentage",
     "type" : "Decimal"
   }, {
     "id" : "scrapDocBasicInfo.colsCountPerRow",
     "column" : "depColsCountPerRow",
-    "ar" : "عدد الأعمده في الصف الواحد",
+    "ar" : "عدد الأعمدة في الصف الواحد",
     "en" : "Columns Count Per Row",
     "type" : "Integer"
   }, {
@@ -266,7 +266,7 @@
   }, {
     "id" : "scrapDocBasicInfo.favouritePaneWidthPercent",
     "column" : "depFavouritePaneWidthPercent",
-    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشة)",
     "en" : "Favourite Pane Width Percentage",
     "type" : "Decimal"
   }, {
@@ -278,7 +278,7 @@
   }, {
     "id" : "shortfallsDocBasicInfo.colsCountPerRow",
     "column" : "sfColsCountPerRow",
-    "ar" : "عدد الأعمده في الصف الواحد",
+    "ar" : "عدد الأعمدة في الصف الواحد",
     "en" : "Columns Count Per Row",
     "type" : "Integer"
   }, {
@@ -290,13 +290,13 @@
   }, {
     "id" : "shortfallsDocBasicInfo.favouritePaneWidthPercent",
     "column" : "sfFavouritePaneWidthPercent",
-    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشة)",
     "en" : "Favourite Pane Width Percentage",
     "type" : "Decimal"
   }, {
     "id" : "stockReceiptBasicInfo.colsCountPerRow",
     "column" : "rcptColsCountPerRow",
-    "ar" : "عدد الأعمده في الصف الواحد",
+    "ar" : "عدد الأعمدة في الصف الواحد",
     "en" : "Columns Count Per Row",
     "type" : "Integer"
   }, {
@@ -308,13 +308,13 @@
   }, {
     "id" : "stockReceiptBasicInfo.favouritePaneWidthPercent",
     "column" : "rcptFavouritePaneWidthPercent",
-    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشة)",
     "en" : "Favourite Pane Width Percentage",
     "type" : "Decimal"
   }, {
     "id" : "takingBasicInfo.colsCountPerRow",
     "column" : "takColsCountPerRow",
-    "ar" : "عدد الأعمده في الصف الواحد",
+    "ar" : "عدد الأعمدة في الصف الواحد",
     "en" : "Columns Count Per Row",
     "type" : "Integer"
   }, {
@@ -326,7 +326,7 @@
   }, {
     "id" : "takingBasicInfo.favouritePaneWidthPercent",
     "column" : "takFavouritePaneWidthPercent",
-    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشة)",
     "en" : "Favourite Pane Width Percentage",
     "type" : "Decimal"
   }, {
@@ -344,7 +344,7 @@
   }, {
     "id" : "transferBasicInfo.colsCountPerRow",
     "column" : "trColsCountPerRow",
-    "ar" : "عدد الأعمده في الصف الواحد",
+    "ar" : "عدد الأعمدة في الصف الواحد",
     "en" : "Columns Count Per Row",
     "type" : "Integer"
   }, {
@@ -356,7 +356,7 @@
   }, {
     "id" : "transferBasicInfo.favouritePaneWidthPercent",
     "column" : "trFavouritePaneWidthPercent",
-    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشة)",
     "en" : "Favourite Pane Width Percentage",
     "type" : "Decimal"
   }, {
@@ -374,25 +374,25 @@
   }, {
     "id" : "uiSettingsOptions.addAttach1InPayments",
     "column" : "addAttach1InPayments",
-    "ar" : "إضافة مرفق 1 الي المصروفات",
+    "ar" : "إضافة مرفق 1 إلى المصروفات",
     "en" : "Add Attachment 1 In Payments",
     "type" : "Boolean"
   }, {
     "id" : "uiSettingsOptions.addAttach1InReceipts",
     "column" : "addAttach1InReceipts",
-    "ar" : "إضافة مرفق 1 الي المقبوضات",
+    "ar" : "إضافة مرفق 1 إلى المقبوضات",
     "en" : "Add Attachment 1 In Receipts",
     "type" : "Boolean"
   }, {
     "id" : "uiSettingsOptions.addAttach2InPayments",
     "column" : "addAttach2InPayments",
-    "ar" : "إضافة مرفق 2 الي المصروفات",
+    "ar" : "إضافة مرفق 2 إلى المصروفات",
     "en" : "Add Attachment 2 In Payments",
     "type" : "Boolean"
   }, {
     "id" : "uiSettingsOptions.addAttach2InReceipts",
     "column" : "addAttach2InReceipts",
-    "ar" : "إضافة مرفق 2 الي المقبوضات",
+    "ar" : "إضافة مرفق 2 إلى المقبوضات",
     "en" : "Add Attachment 2 In Receipts",
     "type" : "Boolean"
   }, {
@@ -471,7 +471,7 @@
     "id" : "uiSettingsOptions.addItemAltCodeField",
     "column" : "addItemAltCodeField",
     "ar" : "إضافة عمود الكود البديل",
-    "en" : "Add Item AltCode Field",
+    "en" : "Add Item Alt Code Field",
     "type" : "Boolean"
   }, {
     "id" : "uiSettingsOptions.addItemCodeColInSalesGrid",
@@ -488,13 +488,13 @@
   }, {
     "id" : "uiSettingsOptions.addLotId",
     "column" : "addLotId",
-    "ar" : "إضافة حقل الشحنه",
+    "ar" : "إضافة حقل الشحنة",
     "en" : "Add Lot Id",
     "type" : "Boolean"
   }, {
     "id" : "uiSettingsOptions.addProductionAndExpiryDatesToSales",
     "column" : "addProductionAndExpiryDatesToSales",
-    "ar" : "إضافة تاريخ الإنتاج والانتهاء الي المبيعات",
+    "ar" : "إضافة تاريخ الإنتاج والانتهاء إلى المبيعات",
     "en" : "Add Production And Expiry Dates To Sales",
     "type" : "Boolean"
   }, {
@@ -588,13 +588,13 @@
   }, {
     "id" : "uiSettingsOptions.favouriteDocBtnHeight",
     "column" : "favouriteDocBtnHeight",
-    "ar" : "أرتفاع زر المستندات المفضله",
+    "ar" : "ارتفاع زر المستندات المفضلة",
     "en" : "Favourite Document button height",
     "type" : "Decimal"
   }, {
     "id" : "uiSettingsOptions.favouriteDocBtnWidth",
     "column" : "favouriteDocBtnWidth",
-    "ar" : "عرض زر المستندات المفضله",
+    "ar" : "عرض زر المستندات المفضلة",
     "en" : "Favourite Document button width",
     "type" : "Decimal"
   }, {
@@ -604,25 +604,25 @@
   }, {
     "id" : "uiSettingsOptions.favouriteItemBtnWidth",
     "column" : "favouriteItemBtnWidth",
-    "ar" : "عرض زر الأصناف المفضله",
+    "ar" : "عرض زر الأصناف المفضلة",
     "en" : "Favourite Item button width",
     "type" : "Decimal"
   }, {
     "id" : "uiSettingsOptions.favouriteItemsCountPerLine",
     "column" : "favouriteItemsCountPerLine",
-    "ar" : "عدد الأصناف المفضله في السطر الواحد",
+    "ar" : "عدد الأصناف المفضلة في السطر الواحد",
     "en" : "Favourite Items Count Per Line",
     "type" : "Integer"
   }, {
     "id" : "uiSettingsOptions.fullScreenPaymentDialogs",
     "column" : "fullScreenPaymentDialogs",
-    "ar" : "ملءالشاشة عند فتح شاشة الدفع",
+    "ar" : "ملء الشاشة عند فتح شاشة الدفع",
     "en" : "Full Screen Payment Dialogs",
     "type" : "Boolean"
   }, {
     "id" : "uiSettingsOptions.fullScreenSearchDialogs",
     "column" : "fullScreenSearchDialogs",
-    "ar" : "ملءالشاشة عند فتح شاشة البحث",
+    "ar" : "ملء الشاشة عند فتح شاشة البحث",
     "en" : "Full Screen Search Dialogs",
     "type" : "Boolean"
   }, {
@@ -640,8 +640,8 @@
   }, {
     "id" : "uiSettingsOptions.logoImageWidth",
     "column" : "logoImageWidth",
-    "ar" : "عرض صورة لوجو الشركه",
-    "en" : "LegalEntity Logo Image Width",
+    "ar" : "عرض صورة لوجو الشركة",
+    "en" : "Legal Entity Logo Image Width",
     "type" : "Decimal"
   }, {
     "id" : "uiSettingsOptions.mainColor",
@@ -676,7 +676,7 @@
   }, {
     "id" : "uiSettingsOptions.shortcutImgBtnsToTextBtns",
     "column" : "shortcutImgBtnsToTextBtns",
-    "ar" : "تحويل زرائر الاختصارات ذات الصور الي زرائر نصيه",
+    "ar" : "تحويل زرائر الاختصارات ذات الصور إلى زرائر نصية",
     "en" : "Shortcut Image Buttons To Text Buttons",
     "type" : "Boolean"
   }, {
@@ -727,7 +727,7 @@
     "id" : "cancelReservationMainFields",
     "table" : "POSCancelReservationMainLine",
     "joinColumn" : "posSettings_id",
-    "ar" : " حقول الصفحة الرئيسيه",
+    "ar" : " حقول الصفحة الرئيسية",
     "en" : " Main Page Fields",
     "fields" : [ {
       "id" : "cancelReservationMainFields.field",
@@ -760,7 +760,7 @@
     "id" : "cancelReservationOtherFields",
     "table" : "POSCancelReservationOtherLine",
     "joinColumn" : "posSettings_id",
-    "ar" : " حقول الشاشة الفرعيه",
+    "ar" : " حقول الشاشة الفرعية",
     "en" : " Other Page Fields",
     "fields" : [ {
       "id" : "cancelReservationOtherFields.field",
@@ -929,7 +929,7 @@
     }, {
       "id" : "customerFields.required",
       "column" : "required",
-      "ar" : "إجبارى",
+      "ar" : "إجباري",
       "en" : "Required",
       "type" : "Boolean"
     }, {
@@ -943,7 +943,7 @@
     "id" : "mainPageFields",
     "table" : "POSRegisterMainLine",
     "joinColumn" : "posSettings_id",
-    "ar" : "حقول الصفحة الرئيسيه",
+    "ar" : "حقول الصفحة الرئيسية",
     "en" : "Main Page Fields",
     "fields" : [ {
       "id" : "mainPageFields.field",
@@ -1009,7 +1009,7 @@
     "id" : "orderReservationMainFields",
     "table" : "POSOrderReservationMainLine",
     "joinColumn" : "posSettings_id",
-    "ar" : " حقول الصفحة الرئيسيه",
+    "ar" : " حقول الصفحة الرئيسية",
     "en" : " Main Page Fields",
     "fields" : [ {
       "id" : "orderReservationMainFields.field",
@@ -1042,7 +1042,7 @@
     "id" : "orderReservationOtherFields",
     "table" : "POSOrderReservationOtherLine",
     "joinColumn" : "posSettings_id",
-    "ar" : " حقول الشاشة الفرعيه",
+    "ar" : " حقول الشاشة الفرعية",
     "en" : " Other Page Fields",
     "fields" : [ {
       "id" : "orderReservationOtherFields.field",
@@ -1075,7 +1075,7 @@
     "id" : "otherPageFields",
     "table" : "POSRegisterOtherLine",
     "joinColumn" : "posSettings_id",
-    "ar" : "حقول الشاشة الفرعيه",
+    "ar" : "حقول الشاشة الفرعية",
     "en" : "Other Page Fields",
     "fields" : [ {
       "id" : "otherPageFields.field",
@@ -1147,7 +1147,7 @@
     "id" : "procedures",
     "table" : "PosUISettings_POSFavProcedureLine",
     "joinColumn" : "PosUISettings_id",
-    "ar" : "الاجراءات",
+    "ar" : "الإجراءات",
     "en" : "Procedures",
     "fields" : [ {
       "id" : "procedures.id",
@@ -1195,7 +1195,7 @@
     "id" : "replacementMainFields",
     "table" : "POSReplacementMainLine",
     "joinColumn" : "posSettings_id",
-    "ar" : " حقول الصفحة الرئيسيه",
+    "ar" : " حقول الصفحة الرئيسية",
     "en" : " Main Page Fields",
     "fields" : [ {
       "id" : "replacementMainFields.field",
@@ -1228,7 +1228,7 @@
     "id" : "replacementOtherFields",
     "table" : "POSReplacementOtherLine",
     "joinColumn" : "posSettings_id",
-    "ar" : " حقول الشاشة الفرعيه",
+    "ar" : " حقول الشاشة الفرعية",
     "en" : " Other Page Fields",
     "fields" : [ {
       "id" : "replacementOtherFields.field",
@@ -1294,7 +1294,7 @@
     "id" : "returnMainFields",
     "table" : "POSReturnMainLine",
     "joinColumn" : "posSettings_id",
-    "ar" : " حقول الصفحة الرئيسيه",
+    "ar" : " حقول الصفحة الرئيسية",
     "en" : " Main Page Fields",
     "fields" : [ {
       "id" : "returnMainFields.field",
@@ -1327,7 +1327,7 @@
     "id" : "returnOtherFields",
     "table" : "POSReturnOtherLine",
     "joinColumn" : "posSettings_id",
-    "ar" : " حقول الشاشة الفرعيه",
+    "ar" : " حقول الشاشة الفرعية",
     "en" : " Other Page Fields",
     "fields" : [ {
       "id" : "returnOtherFields.field",
@@ -1426,7 +1426,7 @@
     "id" : "scrapDocMainFields",
     "table" : "POSScrapDocMainLine",
     "joinColumn" : "posSettings_id",
-    "ar" : " حقول الصفحة الرئيسيه",
+    "ar" : " حقول الصفحة الرئيسية",
     "en" : " Main Page Fields",
     "fields" : [ {
       "id" : "scrapDocMainFields.field",
@@ -1459,7 +1459,7 @@
     "id" : "scrapDocOtherFields",
     "table" : "POSScrapDocOtherLine",
     "joinColumn" : "posSettings_id",
-    "ar" : " حقول الشاشة الفرعيه",
+    "ar" : " حقول الشاشة الفرعية",
     "en" : " Other Page Fields",
     "fields" : [ {
       "id" : "scrapDocOtherFields.field",
@@ -1515,7 +1515,7 @@
     }, {
       "id" : "searchDialogueConfigLines.searchDialogOrderByField",
       "column" : "searchDialogOrderByField",
-      "ar" : "حقل الترتيب الإفتراضي لل Search Dialog",
+      "ar" : "حقل الترتيب الافتراضي لل Search Dialog",
       "en" : "Search Dialog Order By Field",
       "type" : "Text"
     }, {
@@ -1527,7 +1527,7 @@
     }, {
       "id" : "searchDialogueConfigLines.searchDialogSortType",
       "column" : "searchDialogSortType",
-      "ar" : "نوع الترتيب الإفتراضي لل Search Dialog",
+      "ar" : "نوع الترتيب الافتراضي لل Search Dialog",
       "en" : "Search Dialog Sort Type",
       "type" : "Text"
     } ]
@@ -1616,7 +1616,7 @@
     "id" : "shortfallsDocMainFields",
     "table" : "POSShortfallsDocMainLine",
     "joinColumn" : "posSettings_id",
-    "ar" : " حقول الصفحة الرئيسيه",
+    "ar" : " حقول الصفحة الرئيسية",
     "en" : " Main Page Fields",
     "fields" : [ {
       "id" : "shortfallsDocMainFields.field",
@@ -1649,7 +1649,7 @@
     "id" : "shortfallsDocOtherFields",
     "table" : "POSShortfallsDocOtherLine",
     "joinColumn" : "posSettings_id",
-    "ar" : " حقول الشاشة الفرعيه",
+    "ar" : " حقول الشاشة الفرعية",
     "en" : " Other Page Fields",
     "fields" : [ {
       "id" : "shortfallsDocOtherFields.field",
@@ -1808,7 +1808,7 @@
     "id" : "takingMainFields",
     "table" : "POSTakingMainLine",
     "joinColumn" : "posSettings_id",
-    "ar" : " حقول الصفحة الرئيسيه",
+    "ar" : " حقول الصفحة الرئيسية",
     "en" : " Main Page Fields",
     "fields" : [ {
       "id" : "takingMainFields.field",
@@ -1841,7 +1841,7 @@
     "id" : "takingOtherFields",
     "table" : "POSTakingOtherLine",
     "joinColumn" : "posSettings_id",
-    "ar" : " حقول الشاشة الفرعيه",
+    "ar" : " حقول الشاشة الفرعية",
     "en" : " Other Page Fields",
     "fields" : [ {
       "id" : "takingOtherFields.field",
@@ -1907,7 +1907,7 @@
     "id" : "transferMainFields",
     "table" : "POSTransferMainLine",
     "joinColumn" : "posSettings_id",
-    "ar" : " حقول الصفحة الرئيسيه",
+    "ar" : " حقول الصفحة الرئيسية",
     "en" : " Main Page Fields",
     "fields" : [ {
       "id" : "transferMainFields.field",
@@ -1940,7 +1940,7 @@
     "id" : "transferOtherFields",
     "table" : "POSTransferOtherLine",
     "joinColumn" : "posSettings_id",
-    "ar" : " حقول الشاشة الفرعيه",
+    "ar" : " حقول الشاشة الفرعية",
     "en" : " Other Page Fields",
     "fields" : [ {
       "id" : "transferOtherFields.field",
