@@ -1,12 +1,12 @@
 {
   "entity" : "TRPlatform",
   "table" : "TRPlatform",
-  "module" : "system-tables",
+  "module" : "travel",
   "ar" : "منصة",
   "arPlural" : "المنصات",
   "en" : "Platform",
   "enPlural" : "Platforms",
-  "page" : "https://dm.namasoft.com/modules/system-tables/TRPlatform.html",
+  "page" : "https://dm.namasoft.com/modules/travel/TRPlatform.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

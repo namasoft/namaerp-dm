@@ -1,12 +1,12 @@
 {
   "entity" : "TRPaxCheckIn",
   "table" : "TRPaxCheckIn",
-  "module" : "system-tables",
+  "module" : "travel",
   "ar" : "تسجيل وصول الركاب",
   "arPlural" : "تسجيلات وصول الركاب",
   "en" : "Pax Check-In",
   "enPlural" : "Pax Check-Ins",
-  "page" : "https://dm.namasoft.com/modules/system-tables/TRPaxCheckIn.html",
+  "page" : "https://dm.namasoft.com/modules/travel/TRPaxCheckIn.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -612,7 +612,7 @@
       "en" : "Platform",
       "type" : "Reference",
       "refTo" : "TRPlatform",
-      "refPath" : "/modules/system-tables/TRPlatform.html"
+      "refPath" : "/modules/travel/TRPlatform.html"
     }, {
       "id" : "paxData.sourceLineId",
       "column" : "sourceLineId",

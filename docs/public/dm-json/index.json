@@ -3964,6 +3964,22 @@
     "module" : "system-tables",
     "en" : "Customer Keyword Template Line"
   }, {
+    "name" : "CustomerPortalConfiguration",
+    "table" : "CustomerPortalConfiguration",
+    "module" : "basic-customer-portal",
+    "ar" : "إعدادات بوابة العملاء",
+    "en" : "Customer Portal Configuration",
+    "details" : [ {
+      "id" : "invoiceTypes",
+      "table" : "CustomerPortalInvoiceTypeLine"
+    }, {
+      "id" : "reports",
+      "table" : "CustomerPortalReportLine"
+    }, {
+      "id" : "supportGroups",
+      "table" : "CustomerPortalSupportGroupLine"
+    } ]
+  }, {
     "name" : "CustomerSubmittal",
     "table" : "CustomerSubmittal",
     "module" : "contracting",
@@ -4748,7 +4764,7 @@
     "table" : "EDBusPickupPlan",
     "module" : "education",
     "ar" : "خط سير سيارة مدرسية",
-    "en" : "Pickup Plan",
+    "en" : "School Bus Pickup Plan",
     "details" : [ {
       "id" : "pickupPlans",
       "table" : "EDBusPickupPlanLine"
@@ -9636,7 +9652,7 @@
     "name" : "HRTest",
     "table" : "HRTest",
     "module" : "humanresource-hiring",
-    "ar" : "اختبار",
+    "ar" : "اختبار موارد بشرية",
     "en" : "HR Test",
     "details" : [ {
       "id" : "relatedSkills",
@@ -11253,7 +11269,7 @@
     "name" : "LCAction",
     "table" : "LCAction",
     "module" : "supplychain-lc",
-    "ar" : "إجراء",
+    "ar" : "إجراء اعتماد مستندي",
     "en" : "LC Action"
   }, {
     "name" : "LCCostDoc",
@@ -21026,7 +21042,7 @@
   }, {
     "name" : "TRExternalDriver",
     "table" : "TRExternalDriver",
-    "module" : "system-tables",
+    "module" : "travel",
     "ar" : "سائق خارجي",
     "en" : "External Driver"
   }, {
@@ -21054,7 +21070,7 @@
   }, {
     "name" : "TRPaxCheckIn",
     "table" : "TRPaxCheckIn",
-    "module" : "system-tables",
+    "module" : "travel",
     "ar" : "تسجيل وصول الركاب",
     "en" : "Pax Check-In",
     "details" : [ {
@@ -21064,7 +21080,7 @@
   }, {
     "name" : "TRPlatform",
     "table" : "TRPlatform",
-    "module" : "system-tables",
+    "module" : "travel",
     "ar" : "منصة",
     "en" : "Platform"
   }, {

@@ -28,7 +28,7 @@
   }, {
     "id" : "botConfig",
     "column" : "botConfig_id",
-    "ar" : "إعدادات البوت",
+    "ar" : "Bot Configuration",
     "en" : "Bot Configuration",
     "type" : "Reference",
     "refTo" : "TelegramBotConfiguration",

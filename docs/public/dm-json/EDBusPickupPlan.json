@@ -4,8 +4,8 @@
   "module" : "education",
   "ar" : "خط سير سيارة مدرسية",
   "arPlural" : "خطوط سير سيارات مدرسية",
-  "en" : "Pickup Plan",
-  "enPlural" : "Pickup Plans",
+  "en" : "School Bus Pickup Plan",
+  "enPlural" : "School Bus Pickup Plans",
   "page" : "https://dm.namasoft.com/modules/education/EDBusPickupPlan.html",
   "fields" : [ {
     "id" : "analysisSet",

@@ -73,7 +73,7 @@
   }, {
     "id" : "borderLinePreset",
     "column" : "borderLinePreset",
-    "ar" : "نمط خطوط الحدود",
+    "ar" : "Border Line Preset",
     "en" : "Border Line Preset",
     "type" : "Enum",
     "enum" : "BorderLinePreset"

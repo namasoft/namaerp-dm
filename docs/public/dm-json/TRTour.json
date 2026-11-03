@@ -319,7 +319,7 @@
     "en" : "External Driver",
     "type" : "Reference",
     "refTo" : "TRExternalDriver",
-    "refPath" : "/modules/system-tables/TRExternalDriver.html"
+    "refPath" : "/modules/travel/TRExternalDriver.html"
   }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
@@ -1287,7 +1287,7 @@
       "en" : "Platform",
       "type" : "Reference",
       "refTo" : "TRPlatform",
-      "refPath" : "/modules/system-tables/TRPlatform.html"
+      "refPath" : "/modules/travel/TRPlatform.html"
     } ]
   }, {
     "id" : "services",

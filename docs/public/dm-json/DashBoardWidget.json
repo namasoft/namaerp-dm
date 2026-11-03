@@ -459,13 +459,13 @@
   }, {
     "id" : "metricsCardConfig.linkColumn",
     "column" : "linkColumn",
-    "ar" : "عمود الرابط",
+    "ar" : "Link Column",
     "en" : "Link Column",
     "type" : "Text"
   }, {
     "id" : "metricsCardConfig.linkTempo",
     "column" : "linkTempo",
-    "ar" : "الرابط (Tempo)",
+    "ar" : "Link Tempo",
     "en" : "Link Tempo",
     "type" : "BigText"
   }, {

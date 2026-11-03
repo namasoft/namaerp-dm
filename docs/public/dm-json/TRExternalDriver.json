@@ -1,12 +1,12 @@
 {
   "entity" : "TRExternalDriver",
   "table" : "TRExternalDriver",
-  "module" : "system-tables",
+  "module" : "travel",
   "ar" : "سائق خارجي",
   "arPlural" : "السائقون الخارجيون",
   "en" : "External Driver",
   "enPlural" : "External Drivers",
-  "page" : "https://dm.namasoft.com/modules/system-tables/TRExternalDriver.html",
+  "page" : "https://dm.namasoft.com/modules/travel/TRExternalDriver.html",
   "fields" : [ {
     "id" : "address",
     "column" : "address",

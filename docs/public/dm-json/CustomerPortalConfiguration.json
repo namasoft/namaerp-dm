@@ -1,0 +1,1446 @@
+{
+  "entity" : "CustomerPortalConfiguration",
+  "table" : "CustomerPortalConfiguration",
+  "module" : "basic-customer-portal",
+  "ar" : "إعدادات بوابة العملاء",
+  "arPlural" : "إعدادات بوابة العملاء",
+  "en" : "Customer Portal Configuration",
+  "enPlural" : "Customer Portal Configurations",
+  "page" : "https://dm.namasoft.com/modules/basic-customer-portal/CustomerPortalConfiguration.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "brandName",
+    "column" : "brandName",
+    "ar" : "اسم العلامة التجارية",
+    "en" : "Brand Name",
+    "type" : "Text"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Committed Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "Generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "invoiceRetrieverUrlTemplate",
+    "column" : "invoiceRetrieverUrlTemplate",
+    "ar" : "قالب رابط استرجاع الفاتورة",
+    "en" : "Invoice Retriever URL Template",
+    "type" : "BigText"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ آخر تحديث",
+    "en" : "Last Update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "logo",
+    "column" : "logo_id",
+    "ar" : "الشعار",
+    "en" : "Logo",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "otpNotification",
+    "column" : "otpNotification_id",
+    "ar" : "تنبيه كود التحقق",
+    "en" : "OTP Notification",
+    "type" : "Reference",
+    "refTo" : "NotificationDefinition",
+    "refPath" : "/modules/basic/NotificationDefinition.html"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "primaryColor",
+    "column" : "primaryColor",
+    "ar" : "Primary Color",
+    "en" : "Primary Color",
+    "type" : "Color"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "secondaryColor",
+    "column" : "secondaryColor",
+    "ar" : "Secondary Color",
+    "en" : "Secondary Color",
+    "type" : "Color"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "invoiceTypes",
+    "table" : "CustomerPortalInvoiceTypeLine",
+    "joinColumn" : "customerPortalConfiguration_id",
+    "ar" : "أنواع الفواتير",
+    "en" : "Invoice Types",
+    "fields" : [ {
+      "id" : "invoiceTypes.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "invoiceTypes.invoiceType",
+      "column" : "invoiceType",
+      "ar" : "نوع الفاتورة",
+      "en" : "Invoice Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "invoiceTypes.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "invoiceTypes.linkTemplate",
+      "column" : "linkTemplate",
+      "ar" : "قالب الرابط",
+      "en" : "Link Template",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "reports",
+    "table" : "CustomerPortalReportLine",
+    "joinColumn" : "customerPortalConfiguration_id",
+    "ar" : "التقارير",
+    "en" : "Reports",
+    "fields" : [ {
+      "id" : "reports.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "reports.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "reports.p1.dateTimeValue",
+      "column" : "p1DateTimeValue",
+      "ar" : "1|Date Time",
+      "en" : "1|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "reports.p1.dateValue",
+      "column" : "p1DateValue",
+      "ar" : "1|Date",
+      "en" : "1|Date",
+      "type" : "Date"
+    }, {
+      "id" : "reports.p1.dynamicParamValue",
+      "column" : "p1DynamicParamValue",
+      "ar" : "1|Dynamic",
+      "en" : "1|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "reports.p1.entityType",
+      "column" : "p1EntityType",
+      "ar" : "1|Entity Type",
+      "en" : "1|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "reports.p1.paramId",
+      "column" : "p1ParamId",
+      "ar" : "1|Param ID",
+      "en" : "1|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p1.paramType",
+      "column" : "p1ParamType",
+      "ar" : "1|Type",
+      "en" : "1|Type",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p1.paramValue",
+      "column" : "p1ParamValue",
+      "ar" : "القيمة",
+      "en" : "Param Value",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p1.refValue",
+      "columns" : [ "p1RefValueActualCode", " p1RefValueCode", " p1RefValueEntityType", " p1RefValueId" ],
+      "ar" : "1|Ref",
+      "en" : "1|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "reports.p1.timeValue",
+      "column" : "p1TimeValue",
+      "ar" : "1|Time",
+      "en" : "1|Time",
+      "type" : "Time"
+    }, {
+      "id" : "reports.p10.dateTimeValue",
+      "column" : "p10DateTimeValue",
+      "ar" : "10|Date Time",
+      "en" : "10|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "reports.p10.dateValue",
+      "column" : "p10DateValue",
+      "ar" : "10|Date",
+      "en" : "10|Date",
+      "type" : "Date"
+    }, {
+      "id" : "reports.p10.dynamicParamValue",
+      "column" : "p10DynamicParamValue",
+      "ar" : "10|Dynamic",
+      "en" : "10|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "reports.p10.entityType",
+      "column" : "p10EntityType",
+      "ar" : "10|Entity Type",
+      "en" : "10|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "reports.p10.paramId",
+      "column" : "p10ParamId",
+      "ar" : "10|Param ID",
+      "en" : "10|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p10.paramType",
+      "column" : "p10ParamType",
+      "ar" : "10|Type",
+      "en" : "10|Type",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p10.paramValue",
+      "column" : "p10ParamValue",
+      "ar" : "10|Value",
+      "en" : "10|Value",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p10.refValue",
+      "columns" : [ "p10RefValueActualCode", " p10RefValueCode", " p10RefValueEntityType", " p10RefValueId" ],
+      "ar" : "10|Ref",
+      "en" : "10|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "reports.p10.timeValue",
+      "column" : "p10TimeValue",
+      "ar" : "10|Time",
+      "en" : "10|Time",
+      "type" : "Time"
+    }, {
+      "id" : "reports.p11.dateTimeValue",
+      "column" : "p11DateTimeValue",
+      "ar" : "11|Date Time",
+      "en" : "11|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "reports.p11.dateValue",
+      "column" : "p11DateValue",
+      "ar" : "11|Date",
+      "en" : "11|Date",
+      "type" : "Date"
+    }, {
+      "id" : "reports.p11.dynamicParamValue",
+      "column" : "p11DynamicParamValue",
+      "ar" : "11|Dynamic",
+      "en" : "11|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "reports.p11.entityType",
+      "column" : "p11EntityType",
+      "ar" : "11|Entity Type",
+      "en" : "11|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "reports.p11.paramId",
+      "column" : "p11ParamId",
+      "ar" : "11|Param ID",
+      "en" : "11|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p11.paramType",
+      "column" : "p11ParamType",
+      "ar" : "11|Type",
+      "en" : "11|Type",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p11.paramValue",
+      "column" : "p11ParamValue",
+      "ar" : "11|Value",
+      "en" : "11|Value",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p11.refValue",
+      "columns" : [ "p11RefValueActualCode", " p11RefValueCode", " p11RefValueEntityType", " p11RefValueId" ],
+      "ar" : "11|Ref",
+      "en" : "11|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "reports.p11.timeValue",
+      "column" : "p11TimeValue",
+      "ar" : "11|Time",
+      "en" : "11|Time",
+      "type" : "Time"
+    }, {
+      "id" : "reports.p12.dateTimeValue",
+      "column" : "p12DateTimeValue",
+      "ar" : "12|Date Time",
+      "en" : "12|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "reports.p12.dateValue",
+      "column" : "p12DateValue",
+      "ar" : "12|Date",
+      "en" : "12|Date",
+      "type" : "Date"
+    }, {
+      "id" : "reports.p12.dynamicParamValue",
+      "column" : "p12DynamicParamValue",
+      "ar" : "12|Dynamic",
+      "en" : "12|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "reports.p12.entityType",
+      "column" : "p12EntityType",
+      "ar" : "12|Entity Type",
+      "en" : "12|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "reports.p12.paramId",
+      "column" : "p12ParamId",
+      "ar" : "12|Param ID",
+      "en" : "12|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p12.paramType",
+      "column" : "p12ParamType",
+      "ar" : "12|Type",
+      "en" : "12|Type",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p12.paramValue",
+      "column" : "p12ParamValue",
+      "ar" : "12|Value",
+      "en" : "12|Value",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p12.refValue",
+      "columns" : [ "p12RefValueActualCode", " p12RefValueCode", " p12RefValueEntityType", " p12RefValueId" ],
+      "ar" : "12|Ref",
+      "en" : "12|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "reports.p12.timeValue",
+      "column" : "p12TimeValue",
+      "ar" : "12|Time",
+      "en" : "12|Time",
+      "type" : "Time"
+    }, {
+      "id" : "reports.p13.dateTimeValue",
+      "column" : "p13DateTimeValue",
+      "ar" : "13|Date Time",
+      "en" : "13|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "reports.p13.dateValue",
+      "column" : "p13DateValue",
+      "ar" : "13|Date",
+      "en" : "13|Date",
+      "type" : "Date"
+    }, {
+      "id" : "reports.p13.dynamicParamValue",
+      "column" : "p13DynamicParamValue",
+      "ar" : "13|Dynamic",
+      "en" : "13|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "reports.p13.entityType",
+      "column" : "p13EntityType",
+      "ar" : "13|Entity Type",
+      "en" : "13|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "reports.p13.paramId",
+      "column" : "p13ParamId",
+      "ar" : "13|Param ID",
+      "en" : "13|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p13.paramType",
+      "column" : "p13ParamType",
+      "ar" : "13|Type",
+      "en" : "13|Type",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p13.paramValue",
+      "column" : "p13ParamValue",
+      "ar" : "13|Value",
+      "en" : "13|Value",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p13.refValue",
+      "columns" : [ "p13RefValueActualCode", " p13RefValueCode", " p13RefValueEntityType", " p13RefValueId" ],
+      "ar" : "13|Ref",
+      "en" : "13|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "reports.p13.timeValue",
+      "column" : "p13TimeValue",
+      "ar" : "13|Time",
+      "en" : "13|Time",
+      "type" : "Time"
+    }, {
+      "id" : "reports.p14.dateTimeValue",
+      "column" : "p14DateTimeValue",
+      "ar" : "14|Date Time",
+      "en" : "14|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "reports.p14.dateValue",
+      "column" : "p14DateValue",
+      "ar" : "14|Date",
+      "en" : "14|Date",
+      "type" : "Date"
+    }, {
+      "id" : "reports.p14.dynamicParamValue",
+      "column" : "p14DynamicParamValue",
+      "ar" : "14|Dynamic",
+      "en" : "14|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "reports.p14.entityType",
+      "column" : "p14EntityType",
+      "ar" : "14|Entity Type",
+      "en" : "14|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "reports.p14.paramId",
+      "column" : "p14ParamId",
+      "ar" : "14|Param ID",
+      "en" : "14|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p14.paramType",
+      "column" : "p14ParamType",
+      "ar" : "14|Type",
+      "en" : "14|Type",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p14.paramValue",
+      "column" : "p14ParamValue",
+      "ar" : "14|Value",
+      "en" : "14|Value",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p14.refValue",
+      "columns" : [ "p14RefValueActualCode", " p14RefValueCode", " p14RefValueEntityType", " p14RefValueId" ],
+      "ar" : "14|Ref",
+      "en" : "14|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "reports.p14.timeValue",
+      "column" : "p14TimeValue",
+      "ar" : "14|Time",
+      "en" : "14|Time",
+      "type" : "Time"
+    }, {
+      "id" : "reports.p15.dateTimeValue",
+      "column" : "p15DateTimeValue",
+      "ar" : "15|Date Time",
+      "en" : "15|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "reports.p15.dateValue",
+      "column" : "p15DateValue",
+      "ar" : "15|Date",
+      "en" : "15|Date",
+      "type" : "Date"
+    }, {
+      "id" : "reports.p15.dynamicParamValue",
+      "column" : "p15DynamicParamValue",
+      "ar" : "15|Dynamic",
+      "en" : "15|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "reports.p15.entityType",
+      "column" : "p15EntityType",
+      "ar" : "15|Entity Type",
+      "en" : "15|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "reports.p15.paramId",
+      "column" : "p15ParamId",
+      "ar" : "15|Param ID",
+      "en" : "15|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p15.paramType",
+      "column" : "p15ParamType",
+      "ar" : "15|Type",
+      "en" : "15|Type",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p15.paramValue",
+      "column" : "p15ParamValue",
+      "ar" : "15|Value",
+      "en" : "15|Value",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p15.refValue",
+      "columns" : [ "p15RefValueActualCode", " p15RefValueCode", " p15RefValueEntityType", " p15RefValueId" ],
+      "ar" : "15|Ref",
+      "en" : "15|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "reports.p15.timeValue",
+      "column" : "p15TimeValue",
+      "ar" : "15|Time",
+      "en" : "15|Time",
+      "type" : "Time"
+    }, {
+      "id" : "reports.p2.dateTimeValue",
+      "column" : "p2DateTimeValue",
+      "ar" : "2|Date Time",
+      "en" : "2|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "reports.p2.dateValue",
+      "column" : "p2DateValue",
+      "ar" : "2|Date",
+      "en" : "2|Date",
+      "type" : "Date"
+    }, {
+      "id" : "reports.p2.dynamicParamValue",
+      "column" : "p2DynamicParamValue",
+      "ar" : "2|Dynamic",
+      "en" : "2|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "reports.p2.entityType",
+      "column" : "p2EntityType",
+      "ar" : "2|Entity Type",
+      "en" : "2|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "reports.p2.paramId",
+      "column" : "p2ParamId",
+      "ar" : "2|Param ID",
+      "en" : "2|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p2.paramType",
+      "column" : "p2ParamType",
+      "ar" : "2|Type",
+      "en" : "2|Type",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p2.paramValue",
+      "column" : "p2ParamValue",
+      "ar" : "2|Value",
+      "en" : "2|Value",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p2.refValue",
+      "columns" : [ "p2RefValueActualCode", " p2RefValueCode", " p2RefValueEntityType", " p2RefValueId" ],
+      "ar" : "2|Ref",
+      "en" : "2|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "reports.p2.timeValue",
+      "column" : "p2TimeValue",
+      "ar" : "2|Time",
+      "en" : "2|Time",
+      "type" : "Time"
+    }, {
+      "id" : "reports.p3.dateTimeValue",
+      "column" : "p3DateTimeValue",
+      "ar" : "3|Date Time",
+      "en" : "3|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "reports.p3.dateValue",
+      "column" : "p3DateValue",
+      "ar" : "3|Date",
+      "en" : "3|Date",
+      "type" : "Date"
+    }, {
+      "id" : "reports.p3.dynamicParamValue",
+      "column" : "p3DynamicParamValue",
+      "ar" : "3|Dynamic",
+      "en" : "3|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "reports.p3.entityType",
+      "column" : "p3EntityType",
+      "ar" : "3|Entity Type",
+      "en" : "3|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "reports.p3.paramId",
+      "column" : "p3ParamId",
+      "ar" : "3|Param ID",
+      "en" : "3|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p3.paramType",
+      "column" : "p3ParamType",
+      "ar" : "3|Type",
+      "en" : "3|Type",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p3.paramValue",
+      "column" : "p3ParamValue",
+      "ar" : "3|Value",
+      "en" : "3|Value",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p3.refValue",
+      "columns" : [ "p3RefValueActualCode", " p3RefValueCode", " p3RefValueEntityType", " p3RefValueId" ],
+      "ar" : "3|Ref",
+      "en" : "3|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "reports.p3.timeValue",
+      "column" : "p3TimeValue",
+      "ar" : "3|Time",
+      "en" : "3|Time",
+      "type" : "Time"
+    }, {
+      "id" : "reports.p4.dateTimeValue",
+      "column" : "p4DateTimeValue",
+      "ar" : "4|Date Time",
+      "en" : "4|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "reports.p4.dateValue",
+      "column" : "p4DateValue",
+      "ar" : "4|Date",
+      "en" : "4|Date",
+      "type" : "Date"
+    }, {
+      "id" : "reports.p4.dynamicParamValue",
+      "column" : "p4DynamicParamValue",
+      "ar" : "4|Dynamic",
+      "en" : "4|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "reports.p4.entityType",
+      "column" : "p4EntityType",
+      "ar" : "4|Entity Type",
+      "en" : "4|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "reports.p4.paramId",
+      "column" : "p4ParamId",
+      "ar" : "4|Param ID",
+      "en" : "4|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p4.paramType",
+      "column" : "p4ParamType",
+      "ar" : "4|Type",
+      "en" : "4|Type",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p4.paramValue",
+      "column" : "p4ParamValue",
+      "ar" : "4|Value",
+      "en" : "4|Value",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p4.refValue",
+      "columns" : [ "p4RefValueActualCode", " p4RefValueCode", " p4RefValueEntityType", " p4RefValueId" ],
+      "ar" : "4|Ref",
+      "en" : "4|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "reports.p4.timeValue",
+      "column" : "p4TimeValue",
+      "ar" : "4|Time",
+      "en" : "4|Time",
+      "type" : "Time"
+    }, {
+      "id" : "reports.p5.dateTimeValue",
+      "column" : "p5DateTimeValue",
+      "ar" : "5|Date Time",
+      "en" : "5|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "reports.p5.dateValue",
+      "column" : "p5DateValue",
+      "ar" : "5|Date",
+      "en" : "5|Date",
+      "type" : "Date"
+    }, {
+      "id" : "reports.p5.dynamicParamValue",
+      "column" : "p5DynamicParamValue",
+      "ar" : "5|Dynamic",
+      "en" : "5|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "reports.p5.entityType",
+      "column" : "p5EntityType",
+      "ar" : "5|Entity Type",
+      "en" : "5|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "reports.p5.paramId",
+      "column" : "p5ParamId",
+      "ar" : "5|Param ID",
+      "en" : "5|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p5.paramType",
+      "column" : "p5ParamType",
+      "ar" : "5|Type",
+      "en" : "5|Type",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p5.paramValue",
+      "column" : "p5ParamValue",
+      "ar" : "5|Value",
+      "en" : "5|Value",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p5.refValue",
+      "columns" : [ "p5RefValueActualCode", " p5RefValueCode", " p5RefValueEntityType", " p5RefValueId" ],
+      "ar" : "5|Ref",
+      "en" : "5|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "reports.p5.timeValue",
+      "column" : "p5TimeValue",
+      "ar" : "5|Time",
+      "en" : "5|Time",
+      "type" : "Time"
+    }, {
+      "id" : "reports.p6.dateTimeValue",
+      "column" : "p6DateTimeValue",
+      "ar" : "6|Date Time",
+      "en" : "6|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "reports.p6.dateValue",
+      "column" : "p6DateValue",
+      "ar" : "6|Date",
+      "en" : "6|Date",
+      "type" : "Date"
+    }, {
+      "id" : "reports.p6.dynamicParamValue",
+      "column" : "p6DynamicParamValue",
+      "ar" : "6|Dynamic",
+      "en" : "6|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "reports.p6.entityType",
+      "column" : "p6EntityType",
+      "ar" : "6|Entity Type",
+      "en" : "6|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "reports.p6.paramId",
+      "column" : "p6ParamId",
+      "ar" : "6|Param ID",
+      "en" : "6|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p6.paramType",
+      "column" : "p6ParamType",
+      "ar" : "6|Type",
+      "en" : "6|Type",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p6.paramValue",
+      "column" : "p6ParamValue",
+      "ar" : "6|Value",
+      "en" : "6|Value",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p6.refValue",
+      "columns" : [ "p6RefValueActualCode", " p6RefValueCode", " p6RefValueEntityType", " p6RefValueId" ],
+      "ar" : "6|Ref",
+      "en" : "6|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "reports.p6.timeValue",
+      "column" : "p6TimeValue",
+      "ar" : "6|Time",
+      "en" : "6|Time",
+      "type" : "Time"
+    }, {
+      "id" : "reports.p7.dateTimeValue",
+      "column" : "p7DateTimeValue",
+      "ar" : "7|Date Time",
+      "en" : "7|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "reports.p7.dateValue",
+      "column" : "p7DateValue",
+      "ar" : "7|Date",
+      "en" : "7|Date",
+      "type" : "Date"
+    }, {
+      "id" : "reports.p7.dynamicParamValue",
+      "column" : "p7DynamicParamValue",
+      "ar" : "7|Dynamic",
+      "en" : "7|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "reports.p7.entityType",
+      "column" : "p7EntityType",
+      "ar" : "7|Entity Type",
+      "en" : "7|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "reports.p7.paramId",
+      "column" : "p7ParamId",
+      "ar" : "7|Param ID",
+      "en" : "7|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p7.paramType",
+      "column" : "p7ParamType",
+      "ar" : "7|Type",
+      "en" : "7|Type",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p7.paramValue",
+      "column" : "p7ParamValue",
+      "ar" : "7|Value",
+      "en" : "7|Value",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p7.refValue",
+      "columns" : [ "p7RefValueActualCode", " p7RefValueCode", " p7RefValueEntityType", " p7RefValueId" ],
+      "ar" : "7|Ref",
+      "en" : "7|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "reports.p7.timeValue",
+      "column" : "p7TimeValue",
+      "ar" : "7|Time",
+      "en" : "7|Time",
+      "type" : "Time"
+    }, {
+      "id" : "reports.p8.dateTimeValue",
+      "column" : "p8DateTimeValue",
+      "ar" : "8|Date Time",
+      "en" : "8|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "reports.p8.dateValue",
+      "column" : "p8DateValue",
+      "ar" : "8|Date",
+      "en" : "8|Date",
+      "type" : "Date"
+    }, {
+      "id" : "reports.p8.dynamicParamValue",
+      "column" : "p8DynamicParamValue",
+      "ar" : "8|Dynamic",
+      "en" : "8|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "reports.p8.entityType",
+      "column" : "p8EntityType",
+      "ar" : "8|Entity Type",
+      "en" : "8|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "reports.p8.paramId",
+      "column" : "p8ParamId",
+      "ar" : "8|Param ID",
+      "en" : "8|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p8.paramType",
+      "column" : "p8ParamType",
+      "ar" : "8|Type",
+      "en" : "8|Type",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p8.paramValue",
+      "column" : "p8ParamValue",
+      "ar" : "8|Value",
+      "en" : "8|Value",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p8.refValue",
+      "columns" : [ "p8RefValueActualCode", " p8RefValueCode", " p8RefValueEntityType", " p8RefValueId" ],
+      "ar" : "8|Ref",
+      "en" : "8|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "reports.p8.timeValue",
+      "column" : "p8TimeValue",
+      "ar" : "8|Time",
+      "en" : "8|Time",
+      "type" : "Time"
+    }, {
+      "id" : "reports.p9.dateTimeValue",
+      "column" : "p9DateTimeValue",
+      "ar" : "9|Date Time",
+      "en" : "9|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "reports.p9.dateValue",
+      "column" : "p9DateValue",
+      "ar" : "9|Date",
+      "en" : "9|Date",
+      "type" : "Date"
+    }, {
+      "id" : "reports.p9.dynamicParamValue",
+      "column" : "p9DynamicParamValue",
+      "ar" : "9|Dynamic",
+      "en" : "9|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "reports.p9.entityType",
+      "column" : "p9EntityType",
+      "ar" : "9|Entity Type",
+      "en" : "9|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "reports.p9.paramId",
+      "column" : "p9ParamId",
+      "ar" : "9|Param ID",
+      "en" : "9|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p9.paramType",
+      "column" : "p9ParamType",
+      "ar" : "9|Type",
+      "en" : "9|Type",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p9.paramValue",
+      "column" : "p9ParamValue",
+      "ar" : "9|Value",
+      "en" : "9|Value",
+      "type" : "Text"
+    }, {
+      "id" : "reports.p9.refValue",
+      "columns" : [ "p9RefValueActualCode", " p9RefValueCode", " p9RefValueEntityType", " p9RefValueId" ],
+      "ar" : "9|Ref",
+      "en" : "9|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "reports.p9.timeValue",
+      "column" : "p9TimeValue",
+      "ar" : "9|Time",
+      "en" : "9|Time",
+      "type" : "Time"
+    }, {
+      "id" : "reports.reportArabicTitle",
+      "column" : "reportArabicTitle",
+      "ar" : "عنوان التقرير عربي",
+      "en" : "Report Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "reports.reportDefinition",
+      "column" : "reportDefinition_id",
+      "ar" : "تعريف التقرير",
+      "en" : "Report Definition",
+      "type" : "Reference",
+      "refTo" : "ReportDefinition",
+      "refPath" : "/modules/basic/ReportDefinition.html"
+    }, {
+      "id" : "reports.reportEnglishTitle",
+      "column" : "reportEnglishTitle",
+      "ar" : "عنوان التقرير إنجليزي",
+      "en" : "Report English Title",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "supportGroups",
+    "table" : "CustomerPortalSupportGroupLine",
+    "joinColumn" : "customerPortalConfiguration_id",
+    "ar" : "مجموعات الدعم",
+    "en" : "Support Groups",
+    "fields" : [ {
+      "id" : "supportGroups.arGroupName",
+      "column" : "arGroupName",
+      "ar" : " اسم المجموعة العربي",
+      "en" : " Group Arabic Name",
+      "type" : "Text"
+    }, {
+      "id" : "supportGroups.dimensions.analysisSet",
+      "column" : "analysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "supportGroups.dimensions.branch",
+      "column" : "branch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "supportGroups.dimensions.department",
+      "column" : "department_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "supportGroups.dimensions.legalEntity",
+      "column" : "legalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "supportGroups.dimensions.sector",
+      "column" : "sector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    }, {
+      "id" : "supportGroups.employeeGroup",
+      "column" : "employeeGroup_id",
+      "ar" : "مجموعة موظفين",
+      "en" : "Employee Group",
+      "type" : "Reference",
+      "refTo" : "EmployeeGroup",
+      "refPath" : "/modules/basic/EmployeeGroup.html"
+    }, {
+      "id" : "supportGroups.enGroupName",
+      "column" : "enGroupName",
+      "ar" : " اسم المجموعة الإنجليزي",
+      "en" : " Group English Name",
+      "type" : "Text"
+    }, {
+      "id" : "supportGroups.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "supportGroups.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  } ]
+}

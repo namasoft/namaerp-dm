@@ -426,6 +426,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 
 ## Basic Customer Portal (basic-customer-portal)
 
+- [CustomerPortalConfiguration](https://dm.namasoft.com/dm-json/CustomerPortalConfiguration.json): Customer Portal Configuration / إعدادات بوابة العملاء
 - [ModifyContractorInfoReq](https://dm.namasoft.com/dm-json/ModifyContractorInfoReq.json): Modify Contractor Info Request / طلب تعديل بيانات المقاول
 - [ModifyCustomerInfoReq](https://dm.namasoft.com/dm-json/ModifyCustomerInfoReq.json): Modify Customer Info Request / طلب تعديل بيانات العميل
 - [ModifySupplierInfoReq](https://dm.namasoft.com/dm-json/ModifySupplierInfoReq.json): Modify Supplier Info Request / طلب تعديل بيانات المورد
@@ -788,7 +789,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [EDBus](https://dm.namasoft.com/dm-json/EDBus.json): Bus / وسيلة نقل
 - [EDBusAction](https://dm.namasoft.com/dm-json/EDBusAction.json): Bus Action / إجراء سيارة مدرسية
 - [EDBusInfoUpdater](https://dm.namasoft.com/dm-json/EDBusInfoUpdater.json): Info Updater / تحديث بيانات سيارة مدرسية
-- [EDBusPickupPlan](https://dm.namasoft.com/dm-json/EDBusPickupPlan.json): Pickup Plan / خط سير سيارة مدرسية
+- [EDBusPickupPlan](https://dm.namasoft.com/dm-json/EDBusPickupPlan.json): School Bus Pickup Plan / خط سير سيارة مدرسية
 - [EDClassRoom](https://dm.namasoft.com/dm-json/EDClassRoom.json): Class Room / فصل
 - [EDContractor](https://dm.namasoft.com/dm-json/EDContractor.json): Education Contractor / المتعهد
 - [EDCourse](https://dm.namasoft.com/dm-json/EDCourse.json): Course / مادة دراسية
@@ -1157,7 +1158,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 
 ## Humanresource Hiring (humanresource-hiring)
 
-- [HRTest](https://dm.namasoft.com/dm-json/HRTest.json): HR Test / اختبار
+- [HRTest](https://dm.namasoft.com/dm-json/HRTest.json): HR Test / اختبار موارد بشرية
 - [HRTestResult](https://dm.namasoft.com/dm-json/HRTestResult.json): Test Result / نتائج الاختبار
 - [HRVacancy](https://dm.namasoft.com/dm-json/HRVacancy.json): Vacancy / فرصة عمل
 - [HRVacancyType](https://dm.namasoft.com/dm-json/HRVacancyType.json): Vacancy Type / نوع فرصة عمل
@@ -1890,7 +1891,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 
 ## Supplychain Lc (supplychain-lc)
 
-- [LCAction](https://dm.namasoft.com/dm-json/LCAction.json): LC Action / إجراء
+- [LCAction](https://dm.namasoft.com/dm-json/LCAction.json): LC Action / إجراء اعتماد مستندي
 - [LCCostDoc](https://dm.namasoft.com/dm-json/LCCostDoc.json): LC Cost Doc / سند تكليف
 - [LCOpeningDoc](https://dm.namasoft.com/dm-json/LCOpeningDoc.json): Letter Of Credit Opening / فتح اعتماد
 - [LCOpeningRequest](https://dm.namasoft.com/dm-json/LCOpeningRequest.json): LC Opening Request / طلب فتح اعتماد
@@ -2018,9 +2019,12 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 
 - [TRCity](https://dm.namasoft.com/dm-json/TRCity.json): Travel City / مدينة سفر
 - [TRCountry](https://dm.namasoft.com/dm-json/TRCountry.json): Travel Country / دولة سفر
+- [TRExternalDriver](https://dm.namasoft.com/dm-json/TRExternalDriver.json): External Driver / سائق خارجي
 - [TRHotel](https://dm.namasoft.com/dm-json/TRHotel.json): Hotel / فندق
 - [TRHotelClass](https://dm.namasoft.com/dm-json/TRHotelClass.json): Hotel Class / تصنيف فندق
 - [TRHotelVoucher](https://dm.namasoft.com/dm-json/TRHotelVoucher.json): Hotel Voucher / قسيمة فندق
+- [TRPaxCheckIn](https://dm.namasoft.com/dm-json/TRPaxCheckIn.json): Pax Check-In / تسجيل وصول الركاب
+- [TRPlatform](https://dm.namasoft.com/dm-json/TRPlatform.json): Platform / منصة
 - [TRPurchaseInvoice](https://dm.namasoft.com/dm-json/TRPurchaseInvoice.json): Travel Service Purchase Invoice / فاتورة مشتريات خدمات سياحية
 - [TRPurchaseOrder](https://dm.namasoft.com/dm-json/TRPurchaseOrder.json): Travel Service Purchase Order / أمر شراء خدمات سياحية
 - [TRPurchaseReturn](https://dm.namasoft.com/dm-json/TRPurchaseReturn.json): Travel Service Purchase Return / مردود مشتريات خدمات سياحية
@@ -2393,9 +2397,6 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [SysVacBalanceTransaction](https://dm.namasoft.com/dm-json/SysVacBalanceTransaction.json): Sys Vac Balance Transaction
 - [SysVacationsBalance](https://dm.namasoft.com/dm-json/SysVacationsBalance.json): Sys Vacations Balance
 - [SysVacationsBalanceByDate](https://dm.namasoft.com/dm-json/SysVacationsBalanceByDate.json): Sys Vacations Balance By Date
-- [TRExternalDriver](https://dm.namasoft.com/dm-json/TRExternalDriver.json): External Driver / سائق خارجي
-- [TRPaxCheckIn](https://dm.namasoft.com/dm-json/TRPaxCheckIn.json): Pax Check-In / تسجيل وصول الركاب
-- [TRPlatform](https://dm.namasoft.com/dm-json/TRPlatform.json): Platform / منصة
 - [TaskScheduleExecutionLog](https://dm.namasoft.com/dm-json/TaskScheduleExecutionLog.json): Task Schedule Execution Log
 - [TaxPayerLastSubmissionInfo](https://dm.namasoft.com/dm-json/TaxPayerLastSubmissionInfo.json): Tax Payer Last Submission Info
 - [TechnicianAppointmentChangeHistory](https://dm.namasoft.com/dm-json/TechnicianAppointmentChangeHistory.json): Technician Appointment Change History
