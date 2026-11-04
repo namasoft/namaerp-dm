@@ -183,6 +183,18 @@
     "refTo" : "NaMaUser",
     "refPath" : "/modules/system-tables/NaMaUser.html"
   }, {
+    "id" : "effectsFromDate",
+    "column" : "effectsFromDate",
+    "ar" : "من تاريخ مؤثرات",
+    "en" : "Effects From Date",
+    "type" : "Date"
+  }, {
+    "id" : "effectsToDate",
+    "column" : "effectsToDate",
+    "ar" : "إلى تاريخ مؤثرات",
+    "en" : "Effects To Date",
+    "type" : "Date"
+  }, {
     "id" : "endDate",
     "column" : "endDate",
     "ar" : "تاريخ النهاية",
@@ -551,6 +563,18 @@
       "ar" : "الوصف 5",
       "en" : "description5",
       "type" : "Text"
+    }, {
+      "id" : "periods.effectsFromDate",
+      "column" : "effectsFromDate",
+      "ar" : "من تاريخ مؤثرات",
+      "en" : "Effects From Date",
+      "type" : "Date"
+    }, {
+      "id" : "periods.effectsToDate",
+      "column" : "effectsToDate",
+      "ar" : "إلى تاريخ مؤثرات",
+      "en" : "Effects To Date",
+      "type" : "Date"
     }, {
       "id" : "periods.endDate",
       "column" : "endDate",

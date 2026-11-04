@@ -602,7 +602,7 @@
     "id" : "synchronizeRewardPointsWithWooCommerceSites",
     "column" : "synchronizeRewardPointsWithWooCommerceSites_id",
     "ar" : "مزامنة نقاط المكافأة مع متجر ووكوميرس",
-    "en" : "Synchronize Reward Points With Woo Commerce Site",
+    "en" : "Synchronize Reward Points With WooCommerce Site",
     "type" : "Reference",
     "refTo" : "MAGMagentoSite",
     "refPath" : "/modules/magento/MAGMagentoSite.html"
@@ -782,7 +782,7 @@
     "id" : "branchesInfo",
     "table" : "RewardPointsConfigLine",
     "joinColumn" : "rewardPointsConfig_id",
-    "ar" : "Terminal and Branch ID Config",
+    "ar" : "إعدادات معرف الجهاز والفرع",
     "en" : "Terminal and Branch ID Config",
     "fields" : [ {
       "id" : "branchesInfo.branchId",

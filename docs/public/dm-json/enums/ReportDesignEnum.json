@@ -1,0 +1,16 @@
+{
+  "enum" : "ReportDesignEnum",
+  "values" : [ {
+    "id" : "Theme",
+    "ar" : "ألوان الثيم",
+    "en" : "Theme Colors"
+  }, {
+    "id" : "Modern",
+    "ar" : "حديث",
+    "en" : "Modern"
+  }, {
+    "id" : "Classic",
+    "ar" : "كلاسيكي",
+    "en" : "Classic"
+  } ]
+}

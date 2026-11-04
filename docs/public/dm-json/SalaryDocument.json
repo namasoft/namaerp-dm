@@ -243,6 +243,18 @@
     "refTo" : "NaMaUser",
     "refPath" : "/modules/system-tables/NaMaUser.html"
   }, {
+    "id" : "effectsFromDate",
+    "column" : "effectsFromDate",
+    "ar" : "من تاريخ مؤثرات",
+    "en" : "Effects From Date",
+    "type" : "Date"
+  }, {
+    "id" : "effectsToDate",
+    "column" : "effectsToDate",
+    "ar" : "إلى تاريخ مؤثرات",
+    "en" : "Effects To Date",
+    "type" : "Date"
+  }, {
     "id" : "employee",
     "column" : "employee_id",
     "ar" : "الموظف",

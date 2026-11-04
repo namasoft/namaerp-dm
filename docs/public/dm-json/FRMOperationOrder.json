@@ -611,6 +611,12 @@
     "en" : "Import",
     "type" : "Boolean"
   }, {
+    "id" : "isMultimodal",
+    "column" : "isMultimodal",
+    "ar" : "متعدد الوسائل",
+    "en" : "Is Multimodal",
+    "type" : "Boolean"
+  }, {
     "id" : "isOceanFreight",
     "column" : "isOceanFreight",
     "ar" : "شحن بحري",

@@ -60,7 +60,7 @@
   }, {
     "id" : "borderLinePreset",
     "column" : "borderLinePreset",
-    "ar" : "Border Line Preset",
+    "ar" : "نمط خطوط الحدود",
     "en" : "Border Line Preset",
     "type" : "Enum",
     "enum" : "BorderLinePreset"
@@ -284,6 +284,13 @@
     "ar" : "عرض العنوان الافتراضي",
     "en" : "Default Label Width",
     "type" : "Integer"
+  }, {
+    "id" : "defaultReportDesign",
+    "column" : "defaultReportDesign",
+    "ar" : "التصميم الافتراضي للتقرير",
+    "en" : "Default Report Design",
+    "type" : "Enum",
+    "enum" : "ReportDesignEnum"
   }, {
     "id" : "defaultValueHeight",
     "column" : "defaultValueHeight",

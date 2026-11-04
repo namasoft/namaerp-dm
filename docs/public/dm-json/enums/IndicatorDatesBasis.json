@@ -1,0 +1,12 @@
+{
+  "enum" : "IndicatorDatesBasis",
+  "values" : [ {
+    "id" : "SalaryPeriod",
+    "ar" : "فترة الراتب",
+    "en" : "Salary Period"
+  }, {
+    "id" : "EffectsPeriod",
+    "ar" : "فترة المؤثرات",
+    "en" : "Effects Period"
+  } ]
+}

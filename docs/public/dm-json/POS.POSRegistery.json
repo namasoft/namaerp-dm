@@ -943,6 +943,12 @@
       "ar" : "عرض في طرق الدفع الإضافية",
       "en" : "Show In Additional Methods",
       "type" : "Boolean"
+    }, {
+      "id" : "paymentMethods.showInMorePaymentMethods",
+      "column" : "showInMorePaymentMethods",
+      "ar" : "إظهار في طرق الدفع الأخرى",
+      "en" : "Show In More Payment Methods",
+      "type" : "Boolean"
     } ]
   }, {
     "id" : "tableLines",

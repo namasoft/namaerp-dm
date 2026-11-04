@@ -202,6 +202,13 @@
     "en" : "Database Resource Name",
     "type" : "Text"
   }, {
+    "id" : "defaultReportDesign",
+    "column" : "defaultReportDesign",
+    "ar" : "التصميم الافتراضي للتقرير",
+    "en" : "Default Report Design",
+    "type" : "Enum",
+    "enum" : "ReportDesignEnum"
+  }, {
     "id" : "defintion",
     "column" : "defintion_id",
     "ar" : "ملف التقرير",

@@ -57,6 +57,9 @@
     }, {
       "entity" : "PaymentMethod",
       "field" : "hideInShifts"
+    }, {
+      "entity" : "PaymentMethod",
+      "field" : "showInMorePaymentMethods"
     } ]
   }, {
     "id" : "NamaPOSSalesInvoice",

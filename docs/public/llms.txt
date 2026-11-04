@@ -1910,6 +1910,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 
 - [ItemPickingZoneLink](https://dm.namasoft.com/dm-json/ItemPickingZoneLink.json): Item Picking Zone Link / ربط الأصناف بمناطق التجهيز
 - [PickingZone](https://dm.namasoft.com/dm-json/PickingZone.json): Picking Zone / منطقة التجهيز
+- [WMSConfig](https://dm.namasoft.com/dm-json/WMSConfig.json): WMS Configuration / إعدادات WMS
 - [WMSPallet](https://dm.namasoft.com/dm-json/WMSPallet.json): WMS Pallet / طبلية مخزنية
 - [WMSPickingDoc](https://dm.namasoft.com/dm-json/WMSPickingDoc.json): WMS Picking Doc / سند تجهيز مخزني
 - [WMSReceiptDoc](https://dm.namasoft.com/dm-json/WMSReceiptDoc.json): WMS Receipt Doc / سند استلام مخزني

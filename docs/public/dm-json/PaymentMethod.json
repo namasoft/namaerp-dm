@@ -728,6 +728,13 @@
     "type" : "Boolean",
     "feature" : "m:namapos"
   }, {
+    "id" : "showInMorePaymentMethods",
+    "column" : "showInMorePaymentMethods",
+    "ar" : "إظهار في طرق الدفع الأخرى",
+    "en" : "Show In More Payment Methods",
+    "type" : "Boolean",
+    "feature" : "NamaPOSRegister"
+  }, {
     "id" : "subsidiary",
     "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
     "ar" : "الخزينة - الذمة",

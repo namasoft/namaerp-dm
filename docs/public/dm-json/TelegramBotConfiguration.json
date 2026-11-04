@@ -36,13 +36,13 @@
   }, {
     "id" : "botToken",
     "column" : "botToken",
-    "ar" : "Bot Token",
+    "ar" : "رمز البوت (Token)",
     "en" : "Bot Token",
     "type" : "BigText"
   }, {
     "id" : "botUsername",
     "column" : "botUsername",
-    "ar" : "Bot Username",
+    "ar" : "اسم مستخدم البوت",
     "en" : "Bot Username",
     "type" : "Text"
   }, {

@@ -1,0 +1,12 @@
+{
+  "enum" : "WMSPickingDisplayMethod",
+  "values" : [ {
+    "id" : "ByPickingZone",
+    "ar" : "حسب منطقة التجهيز",
+    "en" : "By Picking Zone"
+  }, {
+    "id" : "ByAvailableLocators",
+    "ar" : "حسب المواقع المتوفر فيها الأصناف",
+    "en" : "By Available Locators"
+  } ]
+}

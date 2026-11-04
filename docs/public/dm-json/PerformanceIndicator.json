@@ -132,6 +132,13 @@
     "en" : "Date5",
     "type" : "Date"
   }, {
+    "id" : "datesBasis",
+    "column" : "datesBasis",
+    "ar" : "طريقة اعتبار التواريخ",
+    "en" : "Dates Basis",
+    "type" : "Enum",
+    "enum" : "IndicatorDatesBasis"
+  }, {
     "id" : "department",
     "column" : "department_id",
     "ar" : "الإدارة",

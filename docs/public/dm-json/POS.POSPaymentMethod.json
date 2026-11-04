@@ -262,6 +262,12 @@
     "en" : "Selected",
     "type" : "Boolean"
   }, {
+    "id" : "showInMorePaymentMethods",
+    "column" : "showInMorePaymentMethods",
+    "ar" : "إظهار في طرق الدفع الأخرى",
+    "en" : "Show In More Payment Methods",
+    "type" : "Boolean"
+  }, {
     "id" : "writeFailures",
     "column" : "writeFailures",
     "type" : "Integer"

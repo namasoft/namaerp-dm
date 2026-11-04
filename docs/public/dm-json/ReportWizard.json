@@ -73,7 +73,7 @@
   }, {
     "id" : "borderLinePreset",
     "column" : "borderLinePreset",
-    "ar" : "Border Line Preset",
+    "ar" : "نمط خطوط الحدود",
     "en" : "Border Line Preset",
     "type" : "Enum",
     "enum" : "BorderLinePreset"
@@ -306,6 +306,13 @@
     "ar" : "تاريخ 5",
     "en" : "Date5",
     "type" : "Date"
+  }, {
+    "id" : "defaultReportDesign",
+    "column" : "defaultReportDesign",
+    "ar" : "التصميم الافتراضي للتقرير",
+    "en" : "Default Report Design",
+    "type" : "Enum",
+    "enum" : "ReportDesignEnum"
   }, {
     "id" : "department",
     "column" : "department_id",
@@ -9604,6 +9611,82 @@
       "en" : "Width Size",
       "type" : "Enum",
       "enum" : "GridSizeEnum"
+    } ]
+  }, {
+    "id" : "summaryCards",
+    "table" : "ReportWizardSummaryCardLine",
+    "joinColumn" : "reportWizard_id",
+    "ar" : "بطاقات الملخص",
+    "en" : "Summary Cards",
+    "fields" : [ {
+      "id" : "summaryCards.arabicTitle",
+      "column" : "arabicTitle",
+      "ar" : "العنوان بالعربية",
+      "en" : "Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "summaryCards.calculation",
+      "column" : "calculation",
+      "ar" : "طريقة الاحتساب",
+      "en" : "Calculation",
+      "type" : "Enum",
+      "enum" : "JasperVariableCalculation"
+    }, {
+      "id" : "summaryCards.customPattern",
+      "column" : "customPattern",
+      "ar" : "النمط المخصص",
+      "en" : "Custom Pattern",
+      "type" : "Text"
+    }, {
+      "id" : "summaryCards.englishTitle",
+      "column" : "englishTitle",
+      "ar" : "العنوان بالإنجليزية",
+      "en" : "English Title",
+      "type" : "Text"
+    }, {
+      "id" : "summaryCards.expression",
+      "column" : "expression",
+      "ar" : "المعادلة",
+      "en" : "Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "summaryCards.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "summaryCards.finalExpression",
+      "column" : "finalExpression",
+      "ar" : "المعادلة النهائية",
+      "en" : "Final Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "summaryCards.finalPrintWhenExpression",
+      "column" : "finalPrintWhenExpression",
+      "ar" : "شرط الطباعة النهائي",
+      "en" : "Final Print When Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "summaryCards.highlighted",
+      "column" : "highlighted",
+      "ar" : "مميز",
+      "en" : "Highlighted",
+      "type" : "Boolean"
+    }, {
+      "id" : "summaryCards.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "summaryCards.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "summaryCards.printWhenExpression",
+      "column" : "printWhenExpression",
+      "ar" : "شرط الطباعة",
+      "en" : "Print When Expression",
+      "type" : "BigText"
     } ]
   }, {
     "id" : "unionTables",
