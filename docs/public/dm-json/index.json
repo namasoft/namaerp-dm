@@ -2728,6 +2728,9 @@
     "details" : [ {
       "id" : "lines",
       "table" : "CarCustodianLine"
+    }, {
+      "id" : "partnerShares",
+      "table" : "CarPartnerShareLine"
     } ]
   }, {
     "name" : "CarAction",

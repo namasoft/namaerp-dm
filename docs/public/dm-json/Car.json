@@ -1080,6 +1080,12 @@
     "en" : "Tax Authority Code",
     "type" : "Text"
   }, {
+    "id" : "totalShares",
+    "column" : "totalShares",
+    "ar" : "مجموع الأسهم",
+    "en" : "total shares",
+    "type" : "Decimal"
+  }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
     "ar" : "صلاحية التعديل",
@@ -1266,6 +1272,39 @@
       "id" : "lines.t5",
       "column" : "t5",
       "type" : "Text"
+    } ]
+  }, {
+    "id" : "partnerShares",
+    "table" : "CarPartnerShareLine",
+    "joinColumn" : "car_id",
+    "ar" : "أسهم الشركاء",
+    "en" : "Partner Shares",
+    "fields" : [ {
+      "id" : "partnerShares.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "partnerShares.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "partnerShares.partner",
+      "columns" : [ "partnerActualCode", " partnerCode", " partnerEntityType", " partnerId" ],
+      "ar" : "الشريك",
+      "en" : "Partner",
+      "type" : "Genericreference"
+    }, {
+      "id" : "partnerShares.shares",
+      "column" : "shares",
+      "ar" : "عدد الأسهم",
+      "en" : "shares",
+      "type" : "Decimal"
+    }, {
+      "id" : "partnerShares.sharesPercentage",
+      "column" : "sharesPercentage",
+      "ar" : "نسبة الأسهم",
+      "en" : "shares percentage",
+      "type" : "Decimal"
     } ]
   } ]
 }

@@ -122,6 +122,12 @@
     "en" : "Date5",
     "type" : "Date"
   }, {
+    "id" : "defaultMobileCountry",
+    "column" : "defaultMobileCountry",
+    "ar" : "دولة رقم الجوال الافتراضية",
+    "en" : "Default Mobile Country",
+    "type" : "Text"
+  }, {
     "id" : "department",
     "column" : "department_id",
     "ar" : "الإدارة",
