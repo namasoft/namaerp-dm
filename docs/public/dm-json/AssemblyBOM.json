@@ -44,9 +44,7 @@
     "column" : "chassisItem_id",
     "ar" : "صنف الشاسيه",
     "en" : "Chassis Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "code",
     "column" : "code",
@@ -214,9 +212,7 @@
     "column" : "engineItem_id",
     "ar" : "صنف الموتور",
     "en" : "Engine Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "entitySystemEntryId",
     "column" : "entitySystemEntry_id",
@@ -283,9 +279,7 @@
     "column" : "invItem_id",
     "ar" : " الصنف",
     "en" : " Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "issueLocator",
     "column" : "issueLocator_id",
@@ -1009,9 +1003,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "coProds.item.itemCode",
       "column" : "itemCode",
@@ -1606,9 +1598,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "details.lineNumber",
       "column" : "lineNumber",

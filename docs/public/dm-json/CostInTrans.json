@@ -566,9 +566,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "details.itemTransRef.itemCode",
       "column" : "itemCode",

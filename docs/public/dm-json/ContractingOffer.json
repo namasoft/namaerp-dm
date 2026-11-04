@@ -1104,9 +1104,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "contractors.item",
       "column" : "item_id",
@@ -1632,9 +1630,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "items.item",
       "column" : "item_id",
@@ -2160,9 +2156,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "otherExpenses.item",
       "column" : "item_id",
@@ -3819,9 +3813,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "workers.item",
       "column" : "item_id",

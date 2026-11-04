@@ -608,17 +608,13 @@
       "column" : "mainItem_id",
       "ar" : "الصنف الأساسي",
       "en" : "Main Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "details.serviceItem",
       "column" : "serviceItem_id",
       "ar" : "التشغيلة",
       "en" : "Service Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     } ]
   }, {
     "id" : "relatedOperations",

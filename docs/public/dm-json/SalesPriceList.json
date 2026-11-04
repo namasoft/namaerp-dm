@@ -430,9 +430,7 @@
     "column" : "fromItem_id",
     "ar" : "من صنف",
     "en" : "From Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "fromItemClass1",
     "column" : "fromItemClass1_id",
@@ -1068,9 +1066,7 @@
     "column" : "toItem_id",
     "ar" : "إلى صنف",
     "en" : "To Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "toItemClass1",
     "column" : "toItemClass1_id",
@@ -1337,9 +1333,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "details.itemClass",
       "columns" : [ "itemClassActualCode", " itemClassCode", " itemClassEntityType", " itemClassId" ],

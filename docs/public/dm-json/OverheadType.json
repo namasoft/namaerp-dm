@@ -514,9 +514,7 @@
       "column" : "finishedProduct_id",
       "ar" : "المنتج النهائي",
       "en" : "Finished Product",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "details.fpItemClass1",
       "column" : "fpItemClass1_id",
@@ -614,9 +612,7 @@
       "column" : "invItem_id",
       "ar" : "الخامة",
       "en" : "Raw material",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "details.lineNumber",
       "column" : "lineNumber",

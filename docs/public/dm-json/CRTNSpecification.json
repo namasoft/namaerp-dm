@@ -322,9 +322,7 @@
     "column" : "item_id",
     "ar" : "الصنف",
     "en" : "Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "joinType",
     "column" : "joinType_id",
@@ -817,9 +815,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "firstProductionStage.itemClass1",
       "column" : "itemClass1_id",
@@ -1011,9 +1007,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "secondProductionStage.itemClass1",
       "column" : "itemClass1_id",
@@ -1168,9 +1162,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "thirdProductionStage.itemClass1",
       "column" : "itemClass1_id",

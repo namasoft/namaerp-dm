@@ -931,9 +931,7 @@
     "column" : "taxAuthorityItem_id",
     "ar" : "الصنف المرسل لمصلحة الضرائب",
     "en" : "Tax Authority Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "taxPlan",
     "column" : "taxPlan_id",
@@ -1135,9 +1133,7 @@
       "column" : "item_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "details.item.itemCode",
       "column" : "itemCode",

@@ -1368,9 +1368,7 @@
     }, {
       "id" : "lines.generatedItem",
       "column" : "generatedItem_id",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "lines.id",
       "column" : "id",

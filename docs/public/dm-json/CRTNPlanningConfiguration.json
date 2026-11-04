@@ -457,9 +457,7 @@
     "column" : "trimCoProduct_id",
     "ar" : "الصنف الثانوي للتريم",
     "en" : "Trim Co-product Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",

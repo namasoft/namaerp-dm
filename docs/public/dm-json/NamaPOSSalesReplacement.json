@@ -239,9 +239,7 @@
     "column" : "createdReturnInv_id",
     "ar" : "فاتورة المردودات المنشأة من نقاط البيع",
     "en" : "Created Return Sales From POS",
-    "type" : "Reference",
-    "refTo" : "NamaPOSSalesReturn",
-    "refPath" : "/modules/namapos/NamaPOSSalesReturn.html"
+    "type" : "Reference"
   }, {
     "id" : "createdReturnInvCode",
     "column" : "createdReturnInvCode",
@@ -253,9 +251,7 @@
     "column" : "createdSalesInv_id",
     "ar" : "فاتورة المبيعات المنشأة من نقاط البيع",
     "en" : "Created Sales Invoice From POS",
-    "type" : "Reference",
-    "refTo" : "NamaPOSSalesInvoice",
-    "refPath" : "/modules/namapos/NamaPOSSalesInvoice.html"
+    "type" : "Reference"
   }, {
     "id" : "createdSalesInvCode",
     "column" : "createdSalesInvCode",
@@ -1380,9 +1376,7 @@
     "column" : "salesInvoice_id",
     "ar" : "فاتورة المبيعات المستبدلة من نقاط البيع",
     "en" : "Replaced Sales Invoice From POS",
-    "type" : "Reference",
-    "refTo" : "NamaPOSSalesInvoice",
-    "refPath" : "/modules/namapos/NamaPOSSalesInvoice.html"
+    "type" : "Reference"
   }, {
     "id" : "salesMan",
     "column" : "salesMan_id",
@@ -2009,9 +2003,7 @@
       "column" : "item_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "details.item.itemCode",
       "column" : "itemCode",

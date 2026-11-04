@@ -300,9 +300,7 @@
     "column" : "fromItem_id",
     "ar" : "من صنف",
     "en" : "From Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "fromLegalEntity",
     "column" : "fromLegalEntity_id",
@@ -607,9 +605,7 @@
     "column" : "toItem_id",
     "ar" : "إلى صنف",
     "en" : "To Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "toLegalEntity",
     "column" : "toLegalEntity_id",
@@ -743,9 +739,7 @@
       "column" : "item_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "details.item.itemCode",
       "column" : "itemCode",
@@ -1021,9 +1015,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "finalRawMaterialLines.item.itemCode",
       "column" : "itemCode",
@@ -1214,9 +1206,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "manufacturedMaterials.item.itemCode",
       "column" : "itemCode",
@@ -1396,9 +1386,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "requiredQuantities.item.itemCode",
       "column" : "itemCode",

@@ -264,9 +264,7 @@
     "column" : "fromItem_id",
     "ar" : "من صنف",
     "en" : "From Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "generatedByLine",
     "column" : "generatedByLine",
@@ -505,9 +503,7 @@
     "column" : "toItem_id",
     "ar" : "إلى صنف",
     "en" : "To Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
@@ -655,9 +651,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "orders.lineNumber",
       "column" : "lineNumber",

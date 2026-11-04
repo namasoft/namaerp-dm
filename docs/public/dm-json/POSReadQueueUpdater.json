@@ -65,6 +65,10 @@
     "column" : "queueId",
     "type" : "ID"
   }, {
+    "id" : "queueIds",
+    "column" : "queueIds",
+    "type" : "BigText"
+  }, {
     "id" : "screenProperties",
     "column" : "screenProperties",
     "ar" : "خصائص أعمدة المبيعات",

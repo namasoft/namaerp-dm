@@ -555,9 +555,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "grid1.lineNumber",
       "column" : "lineNumber",
@@ -677,9 +675,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "grid2.lineNumber",
       "column" : "lineNumber",
@@ -799,9 +795,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "grid3.lineNumber",
       "column" : "lineNumber",
@@ -921,9 +915,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "grid4.lineNumber",
       "column" : "lineNumber",
@@ -1043,9 +1035,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "grid5.lineNumber",
       "column" : "lineNumber",

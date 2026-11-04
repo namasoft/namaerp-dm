@@ -787,41 +787,31 @@
       "column" : "distributeCostOnItem_id",
       "ar" : "قصر التوزيع على الصنف",
       "en" : "Distribute Cost On Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "lines.distributeCostOnItem2",
       "column" : "distributeCostOnItem2_id",
       "ar" : "قصر التوزيع على الصنف 2",
       "en" : "Distribute Cost On Item 2",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "lines.distributeCostOnItem3",
       "column" : "distributeCostOnItem3_id",
       "ar" : "قصر التوزيع على الصنف 3",
       "en" : "Distribute Cost On Item 3",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "lines.distributeCostOnItem4",
       "column" : "distributeCostOnItem4_id",
       "ar" : "قصر التوزيع على الصنف 4",
       "en" : "Distribute Cost On Item 4",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "lines.distributeCostOnItem5",
       "column" : "distributeCostOnItem5_id",
       "ar" : "قصر التوزيع على الصنف 5",
       "en" : "Distribute Cost On Item 5",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "lines.expenseItem",
       "column" : "expenseItem_id",
@@ -1142,41 +1132,31 @@
       "column" : "distributeCostOnItem_id",
       "ar" : "قصر التوزيع على الصنف",
       "en" : "Distribute Cost On Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "manualLines.distributeCostOnItem2",
       "column" : "distributeCostOnItem2_id",
       "ar" : "قصر التوزيع على الصنف 2",
       "en" : "Distribute Cost On Item 2",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "manualLines.distributeCostOnItem3",
       "column" : "distributeCostOnItem3_id",
       "ar" : "قصر التوزيع على الصنف 3",
       "en" : "Distribute Cost On Item 3",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "manualLines.distributeCostOnItem4",
       "column" : "distributeCostOnItem4_id",
       "ar" : "قصر التوزيع على الصنف 4",
       "en" : "Distribute Cost On Item 4",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "manualLines.distributeCostOnItem5",
       "column" : "distributeCostOnItem5_id",
       "ar" : "قصر التوزيع على الصنف 5",
       "en" : "Distribute Cost On Item 5",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "manualLines.expenseItem",
       "column" : "expenseItem_id",
@@ -1194,9 +1174,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "manualLines.itemSpecificDimensions.activePerc",
       "column" : "activePerc",
@@ -1881,41 +1859,31 @@
       "column" : "distributeCostOnItem_id",
       "ar" : "قصر التوزيع على الصنف",
       "en" : "Distribute Cost On Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "sysLines.distributeCostOnItem2",
       "column" : "distributeCostOnItem2_id",
       "ar" : "قصر التوزيع على الصنف 2",
       "en" : "Distribute Cost On Item 2",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "sysLines.distributeCostOnItem3",
       "column" : "distributeCostOnItem3_id",
       "ar" : "قصر التوزيع على الصنف 3",
       "en" : "Distribute Cost On Item 3",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "sysLines.distributeCostOnItem4",
       "column" : "distributeCostOnItem4_id",
       "ar" : "قصر التوزيع على الصنف 4",
       "en" : "Distribute Cost On Item 4",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "sysLines.distributeCostOnItem5",
       "column" : "distributeCostOnItem5_id",
       "ar" : "قصر التوزيع على الصنف 5",
       "en" : "Distribute Cost On Item 5",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "sysLines.donotAffectInCost",
       "column" : "donotAffectInCost",
@@ -1945,9 +1913,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "sysLines.itemSpecificDimensions.activePerc",
       "column" : "activePerc",

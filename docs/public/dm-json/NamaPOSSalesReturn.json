@@ -1352,9 +1352,7 @@
     "column" : "salesInvoice_id",
     "ar" : "فاتورة المبيعات",
     "en" : "Sales Invoice",
-    "type" : "Reference",
-    "refTo" : "NamaPOSSalesInvoice",
-    "refPath" : "/modules/namapos/NamaPOSSalesInvoice.html"
+    "type" : "Reference"
   }, {
     "id" : "salesMan",
     "column" : "salesMan_id",
@@ -1993,9 +1991,7 @@
       "column" : "item_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "details.item.itemCode",
       "column" : "itemCode",

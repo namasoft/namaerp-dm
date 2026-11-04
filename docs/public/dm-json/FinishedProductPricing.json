@@ -1720,9 +1720,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "coProducts.lineNumber",
       "column" : "lineNumber",
@@ -2348,9 +2346,7 @@
       "column" : "finishedProduct_id",
       "ar" : "المنتج النهائي",
       "en" : "Finished Product",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "details.freeLine",
       "column" : "freeLine",
@@ -2412,9 +2408,7 @@
       "column" : "item_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "details.item.itemCode",
       "column" : "itemCode",
@@ -3486,9 +3480,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "products.itemUOM.baseUnit",
       "column" : "itemUOMBaseUnit_id",

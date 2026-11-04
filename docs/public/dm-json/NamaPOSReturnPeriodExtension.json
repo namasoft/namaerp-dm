@@ -543,9 +543,7 @@
       "column" : "invoice_id",
       "ar" : "الفاتورة",
       "en" : "Invoice",
-      "type" : "Reference",
-      "refTo" : "NamaPOSSalesInvoice",
-      "refPath" : "/modules/namapos/NamaPOSSalesInvoice.html"
+      "type" : "Reference"
     }, {
       "id" : "lines.lineNumber",
       "column" : "lineNumber",

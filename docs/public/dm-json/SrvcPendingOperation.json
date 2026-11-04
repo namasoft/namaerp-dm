@@ -585,9 +585,7 @@
     }, {
       "id" : "details.missingItem",
       "column" : "missingItem_id",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "details.order",
       "column" : "order_id",

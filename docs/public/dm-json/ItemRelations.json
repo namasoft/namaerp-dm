@@ -628,9 +628,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "relationDetails.itemClass1",
       "column" : "itemClass1_id",
@@ -899,9 +897,7 @@
       "column" : "toItem_id",
       "ar" : "الصنف الثاني",
       "en" : "Item 2",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     } ]
   } ]
 }

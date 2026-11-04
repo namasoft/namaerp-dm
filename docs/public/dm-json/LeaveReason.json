@@ -491,6 +491,14 @@
     "column" : "usageCapability_id",
     "type" : "ID"
   }, {
+    "id" : "vacationType",
+    "column" : "vacationType_id",
+    "ar" : "نوع الإجازة",
+    "en" : "Vacation Type",
+    "type" : "Reference",
+    "refTo" : "VacationType",
+    "refPath" : "/modules/humanresource-payroll/VacationType.html"
+  }, {
     "id" : "viewCapability",
     "column" : "viewCapability_id",
     "ar" : "صلاحية المطالعة",

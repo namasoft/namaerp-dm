@@ -74,9 +74,7 @@
     "column" : "finishedItem_id",
     "ar" : "الصنف النهائي",
     "en" : "Finished Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "freeItem",
     "column" : "freeItem",
@@ -190,9 +188,7 @@
     "column" : "serviceItem_id",
     "ar" : "صنف الخدمة",
     "en" : "Service Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "showInSalesInvoice",
     "column" : "showInSalesInvoice",

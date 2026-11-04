@@ -263,9 +263,7 @@
     "column" : "item_id",
     "ar" : " صنف",
     "en" : " Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -566,9 +564,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "conversions.itemColor",
       "column" : "itemColor_id",

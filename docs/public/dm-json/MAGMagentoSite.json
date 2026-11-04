@@ -316,9 +316,7 @@
     "column" : "deliveryServiceItem_id",
     "ar" : "صنف خدمة الاستلام",
     "en" : "Delivery Service Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "department",
     "column" : "department_id",
@@ -498,9 +496,7 @@
     "column" : "giftWrappingServiceItem_id",
     "ar" : "صنف خدمة تغليف",
     "en" : "Gift Wrapping Service Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "group",
     "column" : "group_id",
@@ -1259,9 +1255,7 @@
     "column" : "shipmentServiceItem_id",
     "ar" : "صنف خدمة الشحن",
     "en" : "Shipment Service Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "siteType",
     "column" : "siteType",
@@ -1809,9 +1803,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "shippingItems.lineNumber",
       "column" : "lineNumber",
@@ -2136,9 +2128,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "updateQtyFor.itemClass1",
       "column" : "itemClass1_id",

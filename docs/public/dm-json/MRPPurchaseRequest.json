@@ -561,9 +561,7 @@
       "column" : "finishedProductItem_id",
       "ar" : "المنتج النهائي | صنف",
       "en" : "Finished Product | Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "detailLines.finishedProduct.itemCode",
       "column" : "finishedProductItemCode",
@@ -703,9 +701,7 @@
       "column" : "itemItem_id",
       "ar" : "الصنف المطلوب | صنف",
       "en" : "Purchased Item | Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "detailLines.item.itemCode",
       "column" : "itemItemCode",
@@ -1005,9 +1001,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "purchaseLines.item.itemCode",
       "column" : "itemCode",

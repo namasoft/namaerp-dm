@@ -655,81 +655,61 @@
     "column" : "item1_id",
     "ar" : "الصنف الأول",
     "en" : "Item1",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "item10",
     "column" : "item10_id",
     "ar" : "الصنف العاشر",
     "en" : "Item10",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "item2",
     "column" : "item2_id",
     "ar" : "الصنف الثاني",
     "en" : "Item2",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "item3",
     "column" : "item3_id",
     "ar" : "الصنف الثالث",
     "en" : "Item3",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "item4",
     "column" : "item4_id",
     "ar" : "الصنف الرابع",
     "en" : "Item4",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "item5",
     "column" : "item5_id",
     "ar" : "الصنف الخامس",
     "en" : "Item5",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "item6",
     "column" : "item6_id",
     "ar" : "الصنف السادس",
     "en" : "Item6",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "item7",
     "column" : "item7_id",
     "ar" : "الصنف السابع",
     "en" : "Item7",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "item8",
     "column" : "item8_id",
     "ar" : "الصنف الثامن",
     "en" : "Item8",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "item9",
     "column" : "item9_id",
     "ar" : "الصنف التاسع",
     "en" : "Item9",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "joBarcode",
     "column" : "joBarcode",
@@ -3520,9 +3500,7 @@
       "column" : "item_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "details.item.itemCode",
       "column" : "itemCode",
@@ -6145,9 +6123,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "joOperations.itemCost",
       "column" : "itemCost",
@@ -6437,9 +6413,7 @@
       "column" : "item_id",
       "ar" : "الصنف",
       "en" : "Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "productCosts.itemCost",
       "column" : "itemCost",

@@ -795,9 +795,7 @@
       "column" : "material_id",
       "ar" : "مادة خام",
       "en" : "Material",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "materials.materialQty.baseQty.uom",
       "column" : "baseUom_id",

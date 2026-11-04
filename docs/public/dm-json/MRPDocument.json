@@ -745,9 +745,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "analysis.lineNumber",
       "column" : "lineNumber",
@@ -912,9 +910,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "plannedProductionLines.lineNumber",
       "column" : "lineNumber",
@@ -1046,9 +1042,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "plannedPurchaseLines.lineNumber",
       "column" : "lineNumber",
@@ -1329,9 +1323,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "requiredLines.lineNumber",
       "column" : "lineNumber",

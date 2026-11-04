@@ -1104,9 +1104,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "costListBloodDetails.priority",
       "column" : "priority",
@@ -1769,9 +1767,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "costListPharmacyDetails.priority",
       "column" : "priority",
@@ -2890,9 +2886,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "costListSupplyDetails.priority",
       "column" : "priority",

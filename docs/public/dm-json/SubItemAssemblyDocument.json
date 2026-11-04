@@ -32,9 +32,7 @@
     "column" : "assemblyItem_id",
     "ar" : "صنف مجمع",
     "en" : "Assembly Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "assemblyQty.uom",
     "column" : "assemblyQtyUom_id",
@@ -1146,9 +1144,7 @@
       "column" : "item_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "details.item.itemCode",
       "column" : "itemCode",

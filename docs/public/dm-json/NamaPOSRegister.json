@@ -302,9 +302,7 @@
     "column" : "deliveryItem_id",
     "ar" : "صنف خدمة التوصيل",
     "en" : "Delivery Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "department",
     "column" : "department_id",
@@ -640,9 +638,7 @@
     "column" : "minChargeItem_id",
     "ar" : "صنف الحد الأدنى للطلب",
     "en" : "Minimum Charge Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "minChargeSettings",
     "column" : "minChargeSettings_id",
@@ -991,9 +987,7 @@
     "column" : "srvcItem_id",
     "ar" : "صنف الخدمة السياحية",
     "en" : "Service Charge Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
+    "type" : "Reference"
   }, {
     "id" : "serviceCharge.percentage",
     "column" : "srvcPercentage",
@@ -1638,9 +1632,7 @@
       "column" : "invItem_id",
       "ar" : " الصنف",
       "en" : " Item",
-      "type" : "Reference",
-      "refTo" : "InvItem",
-      "refPath" : "/modules/supplychain/InvItem.html"
+      "type" : "Reference"
     }, {
       "id" : "favouriteItems.lineNumber",
       "column" : "lineNumber",
