@@ -232,6 +232,12 @@
     "en" : "Disable Biometric Login For Employee",
     "type" : "Boolean"
   }, {
+    "id" : "disableImagesShadow",
+    "column" : "disableImagesShadow",
+    "ar" : "تعطيل الظل على الصور",
+    "en" : "Disable Images Shadow",
+    "type" : "Boolean"
+  }, {
     "id" : "docCategory",
     "column" : "docCategory_id",
     "ar" : " تصنيف سجل",
@@ -381,6 +387,14 @@
     "type" : "Reference",
     "refTo" : "CRMQuestionairTemplate",
     "refPath" : "/modules/crm/CRMQuestionairTemplate.html"
+  }, {
+    "id" : "kitchenNetEmployeeLoginImage",
+    "column" : "kitchenNetEmployeeLoginImage_id",
+    "ar" : "صورة تسجيل دخول الموظف",
+    "en" : "Employee Login Image",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
   }, {
     "id" : "kitchenNetFacebookURL",
     "column" : "kitchenNetFacebookURL",
