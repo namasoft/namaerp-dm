@@ -1166,6 +1166,9 @@
       "id" : "selectors",
       "table" : "ApprovalDefinition_selectors"
     }, {
+      "id" : "stepLockExemptions",
+      "table" : "ApprovalDefinition_stepLockExemptions"
+    }, {
       "id" : "stepRespnsible",
       "table" : "AppDefStepResponsible"
     }, {

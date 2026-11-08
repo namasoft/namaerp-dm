@@ -120,6 +120,10 @@
     "refTo" : "LegalEntity",
     "refPath" : "/modules/basic/LegalEntity.html"
   }, {
+    "id" : "lockExemptedIds",
+    "column" : "lockExemptedIds",
+    "type" : "BigText"
+  }, {
     "id" : "moduleId",
     "column" : "moduleId",
     "ar" : "الوحدة",
@@ -164,6 +168,30 @@
     "id" : "nextUpdatedFields",
     "column" : "nextUpdatedFields",
     "type" : "BigText"
+  }, {
+    "id" : "notAllowedEditingFields",
+    "column" : "notAllowedEditingFields",
+    "ar" : "الحقول غير المسموح بتعديلها",
+    "en" : "Not Allowed Editing Fields",
+    "type" : "FieldID"
+  }, {
+    "id" : "preventLineCopy",
+    "column" : "preventLineCopy",
+    "ar" : "منع نسخ سطر",
+    "en" : "Prevent Line Copy",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventLineDelete",
+    "column" : "preventLineDelete",
+    "ar" : "منع حذف سطر",
+    "en" : "Prevent Line Delete",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventLineInsert",
+    "column" : "preventLineInsert",
+    "ar" : "منع إدراج سطر",
+    "en" : "Prevent Line Insert",
+    "type" : "Boolean"
   }, {
     "id" : "requestedBy",
     "columns" : [ "requestedByActualCode", " requestedByCode", " requestedByEntityType", " requestedById" ],

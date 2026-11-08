@@ -255,7 +255,7 @@
     "refPath" : "/modules/basic/DocCategory.html"
   }, {
     "id" : "docsWithoutSignatures",
-    "column" : "docsWithoutSignatures",
+    "column" : "docsWithoutSignaturesGz",
     "ar" : "المستندات بدون توقيع إلكتروني (ما يتم نسخه لبرنامج التوقيع)",
     "en" : "Documents Without Signatures",
     "type" : "BigText"
@@ -792,12 +792,6 @@
       "refTo" : "TaxAuthoritySubmissionDoc",
       "refPath" : "/modules/basic-tax-e-invoice/TaxAuthoritySubmissionDoc.html"
     }, {
-      "id" : "toSubmitLines.docESignature",
-      "column" : "docESignature",
-      "ar" : "التوقيع الإلكتروني للمستند",
-      "en" : "Document E Signature",
-      "type" : "BigText"
-    }, {
       "id" : "toSubmitLines.document",
       "columns" : [ "documentActualCode", " documentCode", " documentEntityType", " documentId" ],
       "ar" : " # المستند",
@@ -831,12 +825,6 @@
       "en" : "Net Value",
       "type" : "Decimal"
     }, {
-      "id" : "toSubmitLines.qrCodeBase64",
-      "column" : "qrCodeBase64",
-      "ar" : "Qr Code Base 64",
-      "en" : "Qr Code Base 64",
-      "type" : "BigText"
-    }, {
       "id" : "toSubmitLines.receiver",
       "columns" : [ "receiverActualCode", " receiverCode", " receiverEntityType", " receiverId" ],
       "ar" : "العميل أو المورد",
@@ -848,18 +836,6 @@
       "ar" : "اختيار",
       "en" : "Select",
       "type" : "Boolean"
-    }, {
-      "id" : "toSubmitLines.sentJson",
-      "column" : "sentJson",
-      "ar" : "Sent Data",
-      "en" : "Sent Data",
-      "type" : "BigText"
-    }, {
-      "id" : "toSubmitLines.signedInvoiceBase64",
-      "column" : "signedInvoiceBase64",
-      "ar" : "Signed Invoice Base 64",
-      "en" : "Signed Invoice Base 64",
-      "type" : "BigText"
     }, {
       "id" : "toSubmitLines.statusInTaxAuthority",
       "column" : "statusInTaxAuthority",

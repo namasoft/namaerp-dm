@@ -47,12 +47,18 @@
     "en" : "Document",
     "type" : "Genericreference"
   }, {
+    "id" : "docESignature",
+    "column" : "docESignatureGz",
+    "ar" : "التوقيع الإلكتروني للمستند",
+    "en" : "Document E Signature",
+    "type" : "BigText"
+  }, {
     "id" : "einvoiceAsJson",
-    "column" : "einvoiceAsJson",
+    "column" : "einvoiceAsJsonGz",
     "type" : "BigText"
   }, {
     "id" : "einvoiceAsString",
-    "column" : "einvoiceAsString",
+    "column" : "einvoiceAsStringGz",
     "type" : "BigText"
   }, {
     "id" : "errorDescription",
@@ -77,6 +83,12 @@
     "column" : "maxDueDate",
     "type" : "Date"
   }, {
+    "id" : "qrCodeBase64",
+    "column" : "qrCodeBase64Gz",
+    "ar" : "Qr Code Base 64",
+    "en" : "Qr Code Base 64",
+    "type" : "BigText"
+  }, {
     "id" : "requestBody",
     "column" : "requestBody",
     "ar" : "Request Body",
@@ -90,6 +102,12 @@
     "type" : "Reference",
     "refTo" : "Sector",
     "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "signedInvoiceBase64",
+    "column" : "signedInvoiceBase64Gz",
+    "ar" : "Signed Invoice Base 64",
+    "en" : "Signed Invoice Base 64",
+    "type" : "BigText"
   }, {
     "id" : "status",
     "column" : "status",

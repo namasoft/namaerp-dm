@@ -981,6 +981,45 @@
       "type" : "Long"
     } ]
   }, {
+    "id" : "stepLockExemptions",
+    "table" : "ApprovalDefinition_stepLockExemptions",
+    "joinColumn" : "ApprovalDefinition_id",
+    "ar" : "المستثنون من قفل الخطوة",
+    "en" : "Step Lock Exemptions",
+    "fields" : [ {
+      "id" : "stepLockExemptions.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "stepLockExemptions.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "stepLockExemptions.lockExemptedUser",
+      "columns" : [ "lockExemptedUserActualCode", " lockExemptedUserCode", " lockExemptedUserEntityType", " lockExemptedUserId" ],
+      "ar" : "المستخدم / ملف الصلاحيات المستثنى",
+      "en" : "Exempted User / Security Profile",
+      "type" : "Genericreference"
+    }, {
+      "id" : "stepLockExemptions.name1",
+      "column" : "name1",
+      "ar" : "الاسم العربي",
+      "en" : "Name1",
+      "type" : "Text"
+    }, {
+      "id" : "stepLockExemptions.name2",
+      "column" : "name2",
+      "ar" : "الاسم الإنجليزي",
+      "en" : "Name2",
+      "type" : "Text"
+    }, {
+      "id" : "stepLockExemptions.stepSeq",
+      "column" : "stepSeq",
+      "ar" : "مسلسل",
+      "en" : "Sequence",
+      "type" : "Long"
+    } ]
+  }, {
     "id" : "stepRespnsible",
     "table" : "AppDefStepResponsible",
     "joinColumn" : "ApprovalDefinition_id",
@@ -1142,6 +1181,12 @@
       "column" : "id",
       "type" : "ID"
     }, {
+      "id" : "steps.keepLockAfterApproval",
+      "column" : "keepLockAfterApproval",
+      "ar" : "استمرار القفل بعد اكتمال الموافقة",
+      "en" : "Keep Lock After Approval",
+      "type" : "Boolean"
+    }, {
       "id" : "steps.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
@@ -1165,6 +1210,12 @@
       "en" : "Name2",
       "type" : "Text"
     }, {
+      "id" : "steps.notAllowedEditingFields",
+      "column" : "notAllowedEditingFields",
+      "ar" : "الحقول غير المسموح بتعديلها",
+      "en" : "Not Allowed Editing Fields",
+      "type" : "FieldID"
+    }, {
       "id" : "steps.notificationRemark",
       "column" : "notificationRemark",
       "ar" : "ملحوظة للتنبيه",
@@ -1187,6 +1238,24 @@
       "column" : "notifyFieldsOnlyExcludeResponsible",
       "ar" : "إرسال التنبيهات لحقل التنبيهات فقط دون المسئول",
       "en" : "Notify Fields Only Exclude Responsible",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.preventLineCopy",
+      "column" : "preventLineCopy",
+      "ar" : "منع نسخ سطر",
+      "en" : "Prevent Line Copy",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.preventLineDelete",
+      "column" : "preventLineDelete",
+      "ar" : "منع حذف سطر",
+      "en" : "Prevent Line Delete",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.preventLineInsert",
+      "column" : "preventLineInsert",
+      "ar" : "منع إدراج سطر",
+      "en" : "Prevent Line Insert",
       "type" : "Boolean"
     }, {
       "id" : "steps.reasonRequiredWithApproving",
