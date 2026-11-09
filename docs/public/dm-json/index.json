@@ -3982,6 +3982,9 @@
       "id" : "reports",
       "table" : "CustomerPortalReportLine"
     }, {
+      "id" : "statementAccounts",
+      "table" : "CustomerPortalStatementAccountLine"
+    }, {
       "id" : "supportGroups",
       "table" : "CustomerPortalSupportGroupLine"
     } ]

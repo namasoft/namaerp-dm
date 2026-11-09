@@ -1080,6 +1080,10 @@
     "column" : "zatcaCSIDResponse",
     "type" : "BigText"
   }, {
+    "id" : "zatcaPrivateKey",
+    "column" : "zatcaPrivateKey",
+    "type" : "BigText"
+  }, {
     "id" : "zatcaSignAPIPassword",
     "column" : "zatcaSignAPIPassword",
     "type" : "Password"

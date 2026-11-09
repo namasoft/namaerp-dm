@@ -8,6 +8,12 @@
   "enPlural" : " Work Area",
   "page" : "https://dm.namasoft.com/modules/contracting/ContrWorkArea.html",
   "fields" : [ {
+    "id" : "altCode",
+    "column" : "altCode",
+    "ar" : "الكود الإنجليزي",
+    "en" : "English Code",
+    "type" : "Text"
+  }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
     "ar" : "المجموعة التحليلية",

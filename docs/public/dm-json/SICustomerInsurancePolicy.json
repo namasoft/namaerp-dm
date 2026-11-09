@@ -386,6 +386,7 @@
     "id" : "insurancePolicyImage",
     "column" : "insurancePolicyImage_id",
     "ar" : "صورة وثيقة التأمين",
+    "en" : "Insurance Policy Image",
     "type" : "Binary",
     "refTo" : "LargeData",
     "refPath" : "/modules/system-tables/LargeData.html"

@@ -742,6 +742,12 @@
     "en" : "First Name",
     "type" : "Text"
   }, {
+    "id" : "firstSocialInsuranceDate",
+    "column" : "firstSocialInsuranceDate",
+    "ar" : "تاريخ أول تسجيل بالتأمينات",
+    "en" : "First Social Insurance Registration Date",
+    "type" : "Date"
+  }, {
     "id" : "fromBankAccount",
     "column" : "fromBankAccount_id",
     "ar" : "الحساب البنكي المحول منه الراتب",

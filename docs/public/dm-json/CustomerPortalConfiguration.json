@@ -122,6 +122,13 @@
     "en" : "Date5",
     "type" : "Date"
   }, {
+    "id" : "defaultLanguage",
+    "column" : "defaultLanguage",
+    "ar" : "اللغة الافتراضية",
+    "en" : "Default Language",
+    "type" : "Enum",
+    "enum" : "LanguageEnum"
+  }, {
     "id" : "defaultMobileCountry",
     "column" : "defaultMobileCountry",
     "ar" : "دولة رقم الجوال الافتراضية",
@@ -1372,6 +1379,29 @@
       "ar" : "عنوان التقرير إنجليزي",
       "en" : "Report English Title",
       "type" : "Text"
+    } ]
+  }, {
+    "id" : "statementAccounts",
+    "table" : "CustomerPortalStatementAccountLine",
+    "joinColumn" : "customerPortalConfiguration_id",
+    "ar" : "الحسابات التي تظهر في كشف الحساب",
+    "en" : "Accounts Shown in Account Statement",
+    "fields" : [ {
+      "id" : "statementAccounts.account",
+      "column" : "account_id",
+      "ar" : " حساب",
+      "en" : " Account",
+      "type" : "Reference",
+      "refTo" : "Account",
+      "refPath" : "/modules/accounting/Account.html"
+    }, {
+      "id" : "statementAccounts.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "statementAccounts.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
     } ]
   }, {
     "id" : "supportGroups",

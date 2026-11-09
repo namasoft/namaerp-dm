@@ -404,6 +404,12 @@
     "en" : "Priority",
     "type" : "Integer"
   }, {
+    "id" : "programDetails",
+    "column" : "programDetails",
+    "ar" : "تفاصيل البرنامج",
+    "en" : "Program Details",
+    "type" : "BigText"
+  }, {
     "id" : "ref1",
     "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
     "ar" : "مرجع 1",
@@ -572,6 +578,36 @@
       "refTo" : "LargeData",
       "refPath" : "/modules/system-tables/LargeData.html"
     }, {
+      "id" : "details.b1",
+      "column" : "b1",
+      "ar" : "Boolean 1",
+      "en" : "Boolean 1",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.b2",
+      "column" : "b2",
+      "ar" : "Boolean 2",
+      "en" : "Boolean 2",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.b3",
+      "column" : "b3",
+      "ar" : "Boolean 3",
+      "en" : "Boolean 3",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.b4",
+      "column" : "b4",
+      "ar" : "Boolean 4",
+      "en" : "Boolean 4",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.b5",
+      "column" : "b5",
+      "ar" : "Boolean 5",
+      "en" : "Boolean 5",
+      "type" : "Boolean"
+    }, {
       "id" : "details.brand",
       "column" : "brand_id",
       "ar" : "الماركة",
@@ -593,6 +629,12 @@
       "type" : "Reference",
       "refTo" : "Customer",
       "refPath" : "/modules/basic/Customer.html"
+    }, {
+      "id" : "details.customerSharePercentage",
+      "column" : "customerSharePercentage",
+      "ar" : "نسبة تحمل العميل",
+      "en" : "Customer Share Percentage",
+      "type" : "Decimal"
     }, {
       "id" : "details.fromCarSalePrice",
       "column" : "fromCarSalePrice",
@@ -629,9 +671,99 @@
       "en" : "Item",
       "type" : "Reference"
     }, {
+      "id" : "details.itemClass1",
+      "column" : "itemClass1_id",
+      "ar" : "تصنيف 1",
+      "en" : "Class 1",
+      "type" : "Reference",
+      "refTo" : "ItemClass1",
+      "refPath" : "/modules/supplychain/ItemClass1.html"
+    }, {
+      "id" : "details.itemClass2",
+      "column" : "itemClass2_id",
+      "ar" : "تصنيف 2",
+      "en" : "Class 2",
+      "type" : "Reference",
+      "refTo" : "ItemClass2",
+      "refPath" : "/modules/supplychain/ItemClass2.html"
+    }, {
+      "id" : "details.itemSection",
+      "column" : "itemSection_id",
+      "ar" : "قسم الصنف",
+      "en" : " Item Section",
+      "type" : "Reference",
+      "refTo" : "ItemSection",
+      "refPath" : "/modules/supplychain/ItemSection.html"
+    }, {
       "id" : "details.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
+    }, {
+      "id" : "details.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n10",
+      "column" : "n10",
+      "ar" : "رقم 10",
+      "en" : "Number 10",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n6",
+      "column" : "n6",
+      "ar" : "رقم 6",
+      "en" : "Number 6",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n7",
+      "column" : "n7",
+      "ar" : "رقم 7",
+      "en" : "Number 7",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n8",
+      "column" : "n8",
+      "ar" : "رقم 8",
+      "en" : "Number 8",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n9",
+      "column" : "n9",
+      "ar" : "رقم 9",
+      "en" : "Number 9",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.programDetails",
+      "column" : "programDetails",
+      "ar" : "تفاصيل البرنامج",
+      "en" : "Program Details",
+      "type" : "BigText"
     }, {
       "id" : "details.toCarSalePrice",
       "column" : "toCarSalePrice",
