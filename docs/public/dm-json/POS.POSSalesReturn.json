@@ -496,6 +496,26 @@
     "column" : "pendingCreditNoteValue",
     "type" : "Decimal"
   }, {
+    "id" : "pendingOnlinePaymentAmount",
+    "column" : "pendingOnlinePaymentAmount",
+    "type" : "Decimal"
+  }, {
+    "id" : "pendingOnlinePaymentCheckoutId",
+    "column" : "pendingOnlinePaymentCheckoutId",
+    "type" : "Text"
+  }, {
+    "id" : "pendingOnlinePaymentLink",
+    "column" : "pendingOnlinePaymentLink",
+    "type" : "Text"
+  }, {
+    "id" : "pendingOnlinePaymentMethodId",
+    "column" : "pendingOnlinePaymentMethodId",
+    "type" : "ID"
+  }, {
+    "id" : "pendingOnlinePaymentOrderId",
+    "column" : "pendingOnlinePaymentOrderId",
+    "type" : "Text"
+  }, {
     "id" : "pendingServerConfirmation",
     "column" : "pendingServerConfirmation",
     "type" : "Boolean"

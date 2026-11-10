@@ -20,5 +20,9 @@
     "id" : "PartiallyRejected",
     "ar" : "مرفوض جزئيا",
     "en" : "Partially Rejected"
+  }, {
+    "id" : "AcceptedWithCondition",
+    "ar" : "مقبول بشرط",
+    "en" : "Accepted With Condition"
   } ]
 }
