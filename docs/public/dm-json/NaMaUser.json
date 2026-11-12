@@ -633,12 +633,6 @@
     "en" : "Direct Print (Using Print Server)",
     "type" : "Boolean"
   }, {
-    "id" : "settings.doNotCreatingTroubleTicketReq",
-    "column" : "doNotCreatingTroubleTicketReq",
-    "ar" : "عدم السماح بإنشاء طلبات الدعم الفني",
-    "en" : "Do Not Create Trouble Ticket Request",
-    "type" : "Boolean"
-  }, {
     "id" : "settings.doNotDisplayCriticalErrors",
     "column" : "doNotDisplayCriticalErrors",
     "ar" : "عدم إظهار الأخطاء الحرجة لهذا المستخدم",

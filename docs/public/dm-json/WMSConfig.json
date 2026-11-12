@@ -405,6 +405,12 @@
     "column" : "sector_id",
     "type" : "ID"
   }, {
+    "id" : "showPackagingOrdersWithPreparedItemsOnly",
+    "column" : "showPackagingOrdersWithPreparedItemsOnly",
+    "ar" : "عرض طلبات التغليف ذات الأصناف المجهزة فقط",
+    "en" : "Show Packaging Orders with Prepared Items Only",
+    "type" : "Boolean"
+  }, {
     "id" : "systemGeneratedCodePrefix",
     "column" : "systemGeneratedCodePrefix",
     "ar" : "System Generated Code Prefix",
@@ -502,6 +508,12 @@
       "en" : "Picking Items Display Method 5",
       "type" : "Enum",
       "enum" : "WMSPickingDisplayMethod"
+    }, {
+      "id" : "mobilePickingItemsDisplayConfig.showPackagingOrdersWithPreparedItemsOnly",
+      "column" : "showPackagingOrdersWithPreparedItemsOnly",
+      "ar" : "عرض طلبات التغليف ذات الأصناف المجهزة فقط",
+      "en" : "Show Packaging Orders with Prepared Items Only",
+      "type" : "Boolean"
     }, {
       "id" : "mobilePickingItemsDisplayConfig.warehouse",
       "column" : "warehouse_id",

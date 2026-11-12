@@ -2074,7 +2074,6 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [CRMAssigningToSysEntry](https://dm.namasoft.com/dm-json/CRMAssigningToSysEntry.json): CRM Assigning To Sys Entry
 - [CRMComplianSourceLine](https://dm.namasoft.com/dm-json/CRMComplianSourceLine.json): CRM Complian Source Line
 - [CRMLeadMovement](https://dm.namasoft.com/dm-json/CRMLeadMovement.json): CRM Lead Movement
-- [CRMTroubleTicketReq](https://dm.namasoft.com/dm-json/CRMTroubleTicketReq.json): Trouble Ticket Request / طلب دعم مبدئي
 - [CapabilityUsageSysLine](https://dm.namasoft.com/dm-json/CapabilityUsageSysLine.json): Capability Usage Sys Line
 - [CashierTransactionEntry](https://dm.namasoft.com/dm-json/CashierTransactionEntry.json): Cashier Transaction Entry
 - [ChartTree](https://dm.namasoft.com/dm-json/ChartTree.json): Chart Tree
