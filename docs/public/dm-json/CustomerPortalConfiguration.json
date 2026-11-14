@@ -263,6 +263,12 @@
     "refTo" : "MasterGroup",
     "refPath" : "/modules/basic/MasterGroup.html"
   }, {
+    "id" : "hidePaymentState",
+    "column" : "hidePaymentState",
+    "ar" : "إخفاء حالة السداد",
+    "en" : "Hide Payment State",
+    "type" : "Boolean"
+  }, {
     "id" : "id",
     "column" : "id",
     "type" : "ID"
@@ -370,6 +376,12 @@
     "type" : "Reference",
     "refTo" : "NotificationDefinition",
     "refPath" : "/modules/basic/NotificationDefinition.html"
+  }, {
+    "id" : "paidTolerance",
+    "column" : "paidTolerance",
+    "ar" : "حد السماح للسداد",
+    "en" : "Paid Tolerance",
+    "type" : "Decimal"
   }, {
     "id" : "parentCode",
     "column" : "parentCode",

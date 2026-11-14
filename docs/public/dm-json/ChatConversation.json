@@ -16,6 +16,18 @@
     "en" : "Created At",
     "type" : "DateAndTime"
   }, {
+    "id" : "endedAt",
+    "column" : "endedAt",
+    "ar" : "تاريخ الإنهاء",
+    "en" : "Ended At",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "endedBy",
+    "column" : "endedBy",
+    "ar" : "أنهاها",
+    "en" : "Ended By",
+    "type" : "Text"
+  }, {
     "id" : "groupOwner",
     "columns" : [ "groupOwnerActualCode", " groupOwnerCode", " groupOwnerEntityType", " groupOwnerId" ],
     "type" : "Genericreference"
