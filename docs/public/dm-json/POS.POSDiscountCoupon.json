@@ -118,6 +118,10 @@
     "en" : "Id",
     "type" : "ID"
   }, {
+    "id" : "hasRemaining",
+    "column" : "hasRemaining",
+    "type" : "Boolean"
+  }, {
     "id" : "id",
     "column" : "id",
     "type" : "ID"

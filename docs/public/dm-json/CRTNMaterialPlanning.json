@@ -1074,6 +1074,12 @@
       "column" : "lineNumber",
       "type" : "Integer"
     }, {
+      "id" : "items.manualNumberOfPieces",
+      "column" : "manualNumberOfPieces",
+      "ar" : "عدد القطع اليدوي",
+      "en" : "Manual Number of Pieces",
+      "type" : "Integer"
+    }, {
       "id" : "items.manuallyAdjustedQty",
       "column" : "manuallyAdjustedQty",
       "ar" : "الكمية المعدلة يدوياً",

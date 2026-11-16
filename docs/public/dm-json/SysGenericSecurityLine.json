@@ -11,6 +11,12 @@
     "en" : "Allow View Other Records at Search",
     "type" : "Boolean"
   }, {
+    "id" : "allowedApprovalDecisions",
+    "column" : "allowedApprovalDecisions",
+    "ar" : "قرارات الموافقة المسموح بها",
+    "en" : "Allowed Approval Decisions",
+    "type" : "FieldID"
+  }, {
     "id" : "canApprove",
     "column" : "canApprove",
     "ar" : " الموافقة",

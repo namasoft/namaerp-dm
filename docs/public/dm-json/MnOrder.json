@@ -6106,6 +6106,18 @@
       "type" : "Text",
       "feature" : "scRevisions"
     }, {
+      "id" : "spareParts.satisfiedQty",
+      "column" : "satisfiedQty",
+      "ar" : "نفذت",
+      "en" : "Satisfied Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "spareParts.satisfiedQty2",
+      "column" : "satisfiedQty2",
+      "ar" : "نفذت 2",
+      "en" : "Satisfied Qty 2",
+      "type" : "Decimal"
+    }, {
       "id" : "spareParts.secondSerial",
       "column" : "secondSerial",
       "ar" : "الرقم المسلسل الثاني",
@@ -6149,6 +6161,18 @@
       "refTo" : "SubItem",
       "refPath" : "/modules/srvcenter-subitems/SubItem.html",
       "feature" : "scSubItem"
+    }, {
+      "id" : "spareParts.unsatisfiedQty",
+      "column" : "unsatisfiedQty",
+      "ar" : "الكمية الغير مستلمة",
+      "en" : "Unsatisfied Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "spareParts.unsatisfiedQty2",
+      "column" : "unsatisfiedQty2",
+      "ar" : "الكمية الغير مستلمة 2",
+      "en" : "Unsatisfied Quantity 2",
+      "type" : "Decimal"
     }, {
       "id" : "spareParts.uom",
       "column" : "uom_id",
