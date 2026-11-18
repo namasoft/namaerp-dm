@@ -399,6 +399,14 @@
     "refTo" : "MasterGroup",
     "refPath" : "/modules/basic/MasterGroup.html"
   }, {
+    "id" : "guiTheme",
+    "column" : "guiTheme_id",
+    "ar" : "الثيم",
+    "en" : "GUI Theme",
+    "type" : "Reference",
+    "refTo" : "GUITheme",
+    "refPath" : "/modules/basic/GUITheme.html"
+  }, {
     "id" : "id",
     "column" : "id",
     "type" : "ID"

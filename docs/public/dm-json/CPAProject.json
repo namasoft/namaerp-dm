@@ -34,6 +34,18 @@
     "en" : "Branch ID",
     "type" : "ID"
   }, {
+    "id" : "branchesCount",
+    "column" : "branchesCount",
+    "ar" : "عدد الفروع",
+    "en" : "Branches Count",
+    "type" : "Integer"
+  }, {
+    "id" : "capitalIncreaseValue",
+    "column" : "capitalIncreaseValue",
+    "ar" : "قيمة زيادة رأس المال",
+    "en" : "Capital Increase Value",
+    "type" : "Decimal"
+  }, {
     "id" : "code",
     "column" : "code",
     "ar" : "الكود",
@@ -51,6 +63,14 @@
     "ar" : "تم الحفظ مسبقا",
     "en" : "Committed Before",
     "type" : "Boolean"
+  }, {
+    "id" : "companyLegalType",
+    "column" : "companyLegalType_id",
+    "ar" : "نوع الشركة والقانون",
+    "en" : "Company Legal Type",
+    "type" : "Reference",
+    "refTo" : "CPATaskType",
+    "refPath" : "/modules/ecpa/CPATaskType.html"
   }, {
     "id" : "contractLocalCost",
     "column" : "contractLocalCost",
@@ -231,6 +251,12 @@
     "en" : "Entity Type",
     "type" : "EntityType"
   }, {
+    "id" : "extractsCount",
+    "column" : "extractsCount",
+    "ar" : "عدد المستخرجات",
+    "en" : "Extracts Count",
+    "type" : "Integer"
+  }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
     "ar" : "منشئ السجل",
@@ -280,6 +306,12 @@
     "refTo" : "MasterGroup",
     "refPath" : "/modules/basic/MasterGroup.html"
   }, {
+    "id" : "hasForeignPartners",
+    "column" : "hasForeignPartners",
+    "ar" : "يوجد شركاء أجانب",
+    "en" : "Has Foreign Partners",
+    "type" : "Boolean"
+  }, {
     "id" : "id",
     "column" : "id",
     "type" : "ID"
@@ -287,6 +319,12 @@
     "id" : "indexInParent",
     "column" : "indexInParent",
     "type" : "Integer"
+  }, {
+    "id" : "issuedCapital",
+    "column" : "issuedCapital",
+    "ar" : "رأس المال المصدر",
+    "en" : "Issued Capital",
+    "type" : "Decimal"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -382,9 +420,27 @@
     "en" : "Name2",
     "type" : "Text"
   }, {
+    "id" : "overdueChamberYears",
+    "column" : "overdueChamberYears",
+    "ar" : "سنين اشتراك الغرفة المتأخرة",
+    "en" : "Overdue Chamber Years",
+    "type" : "Integer"
+  }, {
+    "id" : "paidCapital",
+    "column" : "paidCapital",
+    "ar" : "رأس المال المدفوع",
+    "en" : "Paid Capital",
+    "type" : "Decimal"
+  }, {
     "id" : "parentCode",
     "column" : "parentCode",
     "type" : "Text"
+  }, {
+    "id" : "partnersCount",
+    "column" : "partnersCount",
+    "ar" : "عدد الشركاء / المساهمين",
+    "en" : "Partners Count",
+    "type" : "Integer"
   }, {
     "id" : "phasesDisciplineGroup",
     "column" : "phasesDisciplineGroup_id",
@@ -648,6 +704,12 @@
     "refTo" : "NaMaUser",
     "refPath" : "/modules/system-tables/NaMaUser.html"
   }, {
+    "id" : "saleContractsCount",
+    "column" : "saleContractsCount",
+    "ar" : "عدد عقود بيع الحصص",
+    "en" : "Sale Contracts Count",
+    "type" : "Integer"
+  }, {
     "id" : "salesQuotation",
     "column" : "salesQuotation_id",
     "ar" : "عرض السعر",
@@ -667,6 +729,12 @@
     "id" : "sectorId",
     "column" : "sector_id",
     "type" : "ID"
+  }, {
+    "id" : "soldSharesValue",
+    "column" : "soldSharesValue",
+    "ar" : "قيمة الحصص المباعة",
+    "en" : "Sold Shares Value",
+    "type" : "Decimal"
   }, {
     "id" : "subsidiaryAccounts.account1",
     "column" : "account1_id",

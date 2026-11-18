@@ -638,6 +638,13 @@
     "en" : "Reset Balance With Shift Close",
     "type" : "Boolean"
   }, {
+    "id" : "returnsMustBeRefundedWithThisMethod",
+    "column" : "returnsMustBeRefundedWithThisMethod",
+    "ar" : "مردودات الفواتير المدفوعة بها تسدد بها إجباريا",
+    "en" : "Returns Must Be Refunded With This Method",
+    "type" : "Boolean",
+    "feature" : "m:namapos"
+  }, {
     "id" : "reverseFeesTaxDebitAndCredit",
     "column" : "reverseFeesTaxDebitAndCredit",
     "ar" : "عكس مدين ودائن ضريبة الرسوم في المردودات والمشتريات",

@@ -1601,6 +1601,12 @@
       "id" : "documentGenerationInfoLines.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
+    }, {
+      "id" : "documentGenerationInfoLines.saveOrderAsDraft",
+      "column" : "saveOrderAsDraft",
+      "ar" : "حفظ الأمر كمسودة",
+      "en" : "Save Order As Draft",
+      "type" : "Boolean"
     } ]
   }, {
     "id" : "ecommerceEventActionsLines",

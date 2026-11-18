@@ -256,6 +256,12 @@
     "en" : "Print Count",
     "type" : "Integer"
   }, {
+    "id" : "returnsMustBeRefundedWithThisMethod",
+    "column" : "returnsMustBeRefundedWithThisMethod",
+    "ar" : "مردودات الفواتير المدفوعة بها تسدد بها إجباريا",
+    "en" : "Returns Must Be Refunded With This Method",
+    "type" : "Boolean"
+  }, {
     "id" : "selected",
     "column" : "selected",
     "ar" : "اختيار",

@@ -1884,6 +1884,9 @@
       "id" : "executers",
       "table" : "CPAQuotationTaskLine"
     }, {
+      "id" : "feeLines",
+      "table" : "CPAQuotationFeeLine"
+    }, {
       "id" : "lines",
       "table" : "CPAQuotationLine"
     }, {

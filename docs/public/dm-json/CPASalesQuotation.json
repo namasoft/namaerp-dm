@@ -98,6 +98,12 @@
     "en" : "Branch ID",
     "type" : "ID"
   }, {
+    "id" : "branchesCount",
+    "column" : "branchesCount",
+    "ar" : "عدد الفروع",
+    "en" : "Branches Count",
+    "type" : "Integer"
+  }, {
     "id" : "cancelledBy",
     "column" : "cancelledBy_id",
     "ar" : "ألغي بواسطة",
@@ -105,6 +111,12 @@
     "type" : "Reference",
     "refTo" : "DocumentCancelDocument",
     "refPath" : "/modules/basic/DocumentCancelDocument.html"
+  }, {
+    "id" : "capitalIncreaseValue",
+    "column" : "capitalIncreaseValue",
+    "ar" : "قيمة زيادة رأس المال",
+    "en" : "Capital Increase Value",
+    "type" : "Decimal"
   }, {
     "id" : "code",
     "column" : "code",
@@ -123,6 +135,14 @@
     "ar" : "تم الحفظ مسبقا",
     "en" : "Committed Before",
     "type" : "Boolean"
+  }, {
+    "id" : "companyLegalType",
+    "column" : "companyLegalType_id",
+    "ar" : "نوع الشركة والقانون",
+    "en" : "Company Legal Type",
+    "type" : "Reference",
+    "refTo" : "CPATaskType",
+    "refPath" : "/modules/ecpa/CPATaskType.html"
   }, {
     "id" : "createTransactionId",
     "column" : "createTransactionId",
@@ -277,6 +297,12 @@
     "en" : "Entity Type",
     "type" : "EntityType"
   }, {
+    "id" : "extractsCount",
+    "column" : "extractsCount",
+    "ar" : "عدد المستخرجات",
+    "en" : "Extracts Count",
+    "type" : "Integer"
+  }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
     "ar" : "منشئ السجل",
@@ -354,6 +380,12 @@
     "type" : "Enum",
     "enum" : "GenerationType"
   }, {
+    "id" : "hasForeignPartners",
+    "column" : "hasForeignPartners",
+    "ar" : "يوجد شركاء أجانب",
+    "en" : "Has Foreign Partners",
+    "type" : "Boolean"
+  }, {
     "id" : "id",
     "column" : "id",
     "type" : "ID"
@@ -368,6 +400,12 @@
     "en" : "Issue Date",
     "type" : "Date",
     "feature" : "issueDate"
+  }, {
+    "id" : "issuedCapital",
+    "column" : "issuedCapital",
+    "ar" : "رأس المال المصدر",
+    "en" : "Issued Capital",
+    "type" : "Decimal"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -736,9 +774,27 @@
     "refTo" : "CSHOpenShift",
     "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
   }, {
+    "id" : "overdueChamberYears",
+    "column" : "overdueChamberYears",
+    "ar" : "سنين اشتراك الغرفة المتأخرة",
+    "en" : "Overdue Chamber Years",
+    "type" : "Integer"
+  }, {
+    "id" : "paidCapital",
+    "column" : "paidCapital",
+    "ar" : "رأس المال المدفوع",
+    "en" : "Paid Capital",
+    "type" : "Decimal"
+  }, {
     "id" : "parentCode",
     "column" : "parentCode",
     "type" : "Text"
+  }, {
+    "id" : "partnersCount",
+    "column" : "partnersCount",
+    "ar" : "عدد الشركاء / المساهمين",
+    "en" : "Partners Count",
+    "type" : "Integer"
   }, {
     "id" : "paymentTemplate",
     "column" : "paymentTemplate_id",
@@ -958,6 +1014,12 @@
     "refTo" : "ReceiptPaper",
     "refPath" : "/modules/basic/ReceiptPaper.html"
   }, {
+    "id" : "saleContractsCount",
+    "column" : "saleContractsCount",
+    "ar" : "عدد عقود بيع الحصص",
+    "en" : "Sale Contracts Count",
+    "type" : "Integer"
+  }, {
     "id" : "salesPrice",
     "column" : "salesPrice",
     "ar" : "سعر البيع",
@@ -982,6 +1044,12 @@
     "id" : "sectorId",
     "column" : "sector_id",
     "type" : "ID"
+  }, {
+    "id" : "soldSharesValue",
+    "column" : "soldSharesValue",
+    "ar" : "قيمة الحصص المباعة",
+    "en" : "Sold Shares Value",
+    "type" : "Decimal"
   }, {
     "id" : "subsidiaryAccounts.account1",
     "column" : "account1_id",
@@ -1472,6 +1540,47 @@
       "ar" : "انتهى من العمل",
       "en" : "Work Done",
       "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "feeLines",
+    "table" : "CPAQuotationFeeLine",
+    "joinColumn" : "cPASalesQuotation_id",
+    "ar" : "رسوم إضافية",
+    "en" : "Additional Fees",
+    "fields" : [ {
+      "id" : "feeLines.amount",
+      "column" : "amount",
+      "ar" : " المبلغ",
+      "en" : " Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "feeLines.feeItem",
+      "column" : "feeItem_id",
+      "ar" : "بند الرسوم",
+      "en" : "Fee Item",
+      "type" : "Reference",
+      "refTo" : "CPATaskType",
+      "refPath" : "/modules/ecpa/CPATaskType.html"
+    }, {
+      "id" : "feeLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "feeLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "feeLines.quantity",
+      "column" : "quantity",
+      "ar" : "الكمية",
+      "en" : "Quantity",
+      "type" : "Integer"
+    }, {
+      "id" : "feeLines.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
     } ]
   }, {
     "id" : "lines",

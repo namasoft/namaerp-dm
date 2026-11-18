@@ -47694,6 +47694,9 @@
       "field" : "hideInSalesPayment"
     }, {
       "entity" : "PaymentMethod",
+      "field" : "returnsMustBeRefundedWithThisMethod"
+    }, {
+      "entity" : "PaymentMethod",
       "field" : "shortCut.theKey"
     }, {
       "entity" : "PaymentMethod",

@@ -735,6 +735,14 @@
     "en" : "Menu Font Size",
     "type" : "Text"
   }, {
+    "id" : "settings.guiTheme",
+    "column" : "guiTheme_id",
+    "ar" : "الثيم",
+    "en" : "GUI Theme",
+    "type" : "Reference",
+    "refTo" : "GUITheme",
+    "refPath" : "/modules/basic/GUITheme.html"
+  }, {
     "id" : "settings.hijriDate",
     "column" : "hijriDate",
     "ar" : "تاريخ هجري",

@@ -58,6 +58,14 @@
     "en" : "Committed Before",
     "type" : "Boolean"
   }, {
+    "id" : "copyFrom",
+    "column" : "copyFrom_id",
+    "ar" : "نسخ من",
+    "en" : "Copy From",
+    "type" : "Reference",
+    "refTo" : "GUITheme",
+    "refPath" : "/modules/basic/GUITheme.html"
+  }, {
     "id" : "createTransactionId",
     "column" : "createTransactionId",
     "type" : "Text"
@@ -658,6 +666,12 @@
     "ar" : "System Generated Code Prefix",
     "en" : "System Generated Code Prefix",
     "type" : "Text"
+  }, {
+    "id" : "systemTheme",
+    "column" : "systemTheme",
+    "ar" : "ثيم النظام",
+    "en" : "System Theme",
+    "type" : "Boolean"
   }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
