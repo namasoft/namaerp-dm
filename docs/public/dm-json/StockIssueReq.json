@@ -763,6 +763,14 @@
     "en" : " Street",
     "type" : "Text"
   }, {
+    "id" : "shippingCompany",
+    "column" : "shippingCompany_id",
+    "ar" : "شركة الشحن",
+    "en" : "Shipping Company",
+    "type" : "Reference",
+    "refTo" : "ThirdParty",
+    "refPath" : "/modules/basic/ThirdParty.html"
+  }, {
     "id" : "shippingOrderId",
     "column" : "shippingOrderId",
     "type" : "Text"

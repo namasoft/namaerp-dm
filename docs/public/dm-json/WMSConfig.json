@@ -474,6 +474,13 @@
       "column" : "lineNumber",
       "type" : "Integer"
     }, {
+      "id" : "mobilePickingItemsDisplayConfig.packagingSortOrder",
+      "column" : "packagingSortOrder",
+      "ar" : "ترتيب التغليف الافتراضي",
+      "en" : "Default Packaging Sort Order",
+      "type" : "Enum",
+      "enum" : "DescAsc"
+    }, {
       "id" : "mobilePickingItemsDisplayConfig.pickingDisplayMethod1",
       "column" : "pickingDisplayMethod1",
       "ar" : "طريقة عرض أصناف التجهيز 1",
@@ -508,6 +515,13 @@
       "en" : "Picking Items Display Method 5",
       "type" : "Enum",
       "enum" : "WMSPickingDisplayMethod"
+    }, {
+      "id" : "mobilePickingItemsDisplayConfig.pickingSortOrder",
+      "column" : "pickingSortOrder",
+      "ar" : "ترتيب التجهيز الافتراضي",
+      "en" : "Default Picking Sort Order",
+      "type" : "Enum",
+      "enum" : "DescAsc"
     }, {
       "id" : "mobilePickingItemsDisplayConfig.showPackagingOrdersWithPreparedItemsOnly",
       "column" : "showPackagingOrdersWithPreparedItemsOnly",

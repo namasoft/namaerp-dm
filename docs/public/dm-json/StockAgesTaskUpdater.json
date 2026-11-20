@@ -15,6 +15,12 @@
     "column" : "id",
     "type" : "ID"
   }, {
+    "id" : "rebuildWholeIndex",
+    "column" : "rebuildWholeIndex",
+    "ar" : "إعادة بناء المؤشر بالكامل",
+    "en" : "Rebuild Whole Index",
+    "type" : "Boolean"
+  }, {
     "id" : "stockAgesIndex",
     "column" : "stockAgesIndex",
     "ar" : "Stock Ages Index",

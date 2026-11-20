@@ -2554,5 +2554,248 @@
       "en" : "text5",
       "type" : "Text"
     } ]
+  }, {
+    "id" : "unitLines",
+    "table" : "RESalesDocUnitLine",
+    "joinColumn" : "rESalesDoc_id",
+    "ar" : "تفاصيل الوحدات",
+    "en" : "Units Details",
+    "fields" : [ {
+      "id" : "unitLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "unitLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "unitLines.site.address.address1",
+      "column" : "siteAddressAddress1",
+      "ar" : "عنوان 1",
+      "en" : "Address 1",
+      "type" : "Text"
+    }, {
+      "id" : "unitLines.site.address.address2",
+      "column" : "siteAddressAddress2",
+      "ar" : "رقم المبنى",
+      "en" : "Building Number",
+      "type" : "Text"
+    }, {
+      "id" : "unitLines.site.address.area",
+      "column" : "siteAddressArea",
+      "ar" : "المنطقة",
+      "en" : "Area",
+      "type" : "Text"
+    }, {
+      "id" : "unitLines.site.address.buildingNumber",
+      "column" : "siteAddressBuildingNumber",
+      "ar" : "رقم المبنى",
+      "en" : "Building Number",
+      "type" : "Text"
+    }, {
+      "id" : "unitLines.site.address.city",
+      "column" : "siteAddressCity",
+      "ar" : "المدينة",
+      "en" : "City",
+      "type" : "Text"
+    }, {
+      "id" : "unitLines.site.address.country",
+      "column" : "siteAddressCountry",
+      "ar" : "الدولة",
+      "en" : "Country",
+      "type" : "Text"
+    }, {
+      "id" : "unitLines.site.address.countryCode",
+      "column" : "siteAddressCountryCode",
+      "ar" : "كود الدولة",
+      "en" : "Country Code",
+      "type" : "Text"
+    }, {
+      "id" : "unitLines.site.address.district",
+      "column" : "siteAddressDistrict",
+      "ar" : "الحي",
+      "en" : "District",
+      "type" : "Text"
+    }, {
+      "id" : "unitLines.site.address.landPlotNumber",
+      "column" : "siteAddressLandPlotNumber",
+      "ar" : "رقم تعريفي للأرض",
+      "en" : "Land Plot Number",
+      "type" : "Text"
+    }, {
+      "id" : "unitLines.site.address.mapLocation",
+      "column" : "siteAddressMapLocation",
+      "ar" : "الموقع على الخريطة",
+      "en" : "Map Location",
+      "type" : "LatLng"
+    }, {
+      "id" : "unitLines.site.address.postalCode",
+      "column" : "siteAddressPostalCode",
+      "ar" : "الكود البريدي",
+      "en" : "Postal Code",
+      "type" : "Text"
+    }, {
+      "id" : "unitLines.site.address.region",
+      "column" : "siteAddressRegion_id",
+      "ar" : "موقع جغرافي",
+      "en" : "Address region",
+      "type" : "Reference",
+      "refTo" : "AddressRegion",
+      "refPath" : "/modules/basic/AddressRegion.html"
+    }, {
+      "id" : "unitLines.site.address.state",
+      "column" : "siteAddressState",
+      "ar" : "المحافظة",
+      "en" : "State",
+      "type" : "Text"
+    }, {
+      "id" : "unitLines.site.address.street",
+      "column" : "siteAddressStreet",
+      "ar" : " شارع",
+      "en" : " Street",
+      "type" : "Text"
+    }, {
+      "id" : "unitLines.site.block",
+      "column" : "siteBlock_id",
+      "ar" : "البلوك",
+      "en" : "Block",
+      "type" : "Reference",
+      "refTo" : "REBlock",
+      "refPath" : "/modules/realestate/REBlock.html"
+    }, {
+      "id" : "unitLines.site.building",
+      "column" : "siteBuilding_id",
+      "ar" : "المبنى",
+      "en" : "Building",
+      "type" : "Reference",
+      "refTo" : "REBuilding",
+      "refPath" : "/modules/realestate/REBuilding.html"
+    }, {
+      "id" : "unitLines.site.easternNeighbor",
+      "column" : "siteEasternNeighbor",
+      "ar" : "الحد الشرقي",
+      "en" : "Eastern Neighbor",
+      "type" : "Text"
+    }, {
+      "id" : "unitLines.site.easternNeighborLength",
+      "column" : "siteEasternNeighborLength",
+      "ar" : "طول الحد الشرقي",
+      "en" : "Eastern Neighbor Length",
+      "type" : "Decimal"
+    }, {
+      "id" : "unitLines.site.easternNeighborWidth",
+      "column" : "siteEasternNeighborWidth",
+      "ar" : "عرض الحد الشرقي",
+      "en" : "Eastern Neighbor Width",
+      "type" : "Decimal"
+    }, {
+      "id" : "unitLines.site.floor",
+      "column" : "siteFloor_id",
+      "ar" : "الطابق",
+      "en" : "Floor",
+      "type" : "Reference",
+      "refTo" : "REFloor",
+      "refPath" : "/modules/realestate/REFloor.html"
+    }, {
+      "id" : "unitLines.site.land",
+      "column" : "siteLand_id",
+      "ar" : "قطعة الأرض",
+      "en" : "Land",
+      "type" : "Reference",
+      "refTo" : "RELand",
+      "refPath" : "/modules/realestate/RELand.html"
+    }, {
+      "id" : "unitLines.site.northernNeighbor",
+      "column" : "siteNorthernNeighbor",
+      "ar" : "الحد الشمالي",
+      "en" : "Northern Neighbor",
+      "type" : "Text"
+    }, {
+      "id" : "unitLines.site.northernNeighborLength",
+      "column" : "siteNorthernNeighborLength",
+      "ar" : "طول الحد الشمالي",
+      "en" : "Northern Neighbor Length",
+      "type" : "Decimal"
+    }, {
+      "id" : "unitLines.site.northernNeighborWidth",
+      "column" : "siteNorthernNeighborWidth",
+      "ar" : "عرض الحد الشمالي",
+      "en" : "Northern Neighbor Width",
+      "type" : "Decimal"
+    }, {
+      "id" : "unitLines.site.project",
+      "column" : "siteProject_id",
+      "ar" : "المشروع",
+      "en" : "Project",
+      "type" : "Reference",
+      "refTo" : "REProject",
+      "refPath" : "/modules/realestate/REProject.html"
+    }, {
+      "id" : "unitLines.site.southernNeighbor",
+      "column" : "siteSouthernNeighbor",
+      "ar" : "الحد الجنوبي",
+      "en" : "Southern Neighbor",
+      "type" : "Text"
+    }, {
+      "id" : "unitLines.site.southernNeighborLength",
+      "column" : "siteSouthernNeighborLength",
+      "ar" : "طول الحد الجنوبي",
+      "en" : "Southern Neighbor Length",
+      "type" : "Decimal"
+    }, {
+      "id" : "unitLines.site.southernNeighborWidth",
+      "column" : "siteSouthernNeighborWidth",
+      "ar" : "عرض الحد الجنوبي",
+      "en" : "Southern Neighbor Width",
+      "type" : "Decimal"
+    }, {
+      "id" : "unitLines.site.square",
+      "column" : "siteSquare_id",
+      "ar" : "مربع",
+      "en" : "Square",
+      "type" : "Reference",
+      "refTo" : "RESquare",
+      "refPath" : "/modules/realestate/RESquare.html"
+    }, {
+      "id" : "unitLines.site.unit",
+      "column" : "siteUnit_id",
+      "ar" : "وحدة سكنية",
+      "en" : "Housing units",
+      "type" : "Reference",
+      "refTo" : "RERentalUnit",
+      "refPath" : "/modules/realestate/RERentalUnit.html"
+    }, {
+      "id" : "unitLines.site.westernNeighbor",
+      "column" : "siteWesternNeighbor",
+      "ar" : "الحد الغربي",
+      "en" : "Western Neighbor",
+      "type" : "Text"
+    }, {
+      "id" : "unitLines.site.westernNeighborLength",
+      "column" : "siteWesternNeighborLength",
+      "ar" : "طول الحد الغربي",
+      "en" : "Western Neighbor Length",
+      "type" : "Decimal"
+    }, {
+      "id" : "unitLines.site.westernNeighborWidth",
+      "column" : "siteWesternNeighborWidth",
+      "ar" : "عرض الحد الغربي",
+      "en" : "Western Neighbor Width",
+      "type" : "Decimal"
+    }, {
+      "id" : "unitLines.unit",
+      "column" : "unit_id",
+      "ar" : "وحدة سكنية",
+      "en" : "Housing units",
+      "type" : "Reference",
+      "refTo" : "RERentalUnit",
+      "refPath" : "/modules/realestate/RERentalUnit.html"
+    }, {
+      "id" : "unitLines.unitValue",
+      "column" : "unitValue",
+      "ar" : "قيمة الوحدة",
+      "en" : "Unit Value",
+      "type" : "Decimal"
+    } ]
   } ]
 }
