@@ -3503,6 +3503,150 @@
       "entity" : "SalesOrder",
       "field" : "paymentLines.text2"
     }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.totalPaymentMethods"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.totalPaymentMethodShare"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.afterFeesValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.authorizationNumber"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.date1"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.date2"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.discountCoupon"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.doNotAffectRemaining"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.feesTaxValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.feesValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.id"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.issuer"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.n1"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.n2"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.paidCash"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.paymentMethod"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.paymentTransactionType"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.paymentValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.ref1"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.ref2"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.ref3"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.remainingCash"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.text1"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.text2"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.totalPaymentMethods"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.totalPaymentMethodShare"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.afterFeesValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.authorizationNumber"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.date1"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.date2"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.discountCoupon"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.doNotAffectRemaining"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.feesTaxValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.feesValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.id"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.issuer"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.n1"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.n2"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.paidCash"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.paymentMethod"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.paymentTransactionType"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.paymentValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.ref1"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.ref2"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.ref3"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.remainingCash"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.text1"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.text2"
+    }, {
       "entity" : "SalesQuotation",
       "field" : "money.totalPaymentMethods"
     }, {
@@ -4261,6 +4405,12 @@
       "detail" : "paymentLines"
     }, {
       "entity" : "SalesOrder",
+      "detail" : "paymentLines"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "detail" : "paymentLines"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
       "detail" : "paymentLines"
     }, {
       "entity" : "SalesReplacement",
@@ -10526,6 +10676,18 @@
       "entity" : "SalesOrder",
       "field" : "packingList.specificDimensions.inactivePerc"
     }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.specificDimensions.activePerc"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.specificDimensions.inactivePerc"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.specificDimensions.activePerc"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.specificDimensions.inactivePerc"
+    }, {
       "entity" : "SalesPoints",
       "field" : "details.itemDimensions.activePerc"
     }, {
@@ -14871,6 +15033,42 @@
       "field" : "details.price.discount1.percentage"
     }, {
       "entity" : "SalesOrder",
+      "field" : "details.price.discount1.value"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.afterDiscount1"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.discount1Total"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount1.afterValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount1.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount1.percentage"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount1.value"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.afterDiscount1"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.discount1Total"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount1.afterValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount1.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount1.percentage"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
       "field" : "details.price.discount1.value"
     }, {
       "entity" : "SalesQuotation",
@@ -19250,6 +19448,42 @@
       "entity" : "SalesOrder",
       "field" : "details.price.discount2.value"
     }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.afterDiscount2"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.discount2Total"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount2.afterValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount2.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount2.percentage"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount2.value"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.afterDiscount2"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.discount2Total"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount2.afterValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount2.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount2.percentage"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount2.value"
+    }, {
       "entity" : "SalesQuotation",
       "field" : "money.afterDiscount2"
     }, {
@@ -22968,6 +23202,42 @@
       "field" : "details.price.discount3.percentage"
     }, {
       "entity" : "SalesOrder",
+      "field" : "details.price.discount3.value"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.afterDiscount3"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.discount3Total"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount3.afterValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount3.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount3.percentage"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount3.value"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.afterDiscount3"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.discount3Total"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount3.afterValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount3.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount3.percentage"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
       "field" : "details.price.discount3.value"
     }, {
       "entity" : "SalesQuotation",
@@ -26690,6 +26960,42 @@
       "entity" : "SalesOrder",
       "field" : "details.price.discount4.value"
     }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.afterDiscount4"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.discount4Total"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount4.afterValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount4.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount4.percentage"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount4.value"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.afterDiscount4"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.discount4Total"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount4.afterValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount4.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount4.percentage"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount4.value"
+    }, {
       "entity" : "SalesQuotation",
       "field" : "money.afterDiscount4"
     }, {
@@ -30372,6 +30678,42 @@
       "field" : "details.price.discount5.percentage"
     }, {
       "entity" : "SalesOrder",
+      "field" : "details.price.discount5.value"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.afterDiscount5"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.discount5Total"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount5.afterValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount5.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount5.percentage"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount5.value"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.afterDiscount5"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.discount5Total"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount5.afterValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount5.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount5.percentage"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
       "field" : "details.price.discount5.value"
     }, {
       "entity" : "SalesQuotation",
@@ -34058,6 +34400,42 @@
       "entity" : "SalesOrder",
       "field" : "details.price.discount6.value"
     }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.afterDiscount6"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.discount6Total"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount6.afterValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount6.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount6.percentage"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount6.value"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.afterDiscount6"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.discount6Total"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount6.afterValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount6.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount6.percentage"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount6.value"
+    }, {
       "entity" : "SalesQuotation",
       "field" : "money.afterDiscount6"
     }, {
@@ -37740,6 +38118,42 @@
       "field" : "details.price.discount7.percentage"
     }, {
       "entity" : "SalesOrder",
+      "field" : "details.price.discount7.value"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.afterDiscount7"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.discount7Total"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount7.afterValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount7.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount7.percentage"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount7.value"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.afterDiscount7"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.discount7Total"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount7.afterValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount7.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount7.percentage"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
       "field" : "details.price.discount7.value"
     }, {
       "entity" : "SalesQuotation",
@@ -41426,6 +41840,42 @@
       "entity" : "SalesOrder",
       "field" : "details.price.discount8.value"
     }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.afterDiscount8"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.discount8Total"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount8.afterValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount8.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount8.percentage"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.discount8.value"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.afterDiscount8"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.discount8Total"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount8.afterValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount8.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount8.percentage"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.discount8.value"
+    }, {
       "entity" : "SalesQuotation",
       "field" : "money.afterDiscount8"
     }, {
@@ -44786,6 +45236,12 @@
       "entity" : "SalesOrder",
       "field" : "issueDate"
     }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "issueDate"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "issueDate"
+    }, {
       "entity" : "SalesQuotation",
       "field" : "issueDate"
     }, {
@@ -47178,6 +47634,90 @@
       "field" : "paymentLines.pgwProperties.stanNum"
     }, {
       "entity" : "SalesOrder",
+      "field" : "paymentLines.pgwProperties.terminalId"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentTerminal"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.pgwProperties.authCode"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.pgwProperties.cardType"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.pgwProperties.de55Response"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.pgwProperties.ecrRefNum"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.pgwProperties.failureMessage"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.pgwProperties.maskedCardNumber"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.pgwProperties.merchantId"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.pgwProperties.paidFromTerminal"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.pgwProperties.panNum"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.pgwProperties.respCode"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.pgwProperties.schemeId"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.pgwProperties.stanNum"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "paymentLines.pgwProperties.terminalId"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentTerminal"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.pgwProperties.authCode"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.pgwProperties.cardType"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.pgwProperties.de55Response"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.pgwProperties.ecrRefNum"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.pgwProperties.failureMessage"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.pgwProperties.maskedCardNumber"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.pgwProperties.merchantId"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.pgwProperties.paidFromTerminal"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.pgwProperties.panNum"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.pgwProperties.respCode"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.pgwProperties.schemeId"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "paymentLines.pgwProperties.stanNum"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
       "field" : "paymentLines.pgwProperties.terminalId"
     }, {
       "entity" : "SalesQuotation",
@@ -50017,6 +50557,24 @@
       "entity" : "SalesOrder",
       "field" : "details.quantity.quantity.secondQty.uom"
     }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.quantity.baseQty.uom"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.quantity.quantity.primeQty.uom"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.quantity.quantity.secondQty.uom"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.quantity.baseQty.uom"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.quantity.quantity.primeQty.uom"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.quantity.quantity.secondQty.uom"
+    }, {
       "entity" : "SalesPoints",
       "field" : "details.qty.uom"
     }, {
@@ -51819,6 +52377,48 @@
       "entity" : "SalesOrder",
       "field" : "details.unReservedQty"
     }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.canceledReservedQty"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.reservationDate"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.reservationLocator"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.reservationStatus"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.reservationWareHouse"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.reservedQty"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.unReservedQty"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.canceledReservedQty"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.reservationDate"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.reservationLocator"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.reservationStatus"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.reservationWareHouse"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.reservedQty"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.unReservedQty"
+    }, {
       "entity" : "SalesQuotation",
       "field" : "details.canceledReservedQty"
     }, {
@@ -52760,6 +53360,12 @@
       "field" : "details.retestDate"
     }, {
       "entity" : "SalesOrder",
+      "field" : "details.retestDate"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.retestDate"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
       "field" : "details.retestDate"
     }, {
       "entity" : "SalesQuotation",
@@ -55374,6 +55980,24 @@
     }, {
       "entity" : "SalesOrder",
       "field" : "packingList.specificDimensions.lotId"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.expiryDate"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.productionDate"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.specificDimensions.lotId"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.expiryDate"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.productionDate"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.specificDimensions.lotId"
     }, {
       "entity" : "SalesPoints",
       "field" : "details.itemDimensions.lotId"
@@ -61364,6 +61988,48 @@
       "entity" : "SalesOrder",
       "field" : "packingList.specificDimensions.measures"
     }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.calculationFormula"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.quantity.measureQty"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.quantity.measures.clippedLength1"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.quantity.measures.length"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.quantity.measures.text"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.quantity.measures.width"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.specificDimensions.measures"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.calculationFormula"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.quantity.measureQty"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.quantity.measures.clippedLength1"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.quantity.measures.length"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.quantity.measures.text"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.quantity.measures.width"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.specificDimensions.measures"
+    }, {
       "entity" : "SalesPoints",
       "field" : "details.itemDimensions.measures"
     }, {
@@ -63077,6 +63743,12 @@
     }, {
       "entity" : "SalesOrder",
       "field" : "packingList.specificDimensions.box"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.specificDimensions.box"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.specificDimensions.box"
     }, {
       "entity" : "SalesPoints",
       "field" : "details.itemDimensions.box"
@@ -64880,6 +65552,18 @@
     }, {
       "entity" : "SalesOrder",
       "field" : "packingList.specificDimensions.revisionId"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.revisionName"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.specificDimensions.revisionId"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.revisionName"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.specificDimensions.revisionId"
     }, {
       "entity" : "SalesPoints",
       "field" : "details.itemDimensions.revisionId"
@@ -82244,6 +82928,168 @@
       "entity" : "SalesOrder",
       "field" : "details.price.tax4.value"
     }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "allowEditingHdrTaxInDetails"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "modifiableTax"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.afterHTaxValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.afterTaxValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.tax1Total"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.tax2Total"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.tax3Per"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.tax3Total"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.tax4Per"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "money.tax4Total"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "taxable"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.tax1.afterValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.tax1.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.tax1.percentage"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.tax1.value"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.tax2.afterValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.tax2.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.tax2.percentage"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.tax2.value"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.tax3.afterValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.tax3.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.tax3.percentage"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.tax3.value"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.tax4.afterValue"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.tax4.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.tax4.percentage"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.price.tax4.value"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "allowEditingHdrTaxInDetails"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "modifiableTax"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.afterHTaxValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.afterTaxValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.tax1Total"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.tax2Total"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.tax3Per"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.tax3Total"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.tax4Per"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "money.tax4Total"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "taxable"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.tax1.afterValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.tax1.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.tax1.percentage"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.tax1.value"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.tax2.afterValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.tax2.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.tax2.percentage"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.tax2.value"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.tax3.afterValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.tax3.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.tax3.percentage"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.tax3.value"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.tax4.afterValue"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.tax4.maxNormalPercent"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.tax4.percentage"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.price.tax4.value"
+    }, {
       "entity" : "SalesQuotation",
       "field" : "allowEditingHdrTaxInDetails"
     }, {
@@ -85572,6 +86418,12 @@
       "entity" : "SalesOrder",
       "field" : "details.quantity.quantity.secondQty.value"
     }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.quantity.quantity.secondQty.value"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.quantity.quantity.secondQty.value"
+    }, {
       "entity" : "SalesQuotation",
       "field" : "details.quantity.quantity.secondQty.value"
     }, {
@@ -87201,6 +88053,18 @@
     }, {
       "entity" : "SalesOrder",
       "field" : "packingList.specificDimensions.serialNumber"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.specificDimensions.serialNumber"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.warrantyCode"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.specificDimensions.serialNumber"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.warrantyCode"
     }, {
       "entity" : "SalesPoints",
       "field" : "details.itemDimensions.serialNumber"
@@ -91153,6 +92017,36 @@
       "entity" : "SalesOrder",
       "field" : "packingList.specificDimensions.size"
     }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.colorName"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.sizeName"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.specificDimensions.color"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.specificDimensions.size"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.theSize"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.colorName"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.sizeName"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.specificDimensions.color"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.specificDimensions.size"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.theSize"
+    }, {
       "entity" : "SalesPoints",
       "field" : "details.itemDimensions.color"
     }, {
@@ -92655,6 +93549,12 @@
       "entity" : "SalesOrder",
       "field" : "packingList.specificDimensions.subItem"
     }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.specificDimensions.subItem"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.specificDimensions.subItem"
+    }, {
       "entity" : "SalesPoints",
       "field" : "details.itemDimensions.subItem"
     }, {
@@ -93460,6 +94360,12 @@
       "field" : "details.quantity.measures.height"
     }, {
       "entity" : "SalesOrder",
+      "field" : "details.quantity.measures.height"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.quantity.measures.height"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
       "field" : "details.quantity.measures.height"
     }, {
       "entity" : "SalesQuotation",
@@ -94541,6 +95447,12 @@
     }, {
       "entity" : "SalesOrder",
       "field" : "packingList.specificDimensions.secondSerial"
+    }, {
+      "entity" : "SalesOrderReturn",
+      "field" : "details.specificDimensions.secondSerial"
+    }, {
+      "entity" : "SalesOrderReturnRequest",
+      "field" : "details.specificDimensions.secondSerial"
     }, {
       "entity" : "SalesPoints",
       "field" : "details.itemDimensions.secondSerial"

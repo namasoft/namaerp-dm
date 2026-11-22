@@ -1988,6 +1988,8 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [SalesManUpdateDocument](https://dm.namasoft.com/dm-json/SalesManUpdateDocument.json): Sales Man Update Document / سند تحديث مندوب المبيعات
 - [SalesOffers](https://dm.namasoft.com/dm-json/SalesOffers.json): Sales Offer / عرض
 - [SalesOrder](https://dm.namasoft.com/dm-json/SalesOrder.json): Sales Order / أمر بيع
+- [SalesOrderReturn](https://dm.namasoft.com/dm-json/SalesOrderReturn.json): Sales Order Return / مردود أمر بيع
+- [SalesOrderReturnRequest](https://dm.namasoft.com/dm-json/SalesOrderReturnRequest.json): Sales Order Return Request / طلب مردود أمر بيع
 - [SalesPoints](https://dm.namasoft.com/dm-json/SalesPoints.json): Sales Points / نقط المبيعات
 - [SalesPriceInPoints](https://dm.namasoft.com/dm-json/SalesPriceInPoints.json): Price List In Points / قوائم الأسعار بالنقاط
 - [SalesPriceList](https://dm.namasoft.com/dm-json/SalesPriceList.json): Price List / قائمة أسعار

@@ -1,9 +1,13 @@
 {
   "enum" : "SIInsurancePolicyPaymentStatus",
   "values" : [ {
-    "id" : "FullyOrPartiallyPaid",
-    "ar" : "مسددة كلياً أو جزئياً",
-    "en" : "Fully or Partially Paid"
+    "id" : "FullyPaid",
+    "ar" : "مسددة كلياًً",
+    "en" : "Fully Paid"
+  }, {
+    "id" : "PartiallyPaid",
+    "ar" : "مسددة جزئياً",
+    "en" : "Partially Paid"
   }, {
     "id" : "Unpaid",
     "ar" : " غير مُسَدّدْ",

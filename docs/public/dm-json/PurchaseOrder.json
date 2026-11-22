@@ -3195,6 +3195,8 @@
     }, {
       "id" : "receiptsLines.canceled",
       "column" : "canceled",
+      "ar" : "تم الإلغاء",
+      "en" : "Canceled",
       "type" : "Decimal"
     }, {
       "id" : "receiptsLines.colorName",

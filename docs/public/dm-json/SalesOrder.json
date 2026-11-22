@@ -1540,6 +1540,12 @@
     "en" : "Return Document",
     "type" : "Boolean"
   }, {
+    "id" : "returned",
+    "column" : "returned",
+    "ar" : "مرتجعة",
+    "en" : "Returned",
+    "type" : "Boolean"
+  }, {
     "id" : "reviseLevel",
     "column" : "reviseLevel",
     "ar" : "مستوى المراجعة",

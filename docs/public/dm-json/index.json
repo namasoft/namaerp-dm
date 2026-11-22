@@ -18942,7 +18942,11 @@
     "table" : "SICustomerInsurancePolicy",
     "module" : "srvcenter-insurance-and-installments",
     "ar" : "وثيقة تأمين سيارة",
-    "en" : "Car Insurance Policy"
+    "en" : "Car Insurance Policy",
+    "details" : [ {
+      "id" : "externalPaymentLines",
+      "table" : "SICustomerInsurancePolicyExtPayLine"
+    } ]
   }, {
     "name" : "SIFinalDelivery",
     "table" : "SIFinalDelivery",
@@ -19726,6 +19730,38 @@
     "table" : "SalesOrderCouponSysEntry",
     "module" : "system-tables",
     "en" : "Sales Order Coupon Sys Entry"
+  }, {
+    "name" : "SalesOrderReturn",
+    "table" : "SalesOrderReturn",
+    "module" : "supplychain-sales",
+    "ar" : "مردود أمر بيع",
+    "en" : "Sales Order Return",
+    "details" : [ {
+      "id" : "details",
+      "table" : "SalesOrderReturnLine"
+    }, {
+      "id" : "externalPaymentLines",
+      "table" : "SalesOrderRetExtPayLine"
+    }, {
+      "id" : "paymentLines",
+      "table" : "SalesOrderReturnPayLine"
+    } ]
+  }, {
+    "name" : "SalesOrderReturnRequest",
+    "table" : "SalesOrderReturnRequest",
+    "module" : "supplychain-sales",
+    "ar" : "طلب مردود أمر بيع",
+    "en" : "Sales Order Return Request",
+    "details" : [ {
+      "id" : "details",
+      "table" : "SalesOrderRetReqLine"
+    }, {
+      "id" : "externalPaymentLines",
+      "table" : "SalesOrderRetReqExtPayLine"
+    }, {
+      "id" : "paymentLines",
+      "table" : "SalesOrderRetReqPayLine"
+    } ]
   }, {
     "name" : "SalesPoints",
     "table" : "SalesPoints",

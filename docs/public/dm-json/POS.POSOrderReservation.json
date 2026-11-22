@@ -92,6 +92,8 @@
   }, {
     "id" : "canceled",
     "column" : "canceled",
+    "ar" : "تم الإلغاء",
+    "en" : "Canceled",
     "type" : "Boolean"
   }, {
     "id" : "change",

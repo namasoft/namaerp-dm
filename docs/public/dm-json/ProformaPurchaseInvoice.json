@@ -1947,6 +1947,8 @@
     }, {
       "id" : "details.canceled",
       "column" : "canceled",
+      "ar" : "تم الإلغاء",
+      "en" : "Canceled",
       "type" : "Decimal"
     }, {
       "id" : "details.colorName",
