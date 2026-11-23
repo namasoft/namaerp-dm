@@ -9,10 +9,12 @@
     "ar" : "تم الربط",
     "en" : "Linked"
   }, {
-    "id" : "Rejected",
-    "ar" : "مرفوض",
-    "en" : "Rejected"
+    "id" : "OptedOut",
+    "ar" : "ألغى الاشتراك",
+    "en" : "Opted Out"
   }, {
-    "id" : "Blocked"
+    "id" : "NumberChanged",
+    "ar" : "تم تغيير الرقم",
+    "en" : "Number Changed"
   } ]
 }

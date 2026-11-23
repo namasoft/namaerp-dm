@@ -3928,6 +3928,12 @@
       "type" : "Enum",
       "enum" : "ReferenceOrderBy"
     }, {
+      "id" : "headerFields1.showAsSectionTitle",
+      "column" : "showAsSectionTitle",
+      "ar" : "عرض كعنوان قسم",
+      "en" : "Show As Section Title",
+      "type" : "Boolean"
+    }, {
       "id" : "headerFields1.showRunningTotalInsteadOfValue",
       "column" : "showRunningTotalInsteadOfValue",
       "ar" : "إظهار الإجمالي الحالي في التفاصيل بدلا من القيمة",
@@ -4311,6 +4317,12 @@
       "en" : "Reference Order By",
       "type" : "Enum",
       "enum" : "ReferenceOrderBy"
+    }, {
+      "id" : "headerFields2.showAsSectionTitle",
+      "column" : "showAsSectionTitle",
+      "ar" : "عرض كعنوان قسم",
+      "en" : "Show As Section Title",
+      "type" : "Boolean"
     }, {
       "id" : "headerFields2.showRunningTotalInsteadOfValue",
       "column" : "showRunningTotalInsteadOfValue",
@@ -4696,6 +4708,12 @@
       "type" : "Enum",
       "enum" : "ReferenceOrderBy"
     }, {
+      "id" : "headerFields3.showAsSectionTitle",
+      "column" : "showAsSectionTitle",
+      "ar" : "عرض كعنوان قسم",
+      "en" : "Show As Section Title",
+      "type" : "Boolean"
+    }, {
       "id" : "headerFields3.showRunningTotalInsteadOfValue",
       "column" : "showRunningTotalInsteadOfValue",
       "ar" : "إظهار الإجمالي الحالي في التفاصيل بدلا من القيمة",
@@ -5080,6 +5098,12 @@
       "type" : "Enum",
       "enum" : "ReferenceOrderBy"
     }, {
+      "id" : "headerFields4.showAsSectionTitle",
+      "column" : "showAsSectionTitle",
+      "ar" : "عرض كعنوان قسم",
+      "en" : "Show As Section Title",
+      "type" : "Boolean"
+    }, {
       "id" : "headerFields4.showRunningTotalInsteadOfValue",
       "column" : "showRunningTotalInsteadOfValue",
       "ar" : "إظهار الإجمالي الحالي في التفاصيل بدلا من القيمة",
@@ -5463,6 +5487,12 @@
       "en" : "Reference Order By",
       "type" : "Enum",
       "enum" : "ReferenceOrderBy"
+    }, {
+      "id" : "headerFields5.showAsSectionTitle",
+      "column" : "showAsSectionTitle",
+      "ar" : "عرض كعنوان قسم",
+      "en" : "Show As Section Title",
+      "type" : "Boolean"
     }, {
       "id" : "headerFields5.showRunningTotalInsteadOfValue",
       "column" : "showRunningTotalInsteadOfValue",

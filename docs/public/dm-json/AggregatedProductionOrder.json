@@ -803,6 +803,10 @@
       "column" : "lineNumber",
       "type" : "Integer"
     }, {
+      "id" : "details.masterRowId",
+      "column" : "masterRowId",
+      "type" : "ID"
+    }, {
       "id" : "details.originDoc",
       "columns" : [ "originDocActualCode", " originDocCode", " originDocEntityType", " originDocId" ],
       "ar" : " تم النسخ من سند",
@@ -879,6 +883,12 @@
       "en" : "retest Date",
       "type" : "Date"
     }, {
+      "id" : "details.rootItem",
+      "column" : "rootItem_id",
+      "ar" : "صنف السطر الأب",
+      "en" : "Root Item",
+      "type" : "Reference"
+    }, {
       "id" : "details.routing",
       "column" : "routing_id",
       "ar" : "عمليات التشغيل",
@@ -886,6 +896,12 @@
       "type" : "Reference",
       "refTo" : "Routing",
       "refPath" : "/modules/manufacturing/Routing.html"
+    }, {
+      "id" : "details.semiManufactured",
+      "column" : "semiManufactured",
+      "ar" : "نصف مصنع",
+      "en" : "Semi-Manufactured",
+      "type" : "Boolean"
     }, {
       "id" : "details.specificDimensions.activePerc",
       "column" : "activePerc",

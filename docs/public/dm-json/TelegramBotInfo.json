@@ -29,12 +29,6 @@
     "refTo" : "TelegramBotConfiguration",
     "refPath" : "/modules/basic-whatsapp/TelegramBotConfiguration.html"
   }, {
-    "id" : "optedOut",
-    "column" : "optedOut",
-    "ar" : "ألغى الاشتراك",
-    "en" : "Opted Out",
-    "type" : "Boolean"
-  }, {
     "id" : "phoneNumber",
     "column" : "phoneNumber",
     "ar" : "رقم الهاتف",
