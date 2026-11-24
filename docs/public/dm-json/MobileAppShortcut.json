@@ -466,7 +466,7 @@
       "en" : "Mobile Dashboard",
       "type" : "Reference",
       "refTo" : "MobileAppDashboard",
-      "refPath" : "/modules/basic-mobile-ess/MobileAppDashboard.html"
+      "refPath" : "/modules/basic/MobileAppDashboard.html"
     }, {
       "id" : "targetItems.iconColor",
       "column" : "iconColor",

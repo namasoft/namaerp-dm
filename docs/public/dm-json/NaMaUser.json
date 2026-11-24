@@ -850,7 +850,7 @@
     "en" : " Mobile Application Dashboard",
     "type" : "Reference",
     "refTo" : "MobileAppDashboard",
-    "refPath" : "/modules/basic-mobile-ess/MobileAppDashboard.html"
+    "refPath" : "/modules/basic/MobileAppDashboard.html"
   }, {
     "id" : "settings.mobileAppMenuDefinition",
     "column" : "mobileAppMenuDefinition_id",

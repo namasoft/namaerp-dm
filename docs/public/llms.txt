@@ -342,6 +342,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [MenuDefinition](https://dm.namasoft.com/dm-json/MenuDefinition.json): Menu Definition / تعريف قائمة
 - [MenuModifier](https://dm.namasoft.com/dm-json/MenuModifier.json): Menu Update / تعديل قائمة
 - [MobileAppAction](https://dm.namasoft.com/dm-json/MobileAppAction.json): Mobile Application Action
+- [MobileAppDashboard](https://dm.namasoft.com/dm-json/MobileAppDashboard.json): Mobile Application Dashboard / لوحة تطبيق الموبايل
 - [MobileAppFieldsSearcherContext](https://dm.namasoft.com/dm-json/MobileAppFieldsSearcherContext.json): Mobile App Fields Extra Filter / معايير إضافية لفلتر حقول تطبيق المحمول
 - [MobileAppMenuDefinition](https://dm.namasoft.com/dm-json/MobileAppMenuDefinition.json): Mobile App Menu Definition / تعريف قائمة التطبيق
 - [MobileAppScreenModifier](https://dm.namasoft.com/dm-json/MobileAppScreenModifier.json): Mobile App Screen Modifier / تعديل شاشة التطبيق
@@ -502,7 +503,6 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [ElecAttendanceConfig](https://dm.namasoft.com/dm-json/ElecAttendanceConfig.json): Electronic Attendance Configuration / إعدادات الحضور الإلكتروني
 - [ElectronicAttendanceZone](https://dm.namasoft.com/dm-json/ElectronicAttendanceZone.json): Electronic Attendance Zone / منطقة حضور إلكتروني
 - [ElectronicAttendanceZonesExclusion](https://dm.namasoft.com/dm-json/ElectronicAttendanceZonesExclusion.json): Electronic Attendance Zones Exclusion / استثناء من مناطق الحضور والانصراف
-- [MobileAppDashboard](https://dm.namasoft.com/dm-json/MobileAppDashboard.json): Mobile Application Dashboard / لوحة تطبيق الموبايل
 
 ## Basic Mobile Shipment Delivery (basic-mobile-shipment-delivery)
 

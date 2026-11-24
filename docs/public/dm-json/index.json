@@ -13293,7 +13293,7 @@
   }, {
     "name" : "MobileAppDashboard",
     "table" : "MobileAppDashboard",
-    "module" : "basic-mobile-ess",
+    "module" : "basic",
     "ar" : "لوحة تطبيق الموبايل",
     "en" : "Mobile Application Dashboard",
     "details" : [ {

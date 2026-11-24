@@ -1,12 +1,12 @@
 {
   "entity" : "MobileAppDashboard",
   "table" : "MobileAppDashboard",
-  "module" : "basic-mobile-ess",
+  "module" : "basic",
   "ar" : "لوحة تطبيق الموبايل",
   "arPlural" : "لوحات تطبيق الموبايل",
   "en" : "Mobile Application Dashboard",
   "enPlural" : "Mobile Application Dashboards",
-  "page" : "https://dm.namasoft.com/modules/basic-mobile-ess/MobileAppDashboard.html",
+  "page" : "https://dm.namasoft.com/modules/basic/MobileAppDashboard.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
