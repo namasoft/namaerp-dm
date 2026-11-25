@@ -1356,6 +1356,12 @@
     "en" : "Total CNTR",
     "type" : "Decimal"
   }, {
+    "id" : "updateCCDataWithValidityOnly",
+    "column" : "updateCCDataWithValidityOnly",
+    "ar" : "تحديث البيانات طبقا للتاريخ فقط",
+    "en" : "Update Data With Validity Only",
+    "type" : "Boolean"
+  }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
     "ar" : "صلاحية التعديل",
