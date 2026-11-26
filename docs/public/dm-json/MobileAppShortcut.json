@@ -517,6 +517,14 @@
       "en" : "Target Item",
       "type" : "Enum",
       "enum" : "MobileAppTargetMenuItem"
+    }, {
+      "id" : "targetItems.webDashboard",
+      "column" : "webDashboard_id",
+      "ar" : "لوحة الويب",
+      "en" : "Web Dashboard",
+      "type" : "Reference",
+      "refTo" : "DashBoard",
+      "refPath" : "/modules/basic/DashBoard.html"
     } ]
   } ]
 }

@@ -23,6 +23,12 @@
     "en" : "Expired Points",
     "type" : "Decimal"
   }, {
+    "id" : "expiredPointsEffectDoc",
+    "column" : "expiredPointsEffectDoc_id",
+    "type" : "Reference",
+    "refTo" : "ExpiredRewardPointsEffect",
+    "refPath" : "/modules/basic-external-reward-points/ExpiredRewardPointsEffect.html"
+  }, {
     "id" : "fromDate",
     "column" : "fromDate",
     "ar" : "من تاريخ",

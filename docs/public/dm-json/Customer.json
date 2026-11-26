@@ -576,8 +576,8 @@
   }, {
     "id" : "customerDeleted",
     "column" : "customerDeleted",
-    "ar" : "تم حذف العميل",
-    "en" : "Customer Deleted",
+    "ar" : "عميل محذوف (ممنوع من استخدام البوابة)",
+    "en" : "Customer Deleted (No Portal Access)",
     "type" : "Boolean"
   }, {
     "id" : "date1",
@@ -1572,12 +1572,6 @@
     "id" : "usageCapabilityId",
     "column" : "usageCapability_id",
     "type" : "ID"
-  }, {
-    "id" : "usePortal",
-    "column" : "usePortal",
-    "ar" : "مستخدم للبوابة",
-    "en" : "Use Portal",
-    "type" : "Boolean"
   }, {
     "id" : "userCampaignId",
     "column" : "userCampaignId",

@@ -1490,12 +1490,6 @@
     "column" : "usageCapability_id",
     "type" : "ID"
   }, {
-    "id" : "usePortal",
-    "column" : "usePortal",
-    "ar" : "مستخدم للبوابة",
-    "en" : "Use Portal",
-    "type" : "Boolean"
-  }, {
     "id" : "valueDate",
     "column" : "valueDate",
     "ar" : "التاريخ الفعلي",

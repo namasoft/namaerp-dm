@@ -5579,6 +5579,22 @@
       "table" : "ExecBudgetItemReqSchedPayLine"
     } ]
   }, {
+    "name" : "ExpiredRewardPointsEffect",
+    "table" : "ExpiredRewardPointsEffect",
+    "module" : "basic-external-reward-points",
+    "ar" : "تسوية نقاط المكافأة منتهية الصلاحية",
+    "en" : "Expired Reward Points Effect",
+    "details" : [ {
+      "id" : "details",
+      "table" : "ExpiredRewardPointsEffectLine"
+    } ]
+  }, {
+    "name" : "ExpiredRewardPointsEffectCreation",
+    "table" : "ExpiredRewardPointsEffectCreation",
+    "module" : "basic-external-reward-points",
+    "ar" : "إنشاء تسوية نقاط المكافأة منتهية الصلاحية",
+    "en" : "Expired Reward Points Effect Creation"
+  }, {
     "name" : "ExternalAgency",
     "table" : "ExternalAgency",
     "module" : "srvcenter-subitems",

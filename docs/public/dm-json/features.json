@@ -43790,6 +43790,12 @@
       "entity" : "ExecutiveBudgetItemRequest",
       "field" : "issueDate"
     }, {
+      "entity" : "ExpiredRewardPointsEffect",
+      "field" : "issueDate"
+    }, {
+      "entity" : "ExpiredRewardPointsEffectCreation",
+      "field" : "issueDate"
+    }, {
       "entity" : "ExternalDeliveryOrder",
       "field" : "issueDate"
     }, {

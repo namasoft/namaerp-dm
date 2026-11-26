@@ -445,6 +445,8 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 
 ## Basic External Reward Points (basic-external-reward-points)
 
+- [ExpiredRewardPointsEffect](https://dm.namasoft.com/dm-json/ExpiredRewardPointsEffect.json): Expired Reward Points Effect / تسوية نقاط المكافأة منتهية الصلاحية
+- [ExpiredRewardPointsEffectCreation](https://dm.namasoft.com/dm-json/ExpiredRewardPointsEffectCreation.json): Expired Reward Points Effect Creation / إنشاء تسوية نقاط المكافأة منتهية الصلاحية
 - [PeriodicRewardPointsGrantDocument](https://dm.namasoft.com/dm-json/PeriodicRewardPointsGrantDocument.json): Periodic Reward Points Grant Document / سند منح نقاط ولاء فتري
 - [ReverseRedeemAmountDoc](https://dm.namasoft.com/dm-json/ReverseRedeemAmountDoc.json): Reverse Redeem Amount Document / إلغاء عملية صرف المكافأة
 - [RewardPointCalculatorConfig](https://dm.namasoft.com/dm-json/RewardPointCalculatorConfig.json): Customer Reward Point Calculator / نقاط المكافأة للعملاء
